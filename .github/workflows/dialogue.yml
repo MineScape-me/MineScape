@@ -1,8 +1,9 @@
 name: Path lister example
 on:
   push:
-   branches:
-     - "main"
+   branches: ["main"]
+   paths: ["dialogue/*.json"]
+
 jobs:
   list:
     name: Path lister
@@ -23,8 +24,18 @@ jobs:
           type: ".json"
 
       - name: Output results
-        run: |
-          echo "Found ${{ steps.pl.outputs.path_count }} file(s) with this extension:"
-          for i in ${{ steps.pl.outputs.paths }}; do
-          echo $i
+        run: |        
+          f = open("dialogue/paths.txt", "w")
+          f.write("\n".join(${{ steps.pl.outputs.paths }}))
+          f.close()
           done
+      - name: Commit files
+        run: |
+          git config --local user.name "AshleyThew"
+          git add dialogue/paths.txt
+          git commit -m "Update dialogue paths"
+      - name: Push changes
+        uses: ad-m/github-push-action@master
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          force: true
