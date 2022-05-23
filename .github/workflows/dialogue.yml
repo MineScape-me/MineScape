@@ -14,7 +14,9 @@ jobs:
         with:
           python-version: "3.7"
 
-      - uses: actions/checkout@v1
+      - uses: actions/checkout@v2
+        with:
+          token: ${{ secrets.BOT_SECRET }}
 
       - name: Fetch action
         id: pl
@@ -31,11 +33,13 @@ jobs:
           done
       - name: Commit files
         run: |
-          git config --local user.name "AshleyThew"
+          git config --local user.name "MineScape-Bot"
           git add dialogue/paths.txt
           git commit -m "Update dialogue paths"
+          
       - name: Push changes
         uses: ad-m/github-push-action@master
         with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
+          github_token: ${{ secrets.BOT_SECRET }}
+          branch: ${{ github.ref }}
           force: true
