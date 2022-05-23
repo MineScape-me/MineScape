@@ -2,7 +2,7 @@ name: Path lister example
 on:
   push:
    branches: ["main"]
-   paths: ["dialogue/*.json"]
+   paths: ["dialogue/**.json"]
 
 jobs:
   list:
