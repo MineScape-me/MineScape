@@ -33,8 +33,6 @@ jobs:
           done
       - name: Commit files
         run: |
-          git config --global user.name '@system-admin'
-          git config --global user.email 'system-admin@users.noreply.github.com'
           git add dialogue/paths.txt
           git commit -m "Update dialogue paths"
           git push
