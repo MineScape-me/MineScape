@@ -1,4 +1,4 @@
-name: Path lister example
+name: Update dialogue paths
 on:
   push:
    branches: ["main"]
@@ -6,7 +6,7 @@ on:
 
 jobs:
   list:
-    name: Path lister
+    name: Dialogue paths
     runs-on: ubuntu-latest
     steps:
       - name: Set up Python 3.7
@@ -24,10 +24,10 @@ jobs:
           type: ".json"
 
       - name: Output results
-        run: |        
-          f = open("dialogue/paths.txt", "w")
-          f.write("\n".join(${{ steps.pl.outputs.paths }}))
-          f.close()
+        run: |
+          echo "" > dialogue/paths.txt
+          for i in ${{ steps.pl.outputs.paths }}; do
+          echo $i >> dialogue/paths.txt
           done
       - name: Commit files
         run: |
