@@ -1,0 +1,199 @@
+{
+  "id": "7f6cbd7a-8eb6-4a57-99ca-c7dd68135b97",
+  "offsetX": 102,
+  "offsetY": 98,
+  "zoom": 100,
+  "gridSize": 0,
+  "layers": [
+    {
+      "id": "d9cd385c-82b9-4f4c-9be4-ac401235aa9b",
+      "type": "diagram-links",
+      "isSvg": true,
+      "transformed": true,
+      "models": {
+        "01d4eee2-22d3-4231-8acf-e081fdf71145": {
+          "id": "01d4eee2-22d3-4231-8acf-e081fdf71145",
+          "type": "default",
+          "selected": false,
+          "source": "93202f8d-b3c1-46a4-804d-9902fe750b93",
+          "sourcePort": "d100d05e-c8e7-4a04-a98a-7b49694d0002",
+          "target": "1c91afaf-a8b5-4a54-ad2d-76e1bade56c1",
+          "targetPort": "d211afa3-ee93-491d-92e5-a6cca3f1ff45",
+          "points": [
+            {
+              "id": "e49c6d98-ab67-4bc9-aa1b-406b764cab6e",
+              "type": "point",
+              "x": 170.296875,
+              "y": 42.5
+            },
+            {
+              "id": "f6559c5c-2d58-459a-b68f-b10d8553d044",
+              "type": "point",
+              "x": 237.5,
+              "y": 42.5
+            }
+          ],
+          "labels": [],
+          "width": 3,
+          "color": "gray",
+          "curvyness": 50,
+          "selectedColor": "rgb(0,192,255)"
+        },
+        "87178a15-cae5-4c2c-a49d-aa1708fe01c6": {
+          "id": "87178a15-cae5-4c2c-a49d-aa1708fe01c6",
+          "type": "default",
+          "selected": false,
+          "source": "1c91afaf-a8b5-4a54-ad2d-76e1bade56c1",
+          "sourcePort": "751bdf49-4eb5-484d-afe7-95d02bd64e33",
+          "target": "aae2b735-5251-4e71-9c19-ae9dbc30f09f",
+          "targetPort": "403982ba-5277-4b69-9d55-2fd1b75cf20d",
+          "points": [
+            {
+              "id": "175389ee-0033-4cde-a330-40b126f8fdc9",
+              "type": "point",
+              "x": 354.40625,
+              "y": 42.5
+            },
+            {
+              "id": "065442c0-bc6e-42d6-860a-9de29dfc0977",
+              "type": "point",
+              "x": 402.5,
+              "y": 42.5
+            }
+          ],
+          "labels": [],
+          "width": 3,
+          "color": "gray",
+          "curvyness": 50,
+          "selectedColor": "rgb(0,192,255)"
+        }
+      }
+    },
+    {
+      "id": "f5cd6b29-c110-4cd7-8f66-de9b45637d4c",
+      "type": "diagram-nodes",
+      "isSvg": false,
+      "transformed": true,
+      "models": {
+        "93202f8d-b3c1-46a4-804d-9902fe750b93": {
+          "id": "93202f8d-b3c1-46a4-804d-9902fe750b93",
+          "type": "start",
+          "x": 87,
+          "y": 28,
+          "ports": [
+            {
+              "id": "d100d05e-c8e7-4a04-a98a-7b49694d0002",
+              "type": "default",
+              "x": 162.796875,
+              "y": 35,
+              "name": "out-1653798996926",
+              "alignment": "right",
+              "parentNode": "93202f8d-b3c1-46a4-804d-9902fe750b93",
+              "links": [
+                "01d4eee2-22d3-4231-8acf-e081fdf71145"
+              ],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Start",
+          "color": "#16db26",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "d100d05e-c8e7-4a04-a98a-7b49694d0002"
+          ]
+        },
+        "1c91afaf-a8b5-4a54-ad2d-76e1bade56c1": {
+          "id": "1c91afaf-a8b5-4a54-ad2d-76e1bade56c1",
+          "type": "dialogue",
+          "selected": false,
+          "x": 243,
+          "y": 4,
+          "ports": [
+            {
+              "id": "d211afa3-ee93-491d-92e5-a6cca3f1ff45",
+              "type": "default",
+              "x": 230,
+              "y": 35,
+              "name": "in-1653798999004 ",
+              "alignment": "left",
+              "parentNode": "1c91afaf-a8b5-4a54-ad2d-76e1bade56c1",
+              "links": [
+                "01d4eee2-22d3-4231-8acf-e081fdf71145"
+              ],
+              "in": true,
+              "label": "❯"
+            },
+            {
+              "id": "751bdf49-4eb5-484d-afe7-95d02bd64e33",
+              "type": "default",
+              "x": 346.90625,
+              "y": 35,
+              "name": "out-1653798999004",
+              "alignment": "right",
+              "parentNode": "1c91afaf-a8b5-4a54-ad2d-76e1bade56c1",
+              "links": [
+                "87178a15-cae5-4c2c-a49d-aa1708fe01c6"
+              ],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "<player>",
+          "color": "#dd341e",
+          "portsInOrder": [
+            "d211afa3-ee93-491d-92e5-a6cca3f1ff45"
+          ],
+          "portsOutOrder": [
+            "751bdf49-4eb5-484d-afe7-95d02bd64e33"
+          ],
+          "text": "Hello."
+        },
+        "aae2b735-5251-4e71-9c19-ae9dbc30f09f": {
+          "id": "aae2b735-5251-4e71-9c19-ae9dbc30f09f",
+          "type": "dialogue",
+          "selected": false,
+          "x": 408,
+          "y": 4,
+          "ports": [
+            {
+              "id": "403982ba-5277-4b69-9d55-2fd1b75cf20d",
+              "type": "default",
+              "x": 395,
+              "y": 35,
+              "name": "in-1653798999004 ",
+              "alignment": "left",
+              "parentNode": "aae2b735-5251-4e71-9c19-ae9dbc30f09f",
+              "links": [
+                "87178a15-cae5-4c2c-a49d-aa1708fe01c6"
+              ],
+              "in": true,
+              "label": "❯"
+            },
+            {
+              "id": "17292ab9-6e36-4e0f-800f-9b4fa410d514",
+              "type": "default",
+              "x": 885.671875,
+              "y": 35,
+              "name": "out-1653798999004",
+              "alignment": "right",
+              "parentNode": "aae2b735-5251-4e71-9c19-ae9dbc30f09f",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Tracker gnome 1",
+          "color": "#dd341e",
+          "portsInOrder": [
+            "403982ba-5277-4b69-9d55-2fd1b75cf20d"
+          ],
+          "portsOutOrder": [
+            "17292ab9-6e36-4e0f-800f-9b4fa410d514"
+          ],
+          "text": "When will this battle end? I feel like I've been fighting\nforever."
+        }
+      }
+    }
+  ]
+}

@@ -463,18 +463,6 @@
               ],
               "in": false,
               "label": "❯"
-            },
-            {
-              "id": "6d64cfbb-9d9b-4fd0-b9a4-aa1cdc231778",
-              "type": "default",
-              "x": 626.4375,
-              "y": 236,
-              "name": "out-1653394031189",
-              "alignment": "right",
-              "parentNode": "3af82695-6e05-462f-9627-ec37a1c4649e",
-              "links": [],
-              "in": false,
-              "label": "❯"
             }
           ],
           "title": "Select an option.",
@@ -671,18 +659,6 @@
               "label": "❯"
             },
             {
-              "id": "12d661f9-261c-4ddd-900d-6cae5e2282d1",
-              "type": "default",
-              "x": 793.453125,
-              "y": 440,
-              "name": "out-1653394026043",
-              "alignment": "right",
-              "parentNode": "b1a93c24-bdeb-49e5-91c1-1c6ef7f753bf",
-              "links": [],
-              "in": false,
-              "label": "❯"
-            },
-            {
               "id": "95a2b7e9-64d7-4d38-b3db-87388678c89b",
               "type": "default",
               "x": 652.59375,
@@ -845,7 +821,7 @@
         "64150d9e-d2e8-4c0c-9edb-4e6bba2bed42": {
           "id": "64150d9e-d2e8-4c0c-9edb-4e6bba2bed42",
           "type": "action",
-          "selected": true,
+          "selected": false,
           "x": 982,
           "y": 138,
           "ports": [
@@ -894,6 +870,19 @@
               ]
             ]
           }
+        },
+        "9768bc5c-f442-4ea6-af0b-cb6fb527957a": {
+          "id": "9768bc5c-f442-4ea6-af0b-cb6fb527957a",
+          "type": "note",
+          "selected": true,
+          "x": 985,
+          "y": 215,
+          "ports": [],
+          "title": "Required",
+          "color": "#19e0e7",
+          "portsInOrder": [],
+          "portsOutOrder": [],
+          "text": "Awaiting shop to be added"
         }
       }
     }
