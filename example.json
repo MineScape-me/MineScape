@@ -1,0 +1,323 @@
+{
+  "id": "124c7657-2cd7-4168-ad51-620fc0cb7f15",
+  "offsetX": 0,
+  "offsetY": -1,
+  "zoom": 100,
+  "gridSize": 0,
+  "layers": [
+    {
+      "id": "1d50766f-98ba-431a-8f7c-d63a206cc4ff",
+      "type": "diagram-links",
+      "isSvg": true,
+      "transformed": true,
+      "models": {}
+    },
+    {
+      "id": "8f060c29-5250-481c-aabb-5745a63caac4",
+      "type": "diagram-nodes",
+      "isSvg": false,
+      "transformed": true,
+      "models": {
+        "aa30e37d-d828-4b62-b208-e11396948e74": {
+          "id": "aa30e37d-d828-4b62-b208-e11396948e74",
+          "type": "dialogue",
+          "x": 279,
+          "y": 98,
+          "ports": [
+            {
+              "id": "b9159bee-65ac-4281-be8b-a227f34c61a7",
+              "type": "default",
+              "x": 266,
+              "y": 129,
+              "name": "in-1654404130838 ",
+              "alignment": "left",
+              "parentNode": "aa30e37d-d828-4b62-b208-e11396948e74",
+              "links": [],
+              "in": true,
+              "label": "❯"
+            },
+            {
+              "id": "43f36f35-d172-4e77-b2de-bdc8f5c557ad",
+              "type": "default",
+              "x": 426.875,
+              "y": 129,
+              "name": "out-1654404130838",
+              "alignment": "right",
+              "parentNode": "aa30e37d-d828-4b62-b208-e11396948e74",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Untitled",
+          "color": "#dd341e",
+          "portsInOrder": [
+            "b9159bee-65ac-4281-be8b-a227f34c61a7"
+          ],
+          "portsOutOrder": [
+            "43f36f35-d172-4e77-b2de-bdc8f5c557ad"
+          ],
+          "text": "dawdawdawdwa"
+        },
+        "ed57c1e0-70b0-44df-9a06-afc2e07ecda8": {
+          "id": "ed57c1e0-70b0-44df-9a06-afc2e07ecda8",
+          "type": "option",
+          "selected": false,
+          "x": 444,
+          "y": 204,
+          "ports": [
+            {
+              "id": "32e97041-6de0-4e59-bdab-5dd48935caaf",
+              "type": "default",
+              "x": 431,
+              "y": 235,
+              "name": "in-1654404131659 ",
+              "alignment": "left",
+              "parentNode": "ed57c1e0-70b0-44df-9a06-afc2e07ecda8",
+              "links": [],
+              "in": true,
+              "label": "❯"
+            },
+            {
+              "id": "cd0d389f-dba9-4ee6-8a9b-87cbe1ff3a63",
+              "type": "default",
+              "x": 878.109375,
+              "y": 244,
+              "name": "out-1654404131659",
+              "alignment": "right",
+              "parentNode": "ed57c1e0-70b0-44df-9a06-afc2e07ecda8",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            },
+            {
+              "id": "a895ccc4-b19b-4fd0-ae01-62cb650ec440",
+              "type": "default",
+              "x": 878.109375,
+              "y": 280,
+              "name": "out-1654404162753",
+              "alignment": "right",
+              "parentNode": "ed57c1e0-70b0-44df-9a06-afc2e07ecda8",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Select an option.",
+          "color": "#0756b1",
+          "portsInOrder": [
+            "32e97041-6de0-4e59-bdab-5dd48935caaf"
+          ],
+          "portsOutOrder": [
+            "cd0d389f-dba9-4ee6-8a9b-87cbe1ff3a63",
+            "a895ccc4-b19b-4fd0-ae01-62cb650ec440"
+          ],
+          "options": [
+            {
+              "conditions": [
+                "hasQuestCompleted"
+              ],
+              "args": [
+                [
+                  "WITCHSPOTION"
+                ]
+              ],
+              "text": "asdadawda d aw"
+            },
+            {
+              "conditions": [
+                ""
+              ],
+              "args": [],
+              "text": "adawdawda"
+            }
+          ]
+        },
+        "d9ae0684-0a6b-44d3-8cea-3bc6b194bee7": {
+          "id": "d9ae0684-0a6b-44d3-8cea-3bc6b194bee7",
+          "type": "condition",
+          "selected": false,
+          "x": 614,
+          "y": 103,
+          "ports": [
+            {
+              "id": "2eba5cab-e27c-4919-8948-472cb3c4a4dc",
+              "type": "default",
+              "x": 938.140625,
+              "y": 134,
+              "name": "out-1654404133026",
+              "alignment": "right",
+              "parentNode": "d9ae0684-0a6b-44d3-8cea-3bc6b194bee7",
+              "links": [],
+              "in": false,
+              "label": "true"
+            },
+            {
+              "id": "e5b94ae1-1753-4eb4-8e14-a963c9ae3f99",
+              "type": "default",
+              "x": 940.28125,
+              "y": 151,
+              "name": "out-16544041330261",
+              "alignment": "right",
+              "parentNode": "d9ae0684-0a6b-44d3-8cea-3bc6b194bee7",
+              "links": [],
+              "in": false,
+              "label": "false"
+            },
+            {
+              "id": "5da39d01-55da-4950-a5e2-63dc09235f16",
+              "type": "default",
+              "x": 601,
+              "y": 134,
+              "name": "in-1654404133026 ",
+              "alignment": "left",
+              "parentNode": "d9ae0684-0a6b-44d3-8cea-3bc6b194bee7",
+              "links": [],
+              "in": true,
+              "label": "❯"
+            }
+          ],
+          "title": "Condition",
+          "color": "#02630a",
+          "portsInOrder": [
+            "5da39d01-55da-4950-a5e2-63dc09235f16"
+          ],
+          "portsOutOrder": [
+            "2eba5cab-e27c-4919-8948-472cb3c4a4dc",
+            "e5b94ae1-1753-4eb4-8e14-a963c9ae3f99"
+          ],
+          "conditions": {
+            "conditions": [
+              "hasSkillLevel"
+            ],
+            "args": [
+              [
+                "RANGED",
+                "7"
+              ]
+            ]
+          }
+        },
+        "6c151212-c52e-493e-85cf-5a0b3a23a4fa": {
+          "id": "6c151212-c52e-493e-85cf-5a0b3a23a4fa",
+          "type": "action",
+          "selected": false,
+          "x": 203,
+          "y": 318,
+          "ports": [
+            {
+              "id": "b574f591-2b36-4d35-96f2-d25c3c8b6837",
+              "type": "default",
+              "x": 190,
+              "y": 349,
+              "name": "in-1654404134389 ",
+              "alignment": "left",
+              "parentNode": "6c151212-c52e-493e-85cf-5a0b3a23a4fa",
+              "links": [],
+              "in": true,
+              "label": "❯"
+            },
+            {
+              "id": "adb543e5-3bea-49c7-a592-c8c84a2ddb6c",
+              "type": "default",
+              "x": 518.8125,
+              "y": 349,
+              "name": "out-1654404134389",
+              "alignment": "right",
+              "parentNode": "6c151212-c52e-493e-85cf-5a0b3a23a4fa",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Action",
+          "color": "#3e077e",
+          "portsInOrder": [
+            "b574f591-2b36-4d35-96f2-d25c3c8b6837"
+          ],
+          "portsOutOrder": [
+            "adb543e5-3bea-49c7-a592-c8c84a2ddb6c"
+          ],
+          "actions": {
+            "actions": [
+              "setQuest"
+            ],
+            "args": [
+              [
+                "SHEEPSHEARER",
+                "FINISHED"
+              ]
+            ]
+          }
+        },
+        "c08a04e8-bdc2-4ae5-a2df-037a66d43cd5": {
+          "id": "c08a04e8-bdc2-4ae5-a2df-037a66d43cd5",
+          "type": "random",
+          "selected": false,
+          "x": 574,
+          "y": 333,
+          "ports": [
+            {
+              "id": "f120212e-219c-433d-967f-30490a4485d7",
+              "type": "default",
+              "x": 561,
+              "y": 364,
+              "name": "in-1654404136074 ",
+              "alignment": "left",
+              "parentNode": "c08a04e8-bdc2-4ae5-a2df-037a66d43cd5",
+              "links": [],
+              "in": true,
+              "label": "❯"
+            },
+            {
+              "id": "0ca9b241-a07b-4fd4-a9c6-1cd9d1b72c8d",
+              "type": "default",
+              "x": 657.328125,
+              "y": 364,
+              "name": "out-1654404136074",
+              "alignment": "right",
+              "parentNode": "c08a04e8-bdc2-4ae5-a2df-037a66d43cd5",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            },
+            {
+              "id": "84bcdb80-bd06-437d-9019-4036ad4c12e9",
+              "type": "default",
+              "x": 657.21875,
+              "y": 381,
+              "name": "out-1654404145589",
+              "alignment": "right",
+              "parentNode": "c08a04e8-bdc2-4ae5-a2df-037a66d43cd5",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            },
+            {
+              "id": "5894e1f8-62fc-4cbe-b9bf-1a53380931e5",
+              "type": "default",
+              "x": 657.21875,
+              "y": 398,
+              "name": "out-1654404145759",
+              "alignment": "right",
+              "parentNode": "c08a04e8-bdc2-4ae5-a2df-037a66d43cd5",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Random",
+          "color": "#bdce26",
+          "portsInOrder": [
+            "f120212e-219c-433d-967f-30490a4485d7"
+          ],
+          "portsOutOrder": [
+            "0ca9b241-a07b-4fd4-a9c6-1cd9d1b72c8d",
+            "84bcdb80-bd06-437d-9019-4036ad4c12e9",
+            "5894e1f8-62fc-4cbe-b9bf-1a53380931e5"
+          ]
+        }
+      }
+    }
+  ]
+}
