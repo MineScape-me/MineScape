@@ -1,0 +1,125 @@
+{
+  "id": "76685e97-f341-4987-be65-dba9168be0de",
+  "offsetX": 124,
+  "offsetY": 18,
+  "zoom": 100,
+  "gridSize": 0,
+  "layers": [
+    {
+      "id": "1ad00008-7f02-4ceb-9cac-a2ea446d2172",
+      "type": "diagram-links",
+      "isSvg": true,
+      "transformed": true,
+      "models": {
+        "4039553f-c256-487c-a2a5-adf00cd2b73c": {
+          "id": "4039553f-c256-487c-a2a5-adf00cd2b73c",
+          "type": "default",
+          "selected": false,
+          "source": "5243c9ce-5772-4604-91bb-713b0307df00",
+          "sourcePort": "7ae5b343-8677-4709-a6a8-13188d2ab87d",
+          "target": "5dfa0bb2-83e2-463c-afb0-2c3f6822b501",
+          "targetPort": "0706556c-749f-4632-a497-2e672a9019c8",
+          "points": [
+            {
+              "id": "024156ed-39e3-4b29-b958-12330815f050",
+              "type": "point",
+              "x": 224.296875,
+              "y": 76.5
+            },
+            {
+              "id": "b71ec7f8-aec3-4485-b144-5b83ca6ab0cc",
+              "type": "point",
+              "x": 308.5,
+              "y": 81.5
+            }
+          ],
+          "labels": [],
+          "width": 3,
+          "color": "gray",
+          "curvyness": 50,
+          "selectedColor": "rgb(0,192,255)"
+        }
+      }
+    },
+    {
+      "id": "6486eb91-804e-4f32-94f6-fbac863799c9",
+      "type": "diagram-nodes",
+      "isSvg": false,
+      "transformed": true,
+      "models": {
+        "5243c9ce-5772-4604-91bb-713b0307df00": {
+          "id": "5243c9ce-5772-4604-91bb-713b0307df00",
+          "type": "start",
+          "x": 141,
+          "y": 62,
+          "ports": [
+            {
+              "id": "7ae5b343-8677-4709-a6a8-13188d2ab87d",
+              "type": "default",
+              "x": 216.796875,
+              "y": 69,
+              "name": "out-1654605826919",
+              "alignment": "right",
+              "parentNode": "5243c9ce-5772-4604-91bb-713b0307df00",
+              "links": [
+                "4039553f-c256-487c-a2a5-adf00cd2b73c"
+              ],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Start",
+          "color": "#16db26",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "7ae5b343-8677-4709-a6a8-13188d2ab87d"
+          ]
+        },
+        "5dfa0bb2-83e2-463c-afb0-2c3f6822b501": {
+          "id": "5dfa0bb2-83e2-463c-afb0-2c3f6822b501",
+          "type": "dialogue",
+          "selected": false,
+          "x": 314,
+          "y": 43,
+          "ports": [
+            {
+              "id": "0706556c-749f-4632-a497-2e672a9019c8",
+              "type": "default",
+              "x": 301,
+              "y": 74,
+              "name": "in-1654605827602 ",
+              "alignment": "left",
+              "parentNode": "5dfa0bb2-83e2-463c-afb0-2c3f6822b501",
+              "links": [
+                "4039553f-c256-487c-a2a5-adf00cd2b73c"
+              ],
+              "in": true,
+              "label": "❯"
+            },
+            {
+              "id": "8ccf378f-faa5-4e0b-9355-71dd8393a672",
+              "type": "default",
+              "x": 762.359375,
+              "y": 74,
+              "name": "out-1654605827602",
+              "alignment": "right",
+              "parentNode": "5dfa0bb2-83e2-463c-afb0-2c3f6822b501",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Guard",
+          "color": "#dd341e",
+          "portsInOrder": [
+            "0706556c-749f-4632-a497-2e672a9019c8"
+          ],
+          "portsOutOrder": [
+            "8ccf378f-faa5-4e0b-9355-71dd8393a672"
+          ],
+          "text": "Please don't disturb me, I've got to keep any eye out\nfor suspicious individuals."
+        }
+      }
+    }
+  ]
+}

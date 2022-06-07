@@ -1,0 +1,671 @@
+{
+  "id": "3f66a4f3-4ca5-496c-8447-3765406aa1c0",
+  "offsetX": 0,
+  "offsetY": 0,
+  "zoom": 100,
+  "gridSize": 0,
+  "layers": [
+    {
+      "id": "dbbb84c1-39e7-479d-bfdf-51daa8ee6dfe",
+      "type": "diagram-links",
+      "isSvg": true,
+      "transformed": true,
+      "models": {
+        "fd6ac51b-0930-4322-90e7-7bad80a81879": {
+          "id": "fd6ac51b-0930-4322-90e7-7bad80a81879",
+          "type": "default",
+          "selected": false,
+          "source": "1a20183c-ecc2-4bf2-bfae-f73d6aebb9de",
+          "sourcePort": "27782a51-b8ca-4949-9102-c24739d99bc9",
+          "target": "95e2462a-0d27-4e10-b464-13abd8c2ea69",
+          "targetPort": "09a18938-07b4-4b32-b6ac-b479cfe7db96",
+          "points": [
+            {
+              "id": "b455fc36-a84f-4628-b131-0a3b6dd55ae7",
+              "type": "point",
+              "x": 235.296875,
+              "y": 59.5
+            },
+            {
+              "id": "70a721b2-f8e0-4e85-acdf-42323411bfa0",
+              "type": "point",
+              "x": 319.5,
+              "y": 59.5
+            }
+          ],
+          "labels": [],
+          "width": 3,
+          "color": "gray",
+          "curvyness": 50,
+          "selectedColor": "rgb(0,192,255)"
+        },
+        "a4a10f45-27d0-47c8-a2b3-53c949dbbab9": {
+          "id": "a4a10f45-27d0-47c8-a2b3-53c949dbbab9",
+          "type": "default",
+          "selected": false,
+          "source": "95e2462a-0d27-4e10-b464-13abd8c2ea69",
+          "sourcePort": "153d066d-0a85-4908-8904-892080515801",
+          "target": "98b0cb39-eb64-470b-9f4a-d27dcf054777",
+          "targetPort": "b15f16da-b770-4878-812a-fa61275cc71b",
+          "points": [
+            {
+              "id": "924c206f-4f1e-4c67-99ed-c8abd898f7df",
+              "type": "point",
+              "x": 619.625,
+              "y": 59.5
+            },
+            {
+              "id": "a57dcc77-3afb-4510-ac90-e254a06cd328",
+              "type": "point",
+              "x": 318.5,
+              "y": 124.5
+            }
+          ],
+          "labels": [],
+          "width": 3,
+          "color": "gray",
+          "curvyness": 50,
+          "selectedColor": "rgb(0,192,255)"
+        },
+        "1f85ee43-7f43-4e3f-84e2-28ebb22ab428": {
+          "id": "1f85ee43-7f43-4e3f-84e2-28ebb22ab428",
+          "type": "default",
+          "selected": false,
+          "source": "98b0cb39-eb64-470b-9f4a-d27dcf054777",
+          "sourcePort": "497e175f-8685-4316-9fcc-6ba5da40305a",
+          "target": "b44f9e11-e622-4c58-8636-6f3ff83037f3",
+          "targetPort": "de21c931-ff6e-4cb6-8d66-d3b8f94d1639",
+          "points": [
+            {
+              "id": "52698452-1ef4-4be1-98f1-8fed11386737",
+              "type": "point",
+              "x": 508.6875,
+              "y": 124.5
+            },
+            {
+              "id": "7880816e-63a7-4a2b-8d10-1d904d95e3bc",
+              "type": "point",
+              "x": 313.5,
+              "y": 190.5
+            }
+          ],
+          "labels": [],
+          "width": 3,
+          "color": "gray",
+          "curvyness": 50,
+          "selectedColor": "rgb(0,192,255)"
+        },
+        "4ec6240d-8559-4b0d-a1c9-015b568113ad": {
+          "id": "4ec6240d-8559-4b0d-a1c9-015b568113ad",
+          "type": "default",
+          "selected": false,
+          "source": "b44f9e11-e622-4c58-8636-6f3ff83037f3",
+          "sourcePort": "e5dd2cca-43e2-4ec6-9ef1-535dcffcf88a",
+          "target": "acf7a8b4-b6ee-4e9a-955c-754317440fcb",
+          "targetPort": "027a5693-4d26-4a75-adda-9b622e75f2b4",
+          "points": [
+            {
+              "id": "5e36471e-6d11-4b82-b40e-842b861a3c82",
+              "type": "point",
+              "x": 767.53125,
+              "y": 190.5
+            },
+            {
+              "id": "97685cac-0773-41fe-8753-5fe218543e94",
+              "type": "point",
+              "x": 320.5,
+              "y": 319.5
+            }
+          ],
+          "labels": [],
+          "width": 3,
+          "color": "gray",
+          "curvyness": 50,
+          "selectedColor": "rgb(0,192,255)"
+        },
+        "58287e9c-195e-4938-84c8-62979c8a1a12": {
+          "id": "58287e9c-195e-4938-84c8-62979c8a1a12",
+          "type": "default",
+          "selected": false,
+          "source": "acf7a8b4-b6ee-4e9a-955c-754317440fcb",
+          "sourcePort": "0b374627-e03f-4f91-b4f6-121e1d4ecae8",
+          "target": "6e3afd38-789c-4b74-a38d-f852554d0e96",
+          "targetPort": "37ec2ac1-b702-470a-bdf4-a976c42e7c78",
+          "points": [
+            {
+              "id": "1bf193c8-1b30-4e2d-bf76-4be61d4c78a3",
+              "type": "point",
+              "x": 704.546875,
+              "y": 328.5
+            },
+            {
+              "id": "995f6af2-43e9-43f6-8da8-2585ed2835bf",
+              "type": "point",
+              "x": 28.5,
+              "y": 485.5
+            }
+          ],
+          "labels": [],
+          "width": 3,
+          "color": "gray",
+          "curvyness": 50,
+          "selectedColor": "rgb(0,192,255)"
+        },
+        "2db86fa7-c045-4230-9b7b-98b27b655aa0": {
+          "id": "2db86fa7-c045-4230-9b7b-98b27b655aa0",
+          "type": "default",
+          "selected": false,
+          "source": "6e3afd38-789c-4b74-a38d-f852554d0e96",
+          "sourcePort": "6b70ab99-a671-4863-ab56-972342c56082",
+          "target": "d425509d-9e22-4d41-9f87-1c76f18605cb",
+          "targetPort": "8f2f8d8b-4de2-41e0-a5ad-b8d829d29b23",
+          "points": [
+            {
+              "id": "9814126e-b027-403a-b335-15bbdcf3d37c",
+              "type": "point",
+              "x": 357.9375,
+              "y": 485.5
+            },
+            {
+              "id": "c7f60272-160e-48e5-9def-bcdaa1a8228c",
+              "type": "point",
+              "x": 27.5,
+              "y": 553.5
+            }
+          ],
+          "labels": [],
+          "width": 3,
+          "color": "gray",
+          "curvyness": 50,
+          "selectedColor": "rgb(0,192,255)"
+        },
+        "37bae3f7-7182-483e-b8e6-775fdb7dc355": {
+          "id": "37bae3f7-7182-483e-b8e6-775fdb7dc355",
+          "type": "default",
+          "selected": false,
+          "source": "acf7a8b4-b6ee-4e9a-955c-754317440fcb",
+          "sourcePort": "86b1d956-70d4-40f3-bda2-db2f168c266e",
+          "target": "791bbc9e-b7cd-47fe-bf66-c4b5f163f5a5",
+          "targetPort": "c980b045-7191-45ef-867b-8a86658b5431",
+          "points": [
+            {
+              "id": "ed1df41d-4687-482e-b9af-5e44846bd1b2",
+              "type": "point",
+              "x": 704.546875,
+              "y": 364.5
+            },
+            {
+              "id": "3d807195-9c62-4104-8dc5-5e5d1ed119e6",
+              "type": "point",
+              "x": 535.5,
+              "y": 489.5
+            }
+          ],
+          "labels": [],
+          "width": 3,
+          "color": "gray",
+          "curvyness": 50,
+          "selectedColor": "rgb(0,192,255)"
+        },
+        "c2a61be8-1fe8-4f4e-b585-67a34ec98b18": {
+          "id": "c2a61be8-1fe8-4f4e-b585-67a34ec98b18",
+          "type": "default",
+          "selected": false,
+          "source": "791bbc9e-b7cd-47fe-bf66-c4b5f163f5a5",
+          "sourcePort": "7f9aae22-c324-4e37-91a9-65923ad34dfa",
+          "target": "3405086f-cc7b-4c2e-b423-ca03d977af5c",
+          "targetPort": "a3e121c1-ad4d-41c6-8b2f-7e3f5e18af01",
+          "points": [
+            {
+              "id": "c611a5df-34ab-425b-bc9d-87907013b3c5",
+              "type": "point",
+              "x": 798.984375,
+              "y": 489.5
+            },
+            {
+              "id": "616b465c-1c9c-41ec-8f36-e29a6b18197a",
+              "type": "point",
+              "x": 550.5,
+              "y": 560.5
+            }
+          ],
+          "labels": [],
+          "width": 3,
+          "color": "gray",
+          "curvyness": 50,
+          "selectedColor": "rgb(0,192,255)"
+        }
+      }
+    },
+    {
+      "id": "dd9e0d1b-c739-4909-ae83-953ce3a33344",
+      "type": "diagram-nodes",
+      "isSvg": false,
+      "transformed": true,
+      "models": {
+        "1a20183c-ecc2-4bf2-bfae-f73d6aebb9de": {
+          "id": "1a20183c-ecc2-4bf2-bfae-f73d6aebb9de",
+          "type": "start",
+          "x": 152,
+          "y": 45,
+          "ports": [
+            {
+              "id": "27782a51-b8ca-4949-9102-c24739d99bc9",
+              "type": "default",
+              "x": 227.796875,
+              "y": 52,
+              "name": "out-1654601740480",
+              "alignment": "right",
+              "parentNode": "1a20183c-ecc2-4bf2-bfae-f73d6aebb9de",
+              "links": [
+                "fd6ac51b-0930-4322-90e7-7bad80a81879"
+              ],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Start",
+          "color": "#16db26",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "27782a51-b8ca-4949-9102-c24739d99bc9"
+          ]
+        },
+        "95e2462a-0d27-4e10-b464-13abd8c2ea69": {
+          "id": "95e2462a-0d27-4e10-b464-13abd8c2ea69",
+          "type": "dialogue",
+          "selected": false,
+          "x": 325,
+          "y": 21,
+          "ports": [
+            {
+              "id": "09a18938-07b4-4b32-b6ac-b479cfe7db96",
+              "type": "default",
+              "x": 312,
+              "y": 52,
+              "name": "in-1654601741249 ",
+              "alignment": "left",
+              "parentNode": "95e2462a-0d27-4e10-b464-13abd8c2ea69",
+              "links": [
+                "fd6ac51b-0930-4322-90e7-7bad80a81879"
+              ],
+              "in": true,
+              "label": "❯"
+            },
+            {
+              "id": "153d066d-0a85-4908-8904-892080515801",
+              "type": "default",
+              "x": 612.125,
+              "y": 52,
+              "name": "out-1654601741249",
+              "alignment": "right",
+              "parentNode": "95e2462a-0d27-4e10-b464-13abd8c2ea69",
+              "links": [
+                "a4a10f45-27d0-47c8-a2b3-53c949dbbab9"
+              ],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Goblin Cook",
+          "color": "#dd341e",
+          "portsInOrder": [
+            "09a18938-07b4-4b32-b6ac-b479cfe7db96"
+          ],
+          "portsOutOrder": [
+            "153d066d-0a85-4908-8904-892080515801"
+          ],
+          "text": "Go away human, me's busy here!\""
+        },
+        "98b0cb39-eb64-470b-9f4a-d27dcf054777": {
+          "id": "98b0cb39-eb64-470b-9f4a-d27dcf054777",
+          "type": "dialogue",
+          "selected": false,
+          "x": 324,
+          "y": 86,
+          "ports": [
+            {
+              "id": "b15f16da-b770-4878-812a-fa61275cc71b",
+              "type": "default",
+              "x": 311,
+              "y": 117,
+              "name": "in-1654601760351 ",
+              "alignment": "left",
+              "parentNode": "98b0cb39-eb64-470b-9f4a-d27dcf054777",
+              "links": [
+                "a4a10f45-27d0-47c8-a2b3-53c949dbbab9"
+              ],
+              "in": true,
+              "label": "❯"
+            },
+            {
+              "id": "497e175f-8685-4316-9fcc-6ba5da40305a",
+              "type": "default",
+              "x": 501.1875,
+              "y": 117,
+              "name": "out-1654601760351",
+              "alignment": "right",
+              "parentNode": "98b0cb39-eb64-470b-9f4a-d27dcf054777",
+              "links": [
+                "1f85ee43-7f43-4e3f-84e2-28ebb22ab428"
+              ],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "<player>",
+          "color": "#dd341e",
+          "portsInOrder": [
+            "b15f16da-b770-4878-812a-fa61275cc71b"
+          ],
+          "portsOutOrder": [
+            "497e175f-8685-4316-9fcc-6ba5da40305a"
+          ],
+          "text": "Busy doing what?"
+        },
+        "b44f9e11-e622-4c58-8636-6f3ff83037f3": {
+          "id": "b44f9e11-e622-4c58-8636-6f3ff83037f3",
+          "type": "dialogue",
+          "selected": false,
+          "x": 319,
+          "y": 152,
+          "ports": [
+            {
+              "id": "de21c931-ff6e-4cb6-8d66-d3b8f94d1639",
+              "type": "default",
+              "x": 306,
+              "y": 183,
+              "name": "in-1654601741249 ",
+              "alignment": "left",
+              "parentNode": "b44f9e11-e622-4c58-8636-6f3ff83037f3",
+              "links": [
+                "1f85ee43-7f43-4e3f-84e2-28ebb22ab428"
+              ],
+              "in": true,
+              "label": "❯"
+            },
+            {
+              "id": "e5dd2cca-43e2-4ec6-9ef1-535dcffcf88a",
+              "type": "default",
+              "x": 760.03125,
+              "y": 183,
+              "name": "out-1654601741249",
+              "alignment": "right",
+              "parentNode": "b44f9e11-e622-4c58-8636-6f3ff83037f3",
+              "links": [
+                "4ec6240d-8559-4b0d-a1c9-015b568113ad"
+              ],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Goblin Cook",
+          "color": "#dd341e",
+          "portsInOrder": [
+            "de21c931-ff6e-4cb6-8d66-d3b8f94d1639"
+          ],
+          "portsOutOrder": [
+            "e5dd2cca-43e2-4ec6-9ef1-535dcffcf88a"
+          ],
+          "text": "Me's trying to decide whether apron should be red or\ngreen. If red, Wartface hit Mudknuckles. If green,\nBentnoze kick Mudknuckles. Either way, is not good\nfor Mudknuckles."
+        },
+        "acf7a8b4-b6ee-4e9a-955c-754317440fcb": {
+          "id": "acf7a8b4-b6ee-4e9a-955c-754317440fcb",
+          "type": "option",
+          "selected": false,
+          "x": 326,
+          "y": 281,
+          "ports": [
+            {
+              "id": "027a5693-4d26-4a75-adda-9b622e75f2b4",
+              "type": "default",
+              "x": 313,
+              "y": 312,
+              "name": "in-1654601786208 ",
+              "alignment": "left",
+              "parentNode": "acf7a8b4-b6ee-4e9a-955c-754317440fcb",
+              "links": [
+                "4ec6240d-8559-4b0d-a1c9-015b568113ad"
+              ],
+              "in": true,
+              "label": "❯"
+            },
+            {
+              "id": "0b374627-e03f-4f91-b4f6-121e1d4ecae8",
+              "type": "default",
+              "x": 697.046875,
+              "y": 321,
+              "name": "out-1654601786208",
+              "alignment": "right",
+              "parentNode": "acf7a8b4-b6ee-4e9a-955c-754317440fcb",
+              "links": [
+                "58287e9c-195e-4938-84c8-62979c8a1a12"
+              ],
+              "in": false,
+              "label": "❯"
+            },
+            {
+              "id": "86b1d956-70d4-40f3-bda2-db2f168c266e",
+              "type": "default",
+              "x": 697.046875,
+              "y": 357,
+              "name": "out-1654601791874",
+              "alignment": "right",
+              "parentNode": "acf7a8b4-b6ee-4e9a-955c-754317440fcb",
+              "links": [
+                "37bae3f7-7182-483e-b8e6-775fdb7dc355"
+              ],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Select an option.",
+          "color": "#0756b1",
+          "portsInOrder": [
+            "027a5693-4d26-4a75-adda-9b622e75f2b4"
+          ],
+          "portsOutOrder": [
+            "0b374627-e03f-4f91-b4f6-121e1d4ecae8",
+            "86b1d956-70d4-40f3-bda2-db2f168c266e"
+          ],
+          "options": [
+            {
+              "conditions": [
+                ""
+              ],
+              "args": [],
+              "text": "Couldn't you just stick with white?"
+            },
+            {
+              "conditions": [
+                ""
+              ],
+              "args": [],
+              "text": "I'll leave you to it then."
+            }
+          ]
+        },
+        "6e3afd38-789c-4b74-a38d-f852554d0e96": {
+          "id": "6e3afd38-789c-4b74-a38d-f852554d0e96",
+          "type": "dialogue",
+          "selected": false,
+          "x": 34,
+          "y": 447,
+          "ports": [
+            {
+              "id": "37ec2ac1-b702-470a-bdf4-a976c42e7c78",
+              "type": "default",
+              "x": 21,
+              "y": 478,
+              "name": "in-1654601760351 ",
+              "alignment": "left",
+              "parentNode": "6e3afd38-789c-4b74-a38d-f852554d0e96",
+              "links": [
+                "58287e9c-195e-4938-84c8-62979c8a1a12"
+              ],
+              "in": true,
+              "label": "❯"
+            },
+            {
+              "id": "6b70ab99-a671-4863-ab56-972342c56082",
+              "type": "default",
+              "x": 350.4375,
+              "y": 478,
+              "name": "out-1654601760351",
+              "alignment": "right",
+              "parentNode": "6e3afd38-789c-4b74-a38d-f852554d0e96",
+              "links": [
+                "2db86fa7-c045-4230-9b7b-98b27b655aa0"
+              ],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "<player>",
+          "color": "#dd341e",
+          "portsInOrder": [
+            "37ec2ac1-b702-470a-bdf4-a976c42e7c78"
+          ],
+          "portsOutOrder": [
+            "6b70ab99-a671-4863-ab56-972342c56082"
+          ],
+          "text": "Couldn't you just stick with white?"
+        },
+        "d425509d-9e22-4d41-9f87-1c76f18605cb": {
+          "id": "d425509d-9e22-4d41-9f87-1c76f18605cb",
+          "type": "dialogue",
+          "selected": false,
+          "x": 32,
+          "y": 516,
+          "ports": [
+            {
+              "id": "8f2f8d8b-4de2-41e0-a5ad-b8d829d29b23",
+              "type": "default",
+              "x": 20,
+              "y": 546,
+              "name": "in-1654601741249 ",
+              "alignment": "left",
+              "parentNode": "d425509d-9e22-4d41-9f87-1c76f18605cb",
+              "links": [
+                "2db86fa7-c045-4230-9b7b-98b27b655aa0"
+              ],
+              "in": true,
+              "label": "❯"
+            },
+            {
+              "id": "50dd28d2-71eb-4691-bdb6-2ef7e541f7e7",
+              "type": "default",
+              "x": 430.0625,
+              "y": 546,
+              "name": "out-1654601741249",
+              "alignment": "right",
+              "parentNode": "d425509d-9e22-4d41-9f87-1c76f18605cb",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Goblin Cook",
+          "color": "#dd341e",
+          "portsInOrder": [
+            "8f2f8d8b-4de2-41e0-a5ad-b8d829d29b23"
+          ],
+          "portsOutOrder": [
+            "50dd28d2-71eb-4691-bdb6-2ef7e541f7e7"
+          ],
+          "text": "Could yes, but then just get attacked from two\ndirections at once."
+        },
+        "791bbc9e-b7cd-47fe-bf66-c4b5f163f5a5": {
+          "id": "791bbc9e-b7cd-47fe-bf66-c4b5f163f5a5",
+          "type": "dialogue",
+          "selected": false,
+          "x": 541,
+          "y": 451,
+          "ports": [
+            {
+              "id": "c980b045-7191-45ef-867b-8a86658b5431",
+              "type": "default",
+              "x": 528,
+              "y": 482,
+              "name": "in-1654601760351 ",
+              "alignment": "left",
+              "parentNode": "791bbc9e-b7cd-47fe-bf66-c4b5f163f5a5",
+              "links": [
+                "37bae3f7-7182-483e-b8e6-775fdb7dc355"
+              ],
+              "in": true,
+              "label": "❯"
+            },
+            {
+              "id": "7f9aae22-c324-4e37-91a9-65923ad34dfa",
+              "type": "default",
+              "x": 791.484375,
+              "y": 482,
+              "name": "out-1654601760351",
+              "alignment": "right",
+              "parentNode": "791bbc9e-b7cd-47fe-bf66-c4b5f163f5a5",
+              "links": [
+                "c2a61be8-1fe8-4f4e-b585-67a34ec98b18"
+              ],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "<player>",
+          "color": "#dd341e",
+          "portsInOrder": [
+            "c980b045-7191-45ef-867b-8a86658b5431"
+          ],
+          "portsOutOrder": [
+            "7f9aae22-c324-4e37-91a9-65923ad34dfa"
+          ],
+          "text": "I'll leave you to it then."
+        },
+        "3405086f-cc7b-4c2e-b423-ca03d977af5c": {
+          "id": "3405086f-cc7b-4c2e-b423-ca03d977af5c",
+          "type": "dialogue",
+          "selected": false,
+          "x": 556,
+          "y": 522,
+          "ports": [
+            {
+              "id": "a3e121c1-ad4d-41c6-8b2f-7e3f5e18af01",
+              "type": "default",
+              "x": 543,
+              "y": 553,
+              "name": "in-1654601741249 ",
+              "alignment": "left",
+              "parentNode": "3405086f-cc7b-4c2e-b423-ca03d977af5c",
+              "links": [
+                "c2a61be8-1fe8-4f4e-b585-67a34ec98b18"
+              ],
+              "in": true,
+              "label": "❯"
+            },
+            {
+              "id": "06892179-e350-4a71-8932-057f98879246",
+              "type": "default",
+              "x": 865.109375,
+              "y": 553,
+              "name": "out-1654601741249",
+              "alignment": "right",
+              "parentNode": "3405086f-cc7b-4c2e-b423-ca03d977af5c",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Goblin Cook",
+          "color": "#dd341e",
+          "portsInOrder": [
+            "a3e121c1-ad4d-41c6-8b2f-7e3f5e18af01"
+          ],
+          "portsOutOrder": [
+            "06892179-e350-4a71-8932-057f98879246"
+          ],
+          "text": "Yes, Mudknuckles too busy to talk."
+        }
+      }
+    }
+  ]
+}
