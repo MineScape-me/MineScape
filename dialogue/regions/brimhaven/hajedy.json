@@ -1,0 +1,125 @@
+{
+  "id": "41762060-bbd0-431d-bff5-b1708dc33ac6",
+  "offsetX": 0,
+  "offsetY": 0,
+  "zoom": 100,
+  "gridSize": 0,
+  "layers": [
+    {
+      "id": "f1c523b1-3482-43dd-bc31-4927e049e02b",
+      "type": "diagram-links",
+      "isSvg": true,
+      "transformed": true,
+      "models": {
+        "fa43097f-beea-460f-9a38-c552e0e520c5": {
+          "id": "fa43097f-beea-460f-9a38-c552e0e520c5",
+          "type": "default",
+          "selected": false,
+          "source": "6b53bd7e-8da4-4674-8160-9caf659d3740",
+          "sourcePort": "952ce917-5814-44f5-8089-968a37b35126",
+          "target": "889a7f45-9845-474b-ad4e-936dabc5d9ea",
+          "targetPort": "a417c1e8-a29b-4ded-a7ab-01d5ff012da3",
+          "points": [
+            {
+              "id": "e0af0865-b9b7-4e8d-8065-54a77ca8e284",
+              "type": "point",
+              "x": 343.296875,
+              "y": 116.5
+            },
+            {
+              "id": "a7a2fc83-5aa6-414a-90bc-b1ba66ebfa5d",
+              "type": "point",
+              "x": 390.5,
+              "y": 115.5
+            }
+          ],
+          "labels": [],
+          "width": 3,
+          "color": "gray",
+          "curvyness": 50,
+          "selectedColor": "rgb(0,192,255)"
+        }
+      }
+    },
+    {
+      "id": "7017c740-ce1d-4f37-8c7a-6756053645d9",
+      "type": "diagram-nodes",
+      "isSvg": false,
+      "transformed": true,
+      "models": {
+        "6b53bd7e-8da4-4674-8160-9caf659d3740": {
+          "id": "6b53bd7e-8da4-4674-8160-9caf659d3740",
+          "type": "start",
+          "x": 260,
+          "y": 102,
+          "ports": [
+            {
+              "id": "952ce917-5814-44f5-8089-968a37b35126",
+              "type": "default",
+              "x": 335.796875,
+              "y": 109,
+              "name": "out-1654766830083",
+              "alignment": "right",
+              "parentNode": "6b53bd7e-8da4-4674-8160-9caf659d3740",
+              "links": [
+                "fa43097f-beea-460f-9a38-c552e0e520c5"
+              ],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Start",
+          "color": "#16db26",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "952ce917-5814-44f5-8089-968a37b35126"
+          ]
+        },
+        "889a7f45-9845-474b-ad4e-936dabc5d9ea": {
+          "id": "889a7f45-9845-474b-ad4e-936dabc5d9ea",
+          "type": "dialogue",
+          "selected": true,
+          "x": 396,
+          "y": 77,
+          "ports": [
+            {
+              "id": "a417c1e8-a29b-4ded-a7ab-01d5ff012da3",
+              "type": "default",
+              "x": 383,
+              "y": 108,
+              "name": "in-1654766830717 ",
+              "alignment": "left",
+              "parentNode": "889a7f45-9845-474b-ad4e-936dabc5d9ea",
+              "links": [
+                "fa43097f-beea-460f-9a38-c552e0e520c5"
+              ],
+              "in": true,
+              "label": "❯"
+            },
+            {
+              "id": "eae95c5a-592a-45d8-8752-eefdf86f5599",
+              "type": "default",
+              "x": 844.359375,
+              "y": 108,
+              "name": "out-1654766830717",
+              "alignment": "right",
+              "parentNode": "889a7f45-9845-474b-ad4e-936dabc5d9ea",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Hajedy",
+          "color": "#dd341e",
+          "portsInOrder": [
+            "a417c1e8-a29b-4ded-a7ab-01d5ff012da3"
+          ],
+          "portsOutOrder": [
+            "eae95c5a-592a-45d8-8752-eefdf86f5599"
+          ],
+          "text": "We used to run cart trips down to Shilo Village in\nsouth Karamja. Since the troubles we had we've had to\nstop them though, too many people got killed."
+        }
+      }
+    }
+  ]
+}

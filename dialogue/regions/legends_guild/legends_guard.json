@@ -1,0 +1,1823 @@
+{
+  "id": "5a79c931-a124-4989-984f-d3016989950d",
+  "offsetX": 820.0246811683286,
+  "offsetY": -189.54251401425256,
+  "zoom": 80.00000000000001,
+  "gridSize": 0,
+  "layers": [
+    {
+      "id": "2a64523b-c09a-4f70-9540-81b357c008af",
+      "type": "diagram-links",
+      "isSvg": true,
+      "transformed": true,
+      "models": {
+        "d144e105-af0a-41a3-b620-3f1e350b91c3": {
+          "id": "d144e105-af0a-41a3-b620-3f1e350b91c3",
+          "type": "default",
+          "selected": false,
+          "source": "abe19d10-082f-4b26-b8a3-93d1071242ff",
+          "sourcePort": "e12af59b-6c4e-49b4-8463-d387e1d314b0",
+          "target": "9c2fee71-5ad7-4ebd-9d2f-7c9723b9dfbf",
+          "targetPort": "2927522c-c2da-4cde-9915-a2cc7ceb79d2",
+          "points": [
+            {
+              "id": "86296138-59bb-43dd-a115-1150d95ce66c",
+              "type": "point",
+              "x": 209.2968844404681,
+              "y": 23.49999329448805
+            },
+            {
+              "id": "45b6f46b-e4ca-4947-b049-d09e8b6892b9",
+              "type": "point",
+              "x": 285.50000181107356,
+              "y": 24.499992340813733
+            }
+          ],
+          "labels": [],
+          "width": 3,
+          "color": "gray",
+          "curvyness": 50,
+          "selectedColor": "rgb(0,192,255)"
+        },
+        "68ea95af-d055-410d-94ce-e01b88696e87": {
+          "id": "68ea95af-d055-410d-94ce-e01b88696e87",
+          "type": "default",
+          "selected": false,
+          "source": "9c2fee71-5ad7-4ebd-9d2f-7c9723b9dfbf",
+          "sourcePort": "69149e54-61a0-4a23-bffe-3a2e7a315ab6",
+          "target": "81316fea-2761-42bf-a523-fbc890288c06",
+          "targetPort": "909e5510-cf33-46d7-b54f-17787179fa3f",
+          "points": [
+            {
+              "id": "bb005891-11eb-48bc-b2e7-4a22175c6f04",
+              "type": "point",
+              "x": 534.3281268110735,
+              "y": 24.499992340813733
+            },
+            {
+              "id": "2403b2c8-ca4a-4a25-94f7-f0e09b6301a3",
+              "type": "point",
+              "x": 300.50000181107356,
+              "y": 139.49999234081372
+            }
+          ],
+          "labels": [],
+          "width": 3,
+          "color": "gray",
+          "curvyness": 50,
+          "selectedColor": "rgb(0,192,255)"
+        },
+        "2c2947cf-ff8f-4abb-923c-1ac43a017279": {
+          "id": "2c2947cf-ff8f-4abb-923c-1ac43a017279",
+          "type": "default",
+          "selected": false,
+          "source": "81316fea-2761-42bf-a523-fbc890288c06",
+          "sourcePort": "bcd0eccd-790a-45ae-aabf-0829d39e4d6d",
+          "target": "5630872e-0547-4308-8e51-374ae405df63",
+          "targetPort": "5632a1ea-a54b-4833-84d1-b2eb4f764ae0",
+          "points": [
+            {
+              "id": "c42cf7ed-3d73-4beb-9ed0-61a737b13b49",
+              "type": "point",
+              "x": 669.7031115522844,
+              "y": 148.50000759960278
+            },
+            {
+              "id": "7b42b85b-dfc6-4032-8eec-263a31641193",
+              "type": "point",
+              "x": -153.4999943742291,
+              "y": 349.5000114143
+            }
+          ],
+          "labels": [],
+          "width": 3,
+          "color": "gray",
+          "curvyness": 50,
+          "selectedColor": "rgb(0,192,255)"
+        },
+        "34245fec-7cfa-4f22-a394-10a7137c1072": {
+          "id": "34245fec-7cfa-4f22-a394-10a7137c1072",
+          "type": "default",
+          "selected": false,
+          "source": "5630872e-0547-4308-8e51-374ae405df63",
+          "sourcePort": "636f7142-3c23-48ab-b3af-c02092ec40d3",
+          "target": "07af873d-3363-4251-ad42-ee47c76708ac",
+          "targetPort": "ea5583e6-0005-400b-818d-a3912ce1d9e6",
+          "points": [
+            {
+              "id": "314c2f71-8ec1-4a4f-9697-ef6545f21d87",
+              "type": "point",
+              "x": 58.68750562577087,
+              "y": 349.5000114143
+            },
+            {
+              "id": "927e8e6c-e4e8-4fa5-8cc7-c1cada68c3ea",
+              "type": "point",
+              "x": -160.50000200362362,
+              "y": 415.4999961555109
+            }
+          ],
+          "labels": [],
+          "width": 3,
+          "color": "gray",
+          "curvyness": 50,
+          "selectedColor": "rgb(0,192,255)"
+        },
+        "180cf422-b93e-48c9-8bf6-ca83e058fc01": {
+          "id": "180cf422-b93e-48c9-8bf6-ca83e058fc01",
+          "type": "default",
+          "selected": false,
+          "source": "07af873d-3363-4251-ad42-ee47c76708ac",
+          "sourcePort": "505d54fd-4c95-49fe-861b-cf32f8c3e444",
+          "target": "ea25c1bf-2bcd-4e0a-825e-f0bc3a84707e",
+          "targetPort": "e51eb63a-8f09-443e-92b5-4b601e15dcee",
+          "points": [
+            {
+              "id": "60b735f9-b065-45d8-b86c-06dd248672c3",
+              "type": "point",
+              "x": 102.98438062577085,
+              "y": 415.4999961555109
+            },
+            {
+              "id": "8cc0fa4f-42dc-4997-a266-be4cd204d830",
+              "type": "point",
+              "x": -158.4999943742291,
+              "y": 480.4999961555109
+            }
+          ],
+          "labels": [],
+          "width": 3,
+          "color": "gray",
+          "curvyness": 50,
+          "selectedColor": "rgb(0,192,255)"
+        },
+        "f9b8182d-a56a-4ac8-8dfe-6b0ff0c42d1e": {
+          "id": "f9b8182d-a56a-4ac8-8dfe-6b0ff0c42d1e",
+          "type": "default",
+          "selected": false,
+          "source": "ea25c1bf-2bcd-4e0a-825e-f0bc3a84707e",
+          "sourcePort": "19d40c23-d859-4574-8b97-23ac48fe85de",
+          "target": "37362e9f-43b7-4a9b-b981-18a2946287b6",
+          "targetPort": "7f159623-1dea-45c3-adae-de5206091f93",
+          "points": [
+            {
+              "id": "cfa10840-e84d-4bea-a404-decd650881b2",
+              "type": "point",
+              "x": 302.8593920698626,
+              "y": 480.4999961555109
+            },
+            {
+              "id": "a9598e46-23ec-47c2-9a61-bde31a00779e",
+              "type": "point",
+              "x": -153.4999943742291,
+              "y": 598.4999503791437
+            }
+          ],
+          "labels": [],
+          "width": 3,
+          "color": "gray",
+          "curvyness": 50,
+          "selectedColor": "rgb(0,192,255)"
+        },
+        "121d6910-6aca-48f2-be45-19b9f3d14788": {
+          "id": "121d6910-6aca-48f2-be45-19b9f3d14788",
+          "type": "default",
+          "selected": false,
+          "source": "37362e9f-43b7-4a9b-b981-18a2946287b6",
+          "sourcePort": "69121cb3-91a5-4a35-9fd5-7bb4b5fc7103",
+          "target": "07d16200-d8b9-4791-bcf0-74fdae340d01",
+          "targetPort": "e4ffa0f1-cf69-4ff0-9033-7a4d021c4806",
+          "points": [
+            {
+              "id": "909521ad-d1cf-4c4c-a80b-f182dad36763",
+              "type": "point",
+              "x": 134.1718768110736,
+              "y": 607.5000037849054
+            },
+            {
+              "id": "ab4c2523-bc3c-4ce7-9b36-d487f1b0e8fd",
+              "type": "point",
+              "x": -544.4999981889263,
+              "y": 732.4999656379327
+            }
+          ],
+          "labels": [],
+          "width": 3,
+          "color": "gray",
+          "curvyness": 50,
+          "selectedColor": "rgb(0,192,255)"
+        },
+        "1f4909bc-f89a-4d96-a369-05fedff24c8c": {
+          "id": "1f4909bc-f89a-4d96-a369-05fedff24c8c",
+          "type": "default",
+          "selected": false,
+          "source": "07d16200-d8b9-4791-bcf0-74fdae340d01",
+          "sourcePort": "121a8e8f-be46-46bd-a9cc-f91829b7b344",
+          "target": "66ea75b7-ee16-4275-b1bd-6d3fd4b16ab9",
+          "targetPort": "cdfb2ab5-687a-4259-b84c-5ca581f6a4e5",
+          "points": [
+            {
+              "id": "606e95f8-a731-43a9-bbe9-721726667269",
+              "type": "point",
+              "x": -310.32813081832086,
+              "y": 732.4999656379327
+            },
+            {
+              "id": "aff98278-2f6f-4651-9c8c-aaa0c42d5de9",
+              "type": "point",
+              "x": -561.9375134477153,
+              "y": 810.8124961555109
+            }
+          ],
+          "labels": [],
+          "width": 3,
+          "color": "gray",
+          "curvyness": 50,
+          "selectedColor": "rgb(0,192,255)"
+        },
+        "8758ccd3-a052-49a4-a237-80ab781e6c08": {
+          "id": "8758ccd3-a052-49a4-a237-80ab781e6c08",
+          "type": "default",
+          "selected": false,
+          "source": "66ea75b7-ee16-4275-b1bd-6d3fd4b16ab9",
+          "sourcePort": "37ac0c88-d5ce-4db1-afa9-c7a47e9441fc",
+          "target": "feb68834-f3ea-49f1-a342-213c29976bc2",
+          "targetPort": "7710809e-5a6f-4d7c-a1fe-581940b548e4",
+          "points": [
+            {
+              "id": "8d1e969a-b7a2-4768-a70b-9f92f92a5a0b",
+              "type": "point",
+              "x": -71.26562128157774,
+              "y": 810.8124961555109
+            },
+            {
+              "id": "beeae1de-167a-4c18-a452-80930a390f96",
+              "type": "point",
+              "x": -563.3593655595317,
+              "y": 954.3906058967218
+            }
+          ],
+          "labels": [],
+          "width": 3,
+          "color": "gray",
+          "curvyness": 50,
+          "selectedColor": "rgb(0,192,255)"
+        },
+        "de347e7c-0056-4041-9d4b-b7822720804e": {
+          "id": "de347e7c-0056-4041-9d4b-b7822720804e",
+          "type": "default",
+          "selected": false,
+          "source": "37362e9f-43b7-4a9b-b981-18a2946287b6",
+          "sourcePort": "42cc6915-9f30-4630-8d49-3b6cd155313a",
+          "target": "1feca73c-cdc5-47f7-8380-3c5f30bf2081",
+          "targetPort": "49f30be9-555e-43b2-99a2-8a5b3b85adaf",
+          "points": [
+            {
+              "id": "33832783-9d84-41c9-b51e-d6c82615838c",
+              "type": "point",
+              "x": 134.1718768110736,
+              "y": 643.500026673089
+            },
+            {
+              "id": "6f66a9d1-2d4f-4848-92c0-c21c702cb0d7",
+              "type": "point",
+              "x": 125.07813444046812,
+              "y": 849.8437156379327
+            }
+          ],
+          "labels": [],
+          "width": 3,
+          "color": "gray",
+          "curvyness": 50,
+          "selectedColor": "rgb(0,192,255)"
+        },
+        "018a751a-86b3-482a-af9f-2de52afdddc8": {
+          "id": "018a751a-86b3-482a-af9f-2de52afdddc8",
+          "type": "default",
+          "selected": false,
+          "source": "1feca73c-cdc5-47f7-8380-3c5f30bf2081",
+          "sourcePort": "676885b0-1a6c-480d-9361-790e7c9c24fa",
+          "target": "57711266-ef43-4f2b-9467-08b95cc07b47",
+          "targetPort": "34b90f97-9266-4f6e-8f6b-0408764a9c75",
+          "points": [
+            {
+              "id": "f3d29e72-1e4c-4be1-ac8f-57a52adde168",
+              "type": "point",
+              "x": 278.62500181107356,
+              "y": 849.8437156379327
+            },
+            {
+              "id": "92c8c2a4-9f78-4c89-92b0-36937b241977",
+              "type": "point",
+              "x": 111.31249418167906,
+              "y": 926.937526673089
+            }
+          ],
+          "labels": [],
+          "width": 3,
+          "color": "gray",
+          "curvyness": 50,
+          "selectedColor": "rgb(0,192,255)"
+        },
+        "be316510-ff97-45cf-a227-902601d002f4": {
+          "id": "be316510-ff97-45cf-a227-902601d002f4",
+          "type": "default",
+          "selected": false,
+          "source": "feb68834-f3ea-49f1-a342-213c29976bc2",
+          "sourcePort": "f750d447-e7f0-4eb0-b75a-2c168ab35c24",
+          "target": "1feca73c-cdc5-47f7-8380-3c5f30bf2081",
+          "targetPort": "49f30be9-555e-43b2-99a2-8a5b3b85adaf",
+          "points": [
+            {
+              "id": "4abc16af-6a9e-408b-813a-b840aeb0cd9b",
+              "type": "point",
+              "x": -179.3125058183209,
+              "y": 999.3906058967218
+            },
+            {
+              "id": "f5e16c52-4f62-4ebb-8942-7614338e7063",
+              "type": "point",
+              "x": 125.07813444046812,
+              "y": 849.8437156379327
+            }
+          ],
+          "labels": [],
+          "width": 3,
+          "color": "gray",
+          "curvyness": 50,
+          "selectedColor": "rgb(0,192,255)"
+        },
+        "10f7c10c-456f-4fa3-b1bf-7df65765e519": {
+          "id": "10f7c10c-456f-4fa3-b1bf-7df65765e519",
+          "type": "default",
+          "selected": false,
+          "source": "81316fea-2761-42bf-a523-fbc890288c06",
+          "sourcePort": "b51d9b43-5f15-496e-ba4c-3a806b0cfc1e",
+          "target": "358323f4-236d-4622-a92f-b24203752de6",
+          "targetPort": "ca425bc4-d464-43ca-a30f-8b0edab32f85",
+          "points": [
+            {
+              "id": "c5ba19e4-0164-4fc1-8fa8-2f9f4559ab7d",
+              "type": "point",
+              "x": 669.7187518110735,
+              "y": 184.50000187755688
+            },
+            {
+              "id": "f89ca6bd-23ec-4a0a-b951-02f6d2fbc4c5",
+              "type": "point",
+              "x": 465.8749865522845,
+              "y": 363.98437878490546
+            }
+          ],
+          "labels": [],
+          "width": 3,
+          "color": "gray",
+          "curvyness": 50,
+          "selectedColor": "rgb(0,192,255)"
+        },
+        "3f107943-7d06-478f-bb8e-f53a6ba2f604": {
+          "id": "3f107943-7d06-478f-bb8e-f53a6ba2f604",
+          "type": "default",
+          "selected": false,
+          "source": "358323f4-236d-4622-a92f-b24203752de6",
+          "sourcePort": "91309087-af69-4fb7-a2bd-f9b80277ddbe",
+          "target": "7f9af9c2-4120-4672-bae4-32bab6740852",
+          "targetPort": "bc3bc216-0479-4dde-bab9-f57ec5ec4da8",
+          "points": [
+            {
+              "id": "be1a188c-8d97-44e5-8d5a-5176b0b0c764",
+              "type": "point",
+              "x": 692.7187823286516,
+              "y": 363.98437878490546
+            },
+            {
+              "id": "8c818c09-3884-442e-a9c7-2c507fe47cb4",
+              "type": "point",
+              "x": 451.07813825516536,
+              "y": 439.8749961555109
+            }
+          ],
+          "labels": [],
+          "width": 3,
+          "color": "gray",
+          "curvyness": 50,
+          "selectedColor": "rgb(0,192,255)"
+        },
+        "afa9b58b-f9be-4022-896f-aec68047815a": {
+          "id": "afa9b58b-f9be-4022-896f-aec68047815a",
+          "type": "default",
+          "selected": false,
+          "source": "7f9af9c2-4120-4672-bae4-32bab6740852",
+          "sourcePort": "572ede38-1539-4964-bad4-726949843a19",
+          "target": "d1e46a2d-e7e2-4449-9156-1c35afada319",
+          "targetPort": "e608c44c-c1a0-46fb-b2dd-2e8f9f4026f1",
+          "points": [
+            {
+              "id": "78171b00-c473-4f64-a62c-d8497972a41a",
+              "type": "point",
+              "x": 905.1093768110735,
+              "y": 439.8749961555109
+            },
+            {
+              "id": "0048cbb6-1ff9-4347-89fc-6d1f2c1ca2fe",
+              "type": "point",
+              "x": 455.78122129349543,
+              "y": 519.2656364142999
+            }
+          ],
+          "labels": [],
+          "width": 3,
+          "color": "gray",
+          "curvyness": 50,
+          "selectedColor": "rgb(0,192,255)"
+        },
+        "2739af97-fcd4-4481-ab54-34541a7afd2b": {
+          "id": "2739af97-fcd4-4481-ab54-34541a7afd2b",
+          "type": "default",
+          "selected": false,
+          "source": "d1e46a2d-e7e2-4449-9156-1c35afada319",
+          "sourcePort": "c6a3f376-fe61-49c8-a819-8e41a2b71a10",
+          "target": "c2af1774-6d83-4584-beb8-7823ad9d5c89",
+          "targetPort": "076ea4b2-dbfd-4e53-97c8-7b8a6c876c67",
+          "points": [
+            {
+              "id": "c2826706-d973-4962-a13c-ee83bb4febe8",
+              "type": "point",
+              "x": 924.4687365522844,
+              "y": 519.2656364142999
+            },
+            {
+              "id": "d4ae89ab-3a0c-44e3-bfa6-f24f7141ec83",
+              "type": "point",
+              "x": 972.3750018110734,
+              "y": 146.20312115551098
+            }
+          ],
+          "labels": [],
+          "width": 3,
+          "color": "gray",
+          "curvyness": 50,
+          "selectedColor": "rgb(0,192,255)"
+        },
+        "41ae0e3c-a54e-4f3e-a242-40e71a807ddb": {
+          "id": "41ae0e3c-a54e-4f3e-a242-40e71a807ddb",
+          "type": "default",
+          "selected": false,
+          "source": "c2af1774-6d83-4584-beb8-7823ad9d5c89",
+          "sourcePort": "e5a9cc2a-5b2a-4969-baf7-692554c78bbd",
+          "target": "5630872e-0547-4308-8e51-374ae405df63",
+          "targetPort": "5632a1ea-a54b-4833-84d1-b2eb4f764ae0",
+          "points": [
+            {
+              "id": "19d00c91-ea5a-4dde-8377-e84b42f3dc47",
+              "type": "point",
+              "x": 1341.5781878462292,
+              "y": 155.20312687755688
+            },
+            {
+              "id": "700fa17b-614f-4ec8-924e-706d6b03630a",
+              "type": "point",
+              "x": -153.4999943742291,
+              "y": 349.5000114143
+            }
+          ],
+          "labels": [],
+          "width": 3,
+          "color": "gray",
+          "curvyness": 50,
+          "selectedColor": "rgb(0,192,255)"
+        },
+        "12dbd89b-de75-41c0-90d9-3c0397b839cf": {
+          "id": "12dbd89b-de75-41c0-90d9-3c0397b839cf",
+          "type": "default",
+          "selected": false,
+          "source": "81316fea-2761-42bf-a523-fbc890288c06",
+          "sourcePort": "bcbfe87a-d0d1-424a-8e6e-a819e4356f14",
+          "target": "11ea26ef-7aa1-491f-8d06-746075c3fbb9",
+          "targetPort": "d123e6d2-44ae-4547-8a1f-a0b3cd95b31a",
+          "points": [
+            {
+              "id": "aafbf7a9-f128-47a0-97da-da7bdd57b9db",
+              "type": "point",
+              "x": 669.7187518110735,
+              "y": 220.49999615551098
+            },
+            {
+              "id": "6774994c-e843-4c36-b046-3a244a219117",
+              "type": "point",
+              "x": 1082.1249865522846,
+              "y": 348.98439785839184
+            }
+          ],
+          "labels": [],
+          "width": 3,
+          "color": "gray",
+          "curvyness": 50,
+          "selectedColor": "rgb(0,192,255)"
+        },
+        "9e624e05-2903-4542-9fad-443d5c28f5b9": {
+          "id": "9e624e05-2903-4542-9fad-443d5c28f5b9",
+          "type": "default",
+          "selected": false,
+          "source": "c2af1774-6d83-4584-beb8-7823ad9d5c89",
+          "sourcePort": "ee801dcb-4e07-4243-aaf3-e8150f5b21a3",
+          "target": "11ea26ef-7aa1-491f-8d06-746075c3fbb9",
+          "targetPort": "d123e6d2-44ae-4547-8a1f-a0b3cd95b31a",
+          "points": [
+            {
+              "id": "834815f2-9dd5-470d-8d71-6561df356230",
+              "type": "point",
+              "x": 1341.593751811073,
+              "y": 191.20312115551098
+            },
+            {
+              "id": "0e68e0ee-dc2b-4fc7-9874-ec156d1462a0",
+              "type": "point",
+              "x": 1082.1249865522846,
+              "y": 348.98439785839184
+            }
+          ],
+          "labels": [],
+          "width": 3,
+          "color": "gray",
+          "curvyness": 50,
+          "selectedColor": "rgb(0,192,255)"
+        },
+        "435a2718-c198-4280-b088-2dfe4f5e5bd6": {
+          "id": "435a2718-c198-4280-b088-2dfe4f5e5bd6",
+          "type": "default",
+          "selected": false,
+          "source": "11ea26ef-7aa1-491f-8d06-746075c3fbb9",
+          "sourcePort": "14772440-4a2a-4f25-9bf6-8715274f8324",
+          "target": "039fc10d-1bb2-445e-9e40-5825449d3d9f",
+          "targetPort": "c835ebde-7b3f-4eb0-9fad-3fcfd3772444",
+          "points": [
+            {
+              "id": "2e416883-d004-4e1c-ad3e-fafa09f01221",
+              "type": "point",
+              "x": 1396.9062518110736,
+              "y": 348.98439785839184
+            },
+            {
+              "id": "4f518f6c-6b9b-495c-a9e0-6d50c01e0151",
+              "type": "point",
+              "x": 1087.3281573286515,
+              "y": 431.124996155511
+            }
+          ],
+          "labels": [],
+          "width": 3,
+          "color": "gray",
+          "curvyness": 50,
+          "selectedColor": "rgb(0,192,255)"
+        },
+        "8c0c28be-ec98-4f12-a273-92eb20c4db9d": {
+          "id": "8c0c28be-ec98-4f12-a273-92eb20c4db9d",
+          "type": "default",
+          "selected": false,
+          "source": "039fc10d-1bb2-445e-9e40-5825449d3d9f",
+          "sourcePort": "ccce410c-e853-4fe3-a2f8-ae01698d6fa6",
+          "target": "37362e9f-43b7-4a9b-b981-18a2946287b6",
+          "targetPort": "7f159623-1dea-45c3-adae-de5206091f93",
+          "points": [
+            {
+              "id": "71d77d2d-7ad4-4027-b9f2-cc815d860bd5",
+              "type": "point",
+              "x": 1534.0311907759171,
+              "y": 431.124996155511
+            },
+            {
+              "id": "47dd6c28-2320-4e2c-a654-a22cb40180ac",
+              "type": "point",
+              "x": -153.4999943742291,
+              "y": 598.4999503791437
+            }
+          ],
+          "labels": [],
+          "width": 3,
+          "color": "gray",
+          "curvyness": 50,
+          "selectedColor": "rgb(0,192,255)"
+        },
+        "ce50afdd-a5e4-4364-a682-cf01fe7a4d1c": {
+          "id": "ce50afdd-a5e4-4364-a682-cf01fe7a4d1c",
+          "type": "default",
+          "selected": false,
+          "source": "2c37892f-e921-4b7b-bdf1-eb7564c9be60",
+          "sourcePort": "cadae21f-c48b-4202-9ad4-a76a6c953864",
+          "target": "536967b0-bc3f-491c-9c44-028e0aef61f7",
+          "targetPort": "b4c072b4-f0b5-49de-986f-4d63e0dc40c9",
+          "points": [
+            {
+              "id": "ee76b316-d596-4c9c-b47e-52d216717f85",
+              "type": "point",
+              "x": 1002.4844073286516,
+              "y": 710.2344169318781
+            },
+            {
+              "id": "38c1e379-5154-4fde-a8d9-a97e5121189d",
+              "type": "point",
+              "x": 817.3281573286516,
+              "y": 793.6249961555109
+            }
+          ],
+          "labels": [],
+          "width": 3,
+          "color": "gray",
+          "curvyness": 50,
+          "selectedColor": "rgb(0,192,255)"
+        },
+        "cbc4f0d4-c7fb-4a31-b8d9-ddecba1769a2": {
+          "id": "cbc4f0d4-c7fb-4a31-b8d9-ddecba1769a2",
+          "type": "default",
+          "selected": false,
+          "source": "81316fea-2761-42bf-a523-fbc890288c06",
+          "sourcePort": "6241c286-69d9-4c76-b6b4-fcaa6dafb8cd",
+          "target": "2c37892f-e921-4b7b-bdf1-eb7564c9be60",
+          "targetPort": "afd92c9e-f3be-4811-8da5-595de5ac3d9b",
+          "points": [
+            {
+              "id": "91460454-2b26-492e-9ca3-eb7f6fa37270",
+              "type": "point",
+              "x": 669.7031115522844,
+              "y": 256.49998089672187
+            },
+            {
+              "id": "fde44c9f-260c-4eb0-aac0-4f20604f343a",
+              "type": "point",
+              "x": 819.6249102583391,
+              "y": 710.2344169318781
+            }
+          ],
+          "labels": [],
+          "width": 3,
+          "color": "gray",
+          "curvyness": 50,
+          "selectedColor": "rgb(0,192,255)"
+        },
+        "9cdc06b3-b976-44f2-8850-6757999bf62c": {
+          "id": "9cdc06b3-b976-44f2-8850-6757999bf62c",
+          "type": "default",
+          "selected": false,
+          "source": "c2af1774-6d83-4584-beb8-7823ad9d5c89",
+          "sourcePort": "9902d191-9c04-46dc-998d-adad866fb3de",
+          "target": "2c37892f-e921-4b7b-bdf1-eb7564c9be60",
+          "targetPort": "afd92c9e-f3be-4811-8da5-595de5ac3d9b",
+          "points": [
+            {
+              "id": "453a6d5b-82c0-471f-8735-9623b213c2d0",
+              "type": "point",
+              "x": 1341.5781878462292,
+              "y": 227.20310589672192
+            },
+            {
+              "id": "ee4c8c76-a979-4694-a384-15c3830f75af",
+              "type": "point",
+              "x": 819.6249102583391,
+              "y": 710.2344169318781
+            }
+          ],
+          "labels": [],
+          "width": 3,
+          "color": "gray",
+          "curvyness": 50,
+          "selectedColor": "rgb(0,192,255)"
+        }
+      }
+    },
+    {
+      "id": "675b4856-fa8d-499c-b78c-b0b0a1a7de86",
+      "type": "diagram-nodes",
+      "isSvg": false,
+      "transformed": true,
+      "models": {
+        "abe19d10-082f-4b26-b8a3-93d1071242ff": {
+          "id": "abe19d10-082f-4b26-b8a3-93d1071242ff",
+          "type": "start",
+          "x": 126,
+          "y": 9,
+          "ports": [
+            {
+              "id": "e12af59b-6c4e-49b4-8463-d387e1d314b0",
+              "type": "default",
+              "x": 201.7968844404681,
+              "y": 15.999998062859634,
+              "name": "out-1654752617328",
+              "alignment": "right",
+              "parentNode": "abe19d10-082f-4b26-b8a3-93d1071242ff",
+              "links": [
+                "d144e105-af0a-41a3-b620-3f1e350b91c3"
+              ],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Start",
+          "color": "#16db26",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "e12af59b-6c4e-49b4-8463-d387e1d314b0"
+          ]
+        },
+        "9c2fee71-5ad7-4ebd-9d2f-7c9723b9dfbf": {
+          "id": "9c2fee71-5ad7-4ebd-9d2f-7c9723b9dfbf",
+          "type": "dialogue",
+          "selected": false,
+          "x": 291,
+          "y": -14,
+          "ports": [
+            {
+              "id": "2927522c-c2da-4cde-9915-a2cc7ceb79d2",
+              "type": "default",
+              "x": 278.00000181107356,
+              "y": 16.999992340813737,
+              "name": "in-1654752618416 ",
+              "alignment": "left",
+              "parentNode": "9c2fee71-5ad7-4ebd-9d2f-7c9723b9dfbf",
+              "links": [
+                "d144e105-af0a-41a3-b620-3f1e350b91c3"
+              ],
+              "in": true,
+              "label": "❯"
+            },
+            {
+              "id": "69149e54-61a0-4a23-bffe-3a2e7a315ab6",
+              "type": "default",
+              "x": 526.8281268110735,
+              "y": 16.999992340813737,
+              "name": "out-1654752618416",
+              "alignment": "right",
+              "parentNode": "9c2fee71-5ad7-4ebd-9d2f-7c9723b9dfbf",
+              "links": [
+                "68ea95af-d055-410d-94ce-e01b88696e87"
+              ],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Legends guard",
+          "color": "#dd341e",
+          "portsInOrder": [
+            "2927522c-c2da-4cde-9915-a2cc7ceb79d2"
+          ],
+          "portsOutOrder": [
+            "69149e54-61a0-4a23-bffe-3a2e7a315ab6"
+          ],
+          "text": "Yes, how can I help you?"
+        },
+        "81316fea-2761-42bf-a523-fbc890288c06": {
+          "id": "81316fea-2761-42bf-a523-fbc890288c06",
+          "type": "option",
+          "selected": false,
+          "x": 306,
+          "y": 101,
+          "ports": [
+            {
+              "id": "909e5510-cf33-46d7-b54f-17787179fa3f",
+              "type": "default",
+              "x": 293.00000181107356,
+              "y": 131.99999234081372,
+              "name": "in-1654752633083 ",
+              "alignment": "left",
+              "parentNode": "81316fea-2761-42bf-a523-fbc890288c06",
+              "links": [
+                "68ea95af-d055-410d-94ce-e01b88696e87"
+              ],
+              "in": true,
+              "label": "❯"
+            },
+            {
+              "id": "bcd0eccd-790a-45ae-aabf-0829d39e4d6d",
+              "type": "default",
+              "x": 662.2031115522844,
+              "y": 141.00000759960278,
+              "name": "out-1654752633084",
+              "alignment": "right",
+              "parentNode": "81316fea-2761-42bf-a523-fbc890288c06",
+              "links": [
+                "2c2947cf-ff8f-4abb-923c-1ac43a017279"
+              ],
+              "in": false,
+              "label": "❯"
+            },
+            {
+              "id": "b51d9b43-5f15-496e-ba4c-3a806b0cfc1e",
+              "type": "default",
+              "x": 662.2187518110735,
+              "y": 176.99999234081372,
+              "name": "out-1654752637552",
+              "alignment": "right",
+              "parentNode": "81316fea-2761-42bf-a523-fbc890288c06",
+              "links": [
+                "10f7c10c-456f-4fa3-b1bf-7df65765e519"
+              ],
+              "in": false,
+              "label": "❯"
+            },
+            {
+              "id": "bcbfe87a-d0d1-424a-8e6e-a819e4356f14",
+              "type": "default",
+              "x": 662.2187518110735,
+              "y": 212.99999615551098,
+              "name": "out-1654752637702",
+              "alignment": "right",
+              "parentNode": "81316fea-2761-42bf-a523-fbc890288c06",
+              "links": [
+                "12dbd89b-de75-41c0-90d9-3c0397b839cf"
+              ],
+              "in": false,
+              "label": "❯"
+            },
+            {
+              "id": "6241c286-69d9-4c76-b6b4-fcaa6dafb8cd",
+              "type": "default",
+              "x": 662.2031115522844,
+              "y": 248.9999808967219,
+              "name": "out-1654752646091",
+              "alignment": "right",
+              "parentNode": "81316fea-2761-42bf-a523-fbc890288c06",
+              "links": [
+                "cbc4f0d4-c7fb-4a31-b8d9-ddecba1769a2"
+              ],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Select an option.",
+          "color": "#0756b1",
+          "portsInOrder": [
+            "909e5510-cf33-46d7-b54f-17787179fa3f"
+          ],
+          "portsOutOrder": [
+            "bcd0eccd-790a-45ae-aabf-0829d39e4d6d",
+            "b51d9b43-5f15-496e-ba4c-3a806b0cfc1e",
+            "bcbfe87a-d0d1-424a-8e6e-a819e4356f14",
+            "6241c286-69d9-4c76-b6b4-fcaa6dafb8cd"
+          ],
+          "options": [
+            {
+              "conditions": [
+                ""
+              ],
+              "args": [],
+              "text": "What is this place?"
+            },
+            {
+              "conditions": [
+                ""
+              ],
+              "args": [],
+              "text": "How do I get in here?"
+            },
+            {
+              "conditions": [
+                ""
+              ],
+              "args": [],
+              "text": "Can I speak to someone in charge?"
+            },
+            {
+              "conditions": [
+                ""
+              ],
+              "args": [],
+              "text": "It's ok thanks."
+            }
+          ]
+        },
+        "07af873d-3363-4251-ad42-ee47c76708ac": {
+          "id": "07af873d-3363-4251-ad42-ee47c76708ac",
+          "type": "dialogue",
+          "selected": false,
+          "x": -155,
+          "y": 377,
+          "ports": [
+            {
+              "id": "ea5583e6-0005-400b-818d-a3912ce1d9e6",
+              "type": "default",
+              "x": -168.00000200362362,
+              "y": 407.9999961555109,
+              "name": "in-1654752618416 ",
+              "alignment": "left",
+              "parentNode": "07af873d-3363-4251-ad42-ee47c76708ac",
+              "links": [
+                "34245fec-7cfa-4f22-a394-10a7137c1072"
+              ],
+              "in": true,
+              "label": "❯"
+            },
+            {
+              "id": "505d54fd-4c95-49fe-861b-cf32f8c3e444",
+              "type": "default",
+              "x": 95.48438062577085,
+              "y": 407.9999961555109,
+              "name": "out-1654752618416",
+              "alignment": "right",
+              "parentNode": "07af873d-3363-4251-ad42-ee47c76708ac",
+              "links": [
+                "180cf422-b93e-48c9-8bf6-ca83e058fc01"
+              ],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Legends guard",
+          "color": "#dd341e",
+          "portsInOrder": [
+            "ea5583e6-0005-400b-818d-a3912ce1d9e6"
+          ],
+          "portsOutOrder": [
+            "505d54fd-4c95-49fe-861b-cf32f8c3e444"
+          ],
+          "text": "This is the Legends Guild!"
+        },
+        "5630872e-0547-4308-8e51-374ae405df63": {
+          "id": "5630872e-0547-4308-8e51-374ae405df63",
+          "type": "dialogue",
+          "selected": false,
+          "x": -148,
+          "y": 311,
+          "ports": [
+            {
+              "id": "5632a1ea-a54b-4833-84d1-b2eb4f764ae0",
+              "type": "default",
+              "x": -160.9999943742291,
+              "y": 342.0000114143,
+              "name": "in-1654752659358 ",
+              "alignment": "left",
+              "parentNode": "5630872e-0547-4308-8e51-374ae405df63",
+              "links": [
+                "2c2947cf-ff8f-4abb-923c-1ac43a017279",
+                "41ae0e3c-a54e-4f3e-a242-40e71a807ddb"
+              ],
+              "in": true,
+              "label": "❯"
+            },
+            {
+              "id": "636f7142-3c23-48ab-b3af-c02092ec40d3",
+              "type": "default",
+              "x": 51.187505625770875,
+              "y": 342.0000114143,
+              "name": "out-1654752659358",
+              "alignment": "right",
+              "parentNode": "5630872e-0547-4308-8e51-374ae405df63",
+              "links": [
+                "34245fec-7cfa-4f22-a394-10a7137c1072"
+              ],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "<player>",
+          "color": "#dd341e",
+          "portsInOrder": [
+            "5632a1ea-a54b-4833-84d1-b2eb4f764ae0"
+          ],
+          "portsOutOrder": [
+            "636f7142-3c23-48ab-b3af-c02092ec40d3"
+          ],
+          "text": "What is this place?"
+        },
+        "ea25c1bf-2bcd-4e0a-825e-f0bc3a84707e": {
+          "id": "ea25c1bf-2bcd-4e0a-825e-f0bc3a84707e",
+          "type": "dialogue",
+          "selected": false,
+          "x": -153,
+          "y": 442,
+          "ports": [
+            {
+              "id": "e51eb63a-8f09-443e-92b5-4b601e15dcee",
+              "type": "default",
+              "x": -165.9999943742291,
+              "y": 472.9999961555109,
+              "name": "in-1654752618416 ",
+              "alignment": "left",
+              "parentNode": "ea25c1bf-2bcd-4e0a-825e-f0bc3a84707e",
+              "links": [
+                "180cf422-b93e-48c9-8bf6-ca83e058fc01"
+              ],
+              "in": true,
+              "label": "❯"
+            },
+            {
+              "id": "19d40c23-d859-4574-8b97-23ac48fe85de",
+              "type": "default",
+              "x": 295.3593920698626,
+              "y": 472.9999961555109,
+              "name": "out-1654752618416",
+              "alignment": "right",
+              "parentNode": "ea25c1bf-2bcd-4e0a-825e-f0bc3a84707e",
+              "links": [
+                "f9b8182d-a56a-4ac8-8dfe-6b0ff0c42d1e"
+              ],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Legends guard",
+          "color": "#dd341e",
+          "portsInOrder": [
+            "e51eb63a-8f09-443e-92b5-4b601e15dcee"
+          ],
+          "portsOutOrder": [
+            "19d40c23-d859-4574-8b97-23ac48fe85de"
+          ],
+          "text": "Legendary Gielinor citizens are invited on a quest in\norder to become members of the guild."
+        },
+        "37362e9f-43b7-4a9b-b981-18a2946287b6": {
+          "id": "37362e9f-43b7-4a9b-b981-18a2946287b6",
+          "type": "option",
+          "selected": false,
+          "x": -148,
+          "y": 560,
+          "ports": [
+            {
+              "id": "7f159623-1dea-45c3-adae-de5206091f93",
+              "type": "default",
+              "x": -160.9999943742291,
+              "y": 590.9999503791437,
+              "name": "in-1654752709937 ",
+              "alignment": "left",
+              "parentNode": "37362e9f-43b7-4a9b-b981-18a2946287b6",
+              "links": [
+                "f9b8182d-a56a-4ac8-8dfe-6b0ff0c42d1e",
+                "8c0c28be-ec98-4f12-a273-92eb20c4db9d"
+              ],
+              "in": true,
+              "label": "❯"
+            },
+            {
+              "id": "69121cb3-91a5-4a35-9fd5-7bb4b5fc7103",
+              "type": "default",
+              "x": 126.67187681107359,
+              "y": 600.0000419318781,
+              "name": "out-1654752709937",
+              "alignment": "right",
+              "parentNode": "37362e9f-43b7-4a9b-b981-18a2946287b6",
+              "links": [
+                "121d6910-6aca-48f2-be45-19b9f3d14788"
+              ],
+              "in": false,
+              "label": "❯"
+            },
+            {
+              "id": "42cc6915-9f30-4630-8d49-3b6cd155313a",
+              "type": "default",
+              "x": 126.67187681107359,
+              "y": 636.000026673089,
+              "name": "out-1654752714127",
+              "alignment": "right",
+              "parentNode": "37362e9f-43b7-4a9b-b981-18a2946287b6",
+              "links": [
+                "de347e7c-0056-4041-9d4b-b7822720804e"
+              ],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Select an option.",
+          "color": "#0756b1",
+          "portsInOrder": [
+            "7f159623-1dea-45c3-adae-de5206091f93"
+          ],
+          "portsOutOrder": [
+            "69121cb3-91a5-4a35-9fd5-7bb4b5fc7103",
+            "42cc6915-9f30-4630-8d49-3b6cd155313a"
+          ],
+          "options": [
+            {
+              "conditions": [
+                ""
+              ],
+              "args": [],
+              "text": "Can I go on the quest?"
+            },
+            {
+              "conditions": [
+                ""
+              ],
+              "args": [],
+              "text": "Ok thanks."
+            }
+          ]
+        },
+        "07d16200-d8b9-4791-bcf0-74fdae340d01": {
+          "id": "07d16200-d8b9-4791-bcf0-74fdae340d01",
+          "type": "dialogue",
+          "selected": false,
+          "x": -539,
+          "y": 694,
+          "ports": [
+            {
+              "id": "e4ffa0f1-cf69-4ff0-9033-7a4d021c4806",
+              "type": "default",
+              "x": -551.9999981889263,
+              "y": 724.9999656379327,
+              "name": "in-1654752659358 ",
+              "alignment": "left",
+              "parentNode": "07d16200-d8b9-4791-bcf0-74fdae340d01",
+              "links": [
+                "121d6910-6aca-48f2-be45-19b9f3d14788"
+              ],
+              "in": true,
+              "label": "❯"
+            },
+            {
+              "id": "121a8e8f-be46-46bd-a9cc-f91829b7b344",
+              "type": "default",
+              "x": -317.82813081832086,
+              "y": 724.9999656379327,
+              "name": "out-1654752659358",
+              "alignment": "right",
+              "parentNode": "07d16200-d8b9-4791-bcf0-74fdae340d01",
+              "links": [
+                "1f4909bc-f89a-4d96-a369-05fedff24c8c"
+              ],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "<player>",
+          "color": "#dd341e",
+          "portsInOrder": [
+            "e4ffa0f1-cf69-4ff0-9033-7a4d021c4806"
+          ],
+          "portsOutOrder": [
+            "121a8e8f-be46-46bd-a9cc-f91829b7b344"
+          ],
+          "text": "Can I go on the quest?"
+        },
+        "66ea75b7-ee16-4275-b1bd-6d3fd4b16ab9": {
+          "id": "66ea75b7-ee16-4275-b1bd-6d3fd4b16ab9",
+          "type": "dialogue",
+          "selected": false,
+          "x": -556.4426229508197,
+          "y": 772.327868852459,
+          "ports": [
+            {
+              "id": "cdfb2ab5-687a-4259-b84c-5ca581f6a4e5",
+              "type": "default",
+              "x": -569.4375134477153,
+              "y": 803.3124961555109,
+              "name": "in-1654752618416 ",
+              "alignment": "left",
+              "parentNode": "66ea75b7-ee16-4275-b1bd-6d3fd4b16ab9",
+              "links": [
+                "1f4909bc-f89a-4d96-a369-05fedff24c8c"
+              ],
+              "in": true,
+              "label": "❯"
+            },
+            {
+              "id": "37ac0c88-d5ce-4db1-afa9-c7a47e9441fc",
+              "type": "default",
+              "x": -78.76562128157774,
+              "y": 803.3124961555109,
+              "name": "out-1654752618416",
+              "alignment": "right",
+              "parentNode": "66ea75b7-ee16-4275-b1bd-6d3fd4b16ab9",
+              "links": [
+                "8758ccd3-a052-49a4-a237-80ab781e6c08"
+              ],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Legends guard",
+          "color": "#dd341e",
+          "portsInOrder": [
+            "cdfb2ab5-687a-4259-b84c-5ca581f6a4e5"
+          ],
+          "portsOutOrder": [
+            "37ac0c88-d5ce-4db1-afa9-c7a47e9441fc"
+          ],
+          "text": "I'm very sorry but you need to complete more quests\nbefore you can go on this quest. Additionally you need\nto gain <point> more quest points. They don't call it the\nLegends Guild for nothing you know!"
+        },
+        "5e493885-929b-49c3-9b73-8857f2e0a863": {
+          "id": "5e493885-929b-49c3-9b73-8857f2e0a863",
+          "type": "note",
+          "selected": false,
+          "x": -813.4928801290689,
+          "y": 798.0796864200495,
+          "ports": [],
+          "title": "Required",
+          "color": "#19e0e7",
+          "portsInOrder": [],
+          "portsOutOrder": [],
+          "text": "Variable for quest points"
+        },
+        "feb68834-f3ea-49f1-a342-213c29976bc2": {
+          "id": "feb68834-f3ea-49f1-a342-213c29976bc2",
+          "type": "option",
+          "selected": false,
+          "x": -557.8724837096323,
+          "y": 915.8932140049963,
+          "ports": [
+            {
+              "id": "7710809e-5a6f-4d7c-a1fe-581940b548e4",
+              "type": "default",
+              "x": -570.8593655595317,
+              "y": 946.8906058967218,
+              "name": "in-1654752815212 ",
+              "alignment": "left",
+              "parentNode": "feb68834-f3ea-49f1-a342-213c29976bc2",
+              "links": [
+                "8758ccd3-a052-49a4-a237-80ab781e6c08"
+              ],
+              "in": true,
+              "label": "❯"
+            },
+            {
+              "id": "644932b9-9fbd-4712-96ef-fdf4e98df70b",
+              "type": "default",
+              "x": -186.8125058183209,
+              "y": 955.8906211555109,
+              "name": "out-1654752815212",
+              "alignment": "right",
+              "parentNode": "feb68834-f3ea-49f1-a342-213c29976bc2",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            },
+            {
+              "id": "f750d447-e7f0-4eb0-b75a-2c168ab35c24",
+              "type": "default",
+              "x": -186.8125058183209,
+              "y": 991.8906058967218,
+              "name": "out-1654752821806",
+              "alignment": "right",
+              "parentNode": "feb68834-f3ea-49f1-a342-213c29976bc2",
+              "links": [
+                "be316510-ff97-45cf-a227-902601d002f4"
+              ],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Select an option.",
+          "color": "#0756b1",
+          "portsInOrder": [
+            "7710809e-5a6f-4d7c-a1fe-581940b548e4"
+          ],
+          "portsOutOrder": [
+            "644932b9-9fbd-4712-96ef-fdf4e98df70b",
+            "f750d447-e7f0-4eb0-b75a-2c168ab35c24"
+          ],
+          "options": [
+            {
+              "conditions": [
+                ""
+              ],
+              "args": [],
+              "text": "Which quests do I need to complete?"
+            },
+            {
+              "conditions": [
+                ""
+              ],
+              "args": [],
+              "text": "Ok thanks."
+            }
+          ]
+        },
+        "1feca73c-cdc5-47f7-8380-3c5f30bf2081": {
+          "id": "1feca73c-cdc5-47f7-8380-3c5f30bf2081",
+          "type": "dialogue",
+          "selected": false,
+          "x": 130.59183673469386,
+          "y": 811.3469387755102,
+          "ports": [
+            {
+              "id": "49f30be9-555e-43b2-99a2-8a5b3b85adaf",
+              "type": "default",
+              "x": 117.57813444046812,
+              "y": 842.3437156379327,
+              "name": "in-1654752659358 ",
+              "alignment": "left",
+              "parentNode": "1feca73c-cdc5-47f7-8380-3c5f30bf2081",
+              "links": [
+                "de347e7c-0056-4041-9d4b-b7822720804e",
+                "be316510-ff97-45cf-a227-902601d002f4"
+              ],
+              "in": true,
+              "label": "❯"
+            },
+            {
+              "id": "676885b0-1a6c-480d-9361-790e7c9c24fa",
+              "type": "default",
+              "x": 271.12500181107356,
+              "y": 842.3437156379327,
+              "name": "out-1654752659358",
+              "alignment": "right",
+              "parentNode": "1feca73c-cdc5-47f7-8380-3c5f30bf2081",
+              "links": [
+                "018a751a-86b3-482a-af9f-2de52afdddc8"
+              ],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "<player>",
+          "color": "#dd341e",
+          "portsInOrder": [
+            "49f30be9-555e-43b2-99a2-8a5b3b85adaf"
+          ],
+          "portsOutOrder": [
+            "676885b0-1a6c-480d-9361-790e7c9c24fa"
+          ],
+          "text": "Ok, thanks."
+        },
+        "57711266-ef43-4f2b-9467-08b95cc07b47": {
+          "id": "57711266-ef43-4f2b-9467-08b95cc07b47",
+          "type": "dialogue",
+          "selected": false,
+          "x": 116.82268317162925,
+          "y": 888.4503178320508,
+          "ports": [
+            {
+              "id": "34b90f97-9266-4f6e-8f6b-0408764a9c75",
+              "type": "default",
+              "x": 103.81249418167906,
+              "y": 919.437526673089,
+              "name": "in-1654752618416 ",
+              "alignment": "left",
+              "parentNode": "57711266-ef43-4f2b-9467-08b95cc07b47",
+              "links": [
+                "018a751a-86b3-482a-af9f-2de52afdddc8"
+              ],
+              "in": true,
+              "label": "❯"
+            },
+            {
+              "id": "991bb91c-0f29-42e4-99bd-0a62f74414b0",
+              "type": "default",
+              "x": 543.1875323286516,
+              "y": 919.437526673089,
+              "name": "out-1654752618416",
+              "alignment": "right",
+              "parentNode": "57711266-ef43-4f2b-9467-08b95cc07b47",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Legends guard",
+          "color": "#dd341e",
+          "portsInOrder": [
+            "34b90f97-9266-4f6e-8f6b-0408764a9c75"
+          ],
+          "portsOutOrder": [
+            "991bb91c-0f29-42e4-99bd-0a62f74414b0"
+          ],
+          "text": "That's no problem... Best of luck if you intend to\nbecome a member!"
+        },
+        "a7878fc8-f1b1-4338-b4ae-e5e67ab4dee8": {
+          "id": "a7878fc8-f1b1-4338-b4ae-e5e67ab4dee8",
+          "type": "note",
+          "selected": false,
+          "x": -895.9036961946265,
+          "y": 933.9964553015151,
+          "ports": [],
+          "title": "Note",
+          "color": "#19e0e7",
+          "portsInOrder": [],
+          "portsOutOrder": [],
+          "text": "Need dialogue for each quests required"
+        },
+        "358323f4-236d-4622-a92f-b24203752de6": {
+          "id": "358323f4-236d-4622-a92f-b24203752de6",
+          "type": "dialogue",
+          "selected": false,
+          "x": 471.3877551020407,
+          "y": 325.48979591836735,
+          "ports": [
+            {
+              "id": "ca425bc4-d464-43ca-a30f-8b0edab32f85",
+              "type": "default",
+              "x": 458.3749865522845,
+              "y": 356.48437878490546,
+              "name": "in-1654752659358 ",
+              "alignment": "left",
+              "parentNode": "358323f4-236d-4622-a92f-b24203752de6",
+              "links": [
+                "10f7c10c-456f-4fa3-b1bf-7df65765e519"
+              ],
+              "in": true,
+              "label": "❯"
+            },
+            {
+              "id": "91309087-af69-4fb7-a2bd-f9b80277ddbe",
+              "type": "default",
+              "x": 685.2187823286516,
+              "y": 356.48437878490546,
+              "name": "out-1654752659358",
+              "alignment": "right",
+              "parentNode": "358323f4-236d-4622-a92f-b24203752de6",
+              "links": [
+                "3f107943-7d06-478f-bb8e-f53a6ba2f604"
+              ],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "<player>",
+          "color": "#dd341e",
+          "portsInOrder": [
+            "ca425bc4-d464-43ca-a30f-8b0edab32f85"
+          ],
+          "portsOutOrder": [
+            "91309087-af69-4fb7-a2bd-f9b80277ddbe"
+          ],
+          "text": "How do I get in here?"
+        },
+        "7f9af9c2-4120-4672-bae4-32bab6740852": {
+          "id": "7f9af9c2-4120-4672-bae4-32bab6740852",
+          "type": "dialogue",
+          "selected": false,
+          "x": 456.59183673469386,
+          "y": 401.38775510204084,
+          "ports": [
+            {
+              "id": "bc3bc216-0479-4dde-bab9-f57ec5ec4da8",
+              "type": "default",
+              "x": 443.578119181679,
+              "y": 432.3749961555109,
+              "name": "in-1654752618416 ",
+              "alignment": "left",
+              "parentNode": "7f9af9c2-4120-4672-bae4-32bab6740852",
+              "links": [
+                "3f107943-7d06-478f-bb8e-f53a6ba2f604"
+              ],
+              "in": true,
+              "label": "❯"
+            },
+            {
+              "id": "572ede38-1539-4964-bad4-726949843a19",
+              "type": "default",
+              "x": 897.6093768110735,
+              "y": 432.3749961555109,
+              "name": "out-1654752618416",
+              "alignment": "right",
+              "parentNode": "7f9af9c2-4120-4672-bae4-32bab6740852",
+              "links": [
+                "afa9b58b-f9be-4022-896f-aec68047815a"
+              ],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Legends guard",
+          "color": "#dd341e",
+          "portsInOrder": [
+            "bc3bc216-0479-4dde-bab9-f57ec5ec4da8"
+          ],
+          "portsOutOrder": [
+            "572ede38-1539-4964-bad4-726949843a19"
+          ],
+          "text": "Well ma'am, you'll need to be a legendary citizen of\nGielinor."
+        },
+        "d1e46a2d-e7e2-4449-9156-1c35afada319": {
+          "id": "d1e46a2d-e7e2-4449-9156-1c35afada319",
+          "type": "dialogue",
+          "selected": false,
+          "x": 461.2857142857143,
+          "y": 480.7755102040817,
+          "ports": [
+            {
+              "id": "e608c44c-c1a0-46fb-b2dd-2e8f9f4026f1",
+              "type": "default",
+              "x": 448.28122129349543,
+              "y": 511.7656364143,
+              "name": "in-1654752618416 ",
+              "alignment": "left",
+              "parentNode": "d1e46a2d-e7e2-4449-9156-1c35afada319",
+              "links": [
+                "afa9b58b-f9be-4022-896f-aec68047815a"
+              ],
+              "in": true,
+              "label": "❯"
+            },
+            {
+              "id": "c6a3f376-fe61-49c8-a819-8e41a2b71a10",
+              "type": "default",
+              "x": 916.9687365522844,
+              "y": 511.7656364143,
+              "name": "out-1654752618416",
+              "alignment": "right",
+              "parentNode": "d1e46a2d-e7e2-4449-9156-1c35afada319",
+              "links": [
+                "2739af97-fcd4-4481-ab54-34541a7afd2b"
+              ],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Legends guard",
+          "color": "#dd341e",
+          "portsInOrder": [
+            "e608c44c-c1a0-46fb-b2dd-2e8f9f4026f1"
+          ],
+          "portsOutOrder": [
+            "c6a3f376-fe61-49c8-a819-8e41a2b71a10"
+          ],
+          "text": "If you want to use the Legends Hall, you'll be invited\nto complete a quest. Once you have completed that\nquest, you'll be a fully fledged member of the Guild"
+        },
+        "c2af1774-6d83-4584-beb8-7823ad9d5c89": {
+          "id": "c2af1774-6d83-4584-beb8-7823ad9d5c89",
+          "type": "option",
+          "selected": false,
+          "x": 977.8877551020407,
+          "y": 107.7091836734694,
+          "ports": [
+            {
+              "id": "076ea4b2-dbfd-4e53-97c8-7b8a6c876c67",
+              "type": "default",
+              "x": 964.8750018110734,
+              "y": 138.70312115551098,
+              "name": "in-1654752633083 ",
+              "alignment": "left",
+              "parentNode": "c2af1774-6d83-4584-beb8-7823ad9d5c89",
+              "links": [
+                "2739af97-fcd4-4481-ab54-34541a7afd2b"
+              ],
+              "in": true,
+              "label": "❯"
+            },
+            {
+              "id": "e5a9cc2a-5b2a-4969-baf7-692554c78bbd",
+              "type": "default",
+              "x": 1334.0781878462292,
+              "y": 147.70311734081372,
+              "name": "out-1654752633084",
+              "alignment": "right",
+              "parentNode": "c2af1774-6d83-4584-beb8-7823ad9d5c89",
+              "links": [
+                "41ae0e3c-a54e-4f3e-a242-40e71a807ddb"
+              ],
+              "in": false,
+              "label": "❯"
+            },
+            {
+              "id": "ee801dcb-4e07-4243-aaf3-e8150f5b21a3",
+              "type": "default",
+              "x": 1334.093751811073,
+              "y": 183.70312115551098,
+              "name": "out-1654752637552",
+              "alignment": "right",
+              "parentNode": "c2af1774-6d83-4584-beb8-7823ad9d5c89",
+              "links": [
+                "9e624e05-2903-4542-9fad-443d5c28f5b9"
+              ],
+              "in": false,
+              "label": "❯"
+            },
+            {
+              "id": "9902d191-9c04-46dc-998d-adad866fb3de",
+              "type": "default",
+              "x": 1334.0781878462292,
+              "y": 219.70310589672192,
+              "name": "out-1654752637702",
+              "alignment": "right",
+              "parentNode": "c2af1774-6d83-4584-beb8-7823ad9d5c89",
+              "links": [
+                "9cdc06b3-b976-44f2-8850-6757999bf62c"
+              ],
+              "in": false,
+              "label": "❯"
+            },
+            {
+              "id": "a5770508-d8d5-4acd-b926-c9fa1e84359e",
+              "type": "default",
+              "x": 822.2541382282054,
+              "y": 255.70917652281736,
+              "name": "out-1654752646091",
+              "alignment": "right",
+              "parentNode": "c2af1774-6d83-4584-beb8-7823ad9d5c89",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Select an option.",
+          "color": "#0756b1",
+          "portsInOrder": [
+            "076ea4b2-dbfd-4e53-97c8-7b8a6c876c67"
+          ],
+          "portsOutOrder": [
+            "e5a9cc2a-5b2a-4969-baf7-692554c78bbd",
+            "ee801dcb-4e07-4243-aaf3-e8150f5b21a3",
+            "9902d191-9c04-46dc-998d-adad866fb3de",
+            "a5770508-d8d5-4acd-b926-c9fa1e84359e"
+          ],
+          "options": [
+            {
+              "conditions": [
+                ""
+              ],
+              "args": [],
+              "text": "What is this place?"
+            },
+            {
+              "conditions": [
+                ""
+              ],
+              "args": [],
+              "text": "Can I speak to someone in charge?"
+            },
+            {
+              "conditions": [
+                ""
+              ],
+              "args": [],
+              "text": "It's ok thanks."
+            }
+          ]
+        },
+        "11ea26ef-7aa1-491f-8d06-746075c3fbb9": {
+          "id": "11ea26ef-7aa1-491f-8d06-746075c3fbb9",
+          "type": "dialogue",
+          "selected": false,
+          "x": 1090.1377551020405,
+          "y": 310.48979591836735,
+          "ports": [
+            {
+              "id": "d123e6d2-44ae-4547-8a1f-a0b3cd95b31a",
+              "type": "default",
+              "x": 1074.6249865522846,
+              "y": 341.4843787849055,
+              "name": "in-1654752659358 ",
+              "alignment": "left",
+              "parentNode": "11ea26ef-7aa1-491f-8d06-746075c3fbb9",
+              "links": [
+                "12dbd89b-de75-41c0-90d9-3c0397b839cf",
+                "9e624e05-2903-4542-9fad-443d5c28f5b9"
+              ],
+              "in": true,
+              "label": "❯"
+            },
+            {
+              "id": "14772440-4a2a-4f25-9bf6-8715274f8324",
+              "type": "default",
+              "x": 1389.4062518110736,
+              "y": 341.4843787849055,
+              "name": "out-1654752659358",
+              "alignment": "right",
+              "parentNode": "11ea26ef-7aa1-491f-8d06-746075c3fbb9",
+              "links": [
+                "435a2718-c198-4280-b088-2dfe4f5e5bd6"
+              ],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "<player>",
+          "color": "#dd341e",
+          "portsInOrder": [
+            "d123e6d2-44ae-4547-8a1f-a0b3cd95b31a"
+          ],
+          "portsOutOrder": [
+            "14772440-4a2a-4f25-9bf6-8715274f8324"
+          ],
+          "text": "Can I speak to someone in charge?"
+        },
+        "039fc10d-1bb2-445e-9e40-5825449d3d9f": {
+          "id": "039fc10d-1bb2-445e-9e40-5825449d3d9f",
+          "type": "dialogue",
+          "selected": false,
+          "x": 1092.8418367346937,
+          "y": 392.63775510204084,
+          "ports": [
+            {
+              "id": "c835ebde-7b3f-4eb0-9fad-3fcfd3772444",
+              "type": "default",
+              "x": 1079.8281573286515,
+              "y": 423.624996155511,
+              "name": "in-1654752618416 ",
+              "alignment": "left",
+              "parentNode": "039fc10d-1bb2-445e-9e40-5825449d3d9f",
+              "links": [
+                "435a2718-c198-4280-b088-2dfe4f5e5bd6"
+              ],
+              "in": true,
+              "label": "❯"
+            },
+            {
+              "id": "ccce410c-e853-4fe3-a2f8-ae01698d6fa6",
+              "type": "default",
+              "x": 1526.5311907759171,
+              "y": 423.624996155511,
+              "name": "out-1654752618416",
+              "alignment": "right",
+              "parentNode": "039fc10d-1bb2-445e-9e40-5825449d3d9f",
+              "links": [
+                "8c0c28be-ec98-4f12-a273-92eb20c4db9d"
+              ],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Legends guard",
+          "color": "#dd341e",
+          "portsInOrder": [
+            "c835ebde-7b3f-4eb0-9fad-3fcfd3772444"
+          ],
+          "portsOutOrder": [
+            "ccce410c-e853-4fe3-a2f8-ae01698d6fa6"
+          ],
+          "text": "Well, Radimus Erkle is the Grand Vizier of the\nLegends Guild. He's a very busy man. And he'll only\ntalk to those people eligible for the quest."
+        },
+        "2c37892f-e921-4b7b-bdf1-eb7564c9be60": {
+          "id": "2c37892f-e921-4b7b-bdf1-eb7564c9be60",
+          "type": "dialogue",
+          "selected": false,
+          "x": 825.1377551020407,
+          "y": 671.7397959183672,
+          "ports": [
+            {
+              "id": "afd92c9e-f3be-4811-8da5-595de5ac3d9b",
+              "type": "default",
+              "x": 812.1249102583391,
+              "y": 702.7344169318781,
+              "name": "in-1654752659358 ",
+              "alignment": "left",
+              "parentNode": "2c37892f-e921-4b7b-bdf1-eb7564c9be60",
+              "links": [
+                "cbc4f0d4-c7fb-4a31-b8d9-ddecba1769a2",
+                "9cdc06b3-b976-44f2-8850-6757999bf62c"
+              ],
+              "in": true,
+              "label": "❯"
+            },
+            {
+              "id": "cadae21f-c48b-4202-9ad4-a76a6c953864",
+              "type": "default",
+              "x": 994.9844073286516,
+              "y": 702.7344169318781,
+              "name": "out-1654752659358",
+              "alignment": "right",
+              "parentNode": "2c37892f-e921-4b7b-bdf1-eb7564c9be60",
+              "links": [
+                "ce50afdd-a5e4-4364-a682-cf01fe7a4d1c"
+              ],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "<player>",
+          "color": "#dd341e",
+          "portsInOrder": [
+            "afd92c9e-f3be-4811-8da5-595de5ac3d9b"
+          ],
+          "portsOutOrder": [
+            "cadae21f-c48b-4202-9ad4-a76a6c953864"
+          ],
+          "text": "It's ok thanks."
+        },
+        "536967b0-bc3f-491c-9c44-028e0aef61f7": {
+          "id": "536967b0-bc3f-491c-9c44-028e0aef61f7",
+          "type": "dialogue",
+          "selected": false,
+          "x": 822.8418367346937,
+          "y": 755.1377551020407,
+          "ports": [
+            {
+              "id": "b4c072b4-f0b5-49de-986f-4d63e0dc40c9",
+              "type": "default",
+              "x": 809.8281573286516,
+              "y": 786.1249961555109,
+              "name": "in-1654752618416 ",
+              "alignment": "left",
+              "parentNode": "536967b0-bc3f-491c-9c44-028e0aef61f7",
+              "links": [
+                "ce50afdd-a5e4-4364-a682-cf01fe7a4d1c"
+              ],
+              "in": true,
+              "label": "❯"
+            },
+            {
+              "id": "5c53a087-5912-4b04-a2e2-6215daa804d3",
+              "type": "default",
+              "x": 956.0468768110735,
+              "y": 786.1249961555109,
+              "name": "out-1654752618416",
+              "alignment": "right",
+              "parentNode": "536967b0-bc3f-491c-9c44-028e0aef61f7",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Legends guard",
+          "color": "#dd341e",
+          "portsInOrder": [
+            "b4c072b4-f0b5-49de-986f-4d63e0dc40c9"
+          ],
+          "portsOutOrder": [
+            "5c53a087-5912-4b04-a2e2-6215daa804d3"
+          ],
+          "text": "Very well!"
+        }
+      }
+    }
+  ]
+}
