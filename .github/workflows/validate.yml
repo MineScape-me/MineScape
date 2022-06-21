@@ -1,0 +1,14 @@
+name: Pull request workflow
+on:
+  pull_request:
+    branches: [ main ]
+jobs:
+  validate_jsons:
+    name: Validate jsons
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: json-syntax-check
+        uses: limitusus/json-syntax-check@v1
+        with:
+          pattern: "\\.json$"
