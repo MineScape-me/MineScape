@@ -9136,7 +9136,7 @@ const checkConditions = function(tree, obj, type){
         if (condition.length > 0 && condition !== "") {
             const cond = getCondition(condition);
             if(cond == undefined){
-                state.issues += `\n${tree} ${type} invalid condition: ${id} - ${index}\n${JSON.stringify(obj)}`;
+                state.issues += `\n${tree} ${type} invalid condition at ${index}\n${JSON.stringify(obj)}`;
                 continue;
             }
             if (
@@ -9144,12 +9144,12 @@ const checkConditions = function(tree, obj, type){
                 !Array.isArray(obj.args[index]) ||
                 obj.args[index].length !== cond.variables.length
             ) {
-                state.issues += `\n${tree} ${type} invalid argument lengths: ${id} - ${index}\n${JSON.stringify(obj)}`;
+                state.issues += `\n${tree} ${type} invalid argument lengths at ${index}\n${JSON.stringify(obj)}`;
                 continue;
             }
             const valid = isArgumentsValid(cond.variables, obj.args[index]);
             if (valid !== true) {
-                state.issues += `\n${tree} ${type} invalid arguments: ${id} - ${valid}\n${JSON.stringify(obj)}`;
+                state.issues += `\n${tree} ${type} invalid arguments at ${valid}\n${JSON.stringify(obj)}`;
                 continue;
             }
             state.conditions += `\n${tree} ${type} - ${condition} ${obj.args[index].join(" ")}`;
@@ -9162,7 +9162,7 @@ const checkActions = function(tree, obj, type){
         if (action.length > 0 && action !== "") {
             const act = getAction(action);
             if(act == undefined){
-                state.issues += `\n${tree} ${type} invalid argument: ${id} - ${index}\n${JSON.stringify(obj)}`;
+                state.issues += `\n${tree} ${type} invalid argument at ${index}\n${JSON.stringify(obj)}`;
                 continue;
             }
             if (
@@ -9170,12 +9170,12 @@ const checkActions = function(tree, obj, type){
                 !Array.isArray(obj.args[index]) ||
                 obj.args[index].length !== act.variables.length
             ) {
-                state.issues += `\n${tree} ${type} invalid argument lengths: ${id} - ${index}\n${JSON.stringify(obj)}`;
+                state.issues += `\n${tree} ${type} invalid argument lengths at ${index}\n${JSON.stringify(obj)}`;
                 continue;
             }
             const valid = isArgumentsValid(act.variables, obj.args[index]);
             if (valid !== true) {
-                state.issues += `\n${tree} ${type} invalid arguments: ${id} - ${valid}\n${JSON.stringify(obj)}`;
+                state.issues += `\n${tree} ${type} invalid arguments at ${valid}\n${JSON.stringify(obj)}`;
                 continue;
             }
             state.actions += `\n${tree} ${type} - ${action} ${obj.args[index].join(" ")}`;
