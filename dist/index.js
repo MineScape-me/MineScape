@@ -9036,7 +9036,6 @@ const getVars = function () {
 			}
 		}
 	});
-    console.log(vars);
 	return vars;
 };
 
@@ -9056,8 +9055,10 @@ const getCondition = function (conditionKey) {
 	if (conditionKey === "") {
 		return undefined;
 	}
-    console.log(state.vars);
+    core.info(state.vars);
+    core.info(state.vars.conditions);
 	for (const condition of state.vars.conditions) {
+        core.info(condition);
 		if (condition.condition === conditionKey) {
 			return condition;
 		}
