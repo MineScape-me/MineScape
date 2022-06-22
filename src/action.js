@@ -43,7 +43,8 @@ async function run() {
 
 		let sources = [];
 
-		getAllFiles("./dialogue-maker/src/sources/").forEach((file) => {
+		const sourceFiles = getAllFiles("./dialogue-maker/src/sources/");
+        sourceFiles.forEach((file) => {
 			if (file.endsWith(".json")) {
 				const { name } = path.parse(file);
 				const value = JSON.parse(fs.readFileSync(homedir + file));
