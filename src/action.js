@@ -86,8 +86,6 @@ const isArgumentsValid = function (vars, args) {
 	for (const [index, v] of vars.entries()) {
 		const { type, notRequired } = v;
 		const value = args[index];
-        core.info(JSON.stringify(v));
-        core.info(JSON.stringify(value));
 		switch (type) {
 			case "list": {
                 const argument = vars[index].source;
@@ -96,20 +94,16 @@ const isArgumentsValid = function (vars, args) {
 					const number = Number(matches[1]);
 					argument = argument.replace(matches[1], args[index + number]);
 				}
-                core.info(value);
-                core.info(argument);
                 if(!(argument in state.sources)){
                     return `${argument} is not a source`;
                 }
-                core.info(state.sources[argument]);
-                core.info(state.sources[argument].includes(value));
 				if (state.sources[argument].includes(value)) {
 					continue;
 				}
 				return notRequired || `${value} is not in source ${argument}`;
 			}
 			case "number": {
-				if (typeof value === "number") {
+				if (!isNaN(value)) {
 					continue;
 				}
 				return notRequired || `${value} is not a number`;
@@ -215,10 +209,6 @@ const checkDialogue = function (tree, data) {
         return;
     }
 	Object.entries(nodes).forEach(([id, node]) => {
-        core.info(id);
-        core.info(JSON.stringify(node));
-        //core.info(JSON.stringify(node));
-        //core.info(node.type);
 		switch (node.type) {
 			case "option": {
 				checkOptionNode(tree, id, node);
