@@ -9079,6 +9079,9 @@ const isArgumentsValid = function (vars, args) {
 					const number = Number(matches[1]);
 					argument = argument.replace(matches[1], args[index + number]);
 				}
+                if(!(argument in state.sources)){
+                    return `${argument} is not a source`;
+                }
 				if (value in state.sources[argument]) {
 					continue;
 				}
@@ -9231,7 +9234,6 @@ async function run() {
 		core.info(JSON.stringify(files));
 
 		state.sources = getSources();
-        core.info(JSON.stringify(state.sources));
 		state.vars = getVars();
 
 		for (var file of files) {
