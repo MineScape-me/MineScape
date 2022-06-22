@@ -194,7 +194,7 @@ const checkDialogue = function (tree, data) {
 	}
 	const nodes = data.layers[1];
     core.info(typeof nodes);
-	Object.entries(nodes).forEach(([id, node]) => {
+    for(const [id, node] of Object.entries(nodes)){
         core.info(id);
         core.info(JSON.stringify(node));
         //core.info(JSON.stringify(node));
@@ -213,7 +213,7 @@ const checkDialogue = function (tree, data) {
                 break;
 			}
 		}
-	});
+	};
 };
 
 async function run() {
