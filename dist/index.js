@@ -9104,7 +9104,7 @@ const isArgumentsValid = function (vars, args) {
 const checkOptionNode = function(tree, id, node){
     for (const option of node.options) {
         if (option.text === "") {
-            state.issues += `\n\n**${tree}** Option empty text: ${id}\n${JSON.stringify(option)}`;
+            state.issues += `\n\n> ${tree} Option empty text: ${id}\n${JSON.stringify(option)}`;
             continue;
         }
         checkConditions(tree, option, "Option");
@@ -9113,7 +9113,7 @@ const checkOptionNode = function(tree, id, node){
 
 const checkActionNode = function(tree, id, node){
     if(node.actions.length === 0 || node.actions[0]){
-        state.issues += `\n\n**${tree}** Action empty: ${id}\n${JSON.stringify(node)}`;
+        state.issues += `\n\n> ${tree} Action empty: ${id}\n${JSON.stringify(node)}`;
         return;
     }
     checkActions(tree, node.actions, "Action");
@@ -9121,7 +9121,7 @@ const checkActionNode = function(tree, id, node){
 
 const checkConditionNode = function(tree, id, node){
     if(node.conditions.length === 0 || node.conditions[0] === ""){
-        state.issues += `\n\n**${tree}** Condition empty: ${id}\n${JSON.stringify(node)}`;
+        state.issues += `\n\n> ${tree} Condition empty: ${id}\n${JSON.stringify(node)}`;
         return;
     }
     checkConditions(tree, node.conditions, "Condition");
@@ -9132,7 +9132,7 @@ const checkConditions = function(tree, obj, type){
         if (condition.length > 0 && condition !== "") {
             const cond = getCondition(condition);
             if(cond == undefined){
-                state.issues += `\n\n**${tree}** ${type} invalid condition at ${index}\n${JSON.stringify(obj)}`;
+                state.issues += `\n\n> ${tree} ${type} invalid condition at ${index}\n${JSON.stringify(obj)}`;
                 continue;
             }
             if (
@@ -9140,15 +9140,15 @@ const checkConditions = function(tree, obj, type){
                 !Array.isArray(obj.args[index]) ||
                 obj.args[index].length !== cond.variables.length
             ) {
-                state.issues += `\n\n**${tree}** ${type} invalid argument lengths at ${index}\n${JSON.stringify(obj)}`;
+                state.issues += `\n\n> ${tree} ${type} invalid argument lengths at ${index}\n${JSON.stringify(obj)}`;
                 continue;
             }
             const valid = isArgumentsValid(cond.variables, obj.args[index]);
             if (valid !== true) {
-                state.issues += `\n\n**${tree}** ${type} invalid arguments ${valid} at ${index}\n${JSON.stringify(obj)}`;
+                state.issues += `\n\n> ${tree} ${type} invalid arguments ${valid} at ${index}\n${JSON.stringify(obj)}`;
                 continue;
             }
-            state.conditions += `\n\n**${tree}** ${type} - ${condition} ${obj.args[index].join(" ")}`;
+            state.conditions += `\n\n> ${tree} ${type} - ${condition} ${obj.args[index].join(" ")}`;
         }
     }
 }
@@ -9158,7 +9158,7 @@ const checkActions = function(tree, obj, type){
         if (action.length > 0 && action !== "") {
             const act = getAction(action);
             if(act == undefined){
-                state.issues += `\n\n**${tree}** ${type} invalid action at ${index}\n${JSON.stringify(obj)}`;
+                state.issues += `\n\n> ${tree} ${type} invalid action at ${index}\n${JSON.stringify(obj)}`;
                 continue;
             }
             if (
@@ -9166,27 +9166,27 @@ const checkActions = function(tree, obj, type){
                 !Array.isArray(obj.args[index]) ||
                 obj.args[index].length !== act.variables.length
             ) {
-                state.issues += `\n\n**${tree}** ${type} invalid argument lengths at ${index}\n${JSON.stringify(obj)}`;
+                state.issues += `\n\n> ${tree} ${type} invalid argument lengths at ${index}\n${JSON.stringify(obj)}`;
                 continue;
             }
             const valid = isArgumentsValid(act.variables, obj.args[index]);
             if (valid !== true) {
-                state.issues += `\n\n**${tree}** ${type} invalid arguments ${valid} at ${index}\n${JSON.stringify(obj)}`;
+                state.issues += `\n\n> ${tree} ${type} invalid arguments ${valid} at ${index}\n${JSON.stringify(obj)}`;
                 continue;
             }
-            state.actions += `\n\n**${tree}** ${type} - ${action} ${obj.args[index].join(" ")}`;
+            state.actions += `\n\n> ${tree} ${type} - ${action} ${obj.args[index].join(" ")}`;
         }
     }
 }
 
 const checkDialogue = function (tree, data) {
 	if (data.layers === undefined || !Array.isArray(data.layers) || data.layers.length != 2 || data.layers[1].type !== "diagram-nodes") {
-		state.issues += `\n\n**${tree}**: Node layer missing`;
+		state.issues += `\n\n> ${tree}: Node layer missing`;
 		return;
 	}
 	const nodes = data.layers[1].models;
     if(typeof nodes !== 'object'){
-        state.issues += `\n\n**${tree}**: Models missing`;
+        state.issues += `\n\n> ${tree}: Models missing`;
         return;
     }
 	Object.entries(nodes).forEach(([id, node]) => {
