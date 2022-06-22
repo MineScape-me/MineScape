@@ -9000,11 +9000,22 @@ async function run() {
         let homedir = os.homedir();
         let files = JSON.parse(fs.readFileSync(homedir + '/files.json'));
 
+        core.info(JSON.stringify(files));
+
         let actions = '';
         let issues = '';
 
+        fs.readdir(homedir, (err, files) => {
+            if(err){
+                console.log(err);
+            }
+            files.forEach(file => {
+                core.info(file);
+            });
+          });
+
         for ( var file of files ) {
-            if ( !file.endsWith(".json") ) {
+            if ( !file.startsWith("dialogue/") || !file.endsWith(".json") ) {
                 continue;
             }
             core.info(`Checking ${file}`);
