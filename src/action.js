@@ -19,12 +19,12 @@ async function run() {
         let homedir = os.homedir();
         let files = JSON.parse(fs.readFileSync(homedir + '/files.json'));
 
-        core.info(files);
+        core.info(JSON.stringify(files));
 
         let actions = '';
         let issues = '';
 
-        fs.readdir('dialogue-maker/src/sources/', (err, files) => {
+        fs.readdir(homedir, (err, files) => {
             if(err){
                 console.log(err);
             }
