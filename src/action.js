@@ -2,6 +2,7 @@ const core = require('@actions/core');
 const github = require('@actions/github');
 const os = require('os');
 const fs = require('fs');
+const path = require("path");
 
 const getAllFiles = function(dirPath, arrayOfFiles) {
     files = fs.readdirSync(dirPath)

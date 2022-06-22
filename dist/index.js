@@ -8983,6 +8983,7 @@ const core = __webpack_require__(470);
 const github = __webpack_require__(469);
 const os = __webpack_require__(87);
 const fs = __webpack_require__(747);
+const path = __webpack_require__(622);
 
 const getAllFiles = function(dirPath, arrayOfFiles) {
     files = fs.readdirSync(dirPath)
