@@ -9073,6 +9073,7 @@ const isArgumentsValid = function (vars, args) {
 			case "list": {
                 const argument = vars[index].source;
                 core.info(argument);
+                core.info(state.sources[argument]);
 				var matches = /\[(.*?)\]/.exec(argument);
 				if (matches) {
 					const number = Number(matches[1]);
