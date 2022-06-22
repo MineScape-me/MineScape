@@ -9043,7 +9043,7 @@ const getAction = function (actionKey) {
 	if (actionKey === "") {
 		return undefined;
 	}
-	for (const action of state.actions) {
+	for (const action of state.vars.actions) {
 		if (action.action === actionKey) {
 			return action;
 		}
@@ -9055,7 +9055,7 @@ const getCondition = function (conditionKey) {
 	if (conditionKey === "") {
 		return undefined;
 	}
-	for (const condition of state.conditions) {
+	for (const condition of state.vars.conditions) {
 		if (condition.condition === conditionKey) {
 			return condition;
 		}
@@ -9128,6 +9128,10 @@ const checkConditions = function(tree, obj, type){
     for (const [index, condition] of obj.conditions.entries()) {
         if (condition.length > 0 && condition !== "") {
             const cond = getCondition(condition);
+            if(cond == undefined){
+                state.issues += `\n${tree} ${type} invalid condition: ${id} - ${index}\n${JSON.stringify(obj)}`;
+                continue;
+            }
             if (
                 obj.args[index] === undefined ||
                 !Array.isArray(obj.args[index]) ||
@@ -9150,6 +9154,10 @@ const checkAction = function(tree, obj, type){
     for (const [index, action] of obj.actions.entries()) {
         if (action.length > 0 && action !== "") {
             const act = getAction(action);
+            if(act == undefined){
+                state.issues += `\n${tree} ${type} invalid argument: ${id} - ${index}\n${JSON.stringify(obj)}`;
+                continue;
+            }
             if (
                 obj.args[index] === undefined ||
                 !Array.isArray(obj.args[index]) ||
