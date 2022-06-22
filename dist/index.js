@@ -9022,7 +9022,7 @@ async function run() {
         let actions = '';
         let issues = '';
 
-        getAllFiles(homedir + "/work/").forEach(file =>{
+        getAllFiles("./").forEach(file =>{
             core.info(file);
         });
         for ( var file of files ) {
