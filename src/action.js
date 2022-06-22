@@ -194,6 +194,7 @@ const checkDialogue = function (tree, data) {
 	}
 	const nodes = data.layers[1];
 	Object.entries(nodes).forEach(([id, node]) => {
+        console.log(node);
 		switch (node.type) {
 			case "option": {
 				checkOptionNode(tree, id, node);
