@@ -9116,7 +9116,7 @@ const checkActionNode = function(tree, id, node){
         state.issues += `\nAction empty: ${id}\n${JSON.stringify(node)}`;
         return;
     }
-    checkAction(tree, action, "Action");
+    checkActions(tree, node.actions, "Action");
 }
 
 const checkConditionNode = function(tree, id, node){
@@ -9124,7 +9124,7 @@ const checkConditionNode = function(tree, id, node){
         state.issues += `\nCondition empty: ${id}\n${JSON.stringify(node)}`;
         return;
     }
-    checkConditions(tree, condition, "Condition");
+    checkConditions(tree, node.condition, "Condition");
 }
 
 const checkConditions = function(tree, obj, type){
@@ -9154,7 +9154,7 @@ const checkConditions = function(tree, obj, type){
     }
 }
 
-const checkAction = function(tree, obj, type){
+const checkActions = function(tree, obj, type){
     for (const [index, action] of obj.actions.entries()) {
         if (action.length > 0 && action !== "") {
             const act = getAction(action);
