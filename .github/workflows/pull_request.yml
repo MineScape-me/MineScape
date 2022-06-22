@@ -1,0 +1,27 @@
+name: Dialogue Checks
+
+on:
+ pull_request:
+    branches: [ main ]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    name: Dialogue Checks
+    steps:
+      - uses: actions/checkout@v3
+        with:
+          fetch-depth: 0
+      - id: file_changes
+        uses: trilom/file-changes-action@v1.2.4
+      - name: Changed Files
+        run: cat $HOME/files.json
+      - name: Checkout frontent repo
+        uses: actions/checkout@v3
+        with:
+          repository: AshleyThew/dialogue-maker
+          path: dialogue-maker
+      - name: Run Custom Action
+        uses: ./
+        with:
+          GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}

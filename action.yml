@@ -1,0 +1,12 @@
+name: "Dialogue Checks"
+description: "Check dialogues for issues"
+author: 'Ashley Thew'
+
+inputs:
+  GITHUB_TOKEN:
+    description: 'GitHub token'
+    required: true
+
+runs:
+  using: 'node12'
+  main: 'dist/index.js'
