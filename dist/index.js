@@ -8984,6 +8984,22 @@ const github = __webpack_require__(469);
 const os = __webpack_require__(87);
 const fs = __webpack_require__(747);
 
+const getAllFiles = function(dirPath, arrayOfFiles) {
+    files = fs.readdirSync(dirPath)
+  
+    arrayOfFiles = arrayOfFiles || []
+  
+    files.forEach(function(file) {
+      if (fs.statSync(dirPath + "/" + file).isDirectory()) {
+        arrayOfFiles = getAllFiles(dirPath + "/" + file, arrayOfFiles)
+      } else {
+        arrayOfFiles.push(path.join(__dirname, dirPath, "/", file))
+      }
+    })
+  
+    return arrayOfFiles
+  }
+
 async function run() {
     try {
         const GITHUB_TOKEN = core.getInput('GITHUB_TOKEN');
@@ -9005,15 +9021,9 @@ async function run() {
         let actions = '';
         let issues = '';
 
-        fs.readdir(homedir, (err, files) => {
-            if(err){
-                console.log(err);
-            }
-            files.forEach(file => {
-                core.info(file);
-            });
-          });
-
+        getAllFiles(homedir + "/work/").forEach(file =>{
+            core.info(file);
+        });
         for ( var file of files ) {
             if ( !file.startsWith("dialogue/") || !file.endsWith(".json") ) {
                 continue;
