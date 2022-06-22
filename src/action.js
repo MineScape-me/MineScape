@@ -91,6 +91,7 @@ const isArgumentsValid = function (vars, args) {
 		switch (type) {
 			case "list": {
                 const argument = vars[v];
+                core.info(argument);
 				var matches = /\[(.*?)\]/.exec(argument);
 				if (matches) {
 					const number = Number(matches[1]);
