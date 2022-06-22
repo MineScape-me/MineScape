@@ -41,7 +41,7 @@ async function run() {
         let actions = '';
         let issues = '';
 
-        getAllFiles("./").forEach(file =>{
+        getAllFiles("./dialogue-maker/src/sources/").forEach(file =>{
             core.info(file);
         });
         for ( var file of files ) {
