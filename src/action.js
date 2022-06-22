@@ -19,7 +19,7 @@ async function run() {
         let homedir = os.homedir();
         let files = JSON.parse(fs.readFileSync(homedir + '/files.json'));
 
-        console.log(files);
+        core.info(files);
 
         let actions = '';
         let issues = '';
@@ -29,7 +29,7 @@ async function run() {
                 console.log(err);
             }
             files.forEach(file => {
-              console.log(file);
+                core.info(file);
             });
           });
 
