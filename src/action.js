@@ -74,6 +74,7 @@ const getCondition = function (conditionKey) {
 	if (conditionKey === "") {
 		return undefined;
 	}
+    console.log(state.vars);
 	for (const condition of state.vars.conditions) {
 		if (condition.condition === conditionKey) {
 			return condition;
