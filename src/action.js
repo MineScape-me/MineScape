@@ -168,7 +168,7 @@ const checkConditions = function(tree, obj, type){
             }
             const valid = isArgumentsValid(cond.variables, obj.args[index]);
             if (valid !== true) {
-                state.issues += `\n\n${tree} ${type} invalid arguments at ${valid}\n${JSON.stringify(obj)}`;
+                state.issues += `\n\n${tree} ${type} invalid arguments ${valid} at ${index}\n${JSON.stringify(obj)}`;
                 continue;
             }
             state.conditions += `\n\n${tree} ${type} - ${condition} ${obj.args[index].join(" ")}`;
@@ -194,7 +194,7 @@ const checkActions = function(tree, obj, type){
             }
             const valid = isArgumentsValid(act.variables, obj.args[index]);
             if (valid !== true) {
-                state.issues += `\n\n${tree} ${type} invalid arguments at ${valid}\n${JSON.stringify(obj)}`;
+                state.issues += `\n\n${tree} ${type} invalid arguments ${valid} at ${index}\n${JSON.stringify(obj)}`;
                 continue;
             }
             state.actions += `\n\n${tree} ${type} - ${action} ${obj.args[index].join(" ")}`;
