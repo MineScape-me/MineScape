@@ -9162,7 +9162,7 @@ const checkActions = function(tree, obj, type){
         if (action.length > 0 && action !== "") {
             const act = getAction(action);
             if(act == undefined){
-                state.issues += `\n\n${tree} ${type} invalid argument at ${index}\n${JSON.stringify(obj)}`;
+                state.issues += `\n\n${tree} ${type} invalid action at ${index}\n${JSON.stringify(obj)}`;
                 continue;
             }
             if (
