@@ -304,6 +304,7 @@ async function run() {
 		if (state.issues.length > 0) {
 			message += `\n\nIssues:${state.issues}`;
 		}
+        core.info(JSON.stringify(state));
 
 		await octokit.rest.issues
 			.listComments({
