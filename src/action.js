@@ -41,7 +41,7 @@ async function run() {
 		let actions = "";
 		let issues = "";
 
-		let sources = [];
+		let sources = {};
 
 		const sourceFiles = getAllFiles("./dialogue-maker/src/sources/");
         sourceFiles.forEach((file) => {
@@ -49,11 +49,9 @@ async function run() {
 				const { name } = path.parse(file);
 				const value = JSON.parse(fs.readFileSync(file));
 				if (Array.isArray(value)) {
-                    sources.push(name);
+                    sources[name] = value;
 				} else {
-					Object.entries(value).forEach(([k]) => {
-						sources.push(k);
-					});
+                    sources = {...value, ...sources};
 				}
 			}
 			
