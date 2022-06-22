@@ -9027,7 +9027,7 @@ async function run() {
 		getAllFiles("./dialogue-maker/src/sources/").forEach((file) => {
 			if (file.endsWith(".json")) {
 				const { name } = path.parse(file);
-				const value = JSON.parse(fs.readFileSync(file));
+				const value = JSON.parse(fs.readFileSync(homedir + file));
 				if (Array.isArray(value)) {
 					value.push(name);
 				} else {
