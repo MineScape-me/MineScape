@@ -9072,22 +9072,21 @@ const isArgumentsValid = function (vars, args) {
 		switch (type) {
 			case "list": {
                 const argument = vars[index].source;
-                core.info(argument);
-                core.info(state.sources[argument]);
 				var matches = /\[(.*?)\]/.exec(argument);
 				if (matches) {
 					const number = Number(matches[1]);
 					argument = argument.replace(matches[1], args[index + number]);
 				}
-                if(!(argument in state.sources)){
+                core.info(value);
+                core.info(argument);
+                if(state.sources.includes(argument)){
                     return `${argument} is not a source`;
                 }
-				if (value in state.sources[argument]) {
+                core.info(state.sources[argument]);
+                core.info(state.sources[argument].includes(value));
+				if (state.sources[argument].includes(value)) {
 					continue;
 				}
-                core.info(value);
-                core.info(state.sources[argument]);
-                core.info(notRequired);
 				return notRequired || `${value} is not in source ${argument}`;
 			}
 			case "number": {
