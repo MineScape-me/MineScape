@@ -4,7 +4,7 @@ const os = require("os");
 const fs = require("fs");
 const path = require("path");
 
-const state = {};
+const state = {actions: "", conditions: "", issues: ""};
 
 const getAllFiles = function (dirPath, arrayOfFiles) {
 	files = fs.readdirSync(dirPath);
@@ -229,10 +229,6 @@ async function run() {
 		let files = JSON.parse(fs.readFileSync(homedir + "/files.json"));
 
 		core.info(JSON.stringify(files));
-
-		state["actions"] = "";
-		state["issues"] = "";
-		state["conditions"] = "";
 
 		state.sources = getSources();
 		state.vars = getVars();

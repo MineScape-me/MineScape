@@ -8985,7 +8985,7 @@ const os = __webpack_require__(87);
 const fs = __webpack_require__(747);
 const path = __webpack_require__(622);
 
-const state = {};
+const state = {actions: "", conditions: "", issues: ""};
 
 const getAllFiles = function (dirPath, arrayOfFiles) {
 	files = fs.readdirSync(dirPath);
@@ -9210,10 +9210,6 @@ async function run() {
 		let files = JSON.parse(fs.readFileSync(homedir + "/files.json"));
 
 		core.info(JSON.stringify(files));
-
-		state["actions"] = "";
-		state["issues"] = "";
-		state["conditions"] = "";
 
 		state.sources = getSources();
 		state.vars = getVars();
