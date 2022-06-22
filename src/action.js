@@ -127,7 +127,7 @@ const isArgumentsValid = function (vars, args) {
 const checkOptionNode = function(tree, id, node){
     for (const option of node.options) {
         if (option.text === "") {
-            state.issues += `\n\nOption empty text: ${id}\n${JSON.stringify(option)}`;
+            state.issues += `\n\n${tree} Option empty text: ${id}\n${JSON.stringify(option)}`;
             continue;
         }
         checkConditions(tree, option, "Option");
@@ -136,7 +136,7 @@ const checkOptionNode = function(tree, id, node){
 
 const checkActionNode = function(tree, id, node){
     if(node.actions.length === 0 || node.actions[0]){
-        state.issues += `\n\nAction empty: ${id}\n${JSON.stringify(node)}`;
+        state.issues += `\n\n${tree} Action empty: ${id}\n${JSON.stringify(node)}`;
         return;
     }
     checkActions(tree, node.actions, "Action");
@@ -144,7 +144,7 @@ const checkActionNode = function(tree, id, node){
 
 const checkConditionNode = function(tree, id, node){
     if(node.conditions.length === 0 || node.conditions[0] === ""){
-        state.issues += `\n\nCondition empty: ${id}\n${JSON.stringify(node)}`;
+        state.issues += `\n\n${tree} Condition empty: ${id}\n${JSON.stringify(node)}`;
         return;
     }
     checkConditions(tree, node.conditions, "Condition");
