@@ -9173,9 +9173,12 @@ const checkDialogue = function (tree, data) {
 		state.issues += `\n${tree}: Node layer missing`;
 		return;
 	}
-	const nodes = data.layers[1];
-    core.info(typeof nodes);
-    for(const [id, node] of Object.entries(nodes)){
+	const nodes = data.layers[1].models;
+    if(typeof nodes !== 'object'){
+        state.issues += `\n${tree}: Models missing`;
+        return;
+    }
+	Object.entries(nodes).forEach(([id, node]) => {
         core.info(id);
         core.info(JSON.stringify(node));
         //core.info(JSON.stringify(node));
@@ -9194,7 +9197,7 @@ const checkDialogue = function (tree, data) {
                 break;
 			}
 		}
-	};
+	});
 };
 
 async function run() {
