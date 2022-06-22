@@ -104,6 +104,9 @@ const isArgumentsValid = function (vars, args) {
 				if (value in state.sources[argument]) {
 					continue;
 				}
+                core.info(value);
+                core.info(state.sources[argument]);
+                core.info(notRequired);
 				return notRequired || `${value} is not in source ${argument}`;
 			}
 			case "number": {
