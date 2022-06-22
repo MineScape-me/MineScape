@@ -90,7 +90,7 @@ const isArgumentsValid = function (vars, args) {
         core.info(JSON.stringify(value));
 		switch (type) {
 			case "list": {
-                const argument = vars[v];
+                const argument = vars[index];
                 core.info(argument);
 				var matches = /\[(.*?)\]/.exec(argument);
 				if (matches) {
