@@ -9084,7 +9084,7 @@ const isArgumentsValid = function (vars, args) {
 				return notRequired || `${value} is not in source ${argument}`;
 			}
 			case "number": {
-				if (!isNaN(value)) {
+				if (!isNaN(value.replace(",", ""))) {
 					continue;
 				}
 				return notRequired || `${value} is not a number`;
