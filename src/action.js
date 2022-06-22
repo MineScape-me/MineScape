@@ -143,7 +143,7 @@ const checkConditionNode = function(tree, id, node){
         state.issues += `\nCondition empty: ${id}\n${JSON.stringify(node)}`;
         return;
     }
-    checkConditions(tree, node.condition, "Condition");
+    checkConditions(tree, node.conditions, "Condition");
 }
 
 const checkConditions = function(tree, obj, type){
