@@ -9223,11 +9223,11 @@ async function run() {
 				let json = JSON.parse(fs.readFileSync(file));
 				if (json.trees) {
 					Object.entries(json.trees).forEach(([k, v]) => {
-						checkDialogue(file + ":" + k, v, actions, issues);
+						checkDialogue(file + ":" + k, v);
 					});
 					delete json.trees;
 				}
-				checkDialogue(file + ":default", json, actions, issues);
+				checkDialogue(file + ":default", json);
 				// if (json[0] === undefined || json[0].nodes == undefined) {
 				// 	continue;
 				// }
