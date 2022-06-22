@@ -9036,6 +9036,7 @@ const getVars = function () {
 			}
 		}
 	});
+    console.log(vars);
 	return vars;
 };
 
