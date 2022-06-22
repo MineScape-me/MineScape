@@ -193,8 +193,10 @@ const checkDialogue = function (tree, data) {
 		return;
 	}
 	const nodes = data.layers[1];
+    core.info(JSON.stringify(nodes));
 	Object.entries(nodes).forEach(([id, node]) => {
-        core.info(JSON.stringify(node));
+        //core.info(JSON.stringify(node));
+        //core.info(node.type);
 		switch (node.type) {
 			case "option": {
 				checkOptionNode(tree, id, node);
@@ -304,7 +306,6 @@ async function run() {
 		if (state.issues.length > 0) {
 			message += `\n\nIssues:${state.issues}`;
 		}
-        core.info(JSON.stringify(state));
 
 		await octokit.rest.issues
 			.listComments({
