@@ -9055,10 +9055,7 @@ const getCondition = function (conditionKey) {
 	if (conditionKey === "") {
 		return undefined;
 	}
-    core.info(state.vars);
-    core.info(state.vars.conditions);
 	for (const condition of state.vars.conditions) {
-        core.info(condition);
 		if (condition.condition === conditionKey) {
 			return condition;
 		}
@@ -9070,6 +9067,8 @@ const isArgumentsValid = function (vars, args) {
 	for (const [index, v] of vars.entries()) {
 		const { type, notRequired } = v;
 		const value = args[index];
+        core.info(JSON.stringify(v));
+        core.info(JSON.stringify(value));
 		switch (type) {
 			case "list": {
                 const argument = vars[v];
@@ -9128,7 +9127,6 @@ const checkConditionNode = function(tree, id, node){
 }
 
 const checkConditions = function(tree, obj, type){
-    core.info(obj)
     for (const [index, condition] of obj.conditions.entries()) {
         if (condition.length > 0 && condition !== "") {
             const cond = getCondition(condition);
