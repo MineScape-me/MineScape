@@ -9079,7 +9079,7 @@ const isArgumentsValid = function (vars, args) {
 				}
                 core.info(value);
                 core.info(argument);
-                if(state.sources.includes(argument)){
+                if(!(argument in state.sources)){
                     return `${argument} is not a source`;
                 }
                 core.info(state.sources[argument]);
