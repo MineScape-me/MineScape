@@ -9128,7 +9128,8 @@ const checkConditionNode = function(tree, id, node){
 }
 
 const checkConditions = function(tree, obj, type){
-    for (const [index, condition] of Object.entries(obj.conditions)) {
+    core.info(obj)
+    for (const [index, condition] of obj.conditions.entries()) {
         if (condition.length > 0 && condition !== "") {
             const cond = getCondition(condition);
             if(cond == undefined){
@@ -9154,7 +9155,7 @@ const checkConditions = function(tree, obj, type){
 }
 
 const checkAction = function(tree, obj, type){
-    for (const [index, action] of Object.entries(obj.actions)) {
+    for (const [index, action] of obj.actions.entries()) {
         if (action.length > 0 && action !== "") {
             const act = getAction(action);
             if(act == undefined){
