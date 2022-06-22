@@ -1,0 +1,320 @@
+{
+  "id": "6792c2df-1069-490c-87bc-776836194240",
+  "offsetX": 0,
+  "offsetY": 0,
+  "zoom": 100,
+  "gridSize": 0,
+  "layers": [
+    {
+      "id": "1f25e715-ca95-4788-b9a9-241633f0a80a",
+      "type": "diagram-links",
+      "isSvg": true,
+      "transformed": true,
+      "models": {}
+    },
+    {
+      "id": "33cf569a-b295-4343-8e7d-c1789d98365f",
+      "type": "diagram-nodes",
+      "isSvg": false,
+      "transformed": true,
+      "models": {
+        "e39f9979-f042-429e-b27b-c0842ad61c1f": {
+          "id": "e39f9979-f042-429e-b27b-c0842ad61c1f",
+          "type": "condition",
+          "selected": false,
+          "x": 173,
+          "y": 122,
+          "ports": [
+            {
+              "id": "154c8840-0643-400c-8886-ad755aa7328f",
+              "type": "default",
+              "x": 160,
+              "y": 153,
+              "name": "in-1655877735455 ",
+              "alignment": "left",
+              "parentNode": "e39f9979-f042-429e-b27b-c0842ad61c1f",
+              "links": [],
+              "in": true,
+              "label": "❯"
+            },
+            {
+              "id": "a4786da3-4714-45b1-9603-81c9419fc6d7",
+              "type": "default",
+              "x": 666.65625,
+              "y": 153,
+              "name": "out-1655877735455",
+              "alignment": "right",
+              "parentNode": "e39f9979-f042-429e-b27b-c0842ad61c1f",
+              "links": [],
+              "in": false,
+              "label": "true"
+            },
+            {
+              "id": "96538bb3-66a3-43ca-b00f-9092632d869e",
+              "type": "default",
+              "x": 668.796875,
+              "y": 170,
+              "name": "out-16558777354551",
+              "alignment": "right",
+              "parentNode": "e39f9979-f042-429e-b27b-c0842ad61c1f",
+              "links": [],
+              "in": false,
+              "label": "false"
+            }
+          ],
+          "title": "Condition",
+          "color": "#02630a",
+          "portsInOrder": [
+            "154c8840-0643-400c-8886-ad755aa7328f"
+          ],
+          "portsOutOrder": [
+            "a4786da3-4714-45b1-9603-81c9419fc6d7",
+            "96538bb3-66a3-43ca-b00f-9092632d869e"
+          ],
+          "conditions": {
+            "conditions": [
+              "characterStat"
+            ],
+            "args": [
+              [
+                "AGILITY_ROOFTOP_AL_KHARID",
+                "<=",
+                "1"
+              ]
+            ]
+          }
+        },
+        "e7e3f004-952a-4445-b966-a302843f7196": {
+          "id": "e7e3f004-952a-4445-b966-a302843f7196",
+          "type": "condition",
+          "selected": false,
+          "x": 174,
+          "y": 197,
+          "ports": [
+            {
+              "id": "08c5cc98-6f1e-4772-ac75-e82581c1bde8",
+              "type": "default",
+              "x": 161,
+              "y": 228,
+              "name": "in-1655877761796 ",
+              "alignment": "left",
+              "parentNode": "e7e3f004-952a-4445-b966-a302843f7196",
+              "links": [],
+              "in": true,
+              "label": "❯"
+            },
+            {
+              "id": "c7f76e86-9ebc-4fe4-b992-bc01aeb4fa14",
+              "type": "default",
+              "x": 380.015625,
+              "y": 228,
+              "name": "out-1655877761796",
+              "alignment": "right",
+              "parentNode": "e7e3f004-952a-4445-b966-a302843f7196",
+              "links": [],
+              "in": false,
+              "label": "true"
+            },
+            {
+              "id": "81a5dd48-39c9-437f-9714-b04fd7c16376",
+              "type": "default",
+              "x": 382.15625,
+              "y": 245,
+              "name": "out-16558777617961",
+              "alignment": "right",
+              "parentNode": "e7e3f004-952a-4445-b966-a302843f7196",
+              "links": [],
+              "in": false,
+              "label": "false"
+            }
+          ],
+          "title": "Condition",
+          "color": "#02630a",
+          "portsInOrder": [
+            "08c5cc98-6f1e-4772-ac75-e82581c1bde8"
+          ],
+          "portsOutOrder": [
+            "c7f76e86-9ebc-4fe4-b992-bc01aeb4fa14",
+            "81a5dd48-39c9-437f-9714-b04fd7c16376"
+          ],
+          "conditions": {
+            "conditions": [
+              "characterSta"
+            ],
+            "args": [
+              [
+                "ADVENTURER_PATH_CLAIMED",
+                "",
+                ""
+              ]
+            ]
+          }
+        },
+        "9f718c37-6bc7-4e67-b9f2-065b05c06d45": {
+          "id": "9f718c37-6bc7-4e67-b9f2-065b05c06d45",
+          "type": "action",
+          "selected": false,
+          "x": 174,
+          "y": 274,
+          "ports": [
+            {
+              "id": "a636dee9-eac0-48d9-836a-0f5187b14e69",
+              "type": "default",
+              "x": 161,
+              "y": 305,
+              "name": "in-1655877771637 ",
+              "alignment": "left",
+              "parentNode": "9f718c37-6bc7-4e67-b9f2-065b05c06d45",
+              "links": [],
+              "in": true,
+              "label": "❯"
+            },
+            {
+              "id": "ddc1d1f3-945f-4aeb-b395-b7c96a598a30",
+              "type": "default",
+              "x": 481.46875,
+              "y": 305,
+              "name": "out-1655877771637",
+              "alignment": "right",
+              "parentNode": "9f718c37-6bc7-4e67-b9f2-065b05c06d45",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Action",
+          "color": "#3e077e",
+          "portsInOrder": [
+            "a636dee9-eac0-48d9-836a-0f5187b14e69"
+          ],
+          "portsOutOrder": [
+            "ddc1d1f3-945f-4aeb-b395-b7c96a598a30"
+          ],
+          "actions": {
+            "actions": [
+              "basicAction"
+            ],
+            "args": [
+              [
+                "ABBOT_LANGLEY_HEAL"
+              ]
+            ]
+          }
+        },
+        "f3d45c4c-201d-4a98-a5df-397c937a37c3": {
+          "id": "f3d45c4c-201d-4a98-a5df-397c937a37c3",
+          "type": "option",
+          "selected": false,
+          "x": 174,
+          "y": 349,
+          "ports": [
+            {
+              "id": "9e609f12-0946-4427-ad77-2ceb57e3ed3c",
+              "type": "default",
+              "x": 161,
+              "y": 380,
+              "name": "in-1655877778981 ",
+              "alignment": "left",
+              "parentNode": "f3d45c4c-201d-4a98-a5df-397c937a37c3",
+              "links": [],
+              "in": true,
+              "label": "❯"
+            },
+            {
+              "id": "3c08f7f9-6e04-486d-a360-67363d11508d",
+              "type": "default",
+              "x": 723.1875,
+              "y": 406,
+              "name": "out-1655877778981",
+              "alignment": "right",
+              "parentNode": "f3d45c4c-201d-4a98-a5df-397c937a37c3",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Select an option.",
+          "color": "#0756b1",
+          "portsInOrder": [
+            "9e609f12-0946-4427-ad77-2ceb57e3ed3c"
+          ],
+          "portsOutOrder": [
+            "3c08f7f9-6e04-486d-a360-67363d11508d"
+          ],
+          "options": [
+            {
+              "conditions": [
+                "basicCondition",
+                "characterStat"
+              ],
+              "args": [
+                [
+                  ""
+                ],
+                [
+                  "AGILITY_ROOFTOP_DRAYNOR_VILLAGE",
+                  "",
+                  ""
+                ]
+              ],
+              "text": ""
+            }
+          ]
+        },
+        "a9348350-4a2d-4f18-9020-307d818a8cc1": {
+          "id": "a9348350-4a2d-4f18-9020-307d818a8cc1",
+          "type": "action",
+          "selected": true,
+          "x": 575,
+          "y": 262,
+          "ports": [
+            {
+              "id": "2dccc519-9696-47c0-9c84-f0f34d9824f6",
+              "type": "default",
+              "x": 562,
+              "y": 293,
+              "name": "in-1655877895347 ",
+              "alignment": "left",
+              "parentNode": "a9348350-4a2d-4f18-9020-307d818a8cc1",
+              "links": [],
+              "in": true,
+              "label": "❯"
+            },
+            {
+              "id": "d509bef7-0c02-4fe4-9296-88ef8e567ed0",
+              "type": "default",
+              "x": 826.515625,
+              "y": 293,
+              "name": "out-1655877895348",
+              "alignment": "right",
+              "parentNode": "a9348350-4a2d-4f18-9020-307d818a8cc1",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Action",
+          "color": "#3e077e",
+          "portsInOrder": [
+            "2dccc519-9696-47c0-9c84-f0f34d9824f6"
+          ],
+          "portsOutOrder": [
+            "d509bef7-0c02-4fe4-9296-88ef8e567ed0"
+          ],
+          "actions": {
+            "actions": [
+              "giveIte"
+            ],
+            "args": [
+              [
+                "",
+                ""
+              ]
+            ]
+          }
+        }
+      }
+    }
+  ],
+  "trees": {}
+}
