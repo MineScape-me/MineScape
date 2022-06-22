@@ -230,9 +230,9 @@ async function run() {
 
 		core.info(JSON.stringify(files));
 
-		state.actions = "";
-		state.issues = "";
-		state.conditions = "";
+		state["actions"] = "";
+		state["issues"] = "";
+		state["conditions"] = "";
 
 		state.sources = getSources();
 		state.vars = getVars();
