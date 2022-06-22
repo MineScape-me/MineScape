@@ -9231,6 +9231,7 @@ async function run() {
 		core.info(JSON.stringify(files));
 
 		state.sources = getSources();
+        core.info(JSON.stringify(stat.sources));
 		state.vars = getVars();
 
 		for (var file of files) {
