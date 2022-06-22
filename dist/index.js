@@ -9174,7 +9174,7 @@ const checkDialogue = function (tree, data) {
 		return;
 	}
 	const nodes = data.layers[1];
-    core.info(JSON.stringify(nodes));
+    core.info(typeof nodes);
 	Object.entries(nodes).forEach(([id, node]) => {
         //core.info(JSON.stringify(node));
         //core.info(node.type);
