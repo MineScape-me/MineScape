@@ -9029,7 +9029,7 @@ async function run() {
         sourceFiles.forEach((file) => {
 			if (file.endsWith(".json")) {
 				const { name } = path.parse(file);
-				const value = JSON.parse(fs.readFileSync(homedir + file));
+				const value = JSON.parse(fs.readFileSync(file));
 				if (Array.isArray(value)) {
 					value.push(name);
 				} else {
