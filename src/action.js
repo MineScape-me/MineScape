@@ -19,6 +19,8 @@ async function run() {
         let homedir = os.homedir();
         let files = JSON.parse(fs.readFileSync(homedir + '/files.json'));
 
+        console.log(files);
+
         let actions = '';
         let issues = '';
 
