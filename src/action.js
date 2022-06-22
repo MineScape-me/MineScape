@@ -188,7 +188,7 @@ const checkActions = function(tree, obj, type){
                 state.issues += `\n${tree} ${type} invalid argument lengths: ${id} - ${index}\n${JSON.stringify(obj)}`;
                 continue;
             }
-            const valid = isArgumentsValid(cond.variables, obj.args[index]);
+            const valid = isArgumentsValid(act.variables, obj.args[index]);
             if (valid !== true) {
                 state.issues += `\n${tree} ${type} invalid arguments: ${id} - ${valid}\n${JSON.stringify(obj)}`;
                 continue;
