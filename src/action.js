@@ -250,7 +250,7 @@ async function run() {
 		core.info(JSON.stringify(files));
 
 		state.sources = getSources();
-        core.info(JSON.stringify(stat.sources));
+        core.info(JSON.stringify(state.sources));
 		state.vars = getVars();
 
 		for (var file of files) {
