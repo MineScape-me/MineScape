@@ -9203,7 +9203,7 @@ const checkDialogue = function (tree, data) {
 const getStarts = function(tree, trees){
     const starts = {};
     Object.entries(trees).forEach(([key, nodes]) =>{
-        starts[key] = [];
+        starts[key] = new Array();
         Object.entries(nodes).forEach(([id, node]) => {
             if(node.type === "start"){
                 starts[key].push(node.title);
