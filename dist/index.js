@@ -9220,14 +9220,15 @@ const checkTrees = function (tree, nodes, starts) {
 	Object.entries(nodes).forEach(([id, node]) => {
 		switch (node.type) {
 			case "tree": {
-				if (node.tree === undefined || node.tree === "") {
-					state.issues += `\n\n> **${tree}** tree jump empty\n${JSON.stringify(node)}`;
-				} else if (node.start === undefined || node.start === "") {
-					state.issues += `\n\n> **${tree}** tree start empty\n${JSON.stringify(node)}`;
-				} else if (!(node.tree in starts)) {
-					state.issues += `\n\n> **${tree}** unknown tree start ${node.tree} - ${node.start}\n${JSON.stringify(node)}`;
-				} else if (!starts[node.tree].includes(node.start)) {
-					state.issues += `\n\n> **${tree}** unknown tree start ${node.tree} - ${node.start}\n${JSON.stringify(node)}`;
+				const values = (({ id, tree, start }) => ({ id, tree, start }))(node);
+				if (values.tree === undefined || values.tree === "") {
+					state.issues += `\n\n> **${tree}** tree jump empty\n${JSON.stringify(values)}`;
+				} else if (values.start === undefined || values.start === "") {
+					state.issues += `\n\n> **${tree}** tree start empty\n${JSON.stringify(values)}`;
+				} else if (!(values.tree in starts)) {
+					state.issues += `\n\n> **${tree}** unknown tree ${values.tree}\n${JSON.stringify(values)}`;
+				} else if (!starts[values.tree].includes(values.start)) {
+					state.issues += `\n\n> **${tree}** unknown tree start ${values.tree} - ${values.start}\n${JSON.stringify(values)}`;
 				}
 				break;
 			}
