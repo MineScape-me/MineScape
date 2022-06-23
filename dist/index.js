@@ -9197,36 +9197,36 @@ const checkDialogue = function (tree, data) {
 			}
 		}
 	});
-    return nodes;
+	return nodes;
 };
 
-const getStarts = function(tree, trees){
-    const starts = {};
-    Object.entries(trees).forEach(([key, nodes]) =>{
-        starts[key] = [];
-        Object.entries(nodes).forEach(([id, node]) => {
-            if(node.type === "start"){
-                starts[key].push(node.title);
-            }
-        });
-        if(!starts[key].includes("Start")){
-            state.issues += `\n\n> **${tree}:${key}** missing tree initial start`;
-        }
-    });
-    return starts;
-}
+const getStarts = function (tree, trees) {
+	const starts = {};
+	Object.entries(trees).forEach(([key, nodes]) => {
+		starts[key] = [];
+		Object.entries(nodes).forEach(([id, node]) => {
+			if (node.type === "start") {
+				starts[key].push(node.title);
+			}
+		});
+		if (!starts[key].includes("Start")) {
+			state.issues += `\n\n> **${tree}:${key}** missing tree initial start`;
+		}
+	});
+	return starts;
+};
 
 const checkTrees = function (tree, nodes, starts) {
 	Object.entries(nodes).forEach(([id, node]) => {
 		switch (node.type) {
 			case "tree": {
-                if(node.tree === undefined || node.tree === ""){
-                    state.issues += `\n\n> **${tree}** tree jump empty\n${JSON.stringify(node)}`;
-                }else if(node.start === undefined || node.start === ""){
-                    state.issues += `\n\n> **${tree}** tree start empty\n${JSON.stringify(node)}`;
-                }else if(!(node.tree in starts)){
-                    state.issues += `\n\n> **${tree}** unknown tree start ${node.tree} - ${node.start}\n${JSON.stringify(node)}`;
-                }else if(!starts[tree].includes(tree.start)){
+				if (node.tree === undefined || node.tree === "") {
+					state.issues += `\n\n> **${tree}** tree jump empty\n${JSON.stringify(node)}`;
+				} else if (node.start === undefined || node.start === "") {
+					state.issues += `\n\n> **${tree}** tree start empty\n${JSON.stringify(node)}`;
+				} else if (!(node.tree in starts)) {
+					state.issues += `\n\n> **${tree}** unknown tree start ${node.tree} - ${node.start}\n${JSON.stringify(node)}`;
+				} else if (!starts[node.tree].includes(node.start)) {
 					state.issues += `\n\n> **${tree}** unknown tree start ${node.tree} - ${node.start}\n${JSON.stringify(node)}`;
 				}
 				break;
@@ -9263,27 +9263,27 @@ async function run() {
 			core.info(`Checking ${file}`);
 			try {
 				let json = JSON.parse(fs.readFileSync(file));
-                const trees = {};
+				const trees = {};
 				if (json.trees) {
 					Object.entries(json.trees).forEach(([k, v]) => {
 						const nodes = checkDialogue(file + ":" + k, v);
-                        if(nodes !== undefined){
-                            trees[k] = nodes;
-                        }
+						if (nodes !== undefined) {
+							trees[k] = nodes;
+						}
 					});
 					delete json.trees;
 				}
-                const nodes = checkDialogue(file + ":default", json);
-				if(nodes !== undefined){
-                    trees["default"] = nodes;
-                }
+				const nodes = checkDialogue(file + ":default", json);
+				if (nodes !== undefined) {
+					trees["default"] = nodes;
+				}
 
-                const starts = getStarts(file, trees);
+				const starts = getStarts(file, trees);
 				console.log(JSON.stringify(starts));
 
-                Object.entries(trees).forEach(([k,nodes])=>{
-                    checkTrees(file + ":" + k, nodes, starts)
-                });
+				Object.entries(trees).forEach(([k, nodes]) => {
+					checkTrees(file + ":" + k, nodes, starts);
+				});
 				// if (json[0] === undefined || json[0].nodes == undefined) {
 				// 	continue;
 				// }
