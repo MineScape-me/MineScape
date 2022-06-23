@@ -1,0 +1,125 @@
+{
+  "id": "fa236d25-b2ef-4478-bb23-9b11b91937a3",
+  "offsetX": 0,
+  "offsetY": 0,
+  "zoom": 100,
+  "gridSize": 0,
+  "layers": [
+    {
+      "id": "017c4783-23e8-436b-84fa-69a2ebbc888e",
+      "type": "diagram-links",
+      "isSvg": true,
+      "transformed": true,
+      "models": {
+        "9f080e67-12cd-4243-8c77-019960e2d054": {
+          "id": "9f080e67-12cd-4243-8c77-019960e2d054",
+          "type": "default",
+          "selected": false,
+          "source": "54652f46-2a56-4b4f-815a-73bb8112dba0",
+          "sourcePort": "c2306d25-e962-4457-b844-9fa29d67c90c",
+          "target": "b18db8d1-0b04-48d8-aaaf-6cf184c8c7be",
+          "targetPort": "693d4990-3992-4a70-85a2-381677bbe3bf",
+          "points": [
+            {
+              "id": "c2dd52da-9858-45da-9d14-8d2d0d590155",
+              "type": "point",
+              "x": 292.296875,
+              "y": 62.5
+            },
+            {
+              "id": "3a36732f-bcad-4c03-9d49-cdf29fcc3c28",
+              "type": "point",
+              "x": 350.5,
+              "y": 63.5
+            }
+          ],
+          "labels": [],
+          "width": 3,
+          "color": "gray",
+          "curvyness": 50,
+          "selectedColor": "rgb(0,192,255)"
+        }
+      }
+    },
+    {
+      "id": "48e92951-8e66-429b-a10e-876cf8c40cb6",
+      "type": "diagram-nodes",
+      "isSvg": false,
+      "transformed": true,
+      "models": {
+        "54652f46-2a56-4b4f-815a-73bb8112dba0": {
+          "id": "54652f46-2a56-4b4f-815a-73bb8112dba0",
+          "type": "start",
+          "x": 209,
+          "y": 48,
+          "ports": [
+            {
+              "id": "c2306d25-e962-4457-b844-9fa29d67c90c",
+              "type": "default",
+              "x": 284.796875,
+              "y": 55,
+              "name": "out-1654606418138",
+              "alignment": "right",
+              "parentNode": "54652f46-2a56-4b4f-815a-73bb8112dba0",
+              "links": [
+                "9f080e67-12cd-4243-8c77-019960e2d054"
+              ],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Start",
+          "color": "#16db26",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "c2306d25-e962-4457-b844-9fa29d67c90c"
+          ]
+        },
+        "b18db8d1-0b04-48d8-aaaf-6cf184c8c7be": {
+          "id": "b18db8d1-0b04-48d8-aaaf-6cf184c8c7be",
+          "type": "dialogue",
+          "selected": false,
+          "x": 356,
+          "y": 25,
+          "ports": [
+            {
+              "id": "693d4990-3992-4a70-85a2-381677bbe3bf",
+              "type": "default",
+              "x": 343,
+              "y": 56,
+              "name": "in-1654606418889 ",
+              "alignment": "left",
+              "parentNode": "b18db8d1-0b04-48d8-aaaf-6cf184c8c7be",
+              "links": [
+                "9f080e67-12cd-4243-8c77-019960e2d054"
+              ],
+              "in": true,
+              "label": "❯"
+            },
+            {
+              "id": "91e41ef8-494d-4b42-bdd2-72011ab848b5",
+              "type": "default",
+              "x": 848.34375,
+              "y": 56,
+              "name": "out-1654606418889",
+              "alignment": "right",
+              "parentNode": "b18db8d1-0b04-48d8-aaaf-6cf184c8c7be",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Mayor Hobb",
+          "color": "#dd341e",
+          "portsInOrder": [
+            "693d4990-3992-4a70-85a2-381677bbe3bf"
+          ],
+          "portsOutOrder": [
+            "91e41ef8-494d-4b42-bdd2-72011ab848b5"
+          ],
+          "text": "Well hello there; welcome to our little village. Pray, stay\nawhile."
+        }
+      }
+    }
+  ]
+}

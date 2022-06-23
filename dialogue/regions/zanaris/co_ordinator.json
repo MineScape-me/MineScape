@@ -1,0 +1,199 @@
+{
+  "id": "a1b641b2-5f83-4bd9-a9ad-d11c9d528cb0",
+  "offsetX": 0,
+  "offsetY": 0,
+  "zoom": 100,
+  "gridSize": 0,
+  "layers": [
+    {
+      "id": "9b3abf65-ae4e-4b6d-9949-67562fed701b",
+      "type": "diagram-links",
+      "isSvg": true,
+      "transformed": true,
+      "models": {
+        "78c08a06-f6e4-4c7e-a3d3-529279d41de9": {
+          "id": "78c08a06-f6e4-4c7e-a3d3-529279d41de9",
+          "type": "default",
+          "selected": false,
+          "source": "caa0befb-6725-45a5-a7d4-54e16c595023",
+          "sourcePort": "8d655a39-bb40-4177-8a76-e765d344377f",
+          "target": "2b243122-770e-4677-ac1a-8bbd89aec679",
+          "targetPort": "6fc8f27b-7827-48e6-b2f3-8cf1aaba795d",
+          "points": [
+            {
+              "id": "16caee37-0ce6-418c-b83f-0bf8713eadfc",
+              "type": "point",
+              "x": 215.296875,
+              "y": 110.5
+            },
+            {
+              "id": "35ccd4c8-9343-4ef6-bb89-6d6150a9f96e",
+              "type": "point",
+              "x": 307.5,
+              "y": 114.5
+            }
+          ],
+          "labels": [],
+          "width": 3,
+          "color": "gray",
+          "curvyness": 50,
+          "selectedColor": "rgb(0,192,255)"
+        },
+        "e4d9c4b0-73a2-4677-a6c3-56344d8cea6a": {
+          "id": "e4d9c4b0-73a2-4677-a6c3-56344d8cea6a",
+          "type": "default",
+          "selected": false,
+          "source": "2b243122-770e-4677-ac1a-8bbd89aec679",
+          "sourcePort": "0df37e0b-edbc-48da-bef5-8c5811585e56",
+          "target": "449c0f60-3d14-4522-8614-07d18098b4ed",
+          "targetPort": "772bab51-00ec-4524-af7c-0ffc52d56472",
+          "points": [
+            {
+              "id": "1baba37d-e318-47e3-b65b-fdb7fd1beab3",
+              "type": "point",
+              "x": 570.984375,
+              "y": 114.5
+            },
+            {
+              "id": "9177f3cf-5f3b-49af-b73a-82fdd8648b50",
+              "type": "point",
+              "x": 301.5,
+              "y": 181.5
+            }
+          ],
+          "labels": [],
+          "width": 3,
+          "color": "gray",
+          "curvyness": 50,
+          "selectedColor": "rgb(0,192,255)"
+        }
+      }
+    },
+    {
+      "id": "00d17d11-5eb5-4745-bc66-8ffc382dc459",
+      "type": "diagram-nodes",
+      "isSvg": false,
+      "transformed": true,
+      "models": {
+        "caa0befb-6725-45a5-a7d4-54e16c595023": {
+          "id": "caa0befb-6725-45a5-a7d4-54e16c595023",
+          "type": "start",
+          "selected": false,
+          "x": 132,
+          "y": 96,
+          "ports": [
+            {
+              "id": "8d655a39-bb40-4177-8a76-e765d344377f",
+              "type": "default",
+              "x": 207.796875,
+              "y": 103,
+              "name": "out-1654770107688",
+              "alignment": "right",
+              "parentNode": "caa0befb-6725-45a5-a7d4-54e16c595023",
+              "links": [
+                "78c08a06-f6e4-4c7e-a3d3-529279d41de9"
+              ],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Start",
+          "color": "#16db26",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "8d655a39-bb40-4177-8a76-e765d344377f"
+          ]
+        },
+        "2b243122-770e-4677-ac1a-8bbd89aec679": {
+          "id": "2b243122-770e-4677-ac1a-8bbd89aec679",
+          "type": "dialogue",
+          "x": 313,
+          "y": 76,
+          "ports": [
+            {
+              "id": "6fc8f27b-7827-48e6-b2f3-8cf1aaba795d",
+              "type": "default",
+              "x": 300,
+              "y": 107,
+              "name": "in-1654770108375 ",
+              "alignment": "left",
+              "parentNode": "2b243122-770e-4677-ac1a-8bbd89aec679",
+              "links": [
+                "78c08a06-f6e4-4c7e-a3d3-529279d41de9"
+              ],
+              "in": true,
+              "label": "❯"
+            },
+            {
+              "id": "0df37e0b-edbc-48da-bef5-8c5811585e56",
+              "type": "default",
+              "x": 563.484375,
+              "y": 107,
+              "name": "out-1654770108375",
+              "alignment": "right",
+              "parentNode": "2b243122-770e-4677-ac1a-8bbd89aec679",
+              "links": [
+                "e4d9c4b0-73a2-4677-a6c3-56344d8cea6a"
+              ],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "<player>",
+          "color": "#dd341e",
+          "portsInOrder": [
+            "6fc8f27b-7827-48e6-b2f3-8cf1aaba795d"
+          ],
+          "portsOutOrder": [
+            "0df37e0b-edbc-48da-bef5-8c5811585e56"
+          ],
+          "text": "Hello, what are you doing?"
+        },
+        "449c0f60-3d14-4522-8614-07d18098b4ed": {
+          "id": "449c0f60-3d14-4522-8614-07d18098b4ed",
+          "type": "dialogue",
+          "selected": false,
+          "x": 307,
+          "y": 143,
+          "ports": [
+            {
+              "id": "772bab51-00ec-4524-af7c-0ffc52d56472",
+              "type": "default",
+              "x": 294,
+              "y": 174,
+              "name": "in-1654770108960 ",
+              "alignment": "left",
+              "parentNode": "449c0f60-3d14-4522-8614-07d18098b4ed",
+              "links": [
+                "e4d9c4b0-73a2-4677-a6c3-56344d8cea6a"
+              ],
+              "in": true,
+              "label": "❯"
+            },
+            {
+              "id": "374db8a3-38fc-4b6b-9c1f-75bfadedcdbc",
+              "type": "default",
+              "x": 762.6875,
+              "y": 174,
+              "name": "out-1654770108960",
+              "alignment": "right",
+              "parentNode": "449c0f60-3d14-4522-8614-07d18098b4ed",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Co-ordinator",
+          "color": "#dd341e",
+          "portsInOrder": [
+            "772bab51-00ec-4524-af7c-0ffc52d56472"
+          ],
+          "portsOutOrder": [
+            "374db8a3-38fc-4b6b-9c1f-75bfadedcdbc"
+          ],
+          "text": "Sorry, I don't have time for idle chit-chat, I need to\nsend a fairy to get little Freddies tooth!"
+        }
+      }
+    }
+  ]
+}

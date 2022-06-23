@@ -1,0 +1,589 @@
+{
+  "id": "a688d3e0-01af-4a1f-8535-693148ca3893",
+  "offsetX": 102,
+  "offsetY": 23,
+  "zoom": 100,
+  "gridSize": 0,
+  "layers": [
+    {
+      "id": "aac6c8dc-3e59-454d-9790-75aaa2a28e09",
+      "type": "diagram-links",
+      "isSvg": true,
+      "transformed": true,
+      "models": {
+        "87e608ff-1c16-436b-93f0-59e08e794986": {
+          "id": "87e608ff-1c16-436b-93f0-59e08e794986",
+          "type": "default",
+          "selected": false,
+          "source": "3b3b6804-230a-4a54-88fc-7cd95d0b7662",
+          "sourcePort": "c99e03e4-50cb-4b19-a842-1d6718b5840a",
+          "target": "c23dfd35-e3ec-4e03-89fb-cf6e49f8accb",
+          "targetPort": "b0f5c65b-556c-4247-a9eb-ad8c9864424b",
+          "points": [
+            {
+              "id": "1ee3253e-ffbd-4246-b516-6a105966a860",
+              "type": "point",
+              "x": 300.296875,
+              "y": 60.5
+            },
+            {
+              "id": "91fe7329-0aeb-4925-a0a2-167e9fb23b2c",
+              "type": "point",
+              "x": 424.5,
+              "y": 64.5
+            }
+          ],
+          "labels": [],
+          "width": 3,
+          "color": "gray",
+          "curvyness": 50,
+          "selectedColor": "rgb(0,192,255)"
+        },
+        "340f000a-5fc8-4374-a9b2-08789bb6fe4a": {
+          "id": "340f000a-5fc8-4374-a9b2-08789bb6fe4a",
+          "type": "default",
+          "selected": false,
+          "source": "c23dfd35-e3ec-4e03-89fb-cf6e49f8accb",
+          "sourcePort": "a1287f67-c30f-420d-b0ff-b280113ee30a",
+          "target": "00012703-7f3b-436f-8b5a-1932acf68dc9",
+          "targetPort": "816bbfc6-a45f-443a-b644-17de1b5dfccf",
+          "points": [
+            {
+              "id": "0873c8ca-a1fe-40f1-90fd-9b564bd12976",
+              "type": "point",
+              "x": 744.53125,
+              "y": 81.5
+            },
+            {
+              "id": "5d32c83e-d827-48dd-8a17-c4b5e2b50001",
+              "type": "point",
+              "x": 421.5,
+              "y": 192.5
+            }
+          ],
+          "labels": [],
+          "width": 3,
+          "color": "gray",
+          "curvyness": 50,
+          "selectedColor": "rgb(0,192,255)"
+        },
+        "e94dfe64-e9bd-4dd2-b5de-5c5d1d101b6e": {
+          "id": "e94dfe64-e9bd-4dd2-b5de-5c5d1d101b6e",
+          "type": "default",
+          "selected": false,
+          "source": "00012703-7f3b-436f-8b5a-1932acf68dc9",
+          "sourcePort": "0d680b42-b042-4d40-a463-a45542342a04",
+          "target": "4a775586-6f88-43a0-81f7-59ee150db52c",
+          "targetPort": "10da2ab9-efbf-4e7e-9de0-7834c72cbd59",
+          "points": [
+            {
+              "id": "0322bde0-0ae9-4b88-8d8d-46f14c4902f9",
+              "type": "point",
+              "x": 699.640625,
+              "y": 192.5
+            },
+            {
+              "id": "d450f945-9d1b-41b2-bca7-f8cdcfe78da0",
+              "type": "point",
+              "x": 422.5,
+              "y": 267.5
+            }
+          ],
+          "labels": [],
+          "width": 3,
+          "color": "gray",
+          "curvyness": 50,
+          "selectedColor": "rgb(0,192,255)"
+        },
+        "c4430de6-66a2-45e6-a506-14ac82ea9ef7": {
+          "id": "c4430de6-66a2-45e6-a506-14ac82ea9ef7",
+          "type": "default",
+          "selected": false,
+          "source": "c23dfd35-e3ec-4e03-89fb-cf6e49f8accb",
+          "sourcePort": "3bb6d46b-9e57-4079-a2a8-8fb3a638aea6",
+          "target": "4fb80c23-7df5-4503-ae0f-2d5d8478540c",
+          "targetPort": "28efd4bf-b5b1-436d-93ce-3439e31ff9aa",
+          "points": [
+            {
+              "id": "7fccfa2d-a57a-4272-b4c8-97ee0ca4bb91",
+              "type": "point",
+              "x": 742.390625,
+              "y": 64.5
+            },
+            {
+              "id": "f8792452-2031-41ae-a103-7b501357a89b",
+              "type": "point",
+              "x": 822.5,
+              "y": 61.5
+            }
+          ],
+          "labels": [],
+          "width": 3,
+          "color": "gray",
+          "curvyness": 50,
+          "selectedColor": "rgb(0,192,255)"
+        },
+        "fab6e0a0-7c0a-4f5a-b7f7-df080865b6d0": {
+          "id": "fab6e0a0-7c0a-4f5a-b7f7-df080865b6d0",
+          "type": "default",
+          "selected": false,
+          "source": "4a775586-6f88-43a0-81f7-59ee150db52c",
+          "sourcePort": "36bd55e8-38f7-4558-b1bb-d1ab26753f26",
+          "target": "4fb80c23-7df5-4503-ae0f-2d5d8478540c",
+          "targetPort": "28efd4bf-b5b1-436d-93ce-3439e31ff9aa",
+          "points": [
+            {
+              "id": "77e0010f-e825-473e-84cc-186e2c20eed0",
+              "type": "point",
+              "x": 806.53125,
+              "y": 312.5
+            },
+            {
+              "id": "232e4eca-2e92-4e13-9b4f-c2cccd34fe77",
+              "type": "point",
+              "x": 822.5,
+              "y": 61.5
+            }
+          ],
+          "labels": [],
+          "width": 3,
+          "color": "gray",
+          "curvyness": 50,
+          "selectedColor": "rgb(0,192,255)"
+        },
+        "0e1da552-fcaa-44d5-815e-b01d2fc26650": {
+          "id": "0e1da552-fcaa-44d5-815e-b01d2fc26650",
+          "type": "default",
+          "selected": false,
+          "source": "4a775586-6f88-43a0-81f7-59ee150db52c",
+          "sourcePort": "6b85c71c-0c32-4ee4-b981-f7eb094c6976",
+          "target": "0fa502a6-22ee-4403-b55c-b66dbe22a9c0",
+          "targetPort": "50ce5ebd-5450-4d92-b8f0-63b1bd07dc19",
+          "points": [
+            {
+              "id": "1c7fbe13-b83c-488c-9c37-73d36a60ae34",
+              "type": "point",
+              "x": 806.546875,
+              "y": 276.5
+            },
+            {
+              "id": "f9a7bf42-0f35-4157-90a3-0de162386185",
+              "type": "point",
+              "x": 470.5,
+              "y": 412.5
+            }
+          ],
+          "labels": [],
+          "width": 3,
+          "color": "gray",
+          "curvyness": 50,
+          "selectedColor": "rgb(0,192,255)"
+        },
+        "a5bdd7fc-24e6-4903-a469-8fe7f7ec235d": {
+          "id": "a5bdd7fc-24e6-4903-a469-8fe7f7ec235d",
+          "type": "default",
+          "selected": false,
+          "source": "0fa502a6-22ee-4403-b55c-b66dbe22a9c0",
+          "sourcePort": "2f2b926d-805e-43c7-b2cd-d20b9ac3b187",
+          "target": "d1c86825-b370-4511-9dfa-24d15eb2e737",
+          "targetPort": "e9a49d85-300d-4f02-9cbc-125110e078be",
+          "points": [
+            {
+              "id": "bbb4a2e6-c3fb-4994-a65a-24cfd5c77739",
+              "type": "point",
+              "x": 799.9375,
+              "y": 412.5
+            },
+            {
+              "id": "5d6769b3-3950-4123-a03f-65020b0e70b1",
+              "type": "point",
+              "x": 469.5,
+              "y": 485.5
+            }
+          ],
+          "labels": [],
+          "width": 3,
+          "color": "gray",
+          "curvyness": 50,
+          "selectedColor": "rgb(0,192,255)"
+        }
+      }
+    },
+    {
+      "id": "e0187a57-184d-4ba4-90ae-67ad92355401",
+      "type": "diagram-nodes",
+      "isSvg": false,
+      "transformed": true,
+      "models": {
+        "3b3b6804-230a-4a54-88fc-7cd95d0b7662": {
+          "id": "3b3b6804-230a-4a54-88fc-7cd95d0b7662",
+          "type": "start",
+          "x": 217,
+          "y": 46,
+          "ports": [
+            {
+              "id": "c99e03e4-50cb-4b19-a842-1d6718b5840a",
+              "type": "default",
+              "x": 292.796875,
+              "y": 53,
+              "name": "out-1654604297086",
+              "alignment": "right",
+              "parentNode": "3b3b6804-230a-4a54-88fc-7cd95d0b7662",
+              "links": [
+                "87e608ff-1c16-436b-93f0-59e08e794986"
+              ],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Start",
+          "color": "#16db26",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "c99e03e4-50cb-4b19-a842-1d6718b5840a"
+          ]
+        },
+        "c23dfd35-e3ec-4e03-89fb-cf6e49f8accb": {
+          "id": "c23dfd35-e3ec-4e03-89fb-cf6e49f8accb",
+          "type": "condition",
+          "selected": false,
+          "x": 430,
+          "y": 26,
+          "ports": [
+            {
+              "id": "3bb6d46b-9e57-4079-a2a8-8fb3a638aea6",
+              "type": "default",
+              "x": 734.890625,
+              "y": 57,
+              "name": "out-1654604299634",
+              "alignment": "right",
+              "parentNode": "c23dfd35-e3ec-4e03-89fb-cf6e49f8accb",
+              "links": [
+                "c4430de6-66a2-45e6-a506-14ac82ea9ef7"
+              ],
+              "in": false,
+              "label": "true"
+            },
+            {
+              "id": "a1287f67-c30f-420d-b0ff-b280113ee30a",
+              "type": "default",
+              "x": 737.03125,
+              "y": 74,
+              "name": "out-16546042996341",
+              "alignment": "right",
+              "parentNode": "c23dfd35-e3ec-4e03-89fb-cf6e49f8accb",
+              "links": [
+                "340f000a-5fc8-4374-a9b2-08789bb6fe4a"
+              ],
+              "in": false,
+              "label": "false"
+            },
+            {
+              "id": "b0f5c65b-556c-4247-a9eb-ad8c9864424b",
+              "type": "default",
+              "x": 417,
+              "y": 57,
+              "name": "in-1654604299634 ",
+              "alignment": "left",
+              "parentNode": "c23dfd35-e3ec-4e03-89fb-cf6e49f8accb",
+              "links": [
+                "87e608ff-1c16-436b-93f0-59e08e794986"
+              ],
+              "in": true,
+              "label": "❯"
+            }
+          ],
+          "title": "Condition",
+          "color": "#02630a",
+          "portsInOrder": [
+            "b0f5c65b-556c-4247-a9eb-ad8c9864424b"
+          ],
+          "portsOutOrder": [
+            "3bb6d46b-9e57-4079-a2a8-8fb3a638aea6",
+            "a1287f67-c30f-420d-b0ff-b280113ee30a"
+          ],
+          "conditions": {
+            "conditions": [
+              "npcInteraction",
+              "npcInteraction"
+            ],
+            "args": [
+              [
+                "SHIFT"
+              ],
+              [
+                "RIGHT_CLICK"
+              ]
+            ]
+          }
+        },
+        "00012703-7f3b-436f-8b5a-1932acf68dc9": {
+          "id": "00012703-7f3b-436f-8b5a-1932acf68dc9",
+          "type": "dialogue",
+          "selected": false,
+          "x": 427,
+          "y": 154,
+          "ports": [
+            {
+              "id": "816bbfc6-a45f-443a-b644-17de1b5dfccf",
+              "type": "default",
+              "x": 414,
+              "y": 185,
+              "name": "in-1654604311856 ",
+              "alignment": "left",
+              "parentNode": "00012703-7f3b-436f-8b5a-1932acf68dc9",
+              "links": [
+                "340f000a-5fc8-4374-a9b2-08789bb6fe4a"
+              ],
+              "in": true,
+              "label": "❯"
+            },
+            {
+              "id": "0d680b42-b042-4d40-a463-a45542342a04",
+              "type": "default",
+              "x": 692.140625,
+              "y": 185,
+              "name": "out-1654604311856",
+              "alignment": "right",
+              "parentNode": "00012703-7f3b-436f-8b5a-1932acf68dc9",
+              "links": [
+                "e94dfe64-e9bd-4dd2-b5de-5c5d1d101b6e"
+              ],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Horvik",
+          "color": "#dd341e",
+          "portsInOrder": [
+            "816bbfc6-a45f-443a-b644-17de1b5dfccf"
+          ],
+          "portsOutOrder": [
+            "0d680b42-b042-4d40-a463-a45542342a04"
+          ],
+          "text": "Hello, do you need any help?"
+        },
+        "4a775586-6f88-43a0-81f7-59ee150db52c": {
+          "id": "4a775586-6f88-43a0-81f7-59ee150db52c",
+          "type": "option",
+          "selected": false,
+          "x": 428,
+          "y": 229,
+          "ports": [
+            {
+              "id": "10da2ab9-efbf-4e7e-9de0-7834c72cbd59",
+              "type": "default",
+              "x": 415,
+              "y": 260,
+              "name": "in-1654604318709 ",
+              "alignment": "left",
+              "parentNode": "4a775586-6f88-43a0-81f7-59ee150db52c",
+              "links": [
+                "e94dfe64-e9bd-4dd2-b5de-5c5d1d101b6e"
+              ],
+              "in": true,
+              "label": "❯"
+            },
+            {
+              "id": "6b85c71c-0c32-4ee4-b981-f7eb094c6976",
+              "type": "default",
+              "x": 799.046875,
+              "y": 269,
+              "name": "out-1654604318709",
+              "alignment": "right",
+              "parentNode": "4a775586-6f88-43a0-81f7-59ee150db52c",
+              "links": [
+                "0e1da552-fcaa-44d5-815e-b01d2fc26650"
+              ],
+              "in": false,
+              "label": "❯"
+            },
+            {
+              "id": "36bd55e8-38f7-4558-b1bb-d1ab26753f26",
+              "type": "default",
+              "x": 799.03125,
+              "y": 305,
+              "name": "out-1654604339391",
+              "alignment": "right",
+              "parentNode": "4a775586-6f88-43a0-81f7-59ee150db52c",
+              "links": [
+                "fab6e0a0-7c0a-4f5a-b7f7-df080865b6d0"
+              ],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Select an option.",
+          "color": "#0756b1",
+          "portsInOrder": [
+            "10da2ab9-efbf-4e7e-9de0-7834c72cbd59"
+          ],
+          "portsOutOrder": [
+            "6b85c71c-0c32-4ee4-b981-f7eb094c6976",
+            "36bd55e8-38f7-4558-b1bb-d1ab26753f26"
+          ],
+          "options": [
+            {
+              "conditions": [
+                ""
+              ],
+              "args": [],
+              "text": "No thanks. I'm just looking around."
+            },
+            {
+              "conditions": [
+                ""
+              ],
+              "args": [],
+              "text": "Do you want to trade?"
+            }
+          ]
+        },
+        "4fb80c23-7df5-4503-ae0f-2d5d8478540c": {
+          "id": "4fb80c23-7df5-4503-ae0f-2d5d8478540c",
+          "type": "action",
+          "selected": false,
+          "x": 828,
+          "y": 23,
+          "ports": [
+            {
+              "id": "28efd4bf-b5b1-436d-93ce-3439e31ff9aa",
+              "type": "default",
+              "x": 815,
+              "y": 54,
+              "name": "in-1654604326053 ",
+              "alignment": "left",
+              "parentNode": "4fb80c23-7df5-4503-ae0f-2d5d8478540c",
+              "links": [
+                "c4430de6-66a2-45e6-a506-14ac82ea9ef7",
+                "fab6e0a0-7c0a-4f5a-b7f7-df080865b6d0"
+              ],
+              "in": true,
+              "label": "❯"
+            },
+            {
+              "id": "bd7d02b0-04c7-4460-9bb7-791660141d36",
+              "type": "default",
+              "x": 1088.328125,
+              "y": 54,
+              "name": "out-1654604326053",
+              "alignment": "right",
+              "parentNode": "4fb80c23-7df5-4503-ae0f-2d5d8478540c",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Action",
+          "color": "#3e077e",
+          "portsInOrder": [
+            "28efd4bf-b5b1-436d-93ce-3439e31ff9aa"
+          ],
+          "portsOutOrder": [
+            "bd7d02b0-04c7-4460-9bb7-791660141d36"
+          ],
+          "actions": {
+            "actions": [
+              "openShop"
+            ],
+            "args": [
+              [
+                "HorviksArmourShop"
+              ]
+            ]
+          }
+        },
+        "0fa502a6-22ee-4403-b55c-b66dbe22a9c0": {
+          "id": "0fa502a6-22ee-4403-b55c-b66dbe22a9c0",
+          "type": "dialogue",
+          "selected": false,
+          "x": 476,
+          "y": 374,
+          "ports": [
+            {
+              "id": "50ce5ebd-5450-4d92-b8f0-63b1bd07dc19",
+              "type": "default",
+              "x": 463,
+              "y": 405,
+              "name": "in-1654604311856 ",
+              "alignment": "left",
+              "parentNode": "0fa502a6-22ee-4403-b55c-b66dbe22a9c0",
+              "links": [
+                "0e1da552-fcaa-44d5-815e-b01d2fc26650"
+              ],
+              "in": true,
+              "label": "❯"
+            },
+            {
+              "id": "2f2b926d-805e-43c7-b2cd-d20b9ac3b187",
+              "type": "default",
+              "x": 792.4375,
+              "y": 405,
+              "name": "out-1654604311856",
+              "alignment": "right",
+              "parentNode": "0fa502a6-22ee-4403-b55c-b66dbe22a9c0",
+              "links": [
+                "a5bdd7fc-24e6-4903-a469-8fe7f7ec235d"
+              ],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "<player>",
+          "color": "#dd341e",
+          "portsInOrder": [
+            "50ce5ebd-5450-4d92-b8f0-63b1bd07dc19"
+          ],
+          "portsOutOrder": [
+            "2f2b926d-805e-43c7-b2cd-d20b9ac3b187"
+          ],
+          "text": "No thanks. I'm just looking around."
+        },
+        "d1c86825-b370-4511-9dfa-24d15eb2e737": {
+          "id": "d1c86825-b370-4511-9dfa-24d15eb2e737",
+          "type": "dialogue",
+          "selected": false,
+          "x": 475,
+          "y": 447,
+          "ports": [
+            {
+              "id": "e9a49d85-300d-4f02-9cbc-125110e078be",
+              "type": "default",
+              "x": 462,
+              "y": 478,
+              "name": "in-1654604311856 ",
+              "alignment": "left",
+              "parentNode": "d1c86825-b370-4511-9dfa-24d15eb2e737",
+              "links": [
+                "a5bdd7fc-24e6-4903-a469-8fe7f7ec235d"
+              ],
+              "in": true,
+              "label": "❯"
+            },
+            {
+              "id": "86f6e8a3-c7c5-4ff7-a869-6d0103b227fd",
+              "type": "default",
+              "x": 879.390625,
+              "y": 478,
+              "name": "out-1654604311856",
+              "alignment": "right",
+              "parentNode": "d1c86825-b370-4511-9dfa-24d15eb2e737",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Horvik",
+          "color": "#dd341e",
+          "portsInOrder": [
+            "e9a49d85-300d-4f02-9cbc-125110e078be"
+          ],
+          "portsOutOrder": [
+            "86f6e8a3-c7c5-4ff7-a869-6d0103b227fd"
+          ],
+          "text": "Well, come and see me if you're ever in need of\narmour!"
+        }
+      }
+    }
+  ]
+}

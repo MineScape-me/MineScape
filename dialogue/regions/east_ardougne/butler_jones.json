@@ -1,0 +1,347 @@
+{
+  "id": "7dbac52d-f0b7-4164-8c87-e2ea7684370b",
+  "offsetX": 0,
+  "offsetY": 0,
+  "zoom": 100,
+  "gridSize": 0,
+  "layers": [
+    {
+      "id": "a7fa9b44-53a6-4fb3-a27b-06f246a26cdc",
+      "type": "diagram-links",
+      "isSvg": true,
+      "transformed": true,
+      "models": {
+        "192836d1-d0e9-4556-a3a1-de64330aa8d5": {
+          "id": "192836d1-d0e9-4556-a3a1-de64330aa8d5",
+          "type": "default",
+          "selected": false,
+          "source": "5f693a26-6cad-4e61-9292-295741e039d7",
+          "sourcePort": "d457ef4b-5c51-415e-8aaa-c1e29007d8c2",
+          "target": "491d9c17-ee1e-44ea-8232-1fb2ef8433c4",
+          "targetPort": "bd18cb8e-caa8-41a5-9861-240ff3988e8e",
+          "points": [
+            {
+              "id": "0590ca50-a254-4200-9eb7-2597d27463e9",
+              "type": "point",
+              "x": 258.296875,
+              "y": 42.5
+            },
+            {
+              "id": "36462411-f905-46be-a997-800890845021",
+              "type": "point",
+              "x": 311.5,
+              "y": 43.5
+            }
+          ],
+          "labels": [],
+          "width": 3,
+          "color": "gray",
+          "curvyness": 50,
+          "selectedColor": "rgb(0,192,255)"
+        },
+        "479d22b4-fd43-448d-a346-06c8aea17786": {
+          "id": "479d22b4-fd43-448d-a346-06c8aea17786",
+          "type": "default",
+          "selected": false,
+          "source": "491d9c17-ee1e-44ea-8232-1fb2ef8433c4",
+          "sourcePort": "c518631a-9840-41a0-b0a8-fe81f7d3f69b",
+          "target": "8aa44c92-60d1-4002-a94c-03c2ec7b85b8",
+          "targetPort": "3df8a6f2-0a0c-44f7-b8f8-e1c02b20965a",
+          "points": [
+            {
+              "id": "c7633e79-a39c-4bc2-9586-e43c34be4ba1",
+              "type": "point",
+              "x": 472.375,
+              "y": 43.5
+            },
+            {
+              "id": "3ba42af4-7abe-45e2-9284-a2993e5740fd",
+              "type": "point",
+              "x": 314.5,
+              "y": 107.5
+            }
+          ],
+          "labels": [],
+          "width": 3,
+          "color": "gray",
+          "curvyness": 50,
+          "selectedColor": "rgb(0,192,255)"
+        },
+        "ae8558d9-cca5-43de-854d-47f3a9817bd9": {
+          "id": "ae8558d9-cca5-43de-854d-47f3a9817bd9",
+          "type": "default",
+          "selected": false,
+          "source": "c3c2f5f7-8f83-40f1-a115-9f03fb32a9ba",
+          "sourcePort": "ac1aa4c9-36a8-41fc-9d62-f3a61658e368",
+          "target": "5d7a09b0-208a-4071-bd34-ba51f17fc50a",
+          "targetPort": "0622388b-0ba6-4820-a508-21d77fa8bb18",
+          "points": [
+            {
+              "id": "fdb32dcb-0561-401f-ab29-8e97607e7cac",
+              "type": "point",
+              "x": 598.96875,
+              "y": 169.5
+            },
+            {
+              "id": "eb65acef-507f-4d86-862b-540a71097a9f",
+              "type": "point",
+              "x": 311.5,
+              "y": 233.5
+            }
+          ],
+          "labels": [],
+          "width": 3,
+          "color": "gray",
+          "curvyness": 50,
+          "selectedColor": "rgb(0,192,255)"
+        },
+        "56fcd43b-6c55-4397-bf1f-8746bbaac47f": {
+          "id": "56fcd43b-6c55-4397-bf1f-8746bbaac47f",
+          "type": "default",
+          "selected": false,
+          "source": "8aa44c92-60d1-4002-a94c-03c2ec7b85b8",
+          "sourcePort": "64eb081a-1170-4ac9-8991-1803fb3b9707",
+          "target": "c3c2f5f7-8f83-40f1-a115-9f03fb32a9ba",
+          "targetPort": "521e7a42-3639-4e3d-ad78-d961712bbb44",
+          "points": [
+            {
+              "id": "137dd3ef-ac5d-453d-aadc-b1c09273310a",
+              "type": "point",
+              "x": 570.65625,
+              "y": 107.5
+            },
+            {
+              "id": "2522f3b3-b449-4655-9de0-fd8482e1e9c7",
+              "type": "point",
+              "x": 313.5,
+              "y": 169.5
+            }
+          ],
+          "labels": [],
+          "width": 3,
+          "color": "gray",
+          "curvyness": 50,
+          "selectedColor": "rgb(0,192,255)"
+        }
+      }
+    },
+    {
+      "id": "7bdc046f-e1f1-4aa4-9fef-96822edd13c2",
+      "type": "diagram-nodes",
+      "isSvg": false,
+      "transformed": true,
+      "models": {
+        "5f693a26-6cad-4e61-9292-295741e039d7": {
+          "id": "5f693a26-6cad-4e61-9292-295741e039d7",
+          "type": "start",
+          "x": 175,
+          "y": 28,
+          "ports": [
+            {
+              "id": "d457ef4b-5c51-415e-8aaa-c1e29007d8c2",
+              "type": "default",
+              "x": 250.796875,
+              "y": 35,
+              "name": "out-1654751282817",
+              "alignment": "right",
+              "parentNode": "5f693a26-6cad-4e61-9292-295741e039d7",
+              "links": [
+                "192836d1-d0e9-4556-a3a1-de64330aa8d5"
+              ],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Start",
+          "color": "#16db26",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "d457ef4b-5c51-415e-8aaa-c1e29007d8c2"
+          ]
+        },
+        "491d9c17-ee1e-44ea-8232-1fb2ef8433c4": {
+          "id": "491d9c17-ee1e-44ea-8232-1fb2ef8433c4",
+          "type": "dialogue",
+          "selected": false,
+          "x": 317,
+          "y": 5,
+          "ports": [
+            {
+              "id": "bd18cb8e-caa8-41a5-9861-240ff3988e8e",
+              "type": "default",
+              "x": 304,
+              "y": 36,
+              "name": "in-1654751283475 ",
+              "alignment": "left",
+              "parentNode": "491d9c17-ee1e-44ea-8232-1fb2ef8433c4",
+              "links": [
+                "192836d1-d0e9-4556-a3a1-de64330aa8d5"
+              ],
+              "in": true,
+              "label": "❯"
+            },
+            {
+              "id": "c518631a-9840-41a0-b0a8-fe81f7d3f69b",
+              "type": "default",
+              "x": 464.875,
+              "y": 36,
+              "name": "out-1654751283475",
+              "alignment": "right",
+              "parentNode": "491d9c17-ee1e-44ea-8232-1fb2ef8433c4",
+              "links": [
+                "479d22b4-fd43-448d-a346-06c8aea17786"
+              ],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "<player>",
+          "color": "#dd341e",
+          "portsInOrder": [
+            "bd18cb8e-caa8-41a5-9861-240ff3988e8e"
+          ],
+          "portsOutOrder": [
+            "c518631a-9840-41a0-b0a8-fe81f7d3f69b"
+          ],
+          "text": "Hello there."
+        },
+        "8aa44c92-60d1-4002-a94c-03c2ec7b85b8": {
+          "id": "8aa44c92-60d1-4002-a94c-03c2ec7b85b8",
+          "type": "dialogue",
+          "selected": false,
+          "x": 320,
+          "y": 69,
+          "ports": [
+            {
+              "id": "3df8a6f2-0a0c-44f7-b8f8-e1c02b20965a",
+              "type": "default",
+              "x": 307,
+              "y": 100,
+              "name": "in-1654751283475 ",
+              "alignment": "left",
+              "parentNode": "8aa44c92-60d1-4002-a94c-03c2ec7b85b8",
+              "links": [
+                "479d22b4-fd43-448d-a346-06c8aea17786"
+              ],
+              "in": true,
+              "label": "❯"
+            },
+            {
+              "id": "64eb081a-1170-4ac9-8991-1803fb3b9707",
+              "type": "default",
+              "x": 563.15625,
+              "y": 100,
+              "name": "out-1654751283475",
+              "alignment": "right",
+              "parentNode": "8aa44c92-60d1-4002-a94c-03c2ec7b85b8",
+              "links": [
+                "56fcd43b-6c55-4397-bf1f-8746bbaac47f"
+              ],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Butler Jones",
+          "color": "#dd341e",
+          "portsInOrder": [
+            "3df8a6f2-0a0c-44f7-b8f8-e1c02b20965a"
+          ],
+          "portsOutOrder": [
+            "64eb081a-1170-4ac9-8991-1803fb3b9707"
+          ],
+          "text": "Hello, how are you today?"
+        },
+        "c3c2f5f7-8f83-40f1-a115-9f03fb32a9ba": {
+          "id": "c3c2f5f7-8f83-40f1-a115-9f03fb32a9ba",
+          "type": "dialogue",
+          "selected": false,
+          "x": 319,
+          "y": 131,
+          "ports": [
+            {
+              "id": "521e7a42-3639-4e3d-ad78-d961712bbb44",
+              "type": "default",
+              "x": 306,
+              "y": 162,
+              "name": "in-1654751283475 ",
+              "alignment": "left",
+              "parentNode": "c3c2f5f7-8f83-40f1-a115-9f03fb32a9ba",
+              "links": [
+                "56fcd43b-6c55-4397-bf1f-8746bbaac47f"
+              ],
+              "in": true,
+              "label": "❯"
+            },
+            {
+              "id": "ac1aa4c9-36a8-41fc-9d62-f3a61658e368",
+              "type": "default",
+              "x": 591.46875,
+              "y": 162,
+              "name": "out-1654751283475",
+              "alignment": "right",
+              "parentNode": "c3c2f5f7-8f83-40f1-a115-9f03fb32a9ba",
+              "links": [
+                "ae8558d9-cca5-43de-854d-47f3a9817bd9"
+              ],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "<player>",
+          "color": "#dd341e",
+          "portsInOrder": [
+            "521e7a42-3639-4e3d-ad78-d961712bbb44"
+          ],
+          "portsOutOrder": [
+            "ac1aa4c9-36a8-41fc-9d62-f3a61658e368"
+          ],
+          "text": "Good thank you. And yourself?"
+        },
+        "5d7a09b0-208a-4071-bd34-ba51f17fc50a": {
+          "id": "5d7a09b0-208a-4071-bd34-ba51f17fc50a",
+          "type": "dialogue",
+          "selected": false,
+          "x": 317,
+          "y": 195,
+          "ports": [
+            {
+              "id": "0622388b-0ba6-4820-a508-21d77fa8bb18",
+              "type": "default",
+              "x": 304,
+              "y": 226,
+              "name": "in-1654751283475 ",
+              "alignment": "left",
+              "parentNode": "5d7a09b0-208a-4071-bd34-ba51f17fc50a",
+              "links": [
+                "ae8558d9-cca5-43de-854d-47f3a9817bd9"
+              ],
+              "in": true,
+              "label": "❯"
+            },
+            {
+              "id": "2402b362-1303-480d-a176-fb2dc3fb9401",
+              "type": "default",
+              "x": 486.859375,
+              "y": 226,
+              "name": "out-1654751283475",
+              "alignment": "right",
+              "parentNode": "5d7a09b0-208a-4071-bd34-ba51f17fc50a",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Butler Jones",
+          "color": "#dd341e",
+          "portsInOrder": [
+            "0622388b-0ba6-4820-a508-21d77fa8bb18"
+          ],
+          "portsOutOrder": [
+            "2402b362-1303-480d-a176-fb2dc3fb9401"
+          ],
+          "text": "Fine and dandy."
+        }
+      }
+    }
+  ]
+}

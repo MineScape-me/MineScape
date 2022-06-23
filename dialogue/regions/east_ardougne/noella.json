@@ -1,0 +1,125 @@
+{
+  "id": "dce4c563-786c-4881-9fbf-3a6ad5bbab4b",
+  "offsetX": 0,
+  "offsetY": 0,
+  "zoom": 100,
+  "gridSize": 0,
+  "layers": [
+    {
+      "id": "8baf9455-0a42-45d7-a06d-c0b5ee51559e",
+      "type": "diagram-links",
+      "isSvg": true,
+      "transformed": true,
+      "models": {
+        "02b997dd-8568-4b9a-a25c-920e6b29bb25": {
+          "id": "02b997dd-8568-4b9a-a25c-920e6b29bb25",
+          "type": "default",
+          "selected": false,
+          "source": "47754988-4779-4491-833a-96077fc21ec2",
+          "sourcePort": "39bd53ec-0d85-44d8-a8ce-c78cd7647146",
+          "target": "4f430d62-f3b8-4e0d-b41f-aa791381f43b",
+          "targetPort": "1a1de69b-00ae-43c2-849f-afeab3928cc1",
+          "points": [
+            {
+              "id": "667d8601-2cfb-4f86-8d05-031c66277c6e",
+              "type": "point",
+              "x": 253.296875,
+              "y": 146.5
+            },
+            {
+              "id": "208ca7f6-0ef0-4b21-ad34-6a3753b88fe2",
+              "type": "point",
+              "x": 326.5,
+              "y": 146.5
+            }
+          ],
+          "labels": [],
+          "width": 3,
+          "color": "gray",
+          "curvyness": 50,
+          "selectedColor": "rgb(0,192,255)"
+        }
+      }
+    },
+    {
+      "id": "233a506f-f1da-4cf0-a864-5e0cb84d9d90",
+      "type": "diagram-nodes",
+      "isSvg": false,
+      "transformed": true,
+      "models": {
+        "47754988-4779-4491-833a-96077fc21ec2": {
+          "id": "47754988-4779-4491-833a-96077fc21ec2",
+          "type": "start",
+          "x": 170,
+          "y": 132,
+          "ports": [
+            {
+              "id": "39bd53ec-0d85-44d8-a8ce-c78cd7647146",
+              "type": "default",
+              "x": 245.796875,
+              "y": 139,
+              "name": "out-1654753507113",
+              "alignment": "right",
+              "parentNode": "47754988-4779-4491-833a-96077fc21ec2",
+              "links": [
+                "02b997dd-8568-4b9a-a25c-920e6b29bb25"
+              ],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Start",
+          "color": "#16db26",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "39bd53ec-0d85-44d8-a8ce-c78cd7647146"
+          ]
+        },
+        "4f430d62-f3b8-4e0d-b41f-aa791381f43b": {
+          "id": "4f430d62-f3b8-4e0d-b41f-aa791381f43b",
+          "type": "dialogue",
+          "selected": false,
+          "x": 332,
+          "y": 108,
+          "ports": [
+            {
+              "id": "1a1de69b-00ae-43c2-849f-afeab3928cc1",
+              "type": "default",
+              "x": 319,
+              "y": 139,
+              "name": "in-1654753507823 ",
+              "alignment": "left",
+              "parentNode": "4f430d62-f3b8-4e0d-b41f-aa791381f43b",
+              "links": [
+                "02b997dd-8568-4b9a-a25c-920e6b29bb25"
+              ],
+              "in": true,
+              "label": "❯"
+            },
+            {
+              "id": "1a265a41-c820-4937-9339-7c65d2ba2830",
+              "type": "default",
+              "x": 641.109375,
+              "y": 139,
+              "name": "out-1654753507823",
+              "alignment": "right",
+              "parentNode": "4f430d62-f3b8-4e0d-b41f-aa791381f43b",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Noella",
+          "color": "#dd341e",
+          "portsInOrder": [
+            "1a1de69b-00ae-43c2-849f-afeab3928cc1"
+          ],
+          "portsOutOrder": [
+            "1a265a41-c820-4937-9339-7c65d2ba2830"
+          ],
+          "text": "Please excuse me, I'm rather busy."
+        }
+      }
+    }
+  ]
+}
