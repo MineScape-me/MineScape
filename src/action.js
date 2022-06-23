@@ -222,13 +222,13 @@ const checkDialogue = function (tree, data) {
 const getStarts = function(tree, trees){
     const starts = {};
     Object.entries(trees).forEach(([key, nodes]) =>{
-        starts[key] = new Array();
+        starts[key] = [];
         Object.entries(nodes).forEach(([id, node]) => {
             if(node.type === "start"){
                 starts[key].push(node.title);
             }
         });
-        if(!starts[key].contains("Start")){
+        if(!starts[key].includes("Start")){
             state.issues += `\n\n> **${tree}:${key}** missing tree initial start`;
         }
     });
@@ -243,7 +243,7 @@ const checkTrees = function (tree, nodes, starts) {
                     state.issues += `\n\n> **${tree}** tree jump empty\n${JSON.stringify(node)}`;
                 }else if(node.start === undefined || node.start === ""){
                     state.issues += `\n\n> **${tree}** tree start empty\n${JSON.stringify(node)}`;
-                }else if(!(node.tree in starts) || !starts[tree].contains(tree.start)){
+                }else if(!(node.tree in starts) || !starts[tree].includes(tree.start)){
                     state.issues += `\n\n> **${tree}** unknown tree start ${node.tree} - ${node.start}\n${JSON.stringify(node)}`;
                 }
 				break;
