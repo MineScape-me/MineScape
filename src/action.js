@@ -88,7 +88,7 @@ const isArgumentsValid = function (vars, args) {
 		const value = args[index];
 		switch (type) {
 			case "list": {
-				const argument = vars[index].source;
+				var argument = vars[index].source;
 				var matches = /\[(.*?)\]/.exec(argument);
 				if (matches) {
 					const number = Number(matches[1]);
@@ -103,7 +103,7 @@ const isArgumentsValid = function (vars, args) {
 				return notRequired || `${value} is not in source ${argument}`;
 			}
 			case "number": {
-				if (!isNaN(value.replace(",", ""))) {
+				if (!isNaN(value.split(",").join(""))) {
 					continue;
 				}
 				return notRequired || `${value} is not a number`;

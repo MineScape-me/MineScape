@@ -1,0 +1,273 @@
+{
+  "id": "0dd90698-c68f-45c0-ad4e-437486d95adc",
+  "offsetX": 63,
+  "offsetY": 23,
+  "zoom": 100,
+  "gridSize": 0,
+  "layers": [
+    {
+      "id": "b33cb65c-a3fc-4b99-a3dc-73b95ce7a568",
+      "type": "diagram-links",
+      "isSvg": true,
+      "transformed": true,
+      "models": {
+        "cd5dcaa8-f5c5-43c9-a3b1-d7d3435f4de1": {
+          "id": "cd5dcaa8-f5c5-43c9-a3b1-d7d3435f4de1",
+          "type": "default",
+          "selected": false,
+          "source": "13fac6dd-ab9b-4bbb-be99-75e7fd1257e0",
+          "sourcePort": "69713109-9d46-4f58-90bf-1cb3c79a6752",
+          "target": "bf4f1aab-0571-4246-91fd-769df455e4a6",
+          "targetPort": "3f27f403-b778-4150-b1f9-4d82f33aeeb0",
+          "points": [
+            {
+              "id": "c73b797c-1d1e-4d3a-98f1-d4eb2437c96d",
+              "type": "point",
+              "x": 170.296875,
+              "y": 50.5
+            },
+            {
+              "id": "e00998eb-6fd1-4b42-9e88-5b7676a907d6",
+              "type": "point",
+              "x": 245.5,
+              "y": 50.5
+            }
+          ],
+          "labels": [],
+          "width": 3,
+          "color": "gray",
+          "curvyness": 50,
+          "selectedColor": "rgb(0,192,255)"
+        },
+        "ec8e19cf-5efd-4821-8844-46ee107b8902": {
+          "id": "ec8e19cf-5efd-4821-8844-46ee107b8902",
+          "type": "default",
+          "selected": false,
+          "source": "bf4f1aab-0571-4246-91fd-769df455e4a6",
+          "sourcePort": "7b0ec3a8-93e9-4fd9-b2e0-4bd3634cab0d",
+          "target": "b178dba8-b808-4300-a46d-c4cfa9382ad1",
+          "targetPort": "513515d3-cd1d-41ba-8f69-8ead3c926010",
+          "points": [
+            {
+              "id": "cf1882f4-8056-4a81-b06f-4f0e9d033781",
+              "type": "point",
+              "x": 406.375,
+              "y": 50.5
+            },
+            {
+              "id": "dfda7ec3-babf-47ae-8ce3-44b219e647d8",
+              "type": "point",
+              "x": 237.5,
+              "y": 137.5
+            }
+          ],
+          "labels": [],
+          "width": 3,
+          "color": "gray",
+          "curvyness": 50,
+          "selectedColor": "rgb(0,192,255)"
+        },
+        "c380bc02-0381-4442-959f-d1c818375882": {
+          "id": "c380bc02-0381-4442-959f-d1c818375882",
+          "type": "default",
+          "selected": false,
+          "source": "b178dba8-b808-4300-a46d-c4cfa9382ad1",
+          "sourcePort": "1fe6b5a7-4883-4f76-8d75-037f5bebbcd8",
+          "target": "5ed8e454-644d-4b89-856a-47765aea7472",
+          "targetPort": "dbba42df-c80d-4922-9970-a91e7bb25c9c",
+          "points": [
+            {
+              "id": "a52906bd-965f-4372-a4b3-3ba8438bb6cb",
+              "type": "point",
+              "x": 684.203125,
+              "y": 137.5
+            },
+            {
+              "id": "b5bf1de0-11ac-49f3-b3b9-cb67c31ab647",
+              "type": "point",
+              "x": 237.5,
+              "y": 216.5
+            }
+          ],
+          "labels": [],
+          "width": 3,
+          "color": "gray",
+          "curvyness": 50,
+          "selectedColor": "rgb(0,192,255)"
+        }
+      }
+    },
+    {
+      "id": "75b55801-aa9c-4d44-9811-923ff965b605",
+      "type": "diagram-nodes",
+      "isSvg": false,
+      "transformed": true,
+      "models": {
+        "13fac6dd-ab9b-4bbb-be99-75e7fd1257e0": {
+          "id": "13fac6dd-ab9b-4bbb-be99-75e7fd1257e0",
+          "type": "start",
+          "x": 87,
+          "y": 36,
+          "ports": [
+            {
+              "id": "69713109-9d46-4f58-90bf-1cb3c79a6752",
+              "type": "default",
+              "x": 162.796875,
+              "y": 43,
+              "name": "out-1654535682802",
+              "alignment": "right",
+              "parentNode": "13fac6dd-ab9b-4bbb-be99-75e7fd1257e0",
+              "links": [
+                "cd5dcaa8-f5c5-43c9-a3b1-d7d3435f4de1"
+              ],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Start",
+          "color": "#16db26",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "69713109-9d46-4f58-90bf-1cb3c79a6752"
+          ]
+        },
+        "bf4f1aab-0571-4246-91fd-769df455e4a6": {
+          "id": "bf4f1aab-0571-4246-91fd-769df455e4a6",
+          "type": "dialogue",
+          "selected": false,
+          "x": 251,
+          "y": 12,
+          "ports": [
+            {
+              "id": "3f27f403-b778-4150-b1f9-4d82f33aeeb0",
+              "type": "default",
+              "x": 238,
+              "y": 43,
+              "name": "in-1654535683683 ",
+              "alignment": "left",
+              "parentNode": "bf4f1aab-0571-4246-91fd-769df455e4a6",
+              "links": [
+                "cd5dcaa8-f5c5-43c9-a3b1-d7d3435f4de1"
+              ],
+              "in": true,
+              "label": "❯"
+            },
+            {
+              "id": "7b0ec3a8-93e9-4fd9-b2e0-4bd3634cab0d",
+              "type": "default",
+              "x": 398.875,
+              "y": 43,
+              "name": "out-1654535683684",
+              "alignment": "right",
+              "parentNode": "bf4f1aab-0571-4246-91fd-769df455e4a6",
+              "links": [
+                "ec8e19cf-5efd-4821-8844-46ee107b8902"
+              ],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Sir Kay",
+          "color": "#dd341e",
+          "portsInOrder": [
+            "3f27f403-b778-4150-b1f9-4d82f33aeeb0"
+          ],
+          "portsOutOrder": [
+            "7b0ec3a8-93e9-4fd9-b2e0-4bd3634cab0d"
+          ],
+          "text": "Good morrow!"
+        },
+        "b178dba8-b808-4300-a46d-c4cfa9382ad1": {
+          "id": "b178dba8-b808-4300-a46d-c4cfa9382ad1",
+          "type": "dialogue",
+          "selected": false,
+          "x": 243,
+          "y": 99,
+          "ports": [
+            {
+              "id": "513515d3-cd1d-41ba-8f69-8ead3c926010",
+              "type": "default",
+              "x": 230,
+              "y": 130,
+              "name": "in-1654535694668 ",
+              "alignment": "left",
+              "parentNode": "b178dba8-b808-4300-a46d-c4cfa9382ad1",
+              "links": [
+                "ec8e19cf-5efd-4821-8844-46ee107b8902"
+              ],
+              "in": true,
+              "label": "❯"
+            },
+            {
+              "id": "1fe6b5a7-4883-4f76-8d75-037f5bebbcd8",
+              "type": "default",
+              "x": 676.703125,
+              "y": 130,
+              "name": "out-1654535694668",
+              "alignment": "right",
+              "parentNode": "b178dba8-b808-4300-a46d-c4cfa9382ad1",
+              "links": [
+                "c380bc02-0381-4442-959f-d1c818375882"
+              ],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "<player>",
+          "color": "#dd341e",
+          "portsInOrder": [
+            "513515d3-cd1d-41ba-8f69-8ead3c926010"
+          ],
+          "portsOutOrder": [
+            "1fe6b5a7-4883-4f76-8d75-037f5bebbcd8"
+          ],
+          "text": "Morning. Know where an adventurer has to go to find\na quest around here?"
+        },
+        "5ed8e454-644d-4b89-856a-47765aea7472": {
+          "id": "5ed8e454-644d-4b89-856a-47765aea7472",
+          "type": "dialogue",
+          "selected": false,
+          "x": 243,
+          "y": 178,
+          "ports": [
+            {
+              "id": "dbba42df-c80d-4922-9970-a91e7bb25c9c",
+              "type": "default",
+              "x": 230,
+              "y": 209,
+              "name": "in-1654535683683 ",
+              "alignment": "left",
+              "parentNode": "5ed8e454-644d-4b89-856a-47765aea7472",
+              "links": [
+                "c380bc02-0381-4442-959f-d1c818375882"
+              ],
+              "in": true,
+              "label": "❯"
+            },
+            {
+              "id": "9434d58a-d6d2-4225-8e5b-85ece28bad3f",
+              "type": "default",
+              "x": 669.375,
+              "y": 209,
+              "name": "out-1654535683684",
+              "alignment": "right",
+              "parentNode": "5ed8e454-644d-4b89-856a-47765aea7472",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Sir Kay",
+          "color": "#dd341e",
+          "portsInOrder": [
+            "dbba42df-c80d-4922-9970-a91e7bb25c9c"
+          ],
+          "portsOutOrder": [
+            "9434d58a-d6d2-4225-8e5b-85ece28bad3f"
+          ],
+          "text": "An adventurer eh? There is no service finer than\nserving the bountiful King Arthur, and I happen to\nknow there's an important quest to fulfill."
+        }
+      }
+    }
+  ]
+}

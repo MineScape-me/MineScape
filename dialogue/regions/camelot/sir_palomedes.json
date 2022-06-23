@@ -1,0 +1,273 @@
+{
+  "id": "ba6411ea-38ae-412c-9d71-55c4769e1d61",
+  "offsetX": 0,
+  "offsetY": 0,
+  "zoom": 100,
+  "gridSize": 0,
+  "layers": [
+    {
+      "id": "e7b75f68-2bad-4184-90e5-71b7743a59df",
+      "type": "diagram-links",
+      "isSvg": true,
+      "transformed": true,
+      "models": {
+        "d3bff97e-436e-48f5-9c48-36c1f2b8a27b": {
+          "id": "d3bff97e-436e-48f5-9c48-36c1f2b8a27b",
+          "type": "default",
+          "selected": false,
+          "source": "f5d01aea-91ee-4a6c-9104-b2d6ea72cde3",
+          "sourcePort": "5b82c403-6bf0-4256-b606-473eadd9fd36",
+          "target": "092b1d51-4221-4a10-b6ab-42aa90235654",
+          "targetPort": "eb039f2e-8386-47ec-b6dc-7b116b6d65a0",
+          "points": [
+            {
+              "id": "53909eae-4be9-4123-ae83-36dc3e66ac4a",
+              "type": "point",
+              "x": 180.296875,
+              "y": 54.5
+            },
+            {
+              "id": "908eedd7-845a-42f1-ac9a-6642302c825f",
+              "type": "point",
+              "x": 256.5,
+              "y": 53.5
+            }
+          ],
+          "labels": [],
+          "width": 3,
+          "color": "gray",
+          "curvyness": 50,
+          "selectedColor": "rgb(0,192,255)"
+        },
+        "3510f683-6e25-4ddd-a596-7af091ed5e6b": {
+          "id": "3510f683-6e25-4ddd-a596-7af091ed5e6b",
+          "type": "default",
+          "selected": false,
+          "source": "a3875957-06f7-4afb-8d2d-a930f26105cb",
+          "sourcePort": "a582b8a9-41c2-45c7-aba3-a47822afb141",
+          "target": "8153541a-d7d2-41d9-a1f0-913a10aa2ec2",
+          "targetPort": "a09a2ced-739c-4a29-9a8c-6abb617ec694",
+          "points": [
+            {
+              "id": "559a32bb-b061-47c7-a430-1db52d1d6196",
+              "type": "point",
+              "x": 619.59375,
+              "y": 128.5
+            },
+            {
+              "id": "6259260c-c33c-478e-adbb-4f6cdbd5d4a3",
+              "type": "point",
+              "x": 254.5,
+              "y": 202.5
+            }
+          ],
+          "labels": [],
+          "width": 3,
+          "color": "gray",
+          "curvyness": 50,
+          "selectedColor": "rgb(0,192,255)"
+        },
+        "c21b63a7-7216-4c31-9456-7983e89f19d4": {
+          "id": "c21b63a7-7216-4c31-9456-7983e89f19d4",
+          "type": "default",
+          "selected": false,
+          "source": "092b1d51-4221-4a10-b6ab-42aa90235654",
+          "sourcePort": "1aa18dcf-f88e-4494-83c9-bedcb0bc0c6a",
+          "target": "a3875957-06f7-4afb-8d2d-a930f26105cb",
+          "targetPort": "86378837-2d2f-4d85-a0c7-b48c5910acaa",
+          "points": [
+            {
+              "id": "fb04b9c8-a685-43bb-b770-9019a8be55aa",
+              "type": "point",
+              "x": 673.890625,
+              "y": 53.5
+            },
+            {
+              "id": "c672e90d-22d4-4c1f-870c-cb8ff362f7d7",
+              "type": "point",
+              "x": 253.5,
+              "y": 128.5
+            }
+          ],
+          "labels": [],
+          "width": 3,
+          "color": "gray",
+          "curvyness": 50,
+          "selectedColor": "rgb(0,192,255)"
+        }
+      }
+    },
+    {
+      "id": "357fad8a-cf40-4112-9799-c28f2e7c2740",
+      "type": "diagram-nodes",
+      "isSvg": false,
+      "transformed": true,
+      "models": {
+        "f5d01aea-91ee-4a6c-9104-b2d6ea72cde3": {
+          "id": "f5d01aea-91ee-4a6c-9104-b2d6ea72cde3",
+          "type": "start",
+          "x": 97,
+          "y": 40,
+          "ports": [
+            {
+              "id": "5b82c403-6bf0-4256-b606-473eadd9fd36",
+              "type": "default",
+              "x": 172.796875,
+              "y": 47,
+              "name": "out-1654535856171",
+              "alignment": "right",
+              "parentNode": "f5d01aea-91ee-4a6c-9104-b2d6ea72cde3",
+              "links": [
+                "d3bff97e-436e-48f5-9c48-36c1f2b8a27b"
+              ],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Start",
+          "color": "#16db26",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "5b82c403-6bf0-4256-b606-473eadd9fd36"
+          ]
+        },
+        "092b1d51-4221-4a10-b6ab-42aa90235654": {
+          "id": "092b1d51-4221-4a10-b6ab-42aa90235654",
+          "type": "dialogue",
+          "selected": false,
+          "x": 262,
+          "y": 15,
+          "ports": [
+            {
+              "id": "eb039f2e-8386-47ec-b6dc-7b116b6d65a0",
+              "type": "default",
+              "x": 249,
+              "y": 46,
+              "name": "in-1654535856935 ",
+              "alignment": "left",
+              "parentNode": "092b1d51-4221-4a10-b6ab-42aa90235654",
+              "links": [
+                "d3bff97e-436e-48f5-9c48-36c1f2b8a27b"
+              ],
+              "in": true,
+              "label": "❯"
+            },
+            {
+              "id": "1aa18dcf-f88e-4494-83c9-bedcb0bc0c6a",
+              "type": "default",
+              "x": 666.390625,
+              "y": 46,
+              "name": "out-1654535856936",
+              "alignment": "right",
+              "parentNode": "092b1d51-4221-4a10-b6ab-42aa90235654",
+              "links": [
+                "c21b63a7-7216-4c31-9456-7983e89f19d4"
+              ],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Sir Palomedes",
+          "color": "#dd341e",
+          "portsInOrder": [
+            "eb039f2e-8386-47ec-b6dc-7b116b6d65a0"
+          ],
+          "portsOutOrder": [
+            "1aa18dcf-f88e-4494-83c9-bedcb0bc0c6a"
+          ],
+          "text": "Hello there adventurer, what do you want of me?"
+        },
+        "a3875957-06f7-4afb-8d2d-a930f26105cb": {
+          "id": "a3875957-06f7-4afb-8d2d-a930f26105cb",
+          "type": "dialogue",
+          "selected": false,
+          "x": 259,
+          "y": 90,
+          "ports": [
+            {
+              "id": "86378837-2d2f-4d85-a0c7-b48c5910acaa",
+              "type": "default",
+              "x": 246,
+              "y": 121,
+              "name": "in-1654535867993 ",
+              "alignment": "left",
+              "parentNode": "a3875957-06f7-4afb-8d2d-a930f26105cb",
+              "links": [
+                "c21b63a7-7216-4c31-9456-7983e89f19d4"
+              ],
+              "in": true,
+              "label": "❯"
+            },
+            {
+              "id": "a582b8a9-41c2-45c7-aba3-a47822afb141",
+              "type": "default",
+              "x": 612.09375,
+              "y": 121,
+              "name": "out-1654535867993",
+              "alignment": "right",
+              "parentNode": "a3875957-06f7-4afb-8d2d-a930f26105cb",
+              "links": [
+                "3510f683-6e25-4ddd-a596-7af091ed5e6b"
+              ],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "<player>",
+          "color": "#dd341e",
+          "portsInOrder": [
+            "86378837-2d2f-4d85-a0c7-b48c5910acaa"
+          ],
+          "portsOutOrder": [
+            "a582b8a9-41c2-45c7-aba3-a47822afb141"
+          ],
+          "text": "I'd like some advice on finding a quest."
+        },
+        "8153541a-d7d2-41d9-a1f0-913a10aa2ec2": {
+          "id": "8153541a-d7d2-41d9-a1f0-913a10aa2ec2",
+          "type": "dialogue",
+          "selected": false,
+          "x": 260,
+          "y": 164,
+          "ports": [
+            {
+              "id": "a09a2ced-739c-4a29-9a8c-6abb617ec694",
+              "type": "default",
+              "x": 247,
+              "y": 195,
+              "name": "in-1654535856935 ",
+              "alignment": "left",
+              "parentNode": "8153541a-d7d2-41d9-a1f0-913a10aa2ec2",
+              "links": [
+                "3510f683-6e25-4ddd-a596-7af091ed5e6b"
+              ],
+              "in": true,
+              "label": "❯"
+            },
+            {
+              "id": "a29f5aaf-cce9-493a-a865-f3cf4a5cdb39",
+              "type": "default",
+              "x": 715.6875,
+              "y": 195,
+              "name": "out-1654535856936",
+              "alignment": "right",
+              "parentNode": "8153541a-d7d2-41d9-a1f0-913a10aa2ec2",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Sir Palomedes",
+          "color": "#dd341e",
+          "portsInOrder": [
+            "a09a2ced-739c-4a29-9a8c-6abb617ec694"
+          ],
+          "portsOutOrder": [
+            "a29f5aaf-cce9-493a-a865-f3cf4a5cdb39"
+          ],
+          "text": "I do not know of any myself... but it would perhaps be\nworth your while asking the King if he has any tasks\nfor you."
+        }
+      }
+    }
+  ]
+}

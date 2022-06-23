@@ -1,0 +1,758 @@
+{
+  "id": "145a3efd-5892-4130-b4b0-849a6bdb0392",
+  "offsetX": 13,
+  "offsetY": 166,
+  "zoom": 100,
+  "gridSize": 0,
+  "layers": [
+    {
+      "id": "418f133f-37d6-4a01-a983-f5f6146d82c1",
+      "type": "diagram-links",
+      "isSvg": true,
+      "transformed": true,
+      "models": {
+        "46fee05f-8aa2-4446-bc0d-22fdb41fa6c8": {
+          "id": "46fee05f-8aa2-4446-bc0d-22fdb41fa6c8",
+          "type": "default",
+          "selected": false,
+          "source": "ea31db87-1e42-4c6a-9c3f-6683fd6c7486",
+          "sourcePort": "912964eb-8090-4fc3-9b2c-136f1f712781",
+          "target": "609647bf-ec25-46e8-ac5f-4cfca5a7e6d5",
+          "targetPort": "2fe68354-258b-4025-b2e4-4ed8b6cd0b6a",
+          "points": [
+            {
+              "id": "bd58cce2-ff2a-4403-9ff6-9e6242a6104f",
+              "type": "point",
+              "x": 825.5625,
+              "y": 115.5
+            },
+            {
+              "id": "f704e079-4005-441a-b03d-60f16755b1a8",
+              "type": "point",
+              "x": 415.5,
+              "y": 196.5
+            }
+          ],
+          "labels": [],
+          "width": 3,
+          "color": "gray",
+          "curvyness": 50,
+          "selectedColor": "rgb(0,192,255)"
+        },
+        "21336d38-fbf9-470e-94b0-322b0eb17434": {
+          "id": "21336d38-fbf9-470e-94b0-322b0eb17434",
+          "type": "default",
+          "selected": false,
+          "source": "609647bf-ec25-46e8-ac5f-4cfca5a7e6d5",
+          "sourcePort": "58d26450-44dc-433e-880b-8e0f975ccfdc",
+          "target": "262cb300-b993-4ee8-b393-dd79d3c90a49",
+          "targetPort": "885af892-16fd-43d9-bcb4-9552701ed7aa",
+          "points": [
+            {
+              "id": "ce1c37fc-d138-4f52-b2ae-b084c14f05a5",
+              "type": "point",
+              "x": 903.328125,
+              "y": 277.5
+            },
+            {
+              "id": "6cd65c7c-c509-4ae8-9e2a-da0ffd850095",
+              "type": "point",
+              "x": 927.5,
+              "y": 360.5
+            }
+          ],
+          "labels": [],
+          "width": 3,
+          "color": "gray",
+          "curvyness": 50,
+          "selectedColor": "rgb(0,192,255)"
+        },
+        "a63babbf-a698-462b-9f23-99d7bf4fa57c": {
+          "id": "a63babbf-a698-462b-9f23-99d7bf4fa57c",
+          "type": "default",
+          "selected": false,
+          "source": "262cb300-b993-4ee8-b393-dd79d3c90a49",
+          "sourcePort": "9a408bd0-4f99-4f13-a1b8-450816528ded",
+          "target": "6c3882ce-984f-464e-b9be-3e8a7c14257f",
+          "targetPort": "4c4fac6f-8488-4010-b22d-14e70b42b17a",
+          "points": [
+            {
+              "id": "1204e070-4f3e-4eb4-aae1-6f9b435db439",
+              "type": "point",
+              "x": 1359.546875,
+              "y": 360.5
+            },
+            {
+              "id": "4c1b7a37-18ab-4671-a4b8-f741f314c3fd",
+              "type": "point",
+              "x": 927.5,
+              "y": 428.5
+            }
+          ],
+          "labels": [],
+          "width": 3,
+          "color": "gray",
+          "curvyness": 50,
+          "selectedColor": "rgb(0,192,255)"
+        },
+        "8ced7a13-99f1-4d04-a044-647b8fc0a444": {
+          "id": "8ced7a13-99f1-4d04-a044-647b8fc0a444",
+          "type": "default",
+          "selected": false,
+          "source": "820db266-4aa2-4de0-acb6-4a76af59d030",
+          "sourcePort": "403ccaff-4228-4fb2-90ae-f4990d7c1ca0",
+          "target": "b1ccf98e-c1b8-41ab-a155-1741bf417552",
+          "targetPort": "0787a64d-489e-4cb6-bdba-752044ccf74f",
+          "points": [
+            {
+              "id": "49b631c8-c6e7-481e-9d1b-8f0414a9353f",
+              "type": "point",
+              "x": 300.296875,
+              "y": 12.5
+            },
+            {
+              "id": "5358ddd1-cec7-4125-9abb-b1c85fdc51b9",
+              "type": "point",
+              "x": 439.5,
+              "y": -16.5
+            }
+          ],
+          "labels": [],
+          "width": 3,
+          "color": "gray",
+          "curvyness": 50,
+          "selectedColor": "rgb(0,192,255)"
+        },
+        "01433f3a-6346-4cc6-b6ea-e6c762ea9486": {
+          "id": "01433f3a-6346-4cc6-b6ea-e6c762ea9486",
+          "type": "default",
+          "selected": false,
+          "source": "b1ccf98e-c1b8-41ab-a155-1741bf417552",
+          "sourcePort": "956d3fe6-a779-4bde-badf-6f738c18d5ac",
+          "target": "ea31db87-1e42-4c6a-9c3f-6683fd6c7486",
+          "targetPort": "eea2e76b-be2a-4374-b19f-f36bafb677d0",
+          "points": [
+            {
+              "id": "e6a79afc-3754-4910-ad44-3f52100d9e5b",
+              "type": "point",
+              "x": 759.53125,
+              "y": 0.5
+            },
+            {
+              "id": "f9cdbb41-be98-4290-b230-50deb1a91eb0",
+              "type": "point",
+              "x": 415.5,
+              "y": 115.5
+            }
+          ],
+          "labels": [],
+          "width": 3,
+          "color": "gray",
+          "curvyness": 50,
+          "selectedColor": "rgb(0,192,255)"
+        },
+        "7af72ac9-bd86-47dd-84fa-003cf3490a02": {
+          "id": "7af72ac9-bd86-47dd-84fa-003cf3490a02",
+          "type": "default",
+          "selected": false,
+          "source": "b1ccf98e-c1b8-41ab-a155-1741bf417552",
+          "sourcePort": "a8a4fe80-42af-4c1c-b25e-67ca8871f4df",
+          "target": "830b4e82-9959-4855-a110-aa912f804497",
+          "targetPort": "4a0443f7-f15f-427b-ae66-9481d3dce333",
+          "points": [
+            {
+              "id": "ead2cde8-c567-4c95-b443-4754d2bf9b32",
+              "type": "point",
+              "x": 757.390625,
+              "y": -16.5
+            },
+            {
+              "id": "1c43c9b1-8823-4914-8145-981f9b4b201c",
+              "type": "point",
+              "x": 962.5,
+              "y": -13.5
+            }
+          ],
+          "labels": [],
+          "width": 3,
+          "color": "gray",
+          "curvyness": 50,
+          "selectedColor": "rgb(0,192,255)"
+        },
+        "9221dc27-e294-4f71-9c8a-af5508221a4a": {
+          "id": "9221dc27-e294-4f71-9c8a-af5508221a4a",
+          "type": "default",
+          "selected": false,
+          "source": "609647bf-ec25-46e8-ac5f-4cfca5a7e6d5",
+          "sourcePort": "d4838a50-073b-40f4-8c19-db257efaf023",
+          "target": "830b4e82-9959-4855-a110-aa912f804497",
+          "targetPort": "4a0443f7-f15f-427b-ae66-9481d3dce333",
+          "points": [
+            {
+              "id": "bb003b6a-6db5-4e80-8eae-4651efd068d1",
+              "type": "point",
+              "x": 903.3125,
+              "y": 205.5
+            },
+            {
+              "id": "4513524f-b2bc-4e8b-9106-ebf7820320af",
+              "type": "point",
+              "x": 962.5,
+              "y": -13.5
+            }
+          ],
+          "labels": [],
+          "width": 3,
+          "color": "gray",
+          "curvyness": 50,
+          "selectedColor": "rgb(0,192,255)"
+        },
+        "5a43d11a-ddc0-476f-a621-747d2a152dba": {
+          "id": "5a43d11a-ddc0-476f-a621-747d2a152dba",
+          "type": "default",
+          "selected": false,
+          "source": "609647bf-ec25-46e8-ac5f-4cfca5a7e6d5",
+          "sourcePort": "ab475ff4-d3f1-4b98-ad99-77fcde49d87c",
+          "target": "795523a1-8e32-44dc-982a-f4ce152bd746",
+          "targetPort": "8c1cb6b3-34a4-4be4-ab18-47ed768173bd",
+          "points": [
+            {
+              "id": "4998477e-87cb-41dd-8951-19c5d228be3d",
+              "type": "point",
+              "x": 903.328125,
+              "y": 241.5
+            },
+            {
+              "id": "153a49e6-ce01-446a-be96-2fb34779360d",
+              "type": "point",
+              "x": 444.5,
+              "y": 382.5
+            }
+          ],
+          "labels": [],
+          "width": 3,
+          "color": "gray",
+          "curvyness": 50,
+          "selectedColor": "rgb(0,192,255)"
+        },
+        "701b9fe7-a374-4886-994e-586e995a9119": {
+          "id": "701b9fe7-a374-4886-994e-586e995a9119",
+          "type": "default",
+          "selected": false,
+          "source": "795523a1-8e32-44dc-982a-f4ce152bd746",
+          "sourcePort": "9d740018-a086-47f7-ad69-2e968d960d4b",
+          "target": "d7f4a207-7688-4703-8e55-46cd3925be6e",
+          "targetPort": "dcd9ce61-3881-4d0a-be85-14832af0237c",
+          "points": [
+            {
+              "id": "757f9d82-e82b-4ed8-a541-a8d92c234660",
+              "type": "point",
+              "x": 686,
+              "y": 382.5
+            },
+            {
+              "id": "f8bcc5de-91e5-482b-907d-da6d972ea611",
+              "type": "point",
+              "x": 458.5,
+              "y": 453.5
+            }
+          ],
+          "labels": [],
+          "width": 3,
+          "color": "gray",
+          "curvyness": 50,
+          "selectedColor": "rgb(0,192,255)"
+        }
+      }
+    },
+    {
+      "id": "3d0530d2-5495-4e3d-9883-cbfc98fc5a85",
+      "type": "diagram-nodes",
+      "isSvg": false,
+      "transformed": true,
+      "models": {
+        "820db266-4aa2-4de0-acb6-4a76af59d030": {
+          "id": "820db266-4aa2-4de0-acb6-4a76af59d030",
+          "type": "start",
+          "selected": false,
+          "x": 217,
+          "y": -2,
+          "ports": [
+            {
+              "id": "403ccaff-4228-4fb2-90ae-f4990d7c1ca0",
+              "type": "default",
+              "x": 292.796875,
+              "y": 5,
+              "name": "out-1654765677121",
+              "alignment": "right",
+              "parentNode": "820db266-4aa2-4de0-acb6-4a76af59d030",
+              "links": [
+                "8ced7a13-99f1-4d04-a044-647b8fc0a444"
+              ],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Start",
+          "color": "#16db26",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "403ccaff-4228-4fb2-90ae-f4990d7c1ca0"
+          ]
+        },
+        "ea31db87-1e42-4c6a-9c3f-6683fd6c7486": {
+          "id": "ea31db87-1e42-4c6a-9c3f-6683fd6c7486",
+          "type": "dialogue",
+          "selected": false,
+          "x": 421,
+          "y": 77,
+          "ports": [
+            {
+              "id": "eea2e76b-be2a-4374-b19f-f36bafb677d0",
+              "type": "default",
+              "x": 408,
+              "y": 108,
+              "name": "in-1654765678175 ",
+              "alignment": "left",
+              "parentNode": "ea31db87-1e42-4c6a-9c3f-6683fd6c7486",
+              "links": [
+                "01433f3a-6346-4cc6-b6ea-e6c762ea9486"
+              ],
+              "in": true,
+              "label": "❯"
+            },
+            {
+              "id": "912964eb-8090-4fc3-9b2c-136f1f712781",
+              "type": "default",
+              "x": 818.0625,
+              "y": 108,
+              "name": "out-1654765678175",
+              "alignment": "right",
+              "parentNode": "ea31db87-1e42-4c6a-9c3f-6683fd6c7486",
+              "links": [
+                "46fee05f-8aa2-4446-bc0d-22fdb41fa6c8"
+              ],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Davon",
+          "color": "#dd341e",
+          "portsInOrder": [
+            "eea2e76b-be2a-4374-b19f-f36bafb677d0"
+          ],
+          "portsOutOrder": [
+            "912964eb-8090-4fc3-9b2c-136f1f712781"
+          ],
+          "text": "Pssst! Come here if you want to do some amulet\ntrading."
+        },
+        "609647bf-ec25-46e8-ac5f-4cfca5a7e6d5": {
+          "id": "609647bf-ec25-46e8-ac5f-4cfca5a7e6d5",
+          "type": "option",
+          "selected": false,
+          "x": 421,
+          "y": 158,
+          "ports": [
+            {
+              "id": "2fe68354-258b-4025-b2e4-4ed8b6cd0b6a",
+              "type": "default",
+              "x": 408,
+              "y": 189,
+              "name": "in-1654765695934 ",
+              "alignment": "left",
+              "parentNode": "609647bf-ec25-46e8-ac5f-4cfca5a7e6d5",
+              "links": [
+                "46fee05f-8aa2-4446-bc0d-22fdb41fa6c8"
+              ],
+              "in": true,
+              "label": "❯"
+            },
+            {
+              "id": "d4838a50-073b-40f4-8c19-db257efaf023",
+              "type": "default",
+              "x": 895.8125,
+              "y": 198,
+              "name": "out-1654765695934",
+              "alignment": "right",
+              "parentNode": "609647bf-ec25-46e8-ac5f-4cfca5a7e6d5",
+              "links": [
+                "9221dc27-e294-4f71-9c8a-af5508221a4a"
+              ],
+              "in": false,
+              "label": "❯"
+            },
+            {
+              "id": "ab475ff4-d3f1-4b98-ad99-77fcde49d87c",
+              "type": "default",
+              "x": 895.828125,
+              "y": 234,
+              "name": "out-1654765697657",
+              "alignment": "right",
+              "parentNode": "609647bf-ec25-46e8-ac5f-4cfca5a7e6d5",
+              "links": [
+                "5a43d11a-ddc0-476f-a621-747d2a152dba"
+              ],
+              "in": false,
+              "label": "❯"
+            },
+            {
+              "id": "58d26450-44dc-433e-880b-8e0f975ccfdc",
+              "type": "default",
+              "x": 895.828125,
+              "y": 270,
+              "name": "out-1654765697801",
+              "alignment": "right",
+              "parentNode": "609647bf-ec25-46e8-ac5f-4cfca5a7e6d5",
+              "links": [
+                "21336d38-fbf9-470e-94b0-322b0eb17434"
+              ],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Select an option.",
+          "color": "#0756b1",
+          "portsInOrder": [
+            "2fe68354-258b-4025-b2e4-4ed8b6cd0b6a"
+          ],
+          "portsOutOrder": [
+            "d4838a50-073b-40f4-8c19-db257efaf023",
+            "ab475ff4-d3f1-4b98-ad99-77fcde49d87c",
+            "58d26450-44dc-433e-880b-8e0f975ccfdc"
+          ],
+          "options": [
+            {
+              "conditions": [
+                ""
+              ],
+              "args": [],
+              "text": "What are you selling?"
+            },
+            {
+              "conditions": [
+                ""
+              ],
+              "args": [],
+              "text": "What do you mean pssst?"
+            },
+            {
+              "conditions": [
+                ""
+              ],
+              "args": [],
+              "text": "Why don't you ever restock some types of amulets?"
+            }
+          ]
+        },
+        "262cb300-b993-4ee8-b393-dd79d3c90a49": {
+          "id": "262cb300-b993-4ee8-b393-dd79d3c90a49",
+          "type": "dialogue",
+          "selected": false,
+          "x": 933,
+          "y": 322,
+          "ports": [
+            {
+              "id": "885af892-16fd-43d9-bcb4-9552701ed7aa",
+              "type": "default",
+              "x": 920,
+              "y": 353,
+              "name": "in-1654765718145 ",
+              "alignment": "left",
+              "parentNode": "262cb300-b993-4ee8-b393-dd79d3c90a49",
+              "links": [
+                "21336d38-fbf9-470e-94b0-322b0eb17434"
+              ],
+              "in": true,
+              "label": "❯"
+            },
+            {
+              "id": "9a408bd0-4f99-4f13-a1b8-450816528ded",
+              "type": "default",
+              "x": 1352.046875,
+              "y": 353,
+              "name": "out-1654765718145",
+              "alignment": "right",
+              "parentNode": "262cb300-b993-4ee8-b393-dd79d3c90a49",
+              "links": [
+                "a63babbf-a698-462b-9f23-99d7bf4fa57c"
+              ],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "<player>",
+          "color": "#dd341e",
+          "portsInOrder": [
+            "885af892-16fd-43d9-bcb4-9552701ed7aa"
+          ],
+          "portsOutOrder": [
+            "9a408bd0-4f99-4f13-a1b8-450816528ded"
+          ],
+          "text": "Why don't you ever restock some types of amulets?"
+        },
+        "6c3882ce-984f-464e-b9be-3e8a7c14257f": {
+          "id": "6c3882ce-984f-464e-b9be-3e8a7c14257f",
+          "type": "dialogue",
+          "selected": false,
+          "x": 933,
+          "y": 390,
+          "ports": [
+            {
+              "id": "4c4fac6f-8488-4010-b22d-14e70b42b17a",
+              "type": "default",
+              "x": 920,
+              "y": 421,
+              "name": "in-1654765678175 ",
+              "alignment": "left",
+              "parentNode": "6c3882ce-984f-464e-b9be-3e8a7c14257f",
+              "links": [
+                "a63babbf-a698-462b-9f23-99d7bf4fa57c"
+              ],
+              "in": true,
+              "label": "❯"
+            },
+            {
+              "id": "17e4e4ae-90e9-4094-8552-1fee6c910e6e",
+              "type": "default",
+              "x": 1381.359375,
+              "y": 421,
+              "name": "out-1654765678175",
+              "alignment": "right",
+              "parentNode": "6c3882ce-984f-464e-b9be-3e8a7c14257f",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Davon",
+          "color": "#dd341e",
+          "portsInOrder": [
+            "4c4fac6f-8488-4010-b22d-14e70b42b17a"
+          ],
+          "portsOutOrder": [
+            "17e4e4ae-90e9-4094-8552-1fee6c910e6e"
+          ],
+          "text": "Some of these amulets are very hard to get. I have to\nwait until an adventurer supplies me."
+        },
+        "795523a1-8e32-44dc-982a-f4ce152bd746": {
+          "id": "795523a1-8e32-44dc-982a-f4ce152bd746",
+          "type": "dialogue",
+          "selected": false,
+          "x": 450,
+          "y": 344,
+          "ports": [
+            {
+              "id": "8c1cb6b3-34a4-4be4-ab18-47ed768173bd",
+              "type": "default",
+              "x": 437,
+              "y": 375,
+              "name": "in-1654765718145 ",
+              "alignment": "left",
+              "parentNode": "795523a1-8e32-44dc-982a-f4ce152bd746",
+              "links": [
+                "5a43d11a-ddc0-476f-a621-747d2a152dba"
+              ],
+              "in": true,
+              "label": "❯"
+            },
+            {
+              "id": "9d740018-a086-47f7-ad69-2e968d960d4b",
+              "type": "default",
+              "x": 678.5,
+              "y": 375,
+              "name": "out-1654765718145",
+              "alignment": "right",
+              "parentNode": "795523a1-8e32-44dc-982a-f4ce152bd746",
+              "links": [
+                "701b9fe7-a374-4886-994e-586e995a9119"
+              ],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "<player>",
+          "color": "#dd341e",
+          "portsInOrder": [
+            "8c1cb6b3-34a4-4be4-ab18-47ed768173bd"
+          ],
+          "portsOutOrder": [
+            "9d740018-a086-47f7-ad69-2e968d960d4b"
+          ],
+          "text": "What do you mean pssst?"
+        },
+        "b1ccf98e-c1b8-41ab-a155-1741bf417552": {
+          "id": "b1ccf98e-c1b8-41ab-a155-1741bf417552",
+          "type": "condition",
+          "selected": false,
+          "x": 445,
+          "y": -55,
+          "ports": [
+            {
+              "id": "a8a4fe80-42af-4c1c-b25e-67ca8871f4df",
+              "type": "default",
+              "x": 749.890625,
+              "y": -24,
+              "name": "out-1654765746399",
+              "alignment": "right",
+              "parentNode": "b1ccf98e-c1b8-41ab-a155-1741bf417552",
+              "links": [
+                "7af72ac9-bd86-47dd-84fa-003cf3490a02"
+              ],
+              "in": false,
+              "label": "true"
+            },
+            {
+              "id": "956d3fe6-a779-4bde-badf-6f738c18d5ac",
+              "type": "default",
+              "x": 752.03125,
+              "y": -7,
+              "name": "out-16547657463991",
+              "alignment": "right",
+              "parentNode": "b1ccf98e-c1b8-41ab-a155-1741bf417552",
+              "links": [
+                "01433f3a-6346-4cc6-b6ea-e6c762ea9486"
+              ],
+              "in": false,
+              "label": "false"
+            },
+            {
+              "id": "0787a64d-489e-4cb6-bdba-752044ccf74f",
+              "type": "default",
+              "x": 432,
+              "y": -24,
+              "name": "in-1654765746399 ",
+              "alignment": "left",
+              "parentNode": "b1ccf98e-c1b8-41ab-a155-1741bf417552",
+              "links": [
+                "8ced7a13-99f1-4d04-a044-647b8fc0a444"
+              ],
+              "in": true,
+              "label": "❯"
+            }
+          ],
+          "title": "Condition",
+          "color": "#02630a",
+          "portsInOrder": [
+            "0787a64d-489e-4cb6-bdba-752044ccf74f"
+          ],
+          "portsOutOrder": [
+            "a8a4fe80-42af-4c1c-b25e-67ca8871f4df",
+            "956d3fe6-a779-4bde-badf-6f738c18d5ac"
+          ],
+          "conditions": {
+            "conditions": [
+              "npcInteraction",
+              "npcInteraction"
+            ],
+            "args": [
+              [
+                "SHIFT"
+              ],
+              [
+                "RIGHT_CLICK"
+              ]
+            ]
+          }
+        },
+        "830b4e82-9959-4855-a110-aa912f804497": {
+          "id": "830b4e82-9959-4855-a110-aa912f804497",
+          "type": "action",
+          "selected": false,
+          "x": 968,
+          "y": -52,
+          "ports": [
+            {
+              "id": "4a0443f7-f15f-427b-ae66-9481d3dce333",
+              "type": "default",
+              "x": 955,
+              "y": -21,
+              "name": "in-1654765757745 ",
+              "alignment": "left",
+              "parentNode": "830b4e82-9959-4855-a110-aa912f804497",
+              "links": [
+                "7af72ac9-bd86-47dd-84fa-003cf3490a02",
+                "9221dc27-e294-4f71-9c8a-af5508221a4a"
+              ],
+              "in": true,
+              "label": "❯"
+            },
+            {
+              "id": "63091f70-a2c1-4f96-803d-f47852859a0a",
+              "type": "default",
+              "x": 1228.328125,
+              "y": -21,
+              "name": "out-1654765757745",
+              "alignment": "right",
+              "parentNode": "830b4e82-9959-4855-a110-aa912f804497",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Action",
+          "color": "#3e077e",
+          "portsInOrder": [
+            "4a0443f7-f15f-427b-ae66-9481d3dce333"
+          ],
+          "portsOutOrder": [
+            "63091f70-a2c1-4f96-803d-f47852859a0a"
+          ],
+          "actions": {
+            "actions": [
+              "openShop"
+            ],
+            "args": [
+              [
+                "DavonsAmuletStore"
+              ]
+            ]
+          }
+        },
+        "d7f4a207-7688-4703-8e55-46cd3925be6e": {
+          "id": "d7f4a207-7688-4703-8e55-46cd3925be6e",
+          "type": "dialogue",
+          "selected": false,
+          "x": 464,
+          "y": 415,
+          "ports": [
+            {
+              "id": "dcd9ce61-3881-4d0a-be85-14832af0237c",
+              "type": "default",
+              "x": 451,
+              "y": 446,
+              "name": "in-1654765678175 ",
+              "alignment": "left",
+              "parentNode": "d7f4a207-7688-4703-8e55-46cd3925be6e",
+              "links": [
+                "701b9fe7-a374-4886-994e-586e995a9119"
+              ],
+              "in": true,
+              "label": "❯"
+            },
+            {
+              "id": "eb5542bd-719c-4aa0-a1e3-d9bdcb249bdd",
+              "type": "default",
+              "x": 809.765625,
+              "y": 446,
+              "name": "out-1654765678175",
+              "alignment": "right",
+              "parentNode": "d7f4a207-7688-4703-8e55-46cd3925be6e",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Davon",
+          "color": "#dd341e",
+          "portsInOrder": [
+            "dcd9ce61-3881-4d0a-be85-14832af0237c"
+          ],
+          "portsOutOrder": [
+            "eb5542bd-719c-4aa0-a1e3-d9bdcb249bdd"
+          ],
+          "text": "Errr, I was...I was clearing my throat."
+        }
+      }
+    }
+  ]
+}

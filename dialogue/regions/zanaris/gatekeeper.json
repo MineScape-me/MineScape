@@ -1,0 +1,348 @@
+{
+  "id": "55f7f362-3f90-4cfa-93d2-c8566b6bcedf",
+  "offsetX": 2,
+  "offsetY": 0,
+  "zoom": 100,
+  "gridSize": 0,
+  "layers": [
+    {
+      "id": "8baf62be-e9fa-4dd2-90cc-eb4e84c35b1e",
+      "type": "diagram-links",
+      "isSvg": true,
+      "transformed": true,
+      "models": {
+        "7b8c7e59-e7d8-4b3a-8785-d6a822dafc59": {
+          "id": "7b8c7e59-e7d8-4b3a-8785-d6a822dafc59",
+          "type": "default",
+          "selected": false,
+          "source": "12cf3db9-2816-4a74-8db3-5487223f20c8",
+          "sourcePort": "bcabe052-a45f-4fbe-9ae9-311ef5d96c4f",
+          "target": "47c98324-e002-4c34-8f6b-24a57d87eb88",
+          "targetPort": "63cf8386-f2b0-431b-8916-92f9a32b755e",
+          "points": [
+            {
+              "id": "b409a3da-eb09-44ed-8191-41066c963aaa",
+              "type": "point",
+              "x": 279.296875,
+              "y": 106.5
+            },
+            {
+              "id": "4b4b70aa-c345-470f-a44f-b6a9d52a5773",
+              "type": "point",
+              "x": 339.5,
+              "y": 106.5
+            }
+          ],
+          "labels": [],
+          "width": 3,
+          "color": "gray",
+          "curvyness": 50,
+          "selectedColor": "rgb(0,192,255)"
+        },
+        "d45df43b-cf87-45a2-ac29-68f75f5eb249": {
+          "id": "d45df43b-cf87-45a2-ac29-68f75f5eb249",
+          "type": "default",
+          "selected": false,
+          "source": "47c98324-e002-4c34-8f6b-24a57d87eb88",
+          "sourcePort": "28ddbbbd-c844-4b24-8439-1225329ab202",
+          "target": "3efafc86-eb99-4d80-8e9a-775389a9d848",
+          "targetPort": "1aee6321-dde1-49a1-a4c4-025c53eeb962",
+          "points": [
+            {
+              "id": "29bee8c2-f9aa-4456-b9fc-fd472a887357",
+              "type": "point",
+              "x": 756.890625,
+              "y": 106.5
+            },
+            {
+              "id": "d26fb543-6ff7-4a89-8de5-fedd6578ad4d",
+              "type": "point",
+              "x": 341.5,
+              "y": 185.5
+            }
+          ],
+          "labels": [],
+          "width": 3,
+          "color": "gray",
+          "curvyness": 50,
+          "selectedColor": "rgb(0,192,255)"
+        },
+        "41ccd85c-bb45-489f-bf3e-047a10119bc7": {
+          "id": "41ccd85c-bb45-489f-bf3e-047a10119bc7",
+          "type": "default",
+          "selected": false,
+          "source": "3efafc86-eb99-4d80-8e9a-775389a9d848",
+          "sourcePort": "2fc5c86d-75c0-4b33-8742-606735ee75f8",
+          "target": "5066c8a0-245d-4a39-b0ad-e731dc6e5f92",
+          "targetPort": "2a534d58-9332-4899-8fb5-63404377c251",
+          "points": [
+            {
+              "id": "5f3adb90-a982-4af4-a95d-11b5c4496801",
+              "type": "point",
+              "x": 773.546875,
+              "y": 185.5
+            },
+            {
+              "id": "17b5de39-f507-4084-84a6-c622605a20fb",
+              "type": "point",
+              "x": 338.5,
+              "y": 268.5
+            }
+          ],
+          "labels": [],
+          "width": 3,
+          "color": "gray",
+          "curvyness": 50,
+          "selectedColor": "rgb(0,192,255)"
+        },
+        "c23b5c4e-5746-4409-9877-81a85e89190c": {
+          "id": "c23b5c4e-5746-4409-9877-81a85e89190c",
+          "type": "default",
+          "selected": false,
+          "source": "5066c8a0-245d-4a39-b0ad-e731dc6e5f92",
+          "sourcePort": "5a56bce2-c3a3-4039-9554-16b31780bdf1",
+          "target": "d05fdcce-9ce6-42ad-86a0-c4fcf8be80b5",
+          "targetPort": "b324f07d-0bbf-4079-8bc3-71cf684c3bdf",
+          "points": [
+            {
+              "id": "6e48dd9c-cf13-411c-a167-2888654da40b",
+              "type": "point",
+              "x": 777.875,
+              "y": 268.5
+            },
+            {
+              "id": "6db5a50f-c027-403a-9c75-9e9f74f16fda",
+              "type": "point",
+              "x": 330.5,
+              "y": 329.5
+            }
+          ],
+          "labels": [],
+          "width": 3,
+          "color": "gray",
+          "curvyness": 50,
+          "selectedColor": "rgb(0,192,255)"
+        }
+      }
+    },
+    {
+      "id": "5d6ad30e-6d90-48a0-9bb3-c3abd8f7904f",
+      "type": "diagram-nodes",
+      "isSvg": false,
+      "transformed": true,
+      "models": {
+        "12cf3db9-2816-4a74-8db3-5487223f20c8": {
+          "id": "12cf3db9-2816-4a74-8db3-5487223f20c8",
+          "type": "start",
+          "selected": false,
+          "x": 196,
+          "y": 92,
+          "ports": [
+            {
+              "id": "bcabe052-a45f-4fbe-9ae9-311ef5d96c4f",
+              "type": "default",
+              "x": 271.796875,
+              "y": 99,
+              "name": "out-1654945845638",
+              "alignment": "right",
+              "parentNode": "12cf3db9-2816-4a74-8db3-5487223f20c8",
+              "links": [
+                "7b8c7e59-e7d8-4b3a-8785-d6a822dafc59"
+              ],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Start",
+          "color": "#16db26",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "bcabe052-a45f-4fbe-9ae9-311ef5d96c4f"
+          ]
+        },
+        "47c98324-e002-4c34-8f6b-24a57d87eb88": {
+          "id": "47c98324-e002-4c34-8f6b-24a57d87eb88",
+          "type": "dialogue",
+          "selected": false,
+          "x": 345,
+          "y": 68,
+          "ports": [
+            {
+              "id": "63cf8386-f2b0-431b-8916-92f9a32b755e",
+              "type": "default",
+              "x": 332,
+              "y": 99,
+              "name": "in-1654945846332 ",
+              "alignment": "left",
+              "parentNode": "47c98324-e002-4c34-8f6b-24a57d87eb88",
+              "links": [
+                "7b8c7e59-e7d8-4b3a-8785-d6a822dafc59"
+              ],
+              "in": true,
+              "label": "❯"
+            },
+            {
+              "id": "28ddbbbd-c844-4b24-8439-1225329ab202",
+              "type": "default",
+              "x": 749.390625,
+              "y": 99,
+              "name": "out-1654945846332",
+              "alignment": "right",
+              "parentNode": "47c98324-e002-4c34-8f6b-24a57d87eb88",
+              "links": [
+                "d45df43b-cf87-45a2-ac29-68f75f5eb249"
+              ],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "<player>",
+          "color": "#dd341e",
+          "portsInOrder": [
+            "63cf8386-f2b0-431b-8916-92f9a32b755e"
+          ],
+          "portsOutOrder": [
+            "28ddbbbd-c844-4b24-8439-1225329ab202"
+          ],
+          "text": "What happened to the old man who used to be the\ndoorman?"
+        },
+        "3efafc86-eb99-4d80-8e9a-775389a9d848": {
+          "id": "3efafc86-eb99-4d80-8e9a-775389a9d848",
+          "type": "dialogue",
+          "selected": false,
+          "x": 347,
+          "y": 147,
+          "ports": [
+            {
+              "id": "1aee6321-dde1-49a1-a4c4-025c53eeb962",
+              "type": "default",
+              "x": 334,
+              "y": 178,
+              "name": "in-1654945846332 ",
+              "alignment": "left",
+              "parentNode": "3efafc86-eb99-4d80-8e9a-775389a9d848",
+              "links": [
+                "d45df43b-cf87-45a2-ac29-68f75f5eb249"
+              ],
+              "in": true,
+              "label": "❯"
+            },
+            {
+              "id": "2fc5c86d-75c0-4b33-8742-606735ee75f8",
+              "type": "default",
+              "x": 766.046875,
+              "y": 178,
+              "name": "out-1654945846332",
+              "alignment": "right",
+              "parentNode": "3efafc86-eb99-4d80-8e9a-775389a9d848",
+              "links": [
+                "41ccd85c-bb45-489f-bf3e-047a10119bc7"
+              ],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Gatekeeper",
+          "color": "#dd341e",
+          "portsInOrder": [
+            "1aee6321-dde1-49a1-a4c4-025c53eeb962"
+          ],
+          "portsOutOrder": [
+            "2fc5c86d-75c0-4b33-8742-606735ee75f8"
+          ],
+          "text": "You mean my father? He went into retirement, I've\ntaken over the family business instead."
+        },
+        "5066c8a0-245d-4a39-b0ad-e731dc6e5f92": {
+          "id": "5066c8a0-245d-4a39-b0ad-e731dc6e5f92",
+          "type": "dialogue",
+          "selected": false,
+          "x": 344,
+          "y": 230,
+          "ports": [
+            {
+              "id": "2a534d58-9332-4899-8fb5-63404377c251",
+              "type": "default",
+              "x": 331,
+              "y": 261,
+              "name": "in-1654945846332 ",
+              "alignment": "left",
+              "parentNode": "5066c8a0-245d-4a39-b0ad-e731dc6e5f92",
+              "links": [
+                "41ccd85c-bb45-489f-bf3e-047a10119bc7"
+              ],
+              "in": true,
+              "label": "❯"
+            },
+            {
+              "id": "5a56bce2-c3a3-4039-9554-16b31780bdf1",
+              "type": "default",
+              "x": 770.375,
+              "y": 261,
+              "name": "out-1654945846332",
+              "alignment": "right",
+              "parentNode": "5066c8a0-245d-4a39-b0ad-e731dc6e5f92",
+              "links": [
+                "c23b5c4e-5746-4409-9877-81a85e89190c"
+              ],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "<player>",
+          "color": "#dd341e",
+          "portsInOrder": [
+            "2a534d58-9332-4899-8fb5-63404377c251"
+          ],
+          "portsOutOrder": [
+            "5a56bce2-c3a3-4039-9554-16b31780bdf1"
+          ],
+          "text": "Your father! But you don't look anything like him!"
+        },
+        "d05fdcce-9ce6-42ad-86a0-c4fcf8be80b5": {
+          "id": "d05fdcce-9ce6-42ad-86a0-c4fcf8be80b5",
+          "type": "dialogue",
+          "selected": false,
+          "x": 336,
+          "y": 291,
+          "ports": [
+            {
+              "id": "b324f07d-0bbf-4079-8bc3-71cf684c3bdf",
+              "type": "default",
+              "x": 323,
+              "y": 322,
+              "name": "in-1654945846332 ",
+              "alignment": "left",
+              "parentNode": "d05fdcce-9ce6-42ad-86a0-c4fcf8be80b5",
+              "links": [
+                "c23b5c4e-5746-4409-9877-81a85e89190c"
+              ],
+              "in": true,
+              "label": "❯"
+            },
+            {
+              "id": "d270262e-646e-4d17-8092-b0c9ddf7908c",
+              "type": "default",
+              "x": 784.359375,
+              "y": 322,
+              "name": "out-1654945846332",
+              "alignment": "right",
+              "parentNode": "d05fdcce-9ce6-42ad-86a0-c4fcf8be80b5",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Gatekeeper",
+          "color": "#dd341e",
+          "portsInOrder": [
+            "b324f07d-0bbf-4079-8bc3-71cf684c3bdf"
+          ],
+          "portsOutOrder": [
+            "d270262e-646e-4d17-8092-b0c9ddf7908c"
+          ],
+          "text": "No, fortunately for me I inherited my good looks from\nmy mother."
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,125 @@
+{
+  "id": "10433c97-4bf6-4ebd-b0a1-0080093a6f72",
+  "offsetX": 1,
+  "offsetY": 1,
+  "zoom": 100,
+  "gridSize": 0,
+  "layers": [
+    {
+      "id": "5e9565c6-3ed7-45d4-a7c3-2d46f7f15146",
+      "type": "diagram-links",
+      "isSvg": true,
+      "transformed": true,
+      "models": {
+        "1d1dfecc-f54f-4236-9c86-c84004e4aae3": {
+          "id": "1d1dfecc-f54f-4236-9c86-c84004e4aae3",
+          "type": "default",
+          "selected": false,
+          "source": "2e124217-0753-450b-9869-9dfd10de964d",
+          "sourcePort": "a27463bf-71fe-4a5d-b5a3-7274d3294bed",
+          "target": "d635954c-2538-4e4a-9977-31c0c584c9af",
+          "targetPort": "29757917-d07d-46c1-85fb-139ab9bafda6",
+          "points": [
+            {
+              "id": "23166868-3458-4417-9ddc-281ec0eb2384",
+              "type": "point",
+              "x": 163.296875,
+              "y": 52.5
+            },
+            {
+              "id": "0012f920-7399-47a2-baee-78541a6af25b",
+              "type": "point",
+              "x": 234.5,
+              "y": 53.5
+            }
+          ],
+          "labels": [],
+          "width": 3,
+          "color": "gray",
+          "curvyness": 50,
+          "selectedColor": "rgb(0,192,255)"
+        }
+      }
+    },
+    {
+      "id": "c782b86d-eb4e-4fe7-ad8b-268ef15b0ba9",
+      "type": "diagram-nodes",
+      "isSvg": false,
+      "transformed": true,
+      "models": {
+        "2e124217-0753-450b-9869-9dfd10de964d": {
+          "id": "2e124217-0753-450b-9869-9dfd10de964d",
+          "type": "start",
+          "x": 80,
+          "y": 38,
+          "ports": [
+            {
+              "id": "a27463bf-71fe-4a5d-b5a3-7274d3294bed",
+              "type": "default",
+              "x": 155.796875,
+              "y": 45,
+              "name": "out-1654578324117",
+              "alignment": "right",
+              "parentNode": "2e124217-0753-450b-9869-9dfd10de964d",
+              "links": [
+                "1d1dfecc-f54f-4236-9c86-c84004e4aae3"
+              ],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Start",
+          "color": "#16db26",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "a27463bf-71fe-4a5d-b5a3-7274d3294bed"
+          ]
+        },
+        "d635954c-2538-4e4a-9977-31c0c584c9af": {
+          "id": "d635954c-2538-4e4a-9977-31c0c584c9af",
+          "type": "dialogue",
+          "selected": false,
+          "x": 240,
+          "y": 15,
+          "ports": [
+            {
+              "id": "29757917-d07d-46c1-85fb-139ab9bafda6",
+              "type": "default",
+              "x": 227,
+              "y": 46,
+              "name": "in-1654578327729 ",
+              "alignment": "left",
+              "parentNode": "d635954c-2538-4e4a-9977-31c0c584c9af",
+              "links": [
+                "1d1dfecc-f54f-4236-9c86-c84004e4aae3"
+              ],
+              "in": true,
+              "label": "❯"
+            },
+            {
+              "id": "43c87f4b-1b76-4e94-9092-5ee911789829",
+              "type": "default",
+              "x": 622.40625,
+              "y": 46,
+              "name": "out-1654578327729",
+              "alignment": "right",
+              "parentNode": "d635954c-2538-4e4a-9977-31c0c584c9af",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Malak",
+          "color": "#dd341e",
+          "portsInOrder": [
+            "29757917-d07d-46c1-85fb-139ab9bafda6"
+          ],
+          "portsOutOrder": [
+            "43c87f4b-1b76-4e94-9092-5ee911789829"
+          ],
+          "text": "Away from me, dog.\nI have business to discuss with the barkeep."
+        }
+      }
+    }
+  ]
+}

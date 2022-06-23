@@ -1,0 +1,199 @@
+{
+  "id": "1ed28ab8-9bfc-44a9-a720-34599feb3fc4",
+  "offsetX": 0,
+  "offsetY": -2,
+  "zoom": 100,
+  "gridSize": 0,
+  "layers": [
+    {
+      "id": "69478a42-13c6-4dbb-a036-f44184bbc0b0",
+      "type": "diagram-links",
+      "isSvg": true,
+      "transformed": true,
+      "models": {
+        "355e18ae-9f07-4f9c-b1c6-3a403097f2d4": {
+          "id": "355e18ae-9f07-4f9c-b1c6-3a403097f2d4",
+          "type": "default",
+          "selected": false,
+          "source": "3168d39c-feb9-4d0c-9f5b-761ff3d2ff5a",
+          "sourcePort": "96f61380-a475-4e14-ad8d-b0f1c79fbf2e",
+          "target": "15b48fe9-4a9a-4877-85e9-b20481133ce2",
+          "targetPort": "e473462d-cff2-484b-b7a4-3276a8a5fe50",
+          "points": [
+            {
+              "id": "b0b9ebc8-7fab-4524-9e16-ba0f8b991d2a",
+              "type": "point",
+              "x": 279.296875,
+              "y": 59.5
+            },
+            {
+              "id": "1ee397a2-4e73-48ba-a9cf-99c7ae9ab4db",
+              "type": "point",
+              "x": 373.5,
+              "y": 61.5
+            }
+          ],
+          "labels": [],
+          "width": 3,
+          "color": "gray",
+          "curvyness": 50,
+          "selectedColor": "rgb(0,192,255)"
+        },
+        "f920459f-7411-4217-b2b0-69eea471085e": {
+          "id": "f920459f-7411-4217-b2b0-69eea471085e",
+          "type": "default",
+          "selected": false,
+          "source": "15b48fe9-4a9a-4877-85e9-b20481133ce2",
+          "sourcePort": "1be2b42e-d744-4fcd-afc6-d3f7b06e85de",
+          "target": "0673c89e-ca30-437c-8b54-77fc9326f76a",
+          "targetPort": "a2efe5ba-f477-485a-acdf-3cc35b0e065e",
+          "points": [
+            {
+              "id": "9beddbca-3d23-4df4-bf57-e02efaddd315",
+              "type": "point",
+              "x": 673.625,
+              "y": 61.5
+            },
+            {
+              "id": "5ea1caef-97a5-4a2f-b744-b30dd6ededab",
+              "type": "point",
+              "x": 373.5,
+              "y": 126.5
+            }
+          ],
+          "labels": [],
+          "width": 3,
+          "color": "gray",
+          "curvyness": 50,
+          "selectedColor": "rgb(0,192,255)"
+        }
+      }
+    },
+    {
+      "id": "314922b8-2ce6-4a4e-b715-3061625c19ca",
+      "type": "diagram-nodes",
+      "isSvg": false,
+      "transformed": true,
+      "models": {
+        "3168d39c-feb9-4d0c-9f5b-761ff3d2ff5a": {
+          "id": "3168d39c-feb9-4d0c-9f5b-761ff3d2ff5a",
+          "type": "start",
+          "x": 196,
+          "y": 45,
+          "ports": [
+            {
+              "id": "96f61380-a475-4e14-ad8d-b0f1c79fbf2e",
+              "type": "default",
+              "x": 271.796875,
+              "y": 52,
+              "name": "out-1653393746690",
+              "alignment": "right",
+              "parentNode": "3168d39c-feb9-4d0c-9f5b-761ff3d2ff5a",
+              "links": [
+                "355e18ae-9f07-4f9c-b1c6-3a403097f2d4"
+              ],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Start",
+          "color": "#16db26",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "96f61380-a475-4e14-ad8d-b0f1c79fbf2e"
+          ]
+        },
+        "15b48fe9-4a9a-4877-85e9-b20481133ce2": {
+          "id": "15b48fe9-4a9a-4877-85e9-b20481133ce2",
+          "type": "dialogue",
+          "selected": false,
+          "x": 379,
+          "y": 23,
+          "ports": [
+            {
+              "id": "e473462d-cff2-484b-b7a4-3276a8a5fe50",
+              "type": "default",
+              "x": 366,
+              "y": 54,
+              "name": "in-1653393747905 ",
+              "alignment": "left",
+              "parentNode": "15b48fe9-4a9a-4877-85e9-b20481133ce2",
+              "links": [
+                "355e18ae-9f07-4f9c-b1c6-3a403097f2d4"
+              ],
+              "in": true,
+              "label": "❯"
+            },
+            {
+              "id": "1be2b42e-d744-4fcd-afc6-d3f7b06e85de",
+              "type": "default",
+              "x": 666.125,
+              "y": 54,
+              "name": "out-1653393747905",
+              "alignment": "right",
+              "parentNode": "15b48fe9-4a9a-4877-85e9-b20481133ce2",
+              "links": [
+                "f920459f-7411-4217-b2b0-69eea471085e"
+              ],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "<player>",
+          "color": "#dd341e",
+          "portsInOrder": [
+            "e473462d-cff2-484b-b7a4-3276a8a5fe50"
+          ],
+          "portsOutOrder": [
+            "1be2b42e-d744-4fcd-afc6-d3f7b06e85de"
+          ],
+          "text": "Hello. What are you doing here?"
+        },
+        "0673c89e-ca30-437c-8b54-77fc9326f76a": {
+          "id": "0673c89e-ca30-437c-8b54-77fc9326f76a",
+          "type": "dialogue",
+          "selected": true,
+          "x": 379,
+          "y": 88,
+          "ports": [
+            {
+              "id": "a2efe5ba-f477-485a-acdf-3cc35b0e065e",
+              "type": "default",
+              "x": 366,
+              "y": 119,
+              "name": "in-1653393747905 ",
+              "alignment": "left",
+              "parentNode": "0673c89e-ca30-437c-8b54-77fc9326f76a",
+              "links": [
+                "f920459f-7411-4217-b2b0-69eea471085e"
+              ],
+              "in": true,
+              "label": "❯"
+            },
+            {
+              "id": "6432be3d-5414-4947-a0a1-352d1506f9a6",
+              "type": "default",
+              "x": 805.375,
+              "y": 119,
+              "name": "out-1653393747905",
+              "alignment": "right",
+              "parentNode": "0673c89e-ca30-437c-8b54-77fc9326f76a",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Town guard",
+          "color": "#dd341e",
+          "portsInOrder": [
+            "a2efe5ba-f477-485a-acdf-3cc35b0e065e"
+          ],
+          "portsOutOrder": [
+            "6432be3d-5414-4947-a0a1-352d1506f9a6"
+          ],
+          "text": "We are the tower guards - our business is our own!"
+        }
+      }
+    }
+  ]
+}
