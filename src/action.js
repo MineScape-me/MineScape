@@ -193,12 +193,12 @@ const checkActions = function (tree, obj, type) {
 const checkDialogue = function (tree, data) {
 	if (data.layers === undefined || !Array.isArray(data.layers) || data.layers.length != 2 || data.layers[1].type !== "diagram-nodes") {
 		state.issues += `\n\n> **${tree}**: Node layer missing`;
-		return;
+		return undefined;
 	}
 	const nodes = data.layers[1].models;
 	if (typeof nodes !== "object") {
 		state.issues += `\n\n> **${tree}**: Models missing`;
-		return;
+		return undefined;
 	}
 	Object.entries(nodes).forEach(([id, node]) => {
 		switch (node.type) {
@@ -212,6 +212,43 @@ const checkDialogue = function (tree, data) {
 			}
 			case "condition": {
 				checkConditionNode(tree, id, node);
+				break;
+			}
+		}
+	});
+	return nodes;
+};
+
+const getStarts = function (tree, trees) {
+	const starts = {};
+	Object.entries(trees).forEach(([key, nodes]) => {
+		starts[key] = [];
+		Object.entries(nodes).forEach(([id, node]) => {
+			if (node.type === "start") {
+				starts[key].push(node.title);
+			}
+		});
+		if (!starts[key].includes("Start")) {
+			state.issues += `\n\n> **${tree}:${key}** missing tree initial start`;
+		}
+	});
+	return starts;
+};
+
+const checkTrees = function (tree, nodes, starts) {
+	Object.entries(nodes).forEach(([id, node]) => {
+		switch (node.type) {
+			case "tree": {
+				const values = (({ id, tree, start }) => ({ id, tree, start }))(node);
+				if (values.tree === undefined || values.tree === "") {
+					state.issues += `\n\n> **${tree}** tree jump empty\n${JSON.stringify(values)}`;
+				} else if (values.start === undefined || values.start === "") {
+					state.issues += `\n\n> **${tree}** tree start empty\n${JSON.stringify(values)}`;
+				} else if (!(values.tree in starts)) {
+					state.issues += `\n\n> **${tree}** unknown tree ${values.tree}\n${JSON.stringify(values)}`;
+				} else if (!starts[values.tree].includes(values.start)) {
+					state.issues += `\n\n> **${tree}** unknown tree start ${values.tree} - ${values.start}\n${JSON.stringify(values)}`;
+				}
 				break;
 			}
 		}
@@ -246,13 +283,27 @@ async function run() {
 			core.info(`Checking ${file}`);
 			try {
 				let json = JSON.parse(fs.readFileSync(file));
+				const trees = {};
 				if (json.trees) {
 					Object.entries(json.trees).forEach(([k, v]) => {
-						checkDialogue(file + ":" + k, v);
+						const nodes = checkDialogue(file + ":" + k, v);
+						if (nodes !== undefined) {
+							trees[k] = nodes;
+						}
 					});
 					delete json.trees;
 				}
-				checkDialogue(file + ":default", json);
+				const nodes = checkDialogue(file + ":default", json);
+				if (nodes !== undefined) {
+					trees["default"] = nodes;
+				}
+
+				const starts = getStarts(file, trees);
+				console.log(JSON.stringify(starts));
+
+				Object.entries(trees).forEach(([k, nodes]) => {
+					checkTrees(file + ":" + k, nodes, starts);
+				});
 				// if (json[0] === undefined || json[0].nodes == undefined) {
 				// 	continue;
 				// }
