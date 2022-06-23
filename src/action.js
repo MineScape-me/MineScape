@@ -243,9 +243,11 @@ const checkTrees = function (tree, nodes, starts) {
                     state.issues += `\n\n> **${tree}** tree jump empty\n${JSON.stringify(node)}`;
                 }else if(node.start === undefined || node.start === ""){
                     state.issues += `\n\n> **${tree}** tree start empty\n${JSON.stringify(node)}`;
-                }else if(!(node.tree in starts) || !starts[tree].includes(tree.start)){
+                }else if(!(node.tree in starts)){
                     state.issues += `\n\n> **${tree}** unknown tree start ${node.tree} - ${node.start}\n${JSON.stringify(node)}`;
-                }
+                }else if(!starts[tree].includes(tree.start)){
+					state.issues += `\n\n> **${tree}** unknown tree start ${node.tree} - ${node.start}\n${JSON.stringify(node)}`;
+				}
 				break;
 			}
 		}
@@ -296,6 +298,7 @@ async function run() {
                 }
 
                 const starts = getStarts(file, trees);
+				console.log(JSON.stringify(starts));
 
                 Object.entries(trees).forEach(([k,nodes])=>{
                     checkTrees(file + ":" + k, nodes, starts)
