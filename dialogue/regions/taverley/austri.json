@@ -1,0 +1,136 @@
+{
+  "id": "8d36e0a9-ca38-470c-8845-fc322454a455",
+  "offsetX": 0,
+  "offsetY": 0,
+  "zoom": 100,
+  "gridSize": 0,
+  "layers": [
+    {
+      "id": "3b33b35a-097d-4edf-913f-71d9ca84a44c",
+      "type": "diagram-links",
+      "isSvg": true,
+      "transformed": true,
+      "models": {
+        "c26ed9ea-43b5-46af-9e00-244dd35cbefe": {
+          "id": "c26ed9ea-43b5-46af-9e00-244dd35cbefe",
+          "type": "default",
+          "selected": false,
+          "source": "d1ff4e1f-dd10-437a-949c-22af8396f6d7",
+          "sourcePort": "b59144ba-1eb8-4962-b99a-fcf6681ef8e6",
+          "target": "ad88941e-a87c-4173-a502-9baf758edc7e",
+          "targetPort": "c44e3288-0b99-4ed4-bb8a-0e06d9838c5d",
+          "points": [
+            {
+              "id": "bf9ee667-8944-42b9-8c20-035ae0d148f4",
+              "type": "point",
+              "x": 199.296875,
+              "y": 54.5
+            },
+            {
+              "id": "b753972a-9369-4229-b6ce-a0b0fe1bd944",
+              "type": "point",
+              "x": 248.5,
+              "y": 54.5
+            }
+          ],
+          "labels": [],
+          "width": 3,
+          "color": "gray",
+          "curvyness": 50,
+          "selectedColor": "rgb(0,192,255)"
+        }
+      }
+    },
+    {
+      "id": "095b200e-aed8-41b7-a010-730d07f1c972",
+      "type": "diagram-nodes",
+      "isSvg": false,
+      "transformed": true,
+      "models": {
+        "d1ff4e1f-dd10-437a-949c-22af8396f6d7": {
+          "id": "d1ff4e1f-dd10-437a-949c-22af8396f6d7",
+          "type": "start",
+          "x": 116,
+          "y": 40,
+          "ports": [
+            {
+              "id": "b59144ba-1eb8-4962-b99a-fcf6681ef8e6",
+              "type": "default",
+              "x": 191.796875,
+              "y": 47,
+              "name": "out-1656779766971",
+              "alignment": "right",
+              "parentNode": "d1ff4e1f-dd10-437a-949c-22af8396f6d7",
+              "links": [
+                "c26ed9ea-43b5-46af-9e00-244dd35cbefe"
+              ],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Start",
+          "color": "#16db26",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "b59144ba-1eb8-4962-b99a-fcf6681ef8e6"
+          ]
+        },
+        "ad88941e-a87c-4173-a502-9baf758edc7e": {
+          "id": "ad88941e-a87c-4173-a502-9baf758edc7e",
+          "type": "action",
+          "selected": false,
+          "x": 254,
+          "y": 16,
+          "ports": [
+            {
+              "id": "c44e3288-0b99-4ed4-bb8a-0e06d9838c5d",
+              "type": "default",
+              "x": 241,
+              "y": 47,
+              "name": "in-1656779767701 ",
+              "alignment": "left",
+              "parentNode": "ad88941e-a87c-4173-a502-9baf758edc7e",
+              "links": [
+                "c26ed9ea-43b5-46af-9e00-244dd35cbefe"
+              ],
+              "in": true,
+              "label": "❯"
+            },
+            {
+              "id": "3538d35d-8bdb-4ca9-aa38-847279f2d443",
+              "type": "default",
+              "x": 685.515625,
+              "y": 47,
+              "name": "out-1656779767701",
+              "alignment": "right",
+              "parentNode": "ad88941e-a87c-4173-a502-9baf758edc7e",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Action",
+          "color": "#3e077e",
+          "portsInOrder": [
+            "c44e3288-0b99-4ed4-bb8a-0e06d9838c5d"
+          ],
+          "portsOutOrder": [
+            "3538d35d-8bdb-4ca9-aa38-847279f2d443"
+          ],
+          "actions": {
+            "actions": [
+              "openDialogue"
+            ],
+            "args": [
+              [
+                "multi/fishing_contest_dwarf",
+                "Austri"
+              ]
+            ]
+          }
+        }
+      }
+    }
+  ],
+  "trees": {}
+}
