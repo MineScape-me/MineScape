@@ -84,7 +84,7 @@ const getCondition = function (conditionKey) {
 
 const isArgumentsValid = function (vars, args) {
 	for (const [index, v] of vars.entries()) {
-		const { type, notRequired } = v;
+		const { type, optional } = v;
 		const value = args[index];
 		switch (type) {
 			case "list": {
@@ -100,19 +100,19 @@ const isArgumentsValid = function (vars, args) {
 				if (state.sources[argument].includes(value)) {
 					continue;
 				}
-				return notRequired || `${value} is not in source ${argument}`;
+				return optional || `${value} is not in source ${argument}`;
 			}
 			case "number": {
 				if (!isNaN(value.split(",").join(""))) {
 					continue;
 				}
-				return notRequired || `${value} is not a number`;
+				return optional || `${value} is not a number`;
 			}
 			case "text": {
 				if (value !== "") {
 					continue;
 				}
-				return notRequired || `empty string value`;
+				return optional || `empty string value`;
 			}
 		}
 		return "Invalid type.";
