@@ -284,6 +284,7 @@ async function run() {
 			try {
 				let json = JSON.parse(fs.readFileSync(file));
 				const trees = {};
+
 				if (json.trees) {
 					Object.entries(json.trees).forEach(([k, v]) => {
 						const nodes = checkDialogue(file + ":" + k, v);
@@ -299,51 +300,18 @@ async function run() {
 				}
 
 				const starts = getStarts(file, trees);
-				console.log(JSON.stringify(starts));
 
+				const nodeIds = new Set();
 				Object.entries(trees).forEach(([k, nodes]) => {
-					checkTrees(file + ":" + k, nodes, starts);
+					var tree = file + ":" + k;
+					nodes.forEach(node =>{
+						if(nodeIds.has(node.id)){
+							state.issues += `\n\n> **${tree}** duplicate node id with another tree.\n}`;
+						}
+						nodeIds.add(node.id);
+					})
+					checkTrees(tree, nodes, starts);
 				});
-				// if (json[0] === undefined || json[0].nodes == undefined) {
-				// 	continue;
-				// }
-				// for (node of json[0].nodes) {
-				// 	// Actions Checks
-				// 	if (node.node_type == "execute" && node.title == "EXECUTE") {
-				// 		actions += `\n${file.split("/").pop()} | _**${node.text}**_`;
-				// 	} else if (node.node_type == "show_message") {
-				// 		for (choice of node.choices) {
-				// 			if (choice.condition != "") {
-				// 				actions += `\n${file.split("/").pop()} | _**${choice.condition}**_`;
-				// 			}
-				// 		}
-				// 	} else if (node.node_type == "condition_branch") {
-				// 		actions += `\n${file.split("/").pop()} | _**${node.text}**_`;
-				// 	}
-
-				// 	// Detect Issues
-				// 	if (node.node_type == "execute" && node.title == "EXECUTE") {
-				// 		if (node.text.replace("\n", "").length == 0) {
-				// 			issues += `\n${file.split("/").pop()} | _**Empty execute ${node.title}**_`;
-				// 		}
-				// 	} else if (node.node_type == "show_message") {
-				// 		for (choice of node.choices) {
-				// 			if (choice.text.ENG.replace("\n", "").length == 0) {
-				// 				issues += `\n${file.split("/").pop()} | _**Empty show message ${node.title}**_`;
-				// 			}
-				// 		}
-				// 		if (node.speaker_type != 1) {
-				// 			issues += `\n${file.split("/").pop()} | _**Wrong show message dropdown type ${node.title}**_`;
-				// 		}
-				// 		if (node.object_path != "OPTION") {
-				// 			issues += `\n${file.split("/").pop()} | _**Unknown show message object type ${node.title}**_`;
-				// 		}
-				// 	} else if (node.node_type == "condition_branch") {
-				// 		if (node.text.replace("\n", "").length == 0) {
-				// 			issues += `\n${file.split("/").pop()} | _**Empty condition ${node.title}**_`;
-				// 		}
-				// 	}
-				// }
 			} catch (error) {
 				console.log(error);
 				core.setFailed(file + ": " + error.message);
