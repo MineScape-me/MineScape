@@ -303,7 +303,7 @@ async function run() {
 
 				const nodeIds = new Set();
 				Object.entries(trees).forEach(([k, nodes]) => {
-					console.log(nodes);
+					console.log(typeof nodes);
 					var tree = file + ":" + k + `(${nodes.length})`;
 					nodes.forEach(node =>{
 						if(nodeIds.has(node.id)){
