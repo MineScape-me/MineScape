@@ -1,0 +1,618 @@
+{
+  "id": "ab509d7d-91ff-4f3a-b29c-e60f664991e8",
+  "offsetX": 78,
+  "offsetY": 16,
+  "zoom": 100,
+  "gridSize": 0,
+  "layers": [
+    {
+      "id": "8e33fd33-e296-4cdf-8797-5cce4457401a",
+      "type": "diagram-links",
+      "isSvg": true,
+      "transformed": true,
+      "models": {
+        "b830d5fb-e40d-4d59-83a2-3ee7169eaef5": {
+          "id": "b830d5fb-e40d-4d59-83a2-3ee7169eaef5",
+          "type": "default",
+          "selected": false,
+          "source": "0f23b060-4237-4b44-ae1e-b55f4b333b63",
+          "sourcePort": "6977eb5a-82d0-4177-8029-b063866d73e8",
+          "target": "b11a68c2-ea8c-4a7c-9712-15c2c75bcbc5",
+          "targetPort": "8933a0aa-bd5a-4e06-8620-cc302c926221",
+          "points": [
+            {
+              "id": "6bb7d9a3-65c3-477c-b538-ec0bb32f33fb",
+              "type": "point",
+              "x": 222.296875,
+              "y": 112.5
+            },
+            {
+              "id": "d659eb79-0a62-46fd-826b-517ecc95d23b",
+              "type": "point",
+              "x": 327.5,
+              "y": 115.5
+            }
+          ],
+          "labels": [],
+          "width": 3,
+          "color": "gray",
+          "curvyness": 50,
+          "selectedColor": "rgb(0,192,255)"
+        },
+        "76e09bf9-493d-4623-8778-9b5a9611d863": {
+          "id": "76e09bf9-493d-4623-8778-9b5a9611d863",
+          "type": "default",
+          "selected": false,
+          "source": "b11a68c2-ea8c-4a7c-9712-15c2c75bcbc5",
+          "sourcePort": "ee629e0f-81ef-47fe-911e-1992b4967c12",
+          "target": "b28f4ab8-54ba-4b17-aa45-cd7b3a7627fc",
+          "targetPort": "acfc8050-1d35-4b40-9870-9b4fe9601c7b",
+          "points": [
+            {
+              "id": "f8e74cbd-21a9-4d53-965e-dba294dd9d56",
+              "type": "point",
+              "x": 649.609375,
+              "y": 115.5
+            },
+            {
+              "id": "9505bb6f-7958-4b89-a906-d2f1c1983cb1",
+              "type": "point",
+              "x": 333.5,
+              "y": 194.5
+            }
+          ],
+          "labels": [],
+          "width": 3,
+          "color": "gray",
+          "curvyness": 50,
+          "selectedColor": "rgb(0,192,255)"
+        },
+        "91c7198e-31ba-4118-8353-000f7c3ede38": {
+          "id": "91c7198e-31ba-4118-8353-000f7c3ede38",
+          "type": "default",
+          "selected": false,
+          "source": "b28f4ab8-54ba-4b17-aa45-cd7b3a7627fc",
+          "sourcePort": "e8b6da56-1fc7-4440-94d8-ddb8d1bc7083",
+          "target": "94fed5f9-d02d-422f-afd3-321afe62e142",
+          "targetPort": "fd472453-3607-4d37-983c-46fccdf90dd2",
+          "points": [
+            {
+              "id": "a6a23f32-6870-42f3-827e-66ed01fd4b4d",
+              "type": "point",
+              "x": 619.875,
+              "y": 203.5
+            },
+            {
+              "id": "dcb919c4-b373-46c5-9ebc-1fd49069694c",
+              "type": "point",
+              "x": 59.5,
+              "y": 326.5
+            }
+          ],
+          "labels": [],
+          "width": 3,
+          "color": "gray",
+          "curvyness": 50,
+          "selectedColor": "rgb(0,192,255)"
+        },
+        "5a17ac64-e490-4534-badf-5ad4cb4971e7": {
+          "id": "5a17ac64-e490-4534-badf-5ad4cb4971e7",
+          "type": "default",
+          "selected": false,
+          "source": "b28f4ab8-54ba-4b17-aa45-cd7b3a7627fc",
+          "sourcePort": "aba49262-9b53-47aa-b225-9ab6a6c36f8f",
+          "target": "63609220-bcb7-47dd-9c15-d62a6a4cdd32",
+          "targetPort": "f4b4e634-1856-4a67-8b68-41ada5f873a4",
+          "points": [
+            {
+              "id": "65167820-f4d6-4602-91b1-05635b9d0b30",
+              "type": "point",
+              "x": 619.875,
+              "y": 239.5
+            },
+            {
+              "id": "1a3528a1-75a4-4a91-9262-522eb290ad5f",
+              "type": "point",
+              "x": 518.5,
+              "y": 324.5
+            }
+          ],
+          "labels": [],
+          "width": 3,
+          "color": "gray",
+          "curvyness": 50,
+          "selectedColor": "rgb(0,192,255)"
+        },
+        "9795c3e0-1e58-4433-b53e-f677eea36bfb": {
+          "id": "9795c3e0-1e58-4433-b53e-f677eea36bfb",
+          "type": "default",
+          "selected": false,
+          "source": "63609220-bcb7-47dd-9c15-d62a6a4cdd32",
+          "sourcePort": "b4501b20-bad1-4141-9903-ac37458fb5b9",
+          "target": "a555ea74-4516-417a-9b73-76ad65b50fca",
+          "targetPort": "41a9e878-e882-488b-8c42-7c7e907cee6b",
+          "points": [
+            {
+              "id": "96f0c52b-55a9-4e92-8289-4666d8fe7dae",
+              "type": "point",
+              "x": 723.34375,
+              "y": 324.5
+            },
+            {
+              "id": "03791b28-375e-4090-ba86-76a20dc930bf",
+              "type": "point",
+              "x": 517.5,
+              "y": 385.5
+            }
+          ],
+          "labels": [],
+          "width": 3,
+          "color": "gray",
+          "curvyness": 50,
+          "selectedColor": "rgb(0,192,255)"
+        },
+        "f33fa0c8-3fdc-438a-be88-cc1a0d996c61": {
+          "id": "f33fa0c8-3fdc-438a-be88-cc1a0d996c61",
+          "type": "default",
+          "selected": false,
+          "source": "94fed5f9-d02d-422f-afd3-321afe62e142",
+          "sourcePort": "55fc117d-b2b8-404c-8de8-29bad381809e",
+          "target": "ff7b7cfb-f47f-4b22-9e18-dd4d6a7f82ee",
+          "targetPort": "eb9c3b4c-2903-4385-9614-d71fee22a86b",
+          "points": [
+            {
+              "id": "eacc83f3-3095-46df-b725-1cf4537946c3",
+              "type": "point",
+              "x": 286.34375,
+              "y": 326.5
+            },
+            {
+              "id": "55e3f8b4-5295-4707-8892-a284044dae22",
+              "type": "point",
+              "x": 63.5,
+              "y": 393.5
+            }
+          ],
+          "labels": [],
+          "width": 3,
+          "color": "gray",
+          "curvyness": 50,
+          "selectedColor": "rgb(0,192,255)"
+        },
+        "0655a9fc-54fe-4e10-beff-b18ccb8ce995": {
+          "id": "0655a9fc-54fe-4e10-beff-b18ccb8ce995",
+          "type": "default",
+          "selected": false,
+          "source": "ff7b7cfb-f47f-4b22-9e18-dd4d6a7f82ee",
+          "sourcePort": "06f97736-52d2-47a7-ad4d-ea6b3e0ca470",
+          "target": "f9d9f0cf-cbd1-48fa-afa7-61afa909afb4",
+          "targetPort": "95e9fd66-bdec-445e-87eb-65672ef22f88",
+          "points": [
+            {
+              "id": "d47d194f-524d-4913-a881-eb878d7e33bc",
+              "type": "point",
+              "x": 283.015625,
+              "y": 393.5
+            },
+            {
+              "id": "01bad2bd-0928-41a5-ae8b-88d308d4f0a5",
+              "type": "point",
+              "x": 66.5,
+              "y": 455.5
+            }
+          ],
+          "labels": [],
+          "width": 3,
+          "color": "gray",
+          "curvyness": 50,
+          "selectedColor": "rgb(0,192,255)"
+        }
+      }
+    },
+    {
+      "id": "dffef5ef-aba2-4e50-9438-efccd53b4a92",
+      "type": "diagram-nodes",
+      "isSvg": false,
+      "transformed": true,
+      "models": {
+        "b11a68c2-ea8c-4a7c-9712-15c2c75bcbc5": {
+          "id": "b11a68c2-ea8c-4a7c-9712-15c2c75bcbc5",
+          "type": "dialogue",
+          "selected": false,
+          "x": 333,
+          "y": 77,
+          "ports": [
+            {
+              "id": "8933a0aa-bd5a-4e06-8620-cc302c926221",
+              "type": "default",
+              "x": 320,
+              "y": 108,
+              "name": "in-1656417884045 ",
+              "alignment": "left",
+              "parentNode": "b11a68c2-ea8c-4a7c-9712-15c2c75bcbc5",
+              "links": [
+                "b830d5fb-e40d-4d59-83a2-3ee7169eaef5"
+              ],
+              "in": true,
+              "label": "❯"
+            },
+            {
+              "id": "ee629e0f-81ef-47fe-911e-1992b4967c12",
+              "type": "default",
+              "x": 642.109375,
+              "y": 108,
+              "name": "out-1656417884046",
+              "alignment": "right",
+              "parentNode": "b11a68c2-ea8c-4a7c-9712-15c2c75bcbc5",
+              "links": [
+                "76e09bf9-493d-4623-8778-9b5a9611d863"
+              ],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Monk of Entrana",
+          "color": "#dd341e",
+          "portsInOrder": [
+            "8933a0aa-bd5a-4e06-8620-cc302c926221"
+          ],
+          "portsOutOrder": [
+            "ee629e0f-81ef-47fe-911e-1992b4967c12"
+          ],
+          "text": "Do you wish to leave holy Entrana?"
+        },
+        "0f23b060-4237-4b44-ae1e-b55f4b333b63": {
+          "id": "0f23b060-4237-4b44-ae1e-b55f4b333b63",
+          "type": "start",
+          "x": 139,
+          "y": 98,
+          "ports": [
+            {
+              "id": "6977eb5a-82d0-4177-8029-b063866d73e8",
+              "type": "default",
+              "x": 214.796875,
+              "y": 105,
+              "name": "out-1656417884646",
+              "alignment": "right",
+              "parentNode": "0f23b060-4237-4b44-ae1e-b55f4b333b63",
+              "links": [
+                "b830d5fb-e40d-4d59-83a2-3ee7169eaef5"
+              ],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Start",
+          "color": "#16db26",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "6977eb5a-82d0-4177-8029-b063866d73e8"
+          ]
+        },
+        "b28f4ab8-54ba-4b17-aa45-cd7b3a7627fc": {
+          "id": "b28f4ab8-54ba-4b17-aa45-cd7b3a7627fc",
+          "type": "option",
+          "selected": false,
+          "x": 339,
+          "y": 156,
+          "ports": [
+            {
+              "id": "acfc8050-1d35-4b40-9870-9b4fe9601c7b",
+              "type": "default",
+              "x": 326,
+              "y": 187,
+              "name": "in-1656417893280 ",
+              "alignment": "left",
+              "parentNode": "b28f4ab8-54ba-4b17-aa45-cd7b3a7627fc",
+              "links": [
+                "76e09bf9-493d-4623-8778-9b5a9611d863"
+              ],
+              "in": true,
+              "label": "❯"
+            },
+            {
+              "id": "e8b6da56-1fc7-4440-94d8-ddb8d1bc7083",
+              "type": "default",
+              "x": 612.375,
+              "y": 196,
+              "name": "out-1656417893280",
+              "alignment": "right",
+              "parentNode": "b28f4ab8-54ba-4b17-aa45-cd7b3a7627fc",
+              "links": [
+                "91c7198e-31ba-4118-8353-000f7c3ede38"
+              ],
+              "in": false,
+              "label": "❯"
+            },
+            {
+              "id": "aba49262-9b53-47aa-b225-9ab6a6c36f8f",
+              "type": "default",
+              "x": 612.375,
+              "y": 232,
+              "name": "out-1656417902712",
+              "alignment": "right",
+              "parentNode": "b28f4ab8-54ba-4b17-aa45-cd7b3a7627fc",
+              "links": [
+                "5a17ac64-e490-4534-badf-5ad4cb4971e7"
+              ],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Select an option.",
+          "color": "#0756b1",
+          "portsInOrder": [
+            "acfc8050-1d35-4b40-9870-9b4fe9601c7b"
+          ],
+          "portsOutOrder": [
+            "e8b6da56-1fc7-4440-94d8-ddb8d1bc7083",
+            "aba49262-9b53-47aa-b225-9ab6a6c36f8f"
+          ],
+          "options": [
+            {
+              "conditions": [
+                ""
+              ],
+              "args": [],
+              "text": "Yes, I'm ready to go."
+            },
+            {
+              "conditions": [
+                ""
+              ],
+              "args": [],
+              "text": "Not just yet."
+            }
+          ]
+        },
+        "94fed5f9-d02d-422f-afd3-321afe62e142": {
+          "id": "94fed5f9-d02d-422f-afd3-321afe62e142",
+          "type": "dialogue",
+          "selected": false,
+          "x": 65,
+          "y": 288,
+          "ports": [
+            {
+              "id": "fd472453-3607-4d37-983c-46fccdf90dd2",
+              "type": "default",
+              "x": 52,
+              "y": 319,
+              "name": "in-1656417923350 ",
+              "alignment": "left",
+              "parentNode": "94fed5f9-d02d-422f-afd3-321afe62e142",
+              "links": [
+                "91c7198e-31ba-4118-8353-000f7c3ede38"
+              ],
+              "in": true,
+              "label": "❯"
+            },
+            {
+              "id": "55fc117d-b2b8-404c-8de8-29bad381809e",
+              "type": "default",
+              "x": 278.84375,
+              "y": 319,
+              "name": "out-1656417923351",
+              "alignment": "right",
+              "parentNode": "94fed5f9-d02d-422f-afd3-321afe62e142",
+              "links": [
+                "f33fa0c8-3fdc-438a-be88-cc1a0d996c61"
+              ],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "<player>",
+          "color": "#dd341e",
+          "portsInOrder": [
+            "fd472453-3607-4d37-983c-46fccdf90dd2"
+          ],
+          "portsOutOrder": [
+            "55fc117d-b2b8-404c-8de8-29bad381809e"
+          ],
+          "text": "Yes, I'm ready to go."
+        },
+        "63609220-bcb7-47dd-9c15-d62a6a4cdd32": {
+          "id": "63609220-bcb7-47dd-9c15-d62a6a4cdd32",
+          "type": "dialogue",
+          "selected": false,
+          "x": 524,
+          "y": 286,
+          "ports": [
+            {
+              "id": "f4b4e634-1856-4a67-8b68-41ada5f873a4",
+              "type": "default",
+              "x": 511,
+              "y": 317,
+              "name": "in-1656417923350 ",
+              "alignment": "left",
+              "parentNode": "63609220-bcb7-47dd-9c15-d62a6a4cdd32",
+              "links": [
+                "5a17ac64-e490-4534-badf-5ad4cb4971e7"
+              ],
+              "in": true,
+              "label": "❯"
+            },
+            {
+              "id": "b4501b20-bad1-4141-9903-ac37458fb5b9",
+              "type": "default",
+              "x": 715.84375,
+              "y": 317,
+              "name": "out-1656417923351",
+              "alignment": "right",
+              "parentNode": "63609220-bcb7-47dd-9c15-d62a6a4cdd32",
+              "links": [
+                "9795c3e0-1e58-4433-b53e-f677eea36bfb"
+              ],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "<player>",
+          "color": "#dd341e",
+          "portsInOrder": [
+            "f4b4e634-1856-4a67-8b68-41ada5f873a4"
+          ],
+          "portsOutOrder": [
+            "b4501b20-bad1-4141-9903-ac37458fb5b9"
+          ],
+          "text": "No, not right now."
+        },
+        "a555ea74-4516-417a-9b73-76ad65b50fca": {
+          "id": "a555ea74-4516-417a-9b73-76ad65b50fca",
+          "type": "dialogue",
+          "selected": false,
+          "x": 523,
+          "y": 347,
+          "ports": [
+            {
+              "id": "41a9e878-e882-488b-8c42-7c7e907cee6b",
+              "type": "default",
+              "x": 510,
+              "y": 378,
+              "name": "in-1656417884045 ",
+              "alignment": "left",
+              "parentNode": "a555ea74-4516-417a-9b73-76ad65b50fca",
+              "links": [
+                "9795c3e0-1e58-4433-b53e-f677eea36bfb"
+              ],
+              "in": true,
+              "label": "❯"
+            },
+            {
+              "id": "4bb70f68-dad9-40b6-997f-4ec903d95f06",
+              "type": "default",
+              "x": 661.015625,
+              "y": 378,
+              "name": "out-1656417884046",
+              "alignment": "right",
+              "parentNode": "a555ea74-4516-417a-9b73-76ad65b50fca",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Monk of Entrana",
+          "color": "#dd341e",
+          "portsInOrder": [
+            "41a9e878-e882-488b-8c42-7c7e907cee6b"
+          ],
+          "portsOutOrder": [
+            "4bb70f68-dad9-40b6-997f-4ec903d95f06"
+          ],
+          "text": "Very well."
+        },
+        "ff7b7cfb-f47f-4b22-9e18-dd4d6a7f82ee": {
+          "id": "ff7b7cfb-f47f-4b22-9e18-dd4d6a7f82ee",
+          "type": "dialogue",
+          "selected": false,
+          "x": 69,
+          "y": 355,
+          "ports": [
+            {
+              "id": "eb9c3b4c-2903-4385-9614-d71fee22a86b",
+              "type": "default",
+              "x": 56,
+              "y": 386,
+              "name": "in-1656417884045 ",
+              "alignment": "left",
+              "parentNode": "ff7b7cfb-f47f-4b22-9e18-dd4d6a7f82ee",
+              "links": [
+                "f33fa0c8-3fdc-438a-be88-cc1a0d996c61"
+              ],
+              "in": true,
+              "label": "❯"
+            },
+            {
+              "id": "06f97736-52d2-47a7-ad4d-ea6b3e0ca470",
+              "type": "default",
+              "x": 275.515625,
+              "y": 386,
+              "name": "out-1656417884046",
+              "alignment": "right",
+              "parentNode": "ff7b7cfb-f47f-4b22-9e18-dd4d6a7f82ee",
+              "links": [
+                "0655a9fc-54fe-4e10-beff-b18ccb8ce995"
+              ],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Monk of Entrana",
+          "color": "#dd341e",
+          "portsInOrder": [
+            "eb9c3b4c-2903-4385-9614-d71fee22a86b"
+          ],
+          "portsOutOrder": [
+            "06f97736-52d2-47a7-ad4d-ea6b3e0ca470"
+          ],
+          "text": "Okay, let's board..."
+        },
+        "f9d9f0cf-cbd1-48fa-afa7-61afa909afb4": {
+          "id": "f9d9f0cf-cbd1-48fa-afa7-61afa909afb4",
+          "type": "action",
+          "selected": false,
+          "x": 72,
+          "y": 417,
+          "ports": [
+            {
+              "id": "95e9fd66-bdec-445e-87eb-65672ef22f88",
+              "type": "default",
+              "x": 59,
+              "y": 448,
+              "name": "in-1656417959023 ",
+              "alignment": "left",
+              "parentNode": "f9d9f0cf-cbd1-48fa-afa7-61afa909afb4",
+              "links": [
+                "0655a9fc-54fe-4e10-beff-b18ccb8ce995"
+              ],
+              "in": true,
+              "label": "❯"
+            },
+            {
+              "id": "ed85ff6b-2cb2-487a-bf8b-46dbd3cb3742",
+              "type": "default",
+              "x": 178.453125,
+              "y": 448,
+              "name": "out-1656417959023",
+              "alignment": "right",
+              "parentNode": "f9d9f0cf-cbd1-48fa-afa7-61afa909afb4",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Action",
+          "color": "#3e077e",
+          "portsInOrder": [
+            "95e9fd66-bdec-445e-87eb-65672ef22f88"
+          ],
+          "portsOutOrder": [
+            "ed85ff6b-2cb2-487a-bf8b-46dbd3cb3742"
+          ],
+          "actions": {
+            "actions": [
+              ""
+            ],
+            "args": [
+              []
+            ]
+          }
+        },
+        "06d0a308-b2e2-4f38-88cf-5d69e7667d69": {
+          "id": "06d0a308-b2e2-4f38-88cf-5d69e7667d69",
+          "type": "note",
+          "selected": true,
+          "x": 73,
+          "y": 497,
+          "ports": [],
+          "title": "Note",
+          "color": "#19e0e7",
+          "portsInOrder": [],
+          "portsOutOrder": [],
+          "text": "Missing action"
+        }
+      }
+    }
+  ],
+  "trees": {}
+}
