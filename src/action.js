@@ -305,7 +305,7 @@ async function run() {
 				Object.entries(trees).forEach(([k, nodes]) => {
 					console.log(typeof nodes);
 					var tree = file + ":" + k + `(${nodes.length})`;
-					Obeject.values(nodes).forEach(node =>{
+					Object.values(nodes).forEach(node =>{
 						if(nodeIds.has(node.id)){
 							state.issues += `\n\n> **${tree}** duplicate node id with another tree.\n}`;
 						}
