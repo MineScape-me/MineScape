@@ -1,0 +1,616 @@
+{
+  "id": "dc5b1b82-3150-47fe-be95-86ad58ffe9df",
+  "offsetX": -3,
+  "offsetY": 0,
+  "zoom": 100,
+  "gridSize": 0,
+  "layers": [
+    {
+      "id": "b1cc0f37-48a8-43a1-bc56-b06dbcc71ebf",
+      "type": "diagram-links",
+      "isSvg": true,
+      "transformed": true,
+      "models": {
+        "a089ca29-b9d0-4339-a58b-30d094b405f6": {
+          "id": "a089ca29-b9d0-4339-a58b-30d094b405f6",
+          "type": "default",
+          "selected": false,
+          "source": "94abe2d8-c448-4268-8774-cc329b023a05",
+          "sourcePort": "2223b1f8-7a5d-4f69-988c-24605905d136",
+          "target": "4d7d2a6b-5e7a-43b2-8c91-28176b173482",
+          "targetPort": "9588c350-eca8-4303-930b-a2023090adfc",
+          "points": [
+            {
+              "id": "079b8116-82a9-4136-84b4-5131a4d59342",
+              "type": "point",
+              "x": 133.296875,
+              "y": 64.5
+            },
+            {
+              "id": "96abe0ed-8470-4227-895c-46599cedbd02",
+              "type": "point",
+              "x": 167.5,
+              "y": 64.5
+            }
+          ],
+          "labels": [],
+          "width": 3,
+          "color": "gray",
+          "curvyness": 50,
+          "selectedColor": "rgb(0,192,255)"
+        },
+        "0ff94c15-fae8-42c4-9ac6-53b167e931af": {
+          "id": "0ff94c15-fae8-42c4-9ac6-53b167e931af",
+          "type": "default",
+          "selected": false,
+          "source": "4d7d2a6b-5e7a-43b2-8c91-28176b173482",
+          "sourcePort": "8badbf03-29e2-4145-9f4c-ee87bb4ec7a3",
+          "target": "9cd03e5e-5d12-4e2b-a375-f1cc7e6b0164",
+          "targetPort": "0361740f-5bdc-46e6-9b2b-6102a619c0bf",
+          "points": [
+            {
+              "id": "3b53f838-0e8f-4bd5-b6df-9502af2a1cc9",
+              "type": "point",
+              "x": 643.515625,
+              "y": 64.5
+            },
+            {
+              "id": "c62c8619-981b-4dc5-905a-81e6f23456e4",
+              "type": "point",
+              "x": 167.5,
+              "y": 157.5
+            }
+          ],
+          "labels": [],
+          "width": 3,
+          "color": "gray",
+          "curvyness": 50,
+          "selectedColor": "rgb(0,192,255)"
+        },
+        "3d8e3033-40b2-4dd0-b3fe-2fd536da87c1": {
+          "id": "3d8e3033-40b2-4dd0-b3fe-2fd536da87c1",
+          "type": "default",
+          "selected": false,
+          "source": "9cd03e5e-5d12-4e2b-a375-f1cc7e6b0164",
+          "sourcePort": "c27177bb-24b4-47fa-9af9-67e5a3a70dab",
+          "target": "82ae845b-d069-43ce-8919-b49845a8e3c7",
+          "targetPort": "3f371fb6-443a-4503-9d05-5cd7b806390f",
+          "points": [
+            {
+              "id": "db663dfb-02d8-47d1-9618-536595418d6a",
+              "type": "point",
+              "x": 643.515625,
+              "y": 157.5
+            },
+            {
+              "id": "5b76ae63-0239-4a0e-993d-b8a465afff74",
+              "type": "point",
+              "x": 167.5,
+              "y": 250.5
+            }
+          ],
+          "labels": [],
+          "width": 3,
+          "color": "gray",
+          "curvyness": 50,
+          "selectedColor": "rgb(0,192,255)"
+        },
+        "a778d571-4faa-41ca-8410-f57778241911": {
+          "id": "a778d571-4faa-41ca-8410-f57778241911",
+          "type": "default",
+          "selected": false,
+          "source": "82ae845b-d069-43ce-8919-b49845a8e3c7",
+          "sourcePort": "73c2a8db-82d2-4fc7-9bf7-7f13134e1cd2",
+          "target": "72d81f5c-c06c-4ee7-bdff-1bb82683085b",
+          "targetPort": "cdda2b8b-317f-44df-b028-725d2a31b3da",
+          "points": [
+            {
+              "id": "01b69db4-91ee-4fc7-ab9e-3099c429339d",
+              "type": "point",
+              "x": 621.53125,
+              "y": 250.5
+            },
+            {
+              "id": "fb72ebb4-76ea-4b16-a874-c5928e5f7296",
+              "type": "point",
+              "x": 168.5,
+              "y": 327.5
+            }
+          ],
+          "labels": [],
+          "width": 3,
+          "color": "gray",
+          "curvyness": 50,
+          "selectedColor": "rgb(0,192,255)"
+        },
+        "7a69a3bc-5aa4-4f05-ae6e-8e3b9df59ee2": {
+          "id": "7a69a3bc-5aa4-4f05-ae6e-8e3b9df59ee2",
+          "type": "default",
+          "selected": false,
+          "source": "72d81f5c-c06c-4ee7-bdff-1bb82683085b",
+          "sourcePort": "85f265ff-bb28-42f9-8d52-07732f050af5",
+          "target": "3b916c99-22c3-4a1b-8f5a-7f8807dd9c96",
+          "targetPort": "47bc5362-cf23-4cab-b94f-ad10b2d8f7d5",
+          "points": [
+            {
+              "id": "1677189c-2f7c-44a8-840e-248752824094",
+              "type": "point",
+              "x": 640.203125,
+              "y": 372.5
+            },
+            {
+              "id": "a39ff89c-043a-478f-b440-a6fd0a082795",
+              "type": "point",
+              "x": 154.5,
+              "y": 467.5
+            }
+          ],
+          "labels": [],
+          "width": 3,
+          "color": "gray",
+          "curvyness": 50,
+          "selectedColor": "rgb(0,192,255)"
+        },
+        "aa81f8f2-040f-4be8-9b7c-ca60e12e62a8": {
+          "id": "aa81f8f2-040f-4be8-9b7c-ca60e12e62a8",
+          "type": "default",
+          "selected": false,
+          "source": "72d81f5c-c06c-4ee7-bdff-1bb82683085b",
+          "sourcePort": "0bd0b94c-6e4d-4524-aa50-20f41fd278d9",
+          "target": "ee3ec836-8eda-4b02-98e6-a4fee548f18d",
+          "targetPort": "c313fac2-c454-4468-9bb4-8a6a4051d992",
+          "points": [
+            {
+              "id": "09f972f8-ca09-4cf1-a12d-b062e3e298cc",
+              "type": "point",
+              "x": 640.21875,
+              "y": 336.5
+            },
+            {
+              "id": "73050efa-1de4-4f8f-abd7-c0a65ce6ba21",
+              "type": "point",
+              "x": 633.5,
+              "y": 481.5
+            }
+          ],
+          "labels": [],
+          "width": 3,
+          "color": "gray",
+          "curvyness": 50,
+          "selectedColor": "rgb(0,192,255)"
+        },
+        "6b6b04bc-1ee1-4f03-bfe7-1186f4948c03": {
+          "id": "6b6b04bc-1ee1-4f03-bfe7-1186f4948c03",
+          "type": "default",
+          "selected": false,
+          "source": "3b916c99-22c3-4a1b-8f5a-7f8807dd9c96",
+          "sourcePort": "f39e5500-3b9e-4fb3-95f7-1b996cad4f0e",
+          "target": "cbd3010b-9b8a-4f10-a58a-dc3f9dd039f7",
+          "targetPort": "73b125ab-70b6-4749-a257-2aa5bedb0b37",
+          "points": [
+            {
+              "id": "997fdda0-f503-4709-bba8-85d1a7e282d5",
+              "type": "point",
+              "x": 520.59375,
+              "y": 467.5
+            },
+            {
+              "id": "35dc81a6-88c1-476d-aab8-1282ee59e72c",
+              "type": "point",
+              "x": 147.5,
+              "y": 532.5
+            }
+          ],
+          "labels": [],
+          "width": 3,
+          "color": "gray",
+          "curvyness": 50,
+          "selectedColor": "rgb(0,192,255)"
+        }
+      }
+    },
+    {
+      "id": "254fb1cf-9bac-493e-bc28-69d370d590ef",
+      "type": "diagram-nodes",
+      "isSvg": false,
+      "transformed": true,
+      "models": {
+        "94abe2d8-c448-4268-8774-cc329b023a05": {
+          "id": "94abe2d8-c448-4268-8774-cc329b023a05",
+          "type": "start",
+          "x": 50,
+          "y": 50,
+          "ports": [
+            {
+              "id": "2223b1f8-7a5d-4f69-988c-24605905d136",
+              "type": "default",
+              "x": 125.796875,
+              "y": 57,
+              "name": "out-1657964994187",
+              "alignment": "right",
+              "parentNode": "94abe2d8-c448-4268-8774-cc329b023a05",
+              "links": [
+                "a089ca29-b9d0-4339-a58b-30d094b405f6"
+              ],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Start",
+          "color": "#16db26e6",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "2223b1f8-7a5d-4f69-988c-24605905d136"
+          ]
+        },
+        "4d7d2a6b-5e7a-43b2-8c91-28176b173482": {
+          "id": "4d7d2a6b-5e7a-43b2-8c91-28176b173482",
+          "type": "dialogue",
+          "selected": false,
+          "x": 173,
+          "y": 26,
+          "ports": [
+            {
+              "id": "9588c350-eca8-4303-930b-a2023090adfc",
+              "type": "default",
+              "x": 160,
+              "y": 57,
+              "name": "in-1657965011698 ",
+              "alignment": "left",
+              "parentNode": "4d7d2a6b-5e7a-43b2-8c91-28176b173482",
+              "links": [
+                "a089ca29-b9d0-4339-a58b-30d094b405f6"
+              ],
+              "in": true,
+              "label": "❯"
+            },
+            {
+              "id": "8badbf03-29e2-4145-9f4c-ee87bb4ec7a3",
+              "type": "default",
+              "x": 636.015625,
+              "y": 57,
+              "name": "out-1657965011698",
+              "alignment": "right",
+              "parentNode": "4d7d2a6b-5e7a-43b2-8c91-28176b173482",
+              "links": [
+                "0ff94c15-fae8-42c4-9ac6-53b167e931af"
+              ],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Cave monk",
+          "color": "#dd341ee6",
+          "portsInOrder": [
+            "9588c350-eca8-4303-930b-a2023090adfc"
+          ],
+          "portsOutOrder": [
+            "8badbf03-29e2-4145-9f4c-ee87bb4ec7a3"
+          ],
+          "text": "Be careful going in there! You are unarmed, and there\nis much evilness lurking down there! The evilness seems\nto block off our contact with our gods,"
+        },
+        "9cd03e5e-5d12-4e2b-a375-f1cc7e6b0164": {
+          "id": "9cd03e5e-5d12-4e2b-a375-f1cc7e6b0164",
+          "type": "dialogue",
+          "selected": false,
+          "x": 173,
+          "y": 119,
+          "ports": [
+            {
+              "id": "0361740f-5bdc-46e6-9b2b-6102a619c0bf",
+              "type": "default",
+              "x": 160,
+              "y": 150,
+              "name": "in-1657965011698 ",
+              "alignment": "left",
+              "parentNode": "9cd03e5e-5d12-4e2b-a375-f1cc7e6b0164",
+              "links": [
+                "0ff94c15-fae8-42c4-9ac6-53b167e931af"
+              ],
+              "in": true,
+              "label": "❯"
+            },
+            {
+              "id": "c27177bb-24b4-47fa-9af9-67e5a3a70dab",
+              "type": "default",
+              "x": 636.015625,
+              "y": 150,
+              "name": "out-1657965011698",
+              "alignment": "right",
+              "parentNode": "9cd03e5e-5d12-4e2b-a375-f1cc7e6b0164",
+              "links": [
+                "3d8e3033-40b2-4dd0-b3fe-2fd536da87c1"
+              ],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Cave monk",
+          "color": "#dd341ee6",
+          "portsInOrder": [
+            "0361740f-5bdc-46e6-9b2b-6102a619c0bf"
+          ],
+          "portsOutOrder": [
+            "c27177bb-24b4-47fa-9af9-67e5a3a70dab"
+          ],
+          "text": "so our prayers seem to have less effect down there. Oh,\nalso, you won't be able to come back this way -  This\nladder only goes one way!"
+        },
+        "82ae845b-d069-43ce-8919-b49845a8e3c7": {
+          "id": "82ae845b-d069-43ce-8919-b49845a8e3c7",
+          "type": "dialogue",
+          "selected": false,
+          "x": 173,
+          "y": 212,
+          "ports": [
+            {
+              "id": "3f371fb6-443a-4503-9d05-5cd7b806390f",
+              "type": "default",
+              "x": 160,
+              "y": 243,
+              "name": "in-1657965011698 ",
+              "alignment": "left",
+              "parentNode": "82ae845b-d069-43ce-8919-b49845a8e3c7",
+              "links": [
+                "3d8e3033-40b2-4dd0-b3fe-2fd536da87c1"
+              ],
+              "in": true,
+              "label": "❯"
+            },
+            {
+              "id": "73c2a8db-82d2-4fc7-9bf7-7f13134e1cd2",
+              "type": "default",
+              "x": 614.03125,
+              "y": 243,
+              "name": "out-1657965011698",
+              "alignment": "right",
+              "parentNode": "82ae845b-d069-43ce-8919-b49845a8e3c7",
+              "links": [
+                "a778d571-4faa-41ca-8410-f57778241911"
+              ],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Cave monk",
+          "color": "#dd341ee6",
+          "portsInOrder": [
+            "3f371fb6-443a-4503-9d05-5cd7b806390f"
+          ],
+          "portsOutOrder": [
+            "73c2a8db-82d2-4fc7-9bf7-7f13134e1cd2"
+          ],
+          "text": "The only exit from the caves below is a portal which\nleads only to the deepest wilderness!"
+        },
+        "72d81f5c-c06c-4ee7-bdff-1bb82683085b": {
+          "id": "72d81f5c-c06c-4ee7-bdff-1bb82683085b",
+          "type": "option",
+          "selected": false,
+          "x": 174,
+          "y": 289,
+          "ports": [
+            {
+              "id": "cdda2b8b-317f-44df-b028-725d2a31b3da",
+              "type": "default",
+              "x": 161,
+              "y": 320,
+              "name": "in-1657965240465 ",
+              "alignment": "left",
+              "parentNode": "72d81f5c-c06c-4ee7-bdff-1bb82683085b",
+              "links": [
+                "a778d571-4faa-41ca-8410-f57778241911"
+              ],
+              "in": true,
+              "label": "❯"
+            },
+            {
+              "id": "0bd0b94c-6e4d-4524-aa50-20f41fd278d9",
+              "type": "default",
+              "x": 632.71875,
+              "y": 329,
+              "name": "out-1657965240465",
+              "alignment": "right",
+              "parentNode": "72d81f5c-c06c-4ee7-bdff-1bb82683085b",
+              "links": [
+                "aa81f8f2-040f-4be8-9b7c-ca60e12e62a8"
+              ],
+              "in": false,
+              "label": "❯"
+            },
+            {
+              "id": "85f265ff-bb28-42f9-8d52-07732f050af5",
+              "type": "default",
+              "x": 632.703125,
+              "y": 365,
+              "name": "out-1657965247402",
+              "alignment": "right",
+              "parentNode": "72d81f5c-c06c-4ee7-bdff-1bb82683085b",
+              "links": [
+                "7a69a3bc-5aa4-4f05-ae6e-8e3b9df59ee2"
+              ],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Select an option.",
+          "color": "#0756b1e6",
+          "portsInOrder": [
+            "cdda2b8b-317f-44df-b028-725d2a31b3da"
+          ],
+          "portsOutOrder": [
+            "0bd0b94c-6e4d-4524-aa50-20f41fd278d9",
+            "85f265ff-bb28-42f9-8d52-07732f050af5"
+          ],
+          "options": [
+            {
+              "conditions": [
+                ""
+              ],
+              "args": [],
+              "text": "I don't think I'm strong enough to enter then."
+            },
+            {
+              "conditions": [
+                ""
+              ],
+              "args": [],
+              "text": "Well that is a risk I will have to take."
+            }
+          ]
+        },
+        "3b916c99-22c3-4a1b-8f5a-7f8807dd9c96": {
+          "id": "3b916c99-22c3-4a1b-8f5a-7f8807dd9c96",
+          "type": "dialogue",
+          "selected": false,
+          "x": 160,
+          "y": 429,
+          "ports": [
+            {
+              "id": "47bc5362-cf23-4cab-b94f-ad10b2d8f7d5",
+              "type": "default",
+              "x": 147,
+              "y": 460,
+              "name": "in-1657965267153 ",
+              "alignment": "left",
+              "parentNode": "3b916c99-22c3-4a1b-8f5a-7f8807dd9c96",
+              "links": [
+                "7a69a3bc-5aa4-4f05-ae6e-8e3b9df59ee2"
+              ],
+              "in": true,
+              "label": "❯"
+            },
+            {
+              "id": "f39e5500-3b9e-4fb3-95f7-1b996cad4f0e",
+              "type": "default",
+              "x": 513.09375,
+              "y": 460,
+              "name": "out-1657965267153",
+              "alignment": "right",
+              "parentNode": "3b916c99-22c3-4a1b-8f5a-7f8807dd9c96",
+              "links": [
+                "6b6b04bc-1ee1-4f03-bfe7-1186f4948c03"
+              ],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "<player>",
+          "color": "#dd341ee6",
+          "portsInOrder": [
+            "47bc5362-cf23-4cab-b94f-ad10b2d8f7d5"
+          ],
+          "portsOutOrder": [
+            "f39e5500-3b9e-4fb3-95f7-1b996cad4f0e"
+          ],
+          "text": "Well that is a risk I will have to take."
+        },
+        "ee3ec836-8eda-4b02-98e6-a4fee548f18d": {
+          "id": "ee3ec836-8eda-4b02-98e6-a4fee548f18d",
+          "type": "dialogue",
+          "selected": false,
+          "x": 639,
+          "y": 443,
+          "ports": [
+            {
+              "id": "c313fac2-c454-4468-9bb4-8a6a4051d992",
+              "type": "default",
+              "x": 626,
+              "y": 474,
+              "name": "in-1657965267153 ",
+              "alignment": "left",
+              "parentNode": "ee3ec836-8eda-4b02-98e6-a4fee548f18d",
+              "links": [
+                "aa81f8f2-040f-4be8-9b7c-ca60e12e62a8"
+              ],
+              "in": true,
+              "label": "❯"
+            },
+            {
+              "id": "6ffb5104-5939-47e0-8bed-4bd1ca704fa8",
+              "type": "default",
+              "x": 1036.0625,
+              "y": 474,
+              "name": "out-1657965267153",
+              "alignment": "right",
+              "parentNode": "ee3ec836-8eda-4b02-98e6-a4fee548f18d",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "<player>",
+          "color": "#dd341ee6",
+          "portsInOrder": [
+            "c313fac2-c454-4468-9bb4-8a6a4051d992"
+          ],
+          "portsOutOrder": [
+            "6ffb5104-5939-47e0-8bed-4bd1ca704fa8"
+          ],
+          "text": "I don't think I'm strong enough to enter then."
+        },
+        "cbd3010b-9b8a-4f10-a58a-dc3f9dd039f7": {
+          "id": "cbd3010b-9b8a-4f10-a58a-dc3f9dd039f7",
+          "type": "action",
+          "selected": false,
+          "x": 153,
+          "y": 494,
+          "ports": [
+            {
+              "id": "73b125ab-70b6-4749-a257-2aa5bedb0b37",
+              "type": "default",
+              "x": 140,
+              "y": 525,
+              "name": "in-1657965286925 ",
+              "alignment": "left",
+              "parentNode": "cbd3010b-9b8a-4f10-a58a-dc3f9dd039f7",
+              "links": [
+                "6b6b04bc-1ee1-4f03-bfe7-1186f4948c03"
+              ],
+              "in": true,
+              "label": "❯"
+            },
+            {
+              "id": "83300d5f-006b-46f0-98c4-cd6a594b1626",
+              "type": "default",
+              "x": 259.453125,
+              "y": 525,
+              "name": "out-1657965286925",
+              "alignment": "right",
+              "parentNode": "cbd3010b-9b8a-4f10-a58a-dc3f9dd039f7",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Action",
+          "color": "#3e077ee6",
+          "portsInOrder": [
+            "73b125ab-70b6-4749-a257-2aa5bedb0b37"
+          ],
+          "portsOutOrder": [
+            "83300d5f-006b-46f0-98c4-cd6a594b1626"
+          ],
+          "actions": {
+            "actions": [
+              ""
+            ],
+            "args": []
+          }
+        },
+        "7e7b1c20-591c-45ac-b403-0a3bdfab6ac4": {
+          "id": "7e7b1c20-591c-45ac-b403-0a3bdfab6ac4",
+          "type": "note",
+          "selected": true,
+          "x": 289,
+          "y": 507,
+          "ports": [],
+          "title": "Note",
+          "color": "#19e0e7e6",
+          "portsInOrder": [],
+          "portsOutOrder": [],
+          "text": "Teleport & change prayer"
+        }
+      }
+    }
+  ],
+  "trees": {}
+}
