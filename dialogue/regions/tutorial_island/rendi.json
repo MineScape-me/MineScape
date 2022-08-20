@@ -1,0 +1,932 @@
+{
+  "id": "6376571a-b394-432b-86a5-ab56f04f0d39",
+  "offsetX": 352,
+  "offsetY": 7,
+  "zoom": 100,
+  "gridSize": 0,
+  "layers": [
+    {
+      "id": "6e6c4657-96a5-473e-88a3-b5bd50bf612f",
+      "type": "diagram-links",
+      "isSvg": true,
+      "transformed": true,
+      "models": {
+        "24a20008-5645-495c-8a15-0f2dee6e52f9": {
+          "id": "24a20008-5645-495c-8a15-0f2dee6e52f9",
+          "type": "default",
+          "selected": false,
+          "source": "634dde6f-4cfe-41c2-ba5c-d40148121895",
+          "sourcePort": "8d9dad06-d3bc-48a8-9470-ee07ae14edb0",
+          "target": "466a5b9e-adb5-4e44-814c-e3ffc752626d",
+          "targetPort": "c5f35036-a8f8-42f0-a904-cfab20e6877c",
+          "points": [
+            {
+              "id": "91fa20b2-13e9-4f75-9dba-7b91e347f7f0",
+              "type": "point",
+              "x": 229.296875,
+              "y": 60.5
+            },
+            {
+              "id": "43386f7f-12b6-43a4-9196-e192a1f440d3",
+              "type": "point",
+              "x": 293.5,
+              "y": 60.5
+            }
+          ],
+          "labels": [],
+          "width": 3,
+          "color": "gray",
+          "curvyness": 50,
+          "selectedColor": "rgb(0,192,255)"
+        },
+        "0588992f-1ff6-44ad-9202-209a95bc9484": {
+          "id": "0588992f-1ff6-44ad-9202-209a95bc9484",
+          "type": "default",
+          "selected": false,
+          "source": "466a5b9e-adb5-4e44-814c-e3ffc752626d",
+          "sourcePort": "415f8f70-fc60-425a-b050-889a4116c92b",
+          "target": "b884b145-cb48-4dbc-b86c-c5308b4c1c99",
+          "targetPort": "2eeb2bc0-692d-4f48-a57e-715d463dad92",
+          "points": [
+            {
+              "id": "a70fe57a-b47a-404d-93fd-af700a65a5ec",
+              "type": "point",
+              "x": 703.5625,
+              "y": 60.5
+            },
+            {
+              "id": "bae3aa89-3a4a-4428-b216-c5a183a5cbfd",
+              "type": "point",
+              "x": 293.5,
+              "y": 140.5
+            }
+          ],
+          "labels": [],
+          "width": 3,
+          "color": "gray",
+          "curvyness": 50,
+          "selectedColor": "rgb(0,192,255)"
+        },
+        "d70e8b9f-fa40-4958-86c7-fb222a51eb6c": {
+          "id": "d70e8b9f-fa40-4958-86c7-fb222a51eb6c",
+          "type": "default",
+          "selected": false,
+          "source": "b884b145-cb48-4dbc-b86c-c5308b4c1c99",
+          "sourcePort": "93f06141-1006-49f9-b95c-72f0b62d52c4",
+          "target": "d8426b37-bfc0-4344-b2e0-df5217f2298a",
+          "targetPort": "45267620-4440-4465-b793-a33f7cb22d1a",
+          "points": [
+            {
+              "id": "6a133d64-1a98-404a-bd69-18ae68701a86",
+              "type": "point",
+              "x": 691.0625,
+              "y": 221.5
+            },
+            {
+              "id": "0cc380d6-4a4b-468c-8f2a-24cebb5b1bf0",
+              "type": "point",
+              "x": 865.5,
+              "y": 304.5
+            }
+          ],
+          "labels": [],
+          "width": 3,
+          "color": "gray",
+          "curvyness": 50,
+          "selectedColor": "rgb(0,192,255)"
+        },
+        "c7f6d3dc-ea6d-4772-b24a-b3f247317034": {
+          "id": "c7f6d3dc-ea6d-4772-b24a-b3f247317034",
+          "type": "default",
+          "selected": false,
+          "source": "b884b145-cb48-4dbc-b86c-c5308b4c1c99",
+          "sourcePort": "b5ee3e27-7a18-45bc-8ff1-c13a2698818c",
+          "target": "8add69c1-6d54-4969-a517-3a15b578b72d",
+          "targetPort": "652df350-07f7-4d4e-9b61-07bf5bc74ecb",
+          "points": [
+            {
+              "id": "c76fe7bd-db14-4fff-8faa-e235da33d388",
+              "type": "point",
+              "x": 691.0625,
+              "y": 149.5
+            },
+            {
+              "id": "e15a5066-722b-4a20-b22a-83feeac9ecb4",
+              "type": "point",
+              "x": -236.5,
+              "y": 304.5
+            }
+          ],
+          "labels": [],
+          "width": 3,
+          "color": "gray",
+          "curvyness": 50,
+          "selectedColor": "rgb(0,192,255)"
+        },
+        "33ea3b7d-a21f-49e9-86c7-be05bb4bbf9f": {
+          "id": "33ea3b7d-a21f-49e9-86c7-be05bb4bbf9f",
+          "type": "default",
+          "selected": false,
+          "source": "8add69c1-6d54-4969-a517-3a15b578b72d",
+          "sourcePort": "f624971f-aed9-4415-bc77-528094742121",
+          "target": "375b4ea2-1096-47b6-aa2d-5aae92b10987",
+          "targetPort": "e1974765-04d7-4c10-bd5d-5450727455bb",
+          "points": [
+            {
+              "id": "b7568b02-a125-486a-a7c2-7c652de54470",
+              "type": "point",
+              "x": 19.65625,
+              "y": 304.5
+            },
+            {
+              "id": "647a252c-5687-4dd8-9652-10ab96a3e1b1",
+              "type": "point",
+              "x": -234.5,
+              "y": 373.5
+            }
+          ],
+          "labels": [],
+          "width": 3,
+          "color": "gray",
+          "curvyness": 50,
+          "selectedColor": "rgb(0,192,255)"
+        },
+        "a2334e72-e050-4315-b63e-12a83cd8a08b": {
+          "id": "a2334e72-e050-4315-b63e-12a83cd8a08b",
+          "type": "default",
+          "selected": false,
+          "source": "375b4ea2-1096-47b6-aa2d-5aae92b10987",
+          "sourcePort": "4ca5d5ae-f476-48c5-bd85-f99fddda18a2",
+          "target": "b1392644-9a90-46d9-a39c-0f021e764f6f",
+          "targetPort": "d84a0764-cefb-438e-9969-c8dd2249d3de",
+          "points": [
+            {
+              "id": "80f019ed-2515-4548-976b-f1886d30bf76",
+              "type": "point",
+              "x": 256.171875,
+              "y": 373.5
+            },
+            {
+              "id": "55f4646c-d0f5-4bf9-8110-2a7a4cc0ea90",
+              "type": "point",
+              "x": -230.5,
+              "y": 466.5
+            }
+          ],
+          "labels": [],
+          "width": 3,
+          "color": "gray",
+          "curvyness": 50,
+          "selectedColor": "rgb(0,192,255)"
+        },
+        "f08718d0-3ff9-449e-a8ba-e3a3834dde9d": {
+          "id": "f08718d0-3ff9-449e-a8ba-e3a3834dde9d",
+          "type": "default",
+          "selected": false,
+          "source": "b1392644-9a90-46d9-a39c-0f021e764f6f",
+          "sourcePort": "2f0263ef-010a-41d4-a640-2f0a8fd55587",
+          "target": "e3c4fd67-d89f-406c-9f95-2d2e2eb84eec",
+          "targetPort": "92005373-55aa-44be-994d-fa4bad80cb2e",
+          "points": [
+            {
+              "id": "00e539a0-5dc3-46d5-8edb-c6218991f334",
+              "type": "point",
+              "x": 245.515625,
+              "y": 466.5
+            },
+            {
+              "id": "a6e0987c-f055-4201-922b-6862abf26c95",
+              "type": "point",
+              "x": -230.5,
+              "y": 559.5
+            }
+          ],
+          "labels": [],
+          "width": 3,
+          "color": "gray",
+          "curvyness": 50,
+          "selectedColor": "rgb(0,192,255)"
+        },
+        "ab8c938f-2cda-4511-b90f-9828957e385a": {
+          "id": "ab8c938f-2cda-4511-b90f-9828957e385a",
+          "type": "default",
+          "selected": false,
+          "source": "e3c4fd67-d89f-406c-9f95-2d2e2eb84eec",
+          "sourcePort": "04760f21-4f32-4708-8f8e-4d675af16741",
+          "target": "f85413cb-38dc-49cf-9110-6feeb18e074b",
+          "targetPort": "cebdf1c0-7f77-4e3e-aeeb-f61e14b235f5",
+          "points": [
+            {
+              "id": "eeda6867-2a98-4f8a-b1ab-77034cc87eac",
+              "type": "point",
+              "x": 252.84375,
+              "y": 559.5
+            },
+            {
+              "id": "131a684a-5680-4865-9c6a-a15a1486201a",
+              "type": "point",
+              "x": -230.5,
+              "y": 656.5
+            }
+          ],
+          "labels": [],
+          "width": 3,
+          "color": "gray",
+          "curvyness": 50,
+          "selectedColor": "rgb(0,192,255)"
+        },
+        "2873ef7d-9c32-42cf-a132-e77882de1ad0": {
+          "id": "2873ef7d-9c32-42cf-a132-e77882de1ad0",
+          "type": "default",
+          "selected": false,
+          "source": "b884b145-cb48-4dbc-b86c-c5308b4c1c99",
+          "sourcePort": "834a236c-77a3-4ce1-80f0-8b3575a8683c",
+          "target": "870effb4-228b-4f26-a909-2ecb42668260",
+          "targetPort": "11aa0e21-053c-4b49-bebd-b725ec3dc12b",
+          "points": [
+            {
+              "id": "6a650a66-2334-4ca7-a601-2f3b39a8d8b8",
+              "type": "point",
+              "x": 691.078125,
+              "y": 185.5
+            },
+            {
+              "id": "3f6fefa2-7353-4e9c-bbd2-a856fc76cd08",
+              "type": "point",
+              "x": 347.5,
+              "y": 336.5
+            }
+          ],
+          "labels": [],
+          "width": 3,
+          "color": "gray",
+          "curvyness": 50,
+          "selectedColor": "rgb(0,192,255)"
+        },
+        "128423a4-a9c5-47cd-8fdf-ac54c8f7ba8c": {
+          "id": "128423a4-a9c5-47cd-8fdf-ac54c8f7ba8c",
+          "type": "default",
+          "selected": false,
+          "source": "870effb4-228b-4f26-a909-2ecb42668260",
+          "sourcePort": "a810984a-f475-4b61-b30f-89ad9183ee6e",
+          "target": "6c277bc4-fa41-4c78-a088-ba6e25f78944",
+          "targetPort": "0f36c250-c827-42c4-9aed-68de1e6473c9",
+          "points": [
+            {
+              "id": "0093d163-b7a7-43d0-9043-4f841192a5d9",
+              "type": "point",
+              "x": 684.265625,
+              "y": 336.5
+            },
+            {
+              "id": "953ee39c-1360-483a-9798-b9052fc5010d",
+              "type": "point",
+              "x": 348.5,
+              "y": 400.5
+            }
+          ],
+          "labels": [],
+          "width": 3,
+          "color": "gray",
+          "curvyness": 50,
+          "selectedColor": "rgb(0,192,255)"
+        },
+        "754b28ca-8ce6-4a13-b61e-28fec1266422": {
+          "id": "754b28ca-8ce6-4a13-b61e-28fec1266422",
+          "type": "default",
+          "selected": false,
+          "source": "6c277bc4-fa41-4c78-a088-ba6e25f78944",
+          "sourcePort": "801d0245-3b08-41ed-a9fd-0e0931336bbc",
+          "target": "2b6aae1b-7d74-4dd0-bd3f-9a587dd2feb8",
+          "targetPort": "12781abf-738d-4ef0-8ef7-181e0e6be239",
+          "points": [
+            {
+              "id": "64bc59e2-919a-454a-9723-996c7e0afdc7",
+              "type": "point",
+              "x": 736.578125,
+              "y": 400.5
+            },
+            {
+              "id": "2a258871-d4a5-4fa8-a597-fe43b9947b3e",
+              "type": "point",
+              "x": 350.5,
+              "y": 496.5
+            }
+          ],
+          "labels": [],
+          "width": 3,
+          "color": "gray",
+          "curvyness": 50,
+          "selectedColor": "rgb(0,192,255)"
+        }
+      }
+    },
+    {
+      "id": "e1b6a829-e433-4932-9bf7-abb105319bf8",
+      "type": "diagram-nodes",
+      "isSvg": false,
+      "transformed": true,
+      "models": {
+        "634dde6f-4cfe-41c2-ba5c-d40148121895": {
+          "id": "634dde6f-4cfe-41c2-ba5c-d40148121895",
+          "type": "start",
+          "x": 146,
+          "y": 46,
+          "ports": [
+            {
+              "id": "8d9dad06-d3bc-48a8-9470-ee07ae14edb0",
+              "type": "default",
+              "x": 221.796875,
+              "y": 53,
+              "name": "out-1657921445006",
+              "alignment": "right",
+              "parentNode": "634dde6f-4cfe-41c2-ba5c-d40148121895",
+              "links": [
+                "24a20008-5645-495c-8a15-0f2dee6e52f9"
+              ],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Start",
+          "color": "#16db26e6",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "8d9dad06-d3bc-48a8-9470-ee07ae14edb0"
+          ]
+        },
+        "466a5b9e-adb5-4e44-814c-e3ffc752626d": {
+          "id": "466a5b9e-adb5-4e44-814c-e3ffc752626d",
+          "type": "dialogue",
+          "selected": false,
+          "x": 299,
+          "y": 22,
+          "ports": [
+            {
+              "id": "c5f35036-a8f8-42f0-a904-cfab20e6877c",
+              "type": "default",
+              "x": 286,
+              "y": 53,
+              "name": "in-1657921449876 ",
+              "alignment": "left",
+              "parentNode": "466a5b9e-adb5-4e44-814c-e3ffc752626d",
+              "links": [
+                "24a20008-5645-495c-8a15-0f2dee6e52f9"
+              ],
+              "in": true,
+              "label": "❯"
+            },
+            {
+              "id": "415f8f70-fc60-425a-b050-889a4116c92b",
+              "type": "default",
+              "x": 696.0625,
+              "y": 53,
+              "name": "out-1657921449876",
+              "alignment": "right",
+              "parentNode": "466a5b9e-adb5-4e44-814c-e3ffc752626d",
+              "links": [
+                "0588992f-1ff6-44ad-9202-209a95bc9484"
+              ],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Rendi",
+          "color": "#dd341ee6",
+          "portsInOrder": [
+            "c5f35036-a8f8-42f0-a904-cfab20e6877c"
+          ],
+          "portsOutOrder": [
+            "415f8f70-fc60-425a-b050-889a4116c92b"
+          ],
+          "text": "Hello, <player>. I'm the Tutorial reset tutor.\nWhat can I do for you?"
+        },
+        "b884b145-cb48-4dbc-b86c-c5308b4c1c99": {
+          "id": "b884b145-cb48-4dbc-b86c-c5308b4c1c99",
+          "type": "option",
+          "selected": false,
+          "x": 299,
+          "y": 102,
+          "ports": [
+            {
+              "id": "2eeb2bc0-692d-4f48-a57e-715d463dad92",
+              "type": "default",
+              "x": 286,
+              "y": 133,
+              "name": "in-1657921460239 ",
+              "alignment": "left",
+              "parentNode": "b884b145-cb48-4dbc-b86c-c5308b4c1c99",
+              "links": [
+                "0588992f-1ff6-44ad-9202-209a95bc9484"
+              ],
+              "in": true,
+              "label": "❯"
+            },
+            {
+              "id": "b5ee3e27-7a18-45bc-8ff1-c13a2698818c",
+              "type": "default",
+              "x": 683.5625,
+              "y": 142,
+              "name": "out-1657921460239",
+              "alignment": "right",
+              "parentNode": "b884b145-cb48-4dbc-b86c-c5308b4c1c99",
+              "links": [
+                "c7f6d3dc-ea6d-4772-b24a-b3f247317034"
+              ],
+              "in": false,
+              "label": "❯"
+            },
+            {
+              "id": "834a236c-77a3-4ce1-80f0-8b3575a8683c",
+              "type": "default",
+              "x": 683.578125,
+              "y": 178,
+              "name": "out-1657921467397",
+              "alignment": "right",
+              "parentNode": "b884b145-cb48-4dbc-b86c-c5308b4c1c99",
+              "links": [
+                "2873ef7d-9c32-42cf-a132-e77882de1ad0"
+              ],
+              "in": false,
+              "label": "❯"
+            },
+            {
+              "id": "93f06141-1006-49f9-b95c-72f0b62d52c4",
+              "type": "default",
+              "x": 683.5625,
+              "y": 214,
+              "name": "out-1657921467635",
+              "alignment": "right",
+              "parentNode": "b884b145-cb48-4dbc-b86c-c5308b4c1c99",
+              "links": [
+                "d70e8b9f-fa40-4958-86c7-fb222a51eb6c"
+              ],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Select an option.",
+          "color": "#0756b1e6",
+          "portsInOrder": [
+            "2eeb2bc0-692d-4f48-a57e-715d463dad92"
+          ],
+          "portsOutOrder": [
+            "b5ee3e27-7a18-45bc-8ff1-c13a2698818c",
+            "834a236c-77a3-4ce1-80f0-8b3575a8683c",
+            "93f06141-1006-49f9-b95c-72f0b62d52c4"
+          ],
+          "options": [
+            {
+              "conditions": [
+                ""
+              ],
+              "args": [],
+              "text": "Tell me about experience."
+            },
+            {
+              "conditions": [
+                ""
+              ],
+              "args": [],
+              "text": "I'd like to reset my Tutorial stats."
+            },
+            {
+              "conditions": [
+                ""
+              ],
+              "args": [],
+              "text": "I'm fine, thanks."
+            }
+          ]
+        },
+        "d8426b37-bfc0-4344-b2e0-df5217f2298a": {
+          "id": "d8426b37-bfc0-4344-b2e0-df5217f2298a",
+          "type": "dialogue",
+          "selected": false,
+          "x": 871,
+          "y": 266,
+          "ports": [
+            {
+              "id": "45267620-4440-4465-b793-a33f7cb22d1a",
+              "type": "default",
+              "x": 858,
+              "y": 297,
+              "name": "in-1657921488721 ",
+              "alignment": "left",
+              "parentNode": "d8426b37-bfc0-4344-b2e0-df5217f2298a",
+              "links": [
+                "d70e8b9f-fa40-4958-86c7-fb222a51eb6c"
+              ],
+              "in": true,
+              "label": "❯"
+            },
+            {
+              "id": "005406e1-9e46-4c4e-8a47-16306617f74d",
+              "type": "default",
+              "x": 1055.515625,
+              "y": 297,
+              "name": "out-1657921488721",
+              "alignment": "right",
+              "parentNode": "d8426b37-bfc0-4344-b2e0-df5217f2298a",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "<player>",
+          "color": "#dd341ee6",
+          "portsInOrder": [
+            "45267620-4440-4465-b793-a33f7cb22d1a"
+          ],
+          "portsOutOrder": [
+            "005406e1-9e46-4c4e-8a47-16306617f74d"
+          ],
+          "text": "I'm fine, thanks."
+        },
+        "8add69c1-6d54-4969-a517-3a15b578b72d": {
+          "id": "8add69c1-6d54-4969-a517-3a15b578b72d",
+          "type": "dialogue",
+          "selected": false,
+          "x": -231,
+          "y": 266,
+          "ports": [
+            {
+              "id": "652df350-07f7-4d4e-9b61-07bf5bc74ecb",
+              "type": "default",
+              "x": -244,
+              "y": 297,
+              "name": "in-1657921488721 ",
+              "alignment": "left",
+              "parentNode": "8add69c1-6d54-4969-a517-3a15b578b72d",
+              "links": [
+                "c7f6d3dc-ea6d-4772-b24a-b3f247317034"
+              ],
+              "in": true,
+              "label": "❯"
+            },
+            {
+              "id": "f624971f-aed9-4415-bc77-528094742121",
+              "type": "default",
+              "x": 12.15625,
+              "y": 297,
+              "name": "out-1657921488721",
+              "alignment": "right",
+              "parentNode": "8add69c1-6d54-4969-a517-3a15b578b72d",
+              "links": [
+                "33ea3b7d-a21f-49e9-86c7-be05bb4bbf9f"
+              ],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "<player>",
+          "color": "#dd341ee6",
+          "portsInOrder": [
+            "652df350-07f7-4d4e-9b61-07bf5bc74ecb"
+          ],
+          "portsOutOrder": [
+            "f624971f-aed9-4415-bc77-528094742121"
+          ],
+          "text": "Tell me about experience."
+        },
+        "375b4ea2-1096-47b6-aa2d-5aae92b10987": {
+          "id": "375b4ea2-1096-47b6-aa2d-5aae92b10987",
+          "type": "dialogue",
+          "selected": false,
+          "x": -229,
+          "y": 335,
+          "ports": [
+            {
+              "id": "e1974765-04d7-4c10-bd5d-5450727455bb",
+              "type": "default",
+              "x": -242,
+              "y": 366,
+              "name": "in-1657921449876 ",
+              "alignment": "left",
+              "parentNode": "375b4ea2-1096-47b6-aa2d-5aae92b10987",
+              "links": [
+                "33ea3b7d-a21f-49e9-86c7-be05bb4bbf9f"
+              ],
+              "in": true,
+              "label": "❯"
+            },
+            {
+              "id": "4ca5d5ae-f476-48c5-bd85-f99fddda18a2",
+              "type": "default",
+              "x": 248.671875,
+              "y": 366,
+              "name": "out-1657921449876",
+              "alignment": "right",
+              "parentNode": "375b4ea2-1096-47b6-aa2d-5aae92b10987",
+              "links": [
+                "a2334e72-e050-4315-b63e-12a83cd8a08b"
+              ],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Rendi",
+          "color": "#dd341ee6",
+          "portsInOrder": [
+            "e1974765-04d7-4c10-bd5d-5450727455bb"
+          ],
+          "portsOutOrder": [
+            "4ca5d5ae-f476-48c5-bd85-f99fddda18a2"
+          ],
+          "text": "As you play you will earn experience in different skills.\nSome skills will raise your combat level, such as Attack,\nStrength, Defence, Ranged, Prayer, Magic and Hitpoints."
+        },
+        "b1392644-9a90-46d9-a39c-0f021e764f6f": {
+          "id": "b1392644-9a90-46d9-a39c-0f021e764f6f",
+          "type": "dialogue",
+          "selected": false,
+          "x": -225,
+          "y": 428,
+          "ports": [
+            {
+              "id": "d84a0764-cefb-438e-9969-c8dd2249d3de",
+              "type": "default",
+              "x": -238,
+              "y": 459,
+              "name": "in-1657921449876 ",
+              "alignment": "left",
+              "parentNode": "b1392644-9a90-46d9-a39c-0f021e764f6f",
+              "links": [
+                "a2334e72-e050-4315-b63e-12a83cd8a08b"
+              ],
+              "in": true,
+              "label": "❯"
+            },
+            {
+              "id": "2f0263ef-010a-41d4-a640-2f0a8fd55587",
+              "type": "default",
+              "x": 238.015625,
+              "y": 459,
+              "name": "out-1657921449876",
+              "alignment": "right",
+              "parentNode": "b1392644-9a90-46d9-a39c-0f021e764f6f",
+              "links": [
+                "f08718d0-3ff9-449e-a8ba-e3a3834dde9d"
+              ],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Rendi",
+          "color": "#dd341ee6",
+          "portsInOrder": [
+            "d84a0764-cefb-438e-9969-c8dd2249d3de"
+          ],
+          "portsOutOrder": [
+            "2f0263ef-010a-41d4-a640-2f0a8fd55587"
+          ],
+          "text": "Whilst some players train to have higher combat levels,\nothers prefer to remain at or below a certain level.\nSuch as a level 3 skiller, or as low as possible."
+        },
+        "e3c4fd67-d89f-406c-9f95-2d2e2eb84eec": {
+          "id": "e3c4fd67-d89f-406c-9f95-2d2e2eb84eec",
+          "type": "dialogue",
+          "selected": false,
+          "x": -225,
+          "y": 521,
+          "ports": [
+            {
+              "id": "92005373-55aa-44be-994d-fa4bad80cb2e",
+              "type": "default",
+              "x": -238,
+              "y": 552,
+              "name": "in-1657921449876 ",
+              "alignment": "left",
+              "parentNode": "e3c4fd67-d89f-406c-9f95-2d2e2eb84eec",
+              "links": [
+                "f08718d0-3ff9-449e-a8ba-e3a3834dde9d"
+              ],
+              "in": true,
+              "label": "❯"
+            },
+            {
+              "id": "04760f21-4f32-4708-8f8e-4d675af16741",
+              "type": "default",
+              "x": 245.34375,
+              "y": 552,
+              "name": "out-1657921449876",
+              "alignment": "right",
+              "parentNode": "e3c4fd67-d89f-406c-9f95-2d2e2eb84eec",
+              "links": [
+                "ab8c938f-2cda-4511-b90f-9828957e385a"
+              ],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Rendi",
+          "color": "#dd341ee6",
+          "portsInOrder": [
+            "92005373-55aa-44be-994d-fa4bad80cb2e"
+          ],
+          "portsOutOrder": [
+            "04760f21-4f32-4708-8f8e-4d675af16741"
+          ],
+          "text": "It is ultimately your choice which road you wish to head\ndown. But once you gain a combat level, you are unable\nto go back to a lower level."
+        },
+        "f85413cb-38dc-49cf-9110-6feeb18e074b": {
+          "id": "f85413cb-38dc-49cf-9110-6feeb18e074b",
+          "type": "dialogue",
+          "selected": false,
+          "x": -225,
+          "y": 618,
+          "ports": [
+            {
+              "id": "cebdf1c0-7f77-4e3e-aeeb-f61e14b235f5",
+              "type": "default",
+              "x": -238,
+              "y": 649,
+              "name": "in-1657921449876 ",
+              "alignment": "left",
+              "parentNode": "f85413cb-38dc-49cf-9110-6feeb18e074b",
+              "links": [
+                "ab8c938f-2cda-4511-b90f-9828957e385a"
+              ],
+              "in": true,
+              "label": "❯"
+            },
+            {
+              "id": "402912ab-1959-4645-9b92-ce24e0b1d3b8",
+              "type": "default",
+              "x": 84.109375,
+              "y": 649,
+              "name": "out-1657921449876",
+              "alignment": "right",
+              "parentNode": "f85413cb-38dc-49cf-9110-6feeb18e074b",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Rendi",
+          "color": "#dd341ee6",
+          "portsInOrder": [
+            "cebdf1c0-7f77-4e3e-aeeb-f61e14b235f5"
+          ],
+          "portsOutOrder": [
+            "402912ab-1959-4645-9b92-ce24e0b1d3b8"
+          ],
+          "text": "Make your choice wisely young one."
+        },
+        "870effb4-228b-4f26-a909-2ecb42668260": {
+          "id": "870effb4-228b-4f26-a909-2ecb42668260",
+          "type": "dialogue",
+          "selected": false,
+          "x": 353,
+          "y": 298,
+          "ports": [
+            {
+              "id": "11aa0e21-053c-4b49-bebd-b725ec3dc12b",
+              "type": "default",
+              "x": 340,
+              "y": 329,
+              "name": "in-1657921488721 ",
+              "alignment": "left",
+              "parentNode": "870effb4-228b-4f26-a909-2ecb42668260",
+              "links": [
+                "2873ef7d-9c32-42cf-a132-e77882de1ad0"
+              ],
+              "in": true,
+              "label": "❯"
+            },
+            {
+              "id": "a810984a-f475-4b61-b30f-89ad9183ee6e",
+              "type": "default",
+              "x": 676.765625,
+              "y": 329,
+              "name": "out-1657921488721",
+              "alignment": "right",
+              "parentNode": "870effb4-228b-4f26-a909-2ecb42668260",
+              "links": [
+                "128423a4-a9c5-47cd-8fdf-ac54c8f7ba8c"
+              ],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "<player>",
+          "color": "#dd341ee6",
+          "portsInOrder": [
+            "11aa0e21-053c-4b49-bebd-b725ec3dc12b"
+          ],
+          "portsOutOrder": [
+            "a810984a-f475-4b61-b30f-89ad9183ee6e"
+          ],
+          "text": "I'd like to reset my Tutorial stats."
+        },
+        "6c277bc4-fa41-4c78-a088-ba6e25f78944": {
+          "id": "6c277bc4-fa41-4c78-a088-ba6e25f78944",
+          "type": "dialogue",
+          "selected": false,
+          "x": 354,
+          "y": 362,
+          "ports": [
+            {
+              "id": "0f36c250-c827-42c4-9aed-68de1e6473c9",
+              "type": "default",
+              "x": 341,
+              "y": 393,
+              "name": "in-1657921449876 ",
+              "alignment": "left",
+              "parentNode": "6c277bc4-fa41-4c78-a088-ba6e25f78944",
+              "links": [
+                "128423a4-a9c5-47cd-8fdf-ac54c8f7ba8c"
+              ],
+              "in": true,
+              "label": "❯"
+            },
+            {
+              "id": "801d0245-3b08-41ed-a9fd-0e0931336bbc",
+              "type": "default",
+              "x": 729.078125,
+              "y": 393,
+              "name": "out-1657921449876",
+              "alignment": "right",
+              "parentNode": "6c277bc4-fa41-4c78-a088-ba6e25f78944",
+              "links": [
+                "754b28ca-8ce6-4a13-b61e-28fec1266422"
+              ],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Rendi",
+          "color": "#dd341ee6",
+          "portsInOrder": [
+            "0f36c250-c827-42c4-9aed-68de1e6473c9"
+          ],
+          "portsOutOrder": [
+            "801d0245-3b08-41ed-a9fd-0e0931336bbc"
+          ],
+          "text": "Make sure you've got all your levels sorted\nbefore you leave Tutorial Island. They are\nunable to be reset later."
+        },
+        "2b6aae1b-7d74-4dd0-bd3f-9a587dd2feb8": {
+          "id": "2b6aae1b-7d74-4dd0-bd3f-9a587dd2feb8",
+          "type": "action",
+          "selected": false,
+          "x": 356,
+          "y": 458,
+          "ports": [
+            {
+              "id": "12781abf-738d-4ef0-8ef7-181e0e6be239",
+              "type": "default",
+              "x": 343,
+              "y": 489,
+              "name": "in-1657921575274 ",
+              "alignment": "left",
+              "parentNode": "2b6aae1b-7d74-4dd0-bd3f-9a587dd2feb8",
+              "links": [
+                "754b28ca-8ce6-4a13-b61e-28fec1266422"
+              ],
+              "in": true,
+              "label": "❯"
+            },
+            {
+              "id": "ee7239a9-d5b4-4728-bd01-a5096785309c",
+              "type": "default",
+              "x": 462.453125,
+              "y": 489,
+              "name": "out-1657921575274",
+              "alignment": "right",
+              "parentNode": "2b6aae1b-7d74-4dd0-bd3f-9a587dd2feb8",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Action",
+          "color": "#3e077ee6",
+          "portsInOrder": [
+            "12781abf-738d-4ef0-8ef7-181e0e6be239"
+          ],
+          "portsOutOrder": [
+            "ee7239a9-d5b4-4728-bd01-a5096785309c"
+          ],
+          "actions": {
+            "actions": [
+              ""
+            ],
+            "args": []
+          }
+        },
+        "37709f53-2ac8-453a-8c0d-77819d112434": {
+          "id": "37709f53-2ac8-453a-8c0d-77819d112434",
+          "type": "note",
+          "selected": true,
+          "x": 358,
+          "y": 536,
+          "ports": [],
+          "title": "Note",
+          "color": "#19e0e7e6",
+          "portsInOrder": [],
+          "portsOutOrder": [],
+          "text": "Rendi reset inventory"
+        }
+      }
+    }
+  ],
+  "trees": {}
+}
