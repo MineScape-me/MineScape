@@ -303,7 +303,8 @@ async function run() {
 
 				const nodeIds = new Set();
 				Object.entries(trees).forEach(([k, nodes]) => {
-					var tree = file + ":" + k;
+					console.log(nodes);
+					var tree = file + ":" + k + `(${nodes.length})`;
 					nodes.forEach(node =>{
 						if(nodeIds.has(node.id)){
 							state.issues += `\n\n> **${tree}** duplicate node id with another tree.\n}`;
