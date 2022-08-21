@@ -272,7 +272,7 @@ async function run() {
 		const modified = JSON.parse(fs.readFileSync(homedir + "/files_modified.json"));
 		const added = JSON.parse(fs.readFileSync(homedir + "/files_added.json"));
 		let files = [...modified, ...added];
-		files = files.sort
+		files = files.sort();
 
 		core.info(JSON.stringify(files));
 
