@@ -309,7 +309,7 @@
             {
               "id": "645a554b-804e-4f4a-968a-62b89e1b91d8",
               "type": "point",
-              "x": -250.5,
+              "x": -252.5,
               "y": 445.5
             }
           ],
@@ -337,7 +337,7 @@
             {
               "id": "8352c447-48dd-459e-a1d1-412160d989b2",
               "type": "point",
-              "x": -250.5,
+              "x": -252.5,
               "y": 445.5
             }
           ],
@@ -457,8 +457,8 @@
           "id": "f9da2cc6-411b-433e-884d-36227724f72c",
           "type": "note",
           "selected": false,
-          "x": 756,
-          "y": 25,
+          "x": 694,
+          "y": 93,
           "ports": [],
           "title": "Note",
           "color": "#19e0e7e6",
@@ -469,7 +469,7 @@
         "a2e66e3e-06e8-44d5-a7dd-00680a57819d": {
           "id": "a2e66e3e-06e8-44d5-a7dd-00680a57819d",
           "type": "action",
-          "selected": false,
+          "selected": true,
           "x": 629,
           "y": 5,
           "ports": [
@@ -490,7 +490,7 @@
             {
               "id": "55205fcc-603f-4aba-824e-6d5fedbf3c82",
               "type": "default",
-              "x": 735.453125,
+              "x": 893.03125,
               "y": 36,
               "name": "out-1657967993238",
               "alignment": "right",
@@ -510,9 +510,13 @@
           ],
           "actions": {
             "actions": [
-              ""
+              "basicAction"
             ],
-            "args": []
+            "args": [
+              [
+                "EMPTY_ACTION"
+              ]
+            ]
           }
         },
         "a78bf9d8-3123-44d5-bd31-9804a4a5b7b7": {
@@ -941,7 +945,7 @@
             {
               "id": "deefaf57-ebc6-4d95-a36e-7e1760aab32b",
               "type": "default",
-              "x": -258,
+              "x": -260,
               "y": 438,
               "name": "in-1657968031280 ",
               "alignment": "left",
@@ -956,7 +960,7 @@
             {
               "id": "037d36a7-fa33-4277-9a82-b212399c459a",
               "type": "default",
-              "x": 152.0625,
+              "x": 150.0625,
               "y": 438,
               "name": "out-1657968031280",
               "alignment": "right",
