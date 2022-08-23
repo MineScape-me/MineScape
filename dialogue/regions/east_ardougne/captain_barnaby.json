@@ -689,7 +689,7 @@
             {
               "id": "5c785353-8a19-4396-8371-89b03b586fe6",
               "type": "default",
-              "x": 813.453125,
+              "x": 971.03125,
               "y": 361,
               "name": "out-1658147243401",
               "alignment": "right",
@@ -709,17 +709,21 @@
           ],
           "actions": {
             "actions": [
-              ""
+              "basicAction"
             ],
-            "args": []
+            "args": [
+              [
+                "EMPTY_ACTION"
+              ]
+            ]
           }
         },
         "c2a7e8a5-44f6-4b8d-963e-822768720a7d": {
           "id": "c2a7e8a5-44f6-4b8d-963e-822768720a7d",
           "type": "note",
-          "selected": false,
-          "x": 884,
-          "y": 337,
+          "selected": true,
+          "x": 708,
+          "y": 407,
           "ports": [],
           "title": "Note",
           "color": "#19e0e7e6",
