@@ -85,7 +85,7 @@
             {
               "id": "7c9baef5-08d1-456e-8874-07a885613ea5",
               "type": "point",
-              "x": 326.5,
+              "x": 328.5,
               "y": 190.5
             }
           ],
@@ -141,7 +141,7 @@
             {
               "id": "766ebba9-fb47-4492-a5af-8ca5c3bc8af9",
               "type": "point",
-              "x": -107.5,
+              "x": -105.5,
               "y": 411.5
             }
           ],
@@ -325,7 +325,7 @@
             {
               "id": "a0a9bb29-6218-49cf-b099-8a36d4cbf844",
               "type": "default",
-              "x": 319,
+              "x": 321,
               "y": 183,
               "name": "in-1657281608064 ",
               "alignment": "left",
@@ -339,7 +339,7 @@
             {
               "id": "0691eecb-8c77-4ee7-bbbf-965c0ea9058c",
               "type": "default",
-              "x": 780.359375,
+              "x": 782.359375,
               "y": 183,
               "name": "out-1657281608064",
               "alignment": "right",
@@ -435,14 +435,14 @@
         "8e2a1284-2837-49f8-884d-5884b68e6528": {
           "id": "8e2a1284-2837-49f8-884d-5884b68e6528",
           "type": "action",
-          "selected": false,
-          "x": -102,
+          "selected": true,
+          "x": -100,
           "y": 373,
           "ports": [
             {
               "id": "8a2ab2cf-2eac-4ca2-91b1-7e313a40a25f",
               "type": "default",
-              "x": -115,
+              "x": -113,
               "y": 404,
               "name": "in-1657281671536 ",
               "alignment": "left",
@@ -456,7 +456,7 @@
             {
               "id": "66d0e5fe-c1f4-4228-a684-d798dda49520",
               "type": "default",
-              "x": 4.453125,
+              "x": 164.03125,
               "y": 404,
               "name": "out-1657281671536",
               "alignment": "right",
@@ -476,9 +476,13 @@
           ],
           "actions": {
             "actions": [
-              ""
+              "basicAction"
             ],
-            "args": []
+            "args": [
+              [
+                "EMPTY_ACTION"
+              ]
+            ]
           }
         },
         "a51b90fb-1051-4769-abe6-08db74fc69e8": {
