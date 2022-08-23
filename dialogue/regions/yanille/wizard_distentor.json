@@ -107,7 +107,7 @@
             {
               "id": "78499387-c9fd-42c8-9e4e-087e8bc1cfc4",
               "type": "point",
-              "x": 739.265625,
+              "x": 747.734375,
               "y": 275.5
             },
             {
@@ -163,7 +163,7 @@
             {
               "id": "11ed7da5-a4d4-4c65-99ad-e2adbb9594d2",
               "type": "point",
-              "x": 739.265625,
+              "x": 747.734375,
               "y": 311.5
             },
             {
@@ -210,7 +210,7 @@
             }
           ],
           "title": "Start",
-          "color": "#16db26",
+          "color": "#16db26e6",
           "portsInOrder": [],
           "portsOutOrder": [
             "c04a3c2f-300f-4845-8488-25fc7547e679"
@@ -253,7 +253,7 @@
             }
           ],
           "title": "Wizard Distentor",
-          "color": "#dd341e",
+          "color": "#dd341ee6",
           "portsInOrder": [
             "a129255d-0961-4545-8d91-1cc2336dd61b"
           ],
@@ -297,7 +297,7 @@
             }
           ],
           "title": "<player>",
-          "color": "#dd341e",
+          "color": "#dd341ee6",
           "portsInOrder": [
             "f29685d6-26f1-4142-9d2e-0926ff4b069d"
           ],
@@ -341,7 +341,7 @@
             }
           ],
           "title": "Wizard Distentor",
-          "color": "#dd341e",
+          "color": "#dd341ee6",
           "portsInOrder": [
             "e472328b-278c-41fd-a232-f3de6f6516b8"
           ],
@@ -374,7 +374,7 @@
             {
               "id": "d5298bf0-6648-48dc-9994-4a621aa52bf6",
               "type": "default",
-              "x": 731.765625,
+              "x": 740.234375,
               "y": 268,
               "name": "out-1653393927274",
               "alignment": "right",
@@ -388,7 +388,7 @@
             {
               "id": "d4062895-9207-43f7-9e5e-e6fce82d9641",
               "type": "default",
-              "x": 731.765625,
+              "x": 740.234375,
               "y": 304,
               "name": "out-1653393930564",
               "alignment": "right",
@@ -401,7 +401,7 @@
             }
           ],
           "title": "Select an option.",
-          "color": "#0756b1",
+          "color": "#0756b1e6",
           "portsInOrder": [
             "ce0f4799-164b-4fe5-800b-2f826b9fdf10"
           ],
@@ -463,7 +463,7 @@
             }
           ],
           "title": "<player>",
-          "color": "#dd341e",
+          "color": "#dd341ee6",
           "portsInOrder": [
             "8c1f55e1-ceba-4279-b7ad-7d1d2ebad56f"
           ],
@@ -507,7 +507,7 @@
             }
           ],
           "title": "Wizard Distentor",
-          "color": "#dd341e",
+          "color": "#dd341ee6",
           "portsInOrder": [
             "adae40be-17e5-4edf-89c2-efb0f7c1e2ab"
           ],
@@ -519,7 +519,7 @@
         "6f091716-e6e4-4927-8743-f81f9bf1394f": {
           "id": "6f091716-e6e4-4927-8743-f81f9bf1394f",
           "type": "action",
-          "selected": false,
+          "selected": true,
           "x": 920,
           "y": 272,
           "ports": [
@@ -540,7 +540,7 @@
             {
               "id": "80744e5e-9e16-43c1-9ad7-577ea6ad2db1",
               "type": "default",
-              "x": 1265.484375,
+              "x": 1278.84375,
               "y": 303,
               "name": "out-1653393967532",
               "alignment": "right",
@@ -551,7 +551,7 @@
             }
           ],
           "title": "Action",
-          "color": "#3e077e",
+          "color": "#3e077ee6",
           "portsInOrder": [
             "30574bf9-0bb0-4d7f-8b0c-aaa626da4c57"
           ],
@@ -561,13 +561,15 @@
           "actions": {
             "actions": [
               "npcText",
-              ""
+              "basicAction"
             ],
             "args": [
               [
                 "Senventior Disthine Molenko!"
               ],
-              []
+              [
+                "EMPTY_ACTION"
+              ]
             ]
           }
         },
@@ -579,12 +581,13 @@
           "y": 386,
           "ports": [],
           "title": "Required",
-          "color": "#19e0e7",
+          "color": "#19e0e7e6",
           "portsInOrder": [],
           "portsOutOrder": [],
           "text": "Waiting teleport to be added."
         }
       }
     }
-  ]
+  ],
+  "trees": {}
 }

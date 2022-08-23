@@ -168,7 +168,7 @@
             }
           ],
           "title": "Frenita",
-          "color": "#dd341e",
+          "color": "#dd341ee6",
           "portsInOrder": [
             "2f142af7-7a77-4b02-a66a-71a14349b37a"
           ],
@@ -199,7 +199,7 @@
             }
           ],
           "title": "Start",
-          "color": "#16db26",
+          "color": "#16db26e6",
           "portsInOrder": [],
           "portsOutOrder": [
             "ee8b6194-5e13-43bf-ab6c-191f8340fe2d"
@@ -256,7 +256,7 @@
             }
           ],
           "title": "Select an option.",
-          "color": "#0756b1",
+          "color": "#0756b1e6",
           "portsInOrder": [
             "504c3129-3112-49b2-846c-846da8b247b2"
           ],
@@ -316,7 +316,7 @@
             }
           ],
           "title": "Untitled",
-          "color": "#dd341e",
+          "color": "#dd341ee6",
           "portsInOrder": [
             "cd6f5dee-f3ed-4275-a95c-0c3e16c651d4"
           ],
@@ -349,7 +349,7 @@
             {
               "id": "7ee50699-2c3a-4873-a7a2-f2ca6cace679",
               "type": "default",
-              "x": 737.453125,
+              "x": 895.03125,
               "y": 131,
               "name": "out-1653392552059",
               "alignment": "right",
@@ -360,7 +360,7 @@
             }
           ],
           "title": "Action",
-          "color": "#3e077e",
+          "color": "#3e077ee6",
           "portsInOrder": [
             "243186d5-f747-4848-abbc-16bc82a0fb0f"
           ],
@@ -369,22 +369,24 @@
           ],
           "actions": {
             "actions": [
-              ""
+              "basicAction"
             ],
             "args": [
-              []
+              [
+                "EMPTY_ACTION"
+              ]
             ]
           }
         },
         "9027069c-f5e8-45d1-90a2-3f28d4b813b7": {
           "id": "9027069c-f5e8-45d1-90a2-3f28d4b813b7",
           "type": "note",
-          "selected": false,
-          "x": 867,
-          "y": 102,
+          "selected": true,
+          "x": 946,
+          "y": 101,
           "ports": [],
           "title": "Required",
-          "color": "#19e0e7",
+          "color": "#19e0e7e6",
           "portsInOrder": [],
           "portsOutOrder": [],
           "text": "Awaiting shop to be added"
