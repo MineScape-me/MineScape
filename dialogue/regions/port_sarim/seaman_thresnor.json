@@ -281,8 +281,8 @@
             {
               "id": "83613faf-d364-4090-af5d-3a501f0e84fb",
               "type": "point",
-              "x": -11.37802932133722,
-              "y": 469.2560979769029
+              "x": -11.374998032643179,
+              "y": 469.2500019046128
             }
           ],
           "labels": [],
@@ -303,8 +303,8 @@
             {
               "id": "ffdaa709-22b6-4a95-be96-e6a34a7ee858",
               "type": "point",
-              "x": 355.74697154534374,
-              "y": 486.2561008909594
+              "x": 355.74998608658603,
+              "y": 486.249988071218
             },
             {
               "id": "0a333877-7c0d-4931-b7e5-90f2188036f5",
@@ -331,8 +331,8 @@
             {
               "id": "6e336dec-cfe5-4c03-aac0-942c0ede3509",
               "type": "point",
-              "x": 353.6063123140764,
-              "y": 469.2560979769029
+              "x": 353.60936035022155,
+              "y": 469.2500019046128
             },
             {
               "id": "76c68cd0-c9af-4483-b37d-0affaba68f9f",
@@ -378,7 +378,7 @@
             }
           ],
           "title": "Start",
-          "color": "#16db26",
+          "color": "#16db26e6",
           "portsInOrder": [],
           "portsOutOrder": [
             "20ac620d-b02f-4f10-87d8-e83ceb46feca"
@@ -422,7 +422,7 @@
             }
           ],
           "title": "Seaman Thresnor",
-          "color": "#dd341e",
+          "color": "#dd341ee6",
           "portsInOrder": [
             "c577df4a-8610-4860-bca3-cb4646df53e9"
           ],
@@ -468,7 +468,7 @@
             }
           ],
           "title": "Seaman Thresnor",
-          "color": "#dd341e",
+          "color": "#dd341ee6",
           "portsInOrder": [
             "970e6661-dee3-47fb-8ca2-433c0f538d24"
           ],
@@ -528,7 +528,7 @@
             }
           ],
           "title": "Select an option.",
-          "color": "#0756b1",
+          "color": "#0756b1e6",
           "portsInOrder": [
             "619fc4a0-450c-4660-9929-fa783c3c4eef"
           ],
@@ -588,7 +588,7 @@
             }
           ],
           "title": "<player>",
-          "color": "#dd341e",
+          "color": "#dd341ee6",
           "portsInOrder": [
             "4e4352ca-f411-4ed8-8228-2e6659d6c0e6"
           ],
@@ -634,7 +634,7 @@
             }
           ],
           "title": "<player>",
-          "color": "#dd341e",
+          "color": "#dd341ee6",
           "portsInOrder": [
             "3a226468-d689-4e1f-b42f-00a1f8f17573"
           ],
@@ -694,7 +694,7 @@
             }
           ],
           "title": "Condition",
-          "color": "#02630a",
+          "color": "#02630ae6",
           "portsInOrder": [
             "04b7480d-13f5-4baa-b283-65b189db504a"
           ],
@@ -750,7 +750,7 @@
             }
           ],
           "title": "<player>",
-          "color": "#dd341e",
+          "color": "#dd341ee6",
           "portsInOrder": [
             "1db528cc-f2ad-4c21-9591-9cf7196f933d"
           ],
@@ -767,7 +767,7 @@
           "y": 899,
           "ports": [],
           "title": "Note",
-          "color": "#19e0e7",
+          "color": "#19e0e7e6",
           "portsInOrder": [],
           "portsOutOrder": [],
           "text": "Boat ride to Karamja, near banana plantation."
@@ -775,7 +775,7 @@
         "c36855cb-824b-402b-9a58-94cbb8481681": {
           "id": "c36855cb-824b-402b-9a58-94cbb8481681",
           "type": "action",
-          "selected": false,
+          "selected": true,
           "x": 423,
           "y": 780,
           "ports": [
@@ -808,7 +808,7 @@
             }
           ],
           "title": "Action",
-          "color": "#3e077e",
+          "color": "#3e077ee6",
           "portsInOrder": [
             "d9fd54a4-bc8d-43fb-8a87-afb7be1feef3"
           ],
@@ -818,7 +818,7 @@
           "actions": {
             "actions": [
               "takeItem",
-              ""
+              "basicAction"
             ],
             "args": [
               [
@@ -826,7 +826,9 @@
                 "30",
                 "false"
               ],
-              []
+              [
+                "EMPTY_ACTION"
+              ]
             ]
           }
         },
@@ -881,7 +883,7 @@
             }
           ],
           "title": "Condition",
-          "color": "#02630a",
+          "color": "#02630ae6",
           "portsInOrder": [
             "41ffc4b0-4647-4586-b305-d2fe324a7062"
           ],
@@ -907,15 +909,15 @@
         "d04ae768-613d-4bbb-904f-1b78a6cf332a": {
           "id": "d04ae768-613d-4bbb-904f-1b78a6cf332a",
           "type": "condition",
-          "selected": true,
+          "selected": false,
           "x": -5.8780472364544005,
           "y": 430.75609865977185,
           "ports": [
             {
               "id": "bac013f1-cf26-4d11-a13e-b695b08cd1f4",
               "type": "default",
-              "x": -18.878006963489696,
-              "y": 461.75612033475045,
+              "x": -18.874992422246976,
+              "y": 461.7499907675577,
               "name": "in-1655919735766 ",
               "alignment": "left",
               "parentNode": "d04ae768-613d-4bbb-904f-1b78a6cf332a",
@@ -928,8 +930,8 @@
             {
               "id": "f813c375-a96c-4f83-9749-1ea2823fe088",
               "type": "default",
-              "x": 346.1063011770211,
-              "y": 461.75612033475045,
+              "x": 346.10938270806906,
+              "y": 461.7499907675577,
               "name": "out-1655919735766",
               "alignment": "right",
               "parentNode": "d04ae768-613d-4bbb-904f-1b78a6cf332a",
@@ -942,8 +944,8 @@
             {
               "id": "322766c9-1517-4130-a58d-a8237db41947",
               "type": "default",
-              "x": 348.2469604082885,
-              "y": 478.75612324880694,
+              "x": 348.2499749495309,
+              "y": 478.7499936816142,
               "name": "out-16559197357661",
               "alignment": "right",
               "parentNode": "d04ae768-613d-4bbb-904f-1b78a6cf332a",
@@ -955,7 +957,7 @@
             }
           ],
           "title": "Condition",
-          "color": "#02630a",
+          "color": "#02630ae6",
           "portsInOrder": [
             "bac013f1-cf26-4d11-a13e-b695b08cd1f4"
           ],
