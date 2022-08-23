@@ -1,0 +1,4037 @@
+{
+  "id": "7e432b2f-e973-4f5d-9833-6431072026f0",
+  "offsetX": 1,
+  "offsetY": 1,
+  "zoom": 100,
+  "gridSize": 0,
+  "layers": [
+    {
+      "id": "25bc7d8c-5de5-4a26-b967-0db609793761",
+      "type": "diagram-links",
+      "isSvg": true,
+      "transformed": true,
+      "models": {
+        "292239fe-778e-4727-ba34-6b0af5baea82": {
+          "id": "292239fe-778e-4727-ba34-6b0af5baea82",
+          "type": "default",
+          "selected": false,
+          "source": "3fcbb880-2bc5-4362-8c03-965576669b7f",
+          "sourcePort": "865edea6-a8a5-49de-89f7-20e1553a9378",
+          "target": "6dafbad8-30df-464a-948c-2fb716c70500",
+          "targetPort": "743bed67-b2a8-4c61-afd4-0a66e191a3aa",
+          "points": [
+            {
+              "id": "6edf6486-b827-4894-b6b2-5bcbfc78942c",
+              "type": "point",
+              "x": 186.296875,
+              "y": 117.5
+            },
+            {
+              "id": "f30ea8e2-494a-40ab-b47e-c20b7f2ab5ad",
+              "type": "point",
+              "x": 258.5,
+              "y": 117.5
+            }
+          ],
+          "labels": [],
+          "width": 3,
+          "color": "gray",
+          "curvyness": 50,
+          "selectedColor": "rgb(0,192,255)"
+        },
+        "c1b80d9b-cd10-49dc-a264-756907147fba": {
+          "id": "c1b80d9b-cd10-49dc-a264-756907147fba",
+          "type": "default",
+          "selected": false,
+          "source": "6dafbad8-30df-464a-948c-2fb716c70500",
+          "sourcePort": "27b9997d-8770-465b-b8ae-605086e8152e",
+          "target": "4a2f1750-a89a-4c6e-a341-7ce82ccb8b16",
+          "targetPort": "810da007-0a75-4287-ac5a-c094e7f42c69",
+          "points": [
+            {
+              "id": "8b498808-462a-4931-89c1-c40b800b5d2f",
+              "type": "point",
+              "x": 573.265625,
+              "y": 117.5
+            },
+            {
+              "id": "bce7c8d2-604c-4a48-a9e9-ca124a0a39af",
+              "type": "point",
+              "x": 623.5,
+              "y": 87
+            }
+          ],
+          "labels": [],
+          "width": 3,
+          "color": "gray",
+          "curvyness": 50,
+          "selectedColor": "rgb(0,192,255)"
+        },
+        "8fb4f580-9ceb-4ba1-803d-4a4006da3802": {
+          "id": "8fb4f580-9ceb-4ba1-803d-4a4006da3802",
+          "type": "default",
+          "selected": false,
+          "source": "6dafbad8-30df-464a-948c-2fb716c70500",
+          "sourcePort": "c9f97183-afd8-48a0-aa01-f653d4eee2fd",
+          "target": "e8c7ce0a-fe22-4f9d-8ecf-cd64612dd6bc",
+          "targetPort": "d3d79412-cf3a-4084-988c-ae1caeb8224f",
+          "points": [
+            {
+              "id": "f7b81039-5256-42f2-8d48-495ea8a47c5b",
+              "type": "point",
+              "x": 575.40625,
+              "y": 134.5
+            },
+            {
+              "id": "a412de7d-7621-402c-8187-15f2282293f4",
+              "type": "point",
+              "x": 621.5,
+              "y": 161
+            }
+          ],
+          "labels": [],
+          "width": 3,
+          "color": "gray",
+          "curvyness": 50,
+          "selectedColor": "rgb(0,192,255)"
+        }
+      }
+    },
+    {
+      "id": "bbbe65c6-c289-45e9-8453-13f88173f5ed",
+      "type": "diagram-nodes",
+      "isSvg": false,
+      "transformed": true,
+      "models": {
+        "3fcbb880-2bc5-4362-8c03-965576669b7f": {
+          "id": "3fcbb880-2bc5-4362-8c03-965576669b7f",
+          "type": "start",
+          "x": 103,
+          "y": 103,
+          "ports": [
+            {
+              "id": "865edea6-a8a5-49de-89f7-20e1553a9378",
+              "type": "default",
+              "x": 178.796875,
+              "y": 110,
+              "name": "out-1657337420906",
+              "alignment": "right",
+              "parentNode": "3fcbb880-2bc5-4362-8c03-965576669b7f",
+              "links": [
+                "292239fe-778e-4727-ba34-6b0af5baea82"
+              ],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Start",
+          "color": "#16db26e6",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "865edea6-a8a5-49de-89f7-20e1553a9378"
+          ]
+        },
+        "6dafbad8-30df-464a-948c-2fb716c70500": {
+          "id": "6dafbad8-30df-464a-948c-2fb716c70500",
+          "type": "condition",
+          "selected": false,
+          "x": 264,
+          "y": 79,
+          "ports": [
+            {
+              "id": "743bed67-b2a8-4c61-afd4-0a66e191a3aa",
+              "type": "default",
+              "x": 251,
+              "y": 110,
+              "name": "in-1657337421705 ",
+              "alignment": "left",
+              "parentNode": "6dafbad8-30df-464a-948c-2fb716c70500",
+              "links": [
+                "292239fe-778e-4727-ba34-6b0af5baea82"
+              ],
+              "in": true,
+              "label": "❯"
+            },
+            {
+              "id": "27b9997d-8770-465b-b8ae-605086e8152e",
+              "type": "default",
+              "x": 565.765625,
+              "y": 110,
+              "name": "out-1657337421705",
+              "alignment": "right",
+              "parentNode": "6dafbad8-30df-464a-948c-2fb716c70500",
+              "links": [
+                "c1b80d9b-cd10-49dc-a264-756907147fba"
+              ],
+              "in": false,
+              "label": "true"
+            },
+            {
+              "id": "c9f97183-afd8-48a0-aa01-f653d4eee2fd",
+              "type": "default",
+              "x": 567.90625,
+              "y": 127,
+              "name": "out-16573374217051",
+              "alignment": "right",
+              "parentNode": "6dafbad8-30df-464a-948c-2fb716c70500",
+              "links": [
+                "8fb4f580-9ceb-4ba1-803d-4a4006da3802"
+              ],
+              "in": false,
+              "label": "false"
+            }
+          ],
+          "title": "Condition",
+          "color": "#02630ae6",
+          "portsInOrder": [
+            "743bed67-b2a8-4c61-afd4-0a66e191a3aa"
+          ],
+          "portsOutOrder": [
+            "27b9997d-8770-465b-b8ae-605086e8152e",
+            "c9f97183-afd8-48a0-aa01-f653d4eee2fd"
+          ],
+          "conditions": {
+            "conditions": [
+              "basicCondition"
+            ],
+            "args": [
+              [
+                "false"
+              ]
+            ]
+          }
+        },
+        "0ea6291a-eaba-4b68-a829-7de7410c739e": {
+          "id": "0ea6291a-eaba-4b68-a829-7de7410c739e",
+          "type": "note",
+          "x": 361,
+          "y": 179,
+          "ports": [],
+          "title": "Note",
+          "color": "#19e0e7e6",
+          "portsInOrder": [],
+          "portsOutOrder": [],
+          "text": "HAS HOUSE"
+        },
+        "4a2f1750-a89a-4c6e-a341-7ce82ccb8b16": {
+          "id": "4a2f1750-a89a-4c6e-a341-7ce82ccb8b16",
+          "type": "tree",
+          "selected": false,
+          "x": 625,
+          "y": 65,
+          "ports": [
+            {
+              "id": "810da007-0a75-4287-ac5a-c094e7f42c69",
+              "type": "default",
+              "x": 616,
+              "y": 79.5,
+              "name": "in-1657337438216 ",
+              "alignment": "left",
+              "parentNode": "4a2f1750-a89a-4c6e-a341-7ce82ccb8b16",
+              "links": [
+                "c1b80d9b-cd10-49dc-a264-756907147fba"
+              ],
+              "in": true,
+              "label": "❯"
+            }
+          ],
+          "title": "Tree",
+          "color": "#e02e87e6",
+          "portsInOrder": [
+            "810da007-0a75-4287-ac5a-c094e7f42c69"
+          ],
+          "portsOutOrder": [],
+          "tree": "estate_house",
+          "start": "Start"
+        },
+        "e8c7ce0a-fe22-4f9d-8ecf-cd64612dd6bc": {
+          "id": "e8c7ce0a-fe22-4f9d-8ecf-cd64612dd6bc",
+          "type": "tree",
+          "selected": false,
+          "x": 623,
+          "y": 139,
+          "ports": [
+            {
+              "id": "d3d79412-cf3a-4084-988c-ae1caeb8224f",
+              "type": "default",
+              "x": 614,
+              "y": 153.5,
+              "name": "in-1657337438916 ",
+              "alignment": "left",
+              "parentNode": "e8c7ce0a-fe22-4f9d-8ecf-cd64612dd6bc",
+              "links": [
+                "8fb4f580-9ceb-4ba1-803d-4a4006da3802"
+              ],
+              "in": true,
+              "label": "❯"
+            }
+          ],
+          "title": "Tree",
+          "color": "#e02e87e6",
+          "portsInOrder": [
+            "d3d79412-cf3a-4084-988c-ae1caeb8224f"
+          ],
+          "portsOutOrder": [],
+          "tree": "estate_buy",
+          "start": "Start"
+        }
+      }
+    }
+  ],
+  "trees": {
+    "estate_buy": {
+      "id": "e0048f07-5b55-43dc-8b74-323320d37f9f",
+      "offsetX": 869.2213079043863,
+      "offsetY": 18.89610775775637,
+      "zoom": 71.6666666666667,
+      "gridSize": 0,
+      "layers": [
+        {
+          "id": "0c4f4789-f347-445b-897c-ad8db8c69ce8",
+          "type": "diagram-links",
+          "isSvg": true,
+          "transformed": true,
+          "models": {
+            "439b2ef8-c383-4089-acf8-470e66c68980": {
+              "id": "439b2ef8-c383-4089-acf8-470e66c68980",
+              "type": "default",
+              "selected": false,
+              "source": "63a0c4ca-c64e-4b65-9379-46933cc63f6e",
+              "sourcePort": "10ba2efc-7a32-4737-a7d5-cc841907892e",
+              "target": "0efdb546-971b-47de-ac35-51c209bcda7b",
+              "targetPort": "e640de28-da39-4c17-89f4-f9d341e36602",
+              "points": [
+                {
+                  "id": "19e59f00-164a-4b39-9553-f8194489819f",
+                  "type": "point",
+                  "x": 133.29687141975157,
+                  "y": 64.50000174562697
+                },
+                {
+                  "id": "a27e9db5-56f4-4fb4-a1fe-33fab8e59a99",
+                  "type": "point",
+                  "x": 187.50000777512946,
+                  "y": 69.49999997134918
+                }
+              ],
+              "labels": [],
+              "width": 3,
+              "color": "gray",
+              "curvyness": 50,
+              "selectedColor": "rgb(0,192,255)"
+            },
+            "6829b160-f18d-45c9-83e3-4679538e4700": {
+              "id": "6829b160-f18d-45c9-83e3-4679538e4700",
+              "type": "default",
+              "selected": false,
+              "source": "0efdb546-971b-47de-ac35-51c209bcda7b",
+              "sourcePort": "fd9c7b84-cd37-408e-a408-1ae9ded6b789",
+              "target": "a1c4f774-4e1b-4b91-bb61-83bef742ebe0",
+              "targetPort": "cea5c389-b1e0-4857-bb12-ca871f320d18",
+              "points": [
+                {
+                  "id": "257a6ea6-de03-402f-aac7-f4729d5e5d23",
+                  "type": "point",
+                  "x": 634.2030873536177,
+                  "y": 69.49999997134918
+                },
+                {
+                  "id": "4d5e5ff0-4b31-4b00-accc-8e867a41dbbe",
+                  "type": "point",
+                  "x": 189.50003048588528,
+                  "y": 146.49999606793799
+                }
+              ],
+              "labels": [],
+              "width": 3,
+              "color": "gray",
+              "curvyness": 50,
+              "selectedColor": "rgb(0,192,255)"
+            },
+            "10721737-51d2-4ace-a0b0-cee4b5704ea1": {
+              "id": "10721737-51d2-4ace-a0b0-cee4b5704ea1",
+              "type": "default",
+              "selected": false,
+              "source": "a1c4f774-4e1b-4b91-bb61-83bef742ebe0",
+              "sourcePort": "9d7395c9-f5d1-49db-b82f-78391c190070",
+              "target": "3a6fdd22-8778-4adc-82f3-d96cec306212",
+              "targetPort": "cb6ecd98-a6ce-4b5c-bb6f-eed83e8f1818",
+              "points": [
+                {
+                  "id": "8b507df2-8566-42bc-8ec0-0fe73c2378a5",
+                  "type": "point",
+                  "x": 483.28125777512935,
+                  "y": 191.49999606793799
+                },
+                {
+                  "id": "07498c06-5207-4f69-a5be-6d3959c29f48",
+                  "type": "point",
+                  "x": 426.4999964197514,
+                  "y": 271.5000315534939
+                }
+              ],
+              "labels": [],
+              "width": 3,
+              "color": "gray",
+              "curvyness": 50,
+              "selectedColor": "rgb(0,192,255)"
+            },
+            "dadfd941-9412-42db-8b43-d6d1eb679964": {
+              "id": "dadfd941-9412-42db-8b43-d6d1eb679964",
+              "type": "default",
+              "selected": false,
+              "source": "3a6fdd22-8778-4adc-82f3-d96cec306212",
+              "sourcePort": "dd006992-c104-47e8-9e6b-8a177a46f988",
+              "target": "c4e0d917-bd8c-4415-98d9-6c2a7d519d76",
+              "targetPort": "ae79fa13-844a-4e0c-89ab-a1046a8386ab",
+              "points": [
+                {
+                  "id": "93e8603f-23ba-414b-9df0-765222ecba62",
+                  "type": "point",
+                  "x": 653.3438259073966,
+                  "y": 271.5000315534939
+                },
+                {
+                  "id": "fc02a583-9614-4d60-8f12-58e6e852e666",
+                  "type": "point",
+                  "x": 427.50000777512935,
+                  "y": 335.4999918096712
+                }
+              ],
+              "labels": [],
+              "width": 3,
+              "color": "gray",
+              "curvyness": 50,
+              "selectedColor": "rgb(0,192,255)"
+            },
+            "1fd18e19-ae62-4140-8c95-00af43461b9e": {
+              "id": "1fd18e19-ae62-4140-8c95-00af43461b9e",
+              "type": "default",
+              "selected": false,
+              "source": "c4e0d917-bd8c-4415-98d9-6c2a7d519d76",
+              "sourcePort": "3f304935-4f9f-4c2b-babf-fb2ee36e90eb",
+              "target": "45e92fdf-e261-488a-b0ca-4f49df990b32",
+              "targetPort": "abd8ca1b-c5d1-4477-a6e3-d7d2c8b76b6e",
+              "points": [
+                {
+                  "id": "5dc576a8-7785-47e7-be44-e80e272f6f31",
+                  "type": "point",
+                  "x": 903.5156327751291,
+                  "y": 335.4999918096712
+                },
+                {
+                  "id": "b862d8dd-b22f-46f6-b05e-54c5f9c58eb2",
+                  "type": "point",
+                  "x": 424.49997370899564,
+                  "y": 429.49999464851567
+                }
+              ],
+              "labels": [],
+              "width": 3,
+              "color": "gray",
+              "curvyness": 50,
+              "selectedColor": "rgb(0,192,255)"
+            },
+            "cb1b0d73-29d0-4950-94fb-b85d30b6c971": {
+              "id": "cb1b0d73-29d0-4950-94fb-b85d30b6c971",
+              "type": "default",
+              "selected": false,
+              "source": "45e92fdf-e261-488a-b0ca-4f49df990b32",
+              "sourcePort": "167a95ab-7b34-4e3d-ab2a-357e7202920f",
+              "target": "2d9b6413-710c-4810-8477-4814a25a6075",
+              "targetPort": "835fb3d3-0ad6-478b-967f-b8f9e6b84a97",
+              "points": [
+                {
+                  "id": "6a5e62a9-be1b-4da7-99d7-9c483264ade7",
+                  "type": "point",
+                  "x": 871.2030532874838,
+                  "y": 429.49999464851567
+                },
+                {
+                  "id": "51e6e788-7704-4b6a-9e7d-9183f4429cba",
+                  "type": "point",
+                  "x": 425.49998506437356,
+                  "y": 525.5000201981159
+                }
+              ],
+              "labels": [],
+              "width": 3,
+              "color": "gray",
+              "curvyness": 50,
+              "selectedColor": "rgb(0,192,255)"
+            },
+            "b5c31839-46bb-4ce1-9aaa-9f227a45b513": {
+              "id": "b5c31839-46bb-4ce1-9aaa-9f227a45b513",
+              "type": "default",
+              "selected": false,
+              "source": "2d9b6413-710c-4810-8477-4814a25a6075",
+              "sourcePort": "f2e343cb-d712-45de-9ed5-4e7c5370f2bb",
+              "target": "9253322e-a23b-44c5-bc7f-733e6e1f5b61",
+              "targetPort": "697e2562-fb01-4eb6-b761-94cb0e6a12c6",
+              "points": [
+                {
+                  "id": "215271c4-1508-4aec-a638-d9f76f6f2a4e",
+                  "type": "point",
+                  "x": 872.2030646428617,
+                  "y": 525.5000201981159
+                },
+                {
+                  "id": "2842a141-ba45-46ff-8339-7f52e38d291a",
+                  "type": "point",
+                  "x": 422.4999509982398,
+                  "y": 607.5000145204269
+                }
+              ],
+              "labels": [],
+              "width": 3,
+              "color": "gray",
+              "curvyness": 50,
+              "selectedColor": "rgb(0,192,255)"
+            },
+            "10ca95e9-74e1-4799-99fe-9aef19c55a1a": {
+              "id": "10ca95e9-74e1-4799-99fe-9aef19c55a1a",
+              "type": "default",
+              "selected": false,
+              "source": "9253322e-a23b-44c5-bc7f-733e6e1f5b61",
+              "sourcePort": "bdb6a7a0-f9db-410e-a9ec-1439f999d616",
+              "target": "2ed9f34c-dd8f-438c-9bf7-8aae971af39f",
+              "targetPort": "36a66d01-cb90-46e1-9438-ba44fd284241",
+              "points": [
+                {
+                  "id": "fbfcb467-9daf-40f8-b21f-260f5c088019",
+                  "type": "point",
+                  "x": 905.8437123536175,
+                  "y": 607.5000145204269
+                },
+                {
+                  "id": "75c080e3-3229-4a8c-b2c8-acd2e0406dc2",
+                  "type": "point",
+                  "x": 422.4999509982398,
+                  "y": 699.5000372311827
+                }
+              ],
+              "labels": [],
+              "width": 3,
+              "color": "gray",
+              "curvyness": 50,
+              "selectedColor": "rgb(0,192,255)"
+            },
+            "9d0ccac3-08a9-45a7-b91c-d5ffad71b569": {
+              "id": "9d0ccac3-08a9-45a7-b91c-d5ffad71b569",
+              "type": "default",
+              "selected": false,
+              "source": "2ed9f34c-dd8f-438c-9bf7-8aae971af39f",
+              "sourcePort": "fe91e75e-4ef6-4313-880c-e8253e741d9f",
+              "target": "81495211-f10e-412c-836a-4040e3a444bc",
+              "targetPort": "53c48323-9e03-4ca9-abbb-f7a12111b015",
+              "points": [
+                {
+                  "id": "ebd33df8-f024-4c82-855d-813490f05a2d",
+                  "type": "point",
+                  "x": 891.1874396428617,
+                  "y": 699.5000372311827
+                },
+                {
+                  "id": "191f65a9-b218-4a58-9e54-f241b3f38d96",
+                  "type": "point",
+                  "x": 424.49997370899564,
+                  "y": 779.5000088427379
+                }
+              ],
+              "labels": [],
+              "width": 3,
+              "color": "gray",
+              "curvyness": 50,
+              "selectedColor": "rgb(0,192,255)"
+            },
+            "c661f5aa-52e5-4cd7-a82e-d24128ca48b9": {
+              "id": "c661f5aa-52e5-4cd7-a82e-d24128ca48b9",
+              "type": "default",
+              "selected": false,
+              "source": "a1c4f774-4e1b-4b91-bb61-83bef742ebe0",
+              "sourcePort": "d1dbfa40-64df-4964-9151-71b3e454feda",
+              "target": "bad97287-0fc1-43b0-ba24-996f162e560d",
+              "targetPort": "b91f52c0-38ab-45ca-83a7-4b36b5dc811e",
+              "points": [
+                {
+                  "id": "1e9e189f-4886-4bda-8f6c-f8def345c200",
+                  "type": "point",
+                  "x": 483.296928196641,
+                  "y": 155.4999918096713
+                },
+                {
+                  "id": "e8cead86-1754-4d56-8d9e-253118f3e4b5",
+                  "type": "point",
+                  "x": -282.609401291004,
+                  "y": 275.8437616815826
+                }
+              ],
+              "labels": [],
+              "width": 3,
+              "color": "gray",
+              "curvyness": 50,
+              "selectedColor": "rgb(0,192,255)"
+            },
+            "92da1843-43fd-402b-82c2-4ffa1c00cb33": {
+              "id": "92da1843-43fd-402b-82c2-4ffa1c00cb33",
+              "type": "default",
+              "selected": false,
+              "source": "bad97287-0fc1-43b0-ba24-996f162e560d",
+              "sourcePort": "88dbbd1d-591d-4e79-b0a9-c2eb06e31a99",
+              "target": "73b4e77f-b72d-47c6-84ac-14d326124783",
+              "targetPort": "532931ee-5da3-49c0-9a59-7824d42ac508",
+              "points": [
+                {
+                  "id": "8fd3e83b-b0b5-4ebd-b878-dbb4cd6d2712",
+                  "type": "point",
+                  "x": -48.43743544798089,
+                  "y": 275.8437616815826
+                },
+                {
+                  "id": "b4f7e113-437f-4e61-a672-d94cc7e09cb9",
+                  "type": "point",
+                  "x": -281.78125358024823,
+                  "y": 341.5624861319822
+                }
+              ],
+              "labels": [],
+              "width": 3,
+              "color": "gray",
+              "curvyness": 50,
+              "selectedColor": "rgb(0,192,255)"
+            },
+            "2d79dba8-5c32-4fff-93e9-614b090b0b0d": {
+              "id": "2d79dba8-5c32-4fff-93e9-614b090b0b0d",
+              "type": "default",
+              "selected": false,
+              "source": "73b4e77f-b72d-47c6-84ac-14d326124783",
+              "sourcePort": "c9730621-2cc9-47ec-979c-c6a9106ddde9",
+              "target": "a7c52c83-5e83-4b52-9a9f-fb1219ecf7ca",
+              "targetPort": "20ab2e9d-37f1-42de-a13f-58895efaf49f",
+              "points": [
+                {
+                  "id": "5d7fa621-2150-4368-8dbb-1f4da5974902",
+                  "type": "point",
+                  "x": 194.23437141975157,
+                  "y": 341.5624861319822
+                },
+                {
+                  "id": "5545c930-0c7c-4dee-b456-90263e5c5631",
+                  "type": "point",
+                  "x": -283.92188425793717,
+                  "y": 449.42186964851567
+                }
+              ],
+              "labels": [],
+              "width": 3,
+              "color": "gray",
+              "curvyness": 50,
+              "selectedColor": "rgb(0,192,255)"
+            },
+            "18695660-dc10-4f84-aa70-1cb033c464f5": {
+              "id": "18695660-dc10-4f84-aa70-1cb033c464f5",
+              "type": "default",
+              "selected": false,
+              "source": "a7c52c83-5e83-4b52-9a9f-fb1219ecf7ca",
+              "sourcePort": "dc550e2f-c106-4985-8eca-4bc583f49db0",
+              "target": "2cafdf10-d0e1-46e1-9ea6-303e7aac5238",
+              "targetPort": "dc8970c3-5bfb-42f6-950d-8d674eb96d1a",
+              "points": [
+                {
+                  "id": "c072a884-1ab4-438b-89f2-5f372ab546e8",
+                  "type": "point",
+                  "x": 45.51559870899581,
+                  "y": 449.42186964851567
+                },
+                {
+                  "id": "4045e399-e6b9-4da3-b57a-854771135a96",
+                  "type": "point",
+                  "x": -287.062526291004,
+                  "y": 514.0624861319822
+                }
+              ],
+              "labels": [],
+              "width": 3,
+              "color": "gray",
+              "curvyness": 50,
+              "selectedColor": "rgb(0,192,255)"
+            },
+            "f6e56b26-3378-4a9c-b822-5bc75c7654d1": {
+              "id": "f6e56b26-3378-4a9c-b822-5bc75c7654d1",
+              "type": "default",
+              "selected": false,
+              "source": "2cafdf10-d0e1-46e1-9ea6-303e7aac5238",
+              "sourcePort": "078758d3-c390-4b7f-8fe5-2d2038bbec04",
+              "target": "963c07a0-c225-4c76-aa85-1cba659bc2f0",
+              "targetPort": "798ad55f-dcbc-41ff-96c5-c8c216ebec6a",
+              "points": [
+                {
+                  "id": "a038d2e9-a662-431f-889c-85034bac668f",
+                  "type": "point",
+                  "x": -74.82812858024832,
+                  "y": 559.0624861319822
+                },
+                {
+                  "id": "33f265a2-ed88-4407-88ef-ec4bbf695833",
+                  "type": "point",
+                  "x": -98.32813993562621,
+                  "y": 642.9999918096711
+                }
+              ],
+              "labels": [],
+              "width": 3,
+              "color": "gray",
+              "curvyness": 50,
+              "selectedColor": "rgb(0,192,255)"
+            },
+            "de09f26a-7840-4b70-a6b4-feb2cddaeae0": {
+              "id": "de09f26a-7840-4b70-a6b4-feb2cddaeae0",
+              "type": "default",
+              "selected": false,
+              "source": "963c07a0-c225-4c76-aa85-1cba659bc2f0",
+              "sourcePort": "34057987-8d1f-44a8-bb2f-e9d3fc0f9725",
+              "target": "98426974-9e8e-4df9-b7c7-74e091a4703f",
+              "targetPort": "54bf62ab-9580-40ff-be3c-56b3e7d16622",
+              "points": [
+                {
+                  "id": "132ee7b4-cb95-4926-a2f6-d3f050cedbab",
+                  "type": "point",
+                  "x": 47.89068955201907,
+                  "y": 642.9999918096711
+                },
+                {
+                  "id": "6c4087c0-803a-4e70-8189-6da5bfb388ba",
+                  "type": "point",
+                  "x": -101.78125358024832,
+                  "y": 708.3437758758048
+                }
+              ],
+              "labels": [],
+              "width": 3,
+              "color": "gray",
+              "curvyness": 50,
+              "selectedColor": "rgb(0,192,255)"
+            },
+            "55ff4854-74a1-4e6d-b280-579743c952ab": {
+              "id": "55ff4854-74a1-4e6d-b280-579743c952ab",
+              "type": "default",
+              "selected": false,
+              "source": "2cafdf10-d0e1-46e1-9ea6-303e7aac5238",
+              "sourcePort": "bcafe27e-8d4b-428a-bd5c-64143a7b8dfa",
+              "target": "74c07148-ad5a-4569-b233-d07b1f5b4dfb",
+              "targetPort": "b8235220-394b-44d4-86d9-0a7e5a580047",
+              "points": [
+                {
+                  "id": "c09f4ba3-948c-402d-b0cf-d50fd88c8cd8",
+                  "type": "point",
+                  "x": -74.81245815873669,
+                  "y": 523.0625031650491
+                },
+                {
+                  "id": "fe584710-d56e-4017-8d89-3588ece4e5ef",
+                  "type": "point",
+                  "x": -668.3281399356259,
+                  "y": 623.34374748736
+                }
+              ],
+              "labels": [],
+              "width": 3,
+              "color": "gray",
+              "curvyness": 50,
+              "selectedColor": "rgb(0,192,255)"
+            },
+            "af29fed7-f569-43e0-baae-ab9f3675537f": {
+              "id": "af29fed7-f569-43e0-baae-ab9f3675537f",
+              "type": "default",
+              "selected": false,
+              "source": "74c07148-ad5a-4569-b233-d07b1f5b4dfb",
+              "sourcePort": "893a9672-e084-48bd-8377-1a0dfa29835d",
+              "target": "95b799c4-c613-4bbd-837c-7dfb07dfce03",
+              "targetPort": "89d6c108-8e02-4011-93d9-384d8b30e7c5",
+              "points": [
+                {
+                  "id": "4da94ce2-f3e5-4d31-acb7-bd5501e53c68",
+                  "type": "point",
+                  "x": -514.7812592579371,
+                  "y": 623.34374748736
+                },
+                {
+                  "id": "8d917674-5507-4c01-82e5-b84cda7508c2",
+                  "type": "point",
+                  "x": -667.4218104479806,
+                  "y": 687.6250088427379
+                }
+              ],
+              "labels": [],
+              "width": 3,
+              "color": "gray",
+              "curvyness": 50,
+              "selectedColor": "rgb(0,192,255)"
+            },
+            "af6577df-575e-4450-8bac-1a6d00a492a5": {
+              "id": "af6577df-575e-4450-8bac-1a6d00a492a5",
+              "type": "default",
+              "selected": false,
+              "source": "95b799c4-c613-4bbd-837c-7dfb07dfce03",
+              "sourcePort": "4d8c2f97-be3c-4916-85f1-6b42f0a4fb5b",
+              "target": "239b44e8-d616-48cf-b742-d1babf1f44ae",
+              "targetPort": "2aa4d6c3-4ba7-43bf-aa7d-9b11fbf1507b",
+              "points": [
+                {
+                  "id": "c9b670ee-f219-41d4-a7de-f6251d01c37a",
+                  "type": "point",
+                  "x": -292.87497519180346,
+                  "y": 704.6250315534937
+                },
+                {
+                  "id": "b33cefe0-9401-4299-93f8-c3b75c75e685",
+                  "type": "point",
+                  "x": -439.0468785802481,
+                  "y": 795.5000201981157
+                }
+              ],
+              "labels": [],
+              "width": 3,
+              "color": "gray",
+              "curvyness": 50,
+              "selectedColor": "rgb(0,192,255)"
+            },
+            "71a3ebe4-460d-4ab7-b685-af68489cb856": {
+              "id": "71a3ebe4-460d-4ab7-b685-af68489cb856",
+              "type": "default",
+              "selected": false,
+              "source": "239b44e8-d616-48cf-b742-d1babf1f44ae",
+              "sourcePort": "36e896af-43aa-41a7-87fb-2686dc2056a2",
+              "target": "1fe389b5-539d-47fd-b870-d300b20d86fc",
+              "targetPort": "0a08ca46-0808-44cb-89a5-d1ca1c645b46",
+              "points": [
+                {
+                  "id": "af66f110-af2f-4a4c-bd4b-7821ce56c02a",
+                  "type": "point",
+                  "x": -131.59371951411458,
+                  "y": 795.5000201981157
+                },
+                {
+                  "id": "a8553f88-c485-4a84-90dd-d8f7203c1bce",
+                  "type": "point",
+                  "x": -441.4218842579371,
+                  "y": 860.1405940989151
+                }
+              ],
+              "labels": [],
+              "width": 3,
+              "color": "gray",
+              "curvyness": 50,
+              "selectedColor": "rgb(0,192,255)"
+            },
+            "06148eb8-d65d-40f6-ad04-42e31380fa6e": {
+              "id": "06148eb8-d65d-40f6-ad04-42e31380fa6e",
+              "type": "default",
+              "selected": false,
+              "source": "c1a7b3ab-123f-4c5d-9293-bda983e196b0",
+              "sourcePort": "cc31573e-08c3-4eb2-8087-50dfc939aaab",
+              "target": "7feb2d07-3463-46cd-b468-49fe97b27d30",
+              "targetPort": "0598e0e6-a327-427f-86a2-cf2c37dce346",
+              "points": [
+                {
+                  "id": "b7ee19a8-7c11-4f05-8bf5-99df357de553",
+                  "type": "point",
+                  "x": -659.5937535802481,
+                  "y": 781.9218554542931
+                },
+                {
+                  "id": "593e7dd0-506b-4a01-91ca-3e58926c809a",
+                  "type": "point",
+                  "x": -1013.3281399356258,
+                  "y": 932.2812531650488
+                }
+              ],
+              "labels": [],
+              "width": 3,
+              "color": "gray",
+              "curvyness": 50,
+              "selectedColor": "rgb(0,192,255)"
+            },
+            "5aaafbc9-2f1d-4335-aecc-ad516f0aa89d": {
+              "id": "5aaafbc9-2f1d-4335-aecc-ad516f0aa89d",
+              "type": "default",
+              "selected": false,
+              "source": "7feb2d07-3463-46cd-b468-49fe97b27d30",
+              "sourcePort": "bb88602c-a5c1-485f-8018-8f000cab1a93",
+              "target": "b7a31da6-35cc-4f73-bd61-be8f53a973f5",
+              "targetPort": "29fe8303-2e5f-4f8d-adb9-8cdaa24f1e17",
+              "points": [
+                {
+                  "id": "ba62e8cc-7ec3-4fb1-b72a-07189db053eb",
+                  "type": "point",
+                  "x": -566.6249751918033,
+                  "y": 932.2812531650488
+                },
+                {
+                  "id": "da68c9a9-65c0-4d55-b055-d85baa8b3e11",
+                  "type": "point",
+                  "x": -1014.3906200637144,
+                  "y": 1032.999991809671
+                }
+              ],
+              "labels": [],
+              "width": 3,
+              "color": "gray",
+              "curvyness": 50,
+              "selectedColor": "rgb(0,192,255)"
+            }
+          }
+        },
+        {
+          "id": "ba6cfa1c-9835-473a-85d9-774cc748804d",
+          "type": "diagram-nodes",
+          "isSvg": false,
+          "transformed": true,
+          "models": {
+            "63a0c4ca-c64e-4b65-9379-46933cc63f6e": {
+              "id": "63a0c4ca-c64e-4b65-9379-46933cc63f6e",
+              "type": "start",
+              "x": 50,
+              "y": 50,
+              "ports": [
+                {
+                  "id": "10ba2efc-7a32-4737-a7d5-cc841907892e",
+                  "type": "default",
+                  "x": 125.79687141975158,
+                  "y": 57.00000174562699,
+                  "name": "out-1657336745079",
+                  "alignment": "right",
+                  "parentNode": "63a0c4ca-c64e-4b65-9379-46933cc63f6e",
+                  "links": [
+                    "439b2ef8-c383-4089-acf8-470e66c68980"
+                  ],
+                  "in": false,
+                  "label": "❯"
+                }
+              ],
+              "title": "Start",
+              "color": "#16db26e6",
+              "portsInOrder": [],
+              "portsOutOrder": [
+                "10ba2efc-7a32-4737-a7d5-cc841907892e"
+              ]
+            },
+            "0efdb546-971b-47de-ac35-51c209bcda7b": {
+              "id": "0efdb546-971b-47de-ac35-51c209bcda7b",
+              "type": "dialogue",
+              "selected": false,
+              "x": 193,
+              "y": 31,
+              "ports": [
+                {
+                  "id": "e640de28-da39-4c17-89f4-f9d341e36602",
+                  "type": "default",
+                  "x": 180.00000777512946,
+                  "y": 61.999994648515795,
+                  "name": "in-1657336757579 ",
+                  "alignment": "left",
+                  "parentNode": "0efdb546-971b-47de-ac35-51c209bcda7b",
+                  "links": [
+                    "439b2ef8-c383-4089-acf8-470e66c68980"
+                  ],
+                  "in": true,
+                  "label": "❯"
+                },
+                {
+                  "id": "fd9c7b84-cd37-408e-a408-1ae9ded6b789",
+                  "type": "default",
+                  "x": 626.7030873536177,
+                  "y": 61.999994648515795,
+                  "name": "out-1657336757579",
+                  "alignment": "right",
+                  "parentNode": "0efdb546-971b-47de-ac35-51c209bcda7b",
+                  "links": [
+                    "6829b160-f18d-45c9-83e3-4679538e4700"
+                  ],
+                  "in": false,
+                  "label": "❯"
+                }
+              ],
+              "title": "Estate agent",
+              "color": "#dd341ee6",
+              "portsInOrder": [
+                "e640de28-da39-4c17-89f4-f9d341e36602"
+              ],
+              "portsOutOrder": [
+                "fd9c7b84-cd37-408e-a408-1ae9ded6b789"
+              ],
+              "text": "Hello. Welcome to the Gielinor Housing Agency! What\ncan I do for you?"
+            },
+            "a1c4f774-4e1b-4b91-bb61-83bef742ebe0": {
+              "id": "a1c4f774-4e1b-4b91-bb61-83bef742ebe0",
+              "type": "option",
+              "selected": false,
+              "x": 195,
+              "y": 108,
+              "ports": [
+                {
+                  "id": "cea5c389-b1e0-4857-bb12-ca871f320d18",
+                  "type": "default",
+                  "x": 182.00003048588528,
+                  "y": 138.99999606793799,
+                  "name": "in-1657336774663 ",
+                  "alignment": "left",
+                  "parentNode": "a1c4f774-4e1b-4b91-bb61-83bef742ebe0",
+                  "links": [
+                    "6829b160-f18d-45c9-83e3-4679538e4700"
+                  ],
+                  "in": true,
+                  "label": "❯"
+                },
+                {
+                  "id": "d1dbfa40-64df-4964-9151-71b3e454feda",
+                  "type": "default",
+                  "x": 475.796928196641,
+                  "y": 147.9999918096713,
+                  "name": "out-1657336774663",
+                  "alignment": "right",
+                  "parentNode": "a1c4f774-4e1b-4b91-bb61-83bef742ebe0",
+                  "links": [
+                    "c661f5aa-52e5-4cd7-a82e-d24128ca48b9"
+                  ],
+                  "in": false,
+                  "label": "❯"
+                },
+                {
+                  "id": "9d7395c9-f5d1-49db-b82f-78391c190070",
+                  "type": "default",
+                  "x": 475.78125777512935,
+                  "y": 183.99999606793799,
+                  "name": "out-1657336782242",
+                  "alignment": "right",
+                  "parentNode": "a1c4f774-4e1b-4b91-bb61-83bef742ebe0",
+                  "links": [
+                    "10721737-51d2-4ace-a0b0-cee4b5704ea1"
+                  ],
+                  "in": false,
+                  "label": "❯"
+                }
+              ],
+              "title": "Select an option.",
+              "color": "#0756b1e6",
+              "portsInOrder": [
+                "cea5c389-b1e0-4857-bb12-ca871f320d18"
+              ],
+              "portsOutOrder": [
+                "d1dbfa40-64df-4964-9151-71b3e454feda",
+                "9d7395c9-f5d1-49db-b82f-78391c190070"
+              ],
+              "options": [
+                {
+                  "conditions": [
+                    ""
+                  ],
+                  "args": [],
+                  "text": "How can I get a house?"
+                },
+                {
+                  "conditions": [
+                    ""
+                  ],
+                  "args": [],
+                  "text": "Tell me about houses!"
+                }
+              ]
+            },
+            "3a6fdd22-8778-4adc-82f3-d96cec306212": {
+              "id": "3a6fdd22-8778-4adc-82f3-d96cec306212",
+              "type": "dialogue",
+              "selected": false,
+              "x": 432,
+              "y": 233,
+              "ports": [
+                {
+                  "id": "cb6ecd98-a6ce-4b5c-bb6f-eed83e8f1818",
+                  "type": "default",
+                  "x": 418.9999964197514,
+                  "y": 264.0000315534939,
+                  "name": "in-1657336757579 ",
+                  "alignment": "left",
+                  "parentNode": "3a6fdd22-8778-4adc-82f3-d96cec306212",
+                  "links": [
+                    "10721737-51d2-4ace-a0b0-cee4b5704ea1"
+                  ],
+                  "in": true,
+                  "label": "❯"
+                },
+                {
+                  "id": "dd006992-c104-47e8-9e6b-8a177a46f988",
+                  "type": "default",
+                  "x": 645.8438259073966,
+                  "y": 264.0000315534939,
+                  "name": "out-1657336757579",
+                  "alignment": "right",
+                  "parentNode": "3a6fdd22-8778-4adc-82f3-d96cec306212",
+                  "links": [
+                    "dadfd941-9412-42db-8b43-d6d1eb679964"
+                  ],
+                  "in": false,
+                  "label": "❯"
+                }
+              ],
+              "title": "<player>",
+              "color": "#dd341ee6",
+              "portsInOrder": [
+                "cb6ecd98-a6ce-4b5c-bb6f-eed83e8f1818"
+              ],
+              "portsOutOrder": [
+                "dd006992-c104-47e8-9e6b-8a177a46f988"
+              ],
+              "text": "Tell me about houses!"
+            },
+            "c4e0d917-bd8c-4415-98d9-6c2a7d519d76": {
+              "id": "c4e0d917-bd8c-4415-98d9-6c2a7d519d76",
+              "type": "dialogue",
+              "selected": false,
+              "x": 433,
+              "y": 297,
+              "ports": [
+                {
+                  "id": "ae79fa13-844a-4e0c-89ab-a1046a8386ab",
+                  "type": "default",
+                  "x": 420.00000777512935,
+                  "y": 327.9999918096712,
+                  "name": "in-1657336757579 ",
+                  "alignment": "left",
+                  "parentNode": "c4e0d917-bd8c-4415-98d9-6c2a7d519d76",
+                  "links": [
+                    "dadfd941-9412-42db-8b43-d6d1eb679964"
+                  ],
+                  "in": true,
+                  "label": "❯"
+                },
+                {
+                  "id": "3f304935-4f9f-4c2b-babf-fb2ee36e90eb",
+                  "type": "default",
+                  "x": 896.0156327751291,
+                  "y": 327.9999918096712,
+                  "name": "out-1657336757579",
+                  "alignment": "right",
+                  "parentNode": "c4e0d917-bd8c-4415-98d9-6c2a7d519d76",
+                  "links": [
+                    "1fd18e19-ae62-4140-8c95-00af43461b9e"
+                  ],
+                  "in": false,
+                  "label": "❯"
+                }
+              ],
+              "title": "Estate agent",
+              "color": "#dd341ee6",
+              "portsInOrder": [
+                "ae79fa13-844a-4e0c-89ab-a1046a8386ab"
+              ],
+              "portsOutOrder": [
+                "3f304935-4f9f-4c2b-babf-fb2ee36e90eb"
+              ],
+              "text": "It all came out of the wizards' experiments. They found\na way to fold space, so that they could pack many acres\nof land into an area only a foot across."
+            },
+            "45e92fdf-e261-488a-b0ca-4f49df990b32": {
+              "id": "45e92fdf-e261-488a-b0ca-4f49df990b32",
+              "type": "dialogue",
+              "selected": false,
+              "x": 430,
+              "y": 391,
+              "ports": [
+                {
+                  "id": "abd8ca1b-c5d1-4477-a6e3-d7d2c8b76b6e",
+                  "type": "default",
+                  "x": 416.99997370899564,
+                  "y": 421.99999464851567,
+                  "name": "in-1657336757579 ",
+                  "alignment": "left",
+                  "parentNode": "45e92fdf-e261-488a-b0ca-4f49df990b32",
+                  "links": [
+                    "1fd18e19-ae62-4140-8c95-00af43461b9e"
+                  ],
+                  "in": true,
+                  "label": "❯"
+                },
+                {
+                  "id": "167a95ab-7b34-4e3d-ab2a-357e7202920f",
+                  "type": "default",
+                  "x": 863.7030532874838,
+                  "y": 421.99999464851567,
+                  "name": "out-1657336757579",
+                  "alignment": "right",
+                  "parentNode": "45e92fdf-e261-488a-b0ca-4f49df990b32",
+                  "links": [
+                    "cb1b0d73-29d0-4950-94fb-b85d30b6c971"
+                  ],
+                  "in": false,
+                  "label": "❯"
+                }
+              ],
+              "title": "Estate agent",
+              "color": "#dd341ee6",
+              "portsInOrder": [
+                "abd8ca1b-c5d1-4477-a6e3-d7d2c8b76b6e"
+              ],
+              "portsOutOrder": [
+                "167a95ab-7b34-4e3d-ab2a-357e7202920f"
+              ],
+              "text": "They created several folded-space regions across\"\nGielinor. Each one contains hundreds of small plots\nwhere people can build houses."
+            },
+            "2d9b6413-710c-4810-8477-4814a25a6075": {
+              "id": "2d9b6413-710c-4810-8477-4814a25a6075",
+              "type": "dialogue",
+              "selected": false,
+              "x": 431,
+              "y": 487,
+              "ports": [
+                {
+                  "id": "835fb3d3-0ad6-478b-967f-b8f9e6b84a97",
+                  "type": "default",
+                  "x": 417.99998506437356,
+                  "y": 518.0000201981159,
+                  "name": "in-1657336757579 ",
+                  "alignment": "left",
+                  "parentNode": "2d9b6413-710c-4810-8477-4814a25a6075",
+                  "links": [
+                    "cb1b0d73-29d0-4950-94fb-b85d30b6c971"
+                  ],
+                  "in": true,
+                  "label": "❯"
+                },
+                {
+                  "id": "f2e343cb-d712-45de-9ed5-4e7c5370f2bb",
+                  "type": "default",
+                  "x": 864.7030646428617,
+                  "y": 518.0000201981159,
+                  "name": "out-1657336757579",
+                  "alignment": "right",
+                  "parentNode": "2d9b6413-710c-4810-8477-4814a25a6075",
+                  "links": [
+                    "b5c31839-46bb-4ce1-9aaa-9f227a45b513"
+                  ],
+                  "in": false,
+                  "label": "❯"
+                }
+              ],
+              "title": "<player>",
+              "color": "#dd341ee6",
+              "portsInOrder": [
+                "835fb3d3-0ad6-478b-967f-b8f9e6b84a97"
+              ],
+              "portsOutOrder": [
+                "f2e343cb-d712-45de-9ed5-4e7c5370f2bb"
+              ],
+              "text": "Ah, so that's how everyone can have a house without\nthem cluttering up the world!"
+            },
+            "9253322e-a23b-44c5-bc7f-733e6e1f5b61": {
+              "id": "9253322e-a23b-44c5-bc7f-733e6e1f5b61",
+              "type": "dialogue",
+              "selected": false,
+              "x": 428,
+              "y": 569,
+              "ports": [
+                {
+                  "id": "697e2562-fb01-4eb6-b761-94cb0e6a12c6",
+                  "type": "default",
+                  "x": 414.9999509982398,
+                  "y": 600.0000145204269,
+                  "name": "in-1657336757579 ",
+                  "alignment": "left",
+                  "parentNode": "9253322e-a23b-44c5-bc7f-733e6e1f5b61",
+                  "links": [
+                    "b5c31839-46bb-4ce1-9aaa-9f227a45b513"
+                  ],
+                  "in": true,
+                  "label": "❯"
+                },
+                {
+                  "id": "bdb6a7a0-f9db-410e-a9ec-1439f999d616",
+                  "type": "default",
+                  "x": 898.3437123536175,
+                  "y": 600.0000145204269,
+                  "name": "out-1657336757579",
+                  "alignment": "right",
+                  "parentNode": "9253322e-a23b-44c5-bc7f-733e6e1f5b61",
+                  "links": [
+                    "10ca95e9-74e1-4799-99fe-9aef19c55a1a"
+                  ],
+                  "in": false,
+                  "label": "❯"
+                }
+              ],
+              "title": "Estate agent",
+              "color": "#dd341ee6",
+              "portsInOrder": [
+                "697e2562-fb01-4eb6-b761-94cb0e6a12c6"
+              ],
+              "portsOutOrder": [
+                "bdb6a7a0-f9db-410e-a9ec-1439f999d616"
+              ],
+              "text": "Quite. The wizards didn't want to get bogged down in\nthe business side of things so they hired me to sell the\nhouses."
+            },
+            "2ed9f34c-dd8f-438c-9bf7-8aae971af39f": {
+              "id": "2ed9f34c-dd8f-438c-9bf7-8aae971af39f",
+              "type": "dialogue",
+              "selected": false,
+              "x": 428,
+              "y": 661,
+              "ports": [
+                {
+                  "id": "36a66d01-cb90-46e1-9438-ba44fd284241",
+                  "type": "default",
+                  "x": 414.9999509982398,
+                  "y": 692.0000372311827,
+                  "name": "in-1657336757579 ",
+                  "alignment": "left",
+                  "parentNode": "2ed9f34c-dd8f-438c-9bf7-8aae971af39f",
+                  "links": [
+                    "10ca95e9-74e1-4799-99fe-9aef19c55a1a"
+                  ],
+                  "in": true,
+                  "label": "❯"
+                },
+                {
+                  "id": "fe91e75e-4ef6-4313-880c-e8253e741d9f",
+                  "type": "default",
+                  "x": 883.6874396428617,
+                  "y": 692.0000372311827,
+                  "name": "out-1657336757579",
+                  "alignment": "right",
+                  "parentNode": "2ed9f34c-dd8f-438c-9bf7-8aae971af39f",
+                  "links": [
+                    "9d0ccac3-08a9-45a7-b91c-d5ffad71b569"
+                  ],
+                  "in": false,
+                  "label": "❯"
+                }
+              ],
+              "title": "Estate agent",
+              "color": "#dd341ee6",
+              "portsInOrder": [
+                "36a66d01-cb90-46e1-9438-ba44fd284241"
+              ],
+              "portsOutOrder": [
+                "fe91e75e-4ef6-4313-880c-e8253e741d9f"
+              ],
+              "text": "There are various other people across Gielinor who can\nhelp you furnish your house."
+            },
+            "81495211-f10e-412c-836a-4040e3a444bc": {
+              "id": "81495211-f10e-412c-836a-4040e3a444bc",
+              "type": "dialogue",
+              "selected": false,
+              "x": 430,
+              "y": 741,
+              "ports": [
+                {
+                  "id": "53c48323-9e03-4ca9-abbb-f7a12111b015",
+                  "type": "default",
+                  "x": 416.99997370899564,
+                  "y": 772.0000088427379,
+                  "name": "in-1657336757579 ",
+                  "alignment": "left",
+                  "parentNode": "81495211-f10e-412c-836a-4040e3a444bc",
+                  "links": [
+                    "9d0ccac3-08a9-45a7-b91c-d5ffad71b569"
+                  ],
+                  "in": true,
+                  "label": "❯"
+                },
+                {
+                  "id": "509f0d76-1005-4fc7-94df-ad5fce2f14bd",
+                  "type": "default",
+                  "x": 907.6718714197513,
+                  "y": 772.0000088427379,
+                  "name": "out-1657336757579",
+                  "alignment": "right",
+                  "parentNode": "81495211-f10e-412c-836a-4040e3a444bc",
+                  "links": [],
+                  "in": false,
+                  "label": "❯"
+                }
+              ],
+              "title": "Estate agent",
+              "color": "#dd341ee6",
+              "portsInOrder": [
+                "53c48323-9e03-4ca9-abbb-f7a12111b015"
+              ],
+              "portsOutOrder": [
+                "509f0d76-1005-4fc7-94df-ad5fce2f14bd"
+              ],
+              "text": "You should start by buying planks from a sawmill\noperator. Sawmills are located in north-east Varrock, the\nWoodcutting Guild located in south-west Hosidius and\nnorth-east Prifddinas."
+            },
+            "bad97287-0fc1-43b0-ba24-996f162e560d": {
+              "id": "bad97287-0fc1-43b0-ba24-996f162e560d",
+              "type": "dialogue",
+              "selected": false,
+              "x": -277.1190476190473,
+              "y": 237.35714285714286,
+              "ports": [
+                {
+                  "id": "b91f52c0-38ab-45ca-83a7-4b36b5dc811e",
+                  "type": "default",
+                  "x": -290.109401291004,
+                  "y": 268.3437616815826,
+                  "name": "in-1657336757579 ",
+                  "alignment": "left",
+                  "parentNode": "bad97287-0fc1-43b0-ba24-996f162e560d",
+                  "links": [
+                    "c661f5aa-52e5-4cd7-a82e-d24128ca48b9"
+                  ],
+                  "in": true,
+                  "label": "❯"
+                },
+                {
+                  "id": "88dbbd1d-591d-4e79-b0a9-c2eb06e31a99",
+                  "type": "default",
+                  "x": -55.93743544798089,
+                  "y": 268.3437616815826,
+                  "name": "out-1657336757579",
+                  "alignment": "right",
+                  "parentNode": "bad97287-0fc1-43b0-ba24-996f162e560d",
+                  "links": [
+                    "92da1843-43fd-402b-82c2-4ffa1c00cb33"
+                  ],
+                  "in": false,
+                  "label": "❯"
+                }
+              ],
+              "title": "<player>",
+              "color": "#dd341ee6",
+              "portsInOrder": [
+                "b91f52c0-38ab-45ca-83a7-4b36b5dc811e"
+              ],
+              "portsOutOrder": [
+                "88dbbd1d-591d-4e79-b0a9-c2eb06e31a99"
+              ],
+              "text": "How can I get a house?"
+            },
+            "73b4e77f-b72d-47c6-84ac-14d326124783": {
+              "id": "73b4e77f-b72d-47c6-84ac-14d326124783",
+              "type": "dialogue",
+              "selected": false,
+              "x": -276.28571428571377,
+              "y": 303.07142857142856,
+              "ports": [
+                {
+                  "id": "532931ee-5da3-49c0-9a59-7824d42ac508",
+                  "type": "default",
+                  "x": -289.28125358024823,
+                  "y": 334.0624861319822,
+                  "name": "in-1657336757579 ",
+                  "alignment": "left",
+                  "parentNode": "73b4e77f-b72d-47c6-84ac-14d326124783",
+                  "links": [
+                    "92da1843-43fd-402b-82c2-4ffa1c00cb33"
+                  ],
+                  "in": true,
+                  "label": "❯"
+                },
+                {
+                  "id": "c9730621-2cc9-47ec-979c-c6a9106ddde9",
+                  "type": "default",
+                  "x": 186.73437141975157,
+                  "y": 334.0624861319822,
+                  "name": "out-1657336757579",
+                  "alignment": "right",
+                  "parentNode": "73b4e77f-b72d-47c6-84ac-14d326124783",
+                  "links": [
+                    "2d79dba8-5c32-4fff-93e9-614b090b0b0d"
+                  ],
+                  "in": false,
+                  "label": "❯"
+                }
+              ],
+              "title": "Estate agent",
+              "color": "#dd341ee6",
+              "portsInOrder": [
+                "532931ee-5da3-49c0-9a59-7824d42ac508"
+              ],
+              "portsOutOrder": [
+                "c9730621-2cc9-47ec-979c-c6a9106ddde9"
+              ],
+              "text": "I can sell you a starting house in Rimmington for\n1000 coins. As you increase your construction skill you\nwill be able to have your house moved to other areas\nand redecorated in other styles."
+            },
+            "a7c52c83-5e83-4b52-9a9f-fb1219ecf7ca": {
+              "id": "a7c52c83-5e83-4b52-9a9f-fb1219ecf7ca",
+              "type": "dialogue",
+              "selected": false,
+              "x": -278.42857142857093,
+              "y": 410.9285714285714,
+              "ports": [
+                {
+                  "id": "20ab2e9d-37f1-42de-a13f-58895efaf49f",
+                  "type": "default",
+                  "x": -291.42188425793717,
+                  "y": 441.92186964851567,
+                  "name": "in-1657336757579 ",
+                  "alignment": "left",
+                  "parentNode": "a7c52c83-5e83-4b52-9a9f-fb1219ecf7ca",
+                  "links": [
+                    "2d79dba8-5c32-4fff-93e9-614b090b0b0d"
+                  ],
+                  "in": true,
+                  "label": "❯"
+                },
+                {
+                  "id": "dc550e2f-c106-4985-8eca-4bc583f49db0",
+                  "type": "default",
+                  "x": 38.01559870899581,
+                  "y": 441.92186964851567,
+                  "name": "out-1657336757579",
+                  "alignment": "right",
+                  "parentNode": "a7c52c83-5e83-4b52-9a9f-fb1219ecf7ca",
+                  "links": [
+                    "18695660-dc10-4f84-aa70-1cb033c464f5"
+                  ],
+                  "in": false,
+                  "label": "❯"
+                }
+              ],
+              "title": "Estate agent",
+              "color": "#dd341ee6",
+              "portsInOrder": [
+                "20ab2e9d-37f1-42de-a13f-58895efaf49f"
+              ],
+              "portsOutOrder": [
+                "dc550e2f-c106-4985-8eca-4bc583f49db0"
+              ],
+              "text": "Do you want to buy a starter house?"
+            },
+            "2cafdf10-d0e1-46e1-9ea6-303e7aac5238": {
+              "id": "2cafdf10-d0e1-46e1-9ea6-303e7aac5238",
+              "type": "option",
+              "selected": false,
+              "x": -281.57079934130564,
+              "y": 475.5683741411162,
+              "ports": [
+                {
+                  "id": "dc8970c3-5bfb-42f6-950d-8d674eb96d1a",
+                  "type": "default",
+                  "x": -294.562526291004,
+                  "y": 506.5624861319822,
+                  "name": "in-1657336968834 ",
+                  "alignment": "left",
+                  "parentNode": "2cafdf10-d0e1-46e1-9ea6-303e7aac5238",
+                  "links": [
+                    "18695660-dc10-4f84-aa70-1cb033c464f5"
+                  ],
+                  "in": true,
+                  "label": "❯"
+                },
+                {
+                  "id": "bcafe27e-8d4b-428a-bd5c-64143a7b8dfa",
+                  "type": "default",
+                  "x": -82.31245815873669,
+                  "y": 515.5625031650491,
+                  "name": "out-1657336968834",
+                  "alignment": "right",
+                  "parentNode": "2cafdf10-d0e1-46e1-9ea6-303e7aac5238",
+                  "links": [
+                    "55ff4854-74a1-4e6d-b280-579743c952ab"
+                  ],
+                  "in": false,
+                  "label": "❯"
+                },
+                {
+                  "id": "078758d3-c390-4b7f-8fe5-2d2038bbec04",
+                  "type": "default",
+                  "x": -82.32812858024832,
+                  "y": 551.5624861319822,
+                  "name": "out-1657336979318",
+                  "alignment": "right",
+                  "parentNode": "2cafdf10-d0e1-46e1-9ea6-303e7aac5238",
+                  "links": [
+                    "f6e56b26-3378-4a9c-b822-5bc75c7654d1"
+                  ],
+                  "in": false,
+                  "label": "❯"
+                }
+              ],
+              "title": "Select an option.",
+              "color": "#0756b1e6",
+              "portsInOrder": [
+                "dc8970c3-5bfb-42f6-950d-8d674eb96d1a"
+              ],
+              "portsOutOrder": [
+                "bcafe27e-8d4b-428a-bd5c-64143a7b8dfa",
+                "078758d3-c390-4b7f-8fe5-2d2038bbec04"
+              ],
+              "options": [
+                {
+                  "conditions": [
+                    ""
+                  ],
+                  "args": [],
+                  "text": "Yes please!"
+                },
+                {
+                  "conditions": [
+                    ""
+                  ],
+                  "args": [],
+                  "text": "No thanks."
+                }
+              ]
+            },
+            "963c07a0-c225-4c76-aa85-1cba659bc2f0": {
+              "id": "963c07a0-c225-4c76-aa85-1cba659bc2f0",
+              "type": "dialogue",
+              "selected": false,
+              "x": -92.83333333333317,
+              "y": 604.4999999999998,
+              "ports": [
+                {
+                  "id": "798ad55f-dcbc-41ff-96c5-c8c216ebec6a",
+                  "type": "default",
+                  "x": -105.82813993562621,
+                  "y": 635.4999918096711,
+                  "name": "in-1657336757579 ",
+                  "alignment": "left",
+                  "parentNode": "963c07a0-c225-4c76-aa85-1cba659bc2f0",
+                  "links": [
+                    "f6e56b26-3378-4a9c-b822-5bc75c7654d1"
+                  ],
+                  "in": true,
+                  "label": "❯"
+                },
+                {
+                  "id": "34057987-8d1f-44a8-bb2f-e9d3fc0f9725",
+                  "type": "default",
+                  "x": 40.39068955201907,
+                  "y": 635.4999918096711,
+                  "name": "out-1657336757579",
+                  "alignment": "right",
+                  "parentNode": "963c07a0-c225-4c76-aa85-1cba659bc2f0",
+                  "links": [
+                    "de09f26a-7840-4b70-a6b4-feb2cddaeae0"
+                  ],
+                  "in": false,
+                  "label": "❯"
+                }
+              ],
+              "title": "<player>",
+              "color": "#dd341ee6",
+              "portsInOrder": [
+                "798ad55f-dcbc-41ff-96c5-c8c216ebec6a"
+              ],
+              "portsOutOrder": [
+                "34057987-8d1f-44a8-bb2f-e9d3fc0f9725"
+              ],
+              "text": "No thanks."
+            },
+            "98426974-9e8e-4df9-b7c7-74e091a4703f": {
+              "id": "98426974-9e8e-4df9-b7c7-74e091a4703f",
+              "type": "dialogue",
+              "selected": false,
+              "x": -96.28571428571394,
+              "y": 669.8571428571427,
+              "ports": [
+                {
+                  "id": "54bf62ab-9580-40ff-be3c-56b3e7d16622",
+                  "type": "default",
+                  "x": -109.2812535802483,
+                  "y": 700.8437758758048,
+                  "name": "in-1657336757579 ",
+                  "alignment": "left",
+                  "parentNode": "98426974-9e8e-4df9-b7c7-74e091a4703f",
+                  "links": [
+                    "de09f26a-7840-4b70-a6b4-feb2cddaeae0"
+                  ],
+                  "in": true,
+                  "label": "❯"
+                },
+                {
+                  "id": "dfb72430-f19b-4fd6-8a12-4501d2bb7aa8",
+                  "type": "default",
+                  "x": 293.45317819664103,
+                  "y": 700.8437758758048,
+                  "name": "out-1657336757579",
+                  "alignment": "right",
+                  "parentNode": "98426974-9e8e-4df9-b7c7-74e091a4703f",
+                  "links": [],
+                  "in": false,
+                  "label": "❯"
+                }
+              ],
+              "title": "Estate agent",
+              "color": "#dd341ee6",
+              "portsInOrder": [
+                "54bf62ab-9580-40ff-be3c-56b3e7d16622"
+              ],
+              "portsOutOrder": [
+                "dfb72430-f19b-4fd6-8a12-4501d2bb7aa8"
+              ],
+              "text": "Well enjoy your player-owned cardboard box or\nwherever you're going to sleep tonight!"
+            },
+            "74c07148-ad5a-4569-b233-d07b1f5b4dfb": {
+              "id": "74c07148-ad5a-4569-b233-d07b1f5b4dfb",
+              "type": "dialogue",
+              "selected": false,
+              "x": -662.8333333333327,
+              "y": 584.8571428571427,
+              "ports": [
+                {
+                  "id": "b8235220-394b-44d4-86d9-0a7e5a580047",
+                  "type": "default",
+                  "x": -675.8281399356259,
+                  "y": 615.84374748736,
+                  "name": "in-1657336757579 ",
+                  "alignment": "left",
+                  "parentNode": "74c07148-ad5a-4569-b233-d07b1f5b4dfb",
+                  "links": [
+                    "55ff4854-74a1-4e6d-b280-579743c952ab"
+                  ],
+                  "in": true,
+                  "label": "❯"
+                },
+                {
+                  "id": "893a9672-e084-48bd-8377-1a0dfa29835d",
+                  "type": "default",
+                  "x": -522.2812592579371,
+                  "y": 615.84374748736,
+                  "name": "out-1657336757579",
+                  "alignment": "right",
+                  "parentNode": "74c07148-ad5a-4569-b233-d07b1f5b4dfb",
+                  "links": [
+                    "af29fed7-f569-43e0-baae-ab9f3675537f"
+                  ],
+                  "in": false,
+                  "label": "❯"
+                }
+              ],
+              "title": "<player>",
+              "color": "#dd341ee6",
+              "portsInOrder": [
+                "b8235220-394b-44d4-86d9-0a7e5a580047"
+              ],
+              "portsOutOrder": [
+                "893a9672-e084-48bd-8377-1a0dfa29835d"
+              ],
+              "text": "Yes please!"
+            },
+            "95b799c4-c613-4bbd-837c-7dfb07dfce03": {
+              "id": "95b799c4-c613-4bbd-837c-7dfb07dfce03",
+              "type": "condition",
+              "selected": false,
+              "x": -661.927942198448,
+              "y": 649.1398027125445,
+              "ports": [
+                {
+                  "id": "89d6c108-8e02-4011-93d9-384d8b30e7c5",
+                  "type": "default",
+                  "x": -674.9218104479806,
+                  "y": 680.1250088427379,
+                  "name": "in-1657337015358 ",
+                  "alignment": "left",
+                  "parentNode": "95b799c4-c613-4bbd-837c-7dfb07dfce03",
+                  "links": [
+                    "af29fed7-f569-43e0-baae-ab9f3675537f"
+                  ],
+                  "in": true,
+                  "label": "❯"
+                },
+                {
+                  "id": "6d907d9e-ca7d-4289-8aaa-c7189532e2a3",
+                  "type": "default",
+                  "x": -302.5156058694924,
+                  "y": 680.1250088427379,
+                  "name": "out-1657337015358",
+                  "alignment": "right",
+                  "parentNode": "95b799c4-c613-4bbd-837c-7dfb07dfce03",
+                  "links": [],
+                  "in": false,
+                  "label": "true"
+                },
+                {
+                  "id": "4d8c2f97-be3c-4916-85f1-6b42f0a4fb5b",
+                  "type": "default",
+                  "x": -300.37497519180346,
+                  "y": 697.1250315534937,
+                  "name": "out-16573370153581",
+                  "alignment": "right",
+                  "parentNode": "95b799c4-c613-4bbd-837c-7dfb07dfce03",
+                  "links": [
+                    "af6577df-575e-4450-8bac-1a6d00a492a5"
+                  ],
+                  "in": false,
+                  "label": "false"
+                }
+              ],
+              "title": "Condition",
+              "color": "#02630ae6",
+              "portsInOrder": [
+                "89d6c108-8e02-4011-93d9-384d8b30e7c5"
+              ],
+              "portsOutOrder": [
+                "6d907d9e-ca7d-4289-8aaa-c7189532e2a3",
+                "4d8c2f97-be3c-4916-85f1-6b42f0a4fb5b"
+              ],
+              "conditions": {
+                "conditions": [
+                  "hasItem"
+                ],
+                "args": [
+                  [
+                    "COINS",
+                    "1,000",
+                    "false"
+                  ]
+                ]
+              }
+            },
+            "239b44e8-d616-48cf-b742-d1babf1f44ae": {
+              "id": "239b44e8-d616-48cf-b742-d1babf1f44ae",
+              "type": "dialogue",
+              "selected": false,
+              "x": -433.5476190476186,
+              "y": 756.9999999999998,
+              "ports": [
+                {
+                  "id": "2aa4d6c3-4ba7-43bf-aa7d-9b11fbf1507b",
+                  "type": "default",
+                  "x": -446.5468785802481,
+                  "y": 788.0000201981157,
+                  "name": "in-1657336757579 ",
+                  "alignment": "left",
+                  "parentNode": "239b44e8-d616-48cf-b742-d1babf1f44ae",
+                  "links": [
+                    "af6577df-575e-4450-8bac-1a6d00a492a5"
+                  ],
+                  "in": true,
+                  "label": "❯"
+                },
+                {
+                  "id": "36e896af-43aa-41a7-87fb-2686dc2056a2",
+                  "type": "default",
+                  "x": -139.09371951411458,
+                  "y": 788.0000201981157,
+                  "name": "out-1657336757579",
+                  "alignment": "right",
+                  "parentNode": "239b44e8-d616-48cf-b742-d1babf1f44ae",
+                  "links": [
+                    "71a3ebe4-460d-4ab7-b685-af68489cb856"
+                  ],
+                  "in": false,
+                  "label": "❯"
+                }
+              ],
+              "title": "<player>",
+              "color": "#dd341ee6",
+              "portsInOrder": [
+                "2aa4d6c3-4ba7-43bf-aa7d-9b11fbf1507b"
+              ],
+              "portsOutOrder": [
+                "36e896af-43aa-41a7-87fb-2686dc2056a2"
+              ],
+              "text": "I haven't got 1,000 coins on me."
+            },
+            "1fe389b5-539d-47fd-b870-d300b20d86fc": {
+              "id": "1fe389b5-539d-47fd-b870-d300b20d86fc",
+              "type": "dialogue",
+              "selected": false,
+              "x": -435.9285714285708,
+              "y": 821.6428571428569,
+              "ports": [
+                {
+                  "id": "0a08ca46-0808-44cb-89a5-d1ca1c645b46",
+                  "type": "default",
+                  "x": -448.9218842579371,
+                  "y": 852.6405940989151,
+                  "name": "in-1657336757579 ",
+                  "alignment": "left",
+                  "parentNode": "1fe389b5-539d-47fd-b870-d300b20d86fc",
+                  "links": [
+                    "71a3ebe4-460d-4ab7-b685-af68489cb856"
+                  ],
+                  "in": true,
+                  "label": "❯"
+                },
+                {
+                  "id": "7e6a2afd-a6ba-4120-b532-fac54c712fb8",
+                  "type": "default",
+                  "x": -104.8281285802483,
+                  "y": 852.6405940989151,
+                  "name": "out-1657336757579",
+                  "alignment": "right",
+                  "parentNode": "1fe389b5-539d-47fd-b870-d300b20d86fc",
+                  "links": [],
+                  "in": false,
+                  "label": "❯"
+                }
+              ],
+              "title": "Estate agent",
+              "color": "#dd341ee6",
+              "portsInOrder": [
+                "0a08ca46-0808-44cb-89a5-d1ca1c645b46"
+              ],
+              "portsOutOrder": [
+                "7e6a2afd-a6ba-4120-b532-fac54c712fb8"
+              ],
+              "text": "Well come back when you have it then."
+            },
+            "c1a7b3ab-123f-4c5d-9293-bda983e196b0": {
+              "id": "c1a7b3ab-123f-4c5d-9293-bda983e196b0",
+              "type": "action",
+              "selected": true,
+              "x": -1003.713656484162,
+              "y": 743.4255169982589,
+              "ports": [
+                {
+                  "id": "b6cdf94d-ff6b-47c7-b9c1-b7990d3c7b79",
+                  "type": "default",
+                  "x": -1016.7031143860255,
+                  "y": 774.4218554542931,
+                  "name": "in-1657337052656 ",
+                  "alignment": "left",
+                  "parentNode": "c1a7b3ab-123f-4c5d-9293-bda983e196b0",
+                  "links": [],
+                  "in": true,
+                  "label": "❯"
+                },
+                {
+                  "id": "cc31573e-08c3-4eb2-8087-50dfc939aaab",
+                  "type": "default",
+                  "x": -667.0937535802481,
+                  "y": 774.4218554542931,
+                  "name": "out-1657337052656",
+                  "alignment": "right",
+                  "parentNode": "c1a7b3ab-123f-4c5d-9293-bda983e196b0",
+                  "links": [
+                    "06148eb8-d65d-40f6-ad04-42e31380fa6e"
+                  ],
+                  "in": false,
+                  "label": "❯"
+                }
+              ],
+              "title": "Action",
+              "color": "#3e077ee6",
+              "portsInOrder": [
+                "b6cdf94d-ff6b-47c7-b9c1-b7990d3c7b79"
+              ],
+              "portsOutOrder": [
+                "cc31573e-08c3-4eb2-8087-50dfc939aaab"
+              ],
+              "actions": {
+                "actions": [
+                  "takeItem",
+                  "giveItem",
+                  "basicAction"
+                ],
+                "args": [
+                  [
+                    "COINS",
+                    "1,000",
+                    "false"
+                  ],
+                  [
+                    "CONSTRUCTION_GUIDE",
+                    "1"
+                  ],
+                  [
+                    "EMPTY_ACTION"
+                  ]
+                ]
+              }
+            },
+            "57be620f-e31d-4809-836a-fa90f2f486b3": {
+              "id": "57be620f-e31d-4809-836a-fa90f2f486b3",
+              "type": "note",
+              "selected": false,
+              "x": -1101.2136564841621,
+              "y": 669.4969455696873,
+              "ports": [],
+              "title": "Note",
+              "color": "#19e0e7e6",
+              "portsInOrder": [],
+              "portsOutOrder": [],
+              "text": "setup house action"
+            },
+            "7feb2d07-3463-46cd-b468-49fe97b27d30": {
+              "id": "7feb2d07-3463-46cd-b468-49fe97b27d30",
+              "type": "dialogue",
+              "selected": false,
+              "x": -1007.8333333333323,
+              "y": 893.7857142857139,
+              "ports": [
+                {
+                  "id": "0598e0e6-a327-427f-86a2-cf2c37dce346",
+                  "type": "default",
+                  "x": -1020.8281399356258,
+                  "y": 924.7812531650488,
+                  "name": "in-1657336757579 ",
+                  "alignment": "left",
+                  "parentNode": "7feb2d07-3463-46cd-b468-49fe97b27d30",
+                  "links": [
+                    "06148eb8-d65d-40f6-ad04-42e31380fa6e"
+                  ],
+                  "in": true,
+                  "label": "❯"
+                },
+                {
+                  "id": "bb88602c-a5c1-485f-8018-8f000cab1a93",
+                  "type": "default",
+                  "x": -574.1249751918033,
+                  "y": 924.7812531650488,
+                  "name": "out-1657336757579",
+                  "alignment": "right",
+                  "parentNode": "7feb2d07-3463-46cd-b468-49fe97b27d30",
+                  "links": [
+                    "5aaafbc9-2f1d-4335-aecc-ad516f0aa89d"
+                  ],
+                  "in": false,
+                  "label": "❯"
+                }
+              ],
+              "title": "Estate agent",
+              "color": "#dd341ee6",
+              "portsInOrder": [
+                "0598e0e6-a327-427f-86a2-cf2c37dce346"
+              ],
+              "portsOutOrder": [
+                "bb88602c-a5c1-485f-8018-8f000cab1a93"
+              ],
+              "text": "Thank you. Go through the Rimmington house portal\nand you will find your house ready for you to start\nbuilding in it."
+            },
+            "b7a31da6-35cc-4f73-bd61-be8f53a973f5": {
+              "id": "b7a31da6-35cc-4f73-bd61-be8f53a973f5",
+              "type": "dialogue",
+              "selected": false,
+              "x": -1008.9047619047609,
+              "y": 994.4999999999995,
+              "ports": [
+                {
+                  "id": "29fe8303-2e5f-4f8d-adb9-8cdaa24f1e17",
+                  "type": "default",
+                  "x": -1021.8906200637144,
+                  "y": 1025.499991809671,
+                  "name": "in-1657336757579 ",
+                  "alignment": "left",
+                  "parentNode": "b7a31da6-35cc-4f73-bd61-be8f53a973f5",
+                  "links": [
+                    "5aaafbc9-2f1d-4335-aecc-ad516f0aa89d"
+                  ],
+                  "in": true,
+                  "label": "❯"
+                },
+                {
+                  "id": "8ea7f63c-6e4e-4800-9f37-25b22e00193d",
+                  "type": "default",
+                  "x": -560.5312251918033,
+                  "y": 1025.499991809671,
+                  "name": "out-1657336757579",
+                  "alignment": "right",
+                  "parentNode": "b7a31da6-35cc-4f73-bd61-be8f53a973f5",
+                  "links": [],
+                  "in": false,
+                  "label": "❯"
+                }
+              ],
+              "title": "<player>",
+              "color": "#dd341ee6",
+              "portsInOrder": [
+                "29fe8303-2e5f-4f8d-adb9-8cdaa24f1e17"
+              ],
+              "portsOutOrder": [
+                "8ea7f63c-6e4e-4800-9f37-25b22e00193d"
+              ],
+              "text": "This book will help you to start building your house."
+            }
+          }
+        }
+      ]
+    },
+    "estate_house": {
+      "id": "e0048f07-5b55-43dc-8b74-323320d37f9f",
+      "offsetX": 513.2098263513863,
+      "offsetY": 1.7269775125465685,
+      "zoom": 81.66666666666673,
+      "gridSize": 0,
+      "layers": [
+        {
+          "id": "0c4f4789-f347-445b-897c-ad8db8c69ce8",
+          "type": "diagram-links",
+          "isSvg": true,
+          "transformed": true,
+          "models": {
+            "439b2ef8-c383-4089-acf8-470e66c68980": {
+              "id": "439b2ef8-c383-4089-acf8-470e66c68980",
+              "type": "default",
+              "selected": false,
+              "source": "57145d18-85d2-4e3f-87a0-686be4f4f3e0",
+              "sourcePort": "10ba2efc-7a32-4737-a7d5-cc841907892e",
+              "target": "a1477683-cb4e-4204-8a58-84b775647109",
+              "targetPort": "e640de28-da39-4c17-89f4-f9d341e36602",
+              "points": [
+                {
+                  "id": "19e59f00-164a-4b39-9553-f8194489819f",
+                  "type": "point",
+                  "x": 133.29691025531775,
+                  "y": 64.50000003246844
+                },
+                {
+                  "id": "a27e9db5-56f4-4fb4-a1fe-33fab8e59a99",
+                  "type": "point",
+                  "x": 187.50001532547077,
+                  "y": 69.49999847544913
+                }
+              ],
+              "labels": [],
+              "width": 3,
+              "color": "gray",
+              "curvyness": 50,
+              "selectedColor": "rgb(0,192,255)"
+            },
+            "6829b160-f18d-45c9-83e3-4679538e4700": {
+              "id": "6829b160-f18d-45c9-83e3-4679538e4700",
+              "type": "default",
+              "selected": false,
+              "source": "a1477683-cb4e-4204-8a58-84b775647109",
+              "sourcePort": "fd9c7b84-cd37-408e-a408-1ae9ded6b789",
+              "target": "4aa4b0d1-673a-4d16-b437-40b392c5110a",
+              "targetPort": "cea5c389-b1e0-4857-bb12-ca871f320d18",
+              "points": [
+                {
+                  "id": "257a6ea6-de03-402f-aac7-f4729d5e5d23",
+                  "type": "point",
+                  "x": 634.2030705710062,
+                  "y": 69.49999847544913
+                },
+                {
+                  "id": "4d5e5ff0-4b31-4b00-accc-8e867a41dbbe",
+                  "type": "point",
+                  "x": 189.5000502027029,
+                  "y": 146.50000999739186
+                }
+              ],
+              "labels": [],
+              "width": 3,
+              "color": "gray",
+              "curvyness": 50,
+              "selectedColor": "rgb(0,192,255)"
+            },
+            "dadfd941-9412-42db-8b43-d6d1eb679964": {
+              "id": "dadfd941-9412-42db-8b43-d6d1eb679964",
+              "type": "default",
+              "selected": false,
+              "source": "dbe14256-40c6-44ac-9d1f-f2fc12b9cc40",
+              "sourcePort": "dd006992-c104-47e8-9e6b-8a177a46f988",
+              "target": "d5d44262-98cd-486e-8feb-0da8434b3123",
+              "targetPort": "ae79fa13-844a-4e0c-89ab-a1046a8386ab",
+              "points": [
+                {
+                  "id": "93e8603f-23ba-414b-9df0-765222ecba62",
+                  "type": "point",
+                  "x": 1021.1875850799343,
+                  "y": 439.20310759385205
+                },
+                {
+                  "id": "fc02a583-9614-4d60-8f12-58e6e852e666",
+                  "type": "point",
+                  "x": 794.2187155008529,
+                  "y": 497.54686257631374
+                }
+              ],
+              "labels": [],
+              "width": 3,
+              "color": "gray",
+              "curvyness": 50,
+              "selectedColor": "rgb(0,192,255)"
+            },
+            "cb1b0d73-29d0-4950-94fb-b85d30b6c971": {
+              "id": "cb1b0d73-29d0-4950-94fb-b85d30b6c971",
+              "type": "default",
+              "selected": false,
+              "source": "34c1126a-a559-4873-9d62-a419cb00dc02",
+              "sourcePort": "167a95ab-7b34-4e3d-ab2a-357e7202920f",
+              "target": "048f651f-8d80-41ed-8881-68c38d582cd8",
+              "targetPort": "835fb3d3-0ad6-478b-967f-b8f9e6b84a97",
+              "points": [
+                {
+                  "id": "6a5e62a9-be1b-4da7-99d7-9c483264ade7",
+                  "type": "point",
+                  "x": 1239.0469202202403,
+                  "y": 597.2031349973914
+                },
+                {
+                  "id": "51e6e788-7704-4b6a-9e7d-9183f4429cba",
+                  "type": "point",
+                  "x": 793.343695571006,
+                  "y": 693.2030901552358
+                }
+              ],
+              "labels": [],
+              "width": 3,
+              "color": "gray",
+              "curvyness": 50,
+              "selectedColor": "rgb(0,192,255)"
+            },
+            "b5c31839-46bb-4ce1-9aaa-9f227a45b513": {
+              "id": "b5c31839-46bb-4ce1-9aaa-9f227a45b513",
+              "type": "default",
+              "selected": false,
+              "source": "048f651f-8d80-41ed-8881-68c38d582cd8",
+              "sourcePort": "f2e343cb-d712-45de-9ed5-4e7c5370f2bb",
+              "target": "3db1f7d2-7eee-40ed-9625-874bfa5907f1",
+              "targetPort": "697e2562-fb01-4eb6-b761-94cb0e6a12c6",
+              "points": [
+                {
+                  "id": "215271c4-1508-4aec-a638-d9f76f6f2a4e",
+                  "type": "point",
+                  "x": 1240.0469002903933,
+                  "y": 693.2030901552358
+                },
+                {
+                  "id": "2842a141-ba45-46ff-8339-7f52e38d291a",
+                  "type": "point",
+                  "x": 790.3437553605468,
+                  "y": 775.2031001201592
+                }
+              ],
+              "labels": [],
+              "width": 3,
+              "color": "gray",
+              "curvyness": 50,
+              "selectedColor": "rgb(0,192,255)"
+            },
+            "10ca95e9-74e1-4799-99fe-9aef19c55a1a": {
+              "id": "10ca95e9-74e1-4799-99fe-9aef19c55a1a",
+              "type": "default",
+              "selected": false,
+              "source": "3db1f7d2-7eee-40ed-9625-874bfa5907f1",
+              "sourcePort": "bdb6a7a0-f9db-410e-a9ec-1439f999d616",
+              "target": "10876425-b9a8-4b42-9269-7fa2b27015f8",
+              "targetPort": "36a66d01-cb90-46e1-9438-ba44fd284241",
+              "points": [
+                {
+                  "id": "fbfcb467-9daf-40f8-b21f-260f5c088019",
+                  "type": "point",
+                  "x": 1273.6874854306996,
+                  "y": 775.2031001201592
+                },
+                {
+                  "id": "75c080e3-3229-4a8c-b2c8-acd2e0406dc2",
+                  "type": "point",
+                  "x": 790.3437553605468,
+                  "y": 867.2031349973913
+                }
+              ],
+              "labels": [],
+              "width": 3,
+              "color": "gray",
+              "curvyness": 50,
+              "selectedColor": "rgb(0,192,255)"
+            },
+            "9d0ccac3-08a9-45a7-b91c-d5ffad71b569": {
+              "id": "9d0ccac3-08a9-45a7-b91c-d5ffad71b569",
+              "type": "default",
+              "selected": false,
+              "source": "10876425-b9a8-4b42-9269-7fa2b27015f8",
+              "sourcePort": "fe91e75e-4ef6-4313-880c-e8253e741d9f",
+              "target": "742c285a-e112-4954-8e2a-476e5ad413ad",
+              "targetPort": "53c48323-9e03-4ca9-abbb-f7a12111b015",
+              "points": [
+                {
+                  "id": "ebd33df8-f024-4c82-855d-813490f05a2d",
+                  "type": "point",
+                  "x": 1259.0312752903933,
+                  "y": 867.2031349973913
+                },
+                {
+                  "id": "191f65a9-b218-4a58-9e54-f241b3f38d96",
+                  "type": "point",
+                  "x": 792.3437155008529,
+                  "y": 947.2031100850826
+                }
+              ],
+              "labels": [],
+              "width": 3,
+              "color": "gray",
+              "curvyness": 50,
+              "selectedColor": "rgb(0,192,255)"
+            },
+            "c5e5af3e-405f-4a6a-9dd6-8aeaf586350b": {
+              "id": "c5e5af3e-405f-4a6a-9dd6-8aeaf586350b",
+              "type": "default",
+              "selected": false,
+              "source": "d5d44262-98cd-486e-8feb-0da8434b3123",
+              "sourcePort": "3f304935-4f9f-4c2b-babf-fb2ee36e90eb",
+              "target": "34c1126a-a559-4873-9d62-a419cb00dc02",
+              "targetPort": "abd8ca1b-c5d1-4477-a6e3-d7d2c8b76b6e",
+              "points": [
+                {
+                  "id": "8a06329d-f31d-47c9-9d33-1d372a6123ab",
+                  "type": "point",
+                  "x": 1270.2343405008526,
+                  "y": 497.54686257631374
+                },
+                {
+                  "id": "26699ea9-b6d6-439a-b3ee-32a52857874e",
+                  "type": "point",
+                  "x": 792.3437155008529,
+                  "y": 597.2031349973914
+                }
+              ],
+              "labels": [],
+              "width": 3,
+              "color": "gray",
+              "curvyness": 50,
+              "selectedColor": "rgb(0,192,255)"
+            },
+            "f4d777bb-f97c-447f-83be-0b2c7c5a6a36": {
+              "id": "f4d777bb-f97c-447f-83be-0b2c7c5a6a36",
+              "type": "default",
+              "selected": false,
+              "source": "4aa4b0d1-673a-4d16-b437-40b392c5110a",
+              "sourcePort": "f389a085-5a3c-46d5-95e3-4c8deedd110d",
+              "target": "dbe14256-40c6-44ac-9d1f-f2fc12b9cc40",
+              "targetPort": "cb6ecd98-a6ce-4b5c-bb6f-eed83e8f1818",
+              "points": [
+                {
+                  "id": "15d289c0-d457-4e45-aa26-1acbacc8144d",
+                  "type": "point",
+                  "x": 646.3750252903939,
+                  "y": 263.49999505000653
+                },
+                {
+                  "id": "b6e43d42-a6f9-4dbe-ba6b-aa8b57fa3547",
+                  "type": "point",
+                  "x": 794.3438251150111,
+                  "y": 439.20310759385205
+                }
+              ],
+              "labels": [],
+              "width": 3,
+              "color": "gray",
+              "curvyness": 50,
+              "selectedColor": "rgb(0,192,255)"
+            },
+            "c9249421-0c96-4611-81a8-82265603253e": {
+              "id": "c9249421-0c96-4611-81a8-82265603253e",
+              "type": "default",
+              "selected": false,
+              "source": "4aa4b0d1-673a-4d16-b437-40b392c5110a",
+              "sourcePort": "f69795a5-54e0-4c79-ae0a-a187c35ea2cf",
+              "target": "e29842ab-0b71-4449-83a3-d528768a34f9",
+              "targetPort": "9d791067-b8cb-4d86-8b08-eb252801aa4a",
+              "points": [
+                {
+                  "id": "c033ab1b-1c3a-43e4-8812-4f0e86a2c936",
+                  "type": "point",
+                  "x": 646.3905705710062,
+                  "y": 299.50002494477695
+                },
+                {
+                  "id": "b5c95aeb-fd0a-49bc-91d0-4a047b2d7b61",
+                  "type": "point",
+                  "x": 1323.3282001150108,
+                  "y": 437.76561755877555
+                }
+              ],
+              "labels": [],
+              "width": 3,
+              "color": "gray",
+              "curvyness": 50,
+              "selectedColor": "rgb(0,192,255)"
+            },
+            "95091eef-7068-435b-8136-4b9703a7b8b2": {
+              "id": "95091eef-7068-435b-8136-4b9703a7b8b2",
+              "type": "default",
+              "selected": false,
+              "source": "e29842ab-0b71-4449-83a3-d528768a34f9",
+              "sourcePort": "10b111ae-149f-4f87-aec9-2941be11c809",
+              "target": "15ad86b3-62ea-43e8-b70f-cc608029ff02",
+              "targetPort": "0835789c-034a-49df-bfe2-556190c75f2c",
+              "points": [
+                {
+                  "id": "4a254994-0239-45ce-8590-11492572fa2f",
+                  "type": "point",
+                  "x": 1718.7342209217707,
+                  "y": 437.76561755877555
+                },
+                {
+                  "id": "4d56b8f8-af87-407e-a9bb-f08faafbfae9",
+                  "type": "point",
+                  "x": 1328.093725465776,
+                  "y": 505.90626248862236
+                }
+              ],
+              "labels": [],
+              "width": 3,
+              "color": "gray",
+              "curvyness": 50,
+              "selectedColor": "rgb(0,192,255)"
+            },
+            "01c2fd1e-64f8-47d6-997b-d9b72a2e91cf": {
+              "id": "01c2fd1e-64f8-47d6-997b-d9b72a2e91cf",
+              "type": "default",
+              "selected": false,
+              "source": "15ad86b3-62ea-43e8-b70f-cc608029ff02",
+              "sourcePort": "8e3c358a-2f8b-4668-92a1-af8caff9cde2",
+              "target": "935291dd-f087-4f61-a92e-0334298145ea",
+              "targetPort": "3dd906b1-f614-4e12-82ab-5139f70f59e4",
+              "points": [
+                {
+                  "id": "009e83cc-19ae-4e82-b4ab-daad602b545e",
+                  "type": "point",
+                  "x": 1833.437465500852,
+                  "y": 505.90626248862236
+                },
+                {
+                  "id": "420d2f16-7121-4b8f-8904-63c76edfc000",
+                  "type": "point",
+                  "x": 1330.5468903254698,
+                  "y": 617.1250099973914
+                }
+              ],
+              "labels": [],
+              "width": 3,
+              "color": "gray",
+              "curvyness": 50,
+              "selectedColor": "rgb(0,192,255)"
+            },
+            "6dca42ee-8910-4d12-9680-b69ff3d3af8f": {
+              "id": "6dca42ee-8910-4d12-9680-b69ff3d3af8f",
+              "type": "default",
+              "selected": false,
+              "source": "935291dd-f087-4f61-a92e-0334298145ea",
+              "sourcePort": "7cca08ba-ceae-4471-8f9a-8ccd0d4d7d4f",
+              "target": "18b6bf93-d888-4431-a397-4ffc653cedce",
+              "targetPort": "7d94d535-87e3-41a8-8382-08e522e40682",
+              "points": [
+                {
+                  "id": "8f240e0b-33da-4df9-9438-d911da94d067",
+                  "type": "point",
+                  "x": 1813.8904709217704,
+                  "y": 617.1250099973914
+                },
+                {
+                  "id": "359001e9-69c2-45d2-83bb-7fceaa5fcab2",
+                  "type": "point",
+                  "x": 1328.093725465776,
+                  "y": 713.6562699623148
+                }
+              ],
+              "labels": [],
+              "width": 3,
+              "color": "gray",
+              "curvyness": 50,
+              "selectedColor": "rgb(0,192,255)"
+            },
+            "adb38b24-fa7b-4038-8940-6a0a8913c8c7": {
+              "id": "adb38b24-fa7b-4038-8940-6a0a8913c8c7",
+              "type": "default",
+              "selected": false,
+              "source": "4aa4b0d1-673a-4d16-b437-40b392c5110a",
+              "sourcePort": "e89c8c57-2293-4888-a48f-54987dc3e99a",
+              "target": "6b75974a-ca6e-4f8e-96f8-3aebb1e1ef3e",
+              "targetPort": "bf947ea4-6989-459b-9e2c-c3a939471802",
+              "points": [
+                {
+                  "id": "affc0586-da88-40d1-9272-35423291e620",
+                  "type": "point",
+                  "x": 646.3750252903939,
+                  "y": 227.50000252369918
+                },
+                {
+                  "id": "a4f087e0-c42e-403e-a072-f1542e4c8127",
+                  "type": "point",
+                  "x": 299.6563002027028,
+                  "y": 431.6562475412373
+                }
+              ],
+              "labels": [],
+              "width": 3,
+              "color": "gray",
+              "curvyness": 50,
+              "selectedColor": "rgb(0,192,255)"
+            },
+            "da9a1a69-5869-42ff-8b12-25c7e5b43cdd": {
+              "id": "da9a1a69-5869-42ff-8b12-25c7e5b43cdd",
+              "type": "default",
+              "selected": false,
+              "source": "2e34f769-ddfd-4d0a-891e-4777c5367f6d",
+              "sourcePort": "f3862477-af33-45cc-b57c-1c511c3d4c94",
+              "target": "8730e4c6-6506-4701-9567-1900857166f7",
+              "targetPort": "c765b2bc-f94a-430c-a3bc-f06e2196a7a4",
+              "points": [
+                {
+                  "id": "37d519f7-9174-424c-8b11-32e51f9c9591",
+                  "type": "point",
+                  "x": 418.79690029039403,
+                  "y": 586.7187400675446
+                },
+                {
+                  "id": "923a2b24-9399-41fc-a85b-67f3020171b0",
+                  "type": "point",
+                  "x": 269.75002030793246,
+                  "y": 648.6249801026211
+                }
+              ],
+              "labels": [],
+              "width": 3,
+              "color": "gray",
+              "curvyness": 50,
+              "selectedColor": "rgb(0,192,255)"
+            },
+            "1d545dd7-2472-4f1f-b338-dbb224055583": {
+              "id": "1d545dd7-2472-4f1f-b338-dbb224055583",
+              "type": "default",
+              "selected": false,
+              "source": "6b75974a-ca6e-4f8e-96f8-3aebb1e1ef3e",
+              "sourcePort": "7a57fd52-6b08-472e-8a75-e41e48ce8f6c",
+              "target": "0006cfc9-a56b-4cb9-8899-252b50a18b47",
+              "targetPort": "01b662b9-cd61-4225-87a2-fd6b10942470",
+              "points": [
+                {
+                  "id": "cdd1c2e9-990e-4fab-8fa8-6f5408111ae2",
+                  "type": "point",
+                  "x": 658.4218703956235,
+                  "y": 431.6562475412373
+                },
+                {
+                  "id": "70e5dd8f-b63c-423e-9fce-e06f3b449d13",
+                  "type": "point",
+                  "x": 277.0937453956238,
+                  "y": 509.03123757631374
+                }
+              ],
+              "labels": [],
+              "width": 3,
+              "color": "gray",
+              "curvyness": 50,
+              "selectedColor": "rgb(0,192,255)"
+            },
+            "a533e24d-6fbb-41bd-941a-63b3479ec559": {
+              "id": "a533e24d-6fbb-41bd-941a-63b3479ec559",
+              "type": "default",
+              "selected": false,
+              "source": "0006cfc9-a56b-4cb9-8899-252b50a18b47",
+              "sourcePort": "3510e323-0108-41d1-8e0b-cb6a82934b09",
+              "target": "2e34f769-ddfd-4d0a-891e-4777c5367f6d",
+              "targetPort": "26475d6d-27cd-4578-8081-90f7e2b16d84",
+              "points": [
+                {
+                  "id": "57b7bafb-ff80-48d3-b19c-e002586a6023",
+                  "type": "point",
+                  "x": 732.5937852553172,
+                  "y": 509.03123757631374
+                },
+                {
+                  "id": "01d67058-6b26-4717-adaa-9765d157d79f",
+                  "type": "point",
+                  "x": 272.5781403254707,
+                  "y": 586.7187400675446
+                }
+              ],
+              "labels": [],
+              "width": 3,
+              "color": "gray",
+              "curvyness": 50,
+              "selectedColor": "rgb(0,192,255)"
+            },
+            "89870428-3e06-4fbc-a62b-4e1643a0bd50": {
+              "id": "89870428-3e06-4fbc-a62b-4e1643a0bd50",
+              "type": "default",
+              "selected": false,
+              "source": "0006cfc9-a56b-4cb9-8899-252b50a18b47",
+              "sourcePort": "ead16136-9a37-4cd8-a315-0cc80f332fd3",
+              "target": "d9712757-2b7a-495b-b825-ce8122e78071",
+              "targetPort": "9d75ca67-fd6b-4e91-b0b1-7cbe583f2bc0",
+              "points": [
+                {
+                  "id": "fe8dba2b-a71b-497b-a037-ee3d6076b7e8",
+                  "type": "point",
+                  "x": 734.7344002903938,
+                  "y": 526.0312350850829
+                },
+                {
+                  "id": "d403bc5d-0a85-4fb5-a01c-e38be1be52ae",
+                  "type": "point",
+                  "x": 530.9531104307001,
+                  "y": 581.6249701376976
+                }
+              ],
+              "labels": [],
+              "width": 3,
+              "color": "gray",
+              "curvyness": 50,
+              "selectedColor": "rgb(0,192,255)"
+            },
+            "677441a5-ad4d-41f2-9a73-040a07a7854e": {
+              "id": "677441a5-ad4d-41f2-9a73-040a07a7854e",
+              "type": "default",
+              "selected": false,
+              "source": "4aa4b0d1-673a-4d16-b437-40b392c5110a",
+              "sourcePort": "9d7395c9-f5d1-49db-b82f-78391c190070",
+              "target": "0ea5906a-3082-4bdd-828b-6a905ef6252f",
+              "targetPort": "f4fee33f-8bf1-4f61-a3e3-844bf852de3a",
+              "points": [
+                {
+                  "id": "176c8a55-4a17-46e4-bcd6-a10e5532eec5",
+                  "type": "point",
+                  "x": 646.3905705710062,
+                  "y": 191.4999913131603
+                },
+                {
+                  "id": "cc76f060-7cf7-4555-9b84-68d04a5ff332",
+                  "type": "point",
+                  "x": -183.9999796920672,
+                  "y": 426.5468575938521
+                }
+              ],
+              "labels": [],
+              "width": 3,
+              "color": "gray",
+              "curvyness": 50,
+              "selectedColor": "rgb(0,192,255)"
+            },
+            "ffb5e03a-dc77-4208-a93e-a89facac27ba": {
+              "id": "ffb5e03a-dc77-4208-a93e-a89facac27ba",
+              "type": "default",
+              "selected": false,
+              "source": "0ea5906a-3082-4bdd-828b-6a905ef6252f",
+              "sourcePort": "7b117a98-ca5b-41b2-baa8-5ec574d1900c",
+              "target": "e2df0f19-1084-4be4-9b73-2d5293f9e667",
+              "targetPort": "623888b0-74c4-4b8b-8577-194019ae2c5b",
+              "points": [
+                {
+                  "id": "b204d37d-b1d6-4a2c-81e8-5e2d2629be10",
+                  "type": "point",
+                  "x": 145.43755020270294,
+                  "y": 426.5468575938521
+                },
+                {
+                  "id": "adc7c507-1421-45bc-a364-3fef3d79023c",
+                  "type": "point",
+                  "x": -197.60934970960545,
+                  "y": 494.8906374886224
+                }
+              ],
+              "labels": [],
+              "width": 3,
+              "color": "gray",
+              "curvyness": 50,
+              "selectedColor": "rgb(0,192,255)"
+            },
+            "6073808f-1d07-4605-b50c-119e9ba017b7": {
+              "id": "6073808f-1d07-4605-b50c-119e9ba017b7",
+              "type": "default",
+              "selected": false,
+              "source": "e2df0f19-1084-4be4-9b73-2d5293f9e667",
+              "sourcePort": "88402c5a-38d8-4143-b86c-3276f2d82b33",
+              "target": "044f3551-c79c-47b7-9e36-98cf8af19a7e",
+              "targetPort": "a5e2ab96-4d51-48c5-a782-a31cfb76a1b1",
+              "points": [
+                {
+                  "id": "6b7514f0-0edb-4c1c-9011-3011162f09ef",
+                  "type": "point",
+                  "x": 227.10939032547074,
+                  "y": 494.8906374886224
+                },
+                {
+                  "id": "5e75b6b5-6f3a-40e1-8659-057cb5d4eaf3",
+                  "type": "point",
+                  "x": -196.76556981483506,
+                  "y": 571.4843650675446
+                }
+              ],
+              "labels": [],
+              "width": 3,
+              "color": "gray",
+              "curvyness": 50,
+              "selectedColor": "rgb(0,192,255)"
+            },
+            "8586e6a3-14df-4c61-a1d7-1ffa28af57c6": {
+              "id": "8586e6a3-14df-4c61-a1d7-1ffa28af57c6",
+              "type": "default",
+              "selected": false,
+              "source": "4aa4b0d1-673a-4d16-b437-40b392c5110a",
+              "sourcePort": "d1dbfa40-64df-4964-9151-71b3e454feda",
+              "target": "04744e50-6e56-4d8a-8f80-50ea98cfe88f",
+              "targetPort": "9bf3dd63-ac93-43b6-96ad-c7c71f22eedd",
+              "points": [
+                {
+                  "id": "047d7565-3c85-41b5-9dda-d9515167bf0b",
+                  "type": "point",
+                  "x": 646.3750252903939,
+                  "y": 155.49999878685293
+                },
+                {
+                  "id": "560c5600-3136-4747-8e3c-048bd81b34fe",
+                  "type": "point",
+                  "x": -542.7812446394521,
+                  "y": 417.7656424710842
+                }
+              ],
+              "labels": [],
+              "width": 3,
+              "color": "gray",
+              "curvyness": 50,
+              "selectedColor": "rgb(0,192,255)"
+            },
+            "b232882d-0a3f-4ce0-87fd-7166528fcbd2": {
+              "id": "b232882d-0a3f-4ce0-87fd-7166528fcbd2",
+              "type": "default",
+              "selected": false,
+              "source": "04744e50-6e56-4d8a-8f80-50ea98cfe88f",
+              "sourcePort": "308f0690-637a-45cf-9683-6873a59d9018",
+              "target": "ad5ee851-244e-4bd7-b52d-a17eb6619e05",
+              "targetPort": "172f1300-c7db-47f5-bb1d-adad1e0bd458",
+              "points": [
+                {
+                  "id": "5c8ea8e0-b6fd-459e-9525-a914dbe5b2d5",
+                  "type": "point",
+                  "x": -257.3124946394523,
+                  "y": 417.7656424710842
+                },
+                {
+                  "id": "571bf101-ee11-41b1-a495-ef64127f9125",
+                  "type": "point",
+                  "x": -546.5781046920669,
+                  "y": 477.5468874886225
+                }
+              ],
+              "labels": [],
+              "width": 3,
+              "color": "gray",
+              "curvyness": 50,
+              "selectedColor": "rgb(0,192,255)"
+            },
+            "fd191d6d-3e16-486f-a21b-cb3f9fcfe2d9": {
+              "id": "fd191d6d-3e16-486f-a21b-cb3f9fcfe2d9",
+              "type": "default",
+              "selected": false,
+              "source": "ad5ee851-244e-4bd7-b52d-a17eb6619e05",
+              "sourcePort": "7d64d975-a085-4fb6-99ff-0688d9ac4b69",
+              "target": "69477314-0dd1-4d2b-9995-3d63ac5b3a89",
+              "targetPort": "d7d60d2e-57f0-4a38-9bd2-a27a0ce36ff5",
+              "points": [
+                {
+                  "id": "6eae9074-ea42-4ebe-a76e-9ee39e741a53",
+                  "type": "point",
+                  "x": -231.7968596745289,
+                  "y": 477.5468874886225
+                },
+                {
+                  "id": "68bd80a2-f76f-4754-bd9f-29ccb268f355",
+                  "type": "point",
+                  "x": -546.9687546043756,
+                  "y": 538.2187350850828
+                }
+              ],
+              "labels": [],
+              "width": 3,
+              "color": "gray",
+              "curvyness": 50,
+              "selectedColor": "rgb(0,192,255)"
+            }
+          }
+        },
+        {
+          "id": "ba6cfa1c-9835-473a-85d9-774cc748804d",
+          "type": "diagram-nodes",
+          "isSvg": false,
+          "transformed": true,
+          "models": {
+            "57145d18-85d2-4e3f-87a0-686be4f4f3e0": {
+              "id": "57145d18-85d2-4e3f-87a0-686be4f4f3e0",
+              "type": "start",
+              "selected": false,
+              "x": 50,
+              "y": 50,
+              "ports": [
+                {
+                  "id": "10ba2efc-7a32-4737-a7d5-cc841907892e",
+                  "type": "default",
+                  "x": 125.79691025531775,
+                  "y": 57.00000003246844,
+                  "name": "out-1657336745079",
+                  "alignment": "right",
+                  "parentNode": "57145d18-85d2-4e3f-87a0-686be4f4f3e0",
+                  "links": [
+                    "439b2ef8-c383-4089-acf8-470e66c68980"
+                  ],
+                  "in": false,
+                  "label": "❯"
+                }
+              ],
+              "title": "Start",
+              "color": "#16db26e6",
+              "portsInOrder": [],
+              "portsOutOrder": [
+                "10ba2efc-7a32-4737-a7d5-cc841907892e"
+              ]
+            },
+            "a1477683-cb4e-4204-8a58-84b775647109": {
+              "id": "a1477683-cb4e-4204-8a58-84b775647109",
+              "type": "dialogue",
+              "selected": false,
+              "x": 193,
+              "y": 31,
+              "ports": [
+                {
+                  "id": "e640de28-da39-4c17-89f4-f9d341e36602",
+                  "type": "default",
+                  "x": 180.00001532547077,
+                  "y": 61.999993804391266,
+                  "name": "in-1657336757579 ",
+                  "alignment": "left",
+                  "parentNode": "a1477683-cb4e-4204-8a58-84b775647109",
+                  "links": [
+                    "439b2ef8-c383-4089-acf8-470e66c68980"
+                  ],
+                  "in": true,
+                  "label": "❯"
+                },
+                {
+                  "id": "fd9c7b84-cd37-408e-a408-1ae9ded6b789",
+                  "type": "default",
+                  "x": 626.7030705710062,
+                  "y": 61.999993804391266,
+                  "name": "out-1657336757579",
+                  "alignment": "right",
+                  "parentNode": "a1477683-cb4e-4204-8a58-84b775647109",
+                  "links": [
+                    "6829b160-f18d-45c9-83e3-4679538e4700"
+                  ],
+                  "in": false,
+                  "label": "❯"
+                }
+              ],
+              "title": "Estate agent",
+              "color": "#dd341ee6",
+              "portsInOrder": [
+                "e640de28-da39-4c17-89f4-f9d341e36602"
+              ],
+              "portsOutOrder": [
+                "fd9c7b84-cd37-408e-a408-1ae9ded6b789"
+              ],
+              "text": "Hello. Welcome to the Gielinor Housing Agency! What\ncan I do for you?"
+            },
+            "4aa4b0d1-673a-4d16-b437-40b392c5110a": {
+              "id": "4aa4b0d1-673a-4d16-b437-40b392c5110a",
+              "type": "option",
+              "selected": false,
+              "x": 195,
+              "y": 108,
+              "ports": [
+                {
+                  "id": "cea5c389-b1e0-4857-bb12-ca871f320d18",
+                  "type": "default",
+                  "x": 182.0000502027029,
+                  "y": 139.00000999739186,
+                  "name": "in-1657336774663 ",
+                  "alignment": "left",
+                  "parentNode": "4aa4b0d1-673a-4d16-b437-40b392c5110a",
+                  "links": [
+                    "6829b160-f18d-45c9-83e3-4679538e4700"
+                  ],
+                  "in": true,
+                  "label": "❯"
+                },
+                {
+                  "id": "d1dbfa40-64df-4964-9151-71b3e454feda",
+                  "type": "default",
+                  "x": 638.8750252903939,
+                  "y": 147.99999878685293,
+                  "name": "out-1657336774663",
+                  "alignment": "right",
+                  "parentNode": "4aa4b0d1-673a-4d16-b437-40b392c5110a",
+                  "links": [
+                    "8586e6a3-14df-4c61-a1d7-1ffa28af57c6"
+                  ],
+                  "in": false,
+                  "label": "❯"
+                },
+                {
+                  "id": "9d7395c9-f5d1-49db-b82f-78391c190070",
+                  "type": "default",
+                  "x": 638.8905705710062,
+                  "y": 183.9999913131603,
+                  "name": "out-1657336782242",
+                  "alignment": "right",
+                  "parentNode": "4aa4b0d1-673a-4d16-b437-40b392c5110a",
+                  "links": [
+                    "677441a5-ad4d-41f2-9a73-040a07a7854e"
+                  ],
+                  "in": false,
+                  "label": "❯"
+                },
+                {
+                  "id": "e89c8c57-2293-4888-a48f-54987dc3e99a",
+                  "type": "default",
+                  "x": 638.8750252903939,
+                  "y": 220.00000252369918,
+                  "name": "out-1657337151073",
+                  "alignment": "right",
+                  "parentNode": "4aa4b0d1-673a-4d16-b437-40b392c5110a",
+                  "links": [
+                    "adb38b24-fa7b-4038-8940-6a0a8913c8c7"
+                  ],
+                  "in": false,
+                  "label": "❯"
+                },
+                {
+                  "id": "f389a085-5a3c-46d5-95e3-4c8deedd110d",
+                  "type": "default",
+                  "x": 638.8750252903939,
+                  "y": 255.99999505000656,
+                  "name": "out-1657337164595",
+                  "alignment": "right",
+                  "parentNode": "4aa4b0d1-673a-4d16-b437-40b392c5110a",
+                  "links": [
+                    "f4d777bb-f97c-447f-83be-0b2c7c5a6a36"
+                  ],
+                  "in": false,
+                  "label": "❯"
+                },
+                {
+                  "id": "f69795a5-54e0-4c79-ae0a-a187c35ea2cf",
+                  "type": "default",
+                  "x": 638.8905705710062,
+                  "y": 292.00002494477695,
+                  "name": "out-1657337164958",
+                  "alignment": "right",
+                  "parentNode": "4aa4b0d1-673a-4d16-b437-40b392c5110a",
+                  "links": [
+                    "c9249421-0c96-4611-81a8-82265603253e"
+                  ],
+                  "in": false,
+                  "label": "❯"
+                }
+              ],
+              "title": "Select an option.",
+              "color": "#0756b1e6",
+              "portsInOrder": [
+                "cea5c389-b1e0-4857-bb12-ca871f320d18"
+              ],
+              "portsOutOrder": [
+                "d1dbfa40-64df-4964-9151-71b3e454feda",
+                "9d7395c9-f5d1-49db-b82f-78391c190070",
+                "e89c8c57-2293-4888-a48f-54987dc3e99a",
+                "f389a085-5a3c-46d5-95e3-4c8deedd110d",
+                "f69795a5-54e0-4c79-ae0a-a187c35ea2cf"
+              ],
+              "options": [
+                {
+                  "conditions": [
+                    ""
+                  ],
+                  "args": [],
+                  "text": "Can you move my house please?"
+                },
+                {
+                  "conditions": [
+                    ""
+                  ],
+                  "args": [],
+                  "text": "Can you redecorate my house please?"
+                },
+                {
+                  "conditions": [
+                    ""
+                  ],
+                  "args": [],
+                  "text": "Could I have a Construction guidebook?"
+                },
+                {
+                  "conditions": [
+                    ""
+                  ],
+                  "args": [],
+                  "text": "Tell me about houses!"
+                },
+                {
+                  "conditions": [
+                    ""
+                  ],
+                  "args": [],
+                  "text": "Tell me about that skillcape you're wearing."
+                }
+              ]
+            },
+            "dbe14256-40c6-44ac-9d1f-f2fc12b9cc40": {
+              "id": "dbe14256-40c6-44ac-9d1f-f2fc12b9cc40",
+              "type": "dialogue",
+              "selected": false,
+              "x": 799.8552175587213,
+              "y": 400.708894878706,
+              "ports": [
+                {
+                  "id": "cb6ecd98-a6ce-4b5c-bb6f-eed83e8f1818",
+                  "type": "default",
+                  "x": 786.8438251150111,
+                  "y": 431.70310759385205,
+                  "name": "in-1657336757579 ",
+                  "alignment": "left",
+                  "parentNode": "dbe14256-40c6-44ac-9d1f-f2fc12b9cc40",
+                  "links": [
+                    "f4d777bb-f97c-447f-83be-0b2c7c5a6a36"
+                  ],
+                  "in": true,
+                  "label": "❯"
+                },
+                {
+                  "id": "dd006992-c104-47e8-9e6b-8a177a46f988",
+                  "type": "default",
+                  "x": 1013.6875850799344,
+                  "y": 431.70310759385205,
+                  "name": "out-1657336757579",
+                  "alignment": "right",
+                  "parentNode": "dbe14256-40c6-44ac-9d1f-f2fc12b9cc40",
+                  "links": [
+                    "dadfd941-9412-42db-8b43-d6d1eb679964"
+                  ],
+                  "in": false,
+                  "label": "❯"
+                }
+              ],
+              "title": "<player>",
+              "color": "#dd341ee6",
+              "portsInOrder": [
+                "cb6ecd98-a6ce-4b5c-bb6f-eed83e8f1818"
+              ],
+              "portsOutOrder": [
+                "dd006992-c104-47e8-9e6b-8a177a46f988"
+              ],
+              "text": "Tell me about houses!"
+            },
+            "d5d44262-98cd-486e-8feb-0da8434b3123": {
+              "id": "d5d44262-98cd-486e-8feb-0da8434b3123",
+              "type": "dialogue",
+              "selected": false,
+              "x": 799.7231420870232,
+              "y": 459.04851752021546,
+              "ports": [
+                {
+                  "id": "ae79fa13-844a-4e0c-89ab-a1046a8386ab",
+                  "type": "default",
+                  "x": 786.7187155008529,
+                  "y": 490.04686257631374,
+                  "name": "in-1657336757579 ",
+                  "alignment": "left",
+                  "parentNode": "d5d44262-98cd-486e-8feb-0da8434b3123",
+                  "links": [
+                    "dadfd941-9412-42db-8b43-d6d1eb679964"
+                  ],
+                  "in": true,
+                  "label": "❯"
+                },
+                {
+                  "id": "3f304935-4f9f-4c2b-babf-fb2ee36e90eb",
+                  "type": "default",
+                  "x": 1262.7343405008526,
+                  "y": 490.04686257631374,
+                  "name": "out-1657336757579",
+                  "alignment": "right",
+                  "parentNode": "d5d44262-98cd-486e-8feb-0da8434b3123",
+                  "links": [
+                    "c5e5af3e-405f-4a6a-9dd6-8aeaf586350b"
+                  ],
+                  "in": false,
+                  "label": "❯"
+                }
+              ],
+              "title": "Estate agent",
+              "color": "#dd341ee6",
+              "portsInOrder": [
+                "ae79fa13-844a-4e0c-89ab-a1046a8386ab"
+              ],
+              "portsOutOrder": [
+                "3f304935-4f9f-4c2b-babf-fb2ee36e90eb"
+              ],
+              "text": "It all came out of the wizards' experiments. They found\na way to fold space, so that they could pack many acres\nof land into an area only a foot across."
+            },
+            "34c1126a-a559-4873-9d62-a419cb00dc02": {
+              "id": "34c1126a-a559-4873-9d62-a419cb00dc02",
+              "type": "dialogue",
+              "selected": false,
+              "x": 797.8552175587213,
+              "y": 558.708894878706,
+              "ports": [
+                {
+                  "id": "abd8ca1b-c5d1-4477-a6e3-d7d2c8b76b6e",
+                  "type": "default",
+                  "x": 784.8437155008529,
+                  "y": 589.7031349973914,
+                  "name": "in-1657336757579 ",
+                  "alignment": "left",
+                  "parentNode": "34c1126a-a559-4873-9d62-a419cb00dc02",
+                  "links": [
+                    "c5e5af3e-405f-4a6a-9dd6-8aeaf586350b"
+                  ],
+                  "in": true,
+                  "label": "❯"
+                },
+                {
+                  "id": "167a95ab-7b34-4e3d-ab2a-357e7202920f",
+                  "type": "default",
+                  "x": 1231.5469202202403,
+                  "y": 589.7031349973914,
+                  "name": "out-1657336757579",
+                  "alignment": "right",
+                  "parentNode": "34c1126a-a559-4873-9d62-a419cb00dc02",
+                  "links": [
+                    "cb1b0d73-29d0-4950-94fb-b85d30b6c971"
+                  ],
+                  "in": false,
+                  "label": "❯"
+                }
+              ],
+              "title": "Estate agent",
+              "color": "#dd341ee6",
+              "portsInOrder": [
+                "abd8ca1b-c5d1-4477-a6e3-d7d2c8b76b6e"
+              ],
+              "portsOutOrder": [
+                "167a95ab-7b34-4e3d-ab2a-357e7202920f"
+              ],
+              "text": "They created several folded-space regions across\"\nGielinor. Each one contains hundreds of small plots\nwhere people can build houses."
+            },
+            "048f651f-8d80-41ed-8881-68c38d582cd8": {
+              "id": "048f651f-8d80-41ed-8881-68c38d582cd8",
+              "type": "dialogue",
+              "selected": false,
+              "x": 798.8552175587213,
+              "y": 654.708894878706,
+              "ports": [
+                {
+                  "id": "835fb3d3-0ad6-478b-967f-b8f9e6b84a97",
+                  "type": "default",
+                  "x": 785.843695571006,
+                  "y": 685.7030901552358,
+                  "name": "in-1657336757579 ",
+                  "alignment": "left",
+                  "parentNode": "048f651f-8d80-41ed-8881-68c38d582cd8",
+                  "links": [
+                    "cb1b0d73-29d0-4950-94fb-b85d30b6c971"
+                  ],
+                  "in": true,
+                  "label": "❯"
+                },
+                {
+                  "id": "f2e343cb-d712-45de-9ed5-4e7c5370f2bb",
+                  "type": "default",
+                  "x": 1232.5469002903933,
+                  "y": 685.7030901552358,
+                  "name": "out-1657336757579",
+                  "alignment": "right",
+                  "parentNode": "048f651f-8d80-41ed-8881-68c38d582cd8",
+                  "links": [
+                    "b5c31839-46bb-4ce1-9aaa-9f227a45b513"
+                  ],
+                  "in": false,
+                  "label": "❯"
+                }
+              ],
+              "title": "<player>",
+              "color": "#dd341ee6",
+              "portsInOrder": [
+                "835fb3d3-0ad6-478b-967f-b8f9e6b84a97"
+              ],
+              "portsOutOrder": [
+                "f2e343cb-d712-45de-9ed5-4e7c5370f2bb"
+              ],
+              "text": "Ah, so that's how everyone can have a house without\nthem cluttering up the world!"
+            },
+            "3db1f7d2-7eee-40ed-9625-874bfa5907f1": {
+              "id": "3db1f7d2-7eee-40ed-9625-874bfa5907f1",
+              "type": "dialogue",
+              "selected": false,
+              "x": 795.8552175587213,
+              "y": 736.708894878706,
+              "ports": [
+                {
+                  "id": "697e2562-fb01-4eb6-b761-94cb0e6a12c6",
+                  "type": "default",
+                  "x": 782.8437553605468,
+                  "y": 767.7031001201592,
+                  "name": "in-1657336757579 ",
+                  "alignment": "left",
+                  "parentNode": "3db1f7d2-7eee-40ed-9625-874bfa5907f1",
+                  "links": [
+                    "b5c31839-46bb-4ce1-9aaa-9f227a45b513"
+                  ],
+                  "in": true,
+                  "label": "❯"
+                },
+                {
+                  "id": "bdb6a7a0-f9db-410e-a9ec-1439f999d616",
+                  "type": "default",
+                  "x": 1266.1874854306996,
+                  "y": 767.7031001201592,
+                  "name": "out-1657336757579",
+                  "alignment": "right",
+                  "parentNode": "3db1f7d2-7eee-40ed-9625-874bfa5907f1",
+                  "links": [
+                    "10ca95e9-74e1-4799-99fe-9aef19c55a1a"
+                  ],
+                  "in": false,
+                  "label": "❯"
+                }
+              ],
+              "title": "Estate agent",
+              "color": "#dd341ee6",
+              "portsInOrder": [
+                "697e2562-fb01-4eb6-b761-94cb0e6a12c6"
+              ],
+              "portsOutOrder": [
+                "bdb6a7a0-f9db-410e-a9ec-1439f999d616"
+              ],
+              "text": "Quite. The wizards didn't want to get bogged down in\nthe business side of things so they hired me to sell the\nhouses."
+            },
+            "10876425-b9a8-4b42-9269-7fa2b27015f8": {
+              "id": "10876425-b9a8-4b42-9269-7fa2b27015f8",
+              "type": "dialogue",
+              "selected": false,
+              "x": 795.8552175587213,
+              "y": 828.708894878706,
+              "ports": [
+                {
+                  "id": "36a66d01-cb90-46e1-9438-ba44fd284241",
+                  "type": "default",
+                  "x": 782.8437553605468,
+                  "y": 859.7031349973913,
+                  "name": "in-1657336757579 ",
+                  "alignment": "left",
+                  "parentNode": "10876425-b9a8-4b42-9269-7fa2b27015f8",
+                  "links": [
+                    "10ca95e9-74e1-4799-99fe-9aef19c55a1a"
+                  ],
+                  "in": true,
+                  "label": "❯"
+                },
+                {
+                  "id": "fe91e75e-4ef6-4313-880c-e8253e741d9f",
+                  "type": "default",
+                  "x": 1251.5312752903933,
+                  "y": 859.7031349973913,
+                  "name": "out-1657336757579",
+                  "alignment": "right",
+                  "parentNode": "10876425-b9a8-4b42-9269-7fa2b27015f8",
+                  "links": [
+                    "9d0ccac3-08a9-45a7-b91c-d5ffad71b569"
+                  ],
+                  "in": false,
+                  "label": "❯"
+                }
+              ],
+              "title": "Estate agent",
+              "color": "#dd341ee6",
+              "portsInOrder": [
+                "36a66d01-cb90-46e1-9438-ba44fd284241"
+              ],
+              "portsOutOrder": [
+                "fe91e75e-4ef6-4313-880c-e8253e741d9f"
+              ],
+              "text": "There are various other people across Gielinor who can\nhelp you furnish your house."
+            },
+            "742c285a-e112-4954-8e2a-476e5ad413ad": {
+              "id": "742c285a-e112-4954-8e2a-476e5ad413ad",
+              "type": "dialogue",
+              "selected": false,
+              "x": 797.8552175587213,
+              "y": 908.708894878706,
+              "ports": [
+                {
+                  "id": "53c48323-9e03-4ca9-abbb-f7a12111b015",
+                  "type": "default",
+                  "x": 784.8437155008529,
+                  "y": 939.7031100850826,
+                  "name": "in-1657336757579 ",
+                  "alignment": "left",
+                  "parentNode": "742c285a-e112-4954-8e2a-476e5ad413ad",
+                  "links": [
+                    "9d0ccac3-08a9-45a7-b91c-d5ffad71b569"
+                  ],
+                  "in": true,
+                  "label": "❯"
+                },
+                {
+                  "id": "509f0d76-1005-4fc7-94df-ad5fce2f14bd",
+                  "type": "default",
+                  "x": 1275.5157001150108,
+                  "y": 939.7031100850826,
+                  "name": "out-1657336757579",
+                  "alignment": "right",
+                  "parentNode": "742c285a-e112-4954-8e2a-476e5ad413ad",
+                  "links": [],
+                  "in": false,
+                  "label": "❯"
+                }
+              ],
+              "title": "Estate agent",
+              "color": "#dd341ee6",
+              "portsInOrder": [
+                "53c48323-9e03-4ca9-abbb-f7a12111b015"
+              ],
+              "portsOutOrder": [
+                "509f0d76-1005-4fc7-94df-ad5fce2f14bd"
+              ],
+              "text": "You should start by buying planks from a sawmill\noperator. Sawmills are located in north-east Varrock, the\nWoodcutting Guild located in south-west Hosidius and\nnorth-east Prifddinas."
+            },
+            "e29842ab-0b71-4449-83a3-d528768a34f9": {
+              "id": "e29842ab-0b71-4449-83a3-d528768a34f9",
+              "type": "dialogue",
+              "selected": false,
+              "x": 1328.8348093954555,
+              "y": 399.28032345013463,
+              "ports": [
+                {
+                  "id": "9d791067-b8cb-4d86-8b08-eb252801aa4a",
+                  "type": "default",
+                  "x": 1315.8282001150108,
+                  "y": 430.26561755877555,
+                  "name": "in-1657336757579 ",
+                  "alignment": "left",
+                  "parentNode": "e29842ab-0b71-4449-83a3-d528768a34f9",
+                  "links": [
+                    "c9249421-0c96-4611-81a8-82265603253e"
+                  ],
+                  "in": true,
+                  "label": "❯"
+                },
+                {
+                  "id": "10b111ae-149f-4f87-aec9-2941be11c809",
+                  "type": "default",
+                  "x": 1711.2342209217707,
+                  "y": 430.26561755877555,
+                  "name": "out-1657336757579",
+                  "alignment": "right",
+                  "parentNode": "e29842ab-0b71-4449-83a3-d528768a34f9",
+                  "links": [
+                    "95091eef-7068-435b-8136-4b9703a7b8b2"
+                  ],
+                  "in": false,
+                  "label": "❯"
+                }
+              ],
+              "title": "<player>",
+              "color": "#dd341ee6",
+              "portsInOrder": [
+                "9d791067-b8cb-4d86-8b08-eb252801aa4a"
+              ],
+              "portsOutOrder": [
+                "10b111ae-149f-4f87-aec9-2941be11c809"
+              ],
+              "text": "Tell me about that skillcape you're wearing."
+            },
+            "15ad86b3-62ea-43e8-b70f-cc608029ff02": {
+              "id": "15ad86b3-62ea-43e8-b70f-cc608029ff02",
+              "type": "dialogue",
+              "selected": false,
+              "x": 1333.600693107431,
+              "y": 467.415864458991,
+              "ports": [
+                {
+                  "id": "0835789c-034a-49df-bfe2-556190c75f2c",
+                  "type": "default",
+                  "x": 1320.593725465776,
+                  "y": 498.4062624886224,
+                  "name": "in-1657336757579 ",
+                  "alignment": "left",
+                  "parentNode": "15ad86b3-62ea-43e8-b70f-cc608029ff02",
+                  "links": [
+                    "95091eef-7068-435b-8136-4b9703a7b8b2"
+                  ],
+                  "in": true,
+                  "label": "❯"
+                },
+                {
+                  "id": "8e3c358a-2f8b-4668-92a1-af8caff9cde2",
+                  "type": "default",
+                  "x": 1825.937465500852,
+                  "y": 498.4062624886224,
+                  "name": "out-1657336757579",
+                  "alignment": "right",
+                  "parentNode": "15ad86b3-62ea-43e8-b70f-cc608029ff02",
+                  "links": [
+                    "01c2fd1e-64f8-47d6-997b-d9b72a2e91cf"
+                  ],
+                  "in": false,
+                  "label": "❯"
+                }
+              ],
+              "title": "Estate agent",
+              "color": "#dd341ee6",
+              "portsInOrder": [
+                "0835789c-034a-49df-bfe2-556190c75f2c"
+              ],
+              "portsOutOrder": [
+                "8e3c358a-2f8b-4668-92a1-af8caff9cde2"
+              ],
+              "text": "As you may know, skillcapes are only available to\nmasters in a skill. I have spent my entire life building\nhouses and now I spend my time selling them! As a\nsign of my abilities I wear this Skillcape of Construction."
+            },
+            "935291dd-f087-4f61-a92e-0334298145ea": {
+              "id": "935291dd-f087-4f61-a92e-0334298145ea",
+              "type": "dialogue",
+              "selected": false,
+              "x": 1336.0496726992676,
+              "y": 578.6403542549093,
+              "ports": [
+                {
+                  "id": "3dd906b1-f614-4e12-82ab-5139f70f59e4",
+                  "type": "default",
+                  "x": 1323.0468903254698,
+                  "y": 609.6250099973914,
+                  "name": "in-1657336757579 ",
+                  "alignment": "left",
+                  "parentNode": "935291dd-f087-4f61-a92e-0334298145ea",
+                  "links": [
+                    "01c2fd1e-64f8-47d6-997b-d9b72a2e91cf"
+                  ],
+                  "in": true,
+                  "label": "❯"
+                },
+                {
+                  "id": "7cca08ba-ceae-4471-8f9a-8ccd0d4d7d4f",
+                  "type": "default",
+                  "x": 1806.3904709217704,
+                  "y": 609.6250099973914,
+                  "name": "out-1657336757579",
+                  "alignment": "right",
+                  "parentNode": "935291dd-f087-4f61-a92e-0334298145ea",
+                  "links": [
+                    "6dca42ee-8910-4d12-9680-b69ff3d3af8f"
+                  ],
+                  "in": false,
+                  "label": "❯"
+                }
+              ],
+              "title": "Estate agent",
+              "color": "#dd341ee6",
+              "portsInOrder": [
+                "3dd906b1-f614-4e12-82ab-5139f70f59e4"
+              ],
+              "portsOutOrder": [
+                "7cca08ba-ceae-4471-8f9a-8ccd0d4d7d4f"
+              ],
+              "text": "If you ever have enough skill to build a demonic throne,\ncome and talk to me and I'll sell you a skillcape like\nmine."
+            },
+            "18b6bf93-d888-4431-a397-4ffc653cedce": {
+              "id": "18b6bf93-d888-4431-a397-4ffc653cedce",
+              "type": "dialogue",
+              "selected": false,
+              "x": 1333.600693107431,
+              "y": 675.1709664998073,
+              "ports": [
+                {
+                  "id": "7d94d535-87e3-41a8-8382-08e522e40682",
+                  "type": "default",
+                  "x": 1320.593725465776,
+                  "y": 706.1562699623148,
+                  "name": "in-1657336757579 ",
+                  "alignment": "left",
+                  "parentNode": "18b6bf93-d888-4431-a397-4ffc653cedce",
+                  "links": [
+                    "6dca42ee-8910-4d12-9680-b69ff3d3af8f"
+                  ],
+                  "in": true,
+                  "label": "❯"
+                },
+                {
+                  "id": "68b5ef3f-f0fa-4b44-8355-36d0114cc511",
+                  "type": "default",
+                  "x": 1789.2810959217704,
+                  "y": 706.1562699623148,
+                  "name": "out-1657336757579",
+                  "alignment": "right",
+                  "parentNode": "18b6bf93-d888-4431-a397-4ffc653cedce",
+                  "links": [],
+                  "in": false,
+                  "label": "❯"
+                }
+              ],
+              "title": "Estate agent",
+              "color": "#dd341ee6",
+              "portsInOrder": [
+                "7d94d535-87e3-41a8-8382-08e522e40682"
+              ],
+              "portsOutOrder": [
+                "68b5ef3f-f0fa-4b44-8355-36d0114cc511"
+              ],
+              "text": "The Cape of Construction also provides you with as\nmany teleports as you like to any of the house portals\nor even directly inside!"
+            },
+            "6b75974a-ca6e-4f8e-96f8-3aebb1e1ef3e": {
+              "id": "6b75974a-ca6e-4f8e-96f8-3aebb1e1ef3e",
+              "type": "dialogue",
+              "selected": false,
+              "x": 305.16134000770126,
+              "y": 393.15787447054277,
+              "ports": [
+                {
+                  "id": "bf947ea4-6989-459b-9e2c-c3a939471802",
+                  "type": "default",
+                  "x": 292.1563002027028,
+                  "y": 424.1562475412373,
+                  "name": "in-1657336757579 ",
+                  "alignment": "left",
+                  "parentNode": "6b75974a-ca6e-4f8e-96f8-3aebb1e1ef3e",
+                  "links": [
+                    "adb38b24-fa7b-4038-8940-6a0a8913c8c7"
+                  ],
+                  "in": true,
+                  "label": "❯"
+                },
+                {
+                  "id": "7a57fd52-6b08-472e-8a75-e41e48ce8f6c",
+                  "type": "default",
+                  "x": 650.9218703956235,
+                  "y": 424.1562475412373,
+                  "name": "out-1657336757579",
+                  "alignment": "right",
+                  "parentNode": "6b75974a-ca6e-4f8e-96f8-3aebb1e1ef3e",
+                  "links": [
+                    "1d545dd7-2472-4f1f-b338-dbb224055583"
+                  ],
+                  "in": false,
+                  "label": "❯"
+                }
+              ],
+              "title": "<player>",
+              "color": "#dd341ee6",
+              "portsInOrder": [
+                "bf947ea4-6989-459b-9e2c-c3a939471802"
+              ],
+              "portsOutOrder": [
+                "7a57fd52-6b08-472e-8a75-e41e48ce8f6c"
+              ],
+              "text": "Could I have a Construction guide book?"
+            },
+            "8730e4c6-6506-4701-9567-1900857166f7": {
+              "id": "8730e4c6-6506-4701-9567-1900857166f7",
+              "type": "action",
+              "selected": false,
+              "x": 275.25327385544523,
+              "y": 610.1302316172894,
+              "ports": [
+                {
+                  "id": "c765b2bc-f94a-430c-a3bc-f06e2196a7a4",
+                  "type": "default",
+                  "x": 262.25002030793246,
+                  "y": 641.1249801026211,
+                  "name": "in-1657337295300 ",
+                  "alignment": "left",
+                  "parentNode": "8730e4c6-6506-4701-9567-1900857166f7",
+                  "links": [
+                    "da9a1a69-5869-42ff-8b12-25c7e5b43cdd"
+                  ],
+                  "in": true,
+                  "label": "❯"
+                },
+                {
+                  "id": "9ac10637-86ca-4323-920a-97dec7515f24",
+                  "type": "default",
+                  "x": 623.3907300097817,
+                  "y": 641.1249801026211,
+                  "name": "out-1657337295300",
+                  "alignment": "right",
+                  "parentNode": "8730e4c6-6506-4701-9567-1900857166f7",
+                  "links": [],
+                  "in": false,
+                  "label": "❯"
+                }
+              ],
+              "title": "Action",
+              "color": "#3e077ee6",
+              "portsInOrder": [
+                "c765b2bc-f94a-430c-a3bc-f06e2196a7a4"
+              ],
+              "portsOutOrder": [
+                "9ac10637-86ca-4323-920a-97dec7515f24"
+              ],
+              "actions": {
+                "actions": [
+                  "giveItem"
+                ],
+                "args": [
+                  [
+                    "CONSTRUCTION_GUIDE",
+                    "1"
+                  ]
+                ]
+              }
+            },
+            "2e34f769-ddfd-4d0a-891e-4777c5367f6d": {
+              "id": "2e34f769-ddfd-4d0a-891e-4777c5367f6d",
+              "type": "dialogue",
+              "selected": false,
+              "x": 278.0904890257991,
+              "y": 548.2321909896032,
+              "ports": [
+                {
+                  "id": "26475d6d-27cd-4578-8081-90f7e2b16d84",
+                  "type": "default",
+                  "x": 265.0781403254707,
+                  "y": 579.2187400675446,
+                  "name": "in-1657336757579 ",
+                  "alignment": "left",
+                  "parentNode": "2e34f769-ddfd-4d0a-891e-4777c5367f6d",
+                  "links": [
+                    "a533e24d-6fbb-41bd-941a-63b3479ec559"
+                  ],
+                  "in": true,
+                  "label": "❯"
+                },
+                {
+                  "id": "f3862477-af33-45cc-b57c-1c511c3d4c94",
+                  "type": "default",
+                  "x": 411.29690029039403,
+                  "y": 579.2187400675446,
+                  "name": "out-1657336757579",
+                  "alignment": "right",
+                  "parentNode": "2e34f769-ddfd-4d0a-891e-4777c5367f6d",
+                  "links": [
+                    "da9a1a69-5869-42ff-8b12-25c7e5b43cdd"
+                  ],
+                  "in": false,
+                  "label": "❯"
+                }
+              ],
+              "title": "Estate agent",
+              "color": "#dd341ee6",
+              "portsInOrder": [
+                "26475d6d-27cd-4578-8081-90f7e2b16d84"
+              ],
+              "portsOutOrder": [
+                "f3862477-af33-45cc-b57c-1c511c3d4c94"
+              ],
+              "text": "Certainly."
+            },
+            "0006cfc9-a56b-4cb9-8899-252b50a18b47": {
+              "id": "0006cfc9-a56b-4cb9-8899-252b50a18b47",
+              "type": "condition",
+              "selected": false,
+              "x": 282.6002126309554,
+              "y": 470.53839488259564,
+              "ports": [
+                {
+                  "id": "01b662b9-cd61-4225-87a2-fd6b10942470",
+                  "type": "default",
+                  "x": 269.5937453956238,
+                  "y": 501.53123757631374,
+                  "name": "in-1657337324449 ",
+                  "alignment": "left",
+                  "parentNode": "0006cfc9-a56b-4cb9-8899-252b50a18b47",
+                  "links": [
+                    "1d545dd7-2472-4f1f-b338-dbb224055583"
+                  ],
+                  "in": true,
+                  "label": "❯"
+                },
+                {
+                  "id": "3510e323-0108-41d1-8e0b-cb6a82934b09",
+                  "type": "default",
+                  "x": 725.0937852553172,
+                  "y": 501.53123757631374,
+                  "name": "out-1657337324449",
+                  "alignment": "right",
+                  "parentNode": "0006cfc9-a56b-4cb9-8899-252b50a18b47",
+                  "links": [
+                    "a533e24d-6fbb-41bd-941a-63b3479ec559"
+                  ],
+                  "in": false,
+                  "label": "true"
+                },
+                {
+                  "id": "ead16136-9a37-4cd8-a315-0cc80f332fd3",
+                  "type": "default",
+                  "x": 727.2344002903938,
+                  "y": 518.5312350850829,
+                  "name": "out-16573373244491",
+                  "alignment": "right",
+                  "parentNode": "0006cfc9-a56b-4cb9-8899-252b50a18b47",
+                  "links": [
+                    "89870428-3e06-4fbc-a62b-4e1643a0bd50"
+                  ],
+                  "in": false,
+                  "label": "false"
+                }
+              ],
+              "title": "Condition",
+              "color": "#02630ae6",
+              "portsInOrder": [
+                "01b662b9-cd61-4225-87a2-fd6b10942470"
+              ],
+              "portsOutOrder": [
+                "3510e323-0108-41d1-8e0b-cb6a82934b09",
+                "ead16136-9a37-4cd8-a315-0cc80f332fd3"
+              ],
+              "conditions": {
+                "conditions": [
+                  "hasItem"
+                ],
+                "args": [
+                  [
+                    "CONSTRUCTION_GUIDE",
+                    "1",
+                    "false"
+                  ]
+                ]
+              }
+            },
+            "d9712757-2b7a-495b-b825-ce8122e78071": {
+              "id": "d9712757-2b7a-495b-b825-ce8122e78071",
+              "type": "dialogue",
+              "selected": false,
+              "x": 536.4578359645744,
+              "y": 543.1301501732767,
+              "ports": [
+                {
+                  "id": "9d75ca67-fd6b-4e91-b0b1-7cbe583f2bc0",
+                  "type": "default",
+                  "x": 523.4531104307001,
+                  "y": 574.1249701376976,
+                  "name": "in-1657336757579 ",
+                  "alignment": "left",
+                  "parentNode": "d9712757-2b7a-495b-b825-ce8122e78071",
+                  "links": [
+                    "89870428-3e06-4fbc-a62b-4e1643a0bd50"
+                  ],
+                  "in": true,
+                  "label": "❯"
+                },
+                {
+                  "id": "8fce4f21-f791-415e-9ae5-d67ed7ae25cb",
+                  "type": "default",
+                  "x": 764.9530805359295,
+                  "y": 574.1249701376976,
+                  "name": "out-1657336757579",
+                  "alignment": "right",
+                  "parentNode": "d9712757-2b7a-495b-b825-ce8122e78071",
+                  "links": [],
+                  "in": false,
+                  "label": "❯"
+                }
+              ],
+              "title": "Estate agent",
+              "color": "#dd341ee6",
+              "portsInOrder": [
+                "9d75ca67-fd6b-4e91-b0b1-7cbe583f2bc0"
+              ],
+              "portsOutOrder": [
+                "8fce4f21-f791-415e-9ae5-d67ed7ae25cb"
+              ],
+              "text": "You've already got one!"
+            },
+            "0ea5906a-3082-4bdd-828b-6a905ef6252f": {
+              "id": "0ea5906a-3082-4bdd-828b-6a905ef6252f",
+              "type": "dialogue",
+              "selected": false,
+              "x": -178.51212938005347,
+              "y": 388.05583365421626,
+              "ports": [
+                {
+                  "id": "f4fee33f-8bf1-4f61-a3e3-844bf852de3a",
+                  "type": "default",
+                  "x": -191.4999796920672,
+                  "y": 419.0468575938521,
+                  "name": "in-1657336757579 ",
+                  "alignment": "left",
+                  "parentNode": "0ea5906a-3082-4bdd-828b-6a905ef6252f",
+                  "links": [
+                    "677441a5-ad4d-41f2-9a73-040a07a7854e"
+                  ],
+                  "in": true,
+                  "label": "❯"
+                },
+                {
+                  "id": "7b117a98-ca5b-41b2-baa8-5ec574d1900c",
+                  "type": "default",
+                  "x": 137.93755020270294,
+                  "y": 419.0468575938521,
+                  "name": "out-1657336757579",
+                  "alignment": "right",
+                  "parentNode": "0ea5906a-3082-4bdd-828b-6a905ef6252f",
+                  "links": [
+                    "ffb5e03a-dc77-4208-a93e-a89facac27ba"
+                  ],
+                  "in": false,
+                  "label": "❯"
+                }
+              ],
+              "title": "<player>",
+              "color": "#dd341ee6",
+              "portsInOrder": [
+                "f4fee33f-8bf1-4f61-a3e3-844bf852de3a"
+              ],
+              "portsOutOrder": [
+                "7b117a98-ca5b-41b2-baa8-5ec574d1900c"
+              ],
+              "text": "Can you redecorate my house please?"
+            },
+            "e2df0f19-1084-4be4-9b73-2d5293f9e667": {
+              "id": "e2df0f19-1084-4be4-9b73-2d5293f9e667",
+              "type": "dialogue",
+              "selected": false,
+              "x": -192.11359260685353,
+              "y": 456.3954562957257,
+              "ports": [
+                {
+                  "id": "623888b0-74c4-4b8b-8577-194019ae2c5b",
+                  "type": "default",
+                  "x": -205.10934970960545,
+                  "y": 487.3906374886224,
+                  "name": "in-1657336757579 ",
+                  "alignment": "left",
+                  "parentNode": "e2df0f19-1084-4be4-9b73-2d5293f9e667",
+                  "links": [
+                    "ffb5e03a-dc77-4208-a93e-a89facac27ba"
+                  ],
+                  "in": true,
+                  "label": "❯"
+                },
+                {
+                  "id": "88402c5a-38d8-4143-b86c-3276f2d82b33",
+                  "type": "default",
+                  "x": 219.60939032547074,
+                  "y": 487.3906374886224,
+                  "name": "out-1657336757579",
+                  "alignment": "right",
+                  "parentNode": "e2df0f19-1084-4be4-9b73-2d5293f9e667",
+                  "links": [
+                    "6073808f-1d07-4605-b50c-119e9ba017b7"
+                  ],
+                  "in": false,
+                  "label": "❯"
+                }
+              ],
+              "title": "Estate agent",
+              "color": "#dd341ee6",
+              "portsInOrder": [
+                "623888b0-74c4-4b8b-8577-194019ae2c5b"
+              ],
+              "portsOutOrder": [
+                "88402c5a-38d8-4143-b86c-3276f2d82b33"
+              ],
+              "text": "Certainly. My magic can rebuild the house in a\ncompletely new style! What style would you like?"
+            },
+            "044f3551-c79c-47b7-9e36-98cf8af19a7e": {
+              "id": "044f3551-c79c-47b7-9e36-98cf8af19a7e",
+              "type": "action",
+              "selected": true,
+              "x": -191.27733838945238,
+              "y": 532.9873744744323,
+              "ports": [
+                {
+                  "id": "a5e2ab96-4d51-48c5-a782-a31cfb76a1b1",
+                  "type": "default",
+                  "x": -204.26556981483506,
+                  "y": 563.9843650675446,
+                  "name": "in-1657337380263 ",
+                  "alignment": "left",
+                  "parentNode": "044f3551-c79c-47b7-9e36-98cf8af19a7e",
+                  "links": [
+                    "6073808f-1d07-4605-b50c-119e9ba017b7"
+                  ],
+                  "in": true,
+                  "label": "❯"
+                },
+                {
+                  "id": "9a830c8d-ef8e-419f-b86f-e295d2c9f7d2",
+                  "type": "default",
+                  "x": 72.76560544823872,
+                  "y": 563.9843650675446,
+                  "name": "out-1657337380263",
+                  "alignment": "right",
+                  "parentNode": "044f3551-c79c-47b7-9e36-98cf8af19a7e",
+                  "links": [],
+                  "in": false,
+                  "label": "❯"
+                }
+              ],
+              "title": "Action",
+              "color": "#3e077ee6",
+              "portsInOrder": [
+                "a5e2ab96-4d51-48c5-a782-a31cfb76a1b1"
+              ],
+              "portsOutOrder": [
+                "9a830c8d-ef8e-419f-b86f-e295d2c9f7d2"
+              ],
+              "actions": {
+                "actions": [
+                  "basicAction"
+                ],
+                "args": [
+                  [
+                    "EMPTY_ACTION"
+                  ]
+                ]
+              }
+            },
+            "29e424c0-0f9e-452a-844f-97156ec770dd": {
+              "id": "29e424c0-0f9e-452a-844f-97156ec770dd",
+              "type": "note",
+              "selected": false,
+              "x": -197.39978736904425,
+              "y": 611.3547214132078,
+              "ports": [],
+              "title": "Note",
+              "color": "#19e0e7e6",
+              "portsInOrder": [],
+              "portsOutOrder": [],
+              "text": "Open inventory"
+            },
+            "04744e50-6e56-4d8a-8f80-50ea98cfe88f": {
+              "id": "04744e50-6e56-4d8a-8f80-50ea98cfe88f",
+              "type": "dialogue",
+              "selected": false,
+              "x": -537.2876395841347,
+              "y": 379.2803234501347,
+              "ports": [
+                {
+                  "id": "9bf3dd63-ac93-43b6-96ad-c7c71f22eedd",
+                  "type": "default",
+                  "x": -550.2812446394521,
+                  "y": 410.2656424710842,
+                  "name": "in-1657336757579 ",
+                  "alignment": "left",
+                  "parentNode": "04744e50-6e56-4d8a-8f80-50ea98cfe88f",
+                  "links": [
+                    "8586e6a3-14df-4c61-a1d7-1ffa28af57c6"
+                  ],
+                  "in": true,
+                  "label": "❯"
+                },
+                {
+                  "id": "308f0690-637a-45cf-9683-6873a59d9018",
+                  "type": "default",
+                  "x": -264.8124946394523,
+                  "y": 410.2656424710842,
+                  "name": "out-1657336757579",
+                  "alignment": "right",
+                  "parentNode": "04744e50-6e56-4d8a-8f80-50ea98cfe88f",
+                  "links": [
+                    "b232882d-0a3f-4ce0-87fd-7166528fcbd2"
+                  ],
+                  "in": false,
+                  "label": "❯"
+                }
+              ],
+              "title": "<player>",
+              "color": "#dd341ee6",
+              "portsInOrder": [
+                "9bf3dd63-ac93-43b6-96ad-c7c71f22eedd"
+              ],
+              "portsOutOrder": [
+                "308f0690-637a-45cf-9683-6873a59d9018"
+              ],
+              "text": "Can you move my house please?"
+            },
+            "ad5ee851-244e-4bd7-b52d-a17eb6619e05": {
+              "id": "ad5ee851-244e-4bd7-b52d-a17eb6619e05",
+              "type": "dialogue",
+              "selected": false,
+              "x": -541.0931844435879,
+              "y": 439.04851752021557,
+              "ports": [
+                {
+                  "id": "172f1300-c7db-47f5-bb1d-adad1e0bd458",
+                  "type": "default",
+                  "x": -554.0781046920669,
+                  "y": 470.0468874886225,
+                  "name": "in-1657336757579 ",
+                  "alignment": "left",
+                  "parentNode": "ad5ee851-244e-4bd7-b52d-a17eb6619e05",
+                  "links": [
+                    "b232882d-0a3f-4ce0-87fd-7166528fcbd2"
+                  ],
+                  "in": true,
+                  "label": "❯"
+                },
+                {
+                  "id": "7d64d975-a085-4fb6-99ff-0688d9ac4b69",
+                  "type": "default",
+                  "x": -239.2968596745289,
+                  "y": 470.0468874886225,
+                  "name": "out-1657336757579",
+                  "alignment": "right",
+                  "parentNode": "ad5ee851-244e-4bd7-b52d-a17eb6619e05",
+                  "links": [
+                    "fd191d6d-3e16-486f-a21b-cb3f9fcfe2d9"
+                  ],
+                  "in": false,
+                  "label": "❯"
+                }
+              ],
+              "title": "Estate agent",
+              "color": "#dd341ee6",
+              "portsInOrder": [
+                "172f1300-c7db-47f5-bb1d-adad1e0bd458"
+              ],
+              "portsOutOrder": [
+                "7d64d975-a085-4fb6-99ff-0688d9ac4b69"
+              ],
+              "text": "Where would you like it moved to?"
+            },
+            "69477314-0dd1-4d2b-9995-3d63ac5b3a89": {
+              "id": "69477314-0dd1-4d2b-9995-3d63ac5b3a89",
+              "type": "action",
+              "selected": false,
+              "x": -541.4814200221051,
+              "y": 499.72206835198335,
+              "ports": [
+                {
+                  "id": "d7d60d2e-57f0-4a38-9bd2-a27a0ce36ff5",
+                  "type": "default",
+                  "x": -554.4687546043756,
+                  "y": 530.7187350850828,
+                  "name": "in-1657337380263 ",
+                  "alignment": "left",
+                  "parentNode": "69477314-0dd1-4d2b-9995-3d63ac5b3a89",
+                  "links": [
+                    "fd191d6d-3e16-486f-a21b-cb3f9fcfe2d9"
+                  ],
+                  "in": true,
+                  "label": "❯"
+                },
+                {
+                  "id": "c6b93e79-ad4f-41c4-b66a-43787f1cd276",
+                  "type": "default",
+                  "x": -277.4374672359128,
+                  "y": 530.7187350850828,
+                  "name": "out-1657337380263",
+                  "alignment": "right",
+                  "parentNode": "69477314-0dd1-4d2b-9995-3d63ac5b3a89",
+                  "links": [],
+                  "in": false,
+                  "label": "❯"
+                }
+              ],
+              "title": "Action",
+              "color": "#3e077ee6",
+              "portsInOrder": [
+                "d7d60d2e-57f0-4a38-9bd2-a27a0ce36ff5"
+              ],
+              "portsOutOrder": [
+                "c6b93e79-ad4f-41c4-b66a-43787f1cd276"
+              ],
+              "actions": {
+                "actions": [
+                  "basicAction"
+                ],
+                "args": [
+                  [
+                    "EMPTY_ACTION"
+                  ]
+                ]
+              }
+            },
+            "9182b566-16ca-4351-8a7e-4f3607eca67f": {
+              "id": "9182b566-16ca-4351-8a7e-4f3607eca67f",
+              "type": "note",
+              "selected": false,
+              "x": -539.0324404302685,
+              "y": 581.762884678514,
+              "ports": [],
+              "title": "Note",
+              "color": "#19e0e7e6",
+              "portsInOrder": [],
+              "portsOutOrder": [],
+              "text": "Open inventory"
+            }
+          }
+        }
+      ]
+    }
+  }
+}

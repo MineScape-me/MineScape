@@ -198,7 +198,7 @@
               "id": "cda5a1b2-a14b-4fb7-af2a-3cdfc2210262",
               "type": "point",
               "x": 417.4999828794491,
-              "y": 818.4999790192204
+              "y": 817.4024180476956
             }
           ],
           "labels": [],
@@ -281,8 +281,8 @@
             {
               "id": "bbe95b8c-53c7-45db-9450-5df3dde4bee6",
               "type": "point",
-              "x": 20.451238852888224,
-              "y": 475.8414638060534
+              "x": 20.437489195331732,
+              "y": 475.8281160873293
             }
           ],
           "labels": [],
@@ -303,14 +303,14 @@
             {
               "id": "9b24d2bf-27b4-43cc-a814-a0c0fa16b121",
               "type": "point",
-              "x": 385.4355804883015,
-              "y": 475.8414638060534
+              "x": 385.42188107309914,
+              "y": 475.8281160873293
             },
             {
               "id": "348c6a5e-e1c8-4220-b5c1-241da292952a",
               "type": "point",
               "x": 417.4999828794491,
-              "y": 818.4999790192204
+              "y": 817.4024180476956
             }
           ],
           "labels": [],
@@ -331,8 +331,8 @@
             {
               "id": "c2d1bc92-fcf5-4698-9ca1-676d80779638",
               "type": "point",
-              "x": 387.57623971956843,
-              "y": 492.84146672011013
+              "x": 387.562473314561,
+              "y": 492.82811900138586
             },
             {
               "id": "22bd2bd7-6656-4c9d-8885-e06504d27e17",
@@ -378,7 +378,7 @@
             }
           ],
           "title": "Start",
-          "color": "#16db26",
+          "color": "#16db26e6",
           "portsInOrder": [],
           "portsOutOrder": [
             "20ac620d-b02f-4f10-87d8-e83ceb46feca"
@@ -422,7 +422,7 @@
             }
           ],
           "title": "Seaman Lorris",
-          "color": "#dd341e",
+          "color": "#dd341ee6",
           "portsInOrder": [
             "c577df4a-8610-4860-bca3-cb4646df53e9"
           ],
@@ -468,7 +468,7 @@
             }
           ],
           "title": "Seaman Lorris",
-          "color": "#dd341e",
+          "color": "#dd341ee6",
           "portsInOrder": [
             "970e6661-dee3-47fb-8ca2-433c0f538d24"
           ],
@@ -528,7 +528,7 @@
             }
           ],
           "title": "Select an option.",
-          "color": "#0756b1",
+          "color": "#0756b1e6",
           "portsInOrder": [
             "619fc4a0-450c-4660-9929-fa783c3c4eef"
           ],
@@ -588,7 +588,7 @@
             }
           ],
           "title": "<player>",
-          "color": "#dd341e",
+          "color": "#dd341ee6",
           "portsInOrder": [
             "4e4352ca-f411-4ed8-8228-2e6659d6c0e6"
           ],
@@ -634,7 +634,7 @@
             }
           ],
           "title": "<player>",
-          "color": "#dd341e",
+          "color": "#dd341ee6",
           "portsInOrder": [
             "3a226468-d689-4e1f-b42f-00a1f8f17573"
           ],
@@ -694,7 +694,7 @@
             }
           ],
           "title": "Condition",
-          "color": "#02630a",
+          "color": "#02630ae6",
           "portsInOrder": [
             "04b7480d-13f5-4baa-b283-65b189db504a"
           ],
@@ -750,7 +750,7 @@
             }
           ],
           "title": "<player>",
-          "color": "#dd341e",
+          "color": "#dd341ee6",
           "portsInOrder": [
             "1db528cc-f2ad-4c21-9591-9cf7196f933d"
           ],
@@ -767,7 +767,7 @@
           "y": 899,
           "ports": [],
           "title": "Note",
-          "color": "#19e0e7",
+          "color": "#19e0e7e6",
           "portsInOrder": [],
           "portsOutOrder": [],
           "text": "Boat ride to Karamja, near banana plantation."
@@ -775,15 +775,15 @@
         "c36855cb-824b-402b-9a58-94cbb8481681": {
           "id": "c36855cb-824b-402b-9a58-94cbb8481681",
           "type": "action",
-          "selected": false,
+          "selected": true,
           "x": 423,
-          "y": 780,
+          "y": 778.902439028475,
           "ports": [
             {
               "id": "d9fd54a4-bc8d-43fb-8a87-afb7be1feef3",
               "type": "default",
-              "x": 409.99997174239394,
-              "y": 810.9999678821653,
+              "x": 409.9999717423939,
+              "y": 809.9024069106404,
               "name": "in-1655920131247 ",
               "alignment": "left",
               "parentNode": "c36855cb-824b-402b-9a58-94cbb8481681",
@@ -798,7 +798,7 @@
               "id": "c24bd774-bb83-4497-9639-5d9d29f47604",
               "type": "default",
               "x": 728.1406536162153,
-              "y": 810.9999678821653,
+              "y": 809.9024069106404,
               "name": "out-1655920131247",
               "alignment": "right",
               "parentNode": "c36855cb-824b-402b-9a58-94cbb8481681",
@@ -808,7 +808,7 @@
             }
           ],
           "title": "Action",
-          "color": "#3e077e",
+          "color": "#3e077ee6",
           "portsInOrder": [
             "d9fd54a4-bc8d-43fb-8a87-afb7be1feef3"
           ],
@@ -818,7 +818,7 @@
           "actions": {
             "actions": [
               "takeItem",
-              ""
+              "basicAction"
             ],
             "args": [
               [
@@ -826,7 +826,9 @@
                 "30",
                 "false"
               ],
-              []
+              [
+                "EMPTY_ACTION"
+              ]
             ]
           }
         },
@@ -881,7 +883,7 @@
             }
           ],
           "title": "Condition",
-          "color": "#02630a",
+          "color": "#02630ae6",
           "portsInOrder": [
             "41ffc4b0-4647-4586-b305-d2fe324a7062"
           ],
@@ -914,8 +916,8 @@
             {
               "id": "0558ee21-7edf-4af4-a702-ec3c7cc32e5f",
               "type": "default",
-              "x": 12.951261210735765,
-              "y": 468.341486163901,
+              "x": 12.937494805727935,
+              "y": 468.3281216977255,
               "name": "in-1655919735766 ",
               "alignment": "left",
               "parentNode": "0934a0bb-3785-47fe-a7cc-37af255bff60",
@@ -928,8 +930,8 @@
             {
               "id": "c8a85163-f6a7-49a8-bf6d-5043055550e0",
               "type": "default",
-              "x": 377.9355693512464,
-              "y": 468.341486163901,
+              "x": 377.92190343094666,
+              "y": 468.3281216977255,
               "name": "out-1655919735766",
               "alignment": "right",
               "parentNode": "0934a0bb-3785-47fe-a7cc-37af255bff60",
@@ -942,8 +944,8 @@
             {
               "id": "3a5b344a-4e06-4dd1-957c-ff03f96a49cf",
               "type": "default",
-              "x": 380.0762285825133,
-              "y": 485.3414890779577,
+              "x": 380.0624956724085,
+              "y": 485.3281246117821,
               "name": "out-16559197357661",
               "alignment": "right",
               "parentNode": "0934a0bb-3785-47fe-a7cc-37af255bff60",
@@ -955,7 +957,7 @@
             }
           ],
           "title": "Condition",
-          "color": "#02630a",
+          "color": "#02630ae6",
           "portsInOrder": [
             "0558ee21-7edf-4af4-a702-ec3c7cc32e5f"
           ],
