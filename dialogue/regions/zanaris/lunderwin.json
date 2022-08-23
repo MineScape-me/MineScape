@@ -1,0 +1,989 @@
+{
+  "id": "d35593da-1899-4c4b-a9da-e18aa7563651",
+  "offsetX": 133,
+  "offsetY": -22,
+  "zoom": 100,
+  "gridSize": 0,
+  "layers": [
+    {
+      "id": "80d32419-4673-46a7-919a-ded80169cdac",
+      "type": "diagram-links",
+      "isSvg": true,
+      "transformed": true,
+      "models": {
+        "41ac69e7-2846-445a-a386-d5c1a61bb6fd": {
+          "id": "41ac69e7-2846-445a-a386-d5c1a61bb6fd",
+          "type": "default",
+          "selected": false,
+          "source": "35251794-ce91-4212-9d3a-7e117c6e51fc",
+          "sourcePort": "8963b679-7cf8-4bec-819e-38f0d964c443",
+          "target": "1de8ac7a-1068-4779-a4fd-eed7312684d6",
+          "targetPort": "194042c9-eda9-4b41-8457-e3b8373b4a3b",
+          "points": [
+            {
+              "id": "501bf4aa-6f94-4319-bbc6-9fb787af2f39",
+              "type": "point",
+              "x": 133.296875,
+              "y": 64.5
+            },
+            {
+              "id": "bd88735d-0139-49b8-876e-16f115108b72",
+              "type": "point",
+              "x": 187.5,
+              "y": 65.5
+            }
+          ],
+          "labels": [],
+          "width": 3,
+          "color": "gray",
+          "curvyness": 50,
+          "selectedColor": "rgb(0,192,255)"
+        },
+        "0fbf4610-e53e-473f-adad-e0e22d67fc98": {
+          "id": "0fbf4610-e53e-473f-adad-e0e22d67fc98",
+          "type": "default",
+          "selected": false,
+          "source": "1de8ac7a-1068-4779-a4fd-eed7312684d6",
+          "sourcePort": "fda904b2-aa61-48f3-8cd9-79efc6b2d639",
+          "target": "e8ba41c1-9b70-4710-8086-2f0b83367e3a",
+          "targetPort": "ef663ab2-5209-42b1-9b82-332578acb5b9",
+          "points": [
+            {
+              "id": "8cc74428-9055-44c9-8dcf-09e0e2a0a944",
+              "type": "point",
+              "x": 612.21875,
+              "y": 65.5
+            },
+            {
+              "id": "37b23e4a-b001-4449-a93b-688ff510b2c0",
+              "type": "point",
+              "x": 188.5,
+              "y": 158.5
+            }
+          ],
+          "labels": [],
+          "width": 3,
+          "color": "gray",
+          "curvyness": 50,
+          "selectedColor": "rgb(0,192,255)"
+        },
+        "e23a3294-8d05-4ba3-86f9-0f3db13dd24a": {
+          "id": "e23a3294-8d05-4ba3-86f9-0f3db13dd24a",
+          "type": "default",
+          "selected": false,
+          "source": "e8ba41c1-9b70-4710-8086-2f0b83367e3a",
+          "sourcePort": "2014b711-2c2c-4459-bef7-a8a611630cff",
+          "target": "f85b781b-69da-4a35-b61f-8df00e2e54b8",
+          "targetPort": "d00c356d-4745-4983-82a7-cc0fc1e2e938",
+          "points": [
+            {
+              "id": "7974948e-47a8-4323-9334-22c5eaee4d97",
+              "type": "point",
+              "x": 657.1875,
+              "y": 158.5
+            },
+            {
+              "id": "93d26cd3-a82f-42e1-be93-6c88c84072ef",
+              "type": "point",
+              "x": 186.5,
+              "y": 228.5
+            }
+          ],
+          "labels": [],
+          "width": 3,
+          "color": "gray",
+          "curvyness": 50,
+          "selectedColor": "rgb(0,192,255)"
+        },
+        "37ad4319-0858-4446-be4c-728fd23e27ee": {
+          "id": "37ad4319-0858-4446-be4c-728fd23e27ee",
+          "type": "default",
+          "selected": false,
+          "source": "f85b781b-69da-4a35-b61f-8df00e2e54b8",
+          "sourcePort": "d35c2d7d-ed3f-488c-b4cb-c23a04f6c5e3",
+          "target": "ee2346d0-45fd-4826-88d1-f19321412454",
+          "targetPort": "fa49c967-cd40-4f5a-a0f9-f7e9fe02a144",
+          "points": [
+            {
+              "id": "20fab2c4-bc2d-4900-a868-93754f5cab91",
+              "type": "point",
+              "x": 567.765625,
+              "y": 245.5
+            },
+            {
+              "id": "beffc93c-15f4-45bb-bb6e-b0f5f078472f",
+              "type": "point",
+              "x": 635.5,
+              "y": 294.5
+            }
+          ],
+          "labels": [],
+          "width": 3,
+          "color": "gray",
+          "curvyness": 50,
+          "selectedColor": "rgb(0,192,255)"
+        },
+        "14565cf0-6cc8-4210-8c3a-c251452bb4b4": {
+          "id": "14565cf0-6cc8-4210-8c3a-c251452bb4b4",
+          "type": "default",
+          "selected": false,
+          "source": "ee2346d0-45fd-4826-88d1-f19321412454",
+          "sourcePort": "9ec1af5a-9a3a-4845-89c7-25748aa9b2b8",
+          "target": "216b40ea-eb8a-4971-b6c0-df0f530ca932",
+          "targetPort": "c93d8e76-e42e-4c34-829f-27c6c24fa101",
+          "points": [
+            {
+              "id": "64966680-fdf9-4880-a032-91965d9310e0",
+              "type": "point",
+              "x": 957.609375,
+              "y": 294.5
+            },
+            {
+              "id": "8d381ddf-b9af-4d8a-8933-1ebf6c291a58",
+              "type": "point",
+              "x": 636.5,
+              "y": 356.5
+            }
+          ],
+          "labels": [],
+          "width": 3,
+          "color": "gray",
+          "curvyness": 50,
+          "selectedColor": "rgb(0,192,255)"
+        },
+        "3bac9ba3-649c-4f28-bec8-b5551acd9b72": {
+          "id": "3bac9ba3-649c-4f28-bec8-b5551acd9b72",
+          "type": "default",
+          "selected": false,
+          "source": "f85b781b-69da-4a35-b61f-8df00e2e54b8",
+          "sourcePort": "51e0b221-21ad-4d16-a9d4-e929bce39bc1",
+          "target": "f63bef4f-d38b-465d-ad1f-d181c9cc836f",
+          "targetPort": "c19cf28e-67e7-47b0-897d-a937e505b413",
+          "points": [
+            {
+              "id": "b0f5b8c8-550d-4db0-8922-053431e7ef16",
+              "type": "point",
+              "x": 565.625,
+              "y": 228.5
+            },
+            {
+              "id": "7bfcde1f-07f5-4d12-9b04-3f50788593da",
+              "type": "point",
+              "x": 66.5,
+              "y": 314.5
+            }
+          ],
+          "labels": [],
+          "width": 3,
+          "color": "gray",
+          "curvyness": 50,
+          "selectedColor": "rgb(0,192,255)"
+        },
+        "7cd17272-f9ec-4e93-874f-e421aa38b659": {
+          "id": "7cd17272-f9ec-4e93-874f-e421aa38b659",
+          "type": "default",
+          "selected": false,
+          "source": "f63bef4f-d38b-465d-ad1f-d181c9cc836f",
+          "sourcePort": "bfab9ac0-41c2-4256-8159-34b3793a37a0",
+          "target": "0fc7af18-a041-41dd-b19d-4217898d8c5d",
+          "targetPort": "4830b833-1c4e-4e31-8c1b-1aefe02060a0",
+          "points": [
+            {
+              "id": "aa053015-ddd9-4bdb-aaca-ad5797f9b89a",
+              "type": "point",
+              "x": 472.5,
+              "y": 359.5
+            },
+            {
+              "id": "eb0b6ac5-dd2b-4d35-918f-bd050f727af8",
+              "type": "point",
+              "x": 635.5,
+              "y": 442.5
+            }
+          ],
+          "labels": [],
+          "width": 3,
+          "color": "gray",
+          "curvyness": 50,
+          "selectedColor": "rgb(0,192,255)"
+        },
+        "831440b9-a3fd-4b8d-9e82-e9b220d0bd66": {
+          "id": "831440b9-a3fd-4b8d-9e82-e9b220d0bd66",
+          "type": "default",
+          "selected": false,
+          "source": "f63bef4f-d38b-465d-ad1f-d181c9cc836f",
+          "sourcePort": "44b71151-3bf9-4a71-b369-4f9d45d1e540",
+          "target": "1d993301-8517-4004-8c57-83b8de1e235b",
+          "targetPort": "19ed7a86-c0f2-4d6c-9121-66d6006208f6",
+          "points": [
+            {
+              "id": "561ffd3c-e621-42ef-9110-2b9e2e1009b3",
+              "type": "point",
+              "x": 471.5,
+              "y": 323.5
+            },
+            {
+              "id": "8495e39e-7ae0-4ac4-8734-336ef979070b",
+              "type": "point",
+              "x": 63.5,
+              "y": 443.5
+            }
+          ],
+          "labels": [],
+          "width": 3,
+          "color": "gray",
+          "curvyness": 50,
+          "selectedColor": "rgb(0,192,255)"
+        },
+        "a6a4fd20-c620-43c7-b929-805413eab4f0": {
+          "id": "a6a4fd20-c620-43c7-b929-805413eab4f0",
+          "type": "default",
+          "selected": false,
+          "source": "1d993301-8517-4004-8c57-83b8de1e235b",
+          "sourcePort": "c73a35ce-dcd9-41bd-a57b-184d88b3a900",
+          "target": "32a2c202-9ec3-4a75-8995-bc74db5ecffb",
+          "targetPort": "2c12620d-69a9-4581-b6e9-f6fef4038eff",
+          "points": [
+            {
+              "id": "68c5ef11-2829-4652-a36d-2d3394914833",
+              "type": "point",
+              "x": 392.9375,
+              "y": 443.5
+            },
+            {
+              "id": "278ee6d3-16e8-4b01-adfb-c5ac85fd84dd",
+              "type": "point",
+              "x": 68.5,
+              "y": 504.5
+            }
+          ],
+          "labels": [],
+          "width": 3,
+          "color": "gray",
+          "curvyness": 50,
+          "selectedColor": "rgb(0,192,255)"
+        },
+        "6ab7d4fa-4395-4b89-8fb1-4c23e178af31": {
+          "id": "6ab7d4fa-4395-4b89-8fb1-4c23e178af31",
+          "type": "default",
+          "selected": false,
+          "source": "32a2c202-9ec3-4a75-8995-bc74db5ecffb",
+          "sourcePort": "9ebf609c-e3a7-4661-a17d-070410ee5883",
+          "target": "4a7c4824-3652-4539-9dc2-31895b1dbe3c",
+          "targetPort": "b251e998-6349-4cfa-ae95-f8a637780e0d",
+          "points": [
+            {
+              "id": "9e39c566-ae71-4024-9757-8a78c55d82f5",
+              "type": "point",
+              "x": 447.625,
+              "y": 504.5
+            },
+            {
+              "id": "217c6511-3b1b-4205-ab9b-da94207a8bce",
+              "type": "point",
+              "x": 90.5,
+              "y": 593.5
+            }
+          ],
+          "labels": [],
+          "width": 3,
+          "color": "gray",
+          "curvyness": 50,
+          "selectedColor": "rgb(0,192,255)"
+        },
+        "a574de10-6667-4544-bec9-6089b00cd8db": {
+          "id": "a574de10-6667-4544-bec9-6089b00cd8db",
+          "type": "default",
+          "selected": false,
+          "source": "4a7c4824-3652-4539-9dc2-31895b1dbe3c",
+          "sourcePort": "7eb8f25a-9e1e-48ab-b63a-1a7ecb326d1f",
+          "target": "32a2c202-9ec3-4a75-8995-bc74db5ecffb",
+          "targetPort": "2c12620d-69a9-4581-b6e9-f6fef4038eff",
+          "points": [
+            {
+              "id": "7b577377-a609-42be-b122-2b8244cbec95",
+              "type": "point",
+              "x": 422.78125,
+              "y": 593.5
+            },
+            {
+              "id": "1f1507d2-da4e-41e8-ae46-df68576d9015",
+              "type": "point",
+              "x": 68.5,
+              "y": 504.5
+            }
+          ],
+          "labels": [],
+          "width": 3,
+          "color": "gray",
+          "curvyness": 50,
+          "selectedColor": "rgb(0,192,255)"
+        },
+        "1c0bbacb-6e80-426c-b471-3489d6749382": {
+          "id": "1c0bbacb-6e80-426c-b471-3489d6749382",
+          "type": "default",
+          "selected": false,
+          "source": "32a2c202-9ec3-4a75-8995-bc74db5ecffb",
+          "sourcePort": "c1dd8c09-4f38-4c3f-b8c4-1f45ffba7b36",
+          "target": "248126f2-9271-47da-b780-796ba5ab046f",
+          "targetPort": "f4987e5d-863e-4db1-a8c1-e1b344c172cc",
+          "points": [
+            {
+              "id": "e1428d89-7514-414e-9677-e625dd7a3916",
+              "type": "point",
+              "x": 449.765625,
+              "y": 521.5
+            },
+            {
+              "id": "857656bf-6157-4b2c-9542-63db5e42bcdd",
+              "type": "point",
+              "x": 637.5,
+              "y": 582.5
+            }
+          ],
+          "labels": [],
+          "width": 3,
+          "color": "gray",
+          "curvyness": 50,
+          "selectedColor": "rgb(0,192,255)"
+        }
+      }
+    },
+    {
+      "id": "090138b9-2fec-4c7a-82aa-95f3dd4f95de",
+      "type": "diagram-nodes",
+      "isSvg": false,
+      "transformed": true,
+      "models": {
+        "35251794-ce91-4212-9d3a-7e117c6e51fc": {
+          "id": "35251794-ce91-4212-9d3a-7e117c6e51fc",
+          "type": "start",
+          "x": 50,
+          "y": 50,
+          "ports": [
+            {
+              "id": "8963b679-7cf8-4bec-819e-38f0d964c443",
+              "type": "default",
+              "x": 125.796875,
+              "y": 57,
+              "name": "out-1657968342878",
+              "alignment": "right",
+              "parentNode": "35251794-ce91-4212-9d3a-7e117c6e51fc",
+              "links": [
+                "41ac69e7-2846-445a-a386-d5c1a61bb6fd"
+              ],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Start",
+          "color": "#16db26e6",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "8963b679-7cf8-4bec-819e-38f0d964c443"
+          ]
+        },
+        "1de8ac7a-1068-4779-a4fd-eed7312684d6": {
+          "id": "1de8ac7a-1068-4779-a4fd-eed7312684d6",
+          "type": "dialogue",
+          "selected": false,
+          "x": 193,
+          "y": 27,
+          "ports": [
+            {
+              "id": "194042c9-eda9-4b41-8457-e3b8373b4a3b",
+              "type": "default",
+              "x": 180,
+              "y": 58,
+              "name": "in-1657968344762 ",
+              "alignment": "left",
+              "parentNode": "1de8ac7a-1068-4779-a4fd-eed7312684d6",
+              "links": [
+                "41ac69e7-2846-445a-a386-d5c1a61bb6fd"
+              ],
+              "in": true,
+              "label": "❯"
+            },
+            {
+              "id": "fda904b2-aa61-48f3-8cd9-79efc6b2d639",
+              "type": "default",
+              "x": 604.71875,
+              "y": 58,
+              "name": "out-1657968344762",
+              "alignment": "right",
+              "parentNode": "1de8ac7a-1068-4779-a4fd-eed7312684d6",
+              "links": [
+                "0fbf4610-e53e-473f-adad-e0e22d67fc98"
+              ],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Lunderwin",
+          "color": "#dd341ee6",
+          "portsInOrder": [
+            "194042c9-eda9-4b41-8457-e3b8373b4a3b"
+          ],
+          "portsOutOrder": [
+            "fda904b2-aa61-48f3-8cd9-79efc6b2d639"
+          ],
+          "text": "Buying cabbage am I, not have such thing where I\nfrom. Will pay money much handsome for wondrous\nobject, cabbage you called."
+        },
+        "e8ba41c1-9b70-4710-8086-2f0b83367e3a": {
+          "id": "e8ba41c1-9b70-4710-8086-2f0b83367e3a",
+          "type": "dialogue",
+          "selected": false,
+          "x": 194,
+          "y": 120,
+          "ports": [
+            {
+              "id": "ef663ab2-5209-42b1-9b82-332578acb5b9",
+              "type": "default",
+              "x": 181,
+              "y": 151,
+              "name": "in-1657968344762 ",
+              "alignment": "left",
+              "parentNode": "e8ba41c1-9b70-4710-8086-2f0b83367e3a",
+              "links": [
+                "0fbf4610-e53e-473f-adad-e0e22d67fc98"
+              ],
+              "in": true,
+              "label": "❯"
+            },
+            {
+              "id": "2014b711-2c2c-4459-bef7-a8a611630cff",
+              "type": "default",
+              "x": 649.6875,
+              "y": 151,
+              "name": "out-1657968344762",
+              "alignment": "right",
+              "parentNode": "e8ba41c1-9b70-4710-8086-2f0b83367e3a",
+              "links": [
+                "e23a3294-8d05-4ba3-86f9-0f3db13dd24a"
+              ],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Lunderwin",
+          "color": "#dd341ee6",
+          "portsInOrder": [
+            "ef663ab2-5209-42b1-9b82-332578acb5b9"
+          ],
+          "portsOutOrder": [
+            "2014b711-2c2c-4459-bef7-a8a611630cff"
+          ],
+          "text": "Say I 100 gold coins each fair price to be giving yes?"
+        },
+        "f85b781b-69da-4a35-b61f-8df00e2e54b8": {
+          "id": "f85b781b-69da-4a35-b61f-8df00e2e54b8",
+          "type": "condition",
+          "selected": false,
+          "x": 192,
+          "y": 190,
+          "ports": [
+            {
+              "id": "d00c356d-4745-4983-82a7-cc0fc1e2e938",
+              "type": "default",
+              "x": 179,
+              "y": 221,
+              "name": "in-1657968363330 ",
+              "alignment": "left",
+              "parentNode": "f85b781b-69da-4a35-b61f-8df00e2e54b8",
+              "links": [
+                "e23a3294-8d05-4ba3-86f9-0f3db13dd24a"
+              ],
+              "in": true,
+              "label": "❯"
+            },
+            {
+              "id": "51e0b221-21ad-4d16-a9d4-e929bce39bc1",
+              "type": "default",
+              "x": 558.125,
+              "y": 221,
+              "name": "out-1657968363330",
+              "alignment": "right",
+              "parentNode": "f85b781b-69da-4a35-b61f-8df00e2e54b8",
+              "links": [
+                "3bac9ba3-649c-4f28-bec8-b5551acd9b72"
+              ],
+              "in": false,
+              "label": "true"
+            },
+            {
+              "id": "d35c2d7d-ed3f-488c-b4cb-c23a04f6c5e3",
+              "type": "default",
+              "x": 560.265625,
+              "y": 238,
+              "name": "out-16579683633301",
+              "alignment": "right",
+              "parentNode": "f85b781b-69da-4a35-b61f-8df00e2e54b8",
+              "links": [
+                "37ad4319-0858-4446-be4c-728fd23e27ee"
+              ],
+              "in": false,
+              "label": "false"
+            }
+          ],
+          "title": "Condition",
+          "color": "#02630ae6",
+          "portsInOrder": [
+            "d00c356d-4745-4983-82a7-cc0fc1e2e938"
+          ],
+          "portsOutOrder": [
+            "51e0b221-21ad-4d16-a9d4-e929bce39bc1",
+            "d35c2d7d-ed3f-488c-b4cb-c23a04f6c5e3"
+          ],
+          "conditions": {
+            "conditions": [
+              "hasItem"
+            ],
+            "args": [
+              [
+                "CABBAGE",
+                "1",
+                "false"
+              ]
+            ]
+          }
+        },
+        "ee2346d0-45fd-4826-88d1-f19321412454": {
+          "id": "ee2346d0-45fd-4826-88d1-f19321412454",
+          "type": "dialogue",
+          "selected": false,
+          "x": 641,
+          "y": 256,
+          "ports": [
+            {
+              "id": "fa49c967-cd40-4f5a-a0f9-f7e9fe02a144",
+              "type": "default",
+              "x": 628,
+              "y": 287,
+              "name": "in-1657968344762 ",
+              "alignment": "left",
+              "parentNode": "ee2346d0-45fd-4826-88d1-f19321412454",
+              "links": [
+                "37ad4319-0858-4446-be4c-728fd23e27ee"
+              ],
+              "in": true,
+              "label": "❯"
+            },
+            {
+              "id": "9ec1af5a-9a3a-4845-89c7-25748aa9b2b8",
+              "type": "default",
+              "x": 950.109375,
+              "y": 287,
+              "name": "out-1657968344762",
+              "alignment": "right",
+              "parentNode": "ee2346d0-45fd-4826-88d1-f19321412454",
+              "links": [
+                "14565cf0-6cc8-4210-8c3a-c251452bb4b4"
+              ],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "<player>",
+          "color": "#dd341ee6",
+          "portsInOrder": [
+            "fa49c967-cd40-4f5a-a0f9-f7e9fe02a144"
+          ],
+          "portsOutOrder": [
+            "9ec1af5a-9a3a-4845-89c7-25748aa9b2b8"
+          ],
+          "text": "Alas, I have no cabbages either..."
+        },
+        "216b40ea-eb8a-4971-b6c0-df0f530ca932": {
+          "id": "216b40ea-eb8a-4971-b6c0-df0f530ca932",
+          "type": "dialogue",
+          "selected": false,
+          "x": 642,
+          "y": 318,
+          "ports": [
+            {
+              "id": "c93d8e76-e42e-4c34-829f-27c6c24fa101",
+              "type": "default",
+              "x": 629,
+              "y": 349,
+              "name": "in-1657968344762 ",
+              "alignment": "left",
+              "parentNode": "216b40ea-eb8a-4971-b6c0-df0f530ca932",
+              "links": [
+                "14565cf0-6cc8-4210-8c3a-c251452bb4b4"
+              ],
+              "in": true,
+              "label": "❯"
+            },
+            {
+              "id": "16179192-7e89-422f-be33-a40ed52d2615",
+              "type": "default",
+              "x": 921.796875,
+              "y": 349,
+              "name": "out-1657968344762",
+              "alignment": "right",
+              "parentNode": "216b40ea-eb8a-4971-b6c0-df0f530ca932",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Lunderwin",
+          "color": "#dd341ee6",
+          "portsInOrder": [
+            "c93d8e76-e42e-4c34-829f-27c6c24fa101"
+          ],
+          "portsOutOrder": [
+            "16179192-7e89-422f-be33-a40ed52d2615"
+          ],
+          "text": "Pity be that, I want badly do."
+        },
+        "f63bef4f-d38b-465d-ad1f-d181c9cc836f": {
+          "id": "f63bef4f-d38b-465d-ad1f-d181c9cc836f",
+          "type": "option",
+          "selected": false,
+          "x": 72,
+          "y": 276,
+          "ports": [
+            {
+              "id": "c19cf28e-67e7-47b0-897d-a937e505b413",
+              "type": "default",
+              "x": 59,
+              "y": 307,
+              "name": "in-1657968509687 ",
+              "alignment": "left",
+              "parentNode": "f63bef4f-d38b-465d-ad1f-d181c9cc836f",
+              "links": [
+                "3bac9ba3-649c-4f28-bec8-b5551acd9b72"
+              ],
+              "in": true,
+              "label": "❯"
+            },
+            {
+              "id": "44b71151-3bf9-4a71-b369-4f9d45d1e540",
+              "type": "default",
+              "x": 464,
+              "y": 316,
+              "name": "out-1657968509687",
+              "alignment": "right",
+              "parentNode": "f63bef4f-d38b-465d-ad1f-d181c9cc836f",
+              "links": [
+                "831440b9-a3fd-4b8d-9e82-e9b220d0bd66"
+              ],
+              "in": false,
+              "label": "❯"
+            },
+            {
+              "id": "bfab9ac0-41c2-4256-8159-34b3793a37a0",
+              "type": "default",
+              "x": 465,
+              "y": 352,
+              "name": "out-1657968512068",
+              "alignment": "right",
+              "parentNode": "f63bef4f-d38b-465d-ad1f-d181c9cc836f",
+              "links": [
+                "7cd17272-f9ec-4e93-874f-e421aa38b659"
+              ],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Select an option.",
+          "color": "#0756b1e6",
+          "portsInOrder": [
+            "c19cf28e-67e7-47b0-897d-a937e505b413"
+          ],
+          "portsOutOrder": [
+            "44b71151-3bf9-4a71-b369-4f9d45d1e540",
+            "bfab9ac0-41c2-4256-8159-34b3793a37a0"
+          ],
+          "options": [
+            {
+              "conditions": [
+                ""
+              ],
+              "args": [],
+              "text": "Yes, I will sell you all my cabbages."
+            },
+            {
+              "conditions": [
+                ""
+              ],
+              "args": [],
+              "text": "No, I will keep my cabbbages."
+            }
+          ]
+        },
+        "0fc7af18-a041-41dd-b19d-4217898d8c5d": {
+          "id": "0fc7af18-a041-41dd-b19d-4217898d8c5d",
+          "type": "dialogue",
+          "selected": false,
+          "x": 641,
+          "y": 404,
+          "ports": [
+            {
+              "id": "4830b833-1c4e-4e31-8c1b-1aefe02060a0",
+              "type": "default",
+              "x": 628,
+              "y": 435,
+              "name": "in-1657968344762 ",
+              "alignment": "left",
+              "parentNode": "0fc7af18-a041-41dd-b19d-4217898d8c5d",
+              "links": [
+                "7cd17272-f9ec-4e93-874f-e421aa38b659"
+              ],
+              "in": true,
+              "label": "❯"
+            },
+            {
+              "id": "90c8196e-4600-4279-a690-024053ea3e4b",
+              "type": "default",
+              "x": 913.46875,
+              "y": 435,
+              "name": "out-1657968344762",
+              "alignment": "right",
+              "parentNode": "0fc7af18-a041-41dd-b19d-4217898d8c5d",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "<player>",
+          "color": "#dd341ee6",
+          "portsInOrder": [
+            "4830b833-1c4e-4e31-8c1b-1aefe02060a0"
+          ],
+          "portsOutOrder": [
+            "90c8196e-4600-4279-a690-024053ea3e4b"
+          ],
+          "text": "No, I will keep my cabbbages."
+        },
+        "1d993301-8517-4004-8c57-83b8de1e235b": {
+          "id": "1d993301-8517-4004-8c57-83b8de1e235b",
+          "type": "dialogue",
+          "selected": false,
+          "x": 69,
+          "y": 405,
+          "ports": [
+            {
+              "id": "19ed7a86-c0f2-4d6c-9121-66d6006208f6",
+              "type": "default",
+              "x": 56,
+              "y": 436,
+              "name": "in-1657968344762 ",
+              "alignment": "left",
+              "parentNode": "1d993301-8517-4004-8c57-83b8de1e235b",
+              "links": [
+                "831440b9-a3fd-4b8d-9e82-e9b220d0bd66"
+              ],
+              "in": true,
+              "label": "❯"
+            },
+            {
+              "id": "c73a35ce-dcd9-41bd-a57b-184d88b3a900",
+              "type": "default",
+              "x": 385.4375,
+              "y": 436,
+              "name": "out-1657968344762",
+              "alignment": "right",
+              "parentNode": "1d993301-8517-4004-8c57-83b8de1e235b",
+              "links": [
+                "a6a4fd20-c620-43c7-b929-805413eab4f0"
+              ],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "<player>",
+          "color": "#dd341ee6",
+          "portsInOrder": [
+            "19ed7a86-c0f2-4d6c-9121-66d6006208f6"
+          ],
+          "portsOutOrder": [
+            "c73a35ce-dcd9-41bd-a57b-184d88b3a900"
+          ],
+          "text": "Yes, I'll sell you all my cabbages."
+        },
+        "32a2c202-9ec3-4a75-8995-bc74db5ecffb": {
+          "id": "32a2c202-9ec3-4a75-8995-bc74db5ecffb",
+          "type": "condition",
+          "selected": false,
+          "x": 74,
+          "y": 466,
+          "ports": [
+            {
+              "id": "2c12620d-69a9-4581-b6e9-f6fef4038eff",
+              "type": "default",
+              "x": 61,
+              "y": 497,
+              "name": "in-1657968363330 ",
+              "alignment": "left",
+              "parentNode": "32a2c202-9ec3-4a75-8995-bc74db5ecffb",
+              "links": [
+                "a6a4fd20-c620-43c7-b929-805413eab4f0",
+                "a574de10-6667-4544-bec9-6089b00cd8db"
+              ],
+              "in": true,
+              "label": "❯"
+            },
+            {
+              "id": "9ebf609c-e3a7-4661-a17d-070410ee5883",
+              "type": "default",
+              "x": 440.125,
+              "y": 497,
+              "name": "out-1657968363330",
+              "alignment": "right",
+              "parentNode": "32a2c202-9ec3-4a75-8995-bc74db5ecffb",
+              "links": [
+                "6ab7d4fa-4395-4b89-8fb1-4c23e178af31"
+              ],
+              "in": false,
+              "label": "true"
+            },
+            {
+              "id": "c1dd8c09-4f38-4c3f-b8c4-1f45ffba7b36",
+              "type": "default",
+              "x": 442.265625,
+              "y": 514,
+              "name": "out-16579683633301",
+              "alignment": "right",
+              "parentNode": "32a2c202-9ec3-4a75-8995-bc74db5ecffb",
+              "links": [
+                "1c0bbacb-6e80-426c-b471-3489d6749382"
+              ],
+              "in": false,
+              "label": "false"
+            }
+          ],
+          "title": "Condition",
+          "color": "#02630ae6",
+          "portsInOrder": [
+            "2c12620d-69a9-4581-b6e9-f6fef4038eff"
+          ],
+          "portsOutOrder": [
+            "9ebf609c-e3a7-4661-a17d-070410ee5883",
+            "c1dd8c09-4f38-4c3f-b8c4-1f45ffba7b36"
+          ],
+          "conditions": {
+            "conditions": [
+              "hasItem"
+            ],
+            "args": [
+              [
+                "CABBAGE",
+                "1",
+                "false"
+              ]
+            ]
+          }
+        },
+        "4a7c4824-3652-4539-9dc2-31895b1dbe3c": {
+          "id": "4a7c4824-3652-4539-9dc2-31895b1dbe3c",
+          "type": "action",
+          "selected": false,
+          "x": 96,
+          "y": 555,
+          "ports": [
+            {
+              "id": "b251e998-6349-4cfa-ae95-f8a637780e0d",
+              "type": "default",
+              "x": 83,
+              "y": 586,
+              "name": "in-1657968549315 ",
+              "alignment": "left",
+              "parentNode": "4a7c4824-3652-4539-9dc2-31895b1dbe3c",
+              "links": [
+                "6ab7d4fa-4395-4b89-8fb1-4c23e178af31"
+              ],
+              "in": true,
+              "label": "❯"
+            },
+            {
+              "id": "7eb8f25a-9e1e-48ab-b63a-1a7ecb326d1f",
+              "type": "default",
+              "x": 415.28125,
+              "y": 586,
+              "name": "out-1657968549315",
+              "alignment": "right",
+              "parentNode": "4a7c4824-3652-4539-9dc2-31895b1dbe3c",
+              "links": [
+                "a574de10-6667-4544-bec9-6089b00cd8db"
+              ],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Action",
+          "color": "#3e077ee6",
+          "portsInOrder": [
+            "b251e998-6349-4cfa-ae95-f8a637780e0d"
+          ],
+          "portsOutOrder": [
+            "7eb8f25a-9e1e-48ab-b63a-1a7ecb326d1f"
+          ],
+          "actions": {
+            "actions": [
+              "takeItem",
+              "giveItem"
+            ],
+            "args": [
+              [
+                "CABBAGE",
+                "1",
+                "false"
+              ],
+              [
+                "COINS",
+                "100"
+              ]
+            ]
+          }
+        },
+        "248126f2-9271-47da-b780-796ba5ab046f": {
+          "id": "248126f2-9271-47da-b780-796ba5ab046f",
+          "type": "dialogue",
+          "selected": true,
+          "x": 643,
+          "y": 544,
+          "ports": [
+            {
+              "id": "f4987e5d-863e-4db1-a8c1-e1b344c172cc",
+              "type": "default",
+              "x": 630,
+              "y": 575,
+              "name": "in-1657968344762 ",
+              "alignment": "left",
+              "parentNode": "248126f2-9271-47da-b780-796ba5ab046f",
+              "links": [
+                "1c0bbacb-6e80-426c-b471-3489d6749382"
+              ],
+              "in": true,
+              "label": "❯"
+            },
+            {
+              "id": "4e181a28-5798-48d3-8244-7437f56df73a",
+              "type": "default",
+              "x": 1062.046875,
+              "y": 575,
+              "name": "out-1657968344762",
+              "alignment": "right",
+              "parentNode": "248126f2-9271-47da-b780-796ba5ab046f",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Lunderwin",
+          "color": "#dd341ee6",
+          "portsInOrder": [
+            "f4987e5d-863e-4db1-a8c1-e1b344c172cc"
+          ],
+          "portsOutOrder": [
+            "4e181a28-5798-48d3-8244-7437f56df73a"
+          ],
+          "text": "Business good doing with you! Please, again come,\nbuying always."
+        }
+      }
+    }
+  ],
+  "trees": {}
+}
