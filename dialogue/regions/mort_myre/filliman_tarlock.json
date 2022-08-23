@@ -1,8 +1,8 @@
 {
   "id": "b8e737f2-f00d-43e2-bc80-5d85d487c8f1",
-  "offsetX": -733.3833272859222,
-  "offsetY": 86.53098184503335,
-  "zoom": 131.6666666666667,
+  "offsetX": -471.2971996656324,
+  "offsetY": 134.74595552650428,
+  "zoom": 108.33333333333334,
   "gridSize": 0,
   "layers": [
     {
@@ -1120,6 +1120,7 @@
         "091bdb8e-4d66-4937-b344-f7af6809af1a": {
           "id": "091bdb8e-4d66-4937-b344-f7af6809af1a",
           "type": "note",
+          "selected": true,
           "x": 1610,
           "y": 290,
           "ports": [],
@@ -4329,8 +4330,8 @@
     },
     "nature_journal": {
       "id": "dfa12311-97f2-4f16-b4d1-c99246b24d5b",
-      "offsetX": -248,
-      "offsetY": 22,
+      "offsetX": 15,
+      "offsetY": 96,
       "zoom": 100,
       "gridSize": 0,
       "layers": [
@@ -4380,7 +4381,7 @@
                 {
                   "id": "94f2e56e-25ca-4bcf-af8d-ac30f95c9681",
                   "type": "point",
-                  "x": 745.203125,
+                  "x": 679.8125,
                   "y": 80.5
                 },
                 {
@@ -4490,7 +4491,7 @@
                 {
                   "id": "335a9aac-85ed-431a-afeb-176069b07e6c",
                   "type": "point",
-                  "x": 743.0625,
+                  "x": 677.671875,
                   "y": 63.5
                 },
                 {
@@ -4654,7 +4655,7 @@
                 {
                   "id": "04c1bd51-05a4-472e-afab-e460457d46ab",
                   "type": "point",
-                  "x": 1400.0625,
+                  "x": 1334.671875,
                   "y": 525.5
                 },
                 {
@@ -4759,7 +4760,7 @@
                 {
                   "id": "cedae50c-ce1b-44c9-a2b8-3aea3c450f5e",
                   "type": "default",
-                  "x": 735.5625,
+                  "x": 670.171875,
                   "y": 56,
                   "name": "out-1659830126871",
                   "alignment": "right",
@@ -4773,7 +4774,7 @@
                 {
                   "id": "532c2734-237d-4ce4-a67f-ca649c857855",
                   "type": "default",
-                  "x": 737.703125,
+                  "x": 672.3125,
                   "y": 73,
                   "name": "out-16598301268711",
                   "alignment": "right",
@@ -4800,7 +4801,7 @@
                 ],
                 "args": [
                   [
-                    "JOURNAL_CREATURE_OF_FENKENSTRAIN",
+                    "JOURNAL_FILLIMAN_TARLOCK",
                     "1",
                     "false"
                   ]
@@ -5222,7 +5223,7 @@
             "7db8b021-2b20-493f-94c4-9d742c4cd6e4": {
               "id": "7db8b021-2b20-493f-94c4-9d742c4cd6e4",
               "type": "condition",
-              "selected": false,
+              "selected": true,
               "x": 850,
               "y": 487,
               "ports": [
@@ -5243,7 +5244,7 @@
                 {
                   "id": "58c9852d-7563-46e4-8b2b-b7dd6ebe4725",
                   "type": "default",
-                  "x": 1392.5625,
+                  "x": 1327.171875,
                   "y": 518,
                   "name": "out-1659830126871",
                   "alignment": "right",
@@ -5257,7 +5258,7 @@
                 {
                   "id": "cf065e83-cdbf-47da-bde4-8595a399975c",
                   "type": "default",
-                  "x": 1394.703125,
+                  "x": 1329.3125,
                   "y": 535,
                   "name": "out-16598301268711",
                   "alignment": "right",
@@ -5282,7 +5283,7 @@
                 ],
                 "args": [
                   [
-                    "JOURNAL_CREATURE_OF_FENKENSTRAIN",
+                    "JOURNAL_FILLIMAN_TARLOCK",
                     "1",
                     "false"
                   ]
@@ -5292,7 +5293,7 @@
             "722712c7-01f4-4dda-983c-203cb7a6153e": {
               "id": "722712c7-01f4-4dda-983c-203cb7a6153e",
               "type": "action",
-              "selected": true,
+              "selected": false,
               "x": 855,
               "y": 567,
               "ports": [
