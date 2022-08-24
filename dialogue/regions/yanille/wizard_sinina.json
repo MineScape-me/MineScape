@@ -349,7 +349,7 @@
             }
           ],
           "title": "Start",
-          "color": "#16db26",
+          "color": "#16db26e6",
           "portsInOrder": [],
           "portsOutOrder": [
             "71b9d4ea-41c8-4740-8a92-04702b5dbdc1"
@@ -392,7 +392,7 @@
             }
           ],
           "title": "Wizard Sinina",
-          "color": "#dd341e",
+          "color": "#dd341ee6",
           "portsInOrder": [
             "27b4e520-828f-4846-b898-a0712014fa49"
           ],
@@ -466,7 +466,7 @@
             }
           ],
           "title": "Select an option.",
-          "color": "#0756b1",
+          "color": "#0756b1e6",
           "portsInOrder": [
             "c7c0b8ad-db67-4cb0-8632-200bead8c9a3"
           ],
@@ -536,7 +536,7 @@
             }
           ],
           "title": "<player>",
-          "color": "#dd341e",
+          "color": "#dd341ee6",
           "portsInOrder": [
             "0710d8a6-0444-4d30-8c35-8225218669d6"
           ],
@@ -582,7 +582,7 @@
             }
           ],
           "title": "Wizard Sinina",
-          "color": "#dd341e",
+          "color": "#dd341ee6",
           "portsInOrder": [
             "8f69accf-2ae7-4e2a-8e47-5c05e5f7eec7"
           ],
@@ -628,7 +628,7 @@
             }
           ],
           "title": "Wizard Sinina",
-          "color": "#dd341e",
+          "color": "#dd341ee6",
           "portsInOrder": [
             "2a598e4c-4da6-406b-b3d5-f74ede160258"
           ],
@@ -700,7 +700,7 @@
             }
           ],
           "title": "Select an option.",
-          "color": "#0756b1",
+          "color": "#0756b1e6",
           "portsInOrder": [
             "80c93899-9e54-4e06-b0f5-0589d9e5576a"
           ],
@@ -762,7 +762,7 @@
             }
           ],
           "title": "<player>",
-          "color": "#dd341e",
+          "color": "#dd341ee6",
           "portsInOrder": [
             "099e3da0-95bf-4e34-9a3f-773719b3a07f"
           ],
@@ -809,7 +809,7 @@
             }
           ],
           "title": "<player>",
-          "color": "#dd341e",
+          "color": "#dd341ee6",
           "portsInOrder": [
             "ae620e45-d07d-4fee-8838-0c9b432f9e01"
           ],
@@ -821,7 +821,7 @@
         "64150d9e-d2e8-4c0c-9edb-4e6bba2bed42": {
           "id": "64150d9e-d2e8-4c0c-9edb-4e6bba2bed42",
           "type": "action",
-          "selected": false,
+          "selected": true,
           "x": 982,
           "y": 138,
           "ports": [
@@ -842,7 +842,7 @@
             {
               "id": "f3dff145-c23d-49b1-9022-3d0de034bb35",
               "type": "default",
-              "x": 1088.453125,
+              "x": 1246.03125,
               "y": 169,
               "name": "out-1653394117513",
               "alignment": "right",
@@ -853,7 +853,7 @@
             }
           ],
           "title": "Action",
-          "color": "#3e077e",
+          "color": "#3e077ee6",
           "portsInOrder": [
             "0b2219d0-94ae-44a1-b06c-a30c8d05e4b5"
           ],
@@ -862,10 +862,12 @@
           ],
           "actions": {
             "actions": [
-              ""
+              "basicAction"
             ],
             "args": [
-              []
+              [
+                "EMPTY_ACTION"
+              ]
             ]
           }
         },
@@ -877,7 +879,7 @@
           "y": 215,
           "ports": [],
           "title": "Required",
-          "color": "#19e0e7",
+          "color": "#19e0e7e6",
           "portsInOrder": [],
           "portsOutOrder": [],
           "text": "Awaiting shop to be added"
