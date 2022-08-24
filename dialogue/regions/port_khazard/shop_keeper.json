@@ -209,7 +209,7 @@
             }
           ],
           "title": "Start",
-          "color": "#16db26",
+          "color": "#16db26e6",
           "portsInOrder": [],
           "portsOutOrder": [
             "ffba90b1-09b0-45a0-ba22-de0053648545"
@@ -252,7 +252,7 @@
             }
           ],
           "title": "Shop keeper",
-          "color": "#dd341e",
+          "color": "#dd341ee6",
           "portsInOrder": [
             "97bab411-6c7d-462c-bf6e-efed3f0695b6"
           ],
@@ -312,7 +312,7 @@
             }
           ],
           "title": "Select an option.",
-          "color": "#0756b1",
+          "color": "#0756b1e6",
           "portsInOrder": [
             "c006b34d-2a22-443f-b376-2d3b664ac34f"
           ],
@@ -374,7 +374,7 @@
             }
           ],
           "title": "<player>",
-          "color": "#dd341e",
+          "color": "#dd341ee6",
           "portsInOrder": [
             "cf87e0ea-5e4b-4631-ad40-54b00b64a4ef"
           ],
@@ -418,7 +418,7 @@
             }
           ],
           "title": "<player>",
-          "color": "#dd341e",
+          "color": "#dd341ee6",
           "portsInOrder": [
             "7b8ad851-8719-45d1-a236-680cb84544ae"
           ],
@@ -464,7 +464,7 @@
             }
           ],
           "title": "Shop keeper",
-          "color": "#dd341e",
+          "color": "#dd341ee6",
           "portsInOrder": [
             "a97804e1-2378-4f91-9093-0c6f4b116611"
           ],
@@ -476,7 +476,7 @@
         "61cfa1ed-2307-40c3-977f-06a2439610f9": {
           "id": "61cfa1ed-2307-40c3-977f-06a2439610f9",
           "type": "action",
-          "selected": false,
+          "selected": true,
           "x": 512,
           "y": 358,
           "ports": [
@@ -497,7 +497,7 @@
             {
               "id": "77712341-84c5-4bda-ac95-0dafbea25459",
               "type": "default",
-              "x": 618.453125,
+              "x": 776.03125,
               "y": 389,
               "name": "out-1653797991882",
               "alignment": "right",
@@ -508,7 +508,7 @@
             }
           ],
           "title": "Action",
-          "color": "#3e077e",
+          "color": "#3e077ee6",
           "portsInOrder": [
             "1e99c490-1491-45c5-a04a-cf26e7657e24"
           ],
@@ -517,10 +517,12 @@
           ],
           "actions": {
             "actions": [
-              ""
+              "basicAction"
             ],
             "args": [
-              []
+              [
+                "EMPTY_ACTION"
+              ]
             ]
           }
         },
@@ -532,7 +534,7 @@
           "y": 443,
           "ports": [],
           "title": "Required",
-          "color": "#19e0e7",
+          "color": "#19e0e7e6",
           "portsInOrder": [],
           "portsOutOrder": [],
           "text": "Awaiting shop to be added. "

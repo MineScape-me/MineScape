@@ -181,7 +181,7 @@
             }
           ],
           "title": "Start",
-          "color": "#16db26",
+          "color": "#16db26e6",
           "portsInOrder": [],
           "portsOutOrder": [
             "00d0eb22-4715-449b-9ee2-e28d0270cdd1"
@@ -224,7 +224,7 @@
             }
           ],
           "title": "Wizard Akutha",
-          "color": "#dd341e",
+          "color": "#dd341ee6",
           "portsInOrder": [
             "2f2b2014-a3b6-44db-a47f-d850b1ca4ccb"
           ],
@@ -270,7 +270,7 @@
             }
           ],
           "title": "<player>",
-          "color": "#dd341e",
+          "color": "#dd341ee6",
           "portsInOrder": [
             "139021b8-950c-4bb3-964c-a3ee781db053"
           ],
@@ -330,7 +330,7 @@
             }
           ],
           "title": "Select an option.",
-          "color": "#0756b1",
+          "color": "#0756b1e6",
           "portsInOrder": [
             "6298fcd0-22b1-45d0-9744-1673bcf4b108"
           ],
@@ -390,7 +390,7 @@
             }
           ],
           "title": "<player>",
-          "color": "#dd341e",
+          "color": "#dd341ee6",
           "portsInOrder": [
             "8c2a2f84-3002-442a-ac90-75c8b1de998c"
           ],
@@ -402,7 +402,7 @@
         "c696cd3d-e381-4c60-bd55-2895e307d3cc": {
           "id": "c696cd3d-e381-4c60-bd55-2895e307d3cc",
           "type": "action",
-          "selected": false,
+          "selected": true,
           "x": 425,
           "y": 319,
           "ports": [
@@ -423,7 +423,7 @@
             {
               "id": "8077e676-37b1-4a57-8ab3-fae49a179124",
               "type": "default",
-              "x": 531.453125,
+              "x": 689.03125,
               "y": 350,
               "name": "out-1653393862250",
               "alignment": "right",
@@ -434,7 +434,7 @@
             }
           ],
           "title": "Action",
-          "color": "#3e077e",
+          "color": "#3e077ee6",
           "portsInOrder": [
             "ea007ad6-1624-4b64-b13f-c1ab09949d56"
           ],
@@ -443,10 +443,12 @@
           ],
           "actions": {
             "actions": [
-              ""
+              "basicAction"
             ],
             "args": [
-              []
+              [
+                "EMPTY_ACTION"
+              ]
             ]
           }
         },
@@ -458,7 +460,7 @@
           "y": 322,
           "ports": [],
           "title": "Required",
-          "color": "#19e0e7",
+          "color": "#19e0e7e6",
           "portsInOrder": [],
           "portsOutOrder": [],
           "text": "Waiting shop to be added."
