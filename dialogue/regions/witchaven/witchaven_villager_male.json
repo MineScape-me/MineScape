@@ -1,0 +1,348 @@
+{
+  "id": "dc5b1b82-3150-47fe-be95-86ad58ffe9df",
+  "offsetX": 0,
+  "offsetY": 0,
+  "zoom": 100,
+  "gridSize": 0,
+  "layers": [
+    {
+      "id": "b1cc0f37-48a8-43a1-bc56-b06dbcc71ebf",
+      "type": "diagram-links",
+      "isSvg": true,
+      "transformed": true,
+      "models": {
+        "a089ca29-b9d0-4339-a58b-30d094b405f6": {
+          "id": "a089ca29-b9d0-4339-a58b-30d094b405f6",
+          "type": "default",
+          "selected": false,
+          "source": "94abe2d8-c448-4268-8774-cc329b023a05",
+          "sourcePort": "2223b1f8-7a5d-4f69-988c-24605905d136",
+          "target": "4d7d2a6b-5e7a-43b2-8c91-28176b173482",
+          "targetPort": "9588c350-eca8-4303-930b-a2023090adfc",
+          "points": [
+            {
+              "id": "079b8116-82a9-4136-84b4-5131a4d59342",
+              "type": "point",
+              "x": 133.296875,
+              "y": 64.5
+            },
+            {
+              "id": "96abe0ed-8470-4227-895c-46599cedbd02",
+              "type": "point",
+              "x": 167.5,
+              "y": 64.5
+            }
+          ],
+          "labels": [],
+          "width": 3,
+          "color": "gray",
+          "curvyness": 50,
+          "selectedColor": "rgb(0,192,255)"
+        },
+        "8360f4dc-8f6d-4602-84d5-bce8510372c5": {
+          "id": "8360f4dc-8f6d-4602-84d5-bce8510372c5",
+          "type": "default",
+          "selected": false,
+          "source": "4d7d2a6b-5e7a-43b2-8c91-28176b173482",
+          "sourcePort": "8badbf03-29e2-4145-9f4c-ee87bb4ec7a3",
+          "target": "98fff46f-b03c-49ee-9e04-8e187496cea0",
+          "targetPort": "5d9e03fa-93dc-4980-afbc-3b09a477e1c9",
+          "points": [
+            {
+              "id": "1720b62b-de06-47f9-8f25-ad16a7cbaeae",
+              "type": "point",
+              "x": 328.375,
+              "y": 64.5
+            },
+            {
+              "id": "680d70a0-988a-4bd1-a3d6-c885f19caf00",
+              "type": "point",
+              "x": 167.5,
+              "y": 127.5
+            }
+          ],
+          "labels": [],
+          "width": 3,
+          "color": "gray",
+          "curvyness": 50,
+          "selectedColor": "rgb(0,192,255)"
+        },
+        "0c3c76b9-cf56-4edd-9200-394052cb15b7": {
+          "id": "0c3c76b9-cf56-4edd-9200-394052cb15b7",
+          "type": "default",
+          "selected": false,
+          "source": "98fff46f-b03c-49ee-9e04-8e187496cea0",
+          "sourcePort": "d6c9f59b-6333-49c3-b811-ef2bd0ff899b",
+          "target": "7e4c6a78-14b5-46a4-a13d-f8863fceeca2",
+          "targetPort": "75ef4ffc-6bf2-4cac-9731-6ff45c8e00ca",
+          "points": [
+            {
+              "id": "576ca5f7-1ecc-4bcf-94f9-960b49f92276",
+              "type": "point",
+              "x": 394.34375,
+              "y": 127.5
+            },
+            {
+              "id": "157902d7-9254-4592-90f7-5e511bfe7f3b",
+              "type": "point",
+              "x": 167.5,
+              "y": 189.5
+            }
+          ],
+          "labels": [],
+          "width": 3,
+          "color": "gray",
+          "curvyness": 50,
+          "selectedColor": "rgb(0,192,255)"
+        },
+        "ca839f4b-2581-4345-9242-0d9ad104a0d4": {
+          "id": "ca839f4b-2581-4345-9242-0d9ad104a0d4",
+          "type": "default",
+          "selected": false,
+          "source": "7e4c6a78-14b5-46a4-a13d-f8863fceeca2",
+          "sourcePort": "d81114a1-8a72-4e14-abd3-135d910745f6",
+          "target": "4912e21b-58aa-4b2a-8916-8f7a832465b6",
+          "targetPort": "9957f3d1-85e2-4aa0-8b4c-bfb221631ebb",
+          "points": [
+            {
+              "id": "9a953393-d7f7-421f-99f0-11e975f495d2",
+              "type": "point",
+              "x": 540.921875,
+              "y": 189.5
+            },
+            {
+              "id": "1ecc541f-2d00-4564-8e26-dfa25ad0f5be",
+              "type": "point",
+              "x": 165.5,
+              "y": 248.5
+            }
+          ],
+          "labels": [],
+          "width": 3,
+          "color": "gray",
+          "curvyness": 50,
+          "selectedColor": "rgb(0,192,255)"
+        }
+      }
+    },
+    {
+      "id": "254fb1cf-9bac-493e-bc28-69d370d590ef",
+      "type": "diagram-nodes",
+      "isSvg": false,
+      "transformed": true,
+      "models": {
+        "94abe2d8-c448-4268-8774-cc329b023a05": {
+          "id": "94abe2d8-c448-4268-8774-cc329b023a05",
+          "type": "start",
+          "x": 50,
+          "y": 50,
+          "ports": [
+            {
+              "id": "2223b1f8-7a5d-4f69-988c-24605905d136",
+              "type": "default",
+              "x": 125.796875,
+              "y": 57,
+              "name": "out-1657964994187",
+              "alignment": "right",
+              "parentNode": "94abe2d8-c448-4268-8774-cc329b023a05",
+              "links": [
+                "a089ca29-b9d0-4339-a58b-30d094b405f6"
+              ],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Start",
+          "color": "#16db26e6",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "2223b1f8-7a5d-4f69-988c-24605905d136"
+          ]
+        },
+        "4d7d2a6b-5e7a-43b2-8c91-28176b173482": {
+          "id": "4d7d2a6b-5e7a-43b2-8c91-28176b173482",
+          "type": "dialogue",
+          "selected": false,
+          "x": 173,
+          "y": 26,
+          "ports": [
+            {
+              "id": "9588c350-eca8-4303-930b-a2023090adfc",
+              "type": "default",
+              "x": 160,
+              "y": 57,
+              "name": "in-1657965011698 ",
+              "alignment": "left",
+              "parentNode": "4d7d2a6b-5e7a-43b2-8c91-28176b173482",
+              "links": [
+                "a089ca29-b9d0-4339-a58b-30d094b405f6"
+              ],
+              "in": true,
+              "label": "❯"
+            },
+            {
+              "id": "8badbf03-29e2-4145-9f4c-ee87bb4ec7a3",
+              "type": "default",
+              "x": 320.875,
+              "y": 57,
+              "name": "out-1657965011698",
+              "alignment": "right",
+              "parentNode": "4d7d2a6b-5e7a-43b2-8c91-28176b173482",
+              "links": [
+                "8360f4dc-8f6d-4602-84d5-bce8510372c5"
+              ],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "<player>",
+          "color": "#dd341ee6",
+          "portsInOrder": [
+            "9588c350-eca8-4303-930b-a2023090adfc"
+          ],
+          "portsOutOrder": [
+            "8badbf03-29e2-4145-9f4c-ee87bb4ec7a3"
+          ],
+          "text": "Hello there."
+        },
+        "98fff46f-b03c-49ee-9e04-8e187496cea0": {
+          "id": "98fff46f-b03c-49ee-9e04-8e187496cea0",
+          "type": "dialogue",
+          "selected": false,
+          "x": 173,
+          "y": 89,
+          "ports": [
+            {
+              "id": "5d9e03fa-93dc-4980-afbc-3b09a477e1c9",
+              "type": "default",
+              "x": 160,
+              "y": 120,
+              "name": "in-1657965011698 ",
+              "alignment": "left",
+              "parentNode": "98fff46f-b03c-49ee-9e04-8e187496cea0",
+              "links": [
+                "8360f4dc-8f6d-4602-84d5-bce8510372c5"
+              ],
+              "in": true,
+              "label": "❯"
+            },
+            {
+              "id": "d6c9f59b-6333-49c3-b811-ef2bd0ff899b",
+              "type": "default",
+              "x": 386.84375,
+              "y": 120,
+              "name": "out-1657965011698",
+              "alignment": "right",
+              "parentNode": "98fff46f-b03c-49ee-9e04-8e187496cea0",
+              "links": [
+                "0c3c76b9-cf56-4edd-9200-394052cb15b7"
+              ],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Witchaven villager",
+          "color": "#dd341ee6",
+          "portsInOrder": [
+            "5d9e03fa-93dc-4980-afbc-3b09a477e1c9"
+          ],
+          "portsOutOrder": [
+            "d6c9f59b-6333-49c3-b811-ef2bd0ff899b"
+          ],
+          "text": "Hmm? Oh, hello there."
+        },
+        "7e4c6a78-14b5-46a4-a13d-f8863fceeca2": {
+          "id": "7e4c6a78-14b5-46a4-a13d-f8863fceeca2",
+          "type": "dialogue",
+          "selected": false,
+          "x": 173,
+          "y": 151,
+          "ports": [
+            {
+              "id": "75ef4ffc-6bf2-4cac-9731-6ff45c8e00ca",
+              "type": "default",
+              "x": 160,
+              "y": 182,
+              "name": "in-1657965011698 ",
+              "alignment": "left",
+              "parentNode": "7e4c6a78-14b5-46a4-a13d-f8863fceeca2",
+              "links": [
+                "0c3c76b9-cf56-4edd-9200-394052cb15b7"
+              ],
+              "in": true,
+              "label": "❯"
+            },
+            {
+              "id": "d81114a1-8a72-4e14-abd3-135d910745f6",
+              "type": "default",
+              "x": 533.421875,
+              "y": 182,
+              "name": "out-1657965011698",
+              "alignment": "right",
+              "parentNode": "7e4c6a78-14b5-46a4-a13d-f8863fceeca2",
+              "links": [
+                "ca839f4b-2581-4345-9242-0d9ad104a0d4"
+              ],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "<player>",
+          "color": "#dd341ee6",
+          "portsInOrder": [
+            "75ef4ffc-6bf2-4cac-9731-6ff45c8e00ca"
+          ],
+          "portsOutOrder": [
+            "d81114a1-8a72-4e14-abd3-135d910745f6"
+          ],
+          "text": "Are you okay? You seem a bit preoccupied."
+        },
+        "4912e21b-58aa-4b2a-8916-8f7a832465b6": {
+          "id": "4912e21b-58aa-4b2a-8916-8f7a832465b6",
+          "type": "dialogue",
+          "selected": false,
+          "x": 171,
+          "y": 210,
+          "ports": [
+            {
+              "id": "9957f3d1-85e2-4aa0-8b4c-bfb221631ebb",
+              "type": "default",
+              "x": 158,
+              "y": 241,
+              "name": "in-1657965011698 ",
+              "alignment": "left",
+              "parentNode": "4912e21b-58aa-4b2a-8916-8f7a832465b6",
+              "links": [
+                "ca839f4b-2581-4345-9242-0d9ad104a0d4"
+              ],
+              "in": true,
+              "label": "❯"
+            },
+            {
+              "id": "87db2336-a015-44b5-89af-f60c6cb8cc14",
+              "type": "default",
+              "x": 604.703125,
+              "y": 241,
+              "name": "out-1657965011698",
+              "alignment": "right",
+              "parentNode": "4912e21b-58aa-4b2a-8916-8f7a832465b6",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Witchaven villager",
+          "color": "#dd341ee6",
+          "portsInOrder": [
+            "9957f3d1-85e2-4aa0-8b4c-bfb221631ebb"
+          ],
+          "portsOutOrder": [
+            "87db2336-a015-44b5-89af-f60c6cb8cc14"
+          ],
+          "text": "It's nothing stranger. No need to concern yourself."
+        }
+      }
+    }
+  ],
+  "trees": {}
+}
