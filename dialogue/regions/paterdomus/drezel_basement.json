@@ -1,7 +1,7 @@
 {
   "id": "bcdc8c90-ab2f-4cf2-88e8-be0e41642d7f",
-  "offsetX": 65,
-  "offsetY": 110,
+  "offsetX": 645,
+  "offsetY": 284,
   "zoom": 100,
   "gridSize": 0,
   "layers": [
@@ -11,34 +11,6 @@
       "isSvg": true,
       "transformed": true,
       "models": {
-        "492d0181-7b0e-4b08-9f88-630726cfef9e": {
-          "id": "492d0181-7b0e-4b08-9f88-630726cfef9e",
-          "type": "default",
-          "selected": false,
-          "source": "217b3ab1-2eaf-4638-8e01-beef6144d96e",
-          "sourcePort": "cf5dc2b5-ecbc-4692-8870-56f82d67907d",
-          "target": "49ccf2f0-e15c-4156-ac53-8371d4711ed4",
-          "targetPort": "53fe1181-7bce-4b68-9ca8-6c22dbb30c9a",
-          "points": [
-            {
-              "id": "c5944d38-f438-4019-a2d9-c164955aa7ba",
-              "type": "point",
-              "x": 133.296875,
-              "y": 64.5
-            },
-            {
-              "id": "00d65a59-88e5-48c2-af39-ae090d4c5a57",
-              "type": "point",
-              "x": 224.5,
-              "y": 59.5
-            }
-          ],
-          "labels": [],
-          "width": 3,
-          "color": "gray",
-          "curvyness": 50,
-          "selectedColor": "rgb(0,192,255)"
-        },
         "ea8b9a8d-f68b-421c-ac11-95ac89ad1e5a": {
           "id": "ea8b9a8d-f68b-421c-ac11-95ac89ad1e5a",
           "type": "default",
@@ -430,6 +402,146 @@
           "color": "gray",
           "curvyness": 50,
           "selectedColor": "rgb(0,192,255)"
+        },
+        "cd9ada16-66bd-4529-9aaf-6199f54bd331": {
+          "id": "cd9ada16-66bd-4529-9aaf-6199f54bd331",
+          "type": "default",
+          "selected": false,
+          "source": "217b3ab1-2eaf-4638-8e01-beef6144d96e",
+          "sourcePort": "cf5dc2b5-ecbc-4692-8870-56f82d67907d",
+          "target": "13cf2260-7706-43bd-a794-ac43030fa01a",
+          "targetPort": "8cffd69f-a54f-4818-9858-4a3afb50f104",
+          "points": [
+            {
+              "id": "5edddd43-b720-4358-84ae-9988108393c9",
+              "type": "point",
+              "x": -475.703125,
+              "y": 67.5
+            },
+            {
+              "id": "6d1048c6-45bf-4d33-a845-f9ca6b7a1df5",
+              "type": "point",
+              "x": -426.5,
+              "y": 67.5
+            }
+          ],
+          "labels": [],
+          "width": 3,
+          "color": "gray",
+          "curvyness": 50,
+          "selectedColor": "rgb(0,192,255)"
+        },
+        "e25706c9-e4d0-45b9-b95c-dfdf60033dc3": {
+          "id": "e25706c9-e4d0-45b9-b95c-dfdf60033dc3",
+          "type": "default",
+          "selected": false,
+          "source": "13cf2260-7706-43bd-a794-ac43030fa01a",
+          "sourcePort": "276d4812-0516-4de9-98f6-eea41727ceb7",
+          "target": "17bb4cff-b52f-48cd-b954-b53e0ad6863d",
+          "targetPort": "c1c0eb7b-6105-4825-bc49-bbe8c8a7a20c",
+          "points": [
+            {
+              "id": "2dc76d71-1678-4159-bea5-bb9536cdabe2",
+              "type": "point",
+              "x": -106.609375,
+              "y": 203.5
+            },
+            {
+              "id": "4abd62d5-e545-477c-a908-2214add67561",
+              "type": "point",
+              "x": -37.5,
+              "y": 272
+            }
+          ],
+          "labels": [],
+          "width": 3,
+          "color": "gray",
+          "curvyness": 50,
+          "selectedColor": "rgb(0,192,255)"
+        },
+        "72a1b9c2-142b-4b88-998e-73c244cc056b": {
+          "id": "72a1b9c2-142b-4b88-998e-73c244cc056b",
+          "type": "default",
+          "selected": false,
+          "source": "13cf2260-7706-43bd-a794-ac43030fa01a",
+          "sourcePort": "4e7e59a3-cdfb-4628-b3ab-3b658147afd7",
+          "target": "7b4f8bd4-aa77-4827-b7e9-74e4a83f2908",
+          "targetPort": "374c647f-9a86-451f-848d-d9ac29d665d7",
+          "points": [
+            {
+              "id": "3e525be7-c14c-4f6b-b4e1-65d7aec173b6",
+              "type": "point",
+              "x": -106.609375,
+              "y": 220.5
+            },
+            {
+              "id": "f6d5658a-28a0-4420-8b4c-c020bade1ecc",
+              "type": "point",
+              "x": -37.5,
+              "y": 323
+            }
+          ],
+          "labels": [],
+          "width": 3,
+          "color": "gray",
+          "curvyness": 50,
+          "selectedColor": "rgb(0,192,255)"
+        },
+        "cd9ce699-8cad-4c29-a0fa-3c7a36e92610": {
+          "id": "cd9ce699-8cad-4c29-a0fa-3c7a36e92610",
+          "type": "default",
+          "selected": false,
+          "source": "13cf2260-7706-43bd-a794-ac43030fa01a",
+          "sourcePort": "6bbe2928-15c4-43c5-8e82-b206b6a54a0a",
+          "target": "8eb860f2-ca1c-429c-bec3-db1bc79ef4c3",
+          "targetPort": "4b23bea1-e559-48d7-97a9-309cdeef9843",
+          "points": [
+            {
+              "id": "2f94e801-cb16-4e04-8414-464ef4385157",
+              "type": "point",
+              "x": -106.609375,
+              "y": 237.5
+            },
+            {
+              "id": "64ee2c2e-162d-4ac1-91b7-d63948d5114a",
+              "type": "point",
+              "x": -170.5,
+              "y": 408.5
+            }
+          ],
+          "labels": [],
+          "width": 3,
+          "color": "gray",
+          "curvyness": 50,
+          "selectedColor": "rgb(0,192,255)"
+        },
+        "105bd745-df44-4038-bbdf-89e2c0e2b3e5": {
+          "id": "105bd745-df44-4038-bbdf-89e2c0e2b3e5",
+          "type": "default",
+          "selected": false,
+          "source": "8eb860f2-ca1c-429c-bec3-db1bc79ef4c3",
+          "sourcePort": "ccfddf0d-efe0-4bda-88a7-3b3d351933f2",
+          "target": "49ccf2f0-e15c-4156-ac53-8371d4711ed4",
+          "targetPort": "53fe1181-7bce-4b68-9ca8-6c22dbb30c9a",
+          "points": [
+            {
+              "id": "f1e58f25-f446-4e27-bfdf-d7d7b6cbf919",
+              "type": "point",
+              "x": 201.8125,
+              "y": 408.5
+            },
+            {
+              "id": "0c38ef30-6239-45e5-8987-9db8c019b1b5",
+              "type": "point",
+              "x": 224.5,
+              "y": 59.5
+            }
+          ],
+          "labels": [],
+          "width": 3,
+          "color": "gray",
+          "curvyness": 50,
+          "selectedColor": "rgb(0,192,255)"
         }
       }
     },
@@ -443,19 +555,19 @@
           "id": "217b3ab1-2eaf-4638-8e01-beef6144d96e",
           "type": "start",
           "selected": false,
-          "x": 50,
-          "y": 50,
+          "x": -559,
+          "y": 53,
           "ports": [
             {
               "id": "cf5dc2b5-ecbc-4692-8870-56f82d67907d",
               "type": "default",
-              "x": 125.796875,
-              "y": 57,
+              "x": -483.203125,
+              "y": 60,
               "name": "out-1658009090308",
               "alignment": "right",
               "parentNode": "217b3ab1-2eaf-4638-8e01-beef6144d96e",
               "links": [
-                "492d0181-7b0e-4b08-9f88-630726cfef9e"
+                "cd9ada16-66bd-4529-9aaf-6199f54bd331"
               ],
               "in": false,
               "label": "❯"
@@ -484,7 +596,7 @@
               "alignment": "left",
               "parentNode": "49ccf2f0-e15c-4156-ac53-8371d4711ed4",
               "links": [
-                "492d0181-7b0e-4b08-9f88-630726cfef9e"
+                "105bd745-df44-4038-bbdf-89e2c0e2b3e5"
               ],
               "in": true,
               "label": "❯"
@@ -1065,7 +1177,7 @@
         "0464adc9-8c23-4f2d-9edf-5839085e8131": {
           "id": "0464adc9-8c23-4f2d-9edf-5839085e8131",
           "type": "note",
-          "selected": true,
+          "selected": false,
           "x": 237,
           "y": 112,
           "ports": [],
@@ -1074,6 +1186,329 @@
           "portsInOrder": [],
           "portsOutOrder": [],
           "text": "Missing dialogue"
+        },
+        "13cf2260-7706-43bd-a794-ac43030fa01a": {
+          "id": "13cf2260-7706-43bd-a794-ac43030fa01a",
+          "type": "switch",
+          "selected": false,
+          "x": -421,
+          "y": 29,
+          "ports": [
+            {
+              "id": "8cffd69f-a54f-4818-9858-4a3afb50f104",
+              "type": "default",
+              "x": -434,
+              "y": 60,
+              "name": "in-1661841549798 ",
+              "alignment": "left",
+              "parentNode": "13cf2260-7706-43bd-a794-ac43030fa01a",
+              "links": [
+                "cd9ada16-66bd-4529-9aaf-6199f54bd331"
+              ],
+              "in": true,
+              "label": "❯"
+            },
+            {
+              "id": "addb3b7d-81ab-4fc4-a6b5-b085957c5365",
+              "type": "default",
+              "x": -114.109375,
+              "y": 60,
+              "name": "out-1661841556517",
+              "alignment": "right",
+              "parentNode": "13cf2260-7706-43bd-a794-ac43030fa01a",
+              "links": [],
+              "in": false,
+              "label": "null"
+            },
+            {
+              "id": "0711caed-c604-4cad-ba98-b1800e0669bc",
+              "type": "default",
+              "x": -114.109375,
+              "y": 77,
+              "name": "out-16618415565181",
+              "alignment": "right",
+              "parentNode": "13cf2260-7706-43bd-a794-ac43030fa01a",
+              "links": [],
+              "in": false,
+              "label": "GETTING_STARTED"
+            },
+            {
+              "id": "794208e3-6ec5-43ef-8b16-1c947a2b9ae6",
+              "type": "default",
+              "x": -114.109375,
+              "y": 94,
+              "name": "out-16618415565182",
+              "alignment": "right",
+              "parentNode": "13cf2260-7706-43bd-a794-ac43030fa01a",
+              "links": [],
+              "in": false,
+              "label": "INVESTIGATE"
+            },
+            {
+              "id": "03d5829a-b6b6-45c6-ab62-9b7f2cf08cef",
+              "type": "default",
+              "x": -114.109375,
+              "y": 111,
+              "name": "out-16618415565183",
+              "alignment": "right",
+              "parentNode": "13cf2260-7706-43bd-a794-ac43030fa01a",
+              "links": [],
+              "in": false,
+              "label": "GUARDIAN"
+            },
+            {
+              "id": "f26f8d13-5e1a-4487-9762-35d7542a3e48",
+              "type": "default",
+              "x": -114.109375,
+              "y": 128,
+              "name": "out-16618415565184",
+              "alignment": "right",
+              "parentNode": "13cf2260-7706-43bd-a794-ac43030fa01a",
+              "links": [],
+              "in": false,
+              "label": "REPORT_BACK"
+            },
+            {
+              "id": "be4ea514-c413-433d-a096-588c6e632ef6",
+              "type": "default",
+              "x": -114.109375,
+              "y": 145,
+              "name": "out-16618415565185",
+              "alignment": "right",
+              "parentNode": "13cf2260-7706-43bd-a794-ac43030fa01a",
+              "links": [],
+              "in": false,
+              "label": "FIND_DREZEL"
+            },
+            {
+              "id": "711b568c-255c-4830-bb5c-633b5356fc06",
+              "type": "default",
+              "x": -114.109375,
+              "y": 162,
+              "name": "out-16618415565186",
+              "alignment": "right",
+              "parentNode": "13cf2260-7706-43bd-a794-ac43030fa01a",
+              "links": [],
+              "in": false,
+              "label": "FREE_DREZEL"
+            },
+            {
+              "id": "cb10d4a3-d8f4-46ab-b5ba-1dd19e317276",
+              "type": "default",
+              "x": -114.109375,
+              "y": 179,
+              "name": "out-16618415565187",
+              "alignment": "right",
+              "parentNode": "13cf2260-7706-43bd-a794-ac43030fa01a",
+              "links": [],
+              "in": false,
+              "label": "VAMPYRE"
+            },
+            {
+              "id": "276d4812-0516-4de9-98f6-eea41727ceb7",
+              "type": "default",
+              "x": -114.109375,
+              "y": 196,
+              "name": "out-16618415565188",
+              "alignment": "right",
+              "parentNode": "13cf2260-7706-43bd-a794-ac43030fa01a",
+              "links": [
+                "e25706c9-e4d0-45b9-b95c-dfdf60033dc3"
+              ],
+              "in": false,
+              "label": "BASEMENT"
+            },
+            {
+              "id": "4e7e59a3-cdfb-4628-b3ab-3b658147afd7",
+              "type": "default",
+              "x": -114.109375,
+              "y": 213,
+              "name": "out-16618415565189",
+              "alignment": "right",
+              "parentNode": "13cf2260-7706-43bd-a794-ac43030fa01a",
+              "links": [
+                "72a1b9c2-142b-4b88-998e-73c244cc056b"
+              ],
+              "in": false,
+              "label": "BRING_ESSENCE"
+            },
+            {
+              "id": "6bbe2928-15c4-43c5-8e82-b206b6a54a0a",
+              "type": "default",
+              "x": -114.109375,
+              "y": 230,
+              "name": "out-166184155651810",
+              "alignment": "right",
+              "parentNode": "13cf2260-7706-43bd-a794-ac43030fa01a",
+              "links": [
+                "cd9ce699-8cad-4c29-a0fa-3c7a36e92610"
+              ],
+              "in": false,
+              "label": "FINISHED"
+            }
+          ],
+          "title": "Switch",
+          "color": "#db8c16e6",
+          "portsInOrder": [
+            "8cffd69f-a54f-4818-9858-4a3afb50f104"
+          ],
+          "portsOutOrder": [
+            "addb3b7d-81ab-4fc4-a6b5-b085957c5365",
+            "0711caed-c604-4cad-ba98-b1800e0669bc",
+            "794208e3-6ec5-43ef-8b16-1c947a2b9ae6",
+            "03d5829a-b6b6-45c6-ab62-9b7f2cf08cef",
+            "f26f8d13-5e1a-4487-9762-35d7542a3e48",
+            "be4ea514-c413-433d-a096-588c6e632ef6",
+            "711b568c-255c-4830-bb5c-633b5356fc06",
+            "cb10d4a3-d8f4-46ab-b5ba-1dd19e317276",
+            "276d4812-0516-4de9-98f6-eea41727ceb7",
+            "4e7e59a3-cdfb-4628-b3ab-3b658147afd7",
+            "6bbe2928-15c4-43c5-8e82-b206b6a54a0a"
+          ],
+          "switch": "quest[PRIEST_IN_PERIL]"
+        },
+        "17bb4cff-b52f-48cd-b954-b53e0ad6863d": {
+          "id": "17bb4cff-b52f-48cd-b954-b53e0ad6863d",
+          "type": "tree",
+          "selected": false,
+          "x": -36,
+          "y": 250,
+          "ports": [
+            {
+              "id": "c1c0eb7b-6105-4825-bc49-bbe8c8a7a20c",
+              "type": "default",
+              "x": -45,
+              "y": 264.5,
+              "name": "in-1658009197830 ",
+              "alignment": "left",
+              "parentNode": "17bb4cff-b52f-48cd-b954-b53e0ad6863d",
+              "links": [
+                "e25706c9-e4d0-45b9-b95c-dfdf60033dc3"
+              ],
+              "in": true,
+              "label": "❯"
+            }
+          ],
+          "title": "Tree",
+          "color": "#e02e87e6",
+          "portsInOrder": [
+            "c1c0eb7b-6105-4825-bc49-bbe8c8a7a20c"
+          ],
+          "portsOutOrder": [],
+          "tree": "priest_bring",
+          "start": "Start"
+        },
+        "7b4f8bd4-aa77-4827-b7e9-74e4a83f2908": {
+          "id": "7b4f8bd4-aa77-4827-b7e9-74e4a83f2908",
+          "type": "tree",
+          "selected": false,
+          "x": -36,
+          "y": 301,
+          "ports": [
+            {
+              "id": "374c647f-9a86-451f-848d-d9ac29d665d7",
+              "type": "default",
+              "x": -45,
+              "y": 315.5,
+              "name": "in-1658009197830 ",
+              "alignment": "left",
+              "parentNode": "7b4f8bd4-aa77-4827-b7e9-74e4a83f2908",
+              "links": [
+                "72a1b9c2-142b-4b88-998e-73c244cc056b"
+              ],
+              "in": true,
+              "label": "❯"
+            }
+          ],
+          "title": "Tree",
+          "color": "#e02e87e6",
+          "portsInOrder": [
+            "374c647f-9a86-451f-848d-d9ac29d665d7"
+          ],
+          "portsOutOrder": [],
+          "tree": "priest_essence",
+          "start": "Start"
+        },
+        "8eb860f2-ca1c-429c-bec3-db1bc79ef4c3": {
+          "id": "8eb860f2-ca1c-429c-bec3-db1bc79ef4c3",
+          "type": "condition",
+          "selected": false,
+          "x": -165,
+          "y": 370,
+          "ports": [
+            {
+              "id": "4b23bea1-e559-48d7-97a9-309cdeef9843",
+              "type": "default",
+              "x": -178,
+              "y": 401,
+              "name": "in-1661841682453 ",
+              "alignment": "left",
+              "parentNode": "8eb860f2-ca1c-429c-bec3-db1bc79ef4c3",
+              "links": [
+                "cd9ce699-8cad-4c29-a0fa-3c7a36e92610"
+              ],
+              "in": true,
+              "label": "❯"
+            },
+            {
+              "id": "ccfddf0d-efe0-4bda-88a7-3b3d351933f2",
+              "type": "default",
+              "x": 194.3125,
+              "y": 401,
+              "name": "out-1661841682453",
+              "alignment": "right",
+              "parentNode": "8eb860f2-ca1c-429c-bec3-db1bc79ef4c3",
+              "links": [
+                "105bd745-df44-4038-bbdf-89e2c0e2b3e5"
+              ],
+              "in": false,
+              "label": "true"
+            },
+            {
+              "id": "69fc5fa0-a090-4de2-b90d-4dd0429919cf",
+              "type": "default",
+              "x": 196.453125,
+              "y": 418,
+              "name": "out-16618416824531",
+              "alignment": "right",
+              "parentNode": "8eb860f2-ca1c-429c-bec3-db1bc79ef4c3",
+              "links": [],
+              "in": false,
+              "label": "false"
+            }
+          ],
+          "title": "Condition",
+          "color": "#02630ae6",
+          "portsInOrder": [
+            "4b23bea1-e559-48d7-97a9-309cdeef9843"
+          ],
+          "portsOutOrder": [
+            "ccfddf0d-efe0-4bda-88a7-3b3d351933f2",
+            "69fc5fa0-a090-4de2-b90d-4dd0429919cf"
+          ],
+          "conditions": {
+            "conditions": [
+              "hasQuestCompleted"
+            ],
+            "args": [
+              [
+                "RESTLESS_GHOST"
+              ]
+            ]
+          }
+        },
+        "390e2ebd-e804-4ec0-b4c7-dac87d3a797b": {
+          "id": "390e2ebd-e804-4ec0-b4c7-dac87d3a797b",
+          "type": "note",
+          "selected": false,
+          "x": 77,
+          "y": 464,
+          "ports": [],
+          "title": "Note",
+          "color": "#19e0e7e6",
+          "portsInOrder": [],
+          "portsOutOrder": [],
+          "text": "Missing if not completed"
         }
       }
     }
@@ -1081,9 +1516,9 @@
   "trees": {
     "nature_start": {
       "id": "2966f889-035b-4883-b121-7b227e3e0217",
-      "offsetX": 740.21627027736,
-      "offsetY": -735.1991972145091,
-      "zoom": 81.66666666666661,
+      "offsetX": 646.1194669295767,
+      "offsetY": -96.95423112460293,
+      "zoom": 58.33333333333324,
       "gridSize": 0,
       "layers": [
         {
@@ -8542,6 +8977,2484 @@
                 "3911f840-d719-47ad-9851-89bf116cbf65"
               ],
               "text": "That's fantastic, well done!"
+            }
+          }
+        }
+      ]
+    },
+    "priest_bring": {
+      "id": "7543dd95-7764-406b-a339-52eeb2278b16",
+      "offsetX": 165.5723610496833,
+      "offsetY": 150.16420708894515,
+      "zoom": 76.6666666666666,
+      "gridSize": 0,
+      "layers": [
+        {
+          "id": "4dc00fa1-e8c6-4e69-8268-f1f3a8e0f674",
+          "type": "diagram-links",
+          "isSvg": true,
+          "transformed": true,
+          "models": {
+            "bb5e63a4-3b5d-44c5-8405-ae44a7e7c3d2": {
+              "id": "bb5e63a4-3b5d-44c5-8405-ae44a7e7c3d2",
+              "type": "default",
+              "selected": false,
+              "source": "ea156748-8e7f-49e7-a84c-dadd892bd7ea",
+              "sourcePort": "8bf69453-e85c-44e6-bf5f-70ece2d2393a",
+              "target": "dbc30dd9-4fe3-4730-a76e-34e7ab6d2b59",
+              "targetPort": "d82d0080-44e1-4ee6-b2a9-582b156daf91",
+              "points": [
+                {
+                  "id": "2ec647f3-e86b-47c2-89cf-44ae6cdc3794",
+                  "type": "point",
+                  "x": 133.296875,
+                  "y": 64.5
+                },
+                {
+                  "id": "58543d9d-a6a0-48e9-a26c-523109d5f8c4",
+                  "type": "point",
+                  "x": 187.5,
+                  "y": 64.5
+                }
+              ],
+              "labels": [],
+              "width": 3,
+              "color": "gray",
+              "curvyness": 50,
+              "selectedColor": "rgb(0,192,255)"
+            },
+            "e8fe8fe6-1b90-4a9e-a50f-c2ef8113cf04": {
+              "id": "e8fe8fe6-1b90-4a9e-a50f-c2ef8113cf04",
+              "type": "default",
+              "selected": false,
+              "source": "dbc30dd9-4fe3-4730-a76e-34e7ab6d2b59",
+              "sourcePort": "e8205d51-110b-401a-a877-76fd2b3a987c",
+              "target": "a5c9dfcd-d864-430a-9f32-3b824a79b369",
+              "targetPort": "cbb66ace-4f91-4a4f-98ff-c426919ea98f",
+              "points": [
+                {
+                  "id": "fc4f2aed-f4fb-479a-a7e0-2ddabb034a12",
+                  "type": "point",
+                  "x": 663.515625,
+                  "y": 64.5
+                },
+                {
+                  "id": "326d49ad-5b34-4a59-9d0e-3dc32fa5d4bb",
+                  "type": "point",
+                  "x": 187.5,
+                  "y": 157.5
+                }
+              ],
+              "labels": [],
+              "width": 3,
+              "color": "gray",
+              "curvyness": 50,
+              "selectedColor": "rgb(0,192,255)"
+            },
+            "e2e62bb3-f30f-4a59-bb47-f9b7d6c2a052": {
+              "id": "e2e62bb3-f30f-4a59-bb47-f9b7d6c2a052",
+              "type": "default",
+              "selected": false,
+              "source": "a5c9dfcd-d864-430a-9f32-3b824a79b369",
+              "sourcePort": "c58b6818-cbde-491f-897a-0be77696a189",
+              "target": "ff9aa2eb-7cfc-4931-bb01-fc642a6c4e42",
+              "targetPort": "ae70b501-e4ed-45ce-bafa-b38c8a29dfbc",
+              "points": [
+                {
+                  "id": "75274648-ff59-4877-ad6d-c7875771c36e",
+                  "type": "point",
+                  "x": 414.34375,
+                  "y": 157.5
+                },
+                {
+                  "id": "cf4a2815-0e68-449e-a2a4-79442e1de147",
+                  "type": "point",
+                  "x": 187.5,
+                  "y": 220.5
+                }
+              ],
+              "labels": [],
+              "width": 3,
+              "color": "gray",
+              "curvyness": 50,
+              "selectedColor": "rgb(0,192,255)"
+            },
+            "3f9e9dc8-4734-4378-ad2b-ed58eaeae324": {
+              "id": "3f9e9dc8-4734-4378-ad2b-ed58eaeae324",
+              "type": "default",
+              "selected": false,
+              "source": "ff9aa2eb-7cfc-4931-bb01-fc642a6c4e42",
+              "sourcePort": "7bbb4626-4b3e-4c65-9edc-4189b2c4e625",
+              "target": "693cd7c0-5239-4ca1-b65b-fa049340d116",
+              "targetPort": "02c9af62-b73e-4f21-b4ca-b40d772f9e91",
+              "points": [
+                {
+                  "id": "391b5fd4-2ada-4e16-b4cc-298c3ec8c339",
+                  "type": "point",
+                  "x": 656.1875,
+                  "y": 220.5
+                },
+                {
+                  "id": "c0637443-b3a7-4730-8cd4-0c6be1db3d37",
+                  "type": "point",
+                  "x": 187.5,
+                  "y": 328.5
+                }
+              ],
+              "labels": [],
+              "width": 3,
+              "color": "gray",
+              "curvyness": 50,
+              "selectedColor": "rgb(0,192,255)"
+            },
+            "1bff5583-5184-44a7-a243-a89cb0641d20": {
+              "id": "1bff5583-5184-44a7-a243-a89cb0641d20",
+              "type": "default",
+              "selected": false,
+              "source": "693cd7c0-5239-4ca1-b65b-fa049340d116",
+              "sourcePort": "df5ab1ad-15f2-4c79-8784-d99cc34df015",
+              "target": "dd95da61-2222-46c5-bf49-8e7d3eb04fbf",
+              "targetPort": "ad5352af-ca50-4033-aa23-38c207fc7ce2",
+              "points": [
+                {
+                  "id": "7e122ccf-8d21-4a33-a5a2-884cf3709fa7",
+                  "type": "point",
+                  "x": 685.5,
+                  "y": 328.5
+                },
+                {
+                  "id": "b29f72fe-bf0a-429b-be47-1aed8a34532d",
+                  "type": "point",
+                  "x": 187.5,
+                  "y": 421.5
+                }
+              ],
+              "labels": [],
+              "width": 3,
+              "color": "gray",
+              "curvyness": 50,
+              "selectedColor": "rgb(0,192,255)"
+            },
+            "e517746b-97bf-4697-84f6-618507643b8f": {
+              "id": "e517746b-97bf-4697-84f6-618507643b8f",
+              "type": "default",
+              "selected": false,
+              "source": "dd95da61-2222-46c5-bf49-8e7d3eb04fbf",
+              "sourcePort": "68e87fcc-500e-4d8b-bb88-2816cc500b08",
+              "target": "030323f3-fb93-431c-8d28-7935a10e4cde",
+              "targetPort": "4a906d4a-3a01-439d-82a0-dc02dc840480",
+              "points": [
+                {
+                  "id": "34d9e520-4cb8-4096-afbb-8c35b8597446",
+                  "type": "point",
+                  "x": 663.515625,
+                  "y": 421.5
+                },
+                {
+                  "id": "e50f0348-e077-4f84-b924-50ee2b887dc5",
+                  "type": "point",
+                  "x": 187.5,
+                  "y": 499.5
+                }
+              ],
+              "labels": [],
+              "width": 3,
+              "color": "gray",
+              "curvyness": 50,
+              "selectedColor": "rgb(0,192,255)"
+            },
+            "7332576d-f29d-424c-88dc-781f25bccc18": {
+              "id": "7332576d-f29d-424c-88dc-781f25bccc18",
+              "type": "default",
+              "selected": false,
+              "source": "030323f3-fb93-431c-8d28-7935a10e4cde",
+              "sourcePort": "c1f84d02-152a-4b8c-b16e-f7ddef5af6ba",
+              "target": "732830d9-dbbd-4a4d-ac1d-2fafb3bdf908",
+              "targetPort": "e539ad8e-0fc2-4e5a-809f-a65c2fa3deb9",
+              "points": [
+                {
+                  "id": "9077ce2e-364c-4afb-ac73-a5f19c17444f",
+                  "type": "point",
+                  "x": 487.625,
+                  "y": 499.5
+                },
+                {
+                  "id": "22c45075-5dc1-4987-a75c-60c4a83f03fc",
+                  "type": "point",
+                  "x": 187.5,
+                  "y": 562.5
+                }
+              ],
+              "labels": [],
+              "width": 3,
+              "color": "gray",
+              "curvyness": 50,
+              "selectedColor": "rgb(0,192,255)"
+            },
+            "9ede42d8-d9ef-4702-9d51-45f8541e1467": {
+              "id": "9ede42d8-d9ef-4702-9d51-45f8541e1467",
+              "type": "default",
+              "selected": false,
+              "source": "732830d9-dbbd-4a4d-ac1d-2fafb3bdf908",
+              "sourcePort": "783f6e09-b99b-4bd7-8767-49693e47bac1",
+              "target": "69145784-4920-4ac9-a676-bc726ae8f076",
+              "targetPort": "0dd69bef-a3dc-4046-aa05-04430c7c8550",
+              "points": [
+                {
+                  "id": "5766fe68-90df-496e-8509-6ea8b8cd5de5",
+                  "type": "point",
+                  "x": 648.859375,
+                  "y": 562.5
+                },
+                {
+                  "id": "cd867fe2-340d-4b9a-a2fb-8cadf4cedd16",
+                  "type": "point",
+                  "x": 187.5,
+                  "y": 655.5
+                }
+              ],
+              "labels": [],
+              "width": 3,
+              "color": "gray",
+              "curvyness": 50,
+              "selectedColor": "rgb(0,192,255)"
+            },
+            "ee1e046d-baf4-4f84-826a-7ac4b4720d7a": {
+              "id": "ee1e046d-baf4-4f84-826a-7ac4b4720d7a",
+              "type": "default",
+              "selected": false,
+              "source": "69145784-4920-4ac9-a676-bc726ae8f076",
+              "sourcePort": "ce6eb930-6232-4bfd-9f2b-868ebb31749b",
+              "target": "50547d59-841d-42a4-bc85-c35ef72d552a",
+              "targetPort": "a7772ab2-052d-493a-8b3c-c571ebbec196",
+              "points": [
+                {
+                  "id": "c32facfb-0acc-44a5-b3e6-3e99c1a61f67",
+                  "type": "point",
+                  "x": 670.84375,
+                  "y": 655.5
+                },
+                {
+                  "id": "ad441068-b06e-4a57-b8ed-a345c227a101",
+                  "type": "point",
+                  "x": 187.5,
+                  "y": 763.5
+                }
+              ],
+              "labels": [],
+              "width": 3,
+              "color": "gray",
+              "curvyness": 50,
+              "selectedColor": "rgb(0,192,255)"
+            },
+            "ff935bb4-59fa-48d9-8b04-ce9fa73445c4": {
+              "id": "ff935bb4-59fa-48d9-8b04-ce9fa73445c4",
+              "type": "default",
+              "selected": false,
+              "source": "50547d59-841d-42a4-bc85-c35ef72d552a",
+              "sourcePort": "f797fc6d-40ff-4511-9664-9ed1bc971a9d",
+              "target": "3968a0e9-b35b-46eb-bcc8-4b18c83ecfa3",
+              "targetPort": "2a86ac17-001e-4b2b-bb81-5b8d47191ba9",
+              "points": [
+                {
+                  "id": "583b2991-f5f5-41d1-b042-c0edd1f9b9d9",
+                  "type": "point",
+                  "x": 670.84375,
+                  "y": 763.5
+                },
+                {
+                  "id": "8df31ab2-6732-48c1-bdee-225792945603",
+                  "type": "point",
+                  "x": 749.3181818181833,
+                  "y": 61.409090909088945
+                }
+              ],
+              "labels": [],
+              "width": 3,
+              "color": "gray",
+              "curvyness": 50,
+              "selectedColor": "rgb(0,192,255)"
+            },
+            "aaa4b138-f946-463f-a1f0-80fdf133eab0": {
+              "id": "aaa4b138-f946-463f-a1f0-80fdf133eab0",
+              "type": "default",
+              "selected": false,
+              "source": "3968a0e9-b35b-46eb-bcc8-4b18c83ecfa3",
+              "sourcePort": "3e82b8f5-a6db-4521-a4bf-3bb33d575c3c",
+              "target": "913981a3-52a1-4edf-9995-0b7d062f8e8b",
+              "targetPort": "eaf0279a-16ce-4b20-8fc6-527f53137ae0",
+              "points": [
+                {
+                  "id": "e75bf1cb-f80f-4fc0-9a14-5423b6b337eb",
+                  "type": "point",
+                  "x": 1225.3338068181836,
+                  "y": 61.409090909088945
+                },
+                {
+                  "id": "b0cb0c54-92c6-4338-8df5-cb25c19974e2",
+                  "type": "point",
+                  "x": 749.3181818181833,
+                  "y": 140.40909090908895
+                }
+              ],
+              "labels": [],
+              "width": 3,
+              "color": "gray",
+              "curvyness": 50,
+              "selectedColor": "rgb(0,192,255)"
+            },
+            "3c2a0b81-f3e8-4124-b295-23679de675fb": {
+              "id": "3c2a0b81-f3e8-4124-b295-23679de675fb",
+              "type": "default",
+              "selected": false,
+              "source": "913981a3-52a1-4edf-9995-0b7d062f8e8b",
+              "sourcePort": "60065b94-b739-47ee-a5e3-b05051674690",
+              "target": "19b8aeff-ea2c-4bcf-9c3f-68551045f98c",
+              "targetPort": "5c8ef3da-d2bd-4d64-9f02-164b0e7e5377",
+              "points": [
+                {
+                  "id": "1a3894da-793b-460b-92a4-64f547137e22",
+                  "type": "point",
+                  "x": 1188.6931818181845,
+                  "y": 140.40909090908895
+                },
+                {
+                  "id": "b84f18d6-b749-4b4a-9c25-232e07c68f10",
+                  "type": "point",
+                  "x": 749.3181818181833,
+                  "y": 233.4090909090885
+                }
+              ],
+              "labels": [],
+              "width": 3,
+              "color": "gray",
+              "curvyness": 50,
+              "selectedColor": "rgb(0,192,255)"
+            },
+            "9bb9d0ad-34af-4fde-a738-2995b311650f": {
+              "id": "9bb9d0ad-34af-4fde-a738-2995b311650f",
+              "type": "default",
+              "selected": false,
+              "source": "19b8aeff-ea2c-4bcf-9c3f-68551045f98c",
+              "sourcePort": "51e3cd24-e953-478e-b21c-c2a81ebaed13",
+              "target": "9d0cd0ce-2293-48c2-b175-582d20452791",
+              "targetPort": "c03ac705-7e87-4950-8a94-8a47eb679497",
+              "points": [
+                {
+                  "id": "87d6733c-bc1c-4a33-9e14-4bebcb6d7aa8",
+                  "type": "point",
+                  "x": 1071.4275568181808,
+                  "y": 233.4090909090885
+                },
+                {
+                  "id": "0076671f-0a4c-4d70-881e-45864ae64996",
+                  "type": "point",
+                  "x": 748.3181818181833,
+                  "y": 296.4090909090885
+                }
+              ],
+              "labels": [],
+              "width": 3,
+              "color": "gray",
+              "curvyness": 50,
+              "selectedColor": "rgb(0,192,255)"
+            },
+            "64580e00-0bc6-461f-ab4f-017e9f812c12": {
+              "id": "64580e00-0bc6-461f-ab4f-017e9f812c12",
+              "type": "default",
+              "selected": false,
+              "source": "9d0cd0ce-2293-48c2-b175-582d20452791",
+              "sourcePort": "3c2c0097-fca5-46f5-8de2-570805ed0615",
+              "target": "58a0250e-7b02-4504-9073-792b6c108a64",
+              "targetPort": "0f6c4d1e-08b0-4bd5-a7e7-07eb79c40794",
+              "points": [
+                {
+                  "id": "44e2da1a-000a-43ff-aa74-c7d43993e675",
+                  "type": "point",
+                  "x": 909.1931818181829,
+                  "y": 296.4090909090885
+                },
+                {
+                  "id": "672bd920-21e0-4b6a-aabd-a2c5a6ae6558",
+                  "type": "point",
+                  "x": 747.3181818181833,
+                  "y": 360.40909090908826
+                }
+              ],
+              "labels": [],
+              "width": 3,
+              "color": "gray",
+              "curvyness": 50,
+              "selectedColor": "rgb(0,192,255)"
+            },
+            "707b0386-c3ef-49b6-b330-831cee338c93": {
+              "id": "707b0386-c3ef-49b6-b330-831cee338c93",
+              "type": "default",
+              "selected": false,
+              "source": "58a0250e-7b02-4504-9073-792b6c108a64",
+              "sourcePort": "99fae18d-279e-47da-832d-1102202ca6e3",
+              "target": "e3fa5127-da53-45fd-8031-b1115b1f02d8",
+              "targetPort": "d47cc33f-f946-41b4-a9fe-92709487196d",
+              "points": [
+                {
+                  "id": "687a2e79-1943-4384-aef3-98bbcc5d0c45",
+                  "type": "point",
+                  "x": 1237.9900568181836,
+                  "y": 360.40909090908826
+                },
+                {
+                  "id": "8454f78f-4a95-48a7-b5e3-27782c6178e8",
+                  "type": "point",
+                  "x": 749.3181818181833,
+                  "y": 436.4090909090878
+                }
+              ],
+              "labels": [],
+              "width": 3,
+              "color": "gray",
+              "curvyness": 50,
+              "selectedColor": "rgb(0,192,255)"
+            },
+            "ac0abf57-50aa-4151-859e-a32b3b541daa": {
+              "id": "ac0abf57-50aa-4151-859e-a32b3b541daa",
+              "type": "default",
+              "selected": false,
+              "source": "e3fa5127-da53-45fd-8031-b1115b1f02d8",
+              "sourcePort": "be5ee484-7f9b-411a-8c52-d2a108d3f089",
+              "target": "44b304d2-1bfc-4565-9a74-810180e45d42",
+              "targetPort": "9f37ac1b-d99b-4907-8f65-97c225fbee7c",
+              "points": [
+                {
+                  "id": "586ff180-df50-4318-bf24-688b5fdbb54c",
+                  "type": "point",
+                  "x": 1232.6619318181836,
+                  "y": 436.4090909090878
+                },
+                {
+                  "id": "62799bd5-7073-47c9-9b2c-bf6600676ad9",
+                  "type": "point",
+                  "x": 749.3181818181833,
+                  "y": 545.4090909090887
+                }
+              ],
+              "labels": [],
+              "width": 3,
+              "color": "gray",
+              "curvyness": 50,
+              "selectedColor": "rgb(0,192,255)"
+            },
+            "ac6f8e0f-fa8f-4f37-8a41-f47714437bb0": {
+              "id": "ac6f8e0f-fa8f-4f37-8a41-f47714437bb0",
+              "type": "default",
+              "selected": false,
+              "source": "44b304d2-1bfc-4565-9a74-810180e45d42",
+              "sourcePort": "b29aa92d-9166-4fe0-8b69-f13b75ddc9a9",
+              "target": "595f06e0-a61e-4478-90c5-1b8576172fc5",
+              "targetPort": "1792befb-69ae-455d-8761-31f59e3e864f",
+              "points": [
+                {
+                  "id": "8299f5b8-79ff-42a8-bbe3-f36cb01a0a88",
+                  "type": "point",
+                  "x": 1181.3650568181845,
+                  "y": 545.4090909090887
+                },
+                {
+                  "id": "b44c127a-da7d-4be7-8f68-e6368ce3fc3a",
+                  "type": "point",
+                  "x": 749.3181818181833,
+                  "y": 623.4090909090887
+                }
+              ],
+              "labels": [],
+              "width": 3,
+              "color": "gray",
+              "curvyness": 50,
+              "selectedColor": "rgb(0,192,255)"
+            },
+            "d80b96c6-703e-4eca-8004-2a8036d74b53": {
+              "id": "d80b96c6-703e-4eca-8004-2a8036d74b53",
+              "type": "default",
+              "selected": false,
+              "source": "595f06e0-a61e-4478-90c5-1b8576172fc5",
+              "sourcePort": "cd7ce5a5-fc29-491f-9f5b-07b638594266",
+              "target": "0486d83e-fb3e-41c8-89c5-ab41d6c6c891",
+              "targetPort": "865ebcd2-a6dd-49a2-a899-1b1ba0d33b25",
+              "points": [
+                {
+                  "id": "9549fb23-0ac8-4b1a-82d1-2c7888f10e70",
+                  "type": "point",
+                  "x": 1218.0056818181831,
+                  "y": 623.4090909090896
+                },
+                {
+                  "id": "ebc47b9b-7942-42b1-a07e-c5396609a54b",
+                  "type": "point",
+                  "x": 748.9674393280279,
+                  "y": 717.8355843761727
+                }
+              ],
+              "labels": [],
+              "width": 3,
+              "color": "gray",
+              "curvyness": 50,
+              "selectedColor": "rgb(0,192,255)"
+            }
+          }
+        },
+        {
+          "id": "2d993e82-fc46-4dd6-af13-9f837715e77e",
+          "type": "diagram-nodes",
+          "isSvg": false,
+          "transformed": true,
+          "models": {
+            "ea156748-8e7f-49e7-a84c-dadd892bd7ea": {
+              "id": "ea156748-8e7f-49e7-a84c-dadd892bd7ea",
+              "type": "start",
+              "selected": false,
+              "x": 50,
+              "y": 50,
+              "ports": [
+                {
+                  "id": "8bf69453-e85c-44e6-bf5f-70ece2d2393a",
+                  "type": "default",
+                  "x": 125.796875,
+                  "y": 57,
+                  "name": "out-1661841591452",
+                  "alignment": "right",
+                  "parentNode": "ea156748-8e7f-49e7-a84c-dadd892bd7ea",
+                  "links": [
+                    "bb5e63a4-3b5d-44c5-8405-ae44a7e7c3d2"
+                  ],
+                  "in": false,
+                  "label": "❯"
+                }
+              ],
+              "title": "Start",
+              "color": "#16db26e6",
+              "portsInOrder": [],
+              "portsOutOrder": [
+                "8bf69453-e85c-44e6-bf5f-70ece2d2393a"
+              ]
+            },
+            "dbc30dd9-4fe3-4730-a76e-34e7ab6d2b59": {
+              "id": "dbc30dd9-4fe3-4730-a76e-34e7ab6d2b59",
+              "type": "dialogue",
+              "selected": false,
+              "x": 193,
+              "y": 26,
+              "ports": [
+                {
+                  "id": "d82d0080-44e1-4ee6-b2a9-582b156daf91",
+                  "type": "default",
+                  "x": 180,
+                  "y": 57,
+                  "name": "in-1661841747604 ",
+                  "alignment": "left",
+                  "parentNode": "dbc30dd9-4fe3-4730-a76e-34e7ab6d2b59",
+                  "links": [
+                    "bb5e63a4-3b5d-44c5-8405-ae44a7e7c3d2"
+                  ],
+                  "in": true,
+                  "label": "❯"
+                },
+                {
+                  "id": "e8205d51-110b-401a-a877-76fd2b3a987c",
+                  "type": "default",
+                  "x": 656.015625,
+                  "y": 57,
+                  "name": "out-1661841747604",
+                  "alignment": "right",
+                  "parentNode": "dbc30dd9-4fe3-4730-a76e-34e7ab6d2b59",
+                  "links": [
+                    "e8fe8fe6-1b90-4a9e-a50f-c2ef8113cf04"
+                  ],
+                  "in": false,
+                  "label": "❯"
+                }
+              ],
+              "title": "Drezel",
+              "color": "#dd341ee6",
+              "portsInOrder": [
+                "d82d0080-44e1-4ee6-b2a9-582b156daf91"
+              ],
+              "portsOutOrder": [
+                "e8205d51-110b-401a-a877-76fd2b3a987c"
+              ],
+              "text": "Ah, <player>. Glad you made it. Things are worse\nthan I feared down here. I'm not sure if I will be able\nto repair the damage."
+            },
+            "a5c9dfcd-d864-430a-9f32-3b824a79b369": {
+              "id": "a5c9dfcd-d864-430a-9f32-3b824a79b369",
+              "type": "dialogue",
+              "selected": false,
+              "x": 193,
+              "y": 119,
+              "ports": [
+                {
+                  "id": "cbb66ace-4f91-4a4f-98ff-c426919ea98f",
+                  "type": "default",
+                  "x": 180,
+                  "y": 150,
+                  "name": "in-1661841747604 ",
+                  "alignment": "left",
+                  "parentNode": "a5c9dfcd-d864-430a-9f32-3b824a79b369",
+                  "links": [
+                    "e8fe8fe6-1b90-4a9e-a50f-c2ef8113cf04"
+                  ],
+                  "in": true,
+                  "label": "❯"
+                },
+                {
+                  "id": "c58b6818-cbde-491f-897a-0be77696a189",
+                  "type": "default",
+                  "x": 406.84375,
+                  "y": 150,
+                  "name": "out-1661841747604",
+                  "alignment": "right",
+                  "parentNode": "a5c9dfcd-d864-430a-9f32-3b824a79b369",
+                  "links": [
+                    "e2e62bb3-f30f-4a59-bb47-f9b7d6c2a052"
+                  ],
+                  "in": false,
+                  "label": "❯"
+                }
+              ],
+              "title": "<player>",
+              "color": "#dd341ee6",
+              "portsInOrder": [
+                "cbb66ace-4f91-4a4f-98ff-c426919ea98f"
+              ],
+              "portsOutOrder": [
+                "c58b6818-cbde-491f-897a-0be77696a189"
+              ],
+              "text": "Why, what's happened?"
+            },
+            "ff9aa2eb-7cfc-4931-bb01-fc642a6c4e42": {
+              "id": "ff9aa2eb-7cfc-4931-bb01-fc642a6c4e42",
+              "type": "dialogue",
+              "selected": false,
+              "x": 193,
+              "y": 182,
+              "ports": [
+                {
+                  "id": "ae70b501-e4ed-45ce-bafa-b38c8a29dfbc",
+                  "type": "default",
+                  "x": 180,
+                  "y": 213,
+                  "name": "in-1661841747604 ",
+                  "alignment": "left",
+                  "parentNode": "ff9aa2eb-7cfc-4931-bb01-fc642a6c4e42",
+                  "links": [
+                    "e2e62bb3-f30f-4a59-bb47-f9b7d6c2a052"
+                  ],
+                  "in": true,
+                  "label": "❯"
+                },
+                {
+                  "id": "7bbb4626-4b3e-4c65-9edc-4189b2c4e625",
+                  "type": "default",
+                  "x": 648.6875,
+                  "y": 213,
+                  "name": "out-1661841747604",
+                  "alignment": "right",
+                  "parentNode": "ff9aa2eb-7cfc-4931-bb01-fc642a6c4e42",
+                  "links": [
+                    "3f9e9dc8-4734-4378-ad2b-ed58eaeae324"
+                  ],
+                  "in": false,
+                  "label": "❯"
+                }
+              ],
+              "title": "Drezel",
+              "color": "#dd341ee6",
+              "portsInOrder": [
+                "ae70b501-e4ed-45ce-bafa-b38c8a29dfbc"
+              ],
+              "portsOutOrder": [
+                "7bbb4626-4b3e-4c65-9edc-4189b2c4e625"
+              ],
+              "text": "Sadly, with the guard dog gone, there was nothing to\nstop those Zamorakians from entering the mausoleum.\nFrom what I can tell, they have used some kind of evil\npotion to pollute the Salve."
+            },
+            "693cd7c0-5239-4ca1-b65b-fa049340d116": {
+              "id": "693cd7c0-5239-4ca1-b65b-fa049340d116",
+              "type": "dialogue",
+              "selected": false,
+              "x": 193,
+              "y": 290,
+              "ports": [
+                {
+                  "id": "02c9af62-b73e-4f21-b4ca-b40d772f9e91",
+                  "type": "default",
+                  "x": 180,
+                  "y": 321,
+                  "name": "in-1661841747604 ",
+                  "alignment": "left",
+                  "parentNode": "693cd7c0-5239-4ca1-b65b-fa049340d116",
+                  "links": [
+                    "3f9e9dc8-4734-4378-ad2b-ed58eaeae324"
+                  ],
+                  "in": true,
+                  "label": "❯"
+                },
+                {
+                  "id": "df5ab1ad-15f2-4c79-8784-d99cc34df015",
+                  "type": "default",
+                  "x": 678,
+                  "y": 321,
+                  "name": "out-1661841747604",
+                  "alignment": "right",
+                  "parentNode": "693cd7c0-5239-4ca1-b65b-fa049340d116",
+                  "links": [
+                    "1bff5583-5184-44a7-a243-a89cb0641d20"
+                  ],
+                  "in": false,
+                  "label": "❯"
+                }
+              ],
+              "title": "Drezel",
+              "color": "#dd341ee6",
+              "portsInOrder": [
+                "02c9af62-b73e-4f21-b4ca-b40d772f9e91"
+              ],
+              "portsOutOrder": [
+                "df5ab1ad-15f2-4c79-8784-d99cc34df015"
+              ],
+              "text": "The well here is built right over the source of the river.\nThat means that their potion will spread all the way\ndown the Salve, disrupting the blessings placed upon it."
+            },
+            "dd95da61-2222-46c5-bf49-8e7d3eb04fbf": {
+              "id": "dd95da61-2222-46c5-bf49-8e7d3eb04fbf",
+              "type": "dialogue",
+              "selected": false,
+              "x": 193,
+              "y": 383,
+              "ports": [
+                {
+                  "id": "ad5352af-ca50-4033-aa23-38c207fc7ce2",
+                  "type": "default",
+                  "x": 180,
+                  "y": 414,
+                  "name": "in-1661841747604 ",
+                  "alignment": "left",
+                  "parentNode": "dd95da61-2222-46c5-bf49-8e7d3eb04fbf",
+                  "links": [
+                    "1bff5583-5184-44a7-a243-a89cb0641d20"
+                  ],
+                  "in": true,
+                  "label": "❯"
+                },
+                {
+                  "id": "68e87fcc-500e-4d8b-bb88-2816cc500b08",
+                  "type": "default",
+                  "x": 656.015625,
+                  "y": 414,
+                  "name": "out-1661841747604",
+                  "alignment": "right",
+                  "parentNode": "dd95da61-2222-46c5-bf49-8e7d3eb04fbf",
+                  "links": [
+                    "e517746b-97bf-4697-84f6-618507643b8f"
+                  ],
+                  "in": false,
+                  "label": "❯"
+                }
+              ],
+              "title": "Drezel",
+              "color": "#dd341ee6",
+              "portsInOrder": [
+                "ad5352af-ca50-4033-aa23-38c207fc7ce2"
+              ],
+              "portsOutOrder": [
+                "68e87fcc-500e-4d8b-bb88-2816cc500b08"
+              ],
+              "text": "Before long, there will be nothing to stop the vampyres\nfrom invading Misthalin at their leisure."
+            },
+            "030323f3-fb93-431c-8d28-7935a10e4cde": {
+              "id": "030323f3-fb93-431c-8d28-7935a10e4cde",
+              "type": "dialogue",
+              "selected": false,
+              "x": 193,
+              "y": 461,
+              "ports": [
+                {
+                  "id": "4a906d4a-3a01-439d-82a0-dc02dc840480",
+                  "type": "default",
+                  "x": 180,
+                  "y": 492,
+                  "name": "in-1661841747604 ",
+                  "alignment": "left",
+                  "parentNode": "030323f3-fb93-431c-8d28-7935a10e4cde",
+                  "links": [
+                    "e517746b-97bf-4697-84f6-618507643b8f"
+                  ],
+                  "in": true,
+                  "label": "❯"
+                },
+                {
+                  "id": "c1f84d02-152a-4b8c-b16e-f7ddef5af6ba",
+                  "type": "default",
+                  "x": 480.125,
+                  "y": 492,
+                  "name": "out-1661841747604",
+                  "alignment": "right",
+                  "parentNode": "030323f3-fb93-431c-8d28-7935a10e4cde",
+                  "links": [
+                    "7332576d-f29d-424c-88dc-781f25bccc18"
+                  ],
+                  "in": false,
+                  "label": "❯"
+                }
+              ],
+              "title": "<player>",
+              "color": "#dd341ee6",
+              "portsInOrder": [
+                "4a906d4a-3a01-439d-82a0-dc02dc840480"
+              ],
+              "portsOutOrder": [
+                "c1f84d02-152a-4b8c-b16e-f7ddef5af6ba"
+              ],
+              "text": "What can we do to prevent that?"
+            },
+            "732830d9-dbbd-4a4d-ac1d-2fafb3bdf908": {
+              "id": "732830d9-dbbd-4a4d-ac1d-2fafb3bdf908",
+              "type": "dialogue",
+              "selected": false,
+              "x": 193,
+              "y": 524,
+              "ports": [
+                {
+                  "id": "e539ad8e-0fc2-4e5a-809f-a65c2fa3deb9",
+                  "type": "default",
+                  "x": 180,
+                  "y": 555,
+                  "name": "in-1661841747604 ",
+                  "alignment": "left",
+                  "parentNode": "732830d9-dbbd-4a4d-ac1d-2fafb3bdf908",
+                  "links": [
+                    "7332576d-f29d-424c-88dc-781f25bccc18"
+                  ],
+                  "in": true,
+                  "label": "❯"
+                },
+                {
+                  "id": "783f6e09-b99b-4bd7-8767-49693e47bac1",
+                  "type": "default",
+                  "x": 641.359375,
+                  "y": 555,
+                  "name": "out-1661841747604",
+                  "alignment": "right",
+                  "parentNode": "732830d9-dbbd-4a4d-ac1d-2fafb3bdf908",
+                  "links": [
+                    "9ede42d8-d9ef-4702-9d51-45f8541e1467"
+                  ],
+                  "in": false,
+                  "label": "❯"
+                }
+              ],
+              "title": "Drezel",
+              "color": "#dd341ee6",
+              "portsInOrder": [
+                "e539ad8e-0fc2-4e5a-809f-a65c2fa3deb9"
+              ],
+              "portsOutOrder": [
+                "783f6e09-b99b-4bd7-8767-49693e47bac1"
+              ],
+              "text": "This passage is currently the only route between\nMorytania and Misthalin. The barrier here draws power\nfrom the river."
+            },
+            "69145784-4920-4ac9-a676-bc726ae8f076": {
+              "id": "69145784-4920-4ac9-a676-bc726ae8f076",
+              "type": "dialogue",
+              "selected": false,
+              "x": 193,
+              "y": 617,
+              "ports": [
+                {
+                  "id": "0dd69bef-a3dc-4046-aa05-04430c7c8550",
+                  "type": "default",
+                  "x": 180,
+                  "y": 648,
+                  "name": "in-1661841747604 ",
+                  "alignment": "left",
+                  "parentNode": "69145784-4920-4ac9-a676-bc726ae8f076",
+                  "links": [
+                    "9ede42d8-d9ef-4702-9d51-45f8541e1467"
+                  ],
+                  "in": true,
+                  "label": "❯"
+                },
+                {
+                  "id": "ce6eb930-6232-4bfd-9f2b-868ebb31749b",
+                  "type": "default",
+                  "x": 663.34375,
+                  "y": 648,
+                  "name": "out-1661841747604",
+                  "alignment": "right",
+                  "parentNode": "69145784-4920-4ac9-a676-bc726ae8f076",
+                  "links": [
+                    "ee1e046d-baf4-4f84-826a-7ac4b4720d7a"
+                  ],
+                  "in": false,
+                  "label": "❯"
+                }
+              ],
+              "title": "Drezel",
+              "color": "#dd341ee6",
+              "portsInOrder": [
+                "0dd69bef-a3dc-4046-aa05-04430c7c8550"
+              ],
+              "portsOutOrder": [
+                "ce6eb930-6232-4bfd-9f2b-868ebb31749b"
+              ],
+              "text": "I have managed to reinforce the barrier, but I must\ncontinue focussing on it to keep it intact. Although the\npassage is safe for now, I do not know how long I can\nkeep it that way."
+            },
+            "50547d59-841d-42a4-bc85-c35ef72d552a": {
+              "id": "50547d59-841d-42a4-bc85-c35ef72d552a",
+              "type": "dialogue",
+              "selected": false,
+              "x": 193,
+              "y": 725,
+              "ports": [
+                {
+                  "id": "a7772ab2-052d-493a-8b3c-c571ebbec196",
+                  "type": "default",
+                  "x": 180,
+                  "y": 756,
+                  "name": "in-1661841747604 ",
+                  "alignment": "left",
+                  "parentNode": "50547d59-841d-42a4-bc85-c35ef72d552a",
+                  "links": [
+                    "ee1e046d-baf4-4f84-826a-7ac4b4720d7a"
+                  ],
+                  "in": true,
+                  "label": "❯"
+                },
+                {
+                  "id": "f797fc6d-40ff-4511-9664-9ed1bc971a9d",
+                  "type": "default",
+                  "x": 663.34375,
+                  "y": 756,
+                  "name": "out-1661841747604",
+                  "alignment": "right",
+                  "parentNode": "50547d59-841d-42a4-bc85-c35ef72d552a",
+                  "links": [
+                    "ff935bb4-59fa-48d9-8b04-ce9fa73445c4"
+                  ],
+                  "in": false,
+                  "label": "❯"
+                }
+              ],
+              "title": "Drezel",
+              "color": "#dd341ee6",
+              "portsInOrder": [
+                "a7772ab2-052d-493a-8b3c-c571ebbec196"
+              ],
+              "portsOutOrder": [
+                "f797fc6d-40ff-4511-9664-9ed1bc971a9d"
+              ],
+              "text": "This passage could be the least of our worries soon\nthough. Before long, the vampyres will be able to cross\nat any point of the river. We won't be able to reinforce\nall of it."
+            },
+            "3968a0e9-b35b-46eb-bcc8-4b18c83ecfa3": {
+              "id": "3968a0e9-b35b-46eb-bcc8-4b18c83ecfa3",
+              "type": "dialogue",
+              "selected": false,
+              "x": 754.8181818181827,
+              "y": 22.909090909089628,
+              "ports": [
+                {
+                  "id": "2a86ac17-001e-4b2b-bb81-5b8d47191ba9",
+                  "type": "default",
+                  "x": 741.8181818181833,
+                  "y": 53.90909090908917,
+                  "name": "in-1661841747604 ",
+                  "alignment": "left",
+                  "parentNode": "3968a0e9-b35b-46eb-bcc8-4b18c83ecfa3",
+                  "links": [
+                    "ff935bb4-59fa-48d9-8b04-ce9fa73445c4"
+                  ],
+                  "in": true,
+                  "label": "❯"
+                },
+                {
+                  "id": "3e82b8f5-a6db-4521-a4bf-3bb33d575c3c",
+                  "type": "default",
+                  "x": 1217.8338068181831,
+                  "y": 53.90909090908917,
+                  "name": "out-1661841747604",
+                  "alignment": "right",
+                  "parentNode": "3968a0e9-b35b-46eb-bcc8-4b18c83ecfa3",
+                  "links": [
+                    "aaa4b138-f946-463f-a1f0-80fdf133eab0"
+                  ],
+                  "in": false,
+                  "label": "❯"
+                }
+              ],
+              "title": "<player>",
+              "color": "#dd341ee6",
+              "portsInOrder": [
+                "2a86ac17-001e-4b2b-bb81-5b8d47191ba9"
+              ],
+              "portsOutOrder": [
+                "3e82b8f5-a6db-4521-a4bf-3bb33d575c3c"
+              ],
+              "text": "Couldn't you bless the river to purify it? Like you did\nwith the water I took from the well?"
+            },
+            "913981a3-52a1-4edf-9995-0b7d062f8e8b": {
+              "id": "913981a3-52a1-4edf-9995-0b7d062f8e8b",
+              "type": "dialogue",
+              "selected": false,
+              "x": 754.8181818181827,
+              "y": 101.90909090908963,
+              "ports": [
+                {
+                  "id": "eaf0279a-16ce-4b20-8fc6-527f53137ae0",
+                  "type": "default",
+                  "x": 741.8181818181833,
+                  "y": 132.90909090908917,
+                  "name": "in-1661841747604 ",
+                  "alignment": "left",
+                  "parentNode": "913981a3-52a1-4edf-9995-0b7d062f8e8b",
+                  "links": [
+                    "aaa4b138-f946-463f-a1f0-80fdf133eab0"
+                  ],
+                  "in": true,
+                  "label": "❯"
+                },
+                {
+                  "id": "60065b94-b739-47ee-a5e3-b05051674690",
+                  "type": "default",
+                  "x": 1181.1931818181831,
+                  "y": 132.90909090908917,
+                  "name": "out-1661841747604",
+                  "alignment": "right",
+                  "parentNode": "913981a3-52a1-4edf-9995-0b7d062f8e8b",
+                  "links": [
+                    "3c2a0b81-f3e8-4124-b295-23679de675fb"
+                  ],
+                  "in": false,
+                  "label": "❯"
+                }
+              ],
+              "title": "Drezel",
+              "color": "#dd341ee6",
+              "portsInOrder": [
+                "eaf0279a-16ce-4b20-8fc6-527f53137ae0"
+              ],
+              "portsOutOrder": [
+                "60065b94-b739-47ee-a5e3-b05051674690"
+              ],
+              "text": "No, that would not work. The power I have from\nSaradomin is not great enough to cleanse an entire\nriver of this foul Zamorakian pollutant."
+            },
+            "19b8aeff-ea2c-4bcf-9c3f-68551045f98c": {
+              "id": "19b8aeff-ea2c-4bcf-9c3f-68551045f98c",
+              "type": "dialogue",
+              "selected": false,
+              "x": 754.8181818181827,
+              "y": 194.90909090908963,
+              "ports": [
+                {
+                  "id": "5c8ef3da-d2bd-4d64-9f02-164b0e7e5377",
+                  "type": "default",
+                  "x": 741.8181818181833,
+                  "y": 225.90909090908917,
+                  "name": "in-1661841747604 ",
+                  "alignment": "left",
+                  "parentNode": "19b8aeff-ea2c-4bcf-9c3f-68551045f98c",
+                  "links": [
+                    "3c2a0b81-f3e8-4124-b295-23679de675fb"
+                  ],
+                  "in": true,
+                  "label": "❯"
+                },
+                {
+                  "id": "51e3cd24-e953-478e-b21c-c2a81ebaed13",
+                  "type": "default",
+                  "x": 1063.9275568181822,
+                  "y": 225.90909090908917,
+                  "name": "out-1661841747604",
+                  "alignment": "right",
+                  "parentNode": "19b8aeff-ea2c-4bcf-9c3f-68551045f98c",
+                  "links": [
+                    "9bb9d0ad-34af-4fde-a738-2995b311650f"
+                  ],
+                  "in": false,
+                  "label": "❯"
+                }
+              ],
+              "title": "Drezel",
+              "color": "#dd341ee6",
+              "portsInOrder": [
+                "5c8ef3da-d2bd-4d64-9f02-164b0e7e5377"
+              ],
+              "portsOutOrder": [
+                "51e3cd24-e953-478e-b21c-c2a81ebaed13"
+              ],
+              "text": "However, I do have one other idea."
+            },
+            "9d0cd0ce-2293-48c2-b175-582d20452791": {
+              "id": "9d0cd0ce-2293-48c2-b175-582d20452791",
+              "type": "dialogue",
+              "selected": false,
+              "x": 753.8181818181827,
+              "y": 257.9090909090896,
+              "ports": [
+                {
+                  "id": "c03ac705-7e87-4950-8a94-8a47eb679497",
+                  "type": "default",
+                  "x": 740.8181818181833,
+                  "y": 288.9090909090892,
+                  "name": "in-1661841747604 ",
+                  "alignment": "left",
+                  "parentNode": "9d0cd0ce-2293-48c2-b175-582d20452791",
+                  "links": [
+                    "9bb9d0ad-34af-4fde-a738-2995b311650f"
+                  ],
+                  "in": true,
+                  "label": "❯"
+                },
+                {
+                  "id": "3c2c0097-fca5-46f5-8de2-570805ed0615",
+                  "type": "default",
+                  "x": 901.6931818181833,
+                  "y": 288.9090909090892,
+                  "name": "out-1661841747604",
+                  "alignment": "right",
+                  "parentNode": "9d0cd0ce-2293-48c2-b175-582d20452791",
+                  "links": [
+                    "64580e00-0bc6-461f-ab4f-017e9f812c12"
+                  ],
+                  "in": false,
+                  "label": "❯"
+                }
+              ],
+              "title": "<player>",
+              "color": "#dd341ee6",
+              "portsInOrder": [
+                "c03ac705-7e87-4950-8a94-8a47eb679497"
+              ],
+              "portsOutOrder": [
+                "3c2c0097-fca5-46f5-8de2-570805ed0615"
+              ],
+              "text": "What's that?"
+            },
+            "58a0250e-7b02-4504-9073-792b6c108a64": {
+              "id": "58a0250e-7b02-4504-9073-792b6c108a64",
+              "type": "dialogue",
+              "selected": false,
+              "x": 754.8181818181827,
+              "y": 320.9090909090896,
+              "ports": [
+                {
+                  "id": "0f6c4d1e-08b0-4bd5-a7e7-07eb79c40794",
+                  "type": "default",
+                  "x": 739.8181818181833,
+                  "y": 352.90909090908883,
+                  "name": "in-1661841747604 ",
+                  "alignment": "left",
+                  "parentNode": "58a0250e-7b02-4504-9073-792b6c108a64",
+                  "links": [
+                    "64580e00-0bc6-461f-ab4f-017e9f812c12"
+                  ],
+                  "in": true,
+                  "label": "❯"
+                },
+                {
+                  "id": "99fae18d-279e-47da-832d-1102202ca6e3",
+                  "type": "default",
+                  "x": 1230.4900568181831,
+                  "y": 352.90909090908883,
+                  "name": "out-1661841747604",
+                  "alignment": "right",
+                  "parentNode": "58a0250e-7b02-4504-9073-792b6c108a64",
+                  "links": [
+                    "707b0386-c3ef-49b6-b330-831cee338c93"
+                  ],
+                  "in": false,
+                  "label": "❯"
+                }
+              ],
+              "title": "Drezel",
+              "color": "#dd341ee6",
+              "portsInOrder": [
+                "0f6c4d1e-08b0-4bd5-a7e7-07eb79c40794"
+              ],
+              "portsOutOrder": [
+                "99fae18d-279e-47da-832d-1102202ca6e3"
+              ],
+              "text": "I believe we might be able to soak up the evil magic that\nthe potion has released into the river."
+            },
+            "e3fa5127-da53-45fd-8031-b1115b1f02d8": {
+              "id": "e3fa5127-da53-45fd-8031-b1115b1f02d8",
+              "type": "dialogue",
+              "selected": false,
+              "x": 754.8181818181827,
+              "y": 397.9090909090896,
+              "ports": [
+                {
+                  "id": "d47cc33f-f946-41b4-a9fe-92709487196d",
+                  "type": "default",
+                  "x": 741.8181818181833,
+                  "y": 428.9090909090886,
+                  "name": "in-1661841747604 ",
+                  "alignment": "left",
+                  "parentNode": "e3fa5127-da53-45fd-8031-b1115b1f02d8",
+                  "links": [
+                    "707b0386-c3ef-49b6-b330-831cee338c93"
+                  ],
+                  "in": true,
+                  "label": "❯"
+                },
+                {
+                  "id": "be5ee484-7f9b-411a-8c52-d2a108d3f089",
+                  "type": "default",
+                  "x": 1225.1619318181831,
+                  "y": 428.9090909090886,
+                  "name": "out-1661841747604",
+                  "alignment": "right",
+                  "parentNode": "e3fa5127-da53-45fd-8031-b1115b1f02d8",
+                  "links": [
+                    "ac0abf57-50aa-4151-859e-a32b3b541daa"
+                  ],
+                  "in": false,
+                  "label": "❯"
+                }
+              ],
+              "title": "Drezel",
+              "color": "#dd341ee6",
+              "portsInOrder": [
+                "d47cc33f-f946-41b4-a9fe-92709487196d"
+              ],
+              "portsOutOrder": [
+                "be5ee484-7f9b-411a-8c52-d2a108d3f089"
+              ],
+              "text": "I'm sure you know of runestones, used by mages to\npower their spells. The essence used to create these\nstones absorbs magical potential from runic altars to be\nreleased later."
+            },
+            "44b304d2-1bfc-4565-9a74-810180e45d42": {
+              "id": "44b304d2-1bfc-4565-9a74-810180e45d42",
+              "type": "dialogue",
+              "selected": false,
+              "x": 754.8181818181827,
+              "y": 506.9090909090896,
+              "ports": [
+                {
+                  "id": "9f37ac1b-d99b-4907-8f65-97c225fbee7c",
+                  "type": "default",
+                  "x": 741.8181818181833,
+                  "y": 537.9090909090896,
+                  "name": "in-1661841747604 ",
+                  "alignment": "left",
+                  "parentNode": "44b304d2-1bfc-4565-9a74-810180e45d42",
+                  "links": [
+                    "ac0abf57-50aa-4151-859e-a32b3b541daa"
+                  ],
+                  "in": true,
+                  "label": "❯"
+                },
+                {
+                  "id": "b29aa92d-9166-4fe0-8b69-f13b75ddc9a9",
+                  "type": "default",
+                  "x": 1173.8650568181831,
+                  "y": 537.9090909090896,
+                  "name": "out-1661841747604",
+                  "alignment": "right",
+                  "parentNode": "44b304d2-1bfc-4565-9a74-810180e45d42",
+                  "links": [
+                    "ac6f8e0f-fa8f-4f37-8a41-f47714437bb0"
+                  ],
+                  "in": false,
+                  "label": "❯"
+                }
+              ],
+              "title": "<player>",
+              "color": "#dd341ee6",
+              "portsInOrder": [
+                "9f37ac1b-d99b-4907-8f65-97c225fbee7c"
+              ],
+              "portsOutOrder": [
+                "b29aa92d-9166-4fe0-8b69-f13b75ddc9a9"
+              ],
+              "text": "And you think we could use some rune essence to\nabsorb the magic they've released into the Salve?"
+            },
+            "595f06e0-a61e-4478-90c5-1b8576172fc5": {
+              "id": "595f06e0-a61e-4478-90c5-1b8576172fc5",
+              "type": "dialogue",
+              "selected": false,
+              "x": 754.8181818181827,
+              "y": 584.9090909090896,
+              "ports": [
+                {
+                  "id": "1792befb-69ae-455d-8761-31f59e3e864f",
+                  "type": "default",
+                  "x": 741.8181818181833,
+                  "y": 615.9090909090896,
+                  "name": "in-1661841747604 ",
+                  "alignment": "left",
+                  "parentNode": "595f06e0-a61e-4478-90c5-1b8576172fc5",
+                  "links": [
+                    "ac6f8e0f-fa8f-4f37-8a41-f47714437bb0"
+                  ],
+                  "in": true,
+                  "label": "❯"
+                },
+                {
+                  "id": "cd7ce5a5-fc29-491f-9f5b-07b638594266",
+                  "type": "default",
+                  "x": 1210.5056818181831,
+                  "y": 615.9090909090896,
+                  "name": "out-1661841747604",
+                  "alignment": "right",
+                  "parentNode": "595f06e0-a61e-4478-90c5-1b8576172fc5",
+                  "links": [
+                    "d80b96c6-703e-4eca-8004-2a8036d74b53"
+                  ],
+                  "in": false,
+                  "label": "❯"
+                }
+              ],
+              "title": "Drezel",
+              "color": "#dd341ee6",
+              "portsInOrder": [
+                "1792befb-69ae-455d-8761-31f59e3e864f"
+              ],
+              "portsOutOrder": [
+                "cd7ce5a5-fc29-491f-9f5b-07b638594266"
+              ],
+              "text": "Exactly. If you could bring me fifty essence, I should\nbe able to reverse the damage done. Be quick though.\nThe longer we wait, the worse things will get."
+            },
+            "0486d83e-fb3e-41c8-89c5-ab41d6c6c891": {
+              "id": "0486d83e-fb3e-41c8-89c5-ab41d6c6c891",
+              "type": "action",
+              "selected": true,
+              "x": 754.4708334134572,
+              "y": 679.3510342318112,
+              "ports": [
+                {
+                  "id": "865ebcd2-a6dd-49a2-a899-1b1ba0d33b25",
+                  "type": "default",
+                  "x": 741.4673995224894,
+                  "y": 710.3355843761725,
+                  "name": "in-1661841876527 ",
+                  "alignment": "left",
+                  "parentNode": "0486d83e-fb3e-41c8-89c5-ab41d6c6c891",
+                  "links": [
+                    "d80b96c6-703e-4eca-8004-2a8036d74b53"
+                  ],
+                  "in": true,
+                  "label": "❯"
+                },
+                {
+                  "id": "6d80808e-aad3-40a0-9a5b-6924d0462c1b",
+                  "type": "default",
+                  "x": 1128.3424260595143,
+                  "y": 710.3355843761725,
+                  "name": "out-1661841876527",
+                  "alignment": "right",
+                  "parentNode": "0486d83e-fb3e-41c8-89c5-ab41d6c6c891",
+                  "links": [],
+                  "in": false,
+                  "label": "❯"
+                }
+              ],
+              "title": "Action",
+              "color": "#3e077ee6",
+              "portsInOrder": [
+                "865ebcd2-a6dd-49a2-a899-1b1ba0d33b25"
+              ],
+              "portsOutOrder": [
+                "6d80808e-aad3-40a0-9a5b-6924d0462c1b"
+              ],
+              "actions": {
+                "actions": [
+                  "setQuest"
+                ],
+                "args": [
+                  [
+                    "PRIEST_IN_PERIL",
+                    "BRING_ESSENCE"
+                  ]
+                ]
+              }
+            }
+          }
+        }
+      ]
+    },
+    "priest_essence": {
+      "id": "8c7fe61c-5ad7-4da2-a075-aa7429ddb37f",
+      "offsetX": 55.256603773585496,
+      "offsetY": 170.62641509434008,
+      "zoom": 79.99999999999994,
+      "gridSize": 0,
+      "layers": [
+        {
+          "id": "4edf50a7-a33c-472b-9102-86f8155f3133",
+          "type": "diagram-links",
+          "isSvg": true,
+          "transformed": true,
+          "models": {
+            "aedeb004-0254-4775-ab8f-cf00182b925d": {
+              "id": "aedeb004-0254-4775-ab8f-cf00182b925d",
+              "type": "default",
+              "selected": false,
+              "source": "b841583c-3cd1-470e-8923-dcfcfa0cdde8",
+              "sourcePort": "27cf45ca-a2f8-4cde-89c0-498febdb6225",
+              "target": "752e79c6-2089-484d-b2a5-78d5b549569f",
+              "targetPort": "cf9319ea-1b84-4808-8053-1e8652c4f5a7",
+              "points": [
+                {
+                  "id": "d80bf55d-50e3-4ad7-8848-4371e0b6eafc",
+                  "type": "point",
+                  "x": 133.296875,
+                  "y": 64.5
+                },
+                {
+                  "id": "5b7a3033-5a63-4535-afdd-44e251038837",
+                  "type": "point",
+                  "x": 184.5,
+                  "y": 67.5
+                }
+              ],
+              "labels": [],
+              "width": 3,
+              "color": "gray",
+              "curvyness": 50,
+              "selectedColor": "rgb(0,192,255)"
+            },
+            "3f7724c1-5793-4337-8e3e-c63895cc97d1": {
+              "id": "3f7724c1-5793-4337-8e3e-c63895cc97d1",
+              "type": "default",
+              "selected": false,
+              "source": "752e79c6-2089-484d-b2a5-78d5b549569f",
+              "sourcePort": "c5d03d15-1da9-4656-947b-54d07e9b669a",
+              "target": "31e70608-2301-412b-9867-7b8a5c104a06",
+              "targetPort": "93e4093f-d8a4-432f-9004-4f928fb20560",
+              "points": [
+                {
+                  "id": "83cb8607-f18e-4bda-b9ed-8bfd95ee2a52",
+                  "type": "point",
+                  "x": 601.84375,
+                  "y": 84.5
+                },
+                {
+                  "id": "7939da96-cc1c-4a32-a191-53de37e1684d",
+                  "type": "point",
+                  "x": 184.5,
+                  "y": 144.5
+                }
+              ],
+              "labels": [],
+              "width": 3,
+              "color": "gray",
+              "curvyness": 50,
+              "selectedColor": "rgb(0,192,255)"
+            },
+            "477ee1ec-60ec-4f32-8bb2-42b2225cdf50": {
+              "id": "477ee1ec-60ec-4f32-8bb2-42b2225cdf50",
+              "type": "default",
+              "selected": false,
+              "source": "752e79c6-2089-484d-b2a5-78d5b549569f",
+              "sourcePort": "e6b92950-1e3f-4fb2-acad-6abf4c4bc746",
+              "target": "e93ec072-0515-43c8-8401-c98f76655c46",
+              "targetPort": "a57d9b3a-fd90-4a5a-9833-b1ea16331a7a",
+              "points": [
+                {
+                  "id": "9a30b0f5-f63b-4889-94d7-44100dc0435c",
+                  "type": "point",
+                  "x": 599.703125,
+                  "y": 67.5
+                },
+                {
+                  "id": "251617c4-3186-4a3a-a486-cd64f70b9973",
+                  "type": "point",
+                  "x": 719.5,
+                  "y": 72.5
+                }
+              ],
+              "labels": [],
+              "width": 3,
+              "color": "gray",
+              "curvyness": 50,
+              "selectedColor": "rgb(0,192,255)"
+            },
+            "3697fa3b-1dd4-4aff-8dcf-ad1a48b856a1": {
+              "id": "3697fa3b-1dd4-4aff-8dcf-ad1a48b856a1",
+              "type": "default",
+              "selected": false,
+              "source": "31e70608-2301-412b-9867-7b8a5c104a06",
+              "sourcePort": "1d6377b7-c5e6-4ac2-aba9-69a57ce10e89",
+              "target": "e93ec072-0515-43c8-8401-c98f76655c46",
+              "targetPort": "a57d9b3a-fd90-4a5a-9833-b1ea16331a7a",
+              "points": [
+                {
+                  "id": "28d492ed-47e3-4a15-9336-d462365a06d6",
+                  "type": "point",
+                  "x": 600.296875,
+                  "y": 144.5
+                },
+                {
+                  "id": "fb019895-ab2c-4d22-a4e6-10a33ec2a0e9",
+                  "type": "point",
+                  "x": 719.5,
+                  "y": 72.5
+                }
+              ],
+              "labels": [],
+              "width": 3,
+              "color": "gray",
+              "curvyness": 50,
+              "selectedColor": "rgb(0,192,255)"
+            },
+            "0925b9f1-faa3-41cc-8d72-98c2d4e37742": {
+              "id": "0925b9f1-faa3-41cc-8d72-98c2d4e37742",
+              "type": "default",
+              "selected": false,
+              "source": "e93ec072-0515-43c8-8401-c98f76655c46",
+              "sourcePort": "8ca7878e-2b7f-4231-9a26-cf23c2da1b76",
+              "target": "5a8a23e0-fe31-4a74-83c1-00e9a4fea29f",
+              "targetPort": "7dbbb115-7a67-47d6-9b8f-fab6774dd52b",
+              "points": [
+                {
+                  "id": "05d1a44c-53d6-4cfc-8723-f804a3e25085",
+                  "type": "point",
+                  "x": 990.3125,
+                  "y": 72.5
+                },
+                {
+                  "id": "b5ca2cf3-e196-40e2-921c-6c37a89eca6f",
+                  "type": "point",
+                  "x": 721.5,
+                  "y": 140.5
+                }
+              ],
+              "labels": [],
+              "width": 3,
+              "color": "gray",
+              "curvyness": 50,
+              "selectedColor": "rgb(0,192,255)"
+            },
+            "0b0b55ae-352f-44ab-8281-658d02d4fdc2": {
+              "id": "0b0b55ae-352f-44ab-8281-658d02d4fdc2",
+              "type": "default",
+              "source": "5a8a23e0-fe31-4a74-83c1-00e9a4fea29f",
+              "sourcePort": "7d2a783f-6920-467d-93b7-70d4126a761f",
+              "target": "0f68a88e-50b9-4e36-8c0d-62d0357b5896",
+              "targetPort": "65122766-11ce-4aba-9087-8565517dd79b",
+              "points": [
+                {
+                  "id": "3f1212b1-2fb5-4b54-a5f7-c42aac99ffef",
+                  "type": "point",
+                  "x": 977.65625,
+                  "y": 140.5
+                },
+                {
+                  "id": "fb1213ef-cd26-4036-9935-dc69a8f09fe9",
+                  "type": "point",
+                  "x": 721.5,
+                  "y": 203.5
+                }
+              ],
+              "labels": [],
+              "width": 3,
+              "color": "gray",
+              "curvyness": 50,
+              "selectedColor": "rgb(0,192,255)"
+            },
+            "0b05e258-d2f3-4c61-b46f-777a88e38806": {
+              "id": "0b05e258-d2f3-4c61-b46f-777a88e38806",
+              "type": "default",
+              "selected": false,
+              "source": "0f68a88e-50b9-4e36-8c0d-62d0357b5896",
+              "sourcePort": "73d1c7b4-7e27-4321-a2d7-025dd7a4aae6",
+              "target": "75da74fc-d47a-414c-a268-b09a485593ee",
+              "targetPort": "85f41687-86b7-4d2f-8762-0008082fea43",
+              "points": [
+                {
+                  "id": "0bfd55b3-04a9-4f47-99b6-078a7fbfec78",
+                  "type": "point",
+                  "x": 1006.96875,
+                  "y": 203.5
+                },
+                {
+                  "id": "03b38cc9-5109-47a1-b8c5-9be79f8d0c03",
+                  "type": "point",
+                  "x": 729.5,
+                  "y": 266.5
+                }
+              ],
+              "labels": [],
+              "width": 3,
+              "color": "gray",
+              "curvyness": 50,
+              "selectedColor": "rgb(0,192,255)"
+            },
+            "f8fcb268-ce40-4954-996b-f4950cc2d555": {
+              "id": "f8fcb268-ce40-4954-996b-f4950cc2d555",
+              "type": "default",
+              "selected": false,
+              "source": "75da74fc-d47a-414c-a268-b09a485593ee",
+              "sourcePort": "a55d9976-c5ef-4a9c-83d7-5b574f931c0c",
+              "target": "6b939422-3631-46df-bab4-cbaa7cb3b61b",
+              "targetPort": "c5a85460-a2d8-4afa-8578-0f49c5e33e1e",
+              "points": [
+                {
+                  "id": "aa0f1da0-c973-45f6-9ad7-005793d03329",
+                  "type": "point",
+                  "x": 1006.53125,
+                  "y": 266.5
+                },
+                {
+                  "id": "97718e75-80d3-4370-9cf1-07bcb938433d",
+                  "type": "point",
+                  "x": 733.5,
+                  "y": 348.5
+                }
+              ],
+              "labels": [],
+              "width": 3,
+              "color": "gray",
+              "curvyness": 50,
+              "selectedColor": "rgb(0,192,255)"
+            },
+            "728f352b-a47e-41ae-86ba-4a3fd228401b": {
+              "id": "728f352b-a47e-41ae-86ba-4a3fd228401b",
+              "type": "default",
+              "selected": false,
+              "source": "6b939422-3631-46df-bab4-cbaa7cb3b61b",
+              "sourcePort": "eda0b123-9be1-4ea7-bd1e-2db8ee05d632",
+              "target": "780798e8-6c66-4986-ae07-d1b35e881aeb",
+              "targetPort": "71175e96-8e13-4d76-8abb-69b51d51b72b",
+              "points": [
+                {
+                  "id": "16b80fac-67c7-4719-b65a-2dd7c64854bd",
+                  "type": "point",
+                  "x": 1254.125,
+                  "y": 365.5
+                },
+                {
+                  "id": "5455a1ec-b9d1-4cc4-b4aa-ba52dd8cf806",
+                  "type": "point",
+                  "x": 735.5,
+                  "y": 429.5
+                }
+              ],
+              "labels": [],
+              "width": 3,
+              "color": "gray",
+              "curvyness": 50,
+              "selectedColor": "rgb(0,192,255)"
+            },
+            "2c03b400-9c98-4cea-8227-a4426d158af4": {
+              "id": "2c03b400-9c98-4cea-8227-a4426d158af4",
+              "type": "default",
+              "selected": false,
+              "source": "6b939422-3631-46df-bab4-cbaa7cb3b61b",
+              "sourcePort": "c3590207-5128-4eba-a518-64f8f4e6384d",
+              "target": "3bb03937-5974-45d2-b875-8fea21082c1b",
+              "targetPort": "d9dfe1e3-e27b-49a5-8df4-1d4e66869404",
+              "points": [
+                {
+                  "id": "ff247be4-56ac-4ce8-afbf-814edc5f29fe",
+                  "type": "point",
+                  "x": 1251.984375,
+                  "y": 348.5
+                },
+                {
+                  "id": "75b3b318-e8bf-4e01-83a1-b55abc6750bb",
+                  "type": "point",
+                  "x": 1321.5,
+                  "y": 348.5
+                }
+              ],
+              "labels": [],
+              "width": 3,
+              "color": "gray",
+              "curvyness": 50,
+              "selectedColor": "rgb(0,192,255)"
+            },
+            "a427b35c-0c23-45aa-85f4-d85b286990db": {
+              "id": "a427b35c-0c23-45aa-85f4-d85b286990db",
+              "type": "default",
+              "source": "3bb03937-5974-45d2-b875-8fea21082c1b",
+              "sourcePort": "43cc50de-8c01-4329-add4-1893288b44dc",
+              "target": "1ae594da-6669-4721-b293-34324f41e42b",
+              "targetPort": "fb1af408-4b9e-4ea0-a855-f8345b1c884f",
+              "points": [
+                {
+                  "id": "e2bee18e-e844-43cf-8e47-3053fc3fb8bf",
+                  "type": "point",
+                  "x": 1797.515625,
+                  "y": 348.5
+                },
+                {
+                  "id": "a4cf157b-77f0-454e-89cf-a357fdd8ccae",
+                  "type": "point",
+                  "x": 1334.5,
+                  "y": 456.5
+                }
+              ],
+              "labels": [],
+              "width": 3,
+              "color": "gray",
+              "curvyness": 50,
+              "selectedColor": "rgb(0,192,255)"
+            },
+            "30bcff90-1503-4cd9-975a-bf5a61c040df": {
+              "id": "30bcff90-1503-4cd9-975a-bf5a61c040df",
+              "type": "default",
+              "source": "1ae594da-6669-4721-b293-34324f41e42b",
+              "sourcePort": "68117cfc-b315-43aa-b69e-8fd2d0dc5aaf",
+              "target": "b300a87b-1773-4160-8dad-a8264a8a3c41",
+              "targetPort": "73055d3b-93f2-47fc-a271-a6df2dbaa127",
+              "points": [
+                {
+                  "id": "0aa0ae47-a666-4640-a948-14425a4ce8f1",
+                  "type": "point",
+                  "x": 1825.171875,
+                  "y": 456.5
+                },
+                {
+                  "id": "cd282630-60c3-4377-8b32-b5ebd562fc96",
+                  "type": "point",
+                  "x": 1334.5,
+                  "y": 549.5
+                }
+              ],
+              "labels": [],
+              "width": 3,
+              "color": "gray",
+              "curvyness": 50,
+              "selectedColor": "rgb(0,192,255)"
+            },
+            "7e8f46a5-e75e-44c4-a3c8-b04cf39edcdc": {
+              "id": "7e8f46a5-e75e-44c4-a3c8-b04cf39edcdc",
+              "type": "default",
+              "selected": false,
+              "source": "b300a87b-1773-4160-8dad-a8264a8a3c41",
+              "sourcePort": "bed50a3d-1117-4935-990d-f1968fac8e48",
+              "target": "1caeaa13-68e4-4e4d-80b1-0cfa0a8c597f",
+              "targetPort": "cf06918c-714f-4a5d-8a61-8f79475cf0d9",
+              "points": [
+                {
+                  "id": "f4b57060-0dee-41fe-bf11-c8249b715542",
+                  "type": "point",
+                  "x": 1781.203125,
+                  "y": 549.5
+                },
+                {
+                  "id": "ebee5c96-37e7-4aa6-8b52-260e29a24843",
+                  "type": "point",
+                  "x": 1335.5,
+                  "y": 642.5
+                }
+              ],
+              "labels": [],
+              "width": 3,
+              "color": "gray",
+              "curvyness": 50,
+              "selectedColor": "rgb(0,192,255)"
+            }
+          }
+        },
+        {
+          "id": "235afbc6-f78c-4abf-9240-70d26082d54a",
+          "type": "diagram-nodes",
+          "isSvg": false,
+          "transformed": true,
+          "models": {
+            "b841583c-3cd1-470e-8923-dcfcfa0cdde8": {
+              "id": "b841583c-3cd1-470e-8923-dcfcfa0cdde8",
+              "type": "start",
+              "x": 50,
+              "y": 50,
+              "ports": [
+                {
+                  "id": "27cf45ca-a2f8-4cde-89c0-498febdb6225",
+                  "type": "default",
+                  "x": 125.796875,
+                  "y": 57,
+                  "name": "out-1661841597158",
+                  "alignment": "right",
+                  "parentNode": "b841583c-3cd1-470e-8923-dcfcfa0cdde8",
+                  "links": [
+                    "aedeb004-0254-4775-ab8f-cf00182b925d"
+                  ],
+                  "in": false,
+                  "label": "❯"
+                }
+              ],
+              "title": "Start",
+              "color": "#16db26e6",
+              "portsInOrder": [],
+              "portsOutOrder": [
+                "27cf45ca-a2f8-4cde-89c0-498febdb6225"
+              ]
+            },
+            "752e79c6-2089-484d-b2a5-78d5b549569f": {
+              "id": "752e79c6-2089-484d-b2a5-78d5b549569f",
+              "type": "condition",
+              "selected": false,
+              "x": 190,
+              "y": 29,
+              "ports": [
+                {
+                  "id": "cf9319ea-1b84-4808-8053-1e8652c4f5a7",
+                  "type": "default",
+                  "x": 177,
+                  "y": 60,
+                  "name": "in-1661841958546 ",
+                  "alignment": "left",
+                  "parentNode": "752e79c6-2089-484d-b2a5-78d5b549569f",
+                  "links": [
+                    "aedeb004-0254-4775-ab8f-cf00182b925d"
+                  ],
+                  "in": true,
+                  "label": "❯"
+                },
+                {
+                  "id": "e6b92950-1e3f-4fb2-acad-6abf4c4bc746",
+                  "type": "default",
+                  "x": 592.203125,
+                  "y": 60,
+                  "name": "out-1661841958546",
+                  "alignment": "right",
+                  "parentNode": "752e79c6-2089-484d-b2a5-78d5b549569f",
+                  "links": [
+                    "477ee1ec-60ec-4f32-8bb2-42b2225cdf50"
+                  ],
+                  "in": false,
+                  "label": "true"
+                },
+                {
+                  "id": "c5d03d15-1da9-4656-947b-54d07e9b669a",
+                  "type": "default",
+                  "x": 594.34375,
+                  "y": 77,
+                  "name": "out-16618419585461",
+                  "alignment": "right",
+                  "parentNode": "752e79c6-2089-484d-b2a5-78d5b549569f",
+                  "links": [
+                    "3f7724c1-5793-4337-8e3e-c63895cc97d1"
+                  ],
+                  "in": false,
+                  "label": "false"
+                }
+              ],
+              "title": "Condition",
+              "color": "#02630ae6",
+              "portsInOrder": [
+                "cf9319ea-1b84-4808-8053-1e8652c4f5a7"
+              ],
+              "portsOutOrder": [
+                "e6b92950-1e3f-4fb2-acad-6abf4c4bc746",
+                "c5d03d15-1da9-4656-947b-54d07e9b669a"
+              ],
+              "conditions": {
+                "conditions": [
+                  "hasItem"
+                ],
+                "args": [
+                  [
+                    "PURE_ESSENCE",
+                    "1",
+                    "false"
+                  ]
+                ]
+              }
+            },
+            "31e70608-2301-412b-9867-7b8a5c104a06": {
+              "id": "31e70608-2301-412b-9867-7b8a5c104a06",
+              "type": "condition",
+              "selected": false,
+              "x": 190,
+              "y": 106,
+              "ports": [
+                {
+                  "id": "93e4093f-d8a4-432f-9004-4f928fb20560",
+                  "type": "default",
+                  "x": 177,
+                  "y": 137,
+                  "name": "in-1661841958546 ",
+                  "alignment": "left",
+                  "parentNode": "31e70608-2301-412b-9867-7b8a5c104a06",
+                  "links": [
+                    "3f7724c1-5793-4337-8e3e-c63895cc97d1"
+                  ],
+                  "in": true,
+                  "label": "❯"
+                },
+                {
+                  "id": "1d6377b7-c5e6-4ac2-aba9-69a57ce10e89",
+                  "type": "default",
+                  "x": 592.796875,
+                  "y": 137,
+                  "name": "out-1661841958546",
+                  "alignment": "right",
+                  "parentNode": "31e70608-2301-412b-9867-7b8a5c104a06",
+                  "links": [
+                    "3697fa3b-1dd4-4aff-8dcf-ad1a48b856a1"
+                  ],
+                  "in": false,
+                  "label": "true"
+                },
+                {
+                  "id": "9c8032cf-4099-41e7-8cc7-f3bf5cc6856f",
+                  "type": "default",
+                  "x": 594.9375,
+                  "y": 154,
+                  "name": "out-16618419585461",
+                  "alignment": "right",
+                  "parentNode": "31e70608-2301-412b-9867-7b8a5c104a06",
+                  "links": [],
+                  "in": false,
+                  "label": "false"
+                }
+              ],
+              "title": "Condition",
+              "color": "#02630ae6",
+              "portsInOrder": [
+                "93e4093f-d8a4-432f-9004-4f928fb20560"
+              ],
+              "portsOutOrder": [
+                "1d6377b7-c5e6-4ac2-aba9-69a57ce10e89",
+                "9c8032cf-4099-41e7-8cc7-f3bf5cc6856f"
+              ],
+              "conditions": {
+                "conditions": [
+                  "hasItem"
+                ],
+                "args": [
+                  [
+                    "RUNE_ESSENCE",
+                    "1",
+                    "false"
+                  ]
+                ]
+              }
+            },
+            "648a3dad-7dbb-49c8-bdda-8bd73e223cfc": {
+              "id": "648a3dad-7dbb-49c8-bdda-8bd73e223cfc",
+              "type": "note",
+              "selected": false,
+              "x": 200,
+              "y": 195,
+              "ports": [],
+              "title": "Note",
+              "color": "#19e0e7e6",
+              "portsInOrder": [],
+              "portsOutOrder": [],
+              "text": "Missing if no essence"
+            },
+            "e93ec072-0515-43c8-8401-c98f76655c46": {
+              "id": "e93ec072-0515-43c8-8401-c98f76655c46",
+              "type": "dialogue",
+              "selected": false,
+              "x": 725,
+              "y": 34,
+              "ports": [
+                {
+                  "id": "a57d9b3a-fd90-4a5a-9833-b1ea16331a7a",
+                  "type": "default",
+                  "x": 712,
+                  "y": 65,
+                  "name": "in-1661841991429 ",
+                  "alignment": "left",
+                  "parentNode": "e93ec072-0515-43c8-8401-c98f76655c46",
+                  "links": [
+                    "477ee1ec-60ec-4f32-8bb2-42b2225cdf50",
+                    "3697fa3b-1dd4-4aff-8dcf-ad1a48b856a1"
+                  ],
+                  "in": true,
+                  "label": "❯"
+                },
+                {
+                  "id": "8ca7878e-2b7f-4231-9a26-cf23c2da1b76",
+                  "type": "default",
+                  "x": 982.8125,
+                  "y": 65,
+                  "name": "out-1661841991429",
+                  "alignment": "right",
+                  "parentNode": "e93ec072-0515-43c8-8401-c98f76655c46",
+                  "links": [
+                    "0925b9f1-faa3-41cc-8d72-98c2d4e37742"
+                  ],
+                  "in": false,
+                  "label": "❯"
+                }
+              ],
+              "title": "<player>",
+              "color": "#dd341ee6",
+              "portsInOrder": [
+                "a57d9b3a-fd90-4a5a-9833-b1ea16331a7a"
+              ],
+              "portsOutOrder": [
+                "8ca7878e-2b7f-4231-9a26-cf23c2da1b76"
+              ],
+              "text": "I brought you some essence."
+            },
+            "5a8a23e0-fe31-4a74-83c1-00e9a4fea29f": {
+              "id": "5a8a23e0-fe31-4a74-83c1-00e9a4fea29f",
+              "type": "dialogue",
+              "selected": false,
+              "x": 727,
+              "y": 102,
+              "ports": [
+                {
+                  "id": "7dbbb115-7a67-47d6-9b8f-fab6774dd52b",
+                  "type": "default",
+                  "x": 714,
+                  "y": 133,
+                  "name": "in-1661841991429 ",
+                  "alignment": "left",
+                  "parentNode": "5a8a23e0-fe31-4a74-83c1-00e9a4fea29f",
+                  "links": [
+                    "0925b9f1-faa3-41cc-8d72-98c2d4e37742"
+                  ],
+                  "in": true,
+                  "label": "❯"
+                },
+                {
+                  "id": "7d2a783f-6920-467d-93b7-70d4126a761f",
+                  "type": "default",
+                  "x": 970.15625,
+                  "y": 133,
+                  "name": "out-1661841991429",
+                  "alignment": "right",
+                  "parentNode": "5a8a23e0-fe31-4a74-83c1-00e9a4fea29f",
+                  "links": [
+                    "0b0b55ae-352f-44ab-8281-658d02d4fdc2"
+                  ],
+                  "in": false,
+                  "label": "❯"
+                }
+              ],
+              "title": "Drezel",
+              "color": "#dd341ee6",
+              "portsInOrder": [
+                "7dbbb115-7a67-47d6-9b8f-fab6774dd52b"
+              ],
+              "portsOutOrder": [
+                "7d2a783f-6920-467d-93b7-70d4126a761f"
+              ],
+              "text": "Quickly, give them to me!"
+            },
+            "0f68a88e-50b9-4e36-8c0d-62d0357b5896": {
+              "id": "0f68a88e-50b9-4e36-8c0d-62d0357b5896",
+              "type": "dialogue",
+              "selected": false,
+              "x": 727,
+              "y": 165,
+              "ports": [
+                {
+                  "id": "65122766-11ce-4aba-9087-8565517dd79b",
+                  "type": "default",
+                  "x": 714,
+                  "y": 196,
+                  "name": "in-1661841991429 ",
+                  "alignment": "left",
+                  "parentNode": "0f68a88e-50b9-4e36-8c0d-62d0357b5896",
+                  "links": [
+                    "0b0b55ae-352f-44ab-8281-658d02d4fdc2"
+                  ],
+                  "in": true,
+                  "label": "❯"
+                },
+                {
+                  "id": "73d1c7b4-7e27-4321-a2d7-025dd7a4aae6",
+                  "type": "default",
+                  "x": 999.46875,
+                  "y": 196,
+                  "name": "out-1661841991429",
+                  "alignment": "right",
+                  "parentNode": "0f68a88e-50b9-4e36-8c0d-62d0357b5896",
+                  "links": [
+                    "0b05e258-d2f3-4c61-b46f-777a88e38806"
+                  ],
+                  "in": false,
+                  "label": "❯"
+                }
+              ],
+              "title": "",
+              "color": "#dd341ee6",
+              "portsInOrder": [
+                "65122766-11ce-4aba-9087-8565517dd79b"
+              ],
+              "portsOutOrder": [
+                "73d1c7b4-7e27-4321-a2d7-025dd7a4aae6"
+              ],
+              "text": "You give Drezel some essence."
+            },
+            "75da74fc-d47a-414c-a268-b09a485593ee": {
+              "id": "75da74fc-d47a-414c-a268-b09a485593ee",
+              "type": "action",
+              "selected": false,
+              "x": 735,
+              "y": 228,
+              "ports": [
+                {
+                  "id": "85f41687-86b7-4d2f-8762-0008082fea43",
+                  "type": "default",
+                  "x": 722,
+                  "y": 259,
+                  "name": "in-1661842035397 ",
+                  "alignment": "left",
+                  "parentNode": "75da74fc-d47a-414c-a268-b09a485593ee",
+                  "links": [
+                    "0b05e258-d2f3-4c61-b46f-777a88e38806"
+                  ],
+                  "in": true,
+                  "label": "❯"
+                },
+                {
+                  "id": "a55d9976-c5ef-4a9c-83d7-5b574f931c0c",
+                  "type": "default",
+                  "x": 999.03125,
+                  "y": 259,
+                  "name": "out-1661842035397",
+                  "alignment": "right",
+                  "parentNode": "75da74fc-d47a-414c-a268-b09a485593ee",
+                  "links": [
+                    "f8fcb268-ce40-4954-996b-f4950cc2d555"
+                  ],
+                  "in": false,
+                  "label": "❯"
+                }
+              ],
+              "title": "Action",
+              "color": "#3e077ee6",
+              "portsInOrder": [
+                "85f41687-86b7-4d2f-8762-0008082fea43"
+              ],
+              "portsOutOrder": [
+                "a55d9976-c5ef-4a9c-83d7-5b574f931c0c"
+              ],
+              "actions": {
+                "actions": [
+                  "basicAction"
+                ],
+                "args": [
+                  [
+                    "EMPTY_ACTION"
+                  ]
+                ]
+              }
+            },
+            "780798e8-6c66-4986-ae07-d1b35e881aeb": {
+              "id": "780798e8-6c66-4986-ae07-d1b35e881aeb",
+              "type": "dialogue",
+              "selected": false,
+              "x": 741,
+              "y": 391,
+              "ports": [
+                {
+                  "id": "71175e96-8e13-4d76-8abb-69b51d51b72b",
+                  "type": "default",
+                  "x": 728,
+                  "y": 422,
+                  "name": "in-1661841991429 ",
+                  "alignment": "left",
+                  "parentNode": "780798e8-6c66-4986-ae07-d1b35e881aeb",
+                  "links": [
+                    "728f352b-a47e-41ae-86ba-4a3fd228401b"
+                  ],
+                  "in": true,
+                  "label": "❯"
+                },
+                {
+                  "id": "662ab662-c6a1-441e-8615-3c12e3cd37ae",
+                  "type": "default",
+                  "x": 1160.046875,
+                  "y": 422,
+                  "name": "out-1661841991429",
+                  "alignment": "right",
+                  "parentNode": "780798e8-6c66-4986-ae07-d1b35e881aeb",
+                  "links": [],
+                  "in": false,
+                  "label": "❯"
+                }
+              ],
+              "title": "Drezel",
+              "color": "#dd341ee6",
+              "portsInOrder": [
+                "71175e96-8e13-4d76-8abb-69b51d51b72b"
+              ],
+              "portsOutOrder": [
+                "662ab662-c6a1-441e-8615-3c12e3cd37ae"
+              ],
+              "text": "Thank you. I need <priest_in_peril_essence> more."
+            },
+            "5f070688-3799-4264-906f-2182df60d772": {
+              "id": "5f070688-3799-4264-906f-2182df60d772",
+              "type": "note",
+              "selected": false,
+              "x": 1057,
+              "y": 214,
+              "ports": [],
+              "title": "Note",
+              "color": "#19e0e7e6",
+              "portsInOrder": [],
+              "portsOutOrder": [],
+              "text": "Drezel take action"
+            },
+            "6b939422-3631-46df-bab4-cbaa7cb3b61b": {
+              "id": "6b939422-3631-46df-bab4-cbaa7cb3b61b",
+              "type": "condition",
+              "selected": false,
+              "x": 739,
+              "y": 310,
+              "ports": [
+                {
+                  "id": "c5a85460-a2d8-4afa-8578-0f49c5e33e1e",
+                  "type": "default",
+                  "x": 726,
+                  "y": 341,
+                  "name": "in-1661842086324 ",
+                  "alignment": "left",
+                  "parentNode": "6b939422-3631-46df-bab4-cbaa7cb3b61b",
+                  "links": [
+                    "f8fcb268-ce40-4954-996b-f4950cc2d555"
+                  ],
+                  "in": true,
+                  "label": "❯"
+                },
+                {
+                  "id": "c3590207-5128-4eba-a518-64f8f4e6384d",
+                  "type": "default",
+                  "x": 1244.484375,
+                  "y": 341,
+                  "name": "out-1661842086324",
+                  "alignment": "right",
+                  "parentNode": "6b939422-3631-46df-bab4-cbaa7cb3b61b",
+                  "links": [
+                    "2c03b400-9c98-4cea-8227-a4426d158af4"
+                  ],
+                  "in": false,
+                  "label": "true"
+                },
+                {
+                  "id": "eda0b123-9be1-4ea7-bd1e-2db8ee05d632",
+                  "type": "default",
+                  "x": 1246.625,
+                  "y": 358,
+                  "name": "out-16618420863241",
+                  "alignment": "right",
+                  "parentNode": "6b939422-3631-46df-bab4-cbaa7cb3b61b",
+                  "links": [
+                    "728f352b-a47e-41ae-86ba-4a3fd228401b"
+                  ],
+                  "in": false,
+                  "label": "false"
+                }
+              ],
+              "title": "Condition",
+              "color": "#02630ae6",
+              "portsInOrder": [
+                "c5a85460-a2d8-4afa-8578-0f49c5e33e1e"
+              ],
+              "portsOutOrder": [
+                "c3590207-5128-4eba-a518-64f8f4e6384d",
+                "eda0b123-9be1-4ea7-bd1e-2db8ee05d632"
+              ],
+              "conditions": {
+                "conditions": [
+                  "characterStat"
+                ],
+                "args": [
+                  [
+                    "PRIEST_IN_THE_PERIL_ESSENCE",
+                    ">=",
+                    "50"
+                  ]
+                ]
+              }
+            },
+            "3bb03937-5974-45d2-b875-8fea21082c1b": {
+              "id": "3bb03937-5974-45d2-b875-8fea21082c1b",
+              "type": "dialogue",
+              "selected": false,
+              "x": 1340,
+              "y": 310,
+              "ports": [
+                {
+                  "id": "d9dfe1e3-e27b-49a5-8df4-1d4e66869404",
+                  "type": "default",
+                  "x": 1314,
+                  "y": 341,
+                  "name": "in-1661841991429 ",
+                  "alignment": "left",
+                  "parentNode": "3bb03937-5974-45d2-b875-8fea21082c1b",
+                  "links": [
+                    "2c03b400-9c98-4cea-8227-a4426d158af4"
+                  ],
+                  "in": true,
+                  "label": "❯"
+                },
+                {
+                  "id": "43cc50de-8c01-4329-add4-1893288b44dc",
+                  "type": "default",
+                  "x": 1790.015625,
+                  "y": 341,
+                  "name": "out-1661841991429",
+                  "alignment": "right",
+                  "parentNode": "3bb03937-5974-45d2-b875-8fea21082c1b",
+                  "links": [
+                    "a427b35c-0c23-45aa-85f4-d85b286990db"
+                  ],
+                  "in": false,
+                  "label": "❯"
+                }
+              ],
+              "title": "Drezel",
+              "color": "#dd341ee6",
+              "portsInOrder": [
+                "d9dfe1e3-e27b-49a5-8df4-1d4e66869404"
+              ],
+              "portsOutOrder": [
+                "43cc50de-8c01-4329-add4-1893288b44dc"
+              ],
+              "text": "Excellent! That should do it! I will bless these stones\nand place them within the well. With the river safe,\nMisthalin should be protected from the vampyres once\nmore!"
+            },
+            "1ae594da-6669-4721-b293-34324f41e42b": {
+              "id": "1ae594da-6669-4721-b293-34324f41e42b",
+              "type": "dialogue",
+              "selected": false,
+              "x": 1340,
+              "y": 418,
+              "ports": [
+                {
+                  "id": "fb1af408-4b9e-4ea0-a855-f8345b1c884f",
+                  "type": "default",
+                  "x": 1327,
+                  "y": 449,
+                  "name": "in-1661841991429 ",
+                  "alignment": "left",
+                  "parentNode": "1ae594da-6669-4721-b293-34324f41e42b",
+                  "links": [
+                    "a427b35c-0c23-45aa-85f4-d85b286990db"
+                  ],
+                  "in": true,
+                  "label": "❯"
+                },
+                {
+                  "id": "68117cfc-b315-43aa-b69e-8fd2d0dc5aaf",
+                  "type": "default",
+                  "x": 1817.671875,
+                  "y": 449,
+                  "name": "out-1661841991429",
+                  "alignment": "right",
+                  "parentNode": "1ae594da-6669-4721-b293-34324f41e42b",
+                  "links": [
+                    "30bcff90-1503-4cd9-975a-bf5a61c040df"
+                  ],
+                  "in": false,
+                  "label": "❯"
+                }
+              ],
+              "title": "Drezel",
+              "color": "#dd341ee6",
+              "portsInOrder": [
+                "fb1af408-4b9e-4ea0-a855-f8345b1c884f"
+              ],
+              "portsOutOrder": [
+                "68117cfc-b315-43aa-b69e-8fd2d0dc5aaf"
+              ],
+              "text": "Please take this dagger. It has been handed down within\nmy family for generations and is filled with the power of\nSaradomin."
+            },
+            "b300a87b-1773-4160-8dad-a8264a8a3c41": {
+              "id": "b300a87b-1773-4160-8dad-a8264a8a3c41",
+              "type": "dialogue",
+              "selected": false,
+              "x": 1340,
+              "y": 511,
+              "ports": [
+                {
+                  "id": "73055d3b-93f2-47fc-a271-a6df2dbaa127",
+                  "type": "default",
+                  "x": 1327,
+                  "y": 542,
+                  "name": "in-1661841991429 ",
+                  "alignment": "left",
+                  "parentNode": "b300a87b-1773-4160-8dad-a8264a8a3c41",
+                  "links": [
+                    "30bcff90-1503-4cd9-975a-bf5a61c040df"
+                  ],
+                  "in": true,
+                  "label": "❯"
+                },
+                {
+                  "id": "bed50a3d-1117-4935-990d-f1968fac8e48",
+                  "type": "default",
+                  "x": 1773.703125,
+                  "y": 542,
+                  "name": "out-1661841991429",
+                  "alignment": "right",
+                  "parentNode": "b300a87b-1773-4160-8dad-a8264a8a3c41",
+                  "links": [
+                    "7e8f46a5-e75e-44c4-a3c8-b04cf39edcdc"
+                  ],
+                  "in": false,
+                  "label": "❯"
+                }
+              ],
+              "title": "Drezel",
+              "color": "#dd341ee6",
+              "portsInOrder": [
+                "73055d3b-93f2-47fc-a271-a6df2dbaa127"
+              ],
+              "portsOutOrder": [
+                "bed50a3d-1117-4935-990d-f1968fac8e48"
+              ],
+              "text": "You will find that it has the ability to prevent\nwerewolves from adopting their wolf form in combat.\nHopefully it comes in useful."
+            },
+            "1caeaa13-68e4-4e4d-80b1-0cfa0a8c597f": {
+              "id": "1caeaa13-68e4-4e4d-80b1-0cfa0a8c597f",
+              "type": "action",
+              "selected": false,
+              "x": 1341,
+              "y": 604,
+              "ports": [
+                {
+                  "id": "cf06918c-714f-4a5d-8a61-8f79475cf0d9",
+                  "type": "default",
+                  "x": 1328,
+                  "y": 635,
+                  "name": "in-1661842035397 ",
+                  "alignment": "left",
+                  "parentNode": "1caeaa13-68e4-4e4d-80b1-0cfa0a8c597f",
+                  "links": [
+                    "7e8f46a5-e75e-44c4-a3c8-b04cf39edcdc"
+                  ],
+                  "in": true,
+                  "label": "❯"
+                },
+                {
+                  "id": "1b3e1afe-dfa3-49a2-ba07-2c3f5fcef86e",
+                  "type": "default",
+                  "x": 1697.09375,
+                  "y": 635,
+                  "name": "out-1661842035397",
+                  "alignment": "right",
+                  "parentNode": "1caeaa13-68e4-4e4d-80b1-0cfa0a8c597f",
+                  "links": [],
+                  "in": false,
+                  "label": "❯"
+                }
+              ],
+              "title": "Action",
+              "color": "#3e077ee6",
+              "portsInOrder": [
+                "cf06918c-714f-4a5d-8a61-8f79475cf0d9"
+              ],
+              "portsOutOrder": [
+                "1b3e1afe-dfa3-49a2-ba07-2c3f5fcef86e"
+              ],
+              "actions": {
+                "actions": [
+                  "finishQuest"
+                ],
+                "args": [
+                  [
+                    "PRIEST_IN_PERIL",
+                    "FINISHED"
+                  ]
+                ]
+              }
             }
           }
         }
