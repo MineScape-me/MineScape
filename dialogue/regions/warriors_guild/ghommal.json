@@ -1,0 +1,200 @@
+{
+  "id": "a28afd8c-40cf-44c9-84e9-dc260330fed7",
+  "offsetX": 0,
+  "offsetY": 0,
+  "zoom": 100,
+  "gridSize": 0,
+  "layers": [
+    {
+      "id": "9cc50a09-ecc0-457c-9076-1c71b308b21c",
+      "type": "diagram-links",
+      "isSvg": true,
+      "transformed": true,
+      "models": {
+        "113025d4-b621-4bfd-86bf-18e1e9c00b82": {
+          "id": "113025d4-b621-4bfd-86bf-18e1e9c00b82",
+          "type": "default",
+          "selected": false,
+          "source": "0bb1b0b7-3a9f-478c-be6d-9ba1c4683d19",
+          "sourcePort": "79348339-347a-4fbf-a7a6-404ff88068ab",
+          "target": "b00098f3-9f88-41c7-8916-aa8fdedb5d50",
+          "targetPort": "1a6e1db7-cfa9-4c78-9ca5-d463b237c236",
+          "points": [
+            {
+              "id": "9873563b-7ffa-4574-9dd6-117c1ea50cd6",
+              "type": "point",
+              "x": 133.296875,
+              "y": 64.5
+            },
+            {
+              "id": "c15276ef-2e4a-4c86-b693-c2e028b426d9",
+              "type": "point",
+              "x": 182.5,
+              "y": 63.5
+            }
+          ],
+          "labels": [],
+          "width": 3,
+          "color": "gray",
+          "curvyness": 50,
+          "selectedColor": "rgb(0,192,255)"
+        },
+        "82e675d8-bcf3-4e32-b8ea-788fbe83228d": {
+          "id": "82e675d8-bcf3-4e32-b8ea-788fbe83228d",
+          "type": "default",
+          "selected": false,
+          "source": "b00098f3-9f88-41c7-8916-aa8fdedb5d50",
+          "sourcePort": "f5a1e02c-2ce6-4168-b279-864a2fa66c56",
+          "target": "b144ab85-3f82-400e-bc05-5cb07ac33a9a",
+          "targetPort": "fe6f9cf6-8751-42cd-b647-35d8d4a128dc",
+          "points": [
+            {
+              "id": "28d2e15c-e2e6-4ca0-88af-0eb19a94affd",
+              "type": "point",
+              "x": 526.59375,
+              "y": 63.5
+            },
+            {
+              "id": "3d372327-1de0-48ea-ad14-952dc0284fbd",
+              "type": "point",
+              "x": 182.5,
+              "y": 129.5
+            }
+          ],
+          "labels": [],
+          "width": 3,
+          "color": "gray",
+          "curvyness": 50,
+          "selectedColor": "rgb(0,192,255)"
+        }
+      }
+    },
+    {
+      "id": "b9b9ee4f-a079-4a29-9a4e-188149707551",
+      "type": "diagram-nodes",
+      "isSvg": false,
+      "transformed": true,
+      "models": {
+        "0bb1b0b7-3a9f-478c-be6d-9ba1c4683d19": {
+          "id": "0bb1b0b7-3a9f-478c-be6d-9ba1c4683d19",
+          "type": "start",
+          "x": 50,
+          "y": 50,
+          "ports": [
+            {
+              "id": "79348339-347a-4fbf-a7a6-404ff88068ab",
+              "type": "default",
+              "x": 125.796875,
+              "y": 57,
+              "name": "out-1659555567183",
+              "alignment": "right",
+              "parentNode": "0bb1b0b7-3a9f-478c-be6d-9ba1c4683d19",
+              "links": [
+                "113025d4-b621-4bfd-86bf-18e1e9c00b82"
+              ],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Start",
+          "color": "#16db26e6",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "79348339-347a-4fbf-a7a6-404ff88068ab"
+          ]
+        },
+        "b00098f3-9f88-41c7-8916-aa8fdedb5d50": {
+          "id": "b00098f3-9f88-41c7-8916-aa8fdedb5d50",
+          "type": "dialogue",
+          "selected": false,
+          "x": 188,
+          "y": 25,
+          "ports": [
+            {
+              "id": "1a6e1db7-cfa9-4c78-9ca5-d463b237c236",
+              "type": "default",
+              "x": 175,
+              "y": 56,
+              "name": "in-1659555568317 ",
+              "alignment": "left",
+              "parentNode": "b00098f3-9f88-41c7-8916-aa8fdedb5d50",
+              "links": [
+                "113025d4-b621-4bfd-86bf-18e1e9c00b82"
+              ],
+              "in": true,
+              "label": "❯"
+            },
+            {
+              "id": "f5a1e02c-2ce6-4168-b279-864a2fa66c56",
+              "type": "default",
+              "x": 519.09375,
+              "y": 56,
+              "name": "out-1659555568317",
+              "alignment": "right",
+              "parentNode": "b00098f3-9f88-41c7-8916-aa8fdedb5d50",
+              "links": [
+                "82e675d8-bcf3-4e32-b8ea-788fbe83228d"
+              ],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Ghommal",
+          "color": "#dd341ee6",
+          "portsInOrder": [
+            "1a6e1db7-cfa9-4c78-9ca5-d463b237c236"
+          ],
+          "portsOutOrder": [
+            "f5a1e02c-2ce6-4168-b279-864a2fa66c56"
+          ],
+          "text": "Ghommal welcome you to Warrior Guild!"
+        },
+        "b144ab85-3f82-400e-bc05-5cb07ac33a9a": {
+          "id": "b144ab85-3f82-400e-bc05-5cb07ac33a9a",
+          "type": "dialogue",
+          "selected": false,
+          "x": 188,
+          "y": 91,
+          "ports": [
+            {
+              "id": "fe6f9cf6-8751-42cd-b647-35d8d4a128dc",
+              "type": "default",
+              "x": 175,
+              "y": 122,
+              "name": "in-1659555578942 ",
+              "alignment": "left",
+              "parentNode": "b144ab85-3f82-400e-bc05-5cb07ac33a9a",
+              "links": [
+                "82e675d8-bcf3-4e32-b8ea-788fbe83228d"
+              ],
+              "in": true,
+              "label": "❯"
+            },
+            {
+              "id": "4b1b1cf4-5964-4b2d-8cdf-afe5e200f161",
+              "type": "default",
+              "x": 431.15625,
+              "y": 122,
+              "name": "out-1659555578942",
+              "alignment": "right",
+              "parentNode": "b144ab85-3f82-400e-bc05-5cb07ac33a9a",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "<player>",
+          "color": "#dd341ee6",
+          "portsInOrder": [
+            "fe6f9cf6-8751-42cd-b647-35d8d4a128dc"
+          ],
+          "portsOutOrder": [
+            "4b1b1cf4-5964-4b2d-8cdf-afe5e200f161"
+          ],
+          "text": "Umm.. thank you, I think."
+        }
+      }
+    }
+  ],
+  "trees": {}
+}
