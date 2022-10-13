@@ -1,8 +1,8 @@
 {
   "id": "5691bb10-0dc5-4962-a00e-5cac22175c47",
-  "offsetX": 348,
-  "offsetY": 100,
-  "zoom": 100,
+  "offsetX": 340.58333333333337,
+  "offsetY": -4.149999999999935,
+  "zoom": 98.33333333333333,
   "gridSize": 0,
   "layers": [
     {
@@ -281,8 +281,8 @@
             {
               "id": "568eca62-0a9e-44e3-a201-995ed5f3d3ab",
               "type": "point",
-              "x": -180.5,
-              "y": 519.5
+              "x": -185.58473748675866,
+              "y": 509.3304919226699
             }
           ],
           "labels": [],
@@ -828,14 +828,14 @@
           "id": "14ac2a3e-97c3-401d-9d1f-cd813819bd90",
           "type": "action",
           "selected": false,
-          "x": -175,
-          "y": 481,
+          "x": -180.08474576271186,
+          "y": 470.8305084745763,
           "ports": [
             {
               "id": "9611589d-1c50-4223-bcb1-cd1c7b27f7f0",
               "type": "default",
-              "x": -188,
-              "y": 512,
+              "x": -193.08473748675846,
+              "y": 501.8304919226699,
               "name": "in-1659293750805 ",
               "alignment": "left",
               "parentNode": "14ac2a3e-97c3-401d-9d1f-cd813819bd90",
@@ -848,8 +848,8 @@
             {
               "id": "5ed46dc3-f619-4b3e-b8ab-1ced83c2d683",
               "type": "default",
-              "x": 130.140625,
-              "y": 512,
+              "x": 187.05587096133473,
+              "y": 501.8304919226699,
               "name": "out-1659293750805",
               "alignment": "right",
               "parentNode": "14ac2a3e-97c3-401d-9d1f-cd813819bd90",
@@ -869,7 +869,7 @@
           "actions": {
             "actions": [
               "takeItem",
-              ""
+              "teleport"
             ],
             "args": [
               [
@@ -877,22 +877,11 @@
                 "30",
                 "false"
               ],
-              []
+              [
+                "SHIP_CAPTAIN_BARNABY_ARDOUGNE"
+              ]
             ]
           }
-        },
-        "f25f38fa-5453-4c1e-bf92-662500a10cb0": {
-          "id": "f25f38fa-5453-4c1e-bf92-662500a10cb0",
-          "type": "note",
-          "selected": false,
-          "x": 132,
-          "y": 595,
-          "ports": [],
-          "title": "Note",
-          "color": "#19e0e7e6",
-          "portsInOrder": [],
-          "portsOutOrder": [],
-          "text": "Teleport"
         },
         "69fe7987-40df-4226-b8fc-2adac0e3e94b": {
           "id": "69fe7987-40df-4226-b8fc-2adac0e3e94b",
@@ -918,7 +907,7 @@
             {
               "id": "491c36df-a54f-4b75-97b6-279a716e5cbf",
               "type": "default",
-              "x": 538.140625,
+              "x": 339.453125,
               "y": 505,
               "name": "out-1659293750805",
               "alignment": "right",
@@ -938,18 +927,25 @@
           ],
           "actions": {
             "actions": [
-              "takeItem",
               ""
             ],
             "args": [
-              [
-                "COINS",
-                "30",
-                "false"
-              ],
               []
             ]
           }
+        },
+        "daa29988-a929-4aa3-bad7-ed719982e385": {
+          "id": "daa29988-a929-4aa3-bad7-ed719982e385",
+          "type": "note",
+          "selected": false,
+          "x": 357,
+          "y": 533,
+          "ports": [],
+          "title": "Note",
+          "color": "#19e0e7e6",
+          "portsInOrder": [],
+          "portsOutOrder": [],
+          "text": "Rimmington teleport"
         }
       }
     }
