@@ -197,8 +197,8 @@
             {
               "id": "5067a5c2-c264-4161-9e37-f46ee1449108",
               "type": "point",
-              "x": 215.5,
-              "y": 447.5
+              "x": 682.5,
+              "y": 341.5
             }
           ],
           "labels": [],
@@ -225,8 +225,8 @@
             {
               "id": "d2cdb79f-8060-4c2f-999e-ea918f39902d",
               "type": "point",
-              "x": 701.5,
-              "y": 368.5
+              "x": 220.5,
+              "y": 444.5
             }
           ],
           "labels": [],
@@ -625,14 +625,14 @@
           "id": "3b2f78d2-9834-4f42-b4cc-dc1045547a7d",
           "type": "dialogue",
           "selected": false,
-          "x": 221,
-          "y": 409,
+          "x": 688,
+          "y": 303,
           "ports": [
             {
               "id": "29a715ac-83e8-4a3d-83f7-ae2bc41d73fc",
               "type": "default",
-              "x": 208,
-              "y": 440,
+              "x": 675,
+              "y": 334,
               "name": "in-1658147152193 ",
               "alignment": "left",
               "parentNode": "3b2f78d2-9834-4f42-b4cc-dc1045547a7d",
@@ -645,8 +645,8 @@
             {
               "id": "1bc9e91b-d617-465c-8250-7d79359232e1",
               "type": "default",
-              "x": 588.75,
-              "y": 440,
+              "x": 1055.75,
+              "y": 334,
               "name": "out-1658147152193",
               "alignment": "right",
               "parentNode": "3b2f78d2-9834-4f42-b4cc-dc1045547a7d",
@@ -669,14 +669,14 @@
           "id": "15c25828-5035-443b-999f-a2cba6f6a9f9",
           "type": "action",
           "selected": false,
-          "x": 707,
-          "y": 330,
+          "x": 226,
+          "y": 406,
           "ports": [
             {
               "id": "d352c95f-e9f0-4957-abe6-9531767eae22",
               "type": "default",
-              "x": 694,
-              "y": 361,
+              "x": 213,
+              "y": 437,
               "name": "in-1658147243401 ",
               "alignment": "left",
               "parentNode": "15c25828-5035-443b-999f-a2cba6f6a9f9",
@@ -689,8 +689,8 @@
             {
               "id": "5c785353-8a19-4396-8371-89b03b586fe6",
               "type": "default",
-              "x": 971.03125,
-              "y": 361,
+              "x": 594.15625,
+              "y": 437,
               "name": "out-1658147243401",
               "alignment": "right",
               "parentNode": "15c25828-5035-443b-999f-a2cba6f6a9f9",
@@ -709,11 +709,17 @@
           ],
           "actions": {
             "actions": [
-              "basicAction"
+              "takeItem",
+              "teleport"
             ],
             "args": [
               [
-                "EMPTY_ACTION"
+                "COINS",
+                "30",
+                "false"
+              ],
+              [
+                "SHIP_CAPTAIN_BARNABY_BRIMHAVEN"
               ]
             ]
           }
@@ -722,14 +728,14 @@
           "id": "c2a7e8a5-44f6-4b8d-963e-822768720a7d",
           "type": "note",
           "selected": true,
-          "x": 708,
-          "y": 407,
+          "x": -89,
+          "y": 435,
           "ports": [],
           "title": "Note",
           "color": "#19e0e7e6",
           "portsInOrder": [],
           "portsOutOrder": [],
-          "text": "Take coins & Teleport action"
+          "text": "Rimmington teleport"
         }
       }
     }
