@@ -113,7 +113,7 @@
             {
               "id": "1999e84c-0706-42b3-8a19-9110bd400b2c",
               "type": "point",
-              "x": 1109.5,
+              "x": 1106.5,
               "y": 50.5
             }
           ],
@@ -281,7 +281,7 @@
             {
               "id": "fe2f0a89-d544-4e86-b118-9c24b4f89603",
               "type": "point",
-              "x": 675.5,
+              "x": 676.5,
               "y": 294.5
             }
           ],
@@ -303,13 +303,13 @@
             {
               "id": "ed2acdf6-e12f-4b02-8750-b2e05d015d8f",
               "type": "point",
-              "x": 982.953125,
+              "x": 983.953125,
               "y": 294.5
             },
             {
               "id": "d0993e71-29ce-4dd7-b994-1fddec897c48",
               "type": "point",
-              "x": 1109.5,
+              "x": 1106.5,
               "y": 50.5
             }
           ],
@@ -637,13 +637,13 @@
           "id": "91631544-2c0c-40c5-9cfa-622c7bce373c",
           "type": "action",
           "selected": false,
-          "x": 1115,
+          "x": 1112,
           "y": 12,
           "ports": [
             {
               "id": "dae6a106-8847-4b48-a7d2-4cefed2b875c",
               "type": "default",
-              "x": 1102,
+              "x": 1099,
               "y": 43,
               "name": "in-1657346176490 ",
               "alignment": "left",
@@ -658,7 +658,7 @@
             {
               "id": "5ec21f3b-3ee0-406d-8ad0-797ed8fe8cd3",
               "type": "default",
-              "x": 1221.453125,
+              "x": 1468.5625,
               "y": 43,
               "name": "out-1657346176490",
               "alignment": "right",
@@ -678,23 +678,14 @@
           ],
           "actions": {
             "actions": [
-              ""
+              "basicAction"
             ],
-            "args": []
+            "args": [
+              [
+                "SAWMILL_OPEN_PLANK_MAKING"
+              ]
+            ]
           }
-        },
-        "ccd30189-c436-47c1-867a-71b6cd73cec0": {
-          "id": "ccd30189-c436-47c1-867a-71b6cd73cec0",
-          "type": "note",
-          "selected": false,
-          "x": 1305,
-          "y": -9,
-          "ports": [],
-          "title": "Note",
-          "color": "#19e0e7e6",
-          "portsInOrder": [],
-          "portsOutOrder": [],
-          "text": "Open plank making"
         },
         "5601b0a3-6e72-4dae-ad32-e199b5e2b0e0": {
           "id": "5601b0a3-6e72-4dae-ad32-e199b5e2b0e0",
@@ -961,7 +952,7 @@
             {
               "id": "071d1669-2ac9-477d-8c42-2582eb0dadb2",
               "type": "default",
-              "x": 668,
+              "x": 669,
               "y": 287,
               "name": "in-1657346257063 ",
               "alignment": "left",
@@ -975,7 +966,7 @@
             {
               "id": "8cc3f7dc-95b9-40e6-b516-315e24233ec5",
               "type": "default",
-              "x": 975.453125,
+              "x": 976.453125,
               "y": 287,
               "name": "out-1657346257063",
               "alignment": "right",
