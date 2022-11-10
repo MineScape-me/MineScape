@@ -1,7 +1,7 @@
 {
   "id": "1cf83698-3cb8-48d7-be09-04680eebfe63",
-  "offsetX": -673,
-  "offsetY": -305,
+  "offsetX": 240,
+  "offsetY": 320,
   "zoom": 100,
   "gridSize": 0,
   "layers": [
@@ -11,34 +11,6 @@
       "isSvg": true,
       "transformed": true,
       "models": {
-        "37728cfc-3580-4e19-bf46-1bdb3cde8ed9": {
-          "id": "37728cfc-3580-4e19-bf46-1bdb3cde8ed9",
-          "type": "default",
-          "selected": false,
-          "source": "70a0fb95-5eea-4d4a-b848-06ab6c2a3c5c",
-          "sourcePort": "25c110cf-421d-44b9-a80e-cb992185f4c6",
-          "target": "4765f556-dbf6-4a92-a751-839c75c2d35a",
-          "targetPort": "22f3ffe7-ecf6-4298-8860-d1a421a5370b",
-          "points": [
-            {
-              "id": "437b974c-0271-4fd1-a5aa-b025301e0fd3",
-              "type": "point",
-              "x": 232.296875,
-              "y": 70.5
-            },
-            {
-              "id": "dff12bd7-465c-440c-b2e4-b36f85dfd951",
-              "type": "point",
-              "x": 298.5,
-              "y": 71.5
-            }
-          ],
-          "labels": [],
-          "width": 3,
-          "color": "gray",
-          "curvyness": 50,
-          "selectedColor": "rgb(0,192,255)"
-        },
         "926e617b-44fc-4d83-b909-8c0cbdd9bbe6": {
           "id": "926e617b-44fc-4d83-b909-8c0cbdd9bbe6",
           "type": "default",
@@ -639,7 +611,7 @@
             {
               "id": "4d4ad3f6-3284-4cbd-b39d-c29999dc8eff",
               "type": "point",
-              "x": 1668.265625,
+              "x": 1740.1875,
               "y": 575.5
             },
             {
@@ -723,7 +695,7 @@
             {
               "id": "25b70635-9cfb-4666-8199-ba5ce754aa85",
               "type": "point",
-              "x": 1670.40625,
+              "x": 1742.328125,
               "y": 592.5
             },
             {
@@ -794,6 +766,62 @@
           "color": "gray",
           "curvyness": 50,
           "selectedColor": "rgb(0,192,255)"
+        },
+        "c4159ac9-fdaf-463a-aefc-f3b7037c748e": {
+          "id": "c4159ac9-fdaf-463a-aefc-f3b7037c748e",
+          "type": "default",
+          "selected": false,
+          "source": "9b6dc692-5d88-4f6e-9774-aff93eff152f",
+          "sourcePort": "b4f1054b-170f-4646-b7cd-f9dd9bac4296",
+          "target": "4765f556-dbf6-4a92-a751-839c75c2d35a",
+          "targetPort": "22f3ffe7-ecf6-4298-8860-d1a421a5370b",
+          "points": [
+            {
+              "id": "fe0045d8-9dfc-4200-bcfc-63da6ff21b7e",
+              "type": "point",
+              "x": 682.3125,
+              "y": -10.5
+            },
+            {
+              "id": "5bc6f5f5-75f6-48f6-aeb1-90cff3a5d384",
+              "type": "point",
+              "x": 298.5,
+              "y": 71.5
+            }
+          ],
+          "labels": [],
+          "width": 3,
+          "color": "gray",
+          "curvyness": 50,
+          "selectedColor": "rgb(0,192,255)"
+        },
+        "5e3d23fb-8aff-44b1-94f2-c906bc5bb67f": {
+          "id": "5e3d23fb-8aff-44b1-94f2-c906bc5bb67f",
+          "type": "default",
+          "selected": false,
+          "source": "70a0fb95-5eea-4d4a-b848-06ab6c2a3c5c",
+          "sourcePort": "25c110cf-421d-44b9-a80e-cb992185f4c6",
+          "target": "9b6dc692-5d88-4f6e-9774-aff93eff152f",
+          "targetPort": "f676408d-5741-4e29-a913-01173d5880b9",
+          "points": [
+            {
+              "id": "2e7d18c6-70ae-4be7-bda6-6781ebe7eb21",
+              "type": "point",
+              "x": 102.296875,
+              "y": 69.5
+            },
+            {
+              "id": "97cbba11-7fd0-44f7-b06a-72e8ef7a6630",
+              "type": "point",
+              "x": 304.5,
+              "y": -10.5
+            }
+          ],
+          "labels": [],
+          "width": 3,
+          "color": "gray",
+          "curvyness": 50,
+          "selectedColor": "rgb(0,192,255)"
         }
       }
     },
@@ -806,26 +834,27 @@
         "70a0fb95-5eea-4d4a-b848-06ab6c2a3c5c": {
           "id": "70a0fb95-5eea-4d4a-b848-06ab6c2a3c5c",
           "type": "start",
-          "x": 149,
-          "y": 56,
+          "selected": false,
+          "x": 19,
+          "y": 55,
           "ports": [
             {
               "id": "25c110cf-421d-44b9-a80e-cb992185f4c6",
               "type": "default",
-              "x": 224.796875,
-              "y": 63,
+              "x": 94.796875,
+              "y": 62,
               "name": "out-1655288078210",
               "alignment": "right",
               "parentNode": "70a0fb95-5eea-4d4a-b848-06ab6c2a3c5c",
               "links": [
-                "37728cfc-3580-4e19-bf46-1bdb3cde8ed9"
+                "5e3d23fb-8aff-44b1-94f2-c906bc5bb67f"
               ],
               "in": false,
               "label": "❯"
             }
           ],
           "title": "Start",
-          "color": "#16db26",
+          "color": "#16db26e6",
           "portsInOrder": [],
           "portsOutOrder": [
             "25c110cf-421d-44b9-a80e-cb992185f4c6"
@@ -847,7 +876,7 @@
               "alignment": "left",
               "parentNode": "4765f556-dbf6-4a92-a751-839c75c2d35a",
               "links": [
-                "37728cfc-3580-4e19-bf46-1bdb3cde8ed9"
+                "c4159ac9-fdaf-463a-aefc-f3b7037c748e"
               ],
               "in": true,
               "label": "❯"
@@ -868,7 +897,7 @@
             }
           ],
           "title": "<player>",
-          "color": "#dd341e",
+          "color": "#dd341ee6",
           "portsInOrder": [
             "22f3ffe7-ecf6-4298-8860-d1a421a5370b"
           ],
@@ -914,7 +943,7 @@
             }
           ],
           "title": "Dark Mage",
-          "color": "#dd341e",
+          "color": "#dd341ee6",
           "portsInOrder": [
             "24cf0b57-8b33-4d96-95a3-922f06b0c22d"
           ],
@@ -1004,7 +1033,7 @@
             }
           ],
           "title": "Select an option.",
-          "color": "#0756b1",
+          "color": "#0756b1e6",
           "portsInOrder": [
             "6593d387-a304-4114-8048-e64b03931e35"
           ],
@@ -1082,7 +1111,7 @@
             }
           ],
           "title": "<player>",
-          "color": "#dd341e",
+          "color": "#dd341ee6",
           "portsInOrder": [
             "83baad82-6fef-40b6-a4f8-47c14958884a"
           ],
@@ -1128,7 +1157,7 @@
             }
           ],
           "title": "Dark Mage",
-          "color": "#dd341e",
+          "color": "#dd341ee6",
           "portsInOrder": [
             "401ca315-8404-4d86-a44f-66fac37ca2f9"
           ],
@@ -1174,7 +1203,7 @@
             }
           ],
           "title": "<player>",
-          "color": "#dd341e",
+          "color": "#dd341ee6",
           "portsInOrder": [
             "c00adae1-fce8-49bd-a4b2-ca636a8c5326"
           ],
@@ -1220,7 +1249,7 @@
             }
           ],
           "title": "Dark Mage",
-          "color": "#dd341e",
+          "color": "#dd341ee6",
           "portsInOrder": [
             "539a9821-9608-424e-8f6d-c55b21f18d17"
           ],
@@ -1266,7 +1295,7 @@
             }
           ],
           "title": "Dark Mage",
-          "color": "#dd341e",
+          "color": "#dd341ee6",
           "portsInOrder": [
             "298a609f-f17b-4d37-a7b3-5ffbdb4d9f08"
           ],
@@ -1312,7 +1341,7 @@
             }
           ],
           "title": "<player>",
-          "color": "#dd341e",
+          "color": "#dd341ee6",
           "portsInOrder": [
             "35c4cdb9-15a6-49e3-aa35-c11daf60fceb"
           ],
@@ -1358,7 +1387,7 @@
             }
           ],
           "title": "Dark Mage",
-          "color": "#dd341e",
+          "color": "#dd341ee6",
           "portsInOrder": [
             "8b6e3166-8bb0-490d-8478-9386e0555544"
           ],
@@ -1404,7 +1433,7 @@
             }
           ],
           "title": "<player>",
-          "color": "#dd341e",
+          "color": "#dd341ee6",
           "portsInOrder": [
             "9b412dc3-35e4-483f-bf22-b8372a2f4ad0"
           ],
@@ -1450,7 +1479,7 @@
             }
           ],
           "title": "Dark Mage",
-          "color": "#dd341e",
+          "color": "#dd341ee6",
           "portsInOrder": [
             "69404988-e276-4bb8-8bfe-2ef7d32206a6"
           ],
@@ -1496,7 +1525,7 @@
             }
           ],
           "title": "Dark Mage",
-          "color": "#dd341e",
+          "color": "#dd341ee6",
           "portsInOrder": [
             "09157586-c571-4807-b6a4-b7d210ed3fed"
           ],
@@ -1542,7 +1571,7 @@
             }
           ],
           "title": "Dark Mage",
-          "color": "#dd341e",
+          "color": "#dd341ee6",
           "portsInOrder": [
             "325524f6-146c-419c-b8d1-17cd048ac875"
           ],
@@ -1588,7 +1617,7 @@
             }
           ],
           "title": "<player>",
-          "color": "#dd341e",
+          "color": "#dd341ee6",
           "portsInOrder": [
             "e43b214e-98c8-48ad-abcc-8a6c315e70ef"
           ],
@@ -1634,7 +1663,7 @@
             }
           ],
           "title": "Dark Mage",
-          "color": "#dd341e",
+          "color": "#dd341ee6",
           "portsInOrder": [
             "231f8676-00ad-4c02-955c-0aeeb6c2e80b"
           ],
@@ -1678,7 +1707,7 @@
             }
           ],
           "title": "Dark Mage",
-          "color": "#dd341e",
+          "color": "#dd341ee6",
           "portsInOrder": [
             "ebbe88ef-a103-46ad-9305-0f87d6a6c51b"
           ],
@@ -1724,7 +1753,7 @@
             }
           ],
           "title": "<player>",
-          "color": "#dd341e",
+          "color": "#dd341ee6",
           "portsInOrder": [
             "25644a77-dc0b-4a90-abca-3cd452d7f95e"
           ],
@@ -1770,7 +1799,7 @@
             }
           ],
           "title": "Dark Mage",
-          "color": "#dd341e",
+          "color": "#dd341ee6",
           "portsInOrder": [
             "3c93c55f-c503-4b6e-bf29-77bea4d0509d"
           ],
@@ -1782,38 +1811,14 @@
         "e0b8a93a-af26-4440-a15c-af0946a4593e": {
           "id": "e0b8a93a-af26-4440-a15c-af0946a4593e",
           "type": "condition",
-          "selected": true,
+          "selected": false,
           "x": 1359,
           "y": 537,
           "ports": [
             {
-              "id": "cf13a089-1526-4a3b-9642-3a5a4e5291a6",
-              "type": "default",
-              "x": -13,
-              "y": -1,
-              "name": "out-1655288790802",
-              "alignment": "right",
-              "parentNode": "e0b8a93a-af26-4440-a15c-af0946a4593e",
-              "links": [],
-              "in": false,
-              "label": "true"
-            },
-            {
-              "id": "b16a6522-5e40-430c-bd0f-6f2e9a603996",
-              "type": "default",
-              "x": -13,
-              "y": -1,
-              "name": "out-16552887908021",
-              "alignment": "right",
-              "parentNode": "e0b8a93a-af26-4440-a15c-af0946a4593e",
-              "links": [],
-              "in": false,
-              "label": "false"
-            },
-            {
               "id": "2e4a5e17-ece1-4e71-9c13-1e986a8beccf",
               "type": "default",
-              "x": 1660.765625,
+              "x": 1732.6875,
               "y": 568,
               "name": "out-1655288368263",
               "alignment": "right",
@@ -1827,7 +1832,7 @@
             {
               "id": "df92109a-01bf-449d-8e2e-fa9ca1f31c40",
               "type": "default",
-              "x": 1662.90625,
+              "x": 1734.828125,
               "y": 585,
               "name": "out-16552883682641",
               "alignment": "right",
@@ -1854,7 +1859,7 @@
             }
           ],
           "title": "Condition",
-          "color": "#02630a",
+          "color": "#02630ae6",
           "portsInOrder": [
             "a1bd5007-be3f-4701-a932-e5b2e773c268"
           ],
@@ -1910,7 +1915,7 @@
             }
           ],
           "title": "<player>",
-          "color": "#dd341e",
+          "color": "#dd341ee6",
           "portsInOrder": [
             "6535c43d-2163-49e6-b5e3-6077bdfb74a4"
           ],
@@ -1956,7 +1961,7 @@
             }
           ],
           "title": "Dark Mage",
-          "color": "#dd341e",
+          "color": "#dd341ee6",
           "portsInOrder": [
             "bbd5992b-f420-4f72-8a82-c5c6d7eb448a"
           ],
@@ -2000,7 +2005,7 @@
             }
           ],
           "title": "Action",
-          "color": "#3e077e",
+          "color": "#3e077ee6",
           "portsInOrder": [
             "513eeecb-b1da-4ec6-9761-1cfe43ac2c0a"
           ],
@@ -2055,7 +2060,7 @@
             }
           ],
           "title": "<player>",
-          "color": "#dd341e",
+          "color": "#dd341ee6",
           "portsInOrder": [
             "889550fa-5f9a-46f0-8a61-38c99b52c80e"
           ],
@@ -2101,7 +2106,7 @@
             }
           ],
           "title": "Dark Mage",
-          "color": "#dd341e",
+          "color": "#dd341ee6",
           "portsInOrder": [
             "35769972-4d74-4e8a-8295-d9dc0177e13c"
           ],
@@ -2145,7 +2150,7 @@
             }
           ],
           "title": "Dark Mage",
-          "color": "#dd341e",
+          "color": "#dd341ee6",
           "portsInOrder": [
             "1619faed-ccc9-43b6-846f-2bd1bd81c015"
           ],
@@ -2153,6 +2158,74 @@
             "75dc0472-a737-4129-9572-6d99c32451ae"
           ],
           "text": "Honestly, you have no idea of the pressure I am under\nattempting to keep this portal open!"
+        },
+        "9b6dc692-5d88-4f6e-9774-aff93eff152f": {
+          "id": "9b6dc692-5d88-4f6e-9774-aff93eff152f",
+          "type": "condition",
+          "selected": false,
+          "x": 310,
+          "y": -49,
+          "ports": [
+            {
+              "id": "f676408d-5741-4e29-a913-01173d5880b9",
+              "type": "default",
+              "x": 297,
+              "y": -18,
+              "name": "in-1665012953427 ",
+              "alignment": "left",
+              "parentNode": "9b6dc692-5d88-4f6e-9774-aff93eff152f",
+              "links": [
+                "5e3d23fb-8aff-44b1-94f2-c906bc5bb67f"
+              ],
+              "in": true,
+              "label": "❯"
+            },
+            {
+              "id": "b4f1054b-170f-4646-b7cd-f9dd9bac4296",
+              "type": "default",
+              "x": 674.8125,
+              "y": -18,
+              "name": "out-1665012953427",
+              "alignment": "right",
+              "parentNode": "9b6dc692-5d88-4f6e-9774-aff93eff152f",
+              "links": [
+                "c4159ac9-fdaf-463a-aefc-f3b7037c748e"
+              ],
+              "in": false,
+              "label": "true"
+            },
+            {
+              "id": "a8d8eb93-b97e-41e9-baf7-7464de72fac9",
+              "type": "default",
+              "x": 676.953125,
+              "y": -1,
+              "name": "out-16650129534271",
+              "alignment": "right",
+              "parentNode": "9b6dc692-5d88-4f6e-9774-aff93eff152f",
+              "links": [],
+              "in": false,
+              "label": "false"
+            }
+          ],
+          "title": "Condition",
+          "color": "#02630ae6",
+          "portsInOrder": [
+            "f676408d-5741-4e29-a913-01173d5880b9"
+          ],
+          "portsOutOrder": [
+            "b4f1054b-170f-4646-b7cd-f9dd9bac4296",
+            "a8d8eb93-b97e-41e9-baf7-7464de72fac9"
+          ],
+          "conditions": {
+            "conditions": [
+              "hasQuestCompleted"
+            ],
+            "args": [
+              [
+                "ENTER_THE_ABYSS"
+              ]
+            ]
+          }
         }
       }
     }

@@ -321,7 +321,7 @@
             }
           ],
           "title": "Start",
-          "color": "#16db26",
+          "color": "#16db26e6",
           "portsInOrder": [],
           "portsOutOrder": [
             "2e2b0d34-7daa-4df8-b6ad-288c1797a753"
@@ -512,7 +512,7 @@
             }
           ],
           "title": "Switch",
-          "color": "#db8c16",
+          "color": "#db8c16e6",
           "portsInOrder": [
             "773a11c8-0f74-4042-9ca7-08713dc117ca"
           ],
@@ -561,7 +561,7 @@
             }
           ],
           "title": "Tree",
-          "color": "#e02e87",
+          "color": "#e02e87e6",
           "portsInOrder": [
             "03a9bab1-0b56-4572-9bea-cf9dafe1e3c5"
           ],
@@ -592,7 +592,7 @@
             }
           ],
           "title": "Tree",
-          "color": "#e02e87",
+          "color": "#e02e87e6",
           "portsInOrder": [
             "c4f305ce-b5f9-4b3b-a168-314160e6b146"
           ],
@@ -603,7 +603,7 @@
         "b4c04ebe-9fd3-4398-af92-74b30bf4ed76": {
           "id": "b4c04ebe-9fd3-4398-af92-74b30bf4ed76",
           "type": "tree",
-          "selected": true,
+          "selected": false,
           "x": 834,
           "y": 259,
           "ports": [
@@ -623,13 +623,25 @@
             }
           ],
           "title": "Tree",
-          "color": "#e02e87",
+          "color": "#e02e87e6",
           "portsInOrder": [
             "9dc4ddbe-a532-4ab9-b4e3-d7cbce1ba518"
           ],
           "portsOutOrder": [],
           "tree": "prince_after",
           "start": "Start"
+        },
+        "6d347ac3-a4f8-4135-a316-c335c03aec7e": {
+          "id": "6d347ac3-a4f8-4135-a316-c335c03aec7e",
+          "type": "note",
+          "x": 669,
+          "y": 350,
+          "ports": [],
+          "title": "Note",
+          "color": "#19e0e7e6",
+          "portsInOrder": [],
+          "portsOutOrder": [],
+          "text": "Missing drunk text"
         }
       }
     }
@@ -762,7 +774,7 @@
                 }
               ],
               "title": "Start",
-              "color": "#16db26",
+              "color": "#16db26e6",
               "portsInOrder": [],
               "portsOutOrder": [
                 "009262a0-d5fe-4b26-b99c-c85da489ffaf"
@@ -805,7 +817,7 @@
                 }
               ],
               "title": "Joe",
-              "color": "#dd341e",
+              "color": "#dd341ee6",
               "portsInOrder": [
                 "071e3ad1-ba35-4824-866a-a801d9708edd"
               ],
@@ -851,7 +863,7 @@
                 }
               ],
               "title": "<player>",
-              "color": "#dd341e",
+              "color": "#dd341ee6",
               "portsInOrder": [
                 "d627e53d-6e22-4bee-bbea-e06bcb2163ae"
               ],
@@ -895,7 +907,7 @@
                 }
               ],
               "title": "Joe",
-              "color": "#dd341e",
+              "color": "#dd341ee6",
               "portsInOrder": [
                 "1c24d122-36a1-4f33-b71b-9ac7eea9fd3d"
               ],
@@ -2491,7 +2503,7 @@
                 }
               ],
               "title": "Start",
-              "color": "#16db26",
+              "color": "#16db26e6",
               "portsInOrder": [],
               "portsOutOrder": [
                 "03fe4275-39da-4810-a991-46e64eafeb2a"
@@ -2534,7 +2546,7 @@
                 }
               ],
               "title": "Joe",
-              "color": "#dd341e",
+              "color": "#dd341ee6",
               "portsInOrder": [
                 "a8f5e78e-5a8b-4a02-a298-8196dbfcd979"
               ],
@@ -2580,7 +2592,7 @@
                 }
               ],
               "title": "<player>",
-              "color": "#dd341e",
+              "color": "#dd341ee6",
               "portsInOrder": [
                 "bc05f1a5-acbe-4837-8a8e-051edbc74a3c"
               ],
@@ -2626,7 +2638,7 @@
                 }
               ],
               "title": "Joe",
-              "color": "#dd341e",
+              "color": "#dd341ee6",
               "portsInOrder": [
                 "ae3f972b-c4f4-46fa-aca7-069d4d3acd8a"
               ],
@@ -2714,7 +2726,7 @@
                 }
               ],
               "title": "Select an option.",
-              "color": "#0756b1",
+              "color": "#0756b1e6",
               "portsInOrder": [
                 "436528e4-596d-423e-a89e-d69c37b9e8a0"
               ],
@@ -2798,7 +2810,7 @@
                 }
               ],
               "title": "Joe",
-              "color": "#dd341e",
+              "color": "#dd341ee6",
               "portsInOrder": [
                 "0e0b8000-f020-4079-bccc-7830e6616cf0"
               ],
@@ -2844,7 +2856,7 @@
                 }
               ],
               "title": "<player>",
-              "color": "#dd341e",
+              "color": "#dd341ee6",
               "portsInOrder": [
                 "1b0da552-21cf-45ab-9268-d441c8179848"
               ],
@@ -2890,7 +2902,7 @@
                 }
               ],
               "title": "<player>",
-              "color": "#dd341e",
+              "color": "#dd341ee6",
               "portsInOrder": [
                 "6085a0a2-7f7b-4fff-b0a7-e940e68a24cb"
               ],
@@ -2948,7 +2960,7 @@
                 }
               ],
               "title": "Condition",
-              "color": "#02630a",
+              "color": "#02630ae6",
               "portsInOrder": [
                 "fb55ee90-cb43-4ecf-b1f2-8047014b3c53"
               ],
@@ -3006,7 +3018,7 @@
                 }
               ],
               "title": "Action",
-              "color": "#3e077e",
+              "color": "#3e077ee6",
               "portsInOrder": [
                 "7b58ce04-3c7b-4652-9261-6fde998d9ec5"
               ],
@@ -3063,7 +3075,7 @@
                 }
               ],
               "title": "",
-              "color": "#dd341e",
+              "color": "#dd341ee6",
               "portsInOrder": [
                 "fef6b34f-08d1-4fcd-a6b0-ceaa1389ca77"
               ],
@@ -3123,7 +3135,7 @@
                 }
               ],
               "title": "Condition",
-              "color": "#02630a",
+              "color": "#02630ae6",
               "portsInOrder": [
                 "b220e93f-adb0-465a-a3e4-ab6bacec3ff1"
               ],
@@ -3179,7 +3191,7 @@
                 }
               ],
               "title": "",
-              "color": "#dd341e",
+              "color": "#dd341ee6",
               "portsInOrder": [
                 "5f7d8fa9-3ea4-4423-aef7-9ec34265f97d"
               ],
@@ -3225,7 +3237,7 @@
                 }
               ],
               "title": "Joe",
-              "color": "#dd341e",
+              "color": "#dd341ee6",
               "portsInOrder": [
                 "493c0d2c-b252-415c-a2f4-9fc04ebb69b7"
               ],
@@ -3271,7 +3283,7 @@
                 }
               ],
               "title": "<player>",
-              "color": "#dd341e",
+              "color": "#dd341ee6",
               "portsInOrder": [
                 "7e30d7f1-cd93-4955-b33c-9f7e26ef0e9c"
               ],
@@ -3317,7 +3329,7 @@
                 }
               ],
               "title": "<player>",
-              "color": "#dd341e",
+              "color": "#dd341ee6",
               "portsInOrder": [
                 "b66347ce-9228-4e47-9645-6bd8947c6102"
               ],
@@ -3363,7 +3375,7 @@
                 }
               ],
               "title": "Joe",
-              "color": "#dd341e",
+              "color": "#dd341ee6",
               "portsInOrder": [
                 "ffad1c2c-529d-4e2b-b8f8-19a327023e6d"
               ],
@@ -3409,7 +3421,7 @@
                 }
               ],
               "title": "<player>",
-              "color": "#dd341e",
+              "color": "#dd341ee6",
               "portsInOrder": [
                 "8b7f0386-aa18-4873-b32e-15543ef5b3d9"
               ],
@@ -3455,7 +3467,7 @@
                 }
               ],
               "title": "",
-              "color": "#dd341e",
+              "color": "#dd341ee6",
               "portsInOrder": [
                 "41a32cef-fbbc-4553-ba34-5d9a4cd6c932"
               ],
@@ -3501,7 +3513,7 @@
                 }
               ],
               "title": "Joe",
-              "color": "#dd341e",
+              "color": "#dd341ee6",
               "portsInOrder": [
                 "3a2bc010-cf6b-439a-9402-cdec63933a0f"
               ],
@@ -3559,7 +3571,7 @@
                 }
               ],
               "title": "Condition",
-              "color": "#02630a",
+              "color": "#02630ae6",
               "portsInOrder": [
                 "93e17a49-8537-452d-bb02-8b01fa2e7266"
               ],
@@ -3615,7 +3627,7 @@
                 }
               ],
               "title": "Action",
-              "color": "#3e077e",
+              "color": "#3e077ee6",
               "portsInOrder": [
                 "0a43e40f-8685-48c4-9cd7-fb89484825c1"
               ],
@@ -3680,7 +3692,7 @@
                 }
               ],
               "title": "<player>",
-              "color": "#dd341e",
+              "color": "#dd341ee6",
               "portsInOrder": [
                 "47239383-3269-4b10-b5b8-e86888c0123e"
               ],
@@ -3726,7 +3738,7 @@
                 }
               ],
               "title": "Joe",
-              "color": "#dd341e",
+              "color": "#dd341ee6",
               "portsInOrder": [
                 "9fa11ded-a593-42ff-b6b5-88ca4f8201f2"
               ],
@@ -3772,7 +3784,7 @@
                 }
               ],
               "title": "Joe",
-              "color": "#dd341e",
+              "color": "#dd341ee6",
               "portsInOrder": [
                 "9ce740a3-0ebc-45b0-ad16-7c1ddb2cd8d1"
               ],
@@ -3846,7 +3858,7 @@
                 }
               ],
               "title": "Select an option.",
-              "color": "#0756b1",
+              "color": "#0756b1e6",
               "portsInOrder": [
                 "a14fb443-d886-4ba2-a727-fdd2172a7564"
               ],
@@ -3917,7 +3929,7 @@
                 }
               ],
               "title": "<player>",
-              "color": "#dd341e",
+              "color": "#dd341ee6",
               "portsInOrder": [
                 "ccde184e-1e7b-4495-906b-36037c05af14"
               ],
@@ -3963,7 +3975,7 @@
                 }
               ],
               "title": "Joe",
-              "color": "#dd341e",
+              "color": "#dd341ee6",
               "portsInOrder": [
                 "b86b11fa-bb69-498f-845e-447a762c7e34"
               ],
@@ -4009,7 +4021,7 @@
                 }
               ],
               "title": "Joe",
-              "color": "#dd341e",
+              "color": "#dd341ee6",
               "portsInOrder": [
                 "3ab25c2b-01b1-4322-92f1-c57d2b286144"
               ],
@@ -4097,7 +4109,7 @@
                 }
               ],
               "title": "Select an option.",
-              "color": "#0756b1",
+              "color": "#0756b1e6",
               "portsInOrder": [
                 "297908ac-581f-47ae-9884-ee0861495af4"
               ],
@@ -4175,7 +4187,7 @@
                 }
               ],
               "title": "<player>",
-              "color": "#dd341e",
+              "color": "#dd341ee6",
               "portsInOrder": [
                 "86b25304-523c-4431-aeea-cad80c15c802"
               ],
@@ -4221,7 +4233,7 @@
                 }
               ],
               "title": "Joe",
-              "color": "#dd341e",
+              "color": "#dd341ee6",
               "portsInOrder": [
                 "55d8cfec-5568-400b-8f50-0c1267615039"
               ],
@@ -4267,7 +4279,7 @@
                 }
               ],
               "title": "Joe",
-              "color": "#dd341e",
+              "color": "#dd341ee6",
               "portsInOrder": [
                 "a3eac30b-a3e5-4aa9-aec0-1a25f0b4187e"
               ],
@@ -4354,7 +4366,7 @@
                 }
               ],
               "title": "Select an option.",
-              "color": "#0756b1",
+              "color": "#0756b1e6",
               "portsInOrder": [
                 "9facefce-0dd1-4f1e-b20f-49dce6e70259"
               ],
@@ -4427,7 +4439,7 @@
                 }
               ],
               "title": "<player>",
-              "color": "#dd341e",
+              "color": "#dd341ee6",
               "portsInOrder": [
                 "73c0dc2c-747a-4126-a38b-4e5b13468669"
               ],
@@ -4473,7 +4485,7 @@
                 }
               ],
               "title": "Joe",
-              "color": "#dd341e",
+              "color": "#dd341ee6",
               "portsInOrder": [
                 "1820b764-2f02-4fd3-bbad-7b02990718e5"
               ],
@@ -4519,7 +4531,7 @@
                 }
               ],
               "title": "<player>",
-              "color": "#dd341e",
+              "color": "#dd341ee6",
               "portsInOrder": [
                 "2c6b122e-8762-48f0-9574-e2d085171a50"
               ],
@@ -4565,7 +4577,7 @@
                 }
               ],
               "title": "Joe",
-              "color": "#dd341e",
+              "color": "#dd341ee6",
               "portsInOrder": [
                 "73907115-981b-47cf-bda0-384f7d91be42"
               ],
@@ -4639,7 +4651,7 @@
                 }
               ],
               "title": "Select an option.",
-              "color": "#0756b1",
+              "color": "#0756b1e6",
               "portsInOrder": [
                 "2b0f07bc-e255-4dcc-98e7-b943db182cc3"
               ],
@@ -4713,7 +4725,7 @@
                 }
               ],
               "title": "<player>",
-              "color": "#dd341e",
+              "color": "#dd341ee6",
               "portsInOrder": [
                 "75e0f07e-ba32-46ab-a136-65c0cffa61f7"
               ],
@@ -4757,7 +4769,7 @@
                 }
               ],
               "title": "Joe",
-              "color": "#dd341e",
+              "color": "#dd341ee6",
               "portsInOrder": [
                 "32f6ca8f-534c-4da6-a3cc-47266c8e1c53"
               ],
@@ -4803,7 +4815,7 @@
                 }
               ],
               "title": "<player>",
-              "color": "#dd341e",
+              "color": "#dd341ee6",
               "portsInOrder": [
                 "e0cc31ee-ba72-42c3-b3e9-5d231f598ecd"
               ],
@@ -4849,7 +4861,7 @@
                 }
               ],
               "title": "Joe",
-              "color": "#dd341e",
+              "color": "#dd341ee6",
               "portsInOrder": [
                 "f8bfc55b-2227-42d8-8558-cb18eb221281"
               ],
@@ -4895,7 +4907,7 @@
                 }
               ],
               "title": "<player>",
-              "color": "#dd341e",
+              "color": "#dd341ee6",
               "portsInOrder": [
                 "f1d3db21-464a-49ea-b8a1-a18c44719baa"
               ],
@@ -4941,7 +4953,7 @@
                 }
               ],
               "title": "<player>",
-              "color": "#dd341e",
+              "color": "#dd341ee6",
               "portsInOrder": [
                 "dc24ec67-ee85-44c0-a0d1-0712c5a43e6c"
               ],
@@ -5109,7 +5121,7 @@
                 }
               ],
               "title": "Start",
-              "color": "#16db26",
+              "color": "#16db26e6",
               "portsInOrder": [],
               "portsOutOrder": [
                 "2818fbfb-de01-48e4-892c-84cccfa7df98"
@@ -5152,7 +5164,7 @@
                 }
               ],
               "title": "Joe",
-              "color": "#dd341e",
+              "color": "#dd341ee6",
               "portsInOrder": [
                 "72286a79-b8a1-4b4e-9b78-1f01d7a03f42"
               ],
@@ -5198,7 +5210,7 @@
                 }
               ],
               "title": "<player>",
-              "color": "#dd341e",
+              "color": "#dd341ee6",
               "portsInOrder": [
                 "841cb8df-b240-4914-bc07-b71008a6a98a"
               ],
@@ -5244,7 +5256,7 @@
                 }
               ],
               "title": "Joe",
-              "color": "#dd341e",
+              "color": "#dd341ee6",
               "portsInOrder": [
                 "9edda80b-ce05-4ca7-b917-a949201931cc"
               ],
@@ -5288,7 +5300,7 @@
                 }
               ],
               "title": "<player>",
-              "color": "#dd341e",
+              "color": "#dd341ee6",
               "portsInOrder": [
                 "2118eb55-6b9a-4798-b04a-d226de718ec0"
               ],
