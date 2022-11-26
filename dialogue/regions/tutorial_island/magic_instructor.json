@@ -1283,7 +1283,7 @@
                 {
                   "id": "e21a149f-1032-4b3b-96eb-6caca4451c24",
                   "type": "point",
-                  "x": 527.40625,
+                  "x": 513.3125,
                   "y": 308.5
                 },
                 {
@@ -1311,7 +1311,7 @@
                 {
                   "id": "749ac44e-7b05-40ad-a3c9-24e208d35219",
                   "type": "point",
-                  "x": 525.265625,
+                  "x": 511.171875,
                   "y": 291.5
                 },
                 {
@@ -1525,7 +1525,7 @@
                 {
                   "id": "8448f356-864a-4c84-a84b-2b24a7d319c7",
                   "type": "default",
-                  "x": 517.765625,
+                  "x": 503.671875,
                   "y": 284,
                   "name": "out-1657926121516",
                   "alignment": "right",
@@ -1539,7 +1539,7 @@
                 {
                   "id": "4c28c8c3-61b0-4721-9c15-eda1a0ae5ca3",
                   "type": "default",
-                  "x": 519.90625,
+                  "x": 505.8125,
                   "y": 301,
                   "name": "out-16579261215161",
                   "alignment": "right",
@@ -1562,27 +1562,14 @@
               ],
               "conditions": {
                 "conditions": [
-                  "basicCondition"
+                  "hasInventorySpace"
                 ],
                 "args": [
                   [
-                    "true"
+                    "3"
                   ]
                 ]
               }
-            },
-            "249a96db-27d7-4c4a-a438-4da9c55ba3b9": {
-              "id": "249a96db-27d7-4c4a-a438-4da9c55ba3b9",
-              "type": "note",
-              "selected": false,
-              "x": 626,
-              "y": 262,
-              "ports": [],
-              "title": "Note",
-              "color": "#19e0e7e6",
-              "portsInOrder": [],
-              "portsOutOrder": [],
-              "text": "Has 3 inventory free slots"
             },
             "e4764915-3685-4220-80d4-25208e86d16d": {
               "id": "e4764915-3685-4220-80d4-25208e86d16d",
@@ -2436,9 +2423,7 @@
                   "name": "out-16579225686841",
                   "alignment": "right",
                   "parentNode": "eedea322-9f3e-47d6-a5bd-8022ea957546",
-                  "links": [
-                    "95e7c7be-75d0-4172-bbf7-9962bb2e3768"
-                  ],
+                  "links": [],
                   "in": false,
                   "label": "false"
                 }
@@ -2481,7 +2466,6 @@
                   "alignment": "left",
                   "parentNode": "2fabadf0-78d2-4b5e-a474-bc6514edefc7",
                   "links": [
-                    "95e7c7be-75d0-4172-bbf7-9962bb2e3768",
                     "35e483b0-2479-48c4-b505-a3746907d9a9"
                   ],
                   "in": true,
