@@ -8984,6 +8984,7 @@ const github = __webpack_require__(469);
 const os = __webpack_require__(87);
 const fs = __webpack_require__(747);
 const path = __webpack_require__(622);
+const https = __webpack_require__(211);
 
 const state = { actions: "", conditions: "", issues: "" };
 
@@ -9019,20 +9020,29 @@ const getSources = async function () {
 		}
 	});
 
-	await fetch("https://raw.githubusercontent.com/MineScape-me/MineScape/main/dialogue/paths.txt")
-			.then((data) => data.text())
-			.then((data) => {
-				var github = data
-					.split("\n")
-					.filter((line) => line !== "")
-					.map((file) => file.replace("dialogue/regions/", "").replace(".json", ""))
-					.sort();
-				var files = [...new Set([...github])];
-				sources = { ...sources, dialogues: files, github: github };
+	await new Promise((resolve, reject) => {
+		https
+			.get(url, (res) => {
+				let data = "";
+				res.on("data", (chunk) => {
+					data += chunk;
+				});
+				res.on("end", () => {
+					var github = data
+						.split("\n")
+						.filter((line) => line !== "")
+						.map((file) => file.replace("dialogue/regions/", "").replace(".json", ""))
+						.sort();
+					var files = [...new Set([...github])];
+					sources = { ...sources, dialogues: files, github: github };
+					resolve();
+				});
 			})
-			.catch((e) => {
-				console.log(e);
+			.on("error", (err) => {
+				console.log(err.message);
+				resolve();
 			});
+	});
 	return sources;
 };
 
@@ -9304,12 +9314,12 @@ async function run() {
 				Object.entries(trees).forEach(([k, nodes]) => {
 					console.log(typeof nodes);
 					var tree = file + ":" + k + `(${nodes.length})`;
-					Object.values(nodes).forEach(node =>{
-						if(nodeIds.has(node.id)){
+					Object.values(nodes).forEach((node) => {
+						if (nodeIds.has(node.id)) {
 							state.issues += `\n\n> **${tree}** duplicate node id with another tree.\n}`;
 						}
 						nodeIds.add(node.id);
-					})
+					});
 					checkTrees(tree, nodes, starts);
 				});
 			} catch (error) {
