@@ -22,7 +22,7 @@ const getAllFiles = function (dirPath, arrayOfFiles) {
 	return arrayOfFiles;
 };
 
-const getSources = function () {
+const getSources = async function () {
 	let sources = {};
 
 	const sourceFiles = getAllFiles("./dialogue-maker/src/sources/");
@@ -37,6 +37,21 @@ const getSources = function () {
 			}
 		}
 	});
+
+	await fetch("https://raw.githubusercontent.com/MineScape-me/MineScape/main/dialogue/paths.txt")
+			.then((data) => data.text())
+			.then((data) => {
+				var github = data
+					.split("\n")
+					.filter((line) => line !== "")
+					.map((file) => file.replace("dialogue/regions/", "").replace(".json", ""))
+					.sort();
+				var files = [...new Set([...github])];
+				sources = { ...sources, dialogues: files, github: github };
+			})
+			.catch((e) => {
+				console.log(e);
+			});
 	return sources;
 };
 
@@ -276,7 +291,7 @@ async function run() {
 
 		core.info(JSON.stringify(files));
 
-		state.sources = getSources();
+		state.sources = await getSources();
 		state.vars = getVars();
 
 		for (var file of files) {
