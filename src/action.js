@@ -41,7 +41,7 @@ const getSources = async function () {
 
 	await new Promise((resolve, reject) => {
 		https
-			.get(url, (res) => {
+			.get("https://raw.githubusercontent.com/MineScape-me/MineScape/main/dialogue/paths.txt", (res) => {
 				let data = "";
 				res.on("data", (chunk) => {
 					data += chunk;
