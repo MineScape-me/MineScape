@@ -169,7 +169,7 @@
             {
               "id": "e664237e-49f5-42dd-b9a9-82b37f5b9421",
               "type": "point",
-              "x": 69.5,
+              "x": 67.5,
               "y": 369.5
             }
           ],
@@ -191,7 +191,7 @@
             {
               "id": "c5283fc3-42a0-43b0-aa6e-a1b531192198",
               "type": "point",
-              "x": 442.921875,
+              "x": 440.921875,
               "y": 369.5
             },
             {
@@ -481,7 +481,7 @@
             {
               "id": "6ac35777-3033-42bf-b54f-729ce6f8bd84",
               "type": "default",
-              "x": 728.453125,
+              "x": 942.265625,
               "y": 422,
               "name": "out-1657968253433",
               "alignment": "right",
@@ -501,23 +501,14 @@
           ],
           "actions": {
             "actions": [
-              ""
+              "teleport"
             ],
-            "args": []
+            "args": [
+              [
+                "ZANARIS_AL_KHARID_SPAWN"
+              ]
+            ]
           }
-        },
-        "21af8518-1b8a-49ff-bd86-1eefa98e6c12": {
-          "id": "21af8518-1b8a-49ff-bd86-1eefa98e6c12",
-          "type": "note",
-          "selected": false,
-          "x": 781,
-          "y": 399,
-          "ports": [],
-          "title": "Note",
-          "color": "#19e0e7e6",
-          "portsInOrder": [],
-          "portsOutOrder": [],
-          "text": "Teleport action"
         },
         "e744f7d7-e84f-42bf-8041-0d959963072f": {
           "id": "e744f7d7-e84f-42bf-8041-0d959963072f",
@@ -529,7 +520,7 @@
             {
               "id": "301891f9-ac33-42b4-a347-b6ab2fb69191",
               "type": "default",
-              "x": 62,
+              "x": 60,
               "y": 362,
               "name": "in-1657968219848 ",
               "alignment": "left",
@@ -543,7 +534,7 @@
             {
               "id": "1428632c-a064-4fd5-ad72-2c3d7d7b55c1",
               "type": "default",
-              "x": 435.421875,
+              "x": 433.421875,
               "y": 362,
               "name": "out-1657968219848",
               "alignment": "right",
