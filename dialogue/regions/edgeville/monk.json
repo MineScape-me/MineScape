@@ -197,7 +197,7 @@
             {
               "id": "6d480dd8-0238-4610-9ef3-4f2964aa2a23",
               "type": "point",
-              "x": 261.5,
+              "x": 262.5,
               "y": 370.5
             }
           ],
@@ -253,7 +253,7 @@
             {
               "id": "c8286da6-30a9-4b9a-8c92-491e12a3f1d1",
               "type": "point",
-              "x": 770.5,
+              "x": 771.5,
               "y": 367.5
             }
           ],
@@ -538,7 +538,7 @@
         "926828ca-60be-4bb7-922d-32fc1700cfd3": {
           "id": "926828ca-60be-4bb7-922d-32fc1700cfd3",
           "type": "action",
-          "selected": false,
+          "selected": true,
           "x": -58,
           "y": 394,
           "ports": [
@@ -559,7 +559,7 @@
             {
               "id": "53730334-fe1f-4e64-8e78-0b12d49ffecd",
               "type": "default",
-              "x": 48.453125,
+              "x": 206.03125,
               "y": 425,
               "name": "out-1657337959202",
               "alignment": "right",
@@ -579,10 +579,12 @@
           ],
           "actions": {
             "actions": [
-              ""
+              "basicAction"
             ],
             "args": [
-              []
+              [
+                "EMPTY_ACTION"
+              ]
             ]
           }
         },
@@ -655,7 +657,7 @@
             {
               "id": "37b8a575-2435-415f-b77e-0285d0669eba",
               "type": "default",
-              "x": 254,
+              "x": 255,
               "y": 363,
               "name": "in-1657337906715 ",
               "alignment": "left",
@@ -669,7 +671,7 @@
             {
               "id": "0b6bcff1-71b0-4585-ba9c-2e5ac55c97f4",
               "type": "default",
-              "x": 744.671875,
+              "x": 745.671875,
               "y": 363,
               "name": "out-1657337906715",
               "alignment": "right",
@@ -745,7 +747,7 @@
             {
               "id": "830d7b9e-53bd-46f0-9f2b-63f847a96a27",
               "type": "default",
-              "x": 763,
+              "x": 764,
               "y": 360,
               "name": "in-1657337906715 ",
               "alignment": "left",
@@ -759,7 +761,7 @@
             {
               "id": "c0ffa9a3-10c4-427b-bf7b-52fe14d35a0f",
               "type": "default",
-              "x": 1239.015625,
+              "x": 1240.015625,
               "y": 360,
               "name": "out-1657337906715",
               "alignment": "right",

@@ -79,7 +79,7 @@
             {
               "id": "36a5aa13-c4c8-420d-86e0-b8683e9dfbf6",
               "type": "point",
-              "x": 572.2655576401562,
+              "x": 683.1562994030639,
               "y": 142.4999775968021
             },
             {
@@ -107,7 +107,7 @@
             {
               "id": "8fde8ed0-7dec-4a6c-bbd7-692f673249b3",
               "type": "point",
-              "x": 574.4061401809171,
+              "x": 685.2968819438248,
               "y": 159.50000678752903
             },
             {
@@ -712,7 +712,7 @@
         "0d267a75-6fd2-4a6e-91d7-b8933edca534": {
           "id": "0d267a75-6fd2-4a6e-91d7-b8933edca534",
           "type": "condition",
-          "selected": true,
+          "selected": false,
           "x": 263,
           "y": 104,
           "ports": [
@@ -733,7 +733,7 @@
             {
               "id": "92479f7a-ce9f-4da6-acc6-6e472a90429e",
               "type": "default",
-              "x": 564.7655576401562,
+              "x": 675.6562994030639,
               "y": 134.9999775968021,
               "name": "out-1658147525296",
               "alignment": "right",
@@ -747,7 +747,7 @@
             {
               "id": "8eaede32-db98-48c7-a01f-2e9ac9fc3907",
               "type": "default",
-              "x": 566.9061401809171,
+              "x": 677.7968819438248,
               "y": 152.00000678752903,
               "name": "out-16581475252961",
               "alignment": "right",
@@ -774,7 +774,7 @@
             ],
             "args": [
               [
-                "true"
+                "CONSTRUCTION_HAS_SERVANT"
               ]
             ]
           }
@@ -876,19 +876,6 @@
               "text": "Thank you."
             }
           ]
-        },
-        "3b864481-f3b9-466e-858e-773d53d00159": {
-          "id": "3b864481-f3b9-466e-858e-773d53d00159",
-          "type": "note",
-          "selected": false,
-          "x": 647,
-          "y": 106,
-          "ports": [],
-          "title": "Note",
-          "color": "#19e0e7e6",
-          "portsInOrder": [],
-          "portsOutOrder": [],
-          "text": "Has construction servant"
         },
         "d2426b23-0c06-4f13-8d1f-29eccd540668": {
           "id": "d2426b23-0c06-4f13-8d1f-29eccd540668",
@@ -1316,7 +1303,7 @@
             {
               "id": "ca3b95e1-4fe7-44e8-a3fd-1e5d15598feb",
               "type": "default",
-              "x": -400.96874836358097,
+              "x": -309.70313132468823,
               "y": 766.0000120949344,
               "name": "out-1658147668064",
               "alignment": "right",
@@ -1340,23 +1327,10 @@
             ],
             "args": [
               [
-                "EMPTY_ACTION"
+                "CONSTRUCTION_FIRE_SERVANT"
               ]
             ]
           }
-        },
-        "d30bf3cb-5652-4b33-8b5b-001c450675df": {
-          "id": "d30bf3cb-5652-4b33-8b5b-001c450675df",
-          "type": "note",
-          "selected": false,
-          "x": -662,
-          "y": 809,
-          "ports": [],
-          "title": "Note",
-          "color": "#19e0e7e6",
-          "portsInOrder": [],
-          "portsOutOrder": [],
-          "text": "Fire Servant"
         },
         "417bc7a7-a800-46fc-8a16-967b1ca7f81d": {
           "id": "417bc7a7-a800-46fc-8a16-967b1ca7f81d",

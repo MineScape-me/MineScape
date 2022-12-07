@@ -51,7 +51,7 @@
             {
               "id": "f8d78a4b-0d6b-4c2e-be95-3e76b2f4c014",
               "type": "point",
-              "x": 534.265625,
+              "x": 570.984375,
               "y": 52.5
             },
             {
@@ -79,7 +79,7 @@
             {
               "id": "66577f0f-a05a-4f05-adb2-b71f3c9558f6",
               "type": "point",
-              "x": 536.40625,
+              "x": 573.125,
               "y": 69.5
             },
             {
@@ -141,8 +141,8 @@
             {
               "id": "766ebba9-fb47-4492-a5af-8ca5c3bc8af9",
               "type": "point",
-              "x": -105.5,
-              "y": 411.5
+              "x": -173.5,
+              "y": 396.5
             }
           ],
           "labels": [],
@@ -257,7 +257,7 @@
             {
               "id": "689e4f36-189b-4340-8e8b-4b8fef4aa174",
               "type": "default",
-              "x": 526.765625,
+              "x": 563.484375,
               "y": 45,
               "name": "out-1657281609227",
               "alignment": "right",
@@ -271,7 +271,7 @@
             {
               "id": "b2fbfbdf-29bc-41be-85e4-81f95418bd6c",
               "type": "default",
-              "x": 528.90625,
+              "x": 565.625,
               "y": 62,
               "name": "out-16572816092271",
               "alignment": "right",
@@ -298,22 +298,10 @@
             ],
             "args": [
               [
-                "false"
+                "STILES_HAS_FISH"
               ]
             ]
           }
-        },
-        "9f381d88-0cdb-43db-90e5-24746ff88563": {
-          "id": "9f381d88-0cdb-43db-90e5-24746ff88563",
-          "type": "note",
-          "x": 456,
-          "y": -44,
-          "ports": [],
-          "title": "Note",
-          "color": "#19e0e7e6",
-          "portsInOrder": [],
-          "portsOutOrder": [],
-          "text": "stiles has fish"
         },
         "7f009627-5a36-4c21-83c3-8234e799586e": {
           "id": "7f009627-5a36-4c21-83c3-8234e799586e",
@@ -435,15 +423,15 @@
         "8e2a1284-2837-49f8-884d-5884b68e6528": {
           "id": "8e2a1284-2837-49f8-884d-5884b68e6528",
           "type": "action",
-          "selected": true,
-          "x": -100,
-          "y": 373,
+          "selected": false,
+          "x": -168,
+          "y": 358,
           "ports": [
             {
               "id": "8a2ab2cf-2eac-4ca2-91b1-7e313a40a25f",
               "type": "default",
-              "x": -113,
-              "y": 404,
+              "x": -181,
+              "y": 389,
               "name": "in-1657281671536 ",
               "alignment": "left",
               "parentNode": "8e2a1284-2837-49f8-884d-5884b68e6528",
@@ -456,8 +444,8 @@
             {
               "id": "66d0e5fe-c1f4-4228-a684-d798dda49520",
               "type": "default",
-              "x": 164.03125,
-              "y": 404,
+              "x": 116.796875,
+              "y": 389,
               "name": "out-1657281671536",
               "alignment": "right",
               "parentNode": "8e2a1284-2837-49f8-884d-5884b68e6528",
@@ -480,22 +468,10 @@
             ],
             "args": [
               [
-                "EMPTY_ACTION"
+                "STILES_NOTE_FISH"
               ]
             ]
           }
-        },
-        "a51b90fb-1051-4769-abe6-08db74fc69e8": {
-          "id": "a51b90fb-1051-4769-abe6-08db74fc69e8",
-          "type": "note",
-          "x": -15,
-          "y": 450,
-          "ports": [],
-          "title": "Note",
-          "color": "#19e0e7e6",
-          "portsInOrder": [],
-          "portsOutOrder": [],
-          "text": "Stiles note action"
         }
       }
     }

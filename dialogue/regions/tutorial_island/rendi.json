@@ -887,7 +887,7 @@
             {
               "id": "ee7239a9-d5b4-4728-bd01-a5096785309c",
               "type": "default",
-              "x": 462.453125,
+              "x": 674.859375,
               "y": 489,
               "name": "out-1657921575274",
               "alignment": "right",
@@ -907,23 +907,14 @@
           ],
           "actions": {
             "actions": [
-              ""
+              "basicAction"
             ],
-            "args": []
+            "args": [
+              [
+                "TUTORIAL_RESET_SKILLS"
+              ]
+            ]
           }
-        },
-        "37709f53-2ac8-453a-8c0d-77819d112434": {
-          "id": "37709f53-2ac8-453a-8c0d-77819d112434",
-          "type": "note",
-          "selected": true,
-          "x": 358,
-          "y": 536,
-          "ports": [],
-          "title": "Note",
-          "color": "#19e0e7e6",
-          "portsInOrder": [],
-          "portsOutOrder": [],
-          "text": "Rendi reset inventory"
         }
       }
     }

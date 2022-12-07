@@ -198,7 +198,7 @@
               "id": "cda5a1b2-a14b-4fb7-af2a-3cdfc2210262",
               "type": "point",
               "x": 417.4999828794491,
-              "y": 817.4024180476956
+              "y": 817.3906278419466
             }
           ],
           "labels": [],
@@ -310,7 +310,7 @@
               "id": "348c6a5e-e1c8-4220-b5c1-241da292952a",
               "type": "point",
               "x": 417.4999828794491,
-              "y": 817.4024180476956
+              "y": 817.3906278419466
             }
           ],
           "labels": [],
@@ -759,31 +759,18 @@
           ],
           "text": "Oh dear, I don't seem to have enough money."
         },
-        "14223701-ec2f-4473-99f5-5511fa786414": {
-          "id": "14223701-ec2f-4473-99f5-5511fa786414",
-          "type": "note",
-          "selected": false,
-          "x": 410,
-          "y": 899,
-          "ports": [],
-          "title": "Note",
-          "color": "#19e0e7e6",
-          "portsInOrder": [],
-          "portsOutOrder": [],
-          "text": "Boat ride to Karamja, near banana plantation."
-        },
         "c36855cb-824b-402b-9a58-94cbb8481681": {
           "id": "c36855cb-824b-402b-9a58-94cbb8481681",
           "type": "action",
-          "selected": true,
+          "selected": false,
           "x": 423,
           "y": 778.902439028475,
           "ports": [
             {
               "id": "d9fd54a4-bc8d-43fb-8a87-afb7be1feef3",
               "type": "default",
-              "x": 409.9999717423939,
-              "y": 809.9024069106404,
+              "x": 409.99997174239394,
+              "y": 809.8906167048915,
               "name": "in-1655920131247 ",
               "alignment": "left",
               "parentNode": "c36855cb-824b-402b-9a58-94cbb8481681",
@@ -798,7 +785,7 @@
               "id": "c24bd774-bb83-4497-9639-5d9d29f47604",
               "type": "default",
               "x": 728.1406536162153,
-              "y": 809.9024069106404,
+              "y": 809.8906167048915,
               "name": "out-1655920131247",
               "alignment": "right",
               "parentNode": "c36855cb-824b-402b-9a58-94cbb8481681",
@@ -818,7 +805,7 @@
           "actions": {
             "actions": [
               "takeItem",
-              "basicAction"
+              "teleport"
             ],
             "args": [
               [
@@ -827,7 +814,7 @@
                 "false"
               ],
               [
-                "EMPTY_ACTION"
+                "SHIP_KARAMJA"
               ]
             ]
           }

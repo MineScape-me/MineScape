@@ -3869,7 +3869,7 @@
             "3c68dda1-1989-4274-a505-dfaa439ec7c4": {
               "id": "3c68dda1-1989-4274-a505-dfaa439ec7c4",
               "type": "action",
-              "selected": true,
+              "selected": false,
               "x": 183,
               "y": 366,
               "ports": [
@@ -3890,7 +3890,7 @@
                 {
                   "id": "4b7da093-b2e6-4adc-b21d-c8004a4d40b6",
                   "type": "default",
-                  "x": 515.328125,
+                  "x": 531.5625,
                   "y": 397,
                   "name": "out-1658639173569",
                   "alignment": "right",
@@ -3911,7 +3911,7 @@
               "actions": {
                 "actions": [
                   "finishQuest",
-                  "basicAction"
+                  "teleport"
                 ],
                 "args": [
                   [
@@ -3919,23 +3919,10 @@
                     "FINISHED"
                   ],
                   [
-                    "EMPTY_ACTION"
+                    "NATURE_SPIRIT_GROTTO_GROWN"
                   ]
                 ]
               }
-            },
-            "127eaf04-f059-4bb1-99e0-a0023ba15447": {
-              "id": "127eaf04-f059-4bb1-99e0-a0023ba15447",
-              "type": "note",
-              "selected": false,
-              "x": 543,
-              "y": 381,
-              "ports": [],
-              "title": "Note",
-              "color": "#19e0e7e6",
-              "portsInOrder": [],
-              "portsOutOrder": [],
-              "text": "Teleport to grown location"
             }
           }
         }

@@ -1,7 +1,7 @@
 {
   "id": "f3444007-e736-450c-852e-0e1d3437d552",
-  "offsetX": 291,
-  "offsetY": -9,
+  "offsetX": 294,
+  "offsetY": 67,
   "zoom": 100,
   "gridSize": 0,
   "layers": [
@@ -51,14 +51,14 @@
             {
               "id": "bfc113b1-7807-4340-bb0c-ae14b333edb5",
               "type": "point",
-              "x": 515.265625,
+              "x": 527.546875,
               "y": 65.5
             },
             {
               "id": "47019f98-0492-4758-9dac-d74a1dd72e99",
               "type": "point",
               "x": 623.5,
-              "y": 43.5
+              "y": 42.5
             }
           ],
           "labels": [],
@@ -79,7 +79,7 @@
             {
               "id": "3ee7c223-42d6-4fbc-8c3c-1137b7bc570c",
               "type": "point",
-              "x": 517.40625,
+              "x": 529.6875,
               "y": 82.5
             },
             {
@@ -407,7 +407,7 @@
             {
               "id": "d200d9f0-fd7a-4f46-ae52-dc2e545846c8",
               "type": "default",
-              "x": 507.765625,
+              "x": 520.046875,
               "y": 58,
               "name": "out-1657967973107",
               "alignment": "right",
@@ -421,7 +421,7 @@
             {
               "id": "3890c3c6-281d-4823-907e-951e95243690",
               "type": "default",
-              "x": 509.90625,
+              "x": 522.1875,
               "y": 75,
               "name": "out-16579679731071",
               "alignment": "right",
@@ -448,36 +448,23 @@
             ],
             "args": [
               [
-                "false"
+                "HAND_NOTED"
               ]
             ]
           }
         },
-        "f9da2cc6-411b-433e-884d-36227724f72c": {
-          "id": "f9da2cc6-411b-433e-884d-36227724f72c",
-          "type": "note",
-          "selected": false,
-          "x": 694,
-          "y": 93,
-          "ports": [],
-          "title": "Note",
-          "color": "#19e0e7e6",
-          "portsInOrder": [],
-          "portsOutOrder": [],
-          "text": "Has noted in hand, unnote action"
-        },
         "a2e66e3e-06e8-44d5-a7dd-00680a57819d": {
           "id": "a2e66e3e-06e8-44d5-a7dd-00680a57819d",
           "type": "action",
-          "selected": true,
+          "selected": false,
           "x": 629,
-          "y": 5,
+          "y": 4,
           "ports": [
             {
               "id": "932f897d-ebf9-454c-97f2-4069fb6f826d",
               "type": "default",
               "x": 616,
-              "y": 36,
+              "y": 35,
               "name": "in-1657967993238 ",
               "alignment": "left",
               "parentNode": "a2e66e3e-06e8-44d5-a7dd-00680a57819d",
@@ -490,8 +477,8 @@
             {
               "id": "55205fcc-603f-4aba-824e-6d5fedbf3c82",
               "type": "default",
-              "x": 893.03125,
-              "y": 36,
+              "x": 898.546875,
+              "y": 35,
               "name": "out-1657967993238",
               "alignment": "right",
               "parentNode": "a2e66e3e-06e8-44d5-a7dd-00680a57819d",
@@ -514,7 +501,7 @@
             ],
             "args": [
               [
-                "EMPTY_ACTION"
+                "AISLES_UNNOTE"
               ]
             ]
           }

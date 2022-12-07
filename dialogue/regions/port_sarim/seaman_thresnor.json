@@ -759,23 +759,10 @@
           ],
           "text": "Oh dear, I don't seem to have enough money."
         },
-        "14223701-ec2f-4473-99f5-5511fa786414": {
-          "id": "14223701-ec2f-4473-99f5-5511fa786414",
-          "type": "note",
-          "selected": false,
-          "x": 410,
-          "y": 899,
-          "ports": [],
-          "title": "Note",
-          "color": "#19e0e7e6",
-          "portsInOrder": [],
-          "portsOutOrder": [],
-          "text": "Boat ride to Karamja, near banana plantation."
-        },
         "c36855cb-824b-402b-9a58-94cbb8481681": {
           "id": "c36855cb-824b-402b-9a58-94cbb8481681",
           "type": "action",
-          "selected": true,
+          "selected": false,
           "x": 423,
           "y": 780,
           "ports": [
@@ -818,7 +805,7 @@
           "actions": {
             "actions": [
               "takeItem",
-              "basicAction"
+              "teleport"
             ],
             "args": [
               [
@@ -827,7 +814,7 @@
                 "false"
               ],
               [
-                "EMPTY_ACTION"
+                "SHIP_KARAMJA"
               ]
             ]
           }

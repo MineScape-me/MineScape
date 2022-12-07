@@ -533,8 +533,36 @@
             {
               "id": "b64aefc3-8307-4cfe-9a7d-705305de89de",
               "type": "point",
-              "x": 606.515666817742,
-              "y": 671.2968365650627
+              "x": 415.75000425764557,
+              "y": 654.3749803451107
+            }
+          ],
+          "labels": [],
+          "width": 3,
+          "color": "gray",
+          "curvyness": 50,
+          "selectedColor": "rgb(0,192,255)"
+        },
+        "5454dd86-0de5-4a52-9b67-1212002a5167": {
+          "id": "5454dd86-0de5-4a52-9b67-1212002a5167",
+          "type": "default",
+          "selected": false,
+          "source": "f208559d-75b4-4752-85e4-58698af8a2e0",
+          "sourcePort": "8c826c58-5697-4337-a9aa-8273a9df055e",
+          "target": "49bdda40-c606-4e1a-87fb-ecac2ac9ee28",
+          "targetPort": "0009dfa6-d3c6-4c78-aabe-22be763c462b",
+          "points": [
+            {
+              "id": "1058b7c0-937a-4c8c-9d32-ceb2929c6dc3",
+              "type": "point",
+              "x": 802.9220107179826,
+              "y": 585.9374803451107
+            },
+            {
+              "id": "28aec89a-6110-4585-bb31-491be92f1287",
+              "type": "point",
+              "x": 799.0349163670203,
+              "y": 657.4315270698701
             }
           ],
           "labels": [],
@@ -1345,7 +1373,7 @@
         "4579a484-1448-42f7-ac0c-6bd76480bdc3": {
           "id": "4579a484-1448-42f7-ac0c-6bd76480bdc3",
           "type": "action",
-          "selected": true,
+          "selected": false,
           "x": 1419.0831022852913,
           "y": 469.86010339359245,
           "ports": [
@@ -1366,7 +1394,7 @@
             {
               "id": "300de9f8-8d7f-4a51-9d83-1273d308d7e6",
               "type": "default",
-              "x": 1683.1094355977918,
+              "x": 1722.234473157888,
               "y": 500.8593553451105,
               "name": "out-1657793523012",
               "alignment": "right",
@@ -1390,23 +1418,10 @@
             ],
             "args": [
               [
-                "EMPTY_ACTION"
+                "IRONMAN_GIVE_ARMOUR"
               ]
             ]
           }
-        },
-        "43f68aa3-a4ba-4cd9-90cc-b500ce9977cc": {
-          "id": "43f68aa3-a4ba-4cd9-90cc-b500ce9977cc",
-          "type": "note",
-          "selected": false,
-          "x": 1417.906631697056,
-          "y": 398.0953975112394,
-          "ports": [],
-          "title": "Note",
-          "color": "#19e0e7e6",
-          "portsInOrder": [],
-          "portsOutOrder": [],
-          "text": "Armour action"
         },
         "33d35b03-a520-4db1-b47c-b43d54d4641b": {
           "id": "33d35b03-a520-4db1-b47c-b43d54d4641b",
@@ -1497,7 +1512,9 @@
               "name": "out-16577935070331",
               "alignment": "right",
               "parentNode": "f208559d-75b4-4752-85e4-58698af8a2e0",
-              "links": [],
+              "links": [
+                "5454dd86-0de5-4a52-9b67-1212002a5167"
+              ],
               "in": false,
               "label": "false"
             }
@@ -1527,14 +1544,14 @@
           "id": "d5b2d6ec-494c-4d99-87d6-7a0a3f5c662b",
           "type": "action",
           "selected": false,
-          "x": 612.0242787558791,
-          "y": 632.8012798641807,
+          "x": 421.25504798664804,
+          "y": 615.8782029411038,
           "ports": [
             {
               "id": "b0ab25c3-35ab-4af7-93a0-1183e0f92288",
               "type": "default",
-              "x": 599.015666817742,
-              "y": 663.7968365650627,
+              "x": 408.25000425764557,
+              "y": 646.8749803451107,
               "name": "in-1657793523012 ",
               "alignment": "left",
               "parentNode": "d5b2d6ec-494c-4d99-87d6-7a0a3f5c662b",
@@ -1547,8 +1564,8 @@
             {
               "id": "b02262eb-758e-49a6-8cb3-cd0785d703a2",
               "type": "default",
-              "x": 876.0470107179827,
-              "y": 663.7968365650627,
+              "x": 701.1718980376941,
+              "y": 646.8749803451107,
               "name": "out-1657793523012",
               "alignment": "right",
               "parentNode": "d5b2d6ec-494c-4d99-87d6-7a0a3f5c662b",
@@ -1571,23 +1588,63 @@
             ],
             "args": [
               [
-                "EMPTY_ACTION"
+                "IRONMAN_REVIEW"
               ]
             ]
           }
         },
-        "cf8d5737-d586-44f7-8aa5-35403001b209": {
-          "id": "cf8d5737-d586-44f7-8aa5-35403001b209",
-          "type": "note",
+        "49bdda40-c606-4e1a-87fb-ecac2ac9ee28": {
+          "id": "49bdda40-c606-4e1a-87fb-ecac2ac9ee28",
+          "type": "action",
           "selected": false,
-          "x": 609.6713375794084,
-          "y": 712.8012798641806,
-          "ports": [],
-          "title": "Note",
-          "color": "#19e0e7e6",
-          "portsInOrder": [],
-          "portsOutOrder": [],
-          "text": "Review"
+          "x": 804.5431044679826,
+          "y": 618.9461379472741,
+          "ports": [
+            {
+              "id": "0009dfa6-d3c6-4c78-aabe-22be763c462b",
+              "type": "default",
+              "x": 791.5349163670203,
+              "y": 649.9315270698702,
+              "name": "in-1670159921787 ",
+              "alignment": "left",
+              "parentNode": "49bdda40-c606-4e1a-87fb-ecac2ac9ee28",
+              "links": [
+                "5454dd86-0de5-4a52-9b67-1212002a5167"
+              ],
+              "in": true,
+              "label": "❯"
+            },
+            {
+              "id": "533eab1e-e206-481e-93a2-542cd04daeb1",
+              "type": "default",
+              "x": 1152.6754286867333,
+              "y": 649.9315270698702,
+              "name": "out-1670159921787",
+              "alignment": "right",
+              "parentNode": "49bdda40-c606-4e1a-87fb-ecac2ac9ee28",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Action",
+          "color": "#3e077ee6",
+          "portsInOrder": [
+            "0009dfa6-d3c6-4c78-aabe-22be763c462b"
+          ],
+          "portsOutOrder": [
+            "533eab1e-e206-481e-93a2-542cd04daeb1"
+          ],
+          "actions": {
+            "actions": [
+              "message"
+            ],
+            "args": [
+              [
+                "&rYou are not an ironman."
+              ]
+            ]
+          }
         }
       }
     }
