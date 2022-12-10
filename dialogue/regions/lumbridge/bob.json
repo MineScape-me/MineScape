@@ -107,14 +107,14 @@
             {
               "id": "bb80720e-93af-45fc-a5cd-03da9ade3999",
               "type": "point",
-              "x": 577.265625,
+              "x": 661.078125,
               "y": 231.5
             },
             {
               "id": "63726422-0b5a-43c4-aef1-b56c274652e4",
               "type": "point",
-              "x": 790.5,
-              "y": 270.5
+              "x": 754.5,
+              "y": 244.5
             }
           ],
           "labels": [],
@@ -135,7 +135,7 @@
             {
               "id": "aed81902-9b22-44f3-a217-2ba7de0212a6",
               "type": "point",
-              "x": 579.40625,
+              "x": 663.21875,
               "y": 248.5
             },
             {
@@ -536,7 +536,7 @@
             {
               "id": "187504fa-cf5c-4fbf-ba79-8ed45bd0216d",
               "type": "default",
-              "x": 569.765625,
+              "x": 653.578125,
               "y": 224,
               "name": "out-1657323753917",
               "alignment": "right",
@@ -550,7 +550,7 @@
             {
               "id": "0ffd5801-2937-4983-845a-d4e2f4fb152e",
               "type": "default",
-              "x": 571.90625,
+              "x": 655.71875,
               "y": 241,
               "name": "out-16573237539171",
               "alignment": "right",
@@ -577,36 +577,23 @@
             ],
             "args": [
               [
-                "false"
+                "BOB_HAS_BARROWS_ITEM"
               ]
             ]
           }
-        },
-        "0bafa798-d63c-447f-bd33-6cf75285e0ed": {
-          "id": "0bafa798-d63c-447f-bd33-6cf75285e0ed",
-          "type": "note",
-          "selected": false,
-          "x": 8,
-          "y": 198,
-          "ports": [],
-          "title": "Note",
-          "color": "#19e0e7e6",
-          "portsInOrder": [],
-          "portsOutOrder": [],
-          "text": "Bobs barrows item in hand"
         },
         "5dc39a02-5616-41ac-adee-5e994965695c": {
           "id": "5dc39a02-5616-41ac-adee-5e994965695c",
           "type": "action",
           "selected": false,
-          "x": 796,
-          "y": 232,
+          "x": 760,
+          "y": 206,
           "ports": [
             {
               "id": "b4163ec6-6ed9-466f-8e37-24d692f3ec64",
               "type": "default",
-              "x": 783,
-              "y": 263,
+              "x": 747,
+              "y": 237,
               "name": "in-1657323909835 ",
               "alignment": "left",
               "parentNode": "5dc39a02-5616-41ac-adee-5e994965695c",
@@ -619,8 +606,8 @@
             {
               "id": "7a78e301-38c1-42f6-83c3-4bfb2587f5d5",
               "type": "default",
-              "x": 1060.03125,
-              "y": 263,
+              "x": 1055.625,
+              "y": 237,
               "name": "out-1657323909835",
               "alignment": "right",
               "parentNode": "5dc39a02-5616-41ac-adee-5e994965695c",
@@ -643,23 +630,10 @@
             ],
             "args": [
               [
-                "EMPTY_ACTION"
+                "BOB_REPAIR_ACTION"
               ]
             ]
           }
-        },
-        "d5ce01c6-2d65-4df2-a78d-a73e9a8a910e": {
-          "id": "d5ce01c6-2d65-4df2-a78d-a73e9a8a910e",
-          "type": "note",
-          "selected": true,
-          "x": 796,
-          "y": 167,
-          "ports": [],
-          "title": "Note",
-          "color": "#19e0e7e6",
-          "portsInOrder": [],
-          "portsOutOrder": [],
-          "text": "Bobs repair action"
         },
         "ed8b8333-6ea0-4fac-8293-b322cbafbc7a": {
           "id": "ed8b8333-6ea0-4fac-8293-b322cbafbc7a",

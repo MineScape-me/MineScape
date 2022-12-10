@@ -252,7 +252,7 @@
             }
           ],
           "title": "Monk of Entrana",
-          "color": "#dd341e",
+          "color": "#dd341ee6",
           "portsInOrder": [
             "8933a0aa-bd5a-4e06-8620-cc302c926221"
           ],
@@ -283,7 +283,7 @@
             }
           ],
           "title": "Start",
-          "color": "#16db26",
+          "color": "#16db26e6",
           "portsInOrder": [],
           "portsOutOrder": [
             "6977eb5a-82d0-4177-8029-b063866d73e8"
@@ -340,7 +340,7 @@
             }
           ],
           "title": "Select an option.",
-          "color": "#0756b1",
+          "color": "#0756b1e6",
           "portsInOrder": [
             "acfc8050-1d35-4b40-9870-9b4fe9601c7b"
           ],
@@ -402,7 +402,7 @@
             }
           ],
           "title": "<player>",
-          "color": "#dd341e",
+          "color": "#dd341ee6",
           "portsInOrder": [
             "fd472453-3607-4d37-983c-46fccdf90dd2"
           ],
@@ -448,7 +448,7 @@
             }
           ],
           "title": "<player>",
-          "color": "#dd341e",
+          "color": "#dd341ee6",
           "portsInOrder": [
             "f4b4e634-1856-4a67-8b68-41ada5f873a4"
           ],
@@ -492,7 +492,7 @@
             }
           ],
           "title": "Monk of Entrana",
-          "color": "#dd341e",
+          "color": "#dd341ee6",
           "portsInOrder": [
             "41a9e878-e882-488b-8c42-7c7e907cee6b"
           ],
@@ -538,7 +538,7 @@
             }
           ],
           "title": "Monk of Entrana",
-          "color": "#dd341e",
+          "color": "#dd341ee6",
           "portsInOrder": [
             "eb9c3b4c-2903-4385-9614-d71fee22a86b"
           ],
@@ -571,7 +571,7 @@
             {
               "id": "ed85ff6b-2cb2-487a-bf8b-46dbd3cb3742",
               "type": "default",
-              "x": 178.453125,
+              "x": 357.234375,
               "y": 448,
               "name": "out-1656417959023",
               "alignment": "right",
@@ -582,7 +582,7 @@
             }
           ],
           "title": "Action",
-          "color": "#3e077e",
+          "color": "#3e077ee6",
           "portsInOrder": [
             "95e9fd66-bdec-445e-87eb-65672ef22f88"
           ],
@@ -591,25 +591,14 @@
           ],
           "actions": {
             "actions": [
-              ""
+              "teleport"
             ],
             "args": [
-              []
+              [
+                "ENTRANA_SHIP_LEAVE"
+              ]
             ]
           }
-        },
-        "06d0a308-b2e2-4f38-88cf-5d69e7667d69": {
-          "id": "06d0a308-b2e2-4f38-88cf-5d69e7667d69",
-          "type": "note",
-          "selected": true,
-          "x": 73,
-          "y": 497,
-          "ports": [],
-          "title": "Note",
-          "color": "#19e0e7",
-          "portsInOrder": [],
-          "portsOutOrder": [],
-          "text": "Missing action"
         }
       }
     }

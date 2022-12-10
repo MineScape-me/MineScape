@@ -51,13 +51,13 @@
             {
               "id": "8b498808-462a-4931-89c1-c40b800b5d2f",
               "type": "point",
-              "x": 573.265625,
+              "x": 666.21875,
               "y": 117.5
             },
             {
               "id": "bce7c8d2-604c-4a48-a9e9-ca124a0a39af",
               "type": "point",
-              "x": 623.5,
+              "x": 711.5,
               "y": 87
             }
           ],
@@ -79,14 +79,14 @@
             {
               "id": "f7b81039-5256-42f2-8d48-495ea8a47c5b",
               "type": "point",
-              "x": 575.40625,
+              "x": 668.359375,
               "y": 134.5
             },
             {
               "id": "a412de7d-7621-402c-8187-15f2282293f4",
               "type": "point",
-              "x": 621.5,
-              "y": 161
+              "x": 711.5,
+              "y": 143
             }
           ],
           "labels": [],
@@ -155,7 +155,7 @@
             {
               "id": "27b9997d-8770-465b-b8ae-605086e8152e",
               "type": "default",
-              "x": 565.765625,
+              "x": 658.71875,
               "y": 110,
               "name": "out-1657337421705",
               "alignment": "right",
@@ -169,7 +169,7 @@
             {
               "id": "c9f97183-afd8-48a0-aa01-f653d4eee2fd",
               "type": "default",
-              "x": 567.90625,
+              "x": 660.859375,
               "y": 127,
               "name": "out-16573374217051",
               "alignment": "right",
@@ -196,34 +196,22 @@
             ],
             "args": [
               [
-                "false"
+                "CONSTRUCTION_HAS_HOME"
               ]
             ]
           }
-        },
-        "0ea6291a-eaba-4b68-a829-7de7410c739e": {
-          "id": "0ea6291a-eaba-4b68-a829-7de7410c739e",
-          "type": "note",
-          "x": 361,
-          "y": 179,
-          "ports": [],
-          "title": "Note",
-          "color": "#19e0e7e6",
-          "portsInOrder": [],
-          "portsOutOrder": [],
-          "text": "HAS HOUSE"
         },
         "4a2f1750-a89a-4c6e-a341-7ce82ccb8b16": {
           "id": "4a2f1750-a89a-4c6e-a341-7ce82ccb8b16",
           "type": "tree",
           "selected": false,
-          "x": 625,
+          "x": 713,
           "y": 65,
           "ports": [
             {
               "id": "810da007-0a75-4287-ac5a-c094e7f42c69",
               "type": "default",
-              "x": 616,
+              "x": 704,
               "y": 79.5,
               "name": "in-1657337438216 ",
               "alignment": "left",
@@ -247,15 +235,15 @@
         "e8c7ce0a-fe22-4f9d-8ecf-cd64612dd6bc": {
           "id": "e8c7ce0a-fe22-4f9d-8ecf-cd64612dd6bc",
           "type": "tree",
-          "selected": false,
-          "x": 623,
-          "y": 139,
+          "selected": true,
+          "x": 713,
+          "y": 121,
           "ports": [
             {
               "id": "d3d79412-cf3a-4084-988c-ae1caeb8224f",
               "type": "default",
-              "x": 614,
-              "y": 153.5,
+              "x": 704,
+              "y": 135.5,
               "name": "in-1657337438916 ",
               "alignment": "left",
               "parentNode": "e8c7ce0a-fe22-4f9d-8ecf-cd64612dd6bc",
@@ -836,7 +824,7 @@
                 {
                   "id": "b7ee19a8-7c11-4f05-8bf5-99df357de553",
                   "type": "point",
-                  "x": -659.5937535802481,
+                  "x": -616.6562876463818,
                   "y": 781.9218554542931
                 },
                 {
@@ -872,6 +860,34 @@
                   "type": "point",
                   "x": -1014.3906200637144,
                   "y": 1032.999991809671
+                }
+              ],
+              "labels": [],
+              "width": 3,
+              "color": "gray",
+              "curvyness": 50,
+              "selectedColor": "rgb(0,192,255)"
+            },
+            "daef67fd-0104-42a5-a35b-d0d2b2d8b469": {
+              "id": "daef67fd-0104-42a5-a35b-d0d2b2d8b469",
+              "type": "default",
+              "selected": false,
+              "source": "95b799c4-c613-4bbd-837c-7dfb07dfce03",
+              "sourcePort": "6d907d9e-ca7d-4289-8aaa-c7189532e2a3",
+              "target": "c1a7b3ab-123f-4c5d-9293-bda983e196b0",
+              "targetPort": "b6cdf94d-ff6b-47c7-b9c1-b7990d3c7b79",
+              "points": [
+                {
+                  "id": "c642f05b-527e-4615-8e7b-f6947fb84031",
+                  "type": "point",
+                  "x": -295.0156058694924,
+                  "y": 687.6250088427379
+                },
+                {
+                  "id": "b39c08fa-0ffb-44b1-98e5-e6e5b0e78081",
+                  "type": "point",
+                  "x": -1009.2031143860255,
+                  "y": 781.9218554542931
                 }
               ],
               "labels": [],
@@ -1737,7 +1753,9 @@
                   "name": "out-1657337015358",
                   "alignment": "right",
                   "parentNode": "95b799c4-c613-4bbd-837c-7dfb07dfce03",
-                  "links": [],
+                  "links": [
+                    "daef67fd-0104-42a5-a35b-d0d2b2d8b469"
+                  ],
                   "in": false,
                   "label": "true"
                 },
@@ -1871,7 +1889,7 @@
             "c1a7b3ab-123f-4c5d-9293-bda983e196b0": {
               "id": "c1a7b3ab-123f-4c5d-9293-bda983e196b0",
               "type": "action",
-              "selected": true,
+              "selected": false,
               "x": -1003.713656484162,
               "y": 743.4255169982589,
               "ports": [
@@ -1883,14 +1901,16 @@
                   "name": "in-1657337052656 ",
                   "alignment": "left",
                   "parentNode": "c1a7b3ab-123f-4c5d-9293-bda983e196b0",
-                  "links": [],
+                  "links": [
+                    "daef67fd-0104-42a5-a35b-d0d2b2d8b469"
+                  ],
                   "in": true,
                   "label": "❯"
                 },
                 {
                   "id": "cc31573e-08c3-4eb2-8087-50dfc939aaab",
                   "type": "default",
-                  "x": -667.0937535802481,
+                  "x": -624.1562876463818,
                   "y": 774.4218554542931,
                   "name": "out-1657337052656",
                   "alignment": "right",
@@ -1927,23 +1947,10 @@
                     "1"
                   ],
                   [
-                    "EMPTY_ACTION"
+                    "CONSTRUCTION_PURCHASE_HOUSE"
                   ]
                 ]
               }
-            },
-            "57be620f-e31d-4809-836a-fa90f2f486b3": {
-              "id": "57be620f-e31d-4809-836a-fa90f2f486b3",
-              "type": "note",
-              "selected": false,
-              "x": -1101.2136564841621,
-              "y": 669.4969455696873,
-              "ports": [],
-              "title": "Note",
-              "color": "#19e0e7e6",
-              "portsInOrder": [],
-              "portsOutOrder": [],
-              "text": "setup house action"
             },
             "7feb2d07-3463-46cd-b468-49fe97b27d30": {
               "id": "7feb2d07-3463-46cd-b468-49fe97b27d30",
@@ -3808,7 +3815,7 @@
             "044f3551-c79c-47b7-9e36-98cf8af19a7e": {
               "id": "044f3551-c79c-47b7-9e36-98cf8af19a7e",
               "type": "action",
-              "selected": true,
+              "selected": false,
               "x": -191.27733838945238,
               "y": 532.9873744744323,
               "ports": [
@@ -3829,7 +3836,7 @@
                 {
                   "id": "9a830c8d-ef8e-419f-b86f-e295d2c9f7d2",
                   "type": "default",
-                  "x": 72.76560544823872,
+                  "x": 202.73439032547074,
                   "y": 563.9843650675446,
                   "name": "out-1657337380263",
                   "alignment": "right",
@@ -3853,23 +3860,10 @@
                 ],
                 "args": [
                   [
-                    "EMPTY_ACTION"
+                    "CONSTRUCTION_REDECORATE_HOUSE"
                   ]
                 ]
               }
-            },
-            "29e424c0-0f9e-452a-844f-97156ec770dd": {
-              "id": "29e424c0-0f9e-452a-844f-97156ec770dd",
-              "type": "note",
-              "selected": false,
-              "x": -197.39978736904425,
-              "y": 611.3547214132078,
-              "ports": [],
-              "title": "Note",
-              "color": "#19e0e7e6",
-              "portsInOrder": [],
-              "portsOutOrder": [],
-              "text": "Open inventory"
             },
             "04744e50-6e56-4d8a-8f80-50ea98cfe88f": {
               "id": "04744e50-6e56-4d8a-8f80-50ea98cfe88f",
@@ -3987,7 +3981,7 @@
                 {
                   "id": "c6b93e79-ad4f-41c4-b66a-43787f1cd276",
                   "type": "default",
-                  "x": -277.4374672359128,
+                  "x": -190.6562745342228,
                   "y": 530.7187350850828,
                   "name": "out-1657337380263",
                   "alignment": "right",
@@ -4011,23 +4005,10 @@
                 ],
                 "args": [
                   [
-                    "EMPTY_ACTION"
+                    "CONSTRUCTION_MOVE_HOUSE"
                   ]
                 ]
               }
-            },
-            "9182b566-16ca-4351-8a7e-4f3607eca67f": {
-              "id": "9182b566-16ca-4351-8a7e-4f3607eca67f",
-              "type": "note",
-              "selected": false,
-              "x": -539.0324404302685,
-              "y": 581.762884678514,
-              "ports": [],
-              "title": "Note",
-              "color": "#19e0e7e6",
-              "portsInOrder": [],
-              "portsOutOrder": [],
-              "text": "Open inventory"
             }
           }
         }

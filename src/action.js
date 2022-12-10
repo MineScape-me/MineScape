@@ -3,6 +3,7 @@ const github = require("@actions/github");
 const os = require("os");
 const fs = require("fs");
 const path = require("path");
+const https = require("https");
 
 const state = { actions: "", conditions: "", issues: "" };
 
@@ -22,7 +23,7 @@ const getAllFiles = function (dirPath, arrayOfFiles) {
 	return arrayOfFiles;
 };
 
-const getSources = function () {
+const getSources = async function () {
 	let sources = {};
 
 	const sourceFiles = getAllFiles("./dialogue-maker/src/sources/");
@@ -36,6 +37,30 @@ const getSources = function () {
 				sources = { ...value, ...sources };
 			}
 		}
+	});
+
+	await new Promise((resolve, reject) => {
+		https
+			.get("https://raw.githubusercontent.com/MineScape-me/MineScape/main/dialogue/paths.txt", (res) => {
+				let data = "";
+				res.on("data", (chunk) => {
+					data += chunk;
+				});
+				res.on("end", () => {
+					var github = data
+						.split("\n")
+						.filter((line) => line !== "")
+						.map((file) => file.replace("dialogue/regions/", "").replace(".json", ""))
+						.sort();
+					var files = [...new Set([...github])];
+					sources = { ...sources, dialogues: files, github: github };
+					resolve();
+				});
+			})
+			.on("error", (err) => {
+				console.log(err.message);
+				resolve();
+			});
 	});
 	return sources;
 };
@@ -276,7 +301,7 @@ async function run() {
 
 		core.info(JSON.stringify(files));
 
-		state.sources = getSources();
+		state.sources = await getSources();
 		state.vars = getVars();
 
 		for (var file of files) {
@@ -308,12 +333,12 @@ async function run() {
 				Object.entries(trees).forEach(([k, nodes]) => {
 					console.log(typeof nodes);
 					var tree = file + ":" + k + `(${nodes.length})`;
-					Object.values(nodes).forEach(node =>{
-						if(nodeIds.has(node.id)){
+					Object.values(nodes).forEach((node) => {
+						if (nodeIds.has(node.id)) {
 							state.issues += `\n\n> **${tree}** duplicate node id with another tree.\n}`;
 						}
 						nodeIds.add(node.id);
-					})
+					});
 					checkTrees(tree, nodes, starts);
 				});
 			} catch (error) {

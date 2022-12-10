@@ -571,7 +571,7 @@
             {
               "id": "83300d5f-006b-46f0-98c4-cd6a594b1626",
               "type": "default",
-              "x": 259.453125,
+              "x": 443.109375,
               "y": 525,
               "name": "out-1657965286925",
               "alignment": "right",
@@ -591,23 +591,14 @@
           ],
           "actions": {
             "actions": [
-              ""
+              "basicAction"
             ],
-            "args": []
+            "args": [
+              [
+                "CAVE_MONK_ENTER"
+              ]
+            ]
           }
-        },
-        "7e7b1c20-591c-45ac-b403-0a3bdfab6ac4": {
-          "id": "7e7b1c20-591c-45ac-b403-0a3bdfab6ac4",
-          "type": "note",
-          "selected": true,
-          "x": 289,
-          "y": 507,
-          "ports": [],
-          "title": "Note",
-          "color": "#19e0e7e6",
-          "portsInOrder": [],
-          "portsOutOrder": [],
-          "text": "Teleport & change prayer"
         }
       }
     }
