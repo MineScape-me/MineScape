@@ -29,8 +29,8 @@
             {
               "id": "63f8b34b-bec7-40fa-b6a9-612925655552",
               "type": "point",
-              "x": 200.5,
-              "y": 65.5
+              "x": 203.5,
+              "y": 28.5
             }
           ],
           "labels": [],
@@ -51,8 +51,8 @@
             {
               "id": "bfc113b1-7807-4340-bb0c-ae14b333edb5",
               "type": "point",
-              "x": 527.546875,
-              "y": 65.5
+              "x": 568.484375,
+              "y": 28.5
             },
             {
               "id": "47019f98-0492-4758-9dac-d74a1dd72e99",
@@ -79,8 +79,8 @@
             {
               "id": "3ee7c223-42d6-4fbc-8c3c-1137b7bc570c",
               "type": "point",
-              "x": 529.6875,
-              "y": 82.5
+              "x": 570.625,
+              "y": 45.5
             },
             {
               "id": "1bd47fc4-b101-468c-b07c-64f2c98560e1",
@@ -386,15 +386,15 @@
         "ae6f6cca-edb1-410b-b247-7a9ddb3fbdf4": {
           "id": "ae6f6cca-edb1-410b-b247-7a9ddb3fbdf4",
           "type": "condition",
-          "selected": false,
-          "x": 206,
-          "y": 27,
+          "selected": true,
+          "x": 209,
+          "y": -10,
           "ports": [
             {
               "id": "81e3cfac-78c1-4505-9742-9a481645b3ee",
               "type": "default",
-              "x": 193,
-              "y": 58,
+              "x": 196,
+              "y": 21,
               "name": "in-1657967973107 ",
               "alignment": "left",
               "parentNode": "ae6f6cca-edb1-410b-b247-7a9ddb3fbdf4",
@@ -407,8 +407,8 @@
             {
               "id": "d200d9f0-fd7a-4f46-ae52-dc2e545846c8",
               "type": "default",
-              "x": 520.046875,
-              "y": 58,
+              "x": 560.984375,
+              "y": 21,
               "name": "out-1657967973107",
               "alignment": "right",
               "parentNode": "ae6f6cca-edb1-410b-b247-7a9ddb3fbdf4",
@@ -421,8 +421,8 @@
             {
               "id": "3890c3c6-281d-4823-907e-951e95243690",
               "type": "default",
-              "x": 522.1875,
-              "y": 75,
+              "x": 563.125,
+              "y": 38,
               "name": "out-16579679731071",
               "alignment": "right",
               "parentNode": "ae6f6cca-edb1-410b-b247-7a9ddb3fbdf4",
@@ -444,11 +444,17 @@
           ],
           "conditions": {
             "conditions": [
-              "basicCondition"
+              "basicCondition",
+              "hasItem"
             ],
             "args": [
               [
                 "HAND_NOTED"
+              ],
+              [
+                "COINS",
+                "5",
+                "false"
               ]
             ]
           }
