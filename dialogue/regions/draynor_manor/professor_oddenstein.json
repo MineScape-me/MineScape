@@ -2571,8 +2571,8 @@
     },
     "ernest_help": {
       "id": "6e92a1fd-cdd9-418e-85da-31991d224e54",
-      "offsetX": 229,
-      "offsetY": -46,
+      "offsetX": 0,
+      "offsetY": -9,
       "zoom": 100,
       "gridSize": 0,
       "layers": [
@@ -3192,6 +3192,7 @@
                   "takeItem",
                   "takeItem",
                   "setQuest",
+                  "refreshNpc",
                   "openDialogue"
                 ],
                 "args": [
@@ -3213,6 +3214,9 @@
                   [
                     "ERNEST_THE_CHICKEN",
                     "TALK_ERNEST"
+                  ],
+                  [
+                    "draynor_manor/ernest"
                   ],
                   [
                     "draynor_manor/ernest",
