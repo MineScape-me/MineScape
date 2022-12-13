@@ -1,0 +1,51 @@
+{
+  "id": "6fef9479-2d43-4685-8ede-3d359629d3a9",
+  "offsetX": 0,
+  "offsetY": 0,
+  "zoom": 100,
+  "gridSize": 0,
+  "layers": [
+    {
+      "id": "fd15d90c-3a49-4330-a300-ad3038ddda6a",
+      "type": "diagram-links",
+      "isSvg": true,
+      "transformed": true,
+      "models": {}
+    },
+    {
+      "id": "2af33ffd-68a2-4074-b1a6-ebc45146c054",
+      "type": "diagram-nodes",
+      "isSvg": false,
+      "transformed": true,
+      "models": {
+        "b663833c-dbc1-4fdd-9089-6b7d59986d3d": {
+          "id": "b663833c-dbc1-4fdd-9089-6b7d59986d3d",
+          "type": "start",
+          "x": 50,
+          "y": 50,
+          "ports": [
+            {
+              "id": "d921742d-66d9-407b-961a-f8d80259756e",
+              "type": "default",
+              "x": 125.796875,
+              "y": 57,
+              "name": "out-1670925111967",
+              "alignment": "right",
+              "parentNode": "b663833c-dbc1-4fdd-9089-6b7d59986d3d",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Start",
+          "color": "#16db26e6",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "d921742d-66d9-407b-961a-f8d80259756e"
+          ]
+        }
+      }
+    }
+  ],
+  "trees": {}
+}
