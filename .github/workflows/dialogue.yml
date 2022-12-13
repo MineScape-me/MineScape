@@ -34,5 +34,5 @@ jobs:
         run: |
           git config --global user.name 'MineScape-Bot'
           git add dialogue/paths.txt
-          git commit -m "Update dialogue paths"
+          git commit -m "Update dialogue paths" -n
           git push
