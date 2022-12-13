@@ -1,7 +1,6 @@
 name: Update dialogue paths
 on:
   push:
-   branches: ["main"]
    paths: ["dialogue/**.json"]
 
 jobs:
