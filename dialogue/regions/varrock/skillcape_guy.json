@@ -1,0 +1,135 @@
+{
+  "id": "88bcbba0-a48c-4178-8d6d-b1f7f302c8b6",
+  "offsetX": 0,
+  "offsetY": 0,
+  "zoom": 100,
+  "gridSize": 0,
+  "layers": [
+    {
+      "id": "07a98fab-6a3a-4a8e-91e5-a73dab3dcbd9",
+      "type": "diagram-links",
+      "isSvg": true,
+      "transformed": true,
+      "models": {
+        "b9615f5a-63b5-4b59-ab45-c7f9e4738ad6": {
+          "id": "b9615f5a-63b5-4b59-ab45-c7f9e4738ad6",
+          "type": "default",
+          "selected": false,
+          "source": "86eb3c42-4823-4c41-86cc-1875ffc09a99",
+          "sourcePort": "01311027-8d63-4db2-aa2f-9a63faecb776",
+          "target": "90fda6e8-345d-475e-891e-677f101a7b04",
+          "targetPort": "1747005c-bb43-4efa-8f0c-e37f16582c0c",
+          "points": [
+            {
+              "id": "e99bbb13-ac89-49f3-98d8-142d9baf484c",
+              "type": "point",
+              "x": 133.296875,
+              "y": 64.5
+            },
+            {
+              "id": "458daeeb-4002-447a-9920-6daaf23548dd",
+              "type": "point",
+              "x": 178.5,
+              "y": 64.5
+            }
+          ],
+          "labels": [],
+          "width": 3,
+          "color": "gray",
+          "curvyness": 50,
+          "selectedColor": "rgb(0,192,255)"
+        }
+      }
+    },
+    {
+      "id": "ea43fa3c-9655-4c2f-9eb5-c3da2bc3ee32",
+      "type": "diagram-nodes",
+      "isSvg": false,
+      "transformed": true,
+      "models": {
+        "86eb3c42-4823-4c41-86cc-1875ffc09a99": {
+          "id": "86eb3c42-4823-4c41-86cc-1875ffc09a99",
+          "type": "start",
+          "x": 50,
+          "y": 50,
+          "ports": [
+            {
+              "id": "01311027-8d63-4db2-aa2f-9a63faecb776",
+              "type": "default",
+              "x": 125.796875,
+              "y": 57,
+              "name": "out-1670958514192",
+              "alignment": "right",
+              "parentNode": "86eb3c42-4823-4c41-86cc-1875ffc09a99",
+              "links": [
+                "b9615f5a-63b5-4b59-ab45-c7f9e4738ad6"
+              ],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Start",
+          "color": "#16db26e6",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "01311027-8d63-4db2-aa2f-9a63faecb776"
+          ]
+        },
+        "90fda6e8-345d-475e-891e-677f101a7b04": {
+          "id": "90fda6e8-345d-475e-891e-677f101a7b04",
+          "type": "action",
+          "selected": true,
+          "x": 184,
+          "y": 26,
+          "ports": [
+            {
+              "id": "1747005c-bb43-4efa-8f0c-e37f16582c0c",
+              "type": "default",
+              "x": 171,
+              "y": 57,
+              "name": "in-1670958523827 ",
+              "alignment": "left",
+              "parentNode": "90fda6e8-345d-475e-891e-677f101a7b04",
+              "links": [
+                "b9615f5a-63b5-4b59-ab45-c7f9e4738ad6"
+              ],
+              "in": true,
+              "label": "❯"
+            },
+            {
+              "id": "c25faadf-6df5-48b5-bc92-fddd46436e29",
+              "type": "default",
+              "x": 501.875,
+              "y": 57,
+              "name": "out-1670958523827",
+              "alignment": "right",
+              "parentNode": "90fda6e8-345d-475e-891e-677f101a7b04",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Action",
+          "color": "#3e077ee6",
+          "portsInOrder": [
+            "1747005c-bb43-4efa-8f0c-e37f16582c0c"
+          ],
+          "portsOutOrder": [
+            "c25faadf-6df5-48b5-bc92-fddd46436e29"
+          ],
+          "actions": {
+            "actions": [
+              "openInventory"
+            ],
+            "args": [
+              [
+                "SKILLCAPE_PURCHASE"
+              ]
+            ]
+          }
+        }
+      }
+    }
+  ],
+  "trees": {}
+}
