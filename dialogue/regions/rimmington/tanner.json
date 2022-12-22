@@ -517,7 +517,7 @@
         "0a062246-e669-4d25-a13e-f93a5f937da0": {
           "id": "0a062246-e669-4d25-a13e-f93a5f937da0",
           "type": "condition",
-          "selected": true,
+          "selected": false,
           "x": 420,
           "y": 77,
           "ports": [
@@ -707,7 +707,7 @@
         "7cd80922-ad23-444c-9c36-5ae29f84b263": {
           "id": "7cd80922-ad23-444c-9c36-5ae29f84b263",
           "type": "action",
-          "selected": false,
+          "selected": true,
           "x": -211,
           "y": 383,
           "ports": [
@@ -729,7 +729,7 @@
             {
               "id": "42a0f321-48e4-4158-8f91-3b29b6fbe71d",
               "type": "default",
-              "x": 89.515625,
+              "x": 67.703125,
               "y": 414,
               "name": "out-1655290419823",
               "alignment": "right",
@@ -749,11 +749,11 @@
           ],
           "actions": {
             "actions": [
-              "basicAction"
+              "openInventory"
             ],
             "args": [
               [
-                "TANNING_OPEN_ELLIS"
+                "TANNING_ELLIS"
               ]
             ]
           }

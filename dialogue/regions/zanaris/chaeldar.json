@@ -1,8 +1,8 @@
 {
   "id": "a0c2863a-bc16-4908-b317-8000c7ed86fd",
-  "offsetX": 296.5319934276615,
-  "offsetY": 7.0927914018154965,
-  "zoom": 84.99999999999994,
+  "offsetX": 583.2525175921725,
+  "offsetY": 99.5987800158388,
+  "zoom": 68.33333333333323,
   "gridSize": 0,
   "layers": [
     {
@@ -677,7 +677,7 @@
             {
               "id": "3860f62b-650e-4e61-8617-6e9de063d7be",
               "type": "default",
-              "x": 1089.82808332959,
+              "x": 1064.781265774443,
               "y": 77.29687540733107,
               "name": "out-1655374868082",
               "alignment": "right",
@@ -697,11 +697,11 @@
           ],
           "actions": {
             "actions": [
-              "basicAction"
+              "openInventory"
             ],
             "args": [
               [
-                "SLAYER_OPEN_TASKS"
+                "SLAYER_TASKS"
               ]
             ]
           }
@@ -1466,7 +1466,7 @@
             {
               "id": "36a69f0f-329b-4327-ba1f-44d5622ad427",
               "type": "default",
-              "x": 835.8125444968694,
+              "x": 810.76558332959,
               "y": 690.1249932267249,
               "name": "out-1655375251820",
               "alignment": "right",
@@ -1486,11 +1486,11 @@
           ],
           "actions": {
             "actions": [
-              "basicAction"
+              "openInventory"
             ],
             "args": [
               [
-                "SLAYER_OPEN_REWARDS"
+                "SLAYER_REWARDS"
               ]
             ]
           }

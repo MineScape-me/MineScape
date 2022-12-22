@@ -1,8 +1,8 @@
 {
   "id": "c497a0cc-6ccc-416d-b6c5-773e2d20d00c",
-  "offsetX": 300,
-  "offsetY": 227,
-  "zoom": 100,
+  "offsetX": 289.52549366342475,
+  "offsetY": 134.32985558502807,
+  "zoom": 103.33333333333334,
   "gridSize": 0,
   "layers": [
     {
@@ -113,8 +113,8 @@
             {
               "id": "fd5bffc5-8180-43fb-9a1a-6e7fe9e32cac",
               "type": "point",
-              "x": -216.5,
-              "y": 421.5
+              "x": -216.50001899068826,
+              "y": 421.4999672828861
             }
           ],
           "labels": [],
@@ -393,8 +393,8 @@
             {
               "id": "38cf2bcf-553e-4322-baed-5a4924731a89",
               "type": "point",
-              "x": -216.5,
-              "y": 421.5
+              "x": -216.50001899068826,
+              "y": 421.4999672828861
             }
           ],
           "labels": [],
@@ -517,7 +517,7 @@
         "0a062246-e669-4d25-a13e-f93a5f937da0": {
           "id": "0a062246-e669-4d25-a13e-f93a5f937da0",
           "type": "condition",
-          "selected": true,
+          "selected": false,
           "x": 400,
           "y": 90,
           "ports": [
@@ -707,15 +707,15 @@
         "7cd80922-ad23-444c-9c36-5ae29f84b263": {
           "id": "7cd80922-ad23-444c-9c36-5ae29f84b263",
           "type": "action",
-          "selected": false,
+          "selected": true,
           "x": -211,
           "y": 383,
           "ports": [
             {
               "id": "c5128ad3-5528-4841-949b-36cc11bfe6ea",
               "type": "default",
-              "x": -224,
-              "y": 414,
+              "x": -224.00001899068826,
+              "y": 413.9999672828861,
               "name": "in-1655290419823 ",
               "alignment": "left",
               "parentNode": "7cd80922-ad23-444c-9c36-5ae29f84b263",
@@ -729,8 +729,8 @@
             {
               "id": "42a0f321-48e4-4158-8f91-3b29b6fbe71d",
               "type": "default",
-              "x": 89.515625,
-              "y": 414,
+              "x": 67.70308828942765,
+              "y": 413.9999672828861,
               "name": "out-1655290419823",
               "alignment": "right",
               "parentNode": "7cd80922-ad23-444c-9c36-5ae29f84b263",
@@ -749,11 +749,11 @@
           ],
           "actions": {
             "actions": [
-              "basicAction"
+              "openInventory"
             ],
             "args": [
               [
-                "TANNING_OPEN_ELLIS"
+                "TANNING_ELLIS"
               ]
             ]
           }
