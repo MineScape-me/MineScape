@@ -30,6 +30,7 @@ jobs:
           for i in ${{ steps.pl.outputs.paths }}; do
           echo $i >> dialogue/paths.txt
           done
+          sort -o dialogue/paths.txt{,}
       - name: Commit files
         continue-on-error: true
         run: |
