@@ -85,7 +85,7 @@
             {
               "id": "5f27178a-d882-49b0-9471-5c0c3ef62aa0",
               "type": "point",
-              "x": 320.5,
+              "x": 204.5,
               "y": 266.5
             }
           ],
@@ -107,7 +107,7 @@
             {
               "id": "78499387-c9fd-42c8-9e4e-087e8bc1cfc4",
               "type": "point",
-              "x": 747.734375,
+              "x": 865.765625,
               "y": 275.5
             },
             {
@@ -163,7 +163,7 @@
             {
               "id": "11ed7da5-a4d4-4c65-99ad-e2adbb9594d2",
               "type": "point",
-              "x": 747.734375,
+              "x": 865.78125,
               "y": 311.5
             },
             {
@@ -171,6 +171,34 @@
               "type": "point",
               "x": 914.5,
               "y": 310.5
+            }
+          ],
+          "labels": [],
+          "width": 3,
+          "color": "gray",
+          "curvyness": 50,
+          "selectedColor": "rgb(0,192,255)"
+        },
+        "f96a3ac6-ab72-442d-bbaa-35363ae3fe0c": {
+          "id": "f96a3ac6-ab72-442d-bbaa-35363ae3fe0c",
+          "type": "default",
+          "selected": false,
+          "source": "a713f85a-ba96-4d55-853d-7398f9c95467",
+          "sourcePort": "4eace2ea-661a-4fa2-947f-7eec51b4b97c",
+          "target": "5683f86a-190f-49f5-b379-55fc50a81839",
+          "targetPort": "e472328b-278c-41fd-a232-f3de6f6516b8",
+          "points": [
+            {
+              "id": "f8fb6400-ddfb-4aa3-98cb-5a95b7b7c15c",
+              "type": "point",
+              "x": 484.375,
+              "y": 128.5
+            },
+            {
+              "id": "71702d0b-c7e6-46ac-b5ad-ecdc815a5ae1",
+              "type": "point",
+              "x": 319.5,
+              "y": 191.5
             }
           ],
           "labels": [],
@@ -291,7 +319,9 @@
               "name": "out-1653393911982",
               "alignment": "right",
               "parentNode": "a713f85a-ba96-4d55-853d-7398f9c95467",
-              "links": [],
+              "links": [
+                "f96a3ac6-ab72-442d-bbaa-35363ae3fe0c"
+              ],
               "in": false,
               "label": "❯"
             }
@@ -321,7 +351,9 @@
               "name": "in-1653393894517 ",
               "alignment": "left",
               "parentNode": "5683f86a-190f-49f5-b379-55fc50a81839",
-              "links": [],
+              "links": [
+                "f96a3ac6-ab72-442d-bbaa-35363ae3fe0c"
+              ],
               "in": true,
               "label": "❯"
             },
@@ -353,14 +385,14 @@
         "866bf12d-5625-4fa8-ac39-0afaa0eca6c4": {
           "id": "866bf12d-5625-4fa8-ac39-0afaa0eca6c4",
           "type": "option",
-          "selected": false,
-          "x": 326,
+          "selected": true,
+          "x": 210,
           "y": 228,
           "ports": [
             {
               "id": "ce0f4799-164b-4fe5-800b-2f826b9fdf10",
               "type": "default",
-              "x": 313,
+              "x": 197,
               "y": 259,
               "name": "in-1653393927274 ",
               "alignment": "left",
@@ -374,7 +406,7 @@
             {
               "id": "d5298bf0-6648-48dc-9994-4a621aa52bf6",
               "type": "default",
-              "x": 740.234375,
+              "x": 858.265625,
               "y": 268,
               "name": "out-1653393927274",
               "alignment": "right",
@@ -388,7 +420,7 @@
             {
               "id": "d4062895-9207-43f7-9e5e-e6fce82d9641",
               "type": "default",
-              "x": 740.234375,
+              "x": 858.28125,
               "y": 304,
               "name": "out-1653393930564",
               "alignment": "right",
@@ -419,9 +451,13 @@
             },
             {
               "conditions": [
-                ""
+                "hasQuestCompleted"
               ],
-              "args": [],
+              "args": [
+                [
+                  "RUNE_MYSTERIES"
+                ]
+              ],
               "text": "Can you teleport me to the Rune Essence?"
             }
           ]
@@ -519,7 +555,7 @@
         "6f091716-e6e4-4927-8743-f81f9bf1394f": {
           "id": "6f091716-e6e4-4927-8743-f81f9bf1394f",
           "type": "action",
-          "selected": true,
+          "selected": false,
           "x": 920,
           "y": 272,
           "ports": [

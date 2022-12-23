@@ -636,7 +636,7 @@
         "91631544-2c0c-40c5-9cfa-622c7bce373c": {
           "id": "91631544-2c0c-40c5-9cfa-622c7bce373c",
           "type": "action",
-          "selected": false,
+          "selected": true,
           "x": 1112,
           "y": 12,
           "ports": [
@@ -658,7 +658,7 @@
             {
               "id": "5ec21f3b-3ee0-406d-8ad0-797ed8fe8cd3",
               "type": "default",
-              "x": 1468.5625,
+              "x": 1443.515625,
               "y": 43,
               "name": "out-1657346176490",
               "alignment": "right",
@@ -678,11 +678,11 @@
           ],
           "actions": {
             "actions": [
-              "basicAction"
+              "openInventory"
             ],
             "args": [
               [
-                "SAWMILL_OPEN_PLANK_MAKING"
+                "SAWMILL_PLANK_MAKING"
               ]
             ]
           }

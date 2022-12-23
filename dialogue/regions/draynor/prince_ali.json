@@ -769,7 +769,7 @@
         "f8b3289d-7c37-4c53-b549-ae79800abd7f": {
           "id": "f8b3289d-7c37-4c53-b549-ae79800abd7f",
           "type": "action",
-          "selected": false,
+          "selected": true,
           "x": 248,
           "y": 636,
           "ports": [
@@ -814,7 +814,8 @@
               "takeItem",
               "takeItem",
               "takeItem",
-              "setQuest"
+              "setQuest",
+              "refreshNpc"
             ],
             "args": [
               [
@@ -840,6 +841,9 @@
               [
                 "PRINCEALIRESCUE",
                 "CLAIM_REWARD"
+              ],
+              [
+                "draynor/prince_ali"
               ]
             ]
           }
@@ -1005,7 +1009,7 @@
         "a622a523-8bc4-4797-a5d2-ce0593a8c0d1": {
           "id": "a622a523-8bc4-4797-a5d2-ce0593a8c0d1",
           "type": "note",
-          "selected": true,
+          "selected": false,
           "x": -310.9551985638676,
           "y": 191.02885695909933,
           "ports": [],

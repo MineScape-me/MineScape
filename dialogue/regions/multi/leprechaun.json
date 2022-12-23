@@ -796,7 +796,7 @@
         "c0f4013a-3939-4d3e-b528-108de8eff687": {
           "id": "c0f4013a-3939-4d3e-b528-108de8eff687",
           "type": "action",
-          "selected": false,
+          "selected": true,
           "x": 769,
           "y": 20.72340425531915,
           "ports": [
@@ -820,7 +820,7 @@
             {
               "id": "1d19ab4d-63da-4482-b5c1-6fa140934f72",
               "type": "default",
-              "x": 1139.6093236204367,
+              "x": 1114.578104787325,
               "y": 51.7187486656639,
               "name": "out-1657337516088",
               "alignment": "right",
@@ -840,11 +840,11 @@
           ],
           "actions": {
             "actions": [
-              "basicAction"
+              "openInventory"
             ],
             "args": [
               [
-                "LEPRECHAUN_OPEN_TOOL_STORE"
+                "LEPRECHAUN_TOOL_STORE"
               ]
             ]
           }
