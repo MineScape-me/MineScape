@@ -1,7 +1,7 @@
 {
   "id": "210ee40a-f2c6-43c3-af62-c76f984ba380",
-  "offsetX": -572.098682546254,
-  "offsetY": 39.57210996465527,
+  "offsetX": -192.09868254625405,
+  "offsetY": 43.57210996465527,
   "zoom": 151.6666666666666,
   "gridSize": 0,
   "layers": [
@@ -677,7 +677,7 @@
         "8a0009bc-30b1-458d-96d2-cfabf25f3f84": {
           "id": "8a0009bc-30b1-458d-96d2-cfabf25f3f84",
           "type": "tree",
-          "selected": true,
+          "selected": false,
           "x": 855.9279281444803,
           "y": 332.24411486627247,
           "ports": [
@@ -711,8 +711,8 @@
   "trees": {
     "rescue_start": {
       "id": "10813ffa-56e6-486f-b9a6-7d901cba0217",
-      "offsetX": 379.8877239371683,
-      "offsetY": 57.21744045746492,
+      "offsetX": 361.8877239371683,
+      "offsetY": -2.7825595425350826,
       "zoom": 64.9999999999999,
       "gridSize": 0,
       "layers": [
@@ -2457,9 +2457,9 @@
     },
     "rescue_key": {
       "id": "3deeb04f-63e2-4f3b-91ad-f91003d944ea",
-      "offsetX": 37.01703096752581,
-      "offsetY": 111.99664447929575,
-      "zoom": 64.99999999999989,
+      "offsetX": 0.023945933049246193,
+      "offsetY": 62.36416432697198,
+      "zoom": 66.66666666666653,
       "gridSize": 0,
       "layers": [
         {
@@ -3997,48 +3997,6 @@
               ],
               "text": "A print of the key in soft clay and a bronze bar.\n Then, collect the key from Leela."
             },
-            "7aec079d-71a1-456b-b83e-60a3ff9ccfe7": {
-              "id": "7aec079d-71a1-456b-b83e-60a3ff9ccfe7",
-              "type": "dialogue",
-              "selected": false,
-              "x": 337.6443328487728,
-              "y": -159.8782432491962,
-              "ports": [
-                {
-                  "id": "4bfd29c3-7164-44ae-8469-5052e4b6fb75",
-                  "type": "default",
-                  "x": 324.64064045861466,
-                  "y": -128.8750068686884,
-                  "name": "in-1655335800714 ",
-                  "alignment": "left",
-                  "parentNode": "7aec079d-71a1-456b-b83e-60a3ff9ccfe7",
-                  "links": [],
-                  "in": true,
-                  "label": "❯"
-                },
-                {
-                  "id": "fe018302-ff10-4373-aa5d-cadc45b45995",
-                  "type": "default",
-                  "x": 764.0156404586155,
-                  "y": -128.8750068686884,
-                  "name": "out-1655335800714",
-                  "alignment": "right",
-                  "parentNode": "7aec079d-71a1-456b-b83e-60a3ff9ccfe7",
-                  "links": [],
-                  "in": false,
-                  "label": "❯"
-                }
-              ],
-              "title": "Osman",
-              "color": "#dd341ee6",
-              "portsInOrder": [
-                "4bfd29c3-7164-44ae-8469-5052e4b6fb75"
-              ],
-              "portsOutOrder": [
-                "fe018302-ff10-4373-aa5d-cadc45b45995"
-              ],
-              "text": "Once you have everything, go to Leela. She must be\nready to get the prince away."
-            },
             "91628457-5eaf-4197-ac30-c0f638bab5ee": {
               "id": "91628457-5eaf-4197-ac30-c0f638bab5ee",
               "type": "condition",
@@ -4656,7 +4614,7 @@
             "0295b7f0-f6da-4908-ba8c-258541376a40": {
               "id": "0295b7f0-f6da-4908-ba8c-258541376a40",
               "type": "condition",
-              "selected": true,
+              "selected": false,
               "x": 187.22108203959883,
               "y": 1077.7897190739654,
               "ports": [
