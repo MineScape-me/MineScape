@@ -1,8 +1,8 @@
 {
   "id": "f335a815-da29-40e7-a641-0492fdd61bef",
-  "offsetX": -274,
-  "offsetY": 83,
-  "zoom": 100,
+  "offsetX": 161.50303030303053,
+  "offsetY": 122.6969696969698,
+  "zoom": 86.66666666666663,
   "gridSize": 0,
   "layers": [
     {
@@ -477,8 +477,8 @@
             {
               "id": "97cebdd8-d356-49c8-9f1d-3bb77677d0f8",
               "type": "point",
-              "x": 1387.5,
-              "y": 192.5
+              "x": 1362.409090909091,
+              "y": 83.40909090909089
             }
           ],
           "labels": [],
@@ -505,8 +505,8 @@
             {
               "id": "e3ebf176-0e1c-4c49-b890-fe2d4c5bfe97",
               "type": "point",
-              "x": 1022.5,
-              "y": 445.5
+              "x": 913.4090909090916,
+              "y": 332.04545454545445
             }
           ],
           "labels": [],
@@ -527,14 +527,98 @@
             {
               "id": "caac71db-a111-4801-8b26-e48d508809cb",
               "type": "point",
-              "x": 1410.578125,
-              "y": 445.5
+              "x": 1301.487215909091,
+              "y": 332.04545454545445
             },
             {
               "id": "1fd70ae7-8ec1-43eb-9c78-8c2798c09490",
               "type": "point",
-              "x": 1027.5,
-              "y": 514.5
+              "x": 921.6818181818186,
+              "y": 398.8636363636365
+            }
+          ],
+          "labels": [],
+          "width": 3,
+          "color": "gray",
+          "curvyness": 50,
+          "selectedColor": "rgb(0,192,255)"
+        },
+        "d5d61624-45d8-4031-85e0-4385cf852fa0": {
+          "id": "d5d61624-45d8-4031-85e0-4385cf852fa0",
+          "type": "default",
+          "selected": false,
+          "source": "30bd4e5f-3abc-4f47-ba76-37357495ac94",
+          "sourcePort": "3d0ee81b-2647-4b86-8276-e18ec51a6e9e",
+          "target": "0ea19065-7a86-4bd8-bdb0-53ede37e682b",
+          "targetPort": "98302d3e-992b-4027-8e8c-16ba3e6fcc8e",
+          "points": [
+            {
+              "id": "6d6d3bd6-a568-4155-adcd-6c01b3b93b93",
+              "type": "point",
+              "x": 1156.166193181817,
+              "y": 407.8636363636365
+            },
+            {
+              "id": "1eaa558e-9364-4953-bd11-d89225c03166",
+              "type": "point",
+              "x": 1225.6718750000002,
+              "y": 438.7698863636363
+            }
+          ],
+          "labels": [],
+          "width": 3,
+          "color": "gray",
+          "curvyness": 50,
+          "selectedColor": "rgb(0,192,255)"
+        },
+        "0f8dc8c2-a931-4a44-89a8-aebcafa55292": {
+          "id": "0f8dc8c2-a931-4a44-89a8-aebcafa55292",
+          "type": "default",
+          "selected": false,
+          "source": "b1afff4f-7d3e-49ae-b731-e29c0c50e93b",
+          "sourcePort": "a1faee68-5acb-4fc3-b8fb-e9711168d2b2",
+          "target": "5f405450-df29-4908-b808-0836a833f047",
+          "targetPort": "bcaab521-9e89-4e12-9298-95f5039cc53b",
+          "points": [
+            {
+              "id": "cbdae750-3de4-42a6-b035-34446b7dd221",
+              "type": "point",
+              "x": 1706.502840909091,
+              "y": 83.40909090909089
+            },
+            {
+              "id": "75c6d055-c203-4da7-9436-a28273c99bf0",
+              "type": "point",
+              "x": 1353.8536931818207,
+              "y": 168.94034090909093
+            }
+          ],
+          "labels": [],
+          "width": 3,
+          "color": "gray",
+          "curvyness": 50,
+          "selectedColor": "rgb(0,192,255)"
+        },
+        "a83c15b8-afa1-48ed-859f-f9de18306cff": {
+          "id": "a83c15b8-afa1-48ed-859f-f9de18306cff",
+          "type": "default",
+          "selected": false,
+          "source": "5f405450-df29-4908-b808-0836a833f047",
+          "sourcePort": "789ca142-46dd-4fb2-93a3-ec0a9d2ccfd1",
+          "target": "06f73112-c84c-4a6a-8033-1332366482de",
+          "targetPort": "68998ecf-b420-414a-aa9d-6be03498d94d",
+          "points": [
+            {
+              "id": "1bf78ef8-74e9-437b-b745-4e49891e268d",
+              "type": "point",
+              "x": 1717.3380237926167,
+              "y": 168.94034090909093
+            },
+            {
+              "id": "a1a1d27d-dad5-48c2-8905-dd91ea1c7435",
+              "type": "point",
+              "x": 1376.218794389205,
+              "y": 244.2187278053977
             }
           ],
           "labels": [],
@@ -573,7 +657,7 @@
             }
           ],
           "title": "Start",
-          "color": "#16db26",
+          "color": "#16db26e6",
           "portsInOrder": [],
           "portsOutOrder": [
             "eb4e0d35-a47b-4fb5-88b2-c2c960c67f6a"
@@ -616,7 +700,7 @@
             }
           ],
           "title": "Sir Pugger",
-          "color": "#dd341e",
+          "color": "#dd341ee6",
           "portsInOrder": [
             "18c38174-736a-4d1d-86b4-0d2baaca37c9"
           ],
@@ -692,7 +776,7 @@
             }
           ],
           "title": "Select an option.",
-          "color": "#0756b1",
+          "color": "#0756b1e6",
           "portsInOrder": [
             "191d97f1-7c43-461b-bdec-5c12459b92af"
           ],
@@ -762,7 +846,7 @@
             }
           ],
           "title": "<player>",
-          "color": "#dd341e",
+          "color": "#dd341ee6",
           "portsInOrder": [
             "016b143a-9821-4b59-9815-7a4ca6181ac9"
           ],
@@ -808,7 +892,7 @@
             }
           ],
           "title": "Sir Pugger",
-          "color": "#dd341e",
+          "color": "#dd341ee6",
           "portsInOrder": [
             "6914588e-7519-4542-8cd1-cffc15215cd1"
           ],
@@ -854,7 +938,7 @@
             }
           ],
           "title": "Sir Pugger",
-          "color": "#dd341e",
+          "color": "#dd341ee6",
           "portsInOrder": [
             "534f0529-5be8-4df1-9ee1-d094a823f561"
           ],
@@ -900,7 +984,7 @@
             }
           ],
           "title": "<player>",
-          "color": "#dd341e",
+          "color": "#dd341ee6",
           "portsInOrder": [
             "b513b49c-5bd8-40ce-aab4-57e14ff734a3"
           ],
@@ -946,7 +1030,7 @@
             }
           ],
           "title": "Sir Pugger",
-          "color": "#dd341e",
+          "color": "#dd341ee6",
           "portsInOrder": [
             "39e565c2-9f3d-49bf-ab3c-0cd5b025affd"
           ],
@@ -992,7 +1076,7 @@
             }
           ],
           "title": "Sir Pugger",
-          "color": "#dd341e",
+          "color": "#dd341ee6",
           "portsInOrder": [
             "d2899306-3a90-4cae-a71f-0f9a9ef16965"
           ],
@@ -1038,7 +1122,7 @@
             }
           ],
           "title": "<player>",
-          "color": "#dd341e",
+          "color": "#dd341ee6",
           "portsInOrder": [
             "2502fa97-e5a3-4d05-b80b-25a4eff73693"
           ],
@@ -1084,7 +1168,7 @@
             }
           ],
           "title": "Sir Pugger",
-          "color": "#dd341e",
+          "color": "#dd341ee6",
           "portsInOrder": [
             "5b2f5e97-1844-4f66-bf7f-c155ab0dd9cb"
           ],
@@ -1130,7 +1214,7 @@
             }
           ],
           "title": "Sir Pugger",
-          "color": "#dd341e",
+          "color": "#dd341ee6",
           "portsInOrder": [
             "7d31d947-4587-46f8-ab39-74344e3b5321"
           ],
@@ -1176,7 +1260,7 @@
             }
           ],
           "title": "<player>",
-          "color": "#dd341e",
+          "color": "#dd341ee6",
           "portsInOrder": [
             "0145f8a3-e1a1-42b1-aee1-f1c6f86fe5fb"
           ],
@@ -1222,7 +1306,7 @@
             }
           ],
           "title": "Sir Pugger",
-          "color": "#dd341e",
+          "color": "#dd341ee6",
           "portsInOrder": [
             "37f05b84-1bc1-4662-a99f-9f2b1097aa95"
           ],
@@ -1235,14 +1319,14 @@
           "id": "b1afff4f-7d3e-49ae-b731-e29c0c50e93b",
           "type": "dialogue",
           "selected": false,
-          "x": 1393,
-          "y": 154,
+          "x": 1367.909090909091,
+          "y": 44.90909090909088,
           "ports": [
             {
               "id": "b4ea1922-c88d-470e-a578-8f997038296d",
               "type": "default",
-              "x": 1380,
-              "y": 185,
+              "x": 1354.9090909090946,
+              "y": 75.90909090909078,
               "name": "in-1656074997353 ",
               "alignment": "left",
               "parentNode": "b1afff4f-7d3e-49ae-b731-e29c0c50e93b",
@@ -1255,18 +1339,20 @@
             {
               "id": "a1faee68-5acb-4fc3-b8fb-e9711168d2b2",
               "type": "default",
-              "x": 1724.09375,
-              "y": 185,
+              "x": 1699.0028409090946,
+              "y": 75.90909090909078,
               "name": "out-1656074997353",
               "alignment": "right",
               "parentNode": "b1afff4f-7d3e-49ae-b731-e29c0c50e93b",
-              "links": [],
+              "links": [
+                "0f8dc8c2-a931-4a44-89a8-aebcafa55292"
+              ],
               "in": false,
               "label": "❯"
             }
           ],
           "title": "Warning!",
-          "color": "#dd341e",
+          "color": "#dd341ee6",
           "portsInOrder": [
             "b4ea1922-c88d-470e-a578-8f997038296d"
           ],
@@ -1279,14 +1365,14 @@
           "id": "2b255e5d-2ae6-42b4-943f-44e784eea0a6",
           "type": "dialogue",
           "selected": false,
-          "x": 1028,
-          "y": 407,
+          "x": 918.9090909090909,
+          "y": 293.5454545454545,
           "ports": [
             {
               "id": "0a149139-f318-4c50-8238-1e2b093f7a97",
               "type": "default",
-              "x": 1015,
-              "y": 438,
+              "x": 905.909090909091,
+              "y": 324.5454545454546,
               "name": "in-1656074958471 ",
               "alignment": "left",
               "parentNode": "2b255e5d-2ae6-42b4-943f-44e784eea0a6",
@@ -1299,8 +1385,8 @@
             {
               "id": "1d96ac62-4663-48d4-bb23-9f652d00f504",
               "type": "default",
-              "x": 1403.078125,
-              "y": 438,
+              "x": 1293.9872159090928,
+              "y": 324.5454545454546,
               "name": "out-1656074958471",
               "alignment": "right",
               "parentNode": "2b255e5d-2ae6-42b4-943f-44e784eea0a6",
@@ -1312,7 +1398,7 @@
             }
           ],
           "title": "Sir Pugger",
-          "color": "#dd341e",
+          "color": "#dd341ee6",
           "portsInOrder": [
             "0a149139-f318-4c50-8238-1e2b093f7a97"
           ],
@@ -1372,7 +1458,7 @@
             }
           ],
           "title": "Condition",
-          "color": "#02630a",
+          "color": "#02630ae6",
           "portsInOrder": [
             "6e8be225-bf0a-41ea-83cf-2bbc950e6201"
           ],
@@ -1397,14 +1483,14 @@
           "id": "30bd4e5f-3abc-4f47-ba76-37357495ac94",
           "type": "option",
           "selected": false,
-          "x": 1033,
-          "y": 476,
+          "x": 927.1818181818181,
+          "y": 360.3636363636363,
           "ports": [
             {
               "id": "9ae86a7e-9046-4b62-b358-73977bd39539",
               "type": "default",
-              "x": 1020,
-              "y": 507,
+              "x": 914.1818181818188,
+              "y": 391.3636363636363,
               "name": "in-1656075276392 ",
               "alignment": "left",
               "parentNode": "30bd4e5f-3abc-4f47-ba76-37357495ac94",
@@ -1417,20 +1503,22 @@
             {
               "id": "3d0ee81b-2647-4b86-8276-e18ec51a6e9e",
               "type": "default",
-              "x": 1254.484375,
-              "y": 516,
+              "x": 1148.666193181818,
+              "y": 400.3636363636363,
               "name": "out-1656075276392",
               "alignment": "right",
               "parentNode": "30bd4e5f-3abc-4f47-ba76-37357495ac94",
-              "links": [],
+              "links": [
+                "d5d61624-45d8-4031-85e0-4385cf852fa0"
+              ],
               "in": false,
               "label": "❯"
             },
             {
               "id": "c8f433ee-879a-4a37-b808-440b7595f793",
               "type": "default",
-              "x": 1254.484375,
-              "y": 552,
+              "x": 1148.666193181818,
+              "y": 436.3636363636361,
               "name": "out-1656075277674",
               "alignment": "right",
               "parentNode": "30bd4e5f-3abc-4f47-ba76-37357495ac94",
@@ -1441,8 +1529,8 @@
             {
               "id": "9eb536d0-4e4c-47b3-8703-f357ae9e3625",
               "type": "default",
-              "x": 1254.46875,
-              "y": 588,
+              "x": 1148.650568181818,
+              "y": 472.36363636363654,
               "name": "out-1656075277814",
               "alignment": "right",
               "parentNode": "30bd4e5f-3abc-4f47-ba76-37357495ac94",
@@ -1452,7 +1540,7 @@
             }
           ],
           "title": "Select an option.",
-          "color": "#0756b1",
+          "color": "#0756b1e6",
           "portsInOrder": [
             "9ae86a7e-9046-4b62-b358-73977bd39539"
           ],
@@ -1478,31 +1566,187 @@
             }
           ]
         },
-        "1d1ae136-eb50-4201-aaf7-8a070c64e05f": {
-          "id": "1d1ae136-eb50-4201-aaf7-8a070c64e05f",
-          "type": "note",
+        "0ea19065-7a86-4bd8-bdb0-53ede37e682b": {
+          "id": "0ea19065-7a86-4bd8-bdb0-53ede37e682b",
+          "type": "action",
           "selected": false,
-          "x": 1301,
-          "y": 553,
-          "ports": [],
-          "title": "Note",
-          "color": "#19e0e7",
-          "portsInOrder": [],
-          "portsOutOrder": [],
-          "text": "Enter to retrieve items"
+          "x": 1231.1818181818185,
+          "y": 400.2727272727273,
+          "ports": [
+            {
+              "id": "98302d3e-992b-4027-8e8c-16ba3e6fcc8e",
+              "type": "default",
+              "x": 1218.171874999996,
+              "y": 431.2698863636369,
+              "name": "in-1674261588154 ",
+              "alignment": "left",
+              "parentNode": "0ea19065-7a86-4bd8-bdb0-53ede37e682b",
+              "links": [
+                "d5d61624-45d8-4031-85e0-4385cf852fa0"
+              ],
+              "in": true,
+              "label": "❯"
+            },
+            {
+              "id": "0e72e21a-81a0-434a-a9f4-1065a6be6583",
+              "type": "default",
+              "x": 1503.7656693892,
+              "y": 431.2698863636369,
+              "name": "out-1674261588154",
+              "alignment": "right",
+              "parentNode": "0ea19065-7a86-4bd8-bdb0-53ede37e682b",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Action",
+          "color": "#3e077ee6",
+          "portsInOrder": [
+            "98302d3e-992b-4027-8e8c-16ba3e6fcc8e"
+          ],
+          "portsOutOrder": [
+            "0e72e21a-81a0-434a-a9f4-1065a6be6583"
+          ],
+          "actions": {
+            "actions": [
+              "teleport"
+            ],
+            "args": [
+              [
+                "BOSS_OBOR_ENTER"
+              ]
+            ]
+          }
         },
-        "7d8507f0-f4b6-4c6d-8ebb-176452aeb4cb": {
-          "id": "7d8507f0-f4b6-4c6d-8ebb-176452aeb4cb",
-          "type": "note",
-          "selected": true,
-          "x": 1396,
-          "y": 234,
-          "ports": [],
-          "title": "Note",
-          "color": "#19e0e7",
-          "portsInOrder": [],
-          "portsOutOrder": [],
-          "text": "Start boss instance"
+        "06f73112-c84c-4a6a-8033-1332366482de": {
+          "id": "06f73112-c84c-4a6a-8033-1332366482de",
+          "type": "action",
+          "selected": false,
+          "x": 1381.727272727273,
+          "y": 205.7272727272726,
+          "ports": [
+            {
+              "id": "68998ecf-b420-414a-aa9d-6be03498d94d",
+              "type": "default",
+              "x": 1368.718794389205,
+              "y": 236.7187278053977,
+              "name": "in-1674261588154 ",
+              "alignment": "left",
+              "parentNode": "06f73112-c84c-4a6a-8033-1332366482de",
+              "links": [
+                "a83c15b8-afa1-48ed-859f-f9de18306cff"
+              ],
+              "in": true,
+              "label": "❯"
+            },
+            {
+              "id": "60110965-7142-4e44-805c-2f9ef1c8ed48",
+              "type": "default",
+              "x": 1711.328169389205,
+              "y": 236.7187278053977,
+              "name": "out-1674261588154",
+              "alignment": "right",
+              "parentNode": "06f73112-c84c-4a6a-8033-1332366482de",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Action",
+          "color": "#3e077ee6",
+          "portsInOrder": [
+            "68998ecf-b420-414a-aa9d-6be03498d94d"
+          ],
+          "portsOutOrder": [
+            "60110965-7142-4e44-805c-2f9ef1c8ed48"
+          ],
+          "actions": {
+            "actions": [
+              "takeItem",
+              "basicAction"
+            ],
+            "args": [
+              [
+                "GIANT_KEY",
+                "1",
+                "false"
+              ],
+              [
+                "BOSS_OBOR_START"
+              ]
+            ]
+          }
+        },
+        "5f405450-df29-4908-b808-0836a833f047": {
+          "id": "5f405450-df29-4908-b808-0836a833f047",
+          "type": "condition",
+          "selected": false,
+          "x": 1372.4545454545455,
+          "y": 127.18181818181816,
+          "ports": [
+            {
+              "id": "bcaab521-9e89-4e12-9298-95f5039cc53b",
+              "type": "default",
+              "x": 1346.3536931818228,
+              "y": 161.44034090909088,
+              "name": "in-1656075250658 ",
+              "alignment": "left",
+              "parentNode": "5f405450-df29-4908-b808-0836a833f047",
+              "links": [
+                "0f8dc8c2-a931-4a44-89a8-aebcafa55292"
+              ],
+              "in": true,
+              "label": "❯"
+            },
+            {
+              "id": "789ca142-46dd-4fb2-93a3-ec0a9d2ccfd1",
+              "type": "default",
+              "x": 1709.8380237926187,
+              "y": 161.44034090909088,
+              "name": "out-1656075250659",
+              "alignment": "right",
+              "parentNode": "5f405450-df29-4908-b808-0836a833f047",
+              "links": [
+                "a83c15b8-afa1-48ed-859f-f9de18306cff"
+              ],
+              "in": false,
+              "label": "true"
+            },
+            {
+              "id": "3782c90d-5ef4-4101-adab-408cdb60b1e0",
+              "type": "default",
+              "x": 1711.9786931818228,
+              "y": 178.44035200639212,
+              "name": "out-16560752506591",
+              "alignment": "right",
+              "parentNode": "5f405450-df29-4908-b808-0836a833f047",
+              "links": [],
+              "in": false,
+              "label": "false"
+            }
+          ],
+          "title": "Condition",
+          "color": "#02630ae6",
+          "portsInOrder": [
+            "bcaab521-9e89-4e12-9298-95f5039cc53b"
+          ],
+          "portsOutOrder": [
+            "789ca142-46dd-4fb2-93a3-ec0a9d2ccfd1",
+            "3782c90d-5ef4-4101-adab-408cdb60b1e0"
+          ],
+          "conditions": {
+            "conditions": [
+              "hasItem"
+            ],
+            "args": [
+              [
+                "GIANT_KEY",
+                "1",
+                "false"
+              ]
+            ]
+          }
         }
       }
     }
