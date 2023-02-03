@@ -79,7 +79,7 @@
             {
               "id": "a61d04eb-4bf0-4259-8ae7-2e216171497f",
               "type": "point",
-              "x": 726.625,
+              "x": 732.75,
               "y": 181.5
             },
             {
@@ -135,7 +135,7 @@
             {
               "id": "8a2ea8b4-61f6-4660-b287-d8cf9ecd75da",
               "type": "point",
-              "x": 1174.203125,
+              "x": 1190.625,
               "y": 199.5
             },
             {
@@ -143,34 +143,6 @@
               "type": "point",
               "x": 822.5,
               "y": 285.5
-            }
-          ],
-          "labels": [],
-          "width": 3,
-          "color": "gray",
-          "curvyness": 50,
-          "selectedColor": "rgb(0,192,255)"
-        },
-        "c4871d21-d8ec-4fff-a7d0-2fbd1f230fa5": {
-          "id": "c4871d21-d8ec-4fff-a7d0-2fbd1f230fa5",
-          "type": "default",
-          "selected": false,
-          "source": "b223f538-94b4-4c03-98b5-05e3b00068e7",
-          "sourcePort": "dc4426c0-8b7f-4868-9a75-275b4acfb64d",
-          "target": "d71f83d5-ce06-49b1-908f-fa40f02182f0",
-          "targetPort": "2ef2a2dc-e054-4fc9-ab1f-e196cf004072",
-          "points": [
-            {
-              "id": "397f2b7d-c796-45fb-b833-0c8ea5a876e2",
-              "type": "point",
-              "x": 1172.0625,
-              "y": 182.5
-            },
-            {
-              "id": "793e21bf-ccdb-4f42-ad07-f8b34fcb0580",
-              "type": "point",
-              "x": 1233.5,
-              "y": 182.5
             }
           ],
           "labels": [],
@@ -191,7 +163,7 @@
             {
               "id": "439fb2c0-62aa-41f7-9404-c49a2fbeebcd",
               "type": "point",
-              "x": 726.640625,
+              "x": 732.765625,
               "y": 145.5
             },
             {
@@ -199,6 +171,34 @@
               "type": "point",
               "x": 385.5,
               "y": 292.5
+            }
+          ],
+          "labels": [],
+          "width": 3,
+          "color": "gray",
+          "curvyness": 50,
+          "selectedColor": "rgb(0,192,255)"
+        },
+        "73153b08-1643-4d82-9d60-3ee63cfbb7d1": {
+          "id": "73153b08-1643-4d82-9d60-3ee63cfbb7d1",
+          "type": "default",
+          "selected": false,
+          "source": "b223f538-94b4-4c03-98b5-05e3b00068e7",
+          "sourcePort": "dc4426c0-8b7f-4868-9a75-275b4acfb64d",
+          "target": "4a6de099-43ee-4231-98ab-5d53c8fb7aa3",
+          "targetPort": "f7af6633-d625-4252-9fe7-d81eaf71d3d6",
+          "points": [
+            {
+              "id": "01dee9ba-8466-4dfc-beda-4dd12153962e",
+              "type": "point",
+              "x": 1188.484375,
+              "y": 182.5
+            },
+            {
+              "id": "26b4f0e8-191d-42d6-87fa-6fc1448085af",
+              "type": "point",
+              "x": 1262.5,
+              "y": 183.5
             }
           ],
           "labels": [],
@@ -237,7 +237,7 @@
             }
           ],
           "title": "Start",
-          "color": "#16db26",
+          "color": "#16db26e6",
           "portsInOrder": [],
           "portsOutOrder": [
             "741428bc-8cb1-4e82-9631-68ce7fd1060a"
@@ -280,7 +280,7 @@
             }
           ],
           "title": "Karim",
-          "color": "#dd341e",
+          "color": "#dd341ee6",
           "portsInOrder": [
             "3944af75-155c-47db-8ab7-46d38b2b3586"
           ],
@@ -313,7 +313,7 @@
             {
               "id": "abac1ee8-a712-47ef-9c93-23f49a280ada",
               "type": "default",
-              "x": 719.140625,
+              "x": 725.265625,
               "y": 138,
               "name": "out-1654534523328",
               "alignment": "right",
@@ -327,7 +327,7 @@
             {
               "id": "4b1295c9-fed6-4950-ac9b-a7afcd4a3cac",
               "type": "default",
-              "x": 719.125,
+              "x": 725.25,
               "y": 174,
               "name": "out-1654534534210",
               "alignment": "right",
@@ -340,7 +340,7 @@
             }
           ],
           "title": "Select an option.",
-          "color": "#0756b1",
+          "color": "#0756b1e6",
           "portsInOrder": [
             "71804d4b-b0f8-41ff-b4fd-055595cc005b"
           ],
@@ -375,13 +375,13 @@
             {
               "id": "dc4426c0-8b7f-4868-9a75-275b4acfb64d",
               "type": "default",
-              "x": 1164.5625,
+              "x": 1180.984375,
               "y": 175,
               "name": "out-1654534588863",
               "alignment": "right",
               "parentNode": "b223f538-94b4-4c03-98b5-05e3b00068e7",
               "links": [
-                "c4871d21-d8ec-4fff-a7d0-2fbd1f230fa5"
+                "73153b08-1643-4d82-9d60-3ee63cfbb7d1"
               ],
               "in": false,
               "label": "true"
@@ -389,7 +389,7 @@
             {
               "id": "564e68aa-0a24-4c07-8276-f5d605c93e60",
               "type": "default",
-              "x": 1166.703125,
+              "x": 1183.125,
               "y": 192,
               "name": "out-16545345888631",
               "alignment": "right",
@@ -416,7 +416,7 @@
             }
           ],
           "title": "Condition",
-          "color": "#02630a",
+          "color": "#02630ae6",
           "portsInOrder": [
             "70a218a2-8768-4e36-bb8b-1e2ce50c03e7"
           ],
@@ -474,7 +474,7 @@
             }
           ],
           "title": "<player>",
-          "color": "#dd341e",
+          "color": "#dd341ee6",
           "portsInOrder": [
             "44fb5a05-9398-4e7f-b261-2e2d88175845"
           ],
@@ -518,7 +518,7 @@
             }
           ],
           "title": "Karim",
-          "color": "#dd341e",
+          "color": "#dd341ee6",
           "portsInOrder": [
             "ebb31093-6f0e-417d-9cfd-f0ae0d8070c5"
           ],
@@ -527,64 +527,10 @@
           ],
           "text": "Come back when you have some."
         },
-        "d71f83d5-ce06-49b1-908f-fa40f02182f0": {
-          "id": "d71f83d5-ce06-49b1-908f-fa40f02182f0",
-          "type": "action",
-          "selected": false,
-          "x": 1239,
-          "y": 144,
-          "ports": [
-            {
-              "id": "2ef2a2dc-e054-4fc9-ab1f-e196cf004072",
-              "type": "default",
-              "x": 1226,
-              "y": 175,
-              "name": "in-1654534629085 ",
-              "alignment": "left",
-              "parentNode": "d71f83d5-ce06-49b1-908f-fa40f02182f0",
-              "links": [
-                "c4871d21-d8ec-4fff-a7d0-2fbd1f230fa5"
-              ],
-              "in": true,
-              "label": "❯"
-            },
-            {
-              "id": "e9fc2dad-4f2e-4a4c-8f31-13827469d037",
-              "type": "default",
-              "x": 1488.140625,
-              "y": 175,
-              "name": "out-1654534629085",
-              "alignment": "right",
-              "parentNode": "d71f83d5-ce06-49b1-908f-fa40f02182f0",
-              "links": [],
-              "in": false,
-              "label": "❯"
-            }
-          ],
-          "title": "Action",
-          "color": "#3e077e",
-          "portsInOrder": [
-            "2ef2a2dc-e054-4fc9-ab1f-e196cf004072"
-          ],
-          "portsOutOrder": [
-            "e9fc2dad-4f2e-4a4c-8f31-13827469d037"
-          ],
-          "actions": {
-            "actions": [
-              "giveItem"
-            ],
-            "args": [
-              [
-                "KEBAB",
-                "1"
-              ]
-            ]
-          }
-        },
         "4ace69c9-25d5-4290-8a19-62ded9573eff": {
           "id": "4ace69c9-25d5-4290-8a19-62ded9573eff",
           "type": "dialogue",
-          "selected": true,
+          "selected": false,
           "x": 391,
           "y": 254,
           "ports": [
@@ -616,7 +562,7 @@
             }
           ],
           "title": "<player>",
-          "color": "#dd341e",
+          "color": "#dd341ee6",
           "portsInOrder": [
             "f1a33cdd-fddf-484d-a813-d873727add63"
           ],
@@ -624,8 +570,69 @@
             "3b3a4f39-8f71-43f7-9bec-789c10b4f287"
           ],
           "text": "I think I'll give it a miss."
+        },
+        "4a6de099-43ee-4231-98ab-5d53c8fb7aa3": {
+          "id": "4a6de099-43ee-4231-98ab-5d53c8fb7aa3",
+          "type": "action",
+          "selected": false,
+          "x": 1268,
+          "y": 145,
+          "ports": [
+            {
+              "id": "f7af6633-d625-4252-9fe7-d81eaf71d3d6",
+              "type": "default",
+              "x": 1255,
+              "y": 176,
+              "name": "in-1675431578703 ",
+              "alignment": "left",
+              "parentNode": "4a6de099-43ee-4231-98ab-5d53c8fb7aa3",
+              "links": [
+                "73153b08-1643-4d82-9d60-3ee63cfbb7d1"
+              ],
+              "in": true,
+              "label": "❯"
+            },
+            {
+              "id": "25e6d985-7ff2-4712-bdf7-d24d6115708b",
+              "type": "default",
+              "x": 1573.140625,
+              "y": 176,
+              "name": "out-1675431578703",
+              "alignment": "right",
+              "parentNode": "4a6de099-43ee-4231-98ab-5d53c8fb7aa3",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Action",
+          "color": "#3e077ee6",
+          "portsInOrder": [
+            "f7af6633-d625-4252-9fe7-d81eaf71d3d6"
+          ],
+          "portsOutOrder": [
+            "25e6d985-7ff2-4712-bdf7-d24d6115708b"
+          ],
+          "actions": {
+            "actions": [
+              "takeItem",
+              "giveItem"
+            ],
+            "args": [
+              [
+                "COINS",
+                "1",
+                "false"
+              ],
+              [
+                "KEBAB",
+                "1"
+              ]
+            ]
+          }
         }
       }
     }
-  ]
+  ],
+  "trees": {}
 }
