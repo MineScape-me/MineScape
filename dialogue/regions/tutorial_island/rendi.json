@@ -1,7 +1,7 @@
 {
   "id": "6376571a-b394-432b-86a5-ab56f04f0d39",
-  "offsetX": 352,
-  "offsetY": 7,
+  "offsetX": 430,
+  "offsetY": 129,
   "zoom": 100,
   "gridSize": 0,
   "layers": [
@@ -11,34 +11,6 @@
       "isSvg": true,
       "transformed": true,
       "models": {
-        "24a20008-5645-495c-8a15-0f2dee6e52f9": {
-          "id": "24a20008-5645-495c-8a15-0f2dee6e52f9",
-          "type": "default",
-          "selected": false,
-          "source": "634dde6f-4cfe-41c2-ba5c-d40148121895",
-          "sourcePort": "8d9dad06-d3bc-48a8-9470-ee07ae14edb0",
-          "target": "466a5b9e-adb5-4e44-814c-e3ffc752626d",
-          "targetPort": "c5f35036-a8f8-42f0-a904-cfab20e6877c",
-          "points": [
-            {
-              "id": "91fa20b2-13e9-4f75-9dba-7b91e347f7f0",
-              "type": "point",
-              "x": 229.296875,
-              "y": 60.5
-            },
-            {
-              "id": "43386f7f-12b6-43a4-9196-e192a1f440d3",
-              "type": "point",
-              "x": 293.5,
-              "y": 60.5
-            }
-          ],
-          "labels": [],
-          "width": 3,
-          "color": "gray",
-          "curvyness": 50,
-          "selectedColor": "rgb(0,192,255)"
-        },
         "0588992f-1ff6-44ad-9202-209a95bc9484": {
           "id": "0588992f-1ff6-44ad-9202-209a95bc9484",
           "type": "default",
@@ -318,6 +290,62 @@
           "color": "gray",
           "curvyness": 50,
           "selectedColor": "rgb(0,192,255)"
+        },
+        "94dd9e75-85f7-4e45-be0a-b41f2019ba2e": {
+          "id": "94dd9e75-85f7-4e45-be0a-b41f2019ba2e",
+          "type": "default",
+          "selected": false,
+          "source": "3ed6efa9-39a6-405d-b141-f55fe6b69bbc",
+          "sourcePort": "b5f1823d-488f-45f3-bc61-7ae13c4cdbdd",
+          "target": "466a5b9e-adb5-4e44-814c-e3ffc752626d",
+          "targetPort": "c5f35036-a8f8-42f0-a904-cfab20e6877c",
+          "points": [
+            {
+              "id": "368d52b2-52b1-4d4f-a8c8-4b55bdcb6053",
+              "type": "point",
+              "x": 660.359375,
+              "y": 2.5
+            },
+            {
+              "id": "14145571-788c-4ccb-b29d-24628e3773ce",
+              "type": "point",
+              "x": 293.5,
+              "y": 60.5
+            }
+          ],
+          "labels": [],
+          "width": 3,
+          "color": "gray",
+          "curvyness": 50,
+          "selectedColor": "rgb(0,192,255)"
+        },
+        "a25b7fb3-2068-47e7-8eb6-afad961637e9": {
+          "id": "a25b7fb3-2068-47e7-8eb6-afad961637e9",
+          "type": "default",
+          "selected": false,
+          "source": "634dde6f-4cfe-41c2-ba5c-d40148121895",
+          "sourcePort": "8d9dad06-d3bc-48a8-9470-ee07ae14edb0",
+          "target": "3ed6efa9-39a6-405d-b141-f55fe6b69bbc",
+          "targetPort": "e559a572-e2cf-4323-aea6-182f9d56525c",
+          "points": [
+            {
+              "id": "86863de9-67b8-4828-95dc-cb4d628614a8",
+              "type": "point",
+              "x": 222.296875,
+              "y": -14.5
+            },
+            {
+              "id": "69836231-f6e5-4dbd-9738-6382319ab2c0",
+              "type": "point",
+              "x": 294.5,
+              "y": -14.5
+            }
+          ],
+          "labels": [],
+          "width": 3,
+          "color": "gray",
+          "curvyness": 50,
+          "selectedColor": "rgb(0,192,255)"
         }
       }
     },
@@ -330,19 +358,20 @@
         "634dde6f-4cfe-41c2-ba5c-d40148121895": {
           "id": "634dde6f-4cfe-41c2-ba5c-d40148121895",
           "type": "start",
-          "x": 146,
-          "y": 46,
+          "selected": false,
+          "x": 139,
+          "y": -29,
           "ports": [
             {
               "id": "8d9dad06-d3bc-48a8-9470-ee07ae14edb0",
               "type": "default",
-              "x": 221.796875,
-              "y": 53,
+              "x": 214.796875,
+              "y": -22,
               "name": "out-1657921445006",
               "alignment": "right",
               "parentNode": "634dde6f-4cfe-41c2-ba5c-d40148121895",
               "links": [
-                "24a20008-5645-495c-8a15-0f2dee6e52f9"
+                "a25b7fb3-2068-47e7-8eb6-afad961637e9"
               ],
               "in": false,
               "label": "❯"
@@ -371,7 +400,7 @@
               "alignment": "left",
               "parentNode": "466a5b9e-adb5-4e44-814c-e3ffc752626d",
               "links": [
-                "24a20008-5645-495c-8a15-0f2dee6e52f9"
+                "94dd9e75-85f7-4e45-be0a-b41f2019ba2e"
               ],
               "in": true,
               "label": "❯"
@@ -912,6 +941,74 @@
             "args": [
               [
                 "TUTORIAL_RESET_SKILLS"
+              ]
+            ]
+          }
+        },
+        "3ed6efa9-39a6-405d-b141-f55fe6b69bbc": {
+          "id": "3ed6efa9-39a6-405d-b141-f55fe6b69bbc",
+          "type": "condition",
+          "selected": false,
+          "x": 300,
+          "y": -53,
+          "ports": [
+            {
+              "id": "e559a572-e2cf-4323-aea6-182f9d56525c",
+              "type": "default",
+              "x": 287,
+              "y": -22,
+              "name": "in-1675775141379 ",
+              "alignment": "left",
+              "parentNode": "3ed6efa9-39a6-405d-b141-f55fe6b69bbc",
+              "links": [
+                "a25b7fb3-2068-47e7-8eb6-afad961637e9"
+              ],
+              "in": true,
+              "label": "❯"
+            },
+            {
+              "id": "f5e0cf12-859e-402e-b7c3-db344eeb0756",
+              "type": "default",
+              "x": 650.71875,
+              "y": -22,
+              "name": "out-1675775141379",
+              "alignment": "right",
+              "parentNode": "3ed6efa9-39a6-405d-b141-f55fe6b69bbc",
+              "links": [],
+              "in": false,
+              "label": "true"
+            },
+            {
+              "id": "b5f1823d-488f-45f3-bc61-7ae13c4cdbdd",
+              "type": "default",
+              "x": 652.859375,
+              "y": -5,
+              "name": "out-16757751413791",
+              "alignment": "right",
+              "parentNode": "3ed6efa9-39a6-405d-b141-f55fe6b69bbc",
+              "links": [
+                "94dd9e75-85f7-4e45-be0a-b41f2019ba2e"
+              ],
+              "in": false,
+              "label": "false"
+            }
+          ],
+          "title": "Condition",
+          "color": "#02630ae6",
+          "portsInOrder": [
+            "e559a572-e2cf-4323-aea6-182f9d56525c"
+          ],
+          "portsOutOrder": [
+            "f5e0cf12-859e-402e-b7c3-db344eeb0756",
+            "b5f1823d-488f-45f3-bc61-7ae13c4cdbdd"
+          ],
+          "conditions": {
+            "conditions": [
+              "hasQuestCompleted"
+            ],
+            "args": [
+              [
+                "TUTORIALISLAND"
               ]
             ]
           }
