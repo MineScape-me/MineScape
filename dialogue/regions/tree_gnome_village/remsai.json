@@ -1,0 +1,272 @@
+{
+  "id": "0c9bb0b4-5bef-4781-9de8-a924a2cd0f9c",
+  "offsetX": 0,
+  "offsetY": 0,
+  "zoom": 100,
+  "gridSize": 0,
+  "layers": [
+    {
+      "id": "59138056-f841-4685-895e-622c84f00955",
+      "type": "diagram-links",
+      "isSvg": true,
+      "transformed": true,
+      "models": {
+        "a18ddea0-f0bd-460e-a84d-9229931fe571": {
+          "id": "a18ddea0-f0bd-460e-a84d-9229931fe571",
+          "type": "default",
+          "source": "dc72405a-1e76-4d63-aec3-2b314d120776",
+          "sourcePort": "c89c4a52-f39b-4165-842c-ac12182f2e11",
+          "target": "dff6c160-d0c9-420a-911a-54934cf50d5b",
+          "targetPort": "110b911e-e72d-4f65-bca4-14b20af2ee5e",
+          "points": [
+            {
+              "id": "1fd6cdaf-fb4f-4233-8756-d27824fea96b",
+              "type": "point",
+              "x": 279.40625,
+              "y": 65.5
+            },
+            {
+              "id": "72a3cb65-c629-4daa-9613-2a863dccaf06",
+              "type": "point",
+              "x": 162.5,
+              "y": 128.5
+            }
+          ],
+          "labels": [],
+          "width": 3,
+          "color": "gray",
+          "curvyness": 50,
+          "selectedColor": "rgb(0,192,255)"
+        },
+        "128874d7-dab7-4027-8e8f-b9b473d1e014": {
+          "id": "128874d7-dab7-4027-8e8f-b9b473d1e014",
+          "type": "default",
+          "source": "dff6c160-d0c9-420a-911a-54934cf50d5b",
+          "sourcePort": "f3ac9b04-7432-4ab1-b78b-1e41589da7c9",
+          "target": "c0220269-08b4-41b1-83e5-7f538a73259a",
+          "targetPort": "c5e649b4-e350-4d45-b452-e4900578f0b0",
+          "points": [
+            {
+              "id": "25b64fd2-963f-43a8-ba2d-85fa671a7f80",
+              "type": "point",
+              "x": 631.1875,
+              "y": 128.5
+            },
+            {
+              "id": "b91440f0-3899-4457-bbf8-334d618f94ab",
+              "type": "point",
+              "x": 162.5,
+              "y": 191.5
+            }
+          ],
+          "labels": [],
+          "width": 3,
+          "color": "gray",
+          "curvyness": 50,
+          "selectedColor": "rgb(0,192,255)"
+        },
+        "6de6ce51-8345-4fac-a431-3165c40c1efd": {
+          "id": "6de6ce51-8345-4fac-a431-3165c40c1efd",
+          "type": "default",
+          "selected": false,
+          "source": "466fb42a-5767-4642-9bab-ef6c3c46169e",
+          "sourcePort": "f80832e7-bd4c-4c27-9320-f43b116e7cf1",
+          "target": "dc72405a-1e76-4d63-aec3-2b314d120776",
+          "targetPort": "42f0b36d-ea03-46c7-b5bf-58a296675022",
+          "points": [
+            {
+              "id": "9798ee3c-7eb2-4a43-ba35-0b9325efb9af",
+              "type": "point",
+              "x": 133.296875,
+              "y": 64.5
+            },
+            {
+              "id": "a469a041-c005-4726-abf4-a45c9ab9d22c",
+              "type": "point",
+              "x": 162.5,
+              "y": 65.5
+            }
+          ],
+          "labels": [],
+          "width": 3,
+          "color": "gray",
+          "curvyness": 50,
+          "selectedColor": "rgb(0,192,255)"
+        }
+      }
+    },
+    {
+      "id": "56be0132-6ca6-44f5-a40e-92a899e5c572",
+      "type": "diagram-nodes",
+      "isSvg": false,
+      "transformed": true,
+      "models": {
+        "466fb42a-5767-4642-9bab-ef6c3c46169e": {
+          "id": "466fb42a-5767-4642-9bab-ef6c3c46169e",
+          "type": "start",
+          "x": 50,
+          "y": 50,
+          "ports": [
+            {
+              "id": "f80832e7-bd4c-4c27-9320-f43b116e7cf1",
+              "type": "default",
+              "x": 125.796875,
+              "y": 57,
+              "name": "out-1680341154410",
+              "alignment": "right",
+              "parentNode": "466fb42a-5767-4642-9bab-ef6c3c46169e",
+              "links": [
+                "6de6ce51-8345-4fac-a431-3165c40c1efd"
+              ],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Start",
+          "color": "#16db26e6",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "f80832e7-bd4c-4c27-9320-f43b116e7cf1"
+          ]
+        },
+        "dc72405a-1e76-4d63-aec3-2b314d120776": {
+          "id": "dc72405a-1e76-4d63-aec3-2b314d120776",
+          "type": "dialogue",
+          "selected": false,
+          "x": 168,
+          "y": 27,
+          "ports": [
+            {
+              "id": "42f0b36d-ea03-46c7-b5bf-58a296675022",
+              "type": "default",
+              "x": 155,
+              "y": 58,
+              "name": "in-1680341344527 ",
+              "alignment": "left",
+              "parentNode": "dc72405a-1e76-4d63-aec3-2b314d120776",
+              "links": [
+                "6de6ce51-8345-4fac-a431-3165c40c1efd"
+              ],
+              "in": true,
+              "label": "❯"
+            },
+            {
+              "id": "c89c4a52-f39b-4165-842c-ac12182f2e11",
+              "type": "default",
+              "x": 271.90625,
+              "y": 58,
+              "name": "out-1680341344527",
+              "alignment": "right",
+              "parentNode": "dc72405a-1e76-4d63-aec3-2b314d120776",
+              "links": [
+                "a18ddea0-f0bd-460e-a84d-9229931fe571"
+              ],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "<player>",
+          "color": "#dd341ee6",
+          "portsInOrder": [
+            "42f0b36d-ea03-46c7-b5bf-58a296675022"
+          ],
+          "portsOutOrder": [
+            "c89c4a52-f39b-4165-842c-ac12182f2e11"
+          ],
+          "text": "Hello."
+        },
+        "dff6c160-d0c9-420a-911a-54934cf50d5b": {
+          "id": "dff6c160-d0c9-420a-911a-54934cf50d5b",
+          "type": "dialogue",
+          "selected": false,
+          "x": 168,
+          "y": 90,
+          "ports": [
+            {
+              "id": "110b911e-e72d-4f65-bca4-14b20af2ee5e",
+              "type": "default",
+              "x": 155,
+              "y": 121,
+              "name": "in-1680341346334 ",
+              "alignment": "left",
+              "parentNode": "dff6c160-d0c9-420a-911a-54934cf50d5b",
+              "links": [
+                "a18ddea0-f0bd-460e-a84d-9229931fe571"
+              ],
+              "in": true,
+              "label": "❯"
+            },
+            {
+              "id": "f3ac9b04-7432-4ab1-b78b-1e41589da7c9",
+              "type": "default",
+              "x": 623.6875,
+              "y": 121,
+              "name": "out-1680341346334",
+              "alignment": "right",
+              "parentNode": "dff6c160-d0c9-420a-911a-54934cf50d5b",
+              "links": [
+                "128874d7-dab7-4027-8e8f-b9b473d1e014"
+              ],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Remsai",
+          "color": "#dd341ee6",
+          "portsInOrder": [
+            "110b911e-e72d-4f65-bca4-14b20af2ee5e"
+          ],
+          "portsOutOrder": [
+            "f3ac9b04-7432-4ab1-b78b-1e41589da7c9"
+          ],
+          "text": "Well done, well done. Not many find their way in here."
+        },
+        "c0220269-08b4-41b1-83e5-7f538a73259a": {
+          "id": "c0220269-08b4-41b1-83e5-7f538a73259a",
+          "type": "dialogue",
+          "selected": false,
+          "x": 168,
+          "y": 153,
+          "ports": [
+            {
+              "id": "c5e649b4-e350-4d45-b452-e4900578f0b0",
+              "type": "default",
+              "x": 155,
+              "y": 184,
+              "name": "in-1680341347532 ",
+              "alignment": "left",
+              "parentNode": "c0220269-08b4-41b1-83e5-7f538a73259a",
+              "links": [
+                "128874d7-dab7-4027-8e8f-b9b473d1e014"
+              ],
+              "in": true,
+              "label": "❯"
+            },
+            {
+              "id": "f04556f3-81b4-4ffe-b298-18a4b2ff3827",
+              "type": "default",
+              "x": 623.6875,
+              "y": 184,
+              "name": "out-1680341347532",
+              "alignment": "right",
+              "parentNode": "c0220269-08b4-41b1-83e5-7f538a73259a",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Remsai",
+          "color": "#dd341ee6",
+          "portsInOrder": [
+            "c5e649b4-e350-4d45-b452-e4900578f0b0"
+          ],
+          "portsOutOrder": [
+            "f04556f3-81b4-4ffe-b298-18a4b2ff3827"
+          ],
+          "text": "I'm Remsai, a tree gnome. We live in this maze for our\nprotection. Have a look around and enjoy."
+        }
+      }
+    }
+  ],
+  "trees": {}
+}

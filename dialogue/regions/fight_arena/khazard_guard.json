@@ -1,0 +1,345 @@
+{
+  "id": "30a0bc00-e26d-434e-984a-ae7c1153da58",
+  "offsetX": 0,
+  "offsetY": 0,
+  "zoom": 100,
+  "gridSize": 0,
+  "layers": [
+    {
+      "id": "542ec4f8-22d1-4151-adf1-5c7203772970",
+      "type": "diagram-links",
+      "isSvg": true,
+      "transformed": true,
+      "models": {
+        "78680d1c-eae2-4d04-8698-21be53c94d90": {
+          "id": "78680d1c-eae2-4d04-8698-21be53c94d90",
+          "type": "default",
+          "source": "7d76ebcf-08d6-4264-a3f6-453c26c2887a",
+          "sourcePort": "b207219f-b2cf-4982-ab2e-d92a264222ca",
+          "target": "b391f820-72a7-424d-a2df-473271456b2e",
+          "targetPort": "17b9ffe3-2594-4ed7-ac88-a63fc4142c00",
+          "points": [
+            {
+              "id": "d52a5e4d-f267-4fcb-909c-3621aa2d3ed3",
+              "type": "point",
+              "x": 278.40625,
+              "y": 63.5
+            },
+            {
+              "id": "5b89d7df-e986-489b-8661-5f07d78eb9fe",
+              "type": "point",
+              "x": 161.5,
+              "y": 126.5
+            }
+          ],
+          "labels": [],
+          "width": 3,
+          "color": "gray",
+          "curvyness": 50,
+          "selectedColor": "rgb(0,192,255)"
+        },
+        "5c1a19c5-5c32-4697-9664-1e667d0d56c4": {
+          "id": "5c1a19c5-5c32-4697-9664-1e667d0d56c4",
+          "type": "default",
+          "source": "b391f820-72a7-424d-a2df-473271456b2e",
+          "sourcePort": "c611198e-5a00-4d18-b350-b517b9f30ff0",
+          "target": "dc2b8e75-88bf-4719-b414-05ec54ca1740",
+          "targetPort": "c7202627-2619-4967-ab71-4594e4946cca",
+          "points": [
+            {
+              "id": "2514098e-bc9d-4182-9d7b-74260251274c",
+              "type": "point",
+              "x": 344.359375,
+              "y": 126.5
+            },
+            {
+              "id": "b4ef7abc-d0e3-42ee-b21e-dd714b48e177",
+              "type": "point",
+              "x": 161.5,
+              "y": 189.5
+            }
+          ],
+          "labels": [],
+          "width": 3,
+          "color": "gray",
+          "curvyness": 50,
+          "selectedColor": "rgb(0,192,255)"
+        },
+        "cb3626a8-4305-4e12-bb5c-84bf7da8ed15": {
+          "id": "cb3626a8-4305-4e12-bb5c-84bf7da8ed15",
+          "type": "default",
+          "source": "dc2b8e75-88bf-4719-b414-05ec54ca1740",
+          "sourcePort": "c0636f22-0bd4-4b44-a83d-db933f0d8af7",
+          "target": "a9d44194-dc27-4ed4-be16-46fcb151d91d",
+          "targetPort": "37dc29a3-08d6-4597-ba24-1cd55926639c",
+          "points": [
+            {
+              "id": "5c15a94b-eb8a-4238-9356-716aa25829b7",
+              "type": "point",
+              "x": 329.703125,
+              "y": 189.5
+            },
+            {
+              "id": "e39b6fab-2baf-4024-9dbf-b746f7a4837d",
+              "type": "point",
+              "x": 161.5,
+              "y": 252.5
+            }
+          ],
+          "labels": [],
+          "width": 3,
+          "color": "gray",
+          "curvyness": 50,
+          "selectedColor": "rgb(0,192,255)"
+        },
+        "4abe942b-b2eb-4e38-8cb0-4882fff26d58": {
+          "id": "4abe942b-b2eb-4e38-8cb0-4882fff26d58",
+          "type": "default",
+          "selected": false,
+          "source": "e974b578-0c04-431b-b126-a89bd2ac4a05",
+          "sourcePort": "35ad1f88-d1d6-4982-b7ab-efdddbd4ea77",
+          "target": "7d76ebcf-08d6-4264-a3f6-453c26c2887a",
+          "targetPort": "7d5147c9-ef45-4bab-bc03-628b74cef460",
+          "points": [
+            {
+              "id": "3c06013e-28ff-471f-9f82-094d16db9aa2",
+              "type": "point",
+              "x": 133.296875,
+              "y": 64.5
+            },
+            {
+              "id": "418e6706-be42-4f78-8f7d-294a98725ce7",
+              "type": "point",
+              "x": 161.5,
+              "y": 63.5
+            }
+          ],
+          "labels": [],
+          "width": 3,
+          "color": "gray",
+          "curvyness": 50,
+          "selectedColor": "rgb(0,192,255)"
+        }
+      }
+    },
+    {
+      "id": "4aeb23ab-0fe8-4438-bd05-b2dc4ac1490f",
+      "type": "diagram-nodes",
+      "isSvg": false,
+      "transformed": true,
+      "models": {
+        "e974b578-0c04-431b-b126-a89bd2ac4a05": {
+          "id": "e974b578-0c04-431b-b126-a89bd2ac4a05",
+          "type": "start",
+          "x": 50,
+          "y": 50,
+          "ports": [
+            {
+              "id": "35ad1f88-d1d6-4982-b7ab-efdddbd4ea77",
+              "type": "default",
+              "x": 125.796875,
+              "y": 57,
+              "name": "out-1680327396474",
+              "alignment": "right",
+              "parentNode": "e974b578-0c04-431b-b126-a89bd2ac4a05",
+              "links": [
+                "4abe942b-b2eb-4e38-8cb0-4882fff26d58"
+              ],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Start",
+          "color": "#16db26e6",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "35ad1f88-d1d6-4982-b7ab-efdddbd4ea77"
+          ]
+        },
+        "7d76ebcf-08d6-4264-a3f6-453c26c2887a": {
+          "id": "7d76ebcf-08d6-4264-a3f6-453c26c2887a",
+          "type": "dialogue",
+          "selected": false,
+          "x": 167,
+          "y": 25,
+          "ports": [
+            {
+              "id": "7d5147c9-ef45-4bab-bc03-628b74cef460",
+              "type": "default",
+              "x": 154,
+              "y": 56,
+              "name": "in-1680327448553 ",
+              "alignment": "left",
+              "parentNode": "7d76ebcf-08d6-4264-a3f6-453c26c2887a",
+              "links": [
+                "4abe942b-b2eb-4e38-8cb0-4882fff26d58"
+              ],
+              "in": true,
+              "label": "❯"
+            },
+            {
+              "id": "b207219f-b2cf-4982-ab2e-d92a264222ca",
+              "type": "default",
+              "x": 270.90625,
+              "y": 56,
+              "name": "out-1680327448553",
+              "alignment": "right",
+              "parentNode": "7d76ebcf-08d6-4264-a3f6-453c26c2887a",
+              "links": [
+                "78680d1c-eae2-4d04-8698-21be53c94d90"
+              ],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "<player>",
+          "color": "#dd341ee6",
+          "portsInOrder": [
+            "7d5147c9-ef45-4bab-bc03-628b74cef460"
+          ],
+          "portsOutOrder": [
+            "b207219f-b2cf-4982-ab2e-d92a264222ca"
+          ],
+          "text": "Hello."
+        },
+        "b391f820-72a7-424d-a2df-473271456b2e": {
+          "id": "b391f820-72a7-424d-a2df-473271456b2e",
+          "type": "dialogue",
+          "selected": false,
+          "x": 167,
+          "y": 88,
+          "ports": [
+            {
+              "id": "17b9ffe3-2594-4ed7-ac88-a63fc4142c00",
+              "type": "default",
+              "x": 154,
+              "y": 119,
+              "name": "in-1680327450350 ",
+              "alignment": "left",
+              "parentNode": "b391f820-72a7-424d-a2df-473271456b2e",
+              "links": [
+                "78680d1c-eae2-4d04-8698-21be53c94d90"
+              ],
+              "in": true,
+              "label": "❯"
+            },
+            {
+              "id": "c611198e-5a00-4d18-b350-b517b9f30ff0",
+              "type": "default",
+              "x": 336.859375,
+              "y": 119,
+              "name": "out-1680327450350",
+              "alignment": "right",
+              "parentNode": "b391f820-72a7-424d-a2df-473271456b2e",
+              "links": [
+                "5c1a19c5-5c32-4697-9664-1e667d0d56c4"
+              ],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Khazard Guard",
+          "color": "#dd341ee6",
+          "portsInOrder": [
+            "17b9ffe3-2594-4ed7-ac88-a63fc4142c00"
+          ],
+          "portsOutOrder": [
+            "c611198e-5a00-4d18-b350-b517b9f30ff0"
+          ],
+          "text": "Can I help you?"
+        },
+        "dc2b8e75-88bf-4719-b414-05ec54ca1740": {
+          "id": "dc2b8e75-88bf-4719-b414-05ec54ca1740",
+          "type": "dialogue",
+          "selected": false,
+          "x": 167,
+          "y": 151,
+          "ports": [
+            {
+              "id": "c7202627-2619-4967-ab71-4594e4946cca",
+              "type": "default",
+              "x": 154,
+              "y": 182,
+              "name": "in-1680327450930 ",
+              "alignment": "left",
+              "parentNode": "dc2b8e75-88bf-4719-b414-05ec54ca1740",
+              "links": [
+                "5c1a19c5-5c32-4697-9664-1e667d0d56c4"
+              ],
+              "in": true,
+              "label": "❯"
+            },
+            {
+              "id": "c0636f22-0bd4-4b44-a83d-db933f0d8af7",
+              "type": "default",
+              "x": 322.203125,
+              "y": 182,
+              "name": "out-1680327450930",
+              "alignment": "right",
+              "parentNode": "dc2b8e75-88bf-4719-b414-05ec54ca1740",
+              "links": [
+                "cb3626a8-4305-4e12-bb5c-84bf7da8ed15"
+              ],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "<player>",
+          "color": "#dd341ee6",
+          "portsInOrder": [
+            "c7202627-2619-4967-ab71-4594e4946cca"
+          ],
+          "portsOutOrder": [
+            "c0636f22-0bd4-4b44-a83d-db933f0d8af7"
+          ],
+          "text": "I'm not sure."
+        },
+        "a9d44194-dc27-4ed4-be16-46fcb151d91d": {
+          "id": "a9d44194-dc27-4ed4-be16-46fcb151d91d",
+          "type": "dialogue",
+          "selected": false,
+          "x": 167,
+          "y": 214,
+          "ports": [
+            {
+              "id": "37dc29a3-08d6-4597-ba24-1cd55926639c",
+              "type": "default",
+              "x": 154,
+              "y": 245,
+              "name": "in-1680327451578 ",
+              "alignment": "left",
+              "parentNode": "a9d44194-dc27-4ed4-be16-46fcb151d91d",
+              "links": [
+                "cb3626a8-4305-4e12-bb5c-84bf7da8ed15"
+              ],
+              "in": true,
+              "label": "❯"
+            },
+            {
+              "id": "bb46ee18-5738-4d42-b6a7-eff30aad60fb",
+              "type": "default",
+              "x": 608.03125,
+              "y": 245,
+              "name": "out-1680327451578",
+              "alignment": "right",
+              "parentNode": "a9d44194-dc27-4ed4-be16-46fcb151d91d",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Khazard Guard",
+          "color": "#dd341ee6",
+          "portsInOrder": [
+            "37dc29a3-08d6-4597-ba24-1cd55926639c"
+          ],
+          "portsOutOrder": [
+            "bb46ee18-5738-4d42-b6a7-eff30aad60fb"
+          ],
+          "text": "Well I'm off-duty right now, so why don't you go and\nbother someone else."
+        }
+      }
+    }
+  ],
+  "trees": {}
+}

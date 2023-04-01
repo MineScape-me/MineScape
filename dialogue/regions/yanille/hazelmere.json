@@ -1,0 +1,199 @@
+{
+  "id": "de06f79d-32d6-4c4e-89bd-a7e801a7e268",
+  "offsetX": 0,
+  "offsetY": 0,
+  "zoom": 100,
+  "gridSize": 0,
+  "layers": [
+    {
+      "id": "19f9d617-7453-4db0-8dc6-c5cf72af1831",
+      "type": "diagram-links",
+      "isSvg": true,
+      "transformed": true,
+      "models": {
+        "47279c98-cdcb-441e-bbe7-53acd19588ae": {
+          "id": "47279c98-cdcb-441e-bbe7-53acd19588ae",
+          "type": "default",
+          "source": "bfcd9758-a2c5-4ad3-9b28-e9584d3f3d01",
+          "sourcePort": "3852e707-8637-406f-8a24-f1023e2a9268",
+          "target": "cd9ea55b-370c-4985-a52b-1b20b935b0d6",
+          "targetPort": "55113432-cc2f-49a5-8111-3e85576a389c",
+          "points": [
+            {
+              "id": "f0f3b4a6-dc50-4960-8136-16914138e4bd",
+              "type": "point",
+              "x": 564.234375,
+              "y": 65.5
+            },
+            {
+              "id": "f88d7a94-4ae3-4c48-9682-498a5ec04200",
+              "type": "point",
+              "x": 161.5,
+              "y": 128.5
+            }
+          ],
+          "labels": [],
+          "width": 3,
+          "color": "gray",
+          "curvyness": 50,
+          "selectedColor": "rgb(0,192,255)"
+        },
+        "795cb89d-986b-4b97-a72e-9e624ef807fc": {
+          "id": "795cb89d-986b-4b97-a72e-9e624ef807fc",
+          "type": "default",
+          "selected": false,
+          "source": "09aa3163-a7be-4ef8-95bf-e61ed904417a",
+          "sourcePort": "bf0bf38e-ac62-4ac4-a1d7-c2821ea55a0e",
+          "target": "bfcd9758-a2c5-4ad3-9b28-e9584d3f3d01",
+          "targetPort": "739a5699-c86e-4e45-93b1-e55b89baae38",
+          "points": [
+            {
+              "id": "7db56e74-5d66-4470-92f7-296e54f87332",
+              "type": "point",
+              "x": 133.296875,
+              "y": 64.5
+            },
+            {
+              "id": "536daba1-2777-4106-a146-0df2838d27e6",
+              "type": "point",
+              "x": 161.5,
+              "y": 65.5
+            }
+          ],
+          "labels": [],
+          "width": 3,
+          "color": "gray",
+          "curvyness": 50,
+          "selectedColor": "rgb(0,192,255)"
+        }
+      }
+    },
+    {
+      "id": "84581174-2a8c-4a5c-86d1-618097d023da",
+      "type": "diagram-nodes",
+      "isSvg": false,
+      "transformed": true,
+      "models": {
+        "09aa3163-a7be-4ef8-95bf-e61ed904417a": {
+          "id": "09aa3163-a7be-4ef8-95bf-e61ed904417a",
+          "type": "start",
+          "x": 50,
+          "y": 50,
+          "ports": [
+            {
+              "id": "bf0bf38e-ac62-4ac4-a1d7-c2821ea55a0e",
+              "type": "default",
+              "x": 125.796875,
+              "y": 57,
+              "name": "out-1680310393928",
+              "alignment": "right",
+              "parentNode": "09aa3163-a7be-4ef8-95bf-e61ed904417a",
+              "links": [
+                "795cb89d-986b-4b97-a72e-9e624ef807fc"
+              ],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Start",
+          "color": "#16db26e6",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "bf0bf38e-ac62-4ac4-a1d7-c2821ea55a0e"
+          ]
+        },
+        "bfcd9758-a2c5-4ad3-9b28-e9584d3f3d01": {
+          "id": "bfcd9758-a2c5-4ad3-9b28-e9584d3f3d01",
+          "type": "dialogue",
+          "selected": false,
+          "x": 167,
+          "y": 27,
+          "ports": [
+            {
+              "id": "739a5699-c86e-4e45-93b1-e55b89baae38",
+              "type": "default",
+              "x": 154,
+              "y": 58,
+              "name": "in-1680310521017 ",
+              "alignment": "left",
+              "parentNode": "bfcd9758-a2c5-4ad3-9b28-e9584d3f3d01",
+              "links": [
+                "795cb89d-986b-4b97-a72e-9e624ef807fc"
+              ],
+              "in": true,
+              "label": "❯"
+            },
+            {
+              "id": "3852e707-8637-406f-8a24-f1023e2a9268",
+              "type": "default",
+              "x": 556.734375,
+              "y": 58,
+              "name": "out-1680310521017",
+              "alignment": "right",
+              "parentNode": "bfcd9758-a2c5-4ad3-9b28-e9584d3f3d01",
+              "links": [
+                "47279c98-cdcb-441e-bbe7-53acd19588ae"
+              ],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "",
+          "color": "#dd341ee6",
+          "portsInOrder": [
+            "739a5699-c86e-4e45-93b1-e55b89baae38"
+          ],
+          "portsOutOrder": [
+            "3852e707-8637-406f-8a24-f1023e2a9268"
+          ],
+          "text": "The mage starts to speak but all you hear is:"
+        },
+        "cd9ea55b-370c-4985-a52b-1b20b935b0d6": {
+          "id": "cd9ea55b-370c-4985-a52b-1b20b935b0d6",
+          "type": "dialogue",
+          "selected": false,
+          "x": 167,
+          "y": 90,
+          "ports": [
+            {
+              "id": "55113432-cc2f-49a5-8111-3e85576a389c",
+              "type": "default",
+              "x": 154,
+              "y": 121,
+              "name": "in-1680310523412 ",
+              "alignment": "left",
+              "parentNode": "cd9ea55b-370c-4985-a52b-1b20b935b0d6",
+              "links": [
+                "47279c98-cdcb-441e-bbe7-53acd19588ae"
+              ],
+              "in": true,
+              "label": "❯"
+            },
+            {
+              "id": "dc7bef5e-8012-4a0e-8091-33b6f5cea24b",
+              "type": "default",
+              "x": 490.765625,
+              "y": 121,
+              "name": "out-1680310523412",
+              "alignment": "right",
+              "parentNode": "cd9ea55b-370c-4985-a52b-1b20b935b0d6",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Hazelmere",
+          "color": "#dd341ee6",
+          "portsInOrder": [
+            "55113432-cc2f-49a5-8111-3e85576a389c"
+          ],
+          "portsOutOrder": [
+            "dc7bef5e-8012-4a0e-8091-33b6f5cea24b"
+          ],
+          "text": "Blah. Blah, blah, blah, blah...blah!"
+        }
+      }
+    }
+  ],
+  "trees": {}
+}

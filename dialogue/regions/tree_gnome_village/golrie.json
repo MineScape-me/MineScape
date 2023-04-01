@@ -1,0 +1,126 @@
+{
+  "id": "5de07915-ef6c-4758-9a22-e37309be1cdf",
+  "offsetX": 168,
+  "offsetY": 137,
+  "zoom": 100,
+  "gridSize": 0,
+  "layers": [
+    {
+      "id": "29fb7761-d52c-4c8b-adf9-449e14298745",
+      "type": "diagram-links",
+      "isSvg": true,
+      "transformed": true,
+      "models": {
+        "b2a33e29-f568-49c2-88a5-d5680d971600": {
+          "id": "b2a33e29-f568-49c2-88a5-d5680d971600",
+          "type": "default",
+          "selected": false,
+          "source": "5397ad6f-f9cd-4360-b7ae-2df18a8a74ff",
+          "sourcePort": "8feb6ddf-ee19-41f4-9c58-046540101364",
+          "target": "3951e446-b981-4b98-9ebb-e53a51af8665",
+          "targetPort": "e37f8629-4922-431c-b5ff-984a47cc1d62",
+          "points": [
+            {
+              "id": "505be370-bb76-4889-87c8-030a5815a0eb",
+              "type": "point",
+              "x": 133.296875,
+              "y": 64.5
+            },
+            {
+              "id": "8d6f4fa0-006c-4667-91aa-5120b97d91a2",
+              "type": "point",
+              "x": 164.5,
+              "y": 64.5
+            }
+          ],
+          "labels": [],
+          "width": 3,
+          "color": "gray",
+          "curvyness": 50,
+          "selectedColor": "rgb(0,192,255)"
+        }
+      }
+    },
+    {
+      "id": "4816d939-be42-4610-8704-6bafc9637f97",
+      "type": "diagram-nodes",
+      "isSvg": false,
+      "transformed": true,
+      "models": {
+        "5397ad6f-f9cd-4360-b7ae-2df18a8a74ff": {
+          "id": "5397ad6f-f9cd-4360-b7ae-2df18a8a74ff",
+          "type": "start",
+          "x": 50,
+          "y": 50,
+          "ports": [
+            {
+              "id": "8feb6ddf-ee19-41f4-9c58-046540101364",
+              "type": "default",
+              "x": 125.796875,
+              "y": 57,
+              "name": "out-1680340485910",
+              "alignment": "right",
+              "parentNode": "5397ad6f-f9cd-4360-b7ae-2df18a8a74ff",
+              "links": [
+                "b2a33e29-f568-49c2-88a5-d5680d971600"
+              ],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Start",
+          "color": "#16db26e6",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "8feb6ddf-ee19-41f4-9c58-046540101364"
+          ]
+        },
+        "3951e446-b981-4b98-9ebb-e53a51af8665": {
+          "id": "3951e446-b981-4b98-9ebb-e53a51af8665",
+          "type": "dialogue",
+          "selected": true,
+          "x": 170,
+          "y": 26,
+          "ports": [
+            {
+              "id": "e37f8629-4922-431c-b5ff-984a47cc1d62",
+              "type": "default",
+              "x": 157,
+              "y": 57,
+              "name": "in-1680340999481 ",
+              "alignment": "left",
+              "parentNode": "3951e446-b981-4b98-9ebb-e53a51af8665",
+              "links": [
+                "b2a33e29-f568-49c2-88a5-d5680d971600"
+              ],
+              "in": true,
+              "label": "❯"
+            },
+            {
+              "id": "d6c7e5de-b38b-42bb-a89f-5ac197711382",
+              "type": "default",
+              "x": 596.375,
+              "y": 57,
+              "name": "out-1680340999482",
+              "alignment": "right",
+              "parentNode": "3951e446-b981-4b98-9ebb-e53a51af8665",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Golrie",
+          "color": "#dd341ee6",
+          "portsInOrder": [
+            "e37f8629-4922-431c-b5ff-984a47cc1d62"
+          ],
+          "portsOutOrder": [
+            "d6c7e5de-b38b-42bb-a89f-5ac197711382"
+          ],
+          "text": "What are you doing down here? Leave before you get\nyourself into trouble."
+        }
+      }
+    }
+  ],
+  "trees": {}
+}

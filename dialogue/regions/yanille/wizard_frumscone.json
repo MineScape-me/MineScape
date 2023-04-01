@@ -1,0 +1,126 @@
+{
+  "id": "bab8899d-00d2-4fd8-9f1b-6ad03a71209b",
+  "offsetX": 0,
+  "offsetY": 0,
+  "zoom": 100,
+  "gridSize": 0,
+  "layers": [
+    {
+      "id": "0dde5000-13c0-4959-b084-455e78c6b9ec",
+      "type": "diagram-links",
+      "isSvg": true,
+      "transformed": true,
+      "models": {
+        "08a2019c-dcd2-4441-a88d-f7afc647c99b": {
+          "id": "08a2019c-dcd2-4441-a88d-f7afc647c99b",
+          "type": "default",
+          "selected": false,
+          "source": "0b58fa42-2208-410f-a2bb-24e87c5b6743",
+          "sourcePort": "0f6e2493-405e-46c2-b2d0-6832862a8202",
+          "target": "3f353722-41c6-4c0e-9904-2fb801b8c463",
+          "targetPort": "dac6b7e0-4d9a-49cf-a22c-23c08683796e",
+          "points": [
+            {
+              "id": "082059e2-bf79-44cb-8ded-52d5934286e5",
+              "type": "point",
+              "x": 133.296875,
+              "y": 64.5
+            },
+            {
+              "id": "ff777586-0eb9-4268-9580-a8e1ca9c6efa",
+              "type": "point",
+              "x": 174.5,
+              "y": 64.5
+            }
+          ],
+          "labels": [],
+          "width": 3,
+          "color": "gray",
+          "curvyness": 50,
+          "selectedColor": "rgb(0,192,255)"
+        }
+      }
+    },
+    {
+      "id": "3ec91afc-48ee-4cff-aa9c-fe37af56ba5d",
+      "type": "diagram-nodes",
+      "isSvg": false,
+      "transformed": true,
+      "models": {
+        "0b58fa42-2208-410f-a2bb-24e87c5b6743": {
+          "id": "0b58fa42-2208-410f-a2bb-24e87c5b6743",
+          "type": "start",
+          "x": 50,
+          "y": 50,
+          "ports": [
+            {
+              "id": "0f6e2493-405e-46c2-b2d0-6832862a8202",
+              "type": "default",
+              "x": 125.796875,
+              "y": 57,
+              "name": "out-1680309581571",
+              "alignment": "right",
+              "parentNode": "0b58fa42-2208-410f-a2bb-24e87c5b6743",
+              "links": [
+                "08a2019c-dcd2-4441-a88d-f7afc647c99b"
+              ],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Start",
+          "color": "#16db26e6",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "0f6e2493-405e-46c2-b2d0-6832862a8202"
+          ]
+        },
+        "3f353722-41c6-4c0e-9904-2fb801b8c463": {
+          "id": "3f353722-41c6-4c0e-9904-2fb801b8c463",
+          "type": "dialogue",
+          "selected": false,
+          "x": 180,
+          "y": 26,
+          "ports": [
+            {
+              "id": "dac6b7e0-4d9a-49cf-a22c-23c08683796e",
+              "type": "default",
+              "x": 167,
+              "y": 57,
+              "name": "in-1680309585549 ",
+              "alignment": "left",
+              "parentNode": "3f353722-41c6-4c0e-9904-2fb801b8c463",
+              "links": [
+                "08a2019c-dcd2-4441-a88d-f7afc647c99b"
+              ],
+              "in": true,
+              "label": "❯"
+            },
+            {
+              "id": "31d90252-8d2d-4df8-be02-30b3c823ca07",
+              "type": "default",
+              "x": 628.359375,
+              "y": 57,
+              "name": "out-1680309585549",
+              "alignment": "right",
+              "parentNode": "3f353722-41c6-4c0e-9904-2fb801b8c463",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Wizard Frumscone",
+          "color": "#dd341ee6",
+          "portsInOrder": [
+            "dac6b7e0-4d9a-49cf-a22c-23c08683796e"
+          ],
+          "portsOutOrder": [
+            "31d90252-8d2d-4df8-be02-30b3c823ca07"
+          ],
+          "text": "Do you like my magic Zombies? Feel free to kill them,\nthere's plenty more where these came from!"
+        }
+      }
+    }
+  ],
+  "trees": {}
+}

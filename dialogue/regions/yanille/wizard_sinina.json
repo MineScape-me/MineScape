@@ -1,8 +1,8 @@
 {
   "id": "e57ba027-4fa6-49b3-b672-dff7c13976d6",
-  "offsetX": 120,
-  "offsetY": 122,
-  "zoom": 100,
+  "offsetX": 129.79181765049694,
+  "offsetY": 124.17139099941556,
+  "zoom": 94.99999999999999,
   "gridSize": 0,
   "layers": [
     {
@@ -821,7 +821,7 @@
         "64150d9e-d2e8-4c0c-9edb-4e6bba2bed42": {
           "id": "64150d9e-d2e8-4c0c-9edb-4e6bba2bed42",
           "type": "action",
-          "selected": true,
+          "selected": false,
           "x": 982,
           "y": 138,
           "ports": [
@@ -842,7 +842,7 @@
             {
               "id": "f3dff145-c23d-49b1-9022-3d0de034bb35",
               "type": "default",
-              "x": 1246.03125,
+              "x": 1309.625,
               "y": 169,
               "name": "out-1653394117513",
               "alignment": "right",
@@ -862,27 +862,14 @@
           ],
           "actions": {
             "actions": [
-              "basicAction"
+              "openShop"
             ],
             "args": [
               [
-                "EMPTY_ACTION"
+                "MagicGuildStoreMysticRobes"
               ]
             ]
           }
-        },
-        "9768bc5c-f442-4ea6-af0b-cb6fb527957a": {
-          "id": "9768bc5c-f442-4ea6-af0b-cb6fb527957a",
-          "type": "note",
-          "selected": false,
-          "x": 985,
-          "y": 215,
-          "ports": [],
-          "title": "Required",
-          "color": "#19e0e7e6",
-          "portsInOrder": [],
-          "portsOutOrder": [],
-          "text": "Awaiting shop to be added"
         }
       }
     }
