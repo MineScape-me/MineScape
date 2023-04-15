@@ -1,0 +1,922 @@
+{
+  "id": "ee3951bd-1bc0-44fe-b292-f0dca741fa74",
+  "offsetX": 235.6540305404258,
+  "offsetY": 9.11083024886409,
+  "zoom": 86.66666666666666,
+  "gridSize": 0,
+  "layers": [
+    {
+      "id": "5537b5e2-db0f-46b9-b512-a76399f1e176",
+      "type": "diagram-links",
+      "isSvg": true,
+      "transformed": true,
+      "models": {
+        "f2625f49-3c8a-4954-b190-8eab968f8074": {
+          "id": "f2625f49-3c8a-4954-b190-8eab968f8074",
+          "type": "default",
+          "selected": false,
+          "source": "d4851ed1-9c53-4822-81e8-7a06fa19e47c",
+          "sourcePort": "ae9620bc-8836-484b-a007-d8e2f2d4b0db",
+          "target": "1adf940f-4c84-4145-a796-5a2b70087076",
+          "targetPort": "5bb2f0c2-8a45-4266-8924-0f718ac67a42",
+          "points": [
+            {
+              "id": "8cf91eb0-88c5-47de-ba11-2cc84bdae9e9",
+              "type": "point",
+              "x": 485.171875,
+              "y": 101.5
+            },
+            {
+              "id": "7c8d35c6-a61f-4a0a-940a-d34a6768b3bb",
+              "type": "point",
+              "x": -5.5,
+              "y": 179.5
+            }
+          ],
+          "labels": [],
+          "width": 3,
+          "color": "gray",
+          "curvyness": 50,
+          "selectedColor": "rgb(0,192,255)"
+        },
+        "c4b19367-e2e9-4a27-ae56-0dd4bc3601e2": {
+          "id": "c4b19367-e2e9-4a27-ae56-0dd4bc3601e2",
+          "type": "default",
+          "selected": false,
+          "source": "1adf940f-4c84-4145-a796-5a2b70087076",
+          "sourcePort": "6627b6cc-3d14-467f-ad7c-e411f283e010",
+          "target": "38296952-5062-4e54-8a5c-333fc05177e2",
+          "targetPort": "16300aaa-c492-4645-83df-97ab5238963b",
+          "points": [
+            {
+              "id": "2e932cf3-7c5e-41ef-9208-e50518ae67ac",
+              "type": "point",
+              "x": 436.5625,
+              "y": 224.5
+            },
+            {
+              "id": "9ab1daf7-e7ab-48f4-8528-d6560d168f40",
+              "type": "point",
+              "x": 571.5,
+              "y": 221.5
+            }
+          ],
+          "labels": [],
+          "width": 3,
+          "color": "gray",
+          "curvyness": 50,
+          "selectedColor": "rgb(0,192,255)"
+        },
+        "79409497-f31c-44ed-8bfd-7d0cc9dc7c92": {
+          "id": "79409497-f31c-44ed-8bfd-7d0cc9dc7c92",
+          "type": "default",
+          "selected": false,
+          "source": "d62b42ab-616f-4860-938e-538a91775140",
+          "sourcePort": "93df02f4-8c45-4a49-820f-683829772e11",
+          "target": "d4851ed1-9c53-4822-81e8-7a06fa19e47c",
+          "targetPort": "523e88e8-8164-4ba5-81f0-a9986a56afda",
+          "points": [
+            {
+              "id": "88d7b39d-3a9b-4dc8-8124-cfe0636b440d",
+              "type": "point",
+              "x": 259.984375,
+              "y": 37.5
+            },
+            {
+              "id": "7c01ac56-25e8-427d-b2f2-0a7802592816",
+              "type": "point",
+              "x": -5.5,
+              "y": 101.5
+            }
+          ],
+          "labels": [],
+          "width": 3,
+          "color": "gray",
+          "curvyness": 50,
+          "selectedColor": "rgb(0,192,255)"
+        },
+        "8ccce052-0888-4e2f-a744-0a2f0e8dd8f4": {
+          "id": "8ccce052-0888-4e2f-a744-0a2f0e8dd8f4",
+          "type": "default",
+          "selected": false,
+          "source": "995ba2be-d8f6-4a8a-8a9e-b2ada69cb24f",
+          "sourcePort": "bce21f84-77c8-44a6-9b2a-a977dee56f63",
+          "target": "d62b42ab-616f-4860-938e-538a91775140",
+          "targetPort": "e440cee8-fd8c-4c8e-8fb7-664a177eb9a5",
+          "points": [
+            {
+              "id": "9ace7e4c-06a9-4d74-8762-cfd112aaaaf0",
+              "type": "point",
+              "x": -47.703125,
+              "y": 33.5
+            },
+            {
+              "id": "5c88637d-070d-460d-a4af-6d74f2c49c12",
+              "type": "point",
+              "x": -3.5,
+              "y": 37.5
+            }
+          ],
+          "labels": [],
+          "width": 3,
+          "color": "gray",
+          "curvyness": 50,
+          "selectedColor": "rgb(0,192,255)"
+        },
+        "d5c72ce2-f160-4c6b-b560-6b08e8e19d02": {
+          "id": "d5c72ce2-f160-4c6b-b560-6b08e8e19d02",
+          "type": "default",
+          "selected": false,
+          "source": "1dc89615-f89b-4c04-8810-e0fb317a11d7",
+          "sourcePort": "c3ce9884-5abf-426d-8f0e-a28624c8a7b5",
+          "target": "d76254fa-f3b5-4864-9950-e7ff0fcbc511",
+          "targetPort": "58526ef2-91ca-4c48-8380-1ac3cb4ba90a",
+          "points": [
+            {
+              "id": "ab47c4a7-4e42-4aa9-b0de-ac392b4679f3",
+              "type": "point",
+              "x": 323.609375,
+              "y": 303.5
+            },
+            {
+              "id": "8042a781-7cce-4687-90be-1ade019d5652",
+              "type": "point",
+              "x": 2.0454545454546746,
+              "y": 366.04545454545513
+            }
+          ],
+          "labels": [],
+          "width": 3,
+          "color": "gray",
+          "curvyness": 50,
+          "selectedColor": "rgb(0,192,255)"
+        },
+        "12ccf8c1-9dc0-4889-95c7-e46a5682ca9c": {
+          "id": "12ccf8c1-9dc0-4889-95c7-e46a5682ca9c",
+          "type": "default",
+          "selected": false,
+          "source": "d76254fa-f3b5-4864-9950-e7ff0fcbc511",
+          "sourcePort": "fce963ea-1a7c-4878-bea2-d2183f090a6d",
+          "target": "d6bca3d9-0d91-4f48-a098-8fcc375509d9",
+          "targetPort": "1f47a415-9361-4f37-afa9-6a13488adef6",
+          "points": [
+            {
+              "id": "d44b7d35-268f-4952-a6c9-8030ab3fc136",
+              "type": "point",
+              "x": 478.061079545453,
+              "y": 366.04545454545547
+            },
+            {
+              "id": "1fb6250d-0d2e-4bbb-89eb-2665a15461af",
+              "type": "point",
+              "x": 2.0454545454547315,
+              "y": 474.04545454545547
+            }
+          ],
+          "labels": [],
+          "width": 3,
+          "color": "gray",
+          "curvyness": 50,
+          "selectedColor": "rgb(0,192,255)"
+        },
+        "5b4a3e06-1efd-4876-be85-ad478d35a345": {
+          "id": "5b4a3e06-1efd-4876-be85-ad478d35a345",
+          "type": "default",
+          "selected": false,
+          "source": "d6bca3d9-0d91-4f48-a098-8fcc375509d9",
+          "sourcePort": "59b9393d-b11d-4056-b2b0-c82c0a5e5bbd",
+          "target": "f28f0298-8129-44df-ba77-bc3e9d422b32",
+          "targetPort": "5e158f38-d183-42b8-b99d-8644cba4e26c",
+          "points": [
+            {
+              "id": "237f4cd3-6adc-42f6-b371-d72e8e020462",
+              "type": "point",
+              "x": 294.8423295454538,
+              "y": 474.04545454545547
+            },
+            {
+              "id": "40874636-3e25-4b06-b131-7372891b8f3a",
+              "type": "point",
+              "x": 2.0454545454547315,
+              "y": 537.0454545454547
+            }
+          ],
+          "labels": [],
+          "width": 3,
+          "color": "gray",
+          "curvyness": 50,
+          "selectedColor": "rgb(0,192,255)"
+        },
+        "2f0da341-5e7b-448d-8b5c-ff5ea3b6f9d3": {
+          "id": "2f0da341-5e7b-448d-8b5c-ff5ea3b6f9d3",
+          "type": "default",
+          "selected": false,
+          "source": "f28f0298-8129-44df-ba77-bc3e9d422b32",
+          "sourcePort": "d34c5ed4-384b-496d-bdf8-4a05809ade47",
+          "target": "59500680-57cd-4824-b769-cca0725bf5c8",
+          "targetPort": "c6c41910-6f98-45b1-afca-a39c291361c5",
+          "points": [
+            {
+              "id": "24afa2c4-26f0-4859-982c-e1e8d3f8ed6b",
+              "type": "point",
+              "x": 478.061079545453,
+              "y": 537.0454545454547
+            },
+            {
+              "id": "25f92063-4715-4d2d-8a7b-d1826aaeae45",
+              "type": "point",
+              "x": 2.0454545454547315,
+              "y": 615.0454545454554
+            }
+          ],
+          "labels": [],
+          "width": 3,
+          "color": "gray",
+          "curvyness": 50,
+          "selectedColor": "rgb(0,192,255)"
+        },
+        "c7dee1d1-4939-45c9-8277-45f57697caef": {
+          "id": "c7dee1d1-4939-45c9-8277-45f57697caef",
+          "type": "default",
+          "selected": false,
+          "source": "59500680-57cd-4824-b769-cca0725bf5c8",
+          "sourcePort": "4aae202f-4ae9-47a7-8229-b432f341062a",
+          "target": "81d2edda-94ea-48e0-9f8b-d78bfafdece9",
+          "targetPort": "0aff0864-1007-4277-a0af-e6f166e9ec05",
+          "points": [
+            {
+              "id": "c16ecf38-5277-46a8-bd92-c941322986f6",
+              "type": "point",
+              "x": 456.07670454545325,
+              "y": 615.0454545454554
+            },
+            {
+              "id": "5e77833d-2199-426b-b83e-a64730fdb6c9",
+              "type": "point",
+              "x": 2.0312540884793853,
+              "y": 693.0312663539174
+            }
+          ],
+          "labels": [],
+          "width": 3,
+          "color": "gray",
+          "curvyness": 50,
+          "selectedColor": "rgb(0,192,255)"
+        },
+        "75a56b4e-2dd6-4199-affc-dcbbb31aed19": {
+          "id": "75a56b4e-2dd6-4199-affc-dcbbb31aed19",
+          "type": "default",
+          "selected": false,
+          "source": "1adf940f-4c84-4145-a796-5a2b70087076",
+          "sourcePort": "96efb3d6-4b28-4282-990c-c70787364ee8",
+          "target": "1dc89615-f89b-4c04-8810-e0fb317a11d7",
+          "targetPort": "56524c0e-0703-4db5-aa3b-923b2e78a52c",
+          "points": [
+            {
+              "id": "e20ba3d3-2018-4e6e-a7f6-2add038f0282",
+              "type": "point",
+              "x": 436.5625,
+              "y": 188.5
+            },
+            {
+              "id": "d2dc9545-9f5b-4dc1-b321-2c55d8a7c075",
+              "type": "point",
+              "x": 1.5,
+              "y": 303.5
+            }
+          ],
+          "labels": [],
+          "width": 3,
+          "color": "gray",
+          "curvyness": 50,
+          "selectedColor": "rgb(0,192,255)"
+        },
+        "fff5b614-8e81-457e-b22b-d437a257772d": {
+          "id": "fff5b614-8e81-457e-b22b-d437a257772d",
+          "type": "default",
+          "selected": false,
+          "source": "81d2edda-94ea-48e0-9f8b-d78bfafdece9",
+          "sourcePort": "8dd5a945-fa7b-495c-b39a-619362c62c18",
+          "target": "a6fcee7c-8398-40cb-8935-df1afeb3b524",
+          "targetPort": "aa7541f6-3fb0-47ac-bc6f-ed4747273e91",
+          "points": [
+            {
+              "id": "9a83abc9-3760-4903-a81c-f0b95ec3a2b5",
+              "type": "point",
+              "x": 277.7812651857805,
+              "y": 738.0312663539174
+            },
+            {
+              "id": "6376a9da-38c0-4b36-8dd7-7691dad30c1c",
+              "type": "point",
+              "x": 2.0312540884793853,
+              "y": 806.0312441593152
+            }
+          ],
+          "labels": [],
+          "width": 3,
+          "color": "gray",
+          "curvyness": 50,
+          "selectedColor": "rgb(0,192,255)"
+        }
+      }
+    },
+    {
+      "id": "a06e13a1-2074-447d-a204-2b96e120038b",
+      "type": "diagram-nodes",
+      "isSvg": false,
+      "transformed": true,
+      "models": {
+        "995ba2be-d8f6-4a8a-8a9e-b2ada69cb24f": {
+          "id": "995ba2be-d8f6-4a8a-8a9e-b2ada69cb24f",
+          "type": "start",
+          "selected": false,
+          "x": -131,
+          "y": 19,
+          "ports": [
+            {
+              "id": "bce21f84-77c8-44a6-9b2a-a977dee56f63",
+              "type": "default",
+              "x": -55.203125,
+              "y": 26,
+              "name": "out-1680342690791",
+              "alignment": "right",
+              "parentNode": "995ba2be-d8f6-4a8a-8a9e-b2ada69cb24f",
+              "links": [
+                "8ccce052-0888-4e2f-a744-0a2f0e8dd8f4"
+              ],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Start",
+          "color": "#16db26e6",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "bce21f84-77c8-44a6-9b2a-a977dee56f63"
+          ]
+        },
+        "d62b42ab-616f-4860-938e-538a91775140": {
+          "id": "d62b42ab-616f-4860-938e-538a91775140",
+          "type": "dialogue",
+          "selected": false,
+          "x": 2,
+          "y": -1,
+          "ports": [
+            {
+              "id": "e440cee8-fd8c-4c8e-8fb7-664a177eb9a5",
+              "type": "default",
+              "x": -11,
+              "y": 30,
+              "name": "in-1680342694138 ",
+              "alignment": "left",
+              "parentNode": "d62b42ab-616f-4860-938e-538a91775140",
+              "links": [
+                "8ccce052-0888-4e2f-a744-0a2f0e8dd8f4"
+              ],
+              "in": true,
+              "label": "❯"
+            },
+            {
+              "id": "93df02f4-8c45-4a49-820f-683829772e11",
+              "type": "default",
+              "x": 252.484375,
+              "y": 30,
+              "name": "out-1680342694138",
+              "alignment": "right",
+              "parentNode": "d62b42ab-616f-4860-938e-538a91775140",
+              "links": [
+                "79409497-f31c-44ed-8bfd-7d0cc9dc7c92"
+              ],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "<player>",
+          "color": "#dd341ee6",
+          "portsInOrder": [
+            "e440cee8-fd8c-4c8e-8fb7-664a177eb9a5"
+          ],
+          "portsOutOrder": [
+            "93df02f4-8c45-4a49-820f-683829772e11"
+          ],
+          "text": "Hello there, What's wrong?"
+        },
+        "d4851ed1-9c53-4822-81e8-7a06fa19e47c": {
+          "id": "d4851ed1-9c53-4822-81e8-7a06fa19e47c",
+          "type": "dialogue",
+          "selected": false,
+          "x": 0,
+          "y": 63,
+          "ports": [
+            {
+              "id": "523e88e8-8164-4ba5-81f0-a9986a56afda",
+              "type": "default",
+              "x": -13,
+              "y": 94,
+              "name": "in-1680342696586 ",
+              "alignment": "left",
+              "parentNode": "d4851ed1-9c53-4822-81e8-7a06fa19e47c",
+              "links": [
+                "79409497-f31c-44ed-8bfd-7d0cc9dc7c92"
+              ],
+              "in": true,
+              "label": "❯"
+            },
+            {
+              "id": "ae9620bc-8836-484b-a007-d8e2f2d4b0db",
+              "type": "default",
+              "x": 477.671875,
+              "y": 94,
+              "name": "out-1680342696586",
+              "alignment": "right",
+              "parentNode": "d4851ed1-9c53-4822-81e8-7a06fa19e47c",
+              "links": [
+                "f2625f49-3c8a-4954-b190-8eab968f8074"
+              ],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Brother Omad",
+          "color": "#dd341ee6",
+          "portsInOrder": [
+            "523e88e8-8164-4ba5-81f0-a9986a56afda"
+          ],
+          "portsOutOrder": [
+            "ae9620bc-8836-484b-a007-d8e2f2d4b0db"
+          ],
+          "text": "*yawn*...oh, hello...*yawn* I'm sorry! I'm just so tired!\nI haven't slept in a week!"
+        },
+        "1adf940f-4c84-4145-a796-5a2b70087076": {
+          "id": "1adf940f-4c84-4145-a796-5a2b70087076",
+          "type": "option",
+          "selected": false,
+          "x": 0,
+          "y": 141,
+          "ports": [
+            {
+              "id": "96efb3d6-4b28-4282-990c-c70787364ee8",
+              "type": "default",
+              "x": 429.0625,
+              "y": 181,
+              "name": "out-16803426977241",
+              "alignment": "right",
+              "parentNode": "1adf940f-4c84-4145-a796-5a2b70087076",
+              "links": [
+                "75a56b4e-2dd6-4199-affc-dcbbb31aed19"
+              ],
+              "in": false,
+              "label": "❯"
+            },
+            {
+              "id": "5bb2f0c2-8a45-4266-8924-0f718ac67a42",
+              "type": "default",
+              "x": -13,
+              "y": 172,
+              "name": "in-1680342697724 ",
+              "alignment": "left",
+              "parentNode": "1adf940f-4c84-4145-a796-5a2b70087076",
+              "links": [
+                "f2625f49-3c8a-4954-b190-8eab968f8074"
+              ],
+              "in": true,
+              "label": "❯"
+            },
+            {
+              "id": "6627b6cc-3d14-467f-ad7c-e411f283e010",
+              "type": "default",
+              "x": 429.0625,
+              "y": 217,
+              "name": "out-1680342697724",
+              "alignment": "right",
+              "parentNode": "1adf940f-4c84-4145-a796-5a2b70087076",
+              "links": [
+                "c4b19367-e2e9-4a27-ae56-0dd4bc3601e2"
+              ],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Select an option.",
+          "color": "#0756b1e6",
+          "portsInOrder": [
+            "5bb2f0c2-8a45-4266-8924-0f718ac67a42"
+          ],
+          "portsOutOrder": [
+            "96efb3d6-4b28-4282-990c-c70787364ee8",
+            "6627b6cc-3d14-467f-ad7c-e411f283e010"
+          ],
+          "options": [
+            {
+              "conditions": [
+                ""
+              ],
+              "args": [],
+              "text": "Why can't you sleep, what's wrong?"
+            },
+            {
+              "conditions": [
+                ""
+              ],
+              "args": [],
+              "text": "Sorry! I'm too busy to hear your problems!"
+            }
+          ]
+        },
+        "38296952-5062-4e54-8a5c-333fc05177e2": {
+          "id": "38296952-5062-4e54-8a5c-333fc05177e2",
+          "type": "dialogue",
+          "selected": false,
+          "x": 577,
+          "y": 183,
+          "ports": [
+            {
+              "id": "16300aaa-c492-4645-83df-97ab5238963b",
+              "type": "default",
+              "x": 564,
+              "y": 214,
+              "name": "in-1680342698941 ",
+              "alignment": "left",
+              "parentNode": "38296952-5062-4e54-8a5c-333fc05177e2",
+              "links": [
+                "c4b19367-e2e9-4a27-ae56-0dd4bc3601e2"
+              ],
+              "in": true,
+              "label": "❯"
+            },
+            {
+              "id": "0b19f0e2-1afc-43cd-8ceb-4cbba9b2ccdb",
+              "type": "default",
+              "x": 944.75,
+              "y": 214,
+              "name": "out-1680342698941",
+              "alignment": "right",
+              "parentNode": "38296952-5062-4e54-8a5c-333fc05177e2",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "<player>",
+          "color": "#dd341ee6",
+          "portsInOrder": [
+            "16300aaa-c492-4645-83df-97ab5238963b"
+          ],
+          "portsOutOrder": [
+            "0b19f0e2-1afc-43cd-8ceb-4cbba9b2ccdb"
+          ],
+          "text": "Sorry! I'm too busy to hear your problems!"
+        },
+        "1dc89615-f89b-4c04-8810-e0fb317a11d7": {
+          "id": "1dc89615-f89b-4c04-8810-e0fb317a11d7",
+          "type": "dialogue",
+          "selected": false,
+          "x": 7,
+          "y": 265,
+          "ports": [
+            {
+              "id": "56524c0e-0703-4db5-aa3b-923b2e78a52c",
+              "type": "default",
+              "x": -6,
+              "y": 296,
+              "name": "in-1680342721165 ",
+              "alignment": "left",
+              "parentNode": "1dc89615-f89b-4c04-8810-e0fb317a11d7",
+              "links": [
+                "75a56b4e-2dd6-4199-affc-dcbbb31aed19"
+              ],
+              "in": true,
+              "label": "❯"
+            },
+            {
+              "id": "c3ce9884-5abf-426d-8f0e-a28624c8a7b5",
+              "type": "default",
+              "x": 316.109375,
+              "y": 296,
+              "name": "out-1680342721165",
+              "alignment": "right",
+              "parentNode": "1dc89615-f89b-4c04-8810-e0fb317a11d7",
+              "links": [
+                "d5c72ce2-f160-4c6b-b560-6b08e8e19d02"
+              ],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "<player>",
+          "color": "#dd341ee6",
+          "portsInOrder": [
+            "56524c0e-0703-4db5-aa3b-923b2e78a52c"
+          ],
+          "portsOutOrder": [
+            "c3ce9884-5abf-426d-8f0e-a28624c8a7b5"
+          ],
+          "text": "Why can't you sleep, what's wrong?"
+        },
+        "d76254fa-f3b5-4864-9950-e7ff0fcbc511": {
+          "id": "d76254fa-f3b5-4864-9950-e7ff0fcbc511",
+          "type": "dialogue",
+          "selected": false,
+          "x": 7.545454545454618,
+          "y": 327.54545454545456,
+          "ports": [
+            {
+              "id": "58526ef2-91ca-4c48-8380-1ac3cb4ba90a",
+              "type": "default",
+              "x": -5.454545454545325,
+              "y": 358.54545454545513,
+              "name": "in-1680342721709 ",
+              "alignment": "left",
+              "parentNode": "d76254fa-f3b5-4864-9950-e7ff0fcbc511",
+              "links": [
+                "d5c72ce2-f160-4c6b-b560-6b08e8e19d02"
+              ],
+              "in": true,
+              "label": "❯"
+            },
+            {
+              "id": "fce963ea-1a7c-4878-bea2-d2183f090a6d",
+              "type": "default",
+              "x": 470.5610795454543,
+              "y": 358.54545454545513,
+              "name": "out-1680342721709",
+              "alignment": "right",
+              "parentNode": "d76254fa-f3b5-4864-9950-e7ff0fcbc511",
+              "links": [
+                "12ccf8c1-9dc0-4889-95c7-e46a5682ca9c"
+              ],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Brother Omad",
+          "color": "#dd341ee6",
+          "portsInOrder": [
+            "58526ef2-91ca-4c48-8380-1ac3cb4ba90a"
+          ],
+          "portsOutOrder": [
+            "fce963ea-1a7c-4878-bea2-d2183f090a6d"
+          ],
+          "text": "It's brother Androe's son! With his constant: Waaaaaah!\nWaaaaaaaaah! Androe said it's natural, but it's so\nannoying!"
+        },
+        "d6bca3d9-0d91-4f48-a098-8fcc375509d9": {
+          "id": "d6bca3d9-0d91-4f48-a098-8fcc375509d9",
+          "type": "dialogue",
+          "selected": false,
+          "x": 7.545454545454618,
+          "y": 435.54545454545456,
+          "ports": [
+            {
+              "id": "1f47a415-9361-4f37-afa9-6a13488adef6",
+              "type": "default",
+              "x": -5.454545454545325,
+              "y": 466.54545454545513,
+              "name": "in-1680342722344 ",
+              "alignment": "left",
+              "parentNode": "d6bca3d9-0d91-4f48-a098-8fcc375509d9",
+              "links": [
+                "12ccf8c1-9dc0-4889-95c7-e46a5682ca9c"
+              ],
+              "in": true,
+              "label": "❯"
+            },
+            {
+              "id": "59b9393d-b11d-4056-b2b0-c82c0a5e5bbd",
+              "type": "default",
+              "x": 287.34232954545473,
+              "y": 466.54545454545513,
+              "name": "out-1680342722344",
+              "alignment": "right",
+              "parentNode": "d6bca3d9-0d91-4f48-a098-8fcc375509d9",
+              "links": [
+                "5b4a3e06-1efd-4876-be85-ad478d35a345"
+              ],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "<player>",
+          "color": "#dd341ee6",
+          "portsInOrder": [
+            "1f47a415-9361-4f37-afa9-6a13488adef6"
+          ],
+          "portsOutOrder": [
+            "59b9393d-b11d-4056-b2b0-c82c0a5e5bbd"
+          ],
+          "text": "I suppose that's what kids do."
+        },
+        "f28f0298-8129-44df-ba77-bc3e9d422b32": {
+          "id": "f28f0298-8129-44df-ba77-bc3e9d422b32",
+          "type": "dialogue",
+          "selected": false,
+          "x": 7.545454545454618,
+          "y": 498.54545454545456,
+          "ports": [
+            {
+              "id": "5e158f38-d183-42b8-b99d-8644cba4e26c",
+              "type": "default",
+              "x": -5.454545454545325,
+              "y": 529.5454545454561,
+              "name": "in-1680342723550 ",
+              "alignment": "left",
+              "parentNode": "f28f0298-8129-44df-ba77-bc3e9d422b32",
+              "links": [
+                "5b4a3e06-1efd-4876-be85-ad478d35a345"
+              ],
+              "in": true,
+              "label": "❯"
+            },
+            {
+              "id": "d34c5ed4-384b-496d-bdf8-4a05809ade47",
+              "type": "default",
+              "x": 470.5610795454543,
+              "y": 529.5454545454561,
+              "name": "out-1680342723550",
+              "alignment": "right",
+              "parentNode": "f28f0298-8129-44df-ba77-bc3e9d422b32",
+              "links": [
+                "2f0da341-5e7b-448d-8b5c-ff5ea3b6f9d3"
+              ],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Brother Omad",
+          "color": "#dd341ee6",
+          "portsInOrder": [
+            "5e158f38-d183-42b8-b99d-8644cba4e26c"
+          ],
+          "portsOutOrder": [
+            "d34c5ed4-384b-496d-bdf8-4a05809ade47"
+          ],
+          "text": "He was fine, up until last week! Thieves broke in! They\nstole his favourite sleeping blanket!"
+        },
+        "59500680-57cd-4824-b769-cca0725bf5c8": {
+          "id": "59500680-57cd-4824-b769-cca0725bf5c8",
+          "type": "dialogue",
+          "selected": false,
+          "x": 7.545454545454618,
+          "y": 576.5454545454545,
+          "ports": [
+            {
+              "id": "c6c41910-6f98-45b1-afca-a39c291361c5",
+              "type": "default",
+              "x": -5.454545454545325,
+              "y": 607.5454545454559,
+              "name": "in-1680342724146 ",
+              "alignment": "left",
+              "parentNode": "59500680-57cd-4824-b769-cca0725bf5c8",
+              "links": [
+                "2f0da341-5e7b-448d-8b5c-ff5ea3b6f9d3"
+              ],
+              "in": true,
+              "label": "❯"
+            },
+            {
+              "id": "4aae202f-4ae9-47a7-8229-b432f341062a",
+              "type": "default",
+              "x": 448.57670454545416,
+              "y": 607.5454545454559,
+              "name": "out-1680342724146",
+              "alignment": "right",
+              "parentNode": "59500680-57cd-4824-b769-cca0725bf5c8",
+              "links": [
+                "c7dee1d1-4939-45c9-8277-45f57697caef"
+              ],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Brother Omad",
+          "color": "#dd341ee6",
+          "portsInOrder": [
+            "c6c41910-6f98-45b1-afca-a39c291361c5"
+          ],
+          "portsOutOrder": [
+            "4aae202f-4ae9-47a7-8229-b432f341062a"
+          ],
+          "text": "Now he won't rest until it's returned... ...and that\nmeans neither can I!"
+        },
+        "81d2edda-94ea-48e0-9f8b-d78bfafdece9": {
+          "id": "81d2edda-94ea-48e0-9f8b-d78bfafdece9",
+          "type": "option",
+          "selected": false,
+          "x": 7.545454545454618,
+          "y": 654.5454545454545,
+          "ports": [
+            {
+              "id": "50ead9df-e5cb-4c3d-9ecf-5bfdcc3d136f",
+              "type": "default",
+              "x": 270.2812651857805,
+              "y": 694.5312663539174,
+              "name": "out-16803427247251",
+              "alignment": "right",
+              "parentNode": "81d2edda-94ea-48e0-9f8b-d78bfafdece9",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            },
+            {
+              "id": "0aff0864-1007-4277-a0af-e6f166e9ec05",
+              "type": "default",
+              "x": -5.468745911520614,
+              "y": 685.5312663539174,
+              "name": "in-1680342724725 ",
+              "alignment": "left",
+              "parentNode": "81d2edda-94ea-48e0-9f8b-d78bfafdece9",
+              "links": [
+                "c7dee1d1-4939-45c9-8277-45f57697caef"
+              ],
+              "in": true,
+              "label": "❯"
+            },
+            {
+              "id": "8dd5a945-fa7b-495c-b39a-619362c62c18",
+              "type": "default",
+              "x": 270.2812651857805,
+              "y": 730.5312663539174,
+              "name": "out-1680342724725",
+              "alignment": "right",
+              "parentNode": "81d2edda-94ea-48e0-9f8b-d78bfafdece9",
+              "links": [
+                "fff5b614-8e81-457e-b22b-d437a257772d"
+              ],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Start the Monk's Friend quest?",
+          "color": "#0756b1e6",
+          "portsInOrder": [
+            "0aff0864-1007-4277-a0af-e6f166e9ec05"
+          ],
+          "portsOutOrder": [
+            "50ead9df-e5cb-4c3d-9ecf-5bfdcc3d136f",
+            "8dd5a945-fa7b-495c-b39a-619362c62c18"
+          ],
+          "options": [
+            {
+              "conditions": [
+                ""
+              ],
+              "args": [],
+              "text": "Yes."
+            },
+            {
+              "conditions": [
+                ""
+              ],
+              "args": [],
+              "text": "No."
+            }
+          ]
+        },
+        "a6fcee7c-8398-40cb-8935-df1afeb3b524": {
+          "id": "a6fcee7c-8398-40cb-8935-df1afeb3b524",
+          "type": "dialogue",
+          "x": 7.545454545454618,
+          "y": 767.5454545454545,
+          "ports": [
+            {
+              "id": "aa7541f6-3fb0-47ac-bc6f-ed4747273e91",
+              "type": "default",
+              "x": -5.468745911520614,
+              "y": 798.5312441593152,
+              "name": "in-1680343000745 ",
+              "alignment": "left",
+              "parentNode": "a6fcee7c-8398-40cb-8935-df1afeb3b524",
+              "links": [
+                "fff5b614-8e81-457e-b22b-d437a257772d"
+              ],
+              "in": true,
+              "label": "❯"
+            },
+            {
+              "id": "b613fb84-cbcc-48f5-bed2-09849c34881a",
+              "type": "default",
+              "x": 448.5625373803827,
+              "y": 798.5312441593152,
+              "name": "out-1680343000745",
+              "alignment": "right",
+              "parentNode": "a6fcee7c-8398-40cb-8935-df1afeb3b524",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "<player>",
+          "color": "#dd341ee6",
+          "portsInOrder": [
+            "aa7541f6-3fb0-47ac-bc6f-ed4747273e91"
+          ],
+          "portsOutOrder": [
+            "b613fb84-cbcc-48f5-bed2-09849c34881a"
+          ],
+          "text": "I'm sorry to hear that! I hope you find his blanket."
+        }
+      }
+    }
+  ],
+  "trees": {}
+}

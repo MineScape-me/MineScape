@@ -1,0 +1,199 @@
+{
+  "id": "f49ebc4d-de66-44bd-90b4-bf8670ba3cbe",
+  "offsetX": 0,
+  "offsetY": 0,
+  "zoom": 100,
+  "gridSize": 0,
+  "layers": [
+    {
+      "id": "4bda7af6-296f-4b15-9049-cdbb22483503",
+      "type": "diagram-links",
+      "isSvg": true,
+      "transformed": true,
+      "models": {
+        "ea05b25d-525b-4de1-a19e-f4f149a4c2ab": {
+          "id": "ea05b25d-525b-4de1-a19e-f4f149a4c2ab",
+          "type": "default",
+          "source": "ad832fa4-58e6-4f67-97b0-206b47ddaeb6",
+          "sourcePort": "8fca994a-dc32-45de-99ee-823972968f0c",
+          "target": "796be392-e240-427a-96a4-0987e7e04622",
+          "targetPort": "17fcf0f3-642d-4ad7-8948-0c7607318190",
+          "points": [
+            {
+              "id": "cb77a110-4adb-438d-9fbe-b58d93575014",
+              "type": "point",
+              "x": 285.40625,
+              "y": 63.5
+            },
+            {
+              "id": "d5cb292e-b439-44ea-9374-bbee59acf458",
+              "type": "point",
+              "x": 168.5,
+              "y": 126.5
+            }
+          ],
+          "labels": [],
+          "width": 3,
+          "color": "gray",
+          "curvyness": 50,
+          "selectedColor": "rgb(0,192,255)"
+        },
+        "c9fd6162-1973-4f52-a2f7-e8f63171fbfd": {
+          "id": "c9fd6162-1973-4f52-a2f7-e8f63171fbfd",
+          "type": "default",
+          "selected": false,
+          "source": "66f04847-b15a-4557-b63d-201cdecb140c",
+          "sourcePort": "7d04d74d-b33f-47df-b357-69d74464945b",
+          "target": "ad832fa4-58e6-4f67-97b0-206b47ddaeb6",
+          "targetPort": "b81b077c-87a6-435e-b2f3-a88db1679e3e",
+          "points": [
+            {
+              "id": "9aeefc18-de12-426c-9ce5-d33ec170b808",
+              "type": "point",
+              "x": 133.296875,
+              "y": 64.5
+            },
+            {
+              "id": "d251dfab-d807-4424-a392-4aa1aafcd6bf",
+              "type": "point",
+              "x": 168.5,
+              "y": 63.5
+            }
+          ],
+          "labels": [],
+          "width": 3,
+          "color": "gray",
+          "curvyness": 50,
+          "selectedColor": "rgb(0,192,255)"
+        }
+      }
+    },
+    {
+      "id": "9bcedc76-bbea-4212-96c0-0c74d7b79958",
+      "type": "diagram-nodes",
+      "isSvg": false,
+      "transformed": true,
+      "models": {
+        "66f04847-b15a-4557-b63d-201cdecb140c": {
+          "id": "66f04847-b15a-4557-b63d-201cdecb140c",
+          "type": "start",
+          "x": 50,
+          "y": 50,
+          "ports": [
+            {
+              "id": "7d04d74d-b33f-47df-b357-69d74464945b",
+              "type": "default",
+              "x": 125.796875,
+              "y": 57,
+              "name": "out-1680327594602",
+              "alignment": "right",
+              "parentNode": "66f04847-b15a-4557-b63d-201cdecb140c",
+              "links": [
+                "c9fd6162-1973-4f52-a2f7-e8f63171fbfd"
+              ],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Start",
+          "color": "#16db26e6",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "7d04d74d-b33f-47df-b357-69d74464945b"
+          ]
+        },
+        "ad832fa4-58e6-4f67-97b0-206b47ddaeb6": {
+          "id": "ad832fa4-58e6-4f67-97b0-206b47ddaeb6",
+          "type": "dialogue",
+          "selected": false,
+          "x": 174,
+          "y": 25,
+          "ports": [
+            {
+              "id": "b81b077c-87a6-435e-b2f3-a88db1679e3e",
+              "type": "default",
+              "x": 161,
+              "y": 56,
+              "name": "in-1680327599130 ",
+              "alignment": "left",
+              "parentNode": "ad832fa4-58e6-4f67-97b0-206b47ddaeb6",
+              "links": [
+                "c9fd6162-1973-4f52-a2f7-e8f63171fbfd"
+              ],
+              "in": true,
+              "label": "❯"
+            },
+            {
+              "id": "8fca994a-dc32-45de-99ee-823972968f0c",
+              "type": "default",
+              "x": 277.90625,
+              "y": 56,
+              "name": "out-1680327599130",
+              "alignment": "right",
+              "parentNode": "ad832fa4-58e6-4f67-97b0-206b47ddaeb6",
+              "links": [
+                "ea05b25d-525b-4de1-a19e-f4f149a4c2ab"
+              ],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "<player>",
+          "color": "#dd341ee6",
+          "portsInOrder": [
+            "b81b077c-87a6-435e-b2f3-a88db1679e3e"
+          ],
+          "portsOutOrder": [
+            "8fca994a-dc32-45de-99ee-823972968f0c"
+          ],
+          "text": "Hello."
+        },
+        "796be392-e240-427a-96a4-0987e7e04622": {
+          "id": "796be392-e240-427a-96a4-0987e7e04622",
+          "type": "dialogue",
+          "selected": false,
+          "x": 174,
+          "y": 88,
+          "ports": [
+            {
+              "id": "17fcf0f3-642d-4ad7-8948-0c7607318190",
+              "type": "default",
+              "x": 161,
+              "y": 119,
+              "name": "in-1680327601576 ",
+              "alignment": "left",
+              "parentNode": "796be392-e240-427a-96a4-0987e7e04622",
+              "links": [
+                "ea05b25d-525b-4de1-a19e-f4f149a4c2ab"
+              ],
+              "in": true,
+              "label": "❯"
+            },
+            {
+              "id": "5e64fd7b-e3c2-4f05-bac4-489b2b2e21e7",
+              "type": "default",
+              "x": 629.6875,
+              "y": 119,
+              "name": "out-1680327601576",
+              "alignment": "right",
+              "parentNode": "796be392-e240-427a-96a4-0987e7e04622",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Spectator",
+          "color": "#dd341ee6",
+          "portsInOrder": [
+            "17fcf0f3-642d-4ad7-8948-0c7607318190"
+          ],
+          "portsOutOrder": [
+            "5e64fd7b-e3c2-4f05-bac4-489b2b2e21e7"
+          ],
+          "text": "Hello, stranger. Are you here for the fight arena?\nApparently, there're some rich folk fighting tomorrow.\nShould be entertaining."
+        }
+      }
+    }
+  ],
+  "trees": {}
+}

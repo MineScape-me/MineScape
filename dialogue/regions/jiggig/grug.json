@@ -1,0 +1,126 @@
+{
+  "id": "d19d5059-f2f3-4286-8803-cc7e831e66be",
+  "offsetX": 0,
+  "offsetY": 0,
+  "zoom": 100,
+  "gridSize": 0,
+  "layers": [
+    {
+      "id": "174c74d5-3463-4527-89b2-86c39eb153b5",
+      "type": "diagram-links",
+      "isSvg": true,
+      "transformed": true,
+      "models": {
+        "6cd06bae-124a-4209-90b2-08779bc7b616": {
+          "id": "6cd06bae-124a-4209-90b2-08779bc7b616",
+          "type": "default",
+          "selected": false,
+          "source": "584a854d-b2df-4c46-b364-b6edc97a94b1",
+          "sourcePort": "e3170911-5a98-41bb-8a9d-126b91b6e713",
+          "target": "5e23bf9f-cd01-418f-97fc-9010ac4413f0",
+          "targetPort": "8bde7757-1a2e-4aba-81c1-f8bb271d31c6",
+          "points": [
+            {
+              "id": "0a1d77c6-eed6-4344-9193-77e5aa0eecb6",
+              "type": "point",
+              "x": 133.296875,
+              "y": 64.5
+            },
+            {
+              "id": "62c3ddf8-d5d5-4e0e-87f2-378ec8a91e39",
+              "type": "point",
+              "x": 170.5,
+              "y": 63.5
+            }
+          ],
+          "labels": [],
+          "width": 3,
+          "color": "gray",
+          "curvyness": 50,
+          "selectedColor": "rgb(0,192,255)"
+        }
+      }
+    },
+    {
+      "id": "555cfe9c-8813-416b-a6fe-cbc8be8b3bab",
+      "type": "diagram-nodes",
+      "isSvg": false,
+      "transformed": true,
+      "models": {
+        "584a854d-b2df-4c46-b364-b6edc97a94b1": {
+          "id": "584a854d-b2df-4c46-b364-b6edc97a94b1",
+          "type": "start",
+          "x": 50,
+          "y": 50,
+          "ports": [
+            {
+              "id": "e3170911-5a98-41bb-8a9d-126b91b6e713",
+              "type": "default",
+              "x": 125.796875,
+              "y": 57,
+              "name": "out-1680355412022",
+              "alignment": "right",
+              "parentNode": "584a854d-b2df-4c46-b364-b6edc97a94b1",
+              "links": [
+                "6cd06bae-124a-4209-90b2-08779bc7b616"
+              ],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Start",
+          "color": "#16db26e6",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "e3170911-5a98-41bb-8a9d-126b91b6e713"
+          ]
+        },
+        "5e23bf9f-cd01-418f-97fc-9010ac4413f0": {
+          "id": "5e23bf9f-cd01-418f-97fc-9010ac4413f0",
+          "type": "dialogue",
+          "selected": false,
+          "x": 176,
+          "y": 25,
+          "ports": [
+            {
+              "id": "8bde7757-1a2e-4aba-81c1-f8bb271d31c6",
+              "type": "default",
+              "x": 163,
+              "y": 56,
+              "name": "in-1680355416241 ",
+              "alignment": "left",
+              "parentNode": "5e23bf9f-cd01-418f-97fc-9010ac4413f0",
+              "links": [
+                "6cd06bae-124a-4209-90b2-08779bc7b616"
+              ],
+              "in": true,
+              "label": "❯"
+            },
+            {
+              "id": "8680c93e-ad4c-4b53-9551-3936eaef9040",
+              "type": "default",
+              "x": 617.03125,
+              "y": 56,
+              "name": "out-1680355416241",
+              "alignment": "right",
+              "parentNode": "5e23bf9f-cd01-418f-97fc-9010ac4413f0",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Grug",
+          "color": "#dd341ee6",
+          "portsInOrder": [
+            "8bde7757-1a2e-4aba-81c1-f8bb271d31c6"
+          ],
+          "portsOutOrder": [
+            "8680c93e-ad4c-4b53-9551-3936eaef9040"
+          ],
+          "text": "Ukk...I's dun fer...me's don't feel legsies anymore!"
+        }
+      }
+    }
+  ],
+  "trees": {}
+}

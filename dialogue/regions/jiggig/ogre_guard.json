@@ -1,0 +1,126 @@
+{
+  "id": "96b437e2-09f6-455f-981a-50a3de7efca0",
+  "offsetX": 0,
+  "offsetY": 0,
+  "zoom": 100,
+  "gridSize": 0,
+  "layers": [
+    {
+      "id": "7fd3f7b4-7122-4dd3-a468-60eb095b27dc",
+      "type": "diagram-links",
+      "isSvg": true,
+      "transformed": true,
+      "models": {
+        "12849fbc-bbb3-46e4-b4d3-79957acaf7fa": {
+          "id": "12849fbc-bbb3-46e4-b4d3-79957acaf7fa",
+          "type": "default",
+          "selected": false,
+          "source": "a4b45f80-9467-4117-96d8-b2030ca734aa",
+          "sourcePort": "bc09cbeb-1c19-429a-9d77-d68cfa7acf49",
+          "target": "c8e75171-37dd-4dba-a51d-27a7aac9d2c1",
+          "targetPort": "44d05680-ec8b-446d-bccf-83b0cae3c75b",
+          "points": [
+            {
+              "id": "220fc7c9-3654-4807-b180-6bd46096942e",
+              "type": "point",
+              "x": 133.296875,
+              "y": 64.5
+            },
+            {
+              "id": "ce1c38b3-4dc4-4b4b-baf4-5448e30ad256",
+              "type": "point",
+              "x": 163.5,
+              "y": 62.5
+            }
+          ],
+          "labels": [],
+          "width": 3,
+          "color": "gray",
+          "curvyness": 50,
+          "selectedColor": "rgb(0,192,255)"
+        }
+      }
+    },
+    {
+      "id": "b534b7cc-58f0-4c4f-98d0-8308aa4012c5",
+      "type": "diagram-nodes",
+      "isSvg": false,
+      "transformed": true,
+      "models": {
+        "a4b45f80-9467-4117-96d8-b2030ca734aa": {
+          "id": "a4b45f80-9467-4117-96d8-b2030ca734aa",
+          "type": "start",
+          "x": 50,
+          "y": 50,
+          "ports": [
+            {
+              "id": "bc09cbeb-1c19-429a-9d77-d68cfa7acf49",
+              "type": "default",
+              "x": 125.796875,
+              "y": 57,
+              "name": "out-1680355465683",
+              "alignment": "right",
+              "parentNode": "a4b45f80-9467-4117-96d8-b2030ca734aa",
+              "links": [
+                "12849fbc-bbb3-46e4-b4d3-79957acaf7fa"
+              ],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Start",
+          "color": "#16db26e6",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "bc09cbeb-1c19-429a-9d77-d68cfa7acf49"
+          ]
+        },
+        "c8e75171-37dd-4dba-a51d-27a7aac9d2c1": {
+          "id": "c8e75171-37dd-4dba-a51d-27a7aac9d2c1",
+          "type": "dialogue",
+          "selected": false,
+          "x": 169,
+          "y": 24,
+          "ports": [
+            {
+              "id": "44d05680-ec8b-446d-bccf-83b0cae3c75b",
+              "type": "default",
+              "x": 156,
+              "y": 55,
+              "name": "in-1680355476213 ",
+              "alignment": "left",
+              "parentNode": "c8e75171-37dd-4dba-a51d-27a7aac9d2c1",
+              "links": [
+                "12849fbc-bbb3-46e4-b4d3-79957acaf7fa"
+              ],
+              "in": true,
+              "label": "❯"
+            },
+            {
+              "id": "a334a52d-1bb0-406b-9dd9-67e64fbaa768",
+              "type": "default",
+              "x": 617.359375,
+              "y": 55,
+              "name": "out-1680355476213",
+              "alignment": "right",
+              "parentNode": "c8e75171-37dd-4dba-a51d-27a7aac9d2c1",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Ogre guard",
+          "color": "#dd341ee6",
+          "portsInOrder": [
+            "44d05680-ec8b-446d-bccf-83b0cae3c75b"
+          ],
+          "portsOutOrder": [
+            "a334a52d-1bb0-406b-9dd9-67e64fbaa768"
+          ],
+          "text": "Yous needs ta stay away from dis place...yous get da\nsickies and mebe yous goes to dead if yous da unlucky\nfing."
+        }
+      }
+    }
+  ],
+  "trees": {}
+}

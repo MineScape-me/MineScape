@@ -1,0 +1,199 @@
+{
+  "id": "e835bd91-1ace-49eb-bb04-8d68e800c25c",
+  "offsetX": 0,
+  "offsetY": 0,
+  "zoom": 100,
+  "gridSize": 0,
+  "layers": [
+    {
+      "id": "d6e5018b-acac-4970-adc7-0692387cad68",
+      "type": "diagram-links",
+      "isSvg": true,
+      "transformed": true,
+      "models": {
+        "7e0271a4-4526-4980-ae07-ef0299e31ebd": {
+          "id": "7e0271a4-4526-4980-ae07-ef0299e31ebd",
+          "type": "default",
+          "source": "09c8db84-e6c8-41a3-a7f9-b74c643478f7",
+          "sourcePort": "ca076614-b926-413b-b8bd-aa7c19c9b9c3",
+          "target": "e7a17e6d-114a-49ec-88be-ad8c64e5a5ee",
+          "targetPort": "4fad94ac-80ef-4561-8ffb-169ea7473ae1",
+          "points": [
+            {
+              "id": "9c6df298-b280-49d0-a5e1-24c10b9de088",
+              "type": "point",
+              "x": 427.65625,
+              "y": 64.5
+            },
+            {
+              "id": "159c29cf-4095-4baa-8e78-38920393241d",
+              "type": "point",
+              "x": 171.5,
+              "y": 127.5
+            }
+          ],
+          "labels": [],
+          "width": 3,
+          "color": "gray",
+          "curvyness": 50,
+          "selectedColor": "rgb(0,192,255)"
+        },
+        "5634ac3d-858a-4130-bcff-21349a17ba8a": {
+          "id": "5634ac3d-858a-4130-bcff-21349a17ba8a",
+          "type": "default",
+          "selected": false,
+          "source": "8653c615-63d4-481f-9073-844b24616d4b",
+          "sourcePort": "a1ecddb5-67cb-438e-be0b-7114c485f94a",
+          "target": "09c8db84-e6c8-41a3-a7f9-b74c643478f7",
+          "targetPort": "a72c332f-1064-421a-9d57-c20ced818b86",
+          "points": [
+            {
+              "id": "913b3012-0f76-4bea-bbd0-f4f12b8794f4",
+              "type": "point",
+              "x": 133.296875,
+              "y": 64.5
+            },
+            {
+              "id": "ad97e8a1-4363-4f4a-a9e2-525322943f38",
+              "type": "point",
+              "x": 171.5,
+              "y": 64.5
+            }
+          ],
+          "labels": [],
+          "width": 3,
+          "color": "gray",
+          "curvyness": 50,
+          "selectedColor": "rgb(0,192,255)"
+        }
+      }
+    },
+    {
+      "id": "785a9f00-e7d7-4543-b466-7bd89678cde0",
+      "type": "diagram-nodes",
+      "isSvg": false,
+      "transformed": true,
+      "models": {
+        "8653c615-63d4-481f-9073-844b24616d4b": {
+          "id": "8653c615-63d4-481f-9073-844b24616d4b",
+          "type": "start",
+          "x": 50,
+          "y": 50,
+          "ports": [
+            {
+              "id": "a1ecddb5-67cb-438e-be0b-7114c485f94a",
+              "type": "default",
+              "x": 125.796875,
+              "y": 57,
+              "name": "out-1681013590475",
+              "alignment": "right",
+              "parentNode": "8653c615-63d4-481f-9073-844b24616d4b",
+              "links": [
+                "5634ac3d-858a-4130-bcff-21349a17ba8a"
+              ],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Start",
+          "color": "#16db26e6",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "a1ecddb5-67cb-438e-be0b-7114c485f94a"
+          ]
+        },
+        "09c8db84-e6c8-41a3-a7f9-b74c643478f7": {
+          "id": "09c8db84-e6c8-41a3-a7f9-b74c643478f7",
+          "type": "dialogue",
+          "selected": false,
+          "x": 177,
+          "y": 26,
+          "ports": [
+            {
+              "id": "a72c332f-1064-421a-9d57-c20ced818b86",
+              "type": "default",
+              "x": 164,
+              "y": 57,
+              "name": "in-1681013600760 ",
+              "alignment": "left",
+              "parentNode": "09c8db84-e6c8-41a3-a7f9-b74c643478f7",
+              "links": [
+                "5634ac3d-858a-4130-bcff-21349a17ba8a"
+              ],
+              "in": true,
+              "label": "❯"
+            },
+            {
+              "id": "ca076614-b926-413b-b8bd-aa7c19c9b9c3",
+              "type": "default",
+              "x": 420.15625,
+              "y": 57,
+              "name": "out-1681013600760",
+              "alignment": "right",
+              "parentNode": "09c8db84-e6c8-41a3-a7f9-b74c643478f7",
+              "links": [
+                "7e0271a4-4526-4980-ae07-ef0299e31ebd"
+              ],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Spirit of Scorpius",
+          "color": "#dd341ee6",
+          "portsInOrder": [
+            "a72c332f-1064-421a-9d57-c20ced818b86"
+          ],
+          "portsOutOrder": [
+            "ca076614-b926-413b-b8bd-aa7c19c9b9c3"
+          ],
+          "text": "Who treads upon my grave?"
+        },
+        "e7a17e6d-114a-49ec-88be-ad8c64e5a5ee": {
+          "id": "e7a17e6d-114a-49ec-88be-ad8c64e5a5ee",
+          "type": "dialogue",
+          "selected": false,
+          "x": 177,
+          "y": 89,
+          "ports": [
+            {
+              "id": "4fad94ac-80ef-4561-8ffb-169ea7473ae1",
+              "type": "default",
+              "x": 164,
+              "y": 120,
+              "name": "in-1681013603161 ",
+              "alignment": "left",
+              "parentNode": "e7a17e6d-114a-49ec-88be-ad8c64e5a5ee",
+              "links": [
+                "7e0271a4-4526-4980-ae07-ef0299e31ebd"
+              ],
+              "in": true,
+              "label": "❯"
+            },
+            {
+              "id": "85f95323-b239-4b78-928a-2527b90ccc19",
+              "type": "default",
+              "x": 412.828125,
+              "y": 120,
+              "name": "out-1681013603161",
+              "alignment": "right",
+              "parentNode": "e7a17e6d-114a-49ec-88be-ad8c64e5a5ee",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Spirit of Scorpius",
+          "color": "#dd341ee6",
+          "portsInOrder": [
+            "4fad94ac-80ef-4561-8ffb-169ea7473ae1"
+          ],
+          "portsOutOrder": [
+            "85f95323-b239-4b78-928a-2527b90ccc19"
+          ],
+          "text": "How dare you disturb me!"
+        }
+      }
+    }
+  ],
+  "trees": {}
+}

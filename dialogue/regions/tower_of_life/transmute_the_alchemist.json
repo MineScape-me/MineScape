@@ -1,0 +1,343 @@
+{
+  "id": "0d241240-b16d-452f-bc3e-f69113a9fc32",
+  "offsetX": 258,
+  "offsetY": 187,
+  "zoom": 100,
+  "gridSize": 0,
+  "layers": [
+    {
+      "id": "da4839e3-cf24-4c8f-ad11-6d2a7008a94e",
+      "type": "diagram-links",
+      "isSvg": true,
+      "transformed": true,
+      "models": {
+        "3d1ff6fd-80d3-445b-836a-e87fb232de75": {
+          "id": "3d1ff6fd-80d3-445b-836a-e87fb232de75",
+          "type": "default",
+          "source": "f78ac211-4527-49af-af0e-0f03535b8bc0",
+          "sourcePort": "e57526d6-9b26-42e0-81ce-5f58f8551353",
+          "target": "315dcf28-a4d0-48dc-b734-ecb6d70d5000",
+          "targetPort": "3e6ba3e1-6efe-458d-8cd1-3a049aa8013f",
+          "points": [
+            {
+              "id": "55966482-3ad3-4c6b-9b75-b7225a8fe291",
+              "type": "point",
+              "x": 277.96875,
+              "y": 31.5
+            },
+            {
+              "id": "cc156b59-d6c9-4e7e-89e0-b9e7cf6efe3d",
+              "type": "point",
+              "x": -5.5,
+              "y": 101.5
+            }
+          ],
+          "labels": [],
+          "width": 3,
+          "color": "gray",
+          "curvyness": 50,
+          "selectedColor": "rgb(0,192,255)"
+        },
+        "be1777fe-08be-49ae-a5b2-a59af801e862": {
+          "id": "be1777fe-08be-49ae-a5b2-a59af801e862",
+          "type": "default",
+          "source": "315dcf28-a4d0-48dc-b734-ecb6d70d5000",
+          "sourcePort": "0becbcb8-5778-4168-8787-fe589c4587ea",
+          "target": "47b82676-b9f8-4e88-8283-8792a1b19aee",
+          "targetPort": "db26b5bd-2d65-4e2a-bb72-a4b39e039dc1",
+          "points": [
+            {
+              "id": "a40f2fb3-0112-476b-9b15-bd45793e4d4b",
+              "type": "point",
+              "x": 441.203125,
+              "y": 101.5
+            },
+            {
+              "id": "7e2ee950-42cb-4af4-903b-345be1128987",
+              "type": "point",
+              "x": -5.5,
+              "y": 164.5
+            }
+          ],
+          "labels": [],
+          "width": 3,
+          "color": "gray",
+          "curvyness": 50,
+          "selectedColor": "rgb(0,192,255)"
+        },
+        "0b5cb0dd-d884-49c9-b460-acaec87f7730": {
+          "id": "0b5cb0dd-d884-49c9-b460-acaec87f7730",
+          "type": "default",
+          "source": "47b82676-b9f8-4e88-8283-8792a1b19aee",
+          "sourcePort": "cbe07a84-6bed-45e9-bf32-157f6e31d084",
+          "target": "352da814-13fb-4746-92c6-66d988148799",
+          "targetPort": "14d6a88a-372e-44a4-9c49-8697802c3744",
+          "points": [
+            {
+              "id": "70f5af0a-1234-487c-8c06-45c084eff386",
+              "type": "point",
+              "x": 250.65625,
+              "y": 164.5
+            },
+            {
+              "id": "d4e16f94-c11b-4721-84a7-b8869931eec9",
+              "type": "point",
+              "x": -5.5,
+              "y": 227.5
+            }
+          ],
+          "labels": [],
+          "width": 3,
+          "color": "gray",
+          "curvyness": 50,
+          "selectedColor": "rgb(0,192,255)"
+        },
+        "ce30f43b-698a-42ea-92ef-99a0205d6c6f": {
+          "id": "ce30f43b-698a-42ea-92ef-99a0205d6c6f",
+          "type": "default",
+          "selected": false,
+          "source": "e32dea1b-85c6-48e5-bb20-6955cb14fde5",
+          "sourcePort": "76215319-5af1-42ec-814d-06a7bf65cd98",
+          "target": "f78ac211-4527-49af-af0e-0f03535b8bc0",
+          "targetPort": "1c2c85ad-7b28-4a00-b535-e66a6c569c24",
+          "points": [
+            {
+              "id": "5207de5e-bff7-439f-9cec-8eb1a0eb611c",
+              "type": "point",
+              "x": -48.703125,
+              "y": 31.5
+            },
+            {
+              "id": "9e6451a8-25bd-40a1-9b91-5078104fa71f",
+              "type": "point",
+              "x": -7.5,
+              "y": 31.5
+            }
+          ],
+          "labels": [],
+          "width": 3,
+          "color": "gray",
+          "curvyness": 50,
+          "selectedColor": "rgb(0,192,255)"
+        }
+      }
+    },
+    {
+      "id": "45c3068e-00cd-45f8-b6b5-8215271aa78f",
+      "type": "diagram-nodes",
+      "isSvg": false,
+      "transformed": true,
+      "models": {
+        "e32dea1b-85c6-48e5-bb20-6955cb14fde5": {
+          "id": "e32dea1b-85c6-48e5-bb20-6955cb14fde5",
+          "type": "start",
+          "selected": false,
+          "x": -132,
+          "y": 17,
+          "ports": [
+            {
+              "id": "76215319-5af1-42ec-814d-06a7bf65cd98",
+              "type": "default",
+              "x": -56.203125,
+              "y": 24,
+              "name": "out-1680334023320",
+              "alignment": "right",
+              "parentNode": "e32dea1b-85c6-48e5-bb20-6955cb14fde5",
+              "links": [
+                "ce30f43b-698a-42ea-92ef-99a0205d6c6f"
+              ],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Start",
+          "color": "#16db26e6",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "76215319-5af1-42ec-814d-06a7bf65cd98"
+          ]
+        },
+        "f78ac211-4527-49af-af0e-0f03535b8bc0": {
+          "id": "f78ac211-4527-49af-af0e-0f03535b8bc0",
+          "type": "dialogue",
+          "selected": false,
+          "x": -2,
+          "y": -7,
+          "ports": [
+            {
+              "id": "1c2c85ad-7b28-4a00-b535-e66a6c569c24",
+              "type": "default",
+              "x": -15,
+              "y": 24,
+              "name": "in-1680334033335 ",
+              "alignment": "left",
+              "parentNode": "f78ac211-4527-49af-af0e-0f03535b8bc0",
+              "links": [
+                "ce30f43b-698a-42ea-92ef-99a0205d6c6f"
+              ],
+              "in": true,
+              "label": "❯"
+            },
+            {
+              "id": "e57526d6-9b26-42e0-81ce-5f58f8551353",
+              "type": "default",
+              "x": 270.46875,
+              "y": 24,
+              "name": "out-1680334033335",
+              "alignment": "right",
+              "parentNode": "f78ac211-4527-49af-af0e-0f03535b8bc0",
+              "links": [
+                "3d1ff6fd-80d3-445b-836a-e87fb232de75"
+              ],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "<player>",
+          "color": "#dd341ee6",
+          "portsInOrder": [
+            "1c2c85ad-7b28-4a00-b535-e66a6c569c24"
+          ],
+          "portsOutOrder": [
+            "e57526d6-9b26-42e0-81ce-5f58f8551353"
+          ],
+          "text": "Hi there. What is this place?"
+        },
+        "315dcf28-a4d0-48dc-b734-ecb6d70d5000": {
+          "id": "315dcf28-a4d0-48dc-b734-ecb6d70d5000",
+          "type": "dialogue",
+          "x": 0,
+          "y": 63,
+          "ports": [
+            {
+              "id": "3e6ba3e1-6efe-458d-8cd1-3a049aa8013f",
+              "type": "default",
+              "x": -13,
+              "y": 94,
+              "name": "in-1680334034462 ",
+              "alignment": "left",
+              "parentNode": "315dcf28-a4d0-48dc-b734-ecb6d70d5000",
+              "links": [
+                "3d1ff6fd-80d3-445b-836a-e87fb232de75"
+              ],
+              "in": true,
+              "label": "❯"
+            },
+            {
+              "id": "0becbcb8-5778-4168-8787-fe589c4587ea",
+              "type": "default",
+              "x": 433.703125,
+              "y": 94,
+              "name": "out-1680334034462",
+              "alignment": "right",
+              "parentNode": "315dcf28-a4d0-48dc-b734-ecb6d70d5000",
+              "links": [
+                "be1777fe-08be-49ae-a5b2-a59af801e862"
+              ],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "'Transmute' The Alchemist",
+          "color": "#dd341ee6",
+          "portsInOrder": [
+            "3e6ba3e1-6efe-458d-8cd1-3a049aa8013f"
+          ],
+          "portsOutOrder": [
+            "0becbcb8-5778-4168-8787-fe589c4587ea"
+          ],
+          "text": "Ah, this be the Tower of Life! Beautiful, isn't it?"
+        },
+        "47b82676-b9f8-4e88-8283-8792a1b19aee": {
+          "id": "47b82676-b9f8-4e88-8283-8792a1b19aee",
+          "type": "dialogue",
+          "x": 0,
+          "y": 126,
+          "ports": [
+            {
+              "id": "db26b5bd-2d65-4e2a-bb72-a4b39e039dc1",
+              "type": "default",
+              "x": -13,
+              "y": 157,
+              "name": "in-1680334035114 ",
+              "alignment": "left",
+              "parentNode": "47b82676-b9f8-4e88-8283-8792a1b19aee",
+              "links": [
+                "be1777fe-08be-49ae-a5b2-a59af801e862"
+              ],
+              "in": true,
+              "label": "❯"
+            },
+            {
+              "id": "cbe07a84-6bed-45e9-bf32-157f6e31d084",
+              "type": "default",
+              "x": 243.15625,
+              "y": 157,
+              "name": "out-1680334035115",
+              "alignment": "right",
+              "parentNode": "47b82676-b9f8-4e88-8283-8792a1b19aee",
+              "links": [
+                "0b5cb0dd-d884-49c9-b460-acaec87f7730"
+              ],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "<player>",
+          "color": "#dd341ee6",
+          "portsInOrder": [
+            "db26b5bd-2d65-4e2a-bb72-a4b39e039dc1"
+          ],
+          "portsOutOrder": [
+            "cbe07a84-6bed-45e9-bf32-157f6e31d084"
+          ],
+          "text": "I prefer ordinary houses."
+        },
+        "352da814-13fb-4746-92c6-66d988148799": {
+          "id": "352da814-13fb-4746-92c6-66d988148799",
+          "type": "dialogue",
+          "x": 0,
+          "y": 189,
+          "ports": [
+            {
+              "id": "14d6a88a-372e-44a4-9c49-8697802c3744",
+              "type": "default",
+              "x": -13,
+              "y": 220,
+              "name": "in-1680334035694 ",
+              "alignment": "left",
+              "parentNode": "352da814-13fb-4746-92c6-66d988148799",
+              "links": [
+                "0b5cb0dd-d884-49c9-b460-acaec87f7730"
+              ],
+              "in": true,
+              "label": "❯"
+            },
+            {
+              "id": "6a404f67-a89b-440b-ad24-46a808190b71",
+              "type": "default",
+              "x": 228.5,
+              "y": 220,
+              "name": "out-1680334035694",
+              "alignment": "right",
+              "parentNode": "352da814-13fb-4746-92c6-66d988148799",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "'Transmute' The Alchemist",
+          "color": "#dd341ee6",
+          "portsInOrder": [
+            "14d6a88a-372e-44a4-9c49-8697802c3744"
+          ],
+          "portsOutOrder": [
+            "6a404f67-a89b-440b-ad24-46a808190b71"
+          ],
+          "text": "Pah, you have no taste."
+        }
+      }
+    }
+  ],
+  "trees": {}
+}

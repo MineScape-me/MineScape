@@ -1,0 +1,941 @@
+{
+  "id": "6be9e54f-9820-473d-bc90-378147df759f",
+  "offsetX": 103.14292462603703,
+  "offsetY": -23.06461782135704,
+  "zoom": 74.99999999999994,
+  "gridSize": 0,
+  "layers": [
+    {
+      "id": "954c6ed0-1d5e-449d-8581-dfa3a115baa8",
+      "type": "diagram-links",
+      "isSvg": true,
+      "transformed": true,
+      "models": {
+        "b522e650-c9be-4239-bafc-777a8ba775cd": {
+          "id": "b522e650-c9be-4239-bafc-777a8ba775cd",
+          "type": "default",
+          "selected": false,
+          "source": "e9e93382-2011-4043-8d69-dd793befe419",
+          "sourcePort": "6e83065c-8720-442d-aa86-ddfbb7100ce7",
+          "target": "27492500-4fdc-4574-8cf0-8566e078dd10",
+          "targetPort": "67ff7f4c-f3ad-4180-909a-d35c8453c757",
+          "points": [
+            {
+              "id": "ffde68d3-5fe6-40d9-81ff-7f32d7bbabde",
+              "type": "point",
+              "x": 572.7494612068974,
+              "y": 79.87931034482777
+            },
+            {
+              "id": "7712782b-f44d-4a59-8fc7-e02e46799991",
+              "type": "point",
+              "x": 199.32758620689705,
+              "y": 142.87931034482767
+            }
+          ],
+          "labels": [],
+          "width": 3,
+          "color": "gray",
+          "curvyness": 50,
+          "selectedColor": "rgb(0,192,255)"
+        },
+        "a12dc693-4d63-4c96-bef6-04c4d972af48": {
+          "id": "a12dc693-4d63-4c96-bef6-04c4d972af48",
+          "type": "default",
+          "selected": false,
+          "source": "27492500-4fdc-4574-8cf0-8566e078dd10",
+          "sourcePort": "be0afc8c-bcca-48fa-8735-c193615b05f6",
+          "target": "730c4e38-dcd4-4d12-9d74-595f82775108",
+          "targetPort": "fc146162-6493-4593-bcb6-f74c8448fdb0",
+          "points": [
+            {
+              "id": "f3bd9945-30ec-414f-9f7c-cf41f962de42",
+              "type": "point",
+              "x": 536.0932112068979,
+              "y": 142.87931034482767
+            },
+            {
+              "id": "4f5a1c9b-e8e8-4b2e-8e06-1cd0b26282df",
+              "type": "point",
+              "x": 199.32758620689705,
+              "y": 205.87931034482767
+            }
+          ],
+          "labels": [],
+          "width": 3,
+          "color": "gray",
+          "curvyness": 50,
+          "selectedColor": "rgb(0,192,255)"
+        },
+        "40083a67-a80f-4503-aeaa-ad695818976c": {
+          "id": "40083a67-a80f-4503-aeaa-ad695818976c",
+          "type": "default",
+          "selected": false,
+          "source": "730c4e38-dcd4-4d12-9d74-595f82775108",
+          "sourcePort": "a6e71211-8af2-4a53-bee3-d7432353ba5f",
+          "target": "5e777ab6-9ebe-4cd0-88e4-7e9c7221a19b",
+          "targetPort": "2a3f94b1-10ac-4964-a466-97474878fddd",
+          "points": [
+            {
+              "id": "db49e23f-d257-4d83-9d74-71b98a8bddf7",
+              "type": "point",
+              "x": 350.34321120689754,
+              "y": 205.87931034482767
+            },
+            {
+              "id": "9012fb42-09da-4ae6-b425-d5a534a5ec48",
+              "type": "point",
+              "x": 199.32758620689705,
+              "y": 268.8793103448277
+            }
+          ],
+          "labels": [],
+          "width": 3,
+          "color": "gray",
+          "curvyness": 50,
+          "selectedColor": "rgb(0,192,255)"
+        },
+        "ab7e8ec8-22dc-46b2-bf1d-c3f3730ee04e": {
+          "id": "ab7e8ec8-22dc-46b2-bf1d-c3f3730ee04e",
+          "type": "default",
+          "selected": false,
+          "source": "5e777ab6-9ebe-4cd0-88e4-7e9c7221a19b",
+          "sourcePort": "546ccc7b-783d-450c-a8c4-5c528c456d04",
+          "target": "18fce9a5-4327-4f85-83a4-8b102c3be75d",
+          "targetPort": "8fba4049-c5d6-4119-80dc-d799a3e7917a",
+          "points": [
+            {
+              "id": "a28fe3b1-2153-4d5b-9e1a-f4ed5b4e76de",
+              "type": "point",
+              "x": 631.3744612068974,
+              "y": 268.8793103448277
+            },
+            {
+              "id": "2119c7b5-3879-4312-b5ee-c8b61fe0dd95",
+              "type": "point",
+              "x": 199.32758620689705,
+              "y": 346.8793103448276
+            }
+          ],
+          "labels": [],
+          "width": 3,
+          "color": "gray",
+          "curvyness": 50,
+          "selectedColor": "rgb(0,192,255)"
+        },
+        "e192e896-8c82-4e9c-a3c6-d0d6ac9c5c04": {
+          "id": "e192e896-8c82-4e9c-a3c6-d0d6ac9c5c04",
+          "type": "default",
+          "selected": false,
+          "source": "18fce9a5-4327-4f85-83a4-8b102c3be75d",
+          "sourcePort": "156671bd-f68c-4e88-8d38-76db50d4e841",
+          "target": "a062d412-0852-4807-b72e-28d8daeadbcc",
+          "targetPort": "1bae2a46-2870-4d5e-9007-7a2a2e4b9379",
+          "points": [
+            {
+              "id": "3a15399a-3f64-4534-a79b-cc73fb901c85",
+              "type": "point",
+              "x": 697.3275862068983,
+              "y": 346.8793103448276
+            },
+            {
+              "id": "714451bd-3dd2-4173-b8c7-fae64500d42a",
+              "type": "point",
+              "x": 199.32758620689705,
+              "y": 454.8793103448276
+            }
+          ],
+          "labels": [],
+          "width": 3,
+          "color": "gray",
+          "curvyness": 50,
+          "selectedColor": "rgb(0,192,255)"
+        },
+        "477e5021-93b3-4e5b-b14f-9b594290033e": {
+          "id": "477e5021-93b3-4e5b-b14f-9b594290033e",
+          "type": "default",
+          "selected": false,
+          "source": "a062d412-0852-4807-b72e-28d8daeadbcc",
+          "sourcePort": "ff0dbf74-96f2-435f-be6d-d2f7805c204f",
+          "target": "6584dfec-4260-4f09-8ff9-a6297afab65e",
+          "targetPort": "3f68b52c-d85b-4c41-a403-f1d96afd1983",
+          "points": [
+            {
+              "id": "1829c3d1-3b3d-4e2c-9607-04e4a857a430",
+              "type": "point",
+              "x": 484.79633620689776,
+              "y": 454.8793103448276
+            },
+            {
+              "id": "ba6fb72c-1cf3-4433-8c03-783121ce2ebd",
+              "type": "point",
+              "x": 199.32758620689705,
+              "y": 517.8793103448277
+            }
+          ],
+          "labels": [],
+          "width": 3,
+          "color": "gray",
+          "curvyness": 50,
+          "selectedColor": "rgb(0,192,255)"
+        },
+        "f67af444-6027-4611-b7aa-9beb4d8d8509": {
+          "id": "f67af444-6027-4611-b7aa-9beb4d8d8509",
+          "type": "default",
+          "selected": false,
+          "source": "6584dfec-4260-4f09-8ff9-a6297afab65e",
+          "sourcePort": "f806dd58-aa56-4a47-99d6-03431b874a5f",
+          "target": "f4ed7644-d348-4575-8390-d4b0f74ac61d",
+          "targetPort": "4dde75c0-ddf2-4d1a-9a41-409498d97e69",
+          "points": [
+            {
+              "id": "52287dae-9c09-4b5a-866d-f5024d4a8786",
+              "type": "point",
+              "x": 689.9994612068983,
+              "y": 517.8793103448277
+            },
+            {
+              "id": "15254795-7bca-4745-8d3c-0267d35d441f",
+              "type": "point",
+              "x": 199.32758620689705,
+              "y": 595.8793103448277
+            }
+          ],
+          "labels": [],
+          "width": 3,
+          "color": "gray",
+          "curvyness": 50,
+          "selectedColor": "rgb(0,192,255)"
+        },
+        "2812faef-f56d-4a1d-8a0b-7c7f906d4a4b": {
+          "id": "2812faef-f56d-4a1d-8a0b-7c7f906d4a4b",
+          "type": "default",
+          "selected": false,
+          "source": "f4ed7644-d348-4575-8390-d4b0f74ac61d",
+          "sourcePort": "0f26ae54-1686-46f3-9308-577fdeae7600",
+          "target": "723d4702-e761-4401-a6b2-7b9b9decb816",
+          "targetPort": "0bb8855f-2579-47e7-a92b-937224b64a11",
+          "points": [
+            {
+              "id": "eb12669d-85c2-49db-8b4f-769419c65f2a",
+              "type": "point",
+              "x": 638.7025862068974,
+              "y": 595.8793103448277
+            },
+            {
+              "id": "58e2e640-c81a-40ae-9b05-322424ddfde3",
+              "type": "point",
+              "x": 199.32758620689705,
+              "y": 673.8793103448277
+            }
+          ],
+          "labels": [],
+          "width": 3,
+          "color": "gray",
+          "curvyness": 50,
+          "selectedColor": "rgb(0,192,255)"
+        },
+        "661b5918-a08a-4833-af17-a4370828ad3c": {
+          "id": "661b5918-a08a-4833-af17-a4370828ad3c",
+          "type": "default",
+          "selected": false,
+          "source": "723d4702-e761-4401-a6b2-7b9b9decb816",
+          "sourcePort": "ec901f9a-9067-463d-a4a3-f25f6db6da83",
+          "target": "63d938aa-1531-40c8-b00d-5a8cd5ec9598",
+          "targetPort": "dd756de6-25f3-40fd-b47e-4a7da7df915e",
+          "points": [
+            {
+              "id": "bb5cc9e7-6b10-48cc-aa2a-392a96328865",
+              "type": "point",
+              "x": 668.0150862068981,
+              "y": 673.8793103448277
+            },
+            {
+              "id": "016c97fb-8652-4ad5-9522-b1eec8988d46",
+              "type": "point",
+              "x": 199.32758620689705,
+              "y": 781.8793103448277
+            }
+          ],
+          "labels": [],
+          "width": 3,
+          "color": "gray",
+          "curvyness": 50,
+          "selectedColor": "rgb(0,192,255)"
+        },
+        "22f7571e-c3bb-4fc4-b50c-25a0ec84527b": {
+          "id": "22f7571e-c3bb-4fc4-b50c-25a0ec84527b",
+          "type": "default",
+          "selected": false,
+          "source": "63d938aa-1531-40c8-b00d-5a8cd5ec9598",
+          "sourcePort": "32d7d72e-e179-4b54-bec9-1e5cab145ae6",
+          "target": "97e015f5-36c9-413c-8a28-9be179a50b77",
+          "targetPort": "e99abf2f-a659-4598-90f7-7b9e7b21dba1",
+          "points": [
+            {
+              "id": "177029b1-380b-4576-bcee-0b87f5213473",
+              "type": "point",
+              "x": 646.0307112068983,
+              "y": 781.8793103448277
+            },
+            {
+              "id": "9402f31a-3160-4b39-89ef-7bfb87a02468",
+              "type": "point",
+              "x": 199.32758620689705,
+              "y": 844.8793103448277
+            }
+          ],
+          "labels": [],
+          "width": 3,
+          "color": "gray",
+          "curvyness": 50,
+          "selectedColor": "rgb(0,192,255)"
+        },
+        "56d243ad-8858-4e34-8136-6855022793fd": {
+          "id": "56d243ad-8858-4e34-8136-6855022793fd",
+          "type": "default",
+          "selected": false,
+          "source": "97e015f5-36c9-413c-8a28-9be179a50b77",
+          "sourcePort": "a7c04250-20c9-4414-9fb7-b3ca6f84ac08",
+          "target": "5d42abbe-085e-46c8-9762-979121b34f0a",
+          "targetPort": "ba239b13-0793-4479-9960-0c0e6c9265c7",
+          "points": [
+            {
+              "id": "e8f3e2cb-c819-45b6-bd29-7a036e281aa2",
+              "type": "point",
+              "x": 689.9994612068983,
+              "y": 844.8793103448277
+            },
+            {
+              "id": "79e2a84f-9531-4e8e-8e7b-f40205086221",
+              "type": "point",
+              "x": 199.32758620689705,
+              "y": 967.8793103448277
+            }
+          ],
+          "labels": [],
+          "width": 3,
+          "color": "gray",
+          "curvyness": 50,
+          "selectedColor": "rgb(0,192,255)"
+        },
+        "4082e848-87e4-4873-ad9f-f8244b81036a": {
+          "id": "4082e848-87e4-4873-ad9f-f8244b81036a",
+          "type": "default",
+          "selected": false,
+          "source": "164ab12f-3a82-4f18-821c-5a57077eca39",
+          "sourcePort": "05953676-f40d-41ab-8d49-98a9f32e0e03",
+          "target": "e9e93382-2011-4043-8d69-dd793befe419",
+          "targetPort": "ff125afe-dad3-4126-a52d-dc768e1c1010",
+          "points": [
+            {
+              "id": "73ab74f2-e420-48f3-a2ab-40c1829993d1",
+              "type": "point",
+              "x": 174.67618534482762,
+              "y": 78.98275862068968
+            },
+            {
+              "id": "9d6cd7b6-008d-40d1-b9f4-58c93ee37427",
+              "type": "point",
+              "x": 199.32758620689756,
+              "y": 79.87931034482762
+            }
+          ],
+          "labels": [],
+          "width": 3,
+          "color": "gray",
+          "curvyness": 50,
+          "selectedColor": "rgb(0,192,255)"
+        }
+      }
+    },
+    {
+      "id": "ea0a2b2f-da5d-4d98-9744-4fb6908916a8",
+      "type": "diagram-nodes",
+      "isSvg": false,
+      "transformed": true,
+      "models": {
+        "164ab12f-3a82-4f18-821c-5a57077eca39": {
+          "id": "164ab12f-3a82-4f18-821c-5a57077eca39",
+          "type": "start",
+          "selected": false,
+          "x": 91.37931034482764,
+          "y": 64.48275862068968,
+          "ports": [
+            {
+              "id": "05953676-f40d-41ab-8d49-98a9f32e0e03",
+              "type": "default",
+              "x": 167.17618534482762,
+              "y": 71.48275862068968,
+              "name": "out-1680321503750",
+              "alignment": "right",
+              "parentNode": "164ab12f-3a82-4f18-821c-5a57077eca39",
+              "links": [
+                "4082e848-87e4-4873-ad9f-f8244b81036a"
+              ],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Start",
+          "color": "#16db26e6",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "05953676-f40d-41ab-8d49-98a9f32e0e03"
+          ]
+        },
+        "e9e93382-2011-4043-8d69-dd793befe419": {
+          "id": "e9e93382-2011-4043-8d69-dd793befe419",
+          "type": "dialogue",
+          "selected": false,
+          "x": 204.82758620689683,
+          "y": 41.37931034482764,
+          "ports": [
+            {
+              "id": "ff125afe-dad3-4126-a52d-dc768e1c1010",
+              "type": "default",
+              "x": 191.82758620689756,
+              "y": 72.37931034482762,
+              "name": "in-1680321509169 ",
+              "alignment": "left",
+              "parentNode": "e9e93382-2011-4043-8d69-dd793befe419",
+              "links": [
+                "4082e848-87e4-4873-ad9f-f8244b81036a"
+              ],
+              "in": true,
+              "label": "❯"
+            },
+            {
+              "id": "6e83065c-8720-442d-aa86-ddfbb7100ce7",
+              "type": "default",
+              "x": 565.2494612068965,
+              "y": 72.37931034482762,
+              "name": "out-1680321509169",
+              "alignment": "right",
+              "parentNode": "e9e93382-2011-4043-8d69-dd793befe419",
+              "links": [
+                "b522e650-c9be-4239-bafc-777a8ba775cd"
+              ],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "<player>",
+          "color": "#dd341ee6",
+          "portsInOrder": [
+            "ff125afe-dad3-4126-a52d-dc768e1c1010"
+          ],
+          "portsOutOrder": [
+            "6e83065c-8720-442d-aa86-ddfbb7100ce7"
+          ],
+          "text": "What's that ladder next to the altar for?"
+        },
+        "27492500-4fdc-4574-8cf0-8566e078dd10": {
+          "id": "27492500-4fdc-4574-8cf0-8566e078dd10",
+          "type": "dialogue",
+          "selected": false,
+          "x": 204.82758620689683,
+          "y": 104.37931034482764,
+          "ports": [
+            {
+              "id": "67ff7f4c-f3ad-4180-909a-d35c8453c757",
+              "type": "default",
+              "x": 191.82758620689756,
+              "y": 135.379310344828,
+              "name": "in-1680321512762 ",
+              "alignment": "left",
+              "parentNode": "27492500-4fdc-4574-8cf0-8566e078dd10",
+              "links": [
+                "b522e650-c9be-4239-bafc-777a8ba775cd"
+              ],
+              "in": true,
+              "label": "❯"
+            },
+            {
+              "id": "be0afc8c-bcca-48fa-8735-c193615b05f6",
+              "type": "default",
+              "x": 528.593211206897,
+              "y": 135.379310344828,
+              "name": "out-1680321512762",
+              "alignment": "right",
+              "parentNode": "27492500-4fdc-4574-8cf0-8566e078dd10",
+              "links": [
+                "a12dc693-4d63-4c96-bef6-04c4d972af48"
+              ],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Mage of Zamorak",
+          "color": "#dd341ee6",
+          "portsInOrder": [
+            "67ff7f4c-f3ad-4180-909a-d35c8453c757"
+          ],
+          "portsOutOrder": [
+            "be0afc8c-bcca-48fa-8735-c193615b05f6"
+          ],
+          "text": "An...archeological dig. Yeah, a dig."
+        },
+        "730c4e38-dcd4-4d12-9d74-595f82775108": {
+          "id": "730c4e38-dcd4-4d12-9d74-595f82775108",
+          "type": "dialogue",
+          "selected": false,
+          "x": 204.82758620689683,
+          "y": 167.37931034482764,
+          "ports": [
+            {
+              "id": "fc146162-6493-4593-bcb6-f74c8448fdb0",
+              "type": "default",
+              "x": 191.82758620689756,
+              "y": 198.37931034482813,
+              "name": "in-1680321513364 ",
+              "alignment": "left",
+              "parentNode": "730c4e38-dcd4-4d12-9d74-595f82775108",
+              "links": [
+                "a12dc693-4d63-4c96-bef6-04c4d972af48"
+              ],
+              "in": true,
+              "label": "❯"
+            },
+            {
+              "id": "a6e71211-8af2-4a53-bee3-d7432353ba5f",
+              "type": "default",
+              "x": 342.8432112068971,
+              "y": 198.37931034482813,
+              "name": "out-1680321513364",
+              "alignment": "right",
+              "parentNode": "730c4e38-dcd4-4d12-9d74-595f82775108",
+              "links": [
+                "40083a67-a80f-4503-aeaa-ad695818976c"
+              ],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Mage of Zamorak",
+          "color": "#dd341ee6",
+          "portsInOrder": [
+            "fc146162-6493-4593-bcb6-f74c8448fdb0"
+          ],
+          "portsOutOrder": [
+            "a6e71211-8af2-4a53-bee3-d7432353ba5f"
+          ],
+          "text": "Why?"
+        },
+        "5e777ab6-9ebe-4cd0-88e4-7e9c7221a19b": {
+          "id": "5e777ab6-9ebe-4cd0-88e4-7e9c7221a19b",
+          "type": "dialogue",
+          "selected": false,
+          "x": 204.82758620689683,
+          "y": 230.37931034482764,
+          "ports": [
+            {
+              "id": "2a3f94b1-10ac-4964-a466-97474878fddd",
+              "type": "default",
+              "x": 191.82758620689756,
+              "y": 261.3793103448281,
+              "name": "in-1680321513951 ",
+              "alignment": "left",
+              "parentNode": "5e777ab6-9ebe-4cd0-88e4-7e9c7221a19b",
+              "links": [
+                "40083a67-a80f-4503-aeaa-ad695818976c"
+              ],
+              "in": true,
+              "label": "❯"
+            },
+            {
+              "id": "546ccc7b-783d-450c-a8c4-5c528c456d04",
+              "type": "default",
+              "x": 623.8744612068965,
+              "y": 261.3793103448281,
+              "name": "out-1680321513951",
+              "alignment": "right",
+              "parentNode": "5e777ab6-9ebe-4cd0-88e4-7e9c7221a19b",
+              "links": [
+                "ab7e8ec8-22dc-46b2-bf1d-c3f3730ee04e"
+              ],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "<player>",
+          "color": "#dd341ee6",
+          "portsInOrder": [
+            "2a3f94b1-10ac-4964-a466-97474878fddd"
+          ],
+          "portsOutOrder": [
+            "546ccc7b-783d-450c-a8c4-5c528c456d04"
+          ],
+          "text": "Next to a Chaos Altar? That's a bit odd. Can I go\ndown and have a look?"
+        },
+        "18fce9a5-4327-4f85-83a4-8b102c3be75d": {
+          "id": "18fce9a5-4327-4f85-83a4-8b102c3be75d",
+          "type": "dialogue",
+          "selected": false,
+          "x": 204.82758620689683,
+          "y": 308.3793103448276,
+          "ports": [
+            {
+              "id": "8fba4049-c5d6-4119-80dc-d799a3e7917a",
+              "type": "default",
+              "x": 191.82758620689756,
+              "y": 339.3793103448282,
+              "name": "in-1680321515745 ",
+              "alignment": "left",
+              "parentNode": "18fce9a5-4327-4f85-83a4-8b102c3be75d",
+              "links": [
+                "ab7e8ec8-22dc-46b2-bf1d-c3f3730ee04e"
+              ],
+              "in": true,
+              "label": "❯"
+            },
+            {
+              "id": "156671bd-f68c-4e88-8d38-76db50d4e841",
+              "type": "default",
+              "x": 689.8275862068974,
+              "y": 339.3793103448282,
+              "name": "out-1680321515745",
+              "alignment": "right",
+              "parentNode": "18fce9a5-4327-4f85-83a4-8b102c3be75d",
+              "links": [
+                "e192e896-8c82-4e9c-a3c6-d0d6ac9c5c04"
+              ],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Mage of Zamorak",
+          "color": "#dd341ee6",
+          "portsInOrder": [
+            "8fba4049-c5d6-4119-80dc-d799a3e7917a"
+          ],
+          "portsOutOrder": [
+            "156671bd-f68c-4e88-8d38-76db50d4e841"
+          ],
+          "text": "Well...I suppose. See, we found this ancient altar, but it\nwas pretty broken so the Z.M.I. sent some of its\nresearchers to try and repair it."
+        },
+        "a062d412-0852-4807-b72e-28d8daeadbcc": {
+          "id": "a062d412-0852-4807-b72e-28d8daeadbcc",
+          "type": "dialogue",
+          "selected": false,
+          "x": 204.82758620689683,
+          "y": 416.3793103448276,
+          "ports": [
+            {
+              "id": "1bae2a46-2870-4d5e-9007-7a2a2e4b9379",
+              "type": "default",
+              "x": 191.82758620689756,
+              "y": 447.3793103448282,
+              "name": "in-1680321519360 ",
+              "alignment": "left",
+              "parentNode": "a062d412-0852-4807-b72e-28d8daeadbcc",
+              "links": [
+                "e192e896-8c82-4e9c-a3c6-d0d6ac9c5c04"
+              ],
+              "in": true,
+              "label": "❯"
+            },
+            {
+              "id": "ff0dbf74-96f2-435f-be6d-d2f7805c204f",
+              "type": "default",
+              "x": 477.2963362068973,
+              "y": 447.3793103448282,
+              "name": "out-1680321519360",
+              "alignment": "right",
+              "parentNode": "a062d412-0852-4807-b72e-28d8daeadbcc",
+              "links": [
+                "477e5021-93b3-4e5b-b14f-9b594290033e"
+              ],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "<player>",
+          "color": "#dd341ee6",
+          "portsInOrder": [
+            "1bae2a46-2870-4d5e-9007-7a2a2e4b9379"
+          ],
+          "portsOutOrder": [
+            "ff0dbf74-96f2-435f-be6d-d2f7805c204f"
+          ],
+          "text": "How'd that work out for them?"
+        },
+        "6584dfec-4260-4f09-8ff9-a6297afab65e": {
+          "id": "6584dfec-4260-4f09-8ff9-a6297afab65e",
+          "type": "dialogue",
+          "selected": false,
+          "x": 204.82758620689683,
+          "y": 479.3793103448276,
+          "ports": [
+            {
+              "id": "3f68b52c-d85b-4c41-a403-f1d96afd1983",
+              "type": "default",
+              "x": 191.82758620689756,
+              "y": 510.3793103448282,
+              "name": "in-1680321520565 ",
+              "alignment": "left",
+              "parentNode": "6584dfec-4260-4f09-8ff9-a6297afab65e",
+              "links": [
+                "477e5021-93b3-4e5b-b14f-9b594290033e"
+              ],
+              "in": true,
+              "label": "❯"
+            },
+            {
+              "id": "f806dd58-aa56-4a47-99d6-03431b874a5f",
+              "type": "default",
+              "x": 682.4994612068974,
+              "y": 510.3793103448282,
+              "name": "out-1680321520565",
+              "alignment": "right",
+              "parentNode": "6584dfec-4260-4f09-8ff9-a6297afab65e",
+              "links": [
+                "f67af444-6027-4611-b7aa-9beb4d8d8509"
+              ],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Mage of Zamorak",
+          "color": "#dd341ee6",
+          "portsInOrder": [
+            "3f68b52c-d85b-4c41-a403-f1d96afd1983"
+          ],
+          "portsOutOrder": [
+            "f806dd58-aa56-4a47-99d6-03431b874a5f"
+          ],
+          "text": "Pretty well - only one died. Still, they got it\nworking...sort of. This ancient technology can be tricky."
+        },
+        "f4ed7644-d348-4575-8390-d4b0f74ac61d": {
+          "id": "f4ed7644-d348-4575-8390-d4b0f74ac61d",
+          "type": "dialogue",
+          "selected": false,
+          "x": 204.82758620689683,
+          "y": 557.3793103448277,
+          "ports": [
+            {
+              "id": "4dde75c0-ddf2-4d1a-9a41-409498d97e69",
+              "type": "default",
+              "x": 191.82758620689756,
+              "y": 588.3793103448281,
+              "name": "in-1680321521134 ",
+              "alignment": "left",
+              "parentNode": "f4ed7644-d348-4575-8390-d4b0f74ac61d",
+              "links": [
+                "f67af444-6027-4611-b7aa-9beb4d8d8509"
+              ],
+              "in": true,
+              "label": "❯"
+            },
+            {
+              "id": "0f26ae54-1686-46f3-9308-577fdeae7600",
+              "type": "default",
+              "x": 631.2025862068965,
+              "y": 588.3793103448281,
+              "name": "out-1680321521134",
+              "alignment": "right",
+              "parentNode": "f4ed7644-d348-4575-8390-d4b0f74ac61d",
+              "links": [
+                "2812faef-f56d-4a1d-8a0b-7c7f906d4a4b"
+              ],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "<player>",
+          "color": "#dd341ee6",
+          "portsInOrder": [
+            "4dde75c0-ddf2-4d1a-9a41-409498d97e69"
+          ],
+          "portsOutOrder": [
+            "0f26ae54-1686-46f3-9308-577fdeae7600"
+          ],
+          "text": "What do you mean, 'sort of'? Altars either work or\ndon't work."
+        },
+        "723d4702-e761-4401-a6b2-7b9b9decb816": {
+          "id": "723d4702-e761-4401-a6b2-7b9b9decb816",
+          "type": "dialogue",
+          "selected": false,
+          "x": 204.82758620689683,
+          "y": 635.3793103448277,
+          "ports": [
+            {
+              "id": "0bb8855f-2579-47e7-a92b-937224b64a11",
+              "type": "default",
+              "x": 191.82758620689756,
+              "y": 666.3793103448281,
+              "name": "in-1680321521756 ",
+              "alignment": "left",
+              "parentNode": "723d4702-e761-4401-a6b2-7b9b9decb816",
+              "links": [
+                "2812faef-f56d-4a1d-8a0b-7c7f906d4a4b"
+              ],
+              "in": true,
+              "label": "❯"
+            },
+            {
+              "id": "ec901f9a-9067-463d-a4a3-f25f6db6da83",
+              "type": "default",
+              "x": 660.5150862068972,
+              "y": 666.3793103448281,
+              "name": "out-1680321521756",
+              "alignment": "right",
+              "parentNode": "723d4702-e761-4401-a6b2-7b9b9decb816",
+              "links": [
+                "661b5918-a08a-4833-af17-a4370828ad3c"
+              ],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Mage of Zamorak",
+          "color": "#dd341ee6",
+          "portsInOrder": [
+            "0bb8855f-2579-47e7-a92b-937224b64a11"
+          ],
+          "portsOutOrder": [
+            "ec901f9a-9067-463d-a4a3-f25f6db6da83"
+          ],
+          "text": "This one works, just not as you'd expect. You put pure\nessence in, but get random runes back. Some of them\nwe don't even know how to craft!"
+        },
+        "63d938aa-1531-40c8-b00d-5a8cd5ec9598": {
+          "id": "63d938aa-1531-40c8-b00d-5a8cd5ec9598",
+          "type": "dialogue",
+          "selected": false,
+          "x": 204.82758620689683,
+          "y": 743.3793103448277,
+          "ports": [
+            {
+              "id": "dd756de6-25f3-40fd-b47e-4a7da7df915e",
+              "type": "default",
+              "x": 191.82758620689756,
+              "y": 774.3793103448281,
+              "name": "in-1680321522349 ",
+              "alignment": "left",
+              "parentNode": "63d938aa-1531-40c8-b00d-5a8cd5ec9598",
+              "links": [
+                "661b5918-a08a-4833-af17-a4370828ad3c"
+              ],
+              "in": true,
+              "label": "❯"
+            },
+            {
+              "id": "32d7d72e-e179-4b54-bec9-1e5cab145ae6",
+              "type": "default",
+              "x": 638.530711206897,
+              "y": 774.3793103448281,
+              "name": "out-1680321522349",
+              "alignment": "right",
+              "parentNode": "63d938aa-1531-40c8-b00d-5a8cd5ec9598",
+              "links": [
+                "22f7571e-c3bb-4fc4-b50c-25a0ec84527b"
+              ],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "<player>",
+          "color": "#dd341ee6",
+          "portsInOrder": [
+            "dd756de6-25f3-40fd-b47e-4a7da7df915e"
+          ],
+          "portsOutOrder": [
+            "32d7d72e-e179-4b54-bec9-1e5cab145ae6"
+          ],
+          "text": "Sounds like a pretty good deal. Can I give it a go?"
+        },
+        "97e015f5-36c9-413c-8a28-9be179a50b77": {
+          "id": "97e015f5-36c9-413c-8a28-9be179a50b77",
+          "type": "dialogue",
+          "selected": false,
+          "x": 204.82758620689683,
+          "y": 806.3793103448277,
+          "ports": [
+            {
+              "id": "e99abf2f-a659-4598-90f7-7b9e7b21dba1",
+              "type": "default",
+              "x": 191.82758620689756,
+              "y": 837.3793103448281,
+              "name": "in-1680321522982 ",
+              "alignment": "left",
+              "parentNode": "97e015f5-36c9-413c-8a28-9be179a50b77",
+              "links": [
+                "22f7571e-c3bb-4fc4-b50c-25a0ec84527b"
+              ],
+              "in": true,
+              "label": "❯"
+            },
+            {
+              "id": "a7c04250-20c9-4414-9fb7-b3ca6f84ac08",
+              "type": "default",
+              "x": 682.4994612068974,
+              "y": 837.3793103448281,
+              "name": "out-1680321522982",
+              "alignment": "right",
+              "parentNode": "97e015f5-36c9-413c-8a28-9be179a50b77",
+              "links": [
+                "56d243ad-8858-4e34-8136-6855022793fd"
+              ],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Mage of Zamorak",
+          "color": "#dd341ee6",
+          "portsInOrder": [
+            "e99abf2f-a659-4598-90f7-7b9e7b21dba1"
+          ],
+          "portsOutOrder": [
+            "a7c04250-20c9-4414-9fb7-b3ca6f84ac08"
+          ],
+          "text": "I don't think so. The mages don't like outsiders going\nin; they'll probably attack you. They only patrol the\nshort path, though, so if you used the long path, through\na tunnel near the entrance, you'd probably be safe."
+        },
+        "5d42abbe-085e-46c8-9762-979121b34f0a": {
+          "id": "5d42abbe-085e-46c8-9762-979121b34f0a",
+          "type": "dialogue",
+          "selected": false,
+          "x": 204.82758620689683,
+          "y": 929.3793103448277,
+          "ports": [
+            {
+              "id": "ba239b13-0793-4479-9960-0c0e6c9265c7",
+              "type": "default",
+              "x": 191.82758620689756,
+              "y": 960.3793103448281,
+              "name": "in-1680321524195 ",
+              "alignment": "left",
+              "parentNode": "5d42abbe-085e-46c8-9762-979121b34f0a",
+              "links": [
+                "56d243ad-8858-4e34-8136-6855022793fd"
+              ],
+              "in": true,
+              "label": "❯"
+            },
+            {
+              "id": "1b24f223-4e92-47c8-9b4a-6ee3c9f0348f",
+              "type": "default",
+              "x": 316.06196120689697,
+              "y": 960.3793103448281,
+              "name": "out-1680321524195",
+              "alignment": "right",
+              "parentNode": "5d42abbe-085e-46c8-9762-979121b34f0a",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "<player>",
+          "color": "#dd341ee6",
+          "portsInOrder": [
+            "ba239b13-0793-4479-9960-0c0e6c9265c7"
+          ],
+          "portsOutOrder": [
+            "1b24f223-4e92-47c8-9b4a-6ee3c9f0348f"
+          ],
+          "text": "Thanks."
+        }
+      }
+    }
+  ],
+  "trees": {}
+}

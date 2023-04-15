@@ -1,0 +1,199 @@
+{
+  "id": "f19f1ad7-e121-4f8a-9661-fee2f98c44e6",
+  "offsetX": 0,
+  "offsetY": 0,
+  "zoom": 100,
+  "gridSize": 0,
+  "layers": [
+    {
+      "id": "e64de8ec-8c3d-4f9d-9d81-22e0ca4a26b7",
+      "type": "diagram-links",
+      "isSvg": true,
+      "transformed": true,
+      "models": {
+        "9c2e1926-5f46-4e24-b428-1ab4b45dc552": {
+          "id": "9c2e1926-5f46-4e24-b428-1ab4b45dc552",
+          "type": "default",
+          "source": "f9a54e7e-5b31-4f93-89ac-7f4115d5b12d",
+          "sourcePort": "fb1d8b31-b8c7-42d5-9d3f-aa8e5fed1512",
+          "target": "8c959aa6-41f4-4857-9d4c-feea9b26f060",
+          "targetPort": "80ff1479-a524-4312-9641-c2b528b85c5f",
+          "points": [
+            {
+              "id": "e481241f-84d3-45e4-a3c5-89cd622d646e",
+              "type": "point",
+              "x": 370.6875,
+              "y": 66.5
+            },
+            {
+              "id": "3cfdd718-da29-4282-acbf-64b906c5831e",
+              "type": "point",
+              "x": 158.5,
+              "y": 129.5
+            }
+          ],
+          "labels": [],
+          "width": 3,
+          "color": "gray",
+          "curvyness": 50,
+          "selectedColor": "rgb(0,192,255)"
+        },
+        "3fe41dee-26ae-4973-95ff-2b23fb2b1887": {
+          "id": "3fe41dee-26ae-4973-95ff-2b23fb2b1887",
+          "type": "default",
+          "selected": false,
+          "source": "39ba8a19-dd9f-439b-b5ac-23b124aacfa1",
+          "sourcePort": "40101302-5c1e-45e8-93c0-2d4638fc82db",
+          "target": "f9a54e7e-5b31-4f93-89ac-7f4115d5b12d",
+          "targetPort": "5bc73c9f-2c14-4e90-9f87-1290cb85b86c",
+          "points": [
+            {
+              "id": "d8cf6680-5c87-401d-a6b9-07970a363a07",
+              "type": "point",
+              "x": 133.296875,
+              "y": 64.5
+            },
+            {
+              "id": "ab4001d0-f129-4163-822b-c21bb1d1227c",
+              "type": "point",
+              "x": 158.5,
+              "y": 66.5
+            }
+          ],
+          "labels": [],
+          "width": 3,
+          "color": "gray",
+          "curvyness": 50,
+          "selectedColor": "rgb(0,192,255)"
+        }
+      }
+    },
+    {
+      "id": "d61b86b0-54c0-4a9b-8372-697994659ccd",
+      "type": "diagram-nodes",
+      "isSvg": false,
+      "transformed": true,
+      "models": {
+        "39ba8a19-dd9f-439b-b5ac-23b124aacfa1": {
+          "id": "39ba8a19-dd9f-439b-b5ac-23b124aacfa1",
+          "type": "start",
+          "x": 50,
+          "y": 50,
+          "ports": [
+            {
+              "id": "40101302-5c1e-45e8-93c0-2d4638fc82db",
+              "type": "default",
+              "x": 125.796875,
+              "y": 57,
+              "name": "out-1680328396493",
+              "alignment": "right",
+              "parentNode": "39ba8a19-dd9f-439b-b5ac-23b124aacfa1",
+              "links": [
+                "3fe41dee-26ae-4973-95ff-2b23fb2b1887"
+              ],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Start",
+          "color": "#16db26e6",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "40101302-5c1e-45e8-93c0-2d4638fc82db"
+          ]
+        },
+        "f9a54e7e-5b31-4f93-89ac-7f4115d5b12d": {
+          "id": "f9a54e7e-5b31-4f93-89ac-7f4115d5b12d",
+          "type": "dialogue",
+          "selected": false,
+          "x": 164,
+          "y": 28,
+          "ports": [
+            {
+              "id": "5bc73c9f-2c14-4e90-9f87-1290cb85b86c",
+              "type": "default",
+              "x": 151,
+              "y": 59,
+              "name": "in-1680328484882 ",
+              "alignment": "left",
+              "parentNode": "f9a54e7e-5b31-4f93-89ac-7f4115d5b12d",
+              "links": [
+                "3fe41dee-26ae-4973-95ff-2b23fb2b1887"
+              ],
+              "in": true,
+              "label": "❯"
+            },
+            {
+              "id": "fb1d8b31-b8c7-42d5-9d3f-aa8e5fed1512",
+              "type": "default",
+              "x": 363.1875,
+              "y": 59,
+              "name": "out-1680328484882",
+              "alignment": "right",
+              "parentNode": "f9a54e7e-5b31-4f93-89ac-7f4115d5b12d",
+              "links": [
+                "9c2e1926-5f46-4e24-b428-1ab4b45dc552"
+              ],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "<player>",
+          "color": "#dd341ee6",
+          "portsInOrder": [
+            "5bc73c9f-2c14-4e90-9f87-1290cb85b86c"
+          ],
+          "portsOutOrder": [
+            "fb1d8b31-b8c7-42d5-9d3f-aa8e5fed1512"
+          ],
+          "text": "Hello, how are you?"
+        },
+        "8c959aa6-41f4-4857-9d4c-feea9b26f060": {
+          "id": "8c959aa6-41f4-4857-9d4c-feea9b26f060",
+          "type": "dialogue",
+          "selected": false,
+          "x": 164,
+          "y": 91,
+          "ports": [
+            {
+              "id": "80ff1479-a524-4312-9641-c2b528b85c5f",
+              "type": "default",
+              "x": 151,
+              "y": 122,
+              "name": "in-1680328486649 ",
+              "alignment": "left",
+              "parentNode": "8c959aa6-41f4-4857-9d4c-feea9b26f060",
+              "links": [
+                "9c2e1926-5f46-4e24-b428-1ab4b45dc552"
+              ],
+              "in": true,
+              "label": "❯"
+            },
+            {
+              "id": "a853ed9d-acae-47c7-8146-b03eb45d1642",
+              "type": "default",
+              "x": 619.6875,
+              "y": 122,
+              "name": "out-1680328486649",
+              "alignment": "right",
+              "parentNode": "8c959aa6-41f4-4857-9d4c-feea9b26f060",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Khazard warlord",
+          "color": "#dd341ee6",
+          "portsInOrder": [
+            "80ff1479-a524-4312-9641-c2b528b85c5f"
+          ],
+          "portsOutOrder": [
+            "a853ed9d-acae-47c7-8146-b03eb45d1642"
+          ],
+          "text": "Don't speak to me you insignificant wretch! Die in the\nname of Khazard!"
+        }
+      }
+    }
+  ],
+  "trees": {}
+}

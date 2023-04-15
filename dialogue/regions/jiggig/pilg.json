@@ -1,0 +1,126 @@
+{
+  "id": "9b47354d-b911-4fe7-897e-f4089512136e",
+  "offsetX": 0,
+  "offsetY": 0,
+  "zoom": 100,
+  "gridSize": 0,
+  "layers": [
+    {
+      "id": "0f576756-479c-43a9-b14b-71dfe634995d",
+      "type": "diagram-links",
+      "isSvg": true,
+      "transformed": true,
+      "models": {
+        "70a79fcd-f66f-4080-8855-cd840a01821e": {
+          "id": "70a79fcd-f66f-4080-8855-cd840a01821e",
+          "type": "default",
+          "selected": false,
+          "source": "ba859326-c583-49be-8874-70bc9d9fb9d4",
+          "sourcePort": "a0e73203-e359-485d-b20a-6082295481cf",
+          "target": "467e2124-394a-44d7-b742-b6ad9e00a2f9",
+          "targetPort": "2e030cda-9d2b-441f-bb2c-bc65949a1415",
+          "points": [
+            {
+              "id": "12131d0a-acdb-4446-bca2-22a40c577423",
+              "type": "point",
+              "x": 133.296875,
+              "y": 64.5
+            },
+            {
+              "id": "972ff330-4be1-489b-b776-fd7daa742a4d",
+              "type": "point",
+              "x": 165.5,
+              "y": 64.5
+            }
+          ],
+          "labels": [],
+          "width": 3,
+          "color": "gray",
+          "curvyness": 50,
+          "selectedColor": "rgb(0,192,255)"
+        }
+      }
+    },
+    {
+      "id": "259b5bd5-d357-4da0-bc4c-2bb61f037e49",
+      "type": "diagram-nodes",
+      "isSvg": false,
+      "transformed": true,
+      "models": {
+        "ba859326-c583-49be-8874-70bc9d9fb9d4": {
+          "id": "ba859326-c583-49be-8874-70bc9d9fb9d4",
+          "type": "start",
+          "x": 50,
+          "y": 50,
+          "ports": [
+            {
+              "id": "a0e73203-e359-485d-b20a-6082295481cf",
+              "type": "default",
+              "x": 125.796875,
+              "y": 57,
+              "name": "out-1680355434534",
+              "alignment": "right",
+              "parentNode": "ba859326-c583-49be-8874-70bc9d9fb9d4",
+              "links": [
+                "70a79fcd-f66f-4080-8855-cd840a01821e"
+              ],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Start",
+          "color": "#16db26e6",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "a0e73203-e359-485d-b20a-6082295481cf"
+          ]
+        },
+        "467e2124-394a-44d7-b742-b6ad9e00a2f9": {
+          "id": "467e2124-394a-44d7-b742-b6ad9e00a2f9",
+          "type": "dialogue",
+          "selected": false,
+          "x": 171,
+          "y": 26,
+          "ports": [
+            {
+              "id": "2e030cda-9d2b-441f-bb2c-bc65949a1415",
+              "type": "default",
+              "x": 158,
+              "y": 57,
+              "name": "in-1680355437824 ",
+              "alignment": "left",
+              "parentNode": "467e2124-394a-44d7-b742-b6ad9e00a2f9",
+              "links": [
+                "70a79fcd-f66f-4080-8855-cd840a01821e"
+              ],
+              "in": true,
+              "label": "❯"
+            },
+            {
+              "id": "84b07c3e-1d3e-42dc-b239-fef4da8289a6",
+              "type": "default",
+              "x": 612.03125,
+              "y": 57,
+              "name": "out-1680355437824",
+              "alignment": "right",
+              "parentNode": "467e2124-394a-44d7-b742-b6ad9e00a2f9",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Pilg",
+          "color": "#dd341ee6",
+          "portsInOrder": [
+            "2e030cda-9d2b-441f-bb2c-bc65949a1415"
+          ],
+          "portsOutOrder": [
+            "84b07c3e-1d3e-42dc-b239-fef4da8289a6"
+          ],
+          "text": "Dey got me in da belly, mees gutsies feel like had a\ndead dead dog dinner."
+        }
+      }
+    }
+  ],
+  "trees": {}
+}

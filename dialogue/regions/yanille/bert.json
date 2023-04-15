@@ -1,0 +1,826 @@
+{
+  "id": "f29f3cdc-4c99-4a85-aaee-0796b2587624",
+  "offsetX": 0,
+  "offsetY": 0,
+  "zoom": 100,
+  "gridSize": 0,
+  "layers": [
+    {
+      "id": "864b1166-2729-4b05-9020-990d7b05ad23",
+      "type": "diagram-links",
+      "isSvg": true,
+      "transformed": true,
+      "models": {
+        "8d57401e-e592-4d08-8648-3a040b528bd4": {
+          "id": "8d57401e-e592-4d08-8648-3a040b528bd4",
+          "type": "default",
+          "source": "adce153c-b503-4085-aec2-a2f2996653c9",
+          "sourcePort": "80bbaaf8-b962-4f44-a218-8122081841b7",
+          "target": "9a10a0e7-4a35-428b-8021-53da955149a2",
+          "targetPort": "da22175a-b88e-4968-b846-823566c158cd",
+          "points": [
+            {
+              "id": "421f3765-fbf2-4929-9be4-42f37342c702",
+              "type": "point",
+              "x": 672.5,
+              "y": 66.5
+            },
+            {
+              "id": "d8fcb4f6-0584-4e22-a4c1-c2f0a46b2757",
+              "type": "point",
+              "x": 174.5,
+              "y": 129.5
+            }
+          ],
+          "labels": [],
+          "width": 3,
+          "color": "gray",
+          "curvyness": 50,
+          "selectedColor": "rgb(0,192,255)"
+        },
+        "fd257d5e-67a2-4698-91e8-98974515b1e0": {
+          "id": "fd257d5e-67a2-4698-91e8-98974515b1e0",
+          "type": "default",
+          "source": "9a10a0e7-4a35-428b-8021-53da955149a2",
+          "sourcePort": "57777a4c-8a13-4459-8e0d-bf2b7f1fee4a",
+          "target": "7893ea99-80cc-4532-a5f1-3f8d5e227c4e",
+          "targetPort": "b3c371b6-d694-47fc-80db-a2f89b08f156",
+          "points": [
+            {
+              "id": "713e2aad-f271-40f1-8039-35d74d8d9eeb",
+              "type": "point",
+              "x": 489.28125,
+              "y": 129.5
+            },
+            {
+              "id": "c8e26e6b-a574-4a9a-973c-e5c6fd508ded",
+              "type": "point",
+              "x": 174.5,
+              "y": 192.5
+            }
+          ],
+          "labels": [],
+          "width": 3,
+          "color": "gray",
+          "curvyness": 50,
+          "selectedColor": "rgb(0,192,255)"
+        },
+        "f88f8c12-4023-46ad-b325-cd15a8c1eeda": {
+          "id": "f88f8c12-4023-46ad-b325-cd15a8c1eeda",
+          "type": "default",
+          "source": "7893ea99-80cc-4532-a5f1-3f8d5e227c4e",
+          "sourcePort": "d953eca7-c944-46c3-abe0-020cad120a6f",
+          "target": "c86e8b82-2808-4c13-bab1-9282e65a85c0",
+          "targetPort": "be0dad46-bd38-40af-851b-135927556cce",
+          "points": [
+            {
+              "id": "8af510ba-3f3f-4d4f-9b41-829cd0a4dfd8",
+              "type": "point",
+              "x": 613.875,
+              "y": 192.5
+            },
+            {
+              "id": "3a382409-c43a-4f2e-a88d-95c30db5e4ae",
+              "type": "point",
+              "x": 174.5,
+              "y": 270.5
+            }
+          ],
+          "labels": [],
+          "width": 3,
+          "color": "gray",
+          "curvyness": 50,
+          "selectedColor": "rgb(0,192,255)"
+        },
+        "440e17b4-ce11-4bad-8d1f-fbaae14246de": {
+          "id": "440e17b4-ce11-4bad-8d1f-fbaae14246de",
+          "type": "default",
+          "selected": false,
+          "source": "1feeb905-5517-4bb4-b008-df32329301ab",
+          "sourcePort": "ab9a24ae-22de-4032-9b93-761d006d6c91",
+          "target": "adce153c-b503-4085-aec2-a2f2996653c9",
+          "targetPort": "745057f5-a2b0-4ceb-99f0-12f74914da79",
+          "points": [
+            {
+              "id": "c60d0f9e-68d1-4cfd-80cf-59ffab06dfdf",
+              "type": "point",
+              "x": 133.296875,
+              "y": 64.5
+            },
+            {
+              "id": "6cd89cda-e67b-415d-8df6-72c552677ddf",
+              "type": "point",
+              "x": 174.5,
+              "y": 66.5
+            }
+          ],
+          "labels": [],
+          "width": 3,
+          "color": "gray",
+          "curvyness": 50,
+          "selectedColor": "rgb(0,192,255)"
+        },
+        "c71a2c6e-071b-435e-8d6f-78d6312c1ada": {
+          "id": "c71a2c6e-071b-435e-8d6f-78d6312c1ada",
+          "type": "default",
+          "selected": false,
+          "source": "c86e8b82-2808-4c13-bab1-9282e65a85c0",
+          "sourcePort": "15d5a0bf-7a8d-42f5-9e5b-8ef8db92fcb4",
+          "target": "8a4f0755-b627-4352-bccc-211ae9e0c5fd",
+          "targetPort": "9f055e80-dd24-4609-af1a-ae7220731705",
+          "points": [
+            {
+              "id": "44ed2051-114d-4ff7-9d15-0c628b0f34fb",
+              "type": "point",
+              "x": 764.8125,
+              "y": 279.5
+            },
+            {
+              "id": "0ef510d2-de17-464d-89b6-c37bd5e450b0",
+              "type": "point",
+              "x": 174.5,
+              "y": 383.5
+            }
+          ],
+          "labels": [],
+          "width": 3,
+          "color": "gray",
+          "curvyness": 50,
+          "selectedColor": "rgb(0,192,255)"
+        },
+        "38af93dc-9d2c-4914-a725-65726637904a": {
+          "id": "38af93dc-9d2c-4914-a725-65726637904a",
+          "type": "default",
+          "source": "25d2927c-5c76-4522-96f8-d586b95d61a4",
+          "sourcePort": "f9e5953e-d7e4-48e3-90fd-969310f4849f",
+          "target": "893e7fb8-54a1-4830-a676-89e0c18d486c",
+          "targetPort": "352ee5f3-2720-4df4-829b-47b726ae45b7",
+          "points": [
+            {
+              "id": "8c539836-1e84-4446-947c-f38706d1cb45",
+              "type": "point",
+              "x": 1244.546875,
+              "y": 314.5
+            },
+            {
+              "id": "bb9b573d-ce13-4092-91c9-9eab9c72afe3",
+              "type": "point",
+              "x": 812.5,
+              "y": 392.5
+            }
+          ],
+          "labels": [],
+          "width": 3,
+          "color": "gray",
+          "curvyness": 50,
+          "selectedColor": "rgb(0,192,255)"
+        },
+        "caaecee9-581d-4276-862f-11757be4b552": {
+          "id": "caaecee9-581d-4276-862f-11757be4b552",
+          "type": "default",
+          "source": "893e7fb8-54a1-4830-a676-89e0c18d486c",
+          "sourcePort": "9f7b21c0-6e23-4445-85f8-0af77a0e7101",
+          "target": "09d6d3d7-8012-4534-9dd4-6003ec49d2ef",
+          "targetPort": "64a467cf-752a-41a7-a9cc-7178430f4ae1",
+          "points": [
+            {
+              "id": "985f7f3b-1bb6-400d-9cf6-1be731b8c3ad",
+              "type": "point",
+              "x": 1281.1875,
+              "y": 392.5
+            },
+            {
+              "id": "8f36d95a-b39d-490a-9f7c-ca0c15224115",
+              "type": "point",
+              "x": 812.5,
+              "y": 470.5
+            }
+          ],
+          "labels": [],
+          "width": 3,
+          "color": "gray",
+          "curvyness": 50,
+          "selectedColor": "rgb(0,192,255)"
+        },
+        "792c4955-cca8-49a7-9678-d54b88b4c151": {
+          "id": "792c4955-cca8-49a7-9678-d54b88b4c151",
+          "type": "default",
+          "source": "09d6d3d7-8012-4534-9dd4-6003ec49d2ef",
+          "sourcePort": "97e5c88f-6f9d-4f3a-90e7-cdaeaebc4846",
+          "target": "40739dd2-3276-4a82-a6b7-627ff7c75678",
+          "targetPort": "c460adad-0bb8-4791-ad29-be3ad6886252",
+          "points": [
+            {
+              "id": "d6df575c-166f-4d35-89a3-948fd15037ba",
+              "type": "point",
+              "x": 1251.875,
+              "y": 470.5
+            },
+            {
+              "id": "3c2d1115-e473-4537-bb62-85c827148714",
+              "type": "point",
+              "x": 812.5,
+              "y": 548.5
+            }
+          ],
+          "labels": [],
+          "width": 3,
+          "color": "gray",
+          "curvyness": 50,
+          "selectedColor": "rgb(0,192,255)"
+        },
+        "66b3001e-8e2d-443a-915c-5bea420e8877": {
+          "id": "66b3001e-8e2d-443a-915c-5bea420e8877",
+          "type": "default",
+          "source": "40739dd2-3276-4a82-a6b7-627ff7c75678",
+          "sourcePort": "aa214599-ebdb-4750-bd00-079f7b11d08a",
+          "target": "06aa1efa-2cd0-414e-ab64-a25c826c746f",
+          "targetPort": "b3d344f8-8761-40e1-9c30-46cd64ea09f7",
+          "points": [
+            {
+              "id": "d674dd25-a7bb-488d-b3fd-90de92d57f3d",
+              "type": "point",
+              "x": 1002.6875,
+              "y": 548.5
+            },
+            {
+              "id": "932d6358-f55e-4a31-a14e-a656e9704077",
+              "type": "point",
+              "x": 812.5,
+              "y": 611.5
+            }
+          ],
+          "labels": [],
+          "width": 3,
+          "color": "gray",
+          "curvyness": 50,
+          "selectedColor": "rgb(0,192,255)"
+        },
+        "a18bb4ba-2a28-4522-b79e-fa3001f54149": {
+          "id": "a18bb4ba-2a28-4522-b79e-fa3001f54149",
+          "type": "default",
+          "selected": false,
+          "source": "c86e8b82-2808-4c13-bab1-9282e65a85c0",
+          "sourcePort": "8677bf09-072e-4ac8-8d48-c6cba56b9162",
+          "target": "25d2927c-5c76-4522-96f8-d586b95d61a4",
+          "targetPort": "b8f46cf5-af21-4683-baed-6d8aa5eb9f54",
+          "points": [
+            {
+              "id": "aaf57e5b-aec4-40d1-8ced-b67708d34803",
+              "type": "point",
+              "x": 764.828125,
+              "y": 315.5
+            },
+            {
+              "id": "2f2b6362-2b29-4074-8426-3848248b1380",
+              "type": "point",
+              "x": 812.5,
+              "y": 314.5
+            }
+          ],
+          "labels": [],
+          "width": 3,
+          "color": "gray",
+          "curvyness": 50,
+          "selectedColor": "rgb(0,192,255)"
+        }
+      }
+    },
+    {
+      "id": "ba8d62bf-f4bd-4322-bc5b-547028e5a982",
+      "type": "diagram-nodes",
+      "isSvg": false,
+      "transformed": true,
+      "models": {
+        "1feeb905-5517-4bb4-b008-df32329301ab": {
+          "id": "1feeb905-5517-4bb4-b008-df32329301ab",
+          "type": "start",
+          "x": 50,
+          "y": 50,
+          "ports": [
+            {
+              "id": "ab9a24ae-22de-4032-9b93-761d006d6c91",
+              "type": "default",
+              "x": 125.796875,
+              "y": 57,
+              "name": "out-1680307413640",
+              "alignment": "right",
+              "parentNode": "1feeb905-5517-4bb4-b008-df32329301ab",
+              "links": [
+                "440e17b4-ce11-4bad-8d1f-fbaae14246de"
+              ],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Start",
+          "color": "#16db26e6",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "ab9a24ae-22de-4032-9b93-761d006d6c91"
+          ]
+        },
+        "adce153c-b503-4085-aec2-a2f2996653c9": {
+          "id": "adce153c-b503-4085-aec2-a2f2996653c9",
+          "type": "dialogue",
+          "selected": false,
+          "x": 180,
+          "y": 28,
+          "ports": [
+            {
+              "id": "745057f5-a2b0-4ceb-99f0-12f74914da79",
+              "type": "default",
+              "x": 167,
+              "y": 59,
+              "name": "in-1680308714247 ",
+              "alignment": "left",
+              "parentNode": "adce153c-b503-4085-aec2-a2f2996653c9",
+              "links": [
+                "440e17b4-ce11-4bad-8d1f-fbaae14246de"
+              ],
+              "in": true,
+              "label": "❯"
+            },
+            {
+              "id": "80bbaaf8-b962-4f44-a218-8122081841b7",
+              "type": "default",
+              "x": 665,
+              "y": 59,
+              "name": "out-1680308714247",
+              "alignment": "right",
+              "parentNode": "adce153c-b503-4085-aec2-a2f2996653c9",
+              "links": [
+                "8d57401e-e592-4d08-8648-3a040b528bd4"
+              ],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Bert",
+          "color": "#dd341ee6",
+          "portsInOrder": [
+            "745057f5-a2b0-4ceb-99f0-12f74914da79"
+          ],
+          "portsOutOrder": [
+            "80bbaaf8-b962-4f44-a218-8122081841b7"
+          ],
+          "text": "Eeee, wha' shall I do! I'll mos' certainly lose tha job..."
+        },
+        "9a10a0e7-4a35-428b-8021-53da955149a2": {
+          "id": "9a10a0e7-4a35-428b-8021-53da955149a2",
+          "type": "dialogue",
+          "selected": false,
+          "x": 180,
+          "y": 91,
+          "ports": [
+            {
+              "id": "da22175a-b88e-4968-b846-823566c158cd",
+              "type": "default",
+              "x": 167,
+              "y": 122,
+              "name": "in-1680308716023 ",
+              "alignment": "left",
+              "parentNode": "9a10a0e7-4a35-428b-8021-53da955149a2",
+              "links": [
+                "8d57401e-e592-4d08-8648-3a040b528bd4"
+              ],
+              "in": true,
+              "label": "❯"
+            },
+            {
+              "id": "57777a4c-8a13-4459-8e0d-bf2b7f1fee4a",
+              "type": "default",
+              "x": 481.78125,
+              "y": 122,
+              "name": "out-1680308716023",
+              "alignment": "right",
+              "parentNode": "9a10a0e7-4a35-428b-8021-53da955149a2",
+              "links": [
+                "fd257d5e-67a2-4698-91e8-98974515b1e0"
+              ],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "<player>",
+          "color": "#dd341ee6",
+          "portsInOrder": [
+            "da22175a-b88e-4968-b846-823566c158cd"
+          ],
+          "portsOutOrder": [
+            "57777a4c-8a13-4459-8e0d-bf2b7f1fee4a"
+          ],
+          "text": "Lose your job? What's wrong, why?"
+        },
+        "7893ea99-80cc-4532-a5f1-3f8d5e227c4e": {
+          "id": "7893ea99-80cc-4532-a5f1-3f8d5e227c4e",
+          "type": "dialogue",
+          "selected": false,
+          "x": 180,
+          "y": 154,
+          "ports": [
+            {
+              "id": "b3c371b6-d694-47fc-80db-a2f89b08f156",
+              "type": "default",
+              "x": 167,
+              "y": 185,
+              "name": "in-1680308716642 ",
+              "alignment": "left",
+              "parentNode": "7893ea99-80cc-4532-a5f1-3f8d5e227c4e",
+              "links": [
+                "fd257d5e-67a2-4698-91e8-98974515b1e0"
+              ],
+              "in": true,
+              "label": "❯"
+            },
+            {
+              "id": "d953eca7-c944-46c3-abe0-020cad120a6f",
+              "type": "default",
+              "x": 606.375,
+              "y": 185,
+              "name": "out-1680308716643",
+              "alignment": "right",
+              "parentNode": "7893ea99-80cc-4532-a5f1-3f8d5e227c4e",
+              "links": [
+                "f88f8c12-4023-46ad-b325-cd15a8c1eeda"
+              ],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Bert",
+          "color": "#dd341ee6",
+          "portsInOrder": [
+            "b3c371b6-d694-47fc-80db-a2f89b08f156"
+          ],
+          "portsOutOrder": [
+            "d953eca7-c944-46c3-abe0-020cad120a6f"
+          ],
+          "text": "I w-w-work... over yon sand pit... and weeell... I\nfound... this... hand! T'were buried in't Sand!"
+        },
+        "c86e8b82-2808-4c13-bab1-9282e65a85c0": {
+          "id": "c86e8b82-2808-4c13-bab1-9282e65a85c0",
+          "type": "option",
+          "selected": false,
+          "x": 180,
+          "y": 232,
+          "ports": [
+            {
+              "id": "15d5a0bf-7a8d-42f5-9e5b-8ef8db92fcb4",
+              "type": "default",
+              "x": 757.3125,
+              "y": 272,
+              "name": "out-16803087172661",
+              "alignment": "right",
+              "parentNode": "c86e8b82-2808-4c13-bab1-9282e65a85c0",
+              "links": [
+                "c71a2c6e-071b-435e-8d6f-78d6312c1ada"
+              ],
+              "in": false,
+              "label": "❯"
+            },
+            {
+              "id": "be0dad46-bd38-40af-851b-135927556cce",
+              "type": "default",
+              "x": 167,
+              "y": 263,
+              "name": "in-1680308717266 ",
+              "alignment": "left",
+              "parentNode": "c86e8b82-2808-4c13-bab1-9282e65a85c0",
+              "links": [
+                "f88f8c12-4023-46ad-b325-cd15a8c1eeda"
+              ],
+              "in": true,
+              "label": "❯"
+            },
+            {
+              "id": "8677bf09-072e-4ac8-8d48-c6cba56b9162",
+              "type": "default",
+              "x": 757.328125,
+              "y": 308,
+              "name": "out-1680308717266",
+              "alignment": "right",
+              "parentNode": "c86e8b82-2808-4c13-bab1-9282e65a85c0",
+              "links": [
+                "a18bb4ba-2a28-4522-b79e-fa3001f54149"
+              ],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Select an option.",
+          "color": "#0756b1e6",
+          "portsInOrder": [
+            "be0dad46-bd38-40af-851b-135927556cce"
+          ],
+          "portsOutOrder": [
+            "15d5a0bf-7a8d-42f5-9e5b-8ef8db92fcb4",
+            "8677bf09-072e-4ac8-8d48-c6cba56b9162"
+          ],
+          "options": [
+            {
+              "conditions": [
+                ""
+              ],
+              "args": [],
+              "text": "Oh, you found a hand in the sand - that's nice for you."
+            },
+            {
+              "conditions": [
+                ""
+              ],
+              "args": [],
+              "text": "Eww a hand, in the sand! Why haven't you told the authorities?"
+            }
+          ]
+        },
+        "8a4f0755-b627-4352-bccc-211ae9e0c5fd": {
+          "id": "8a4f0755-b627-4352-bccc-211ae9e0c5fd",
+          "type": "dialogue",
+          "selected": false,
+          "x": 180,
+          "y": 345,
+          "ports": [
+            {
+              "id": "9f055e80-dd24-4609-af1a-ae7220731705",
+              "type": "default",
+              "x": 167,
+              "y": 376,
+              "name": "in-1680308718421 ",
+              "alignment": "left",
+              "parentNode": "8a4f0755-b627-4352-bccc-211ae9e0c5fd",
+              "links": [
+                "c71a2c6e-071b-435e-8d6f-78d6312c1ada"
+              ],
+              "in": true,
+              "label": "❯"
+            },
+            {
+              "id": "0b456d5f-536e-41fb-8c02-d23a17387884",
+              "type": "default",
+              "x": 643.015625,
+              "y": 376,
+              "name": "out-1680308718421",
+              "alignment": "right",
+              "parentNode": "8a4f0755-b627-4352-bccc-211ae9e0c5fd",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "<player>",
+          "color": "#dd341ee6",
+          "portsInOrder": [
+            "9f055e80-dd24-4609-af1a-ae7220731705"
+          ],
+          "portsOutOrder": [
+            "0b456d5f-536e-41fb-8c02-d23a17387884"
+          ],
+          "text": "Oh, you found a hand in the sand - that's nice for you."
+        },
+        "25d2927c-5c76-4522-96f8-d586b95d61a4": {
+          "id": "25d2927c-5c76-4522-96f8-d586b95d61a4",
+          "type": "dialogue",
+          "selected": false,
+          "x": 818,
+          "y": 276,
+          "ports": [
+            {
+              "id": "b8f46cf5-af21-4683-baed-6d8aa5eb9f54",
+              "type": "default",
+              "x": 805,
+              "y": 307,
+              "name": "in-1680308776042 ",
+              "alignment": "left",
+              "parentNode": "25d2927c-5c76-4522-96f8-d586b95d61a4",
+              "links": [
+                "a18bb4ba-2a28-4522-b79e-fa3001f54149"
+              ],
+              "in": true,
+              "label": "❯"
+            },
+            {
+              "id": "f9e5953e-d7e4-48e3-90fd-969310f4849f",
+              "type": "default",
+              "x": 1237.046875,
+              "y": 307,
+              "name": "out-1680308776042",
+              "alignment": "right",
+              "parentNode": "25d2927c-5c76-4522-96f8-d586b95d61a4",
+              "links": [
+                "38af93dc-9d2c-4914-a725-65726637904a"
+              ],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "<player>",
+          "color": "#dd341ee6",
+          "portsInOrder": [
+            "b8f46cf5-af21-4683-baed-6d8aa5eb9f54"
+          ],
+          "portsOutOrder": [
+            "f9e5953e-d7e4-48e3-90fd-969310f4849f"
+          ],
+          "text": "Eww a hand, in the sand! Why haven't you told the\nauthorities?"
+        },
+        "893e7fb8-54a1-4830-a676-89e0c18d486c": {
+          "id": "893e7fb8-54a1-4830-a676-89e0c18d486c",
+          "type": "dialogue",
+          "selected": false,
+          "x": 818,
+          "y": 354,
+          "ports": [
+            {
+              "id": "352ee5f3-2720-4df4-829b-47b726ae45b7",
+              "type": "default",
+              "x": 805,
+              "y": 385,
+              "name": "in-1680308778428 ",
+              "alignment": "left",
+              "parentNode": "893e7fb8-54a1-4830-a676-89e0c18d486c",
+              "links": [
+                "38af93dc-9d2c-4914-a725-65726637904a"
+              ],
+              "in": true,
+              "label": "❯"
+            },
+            {
+              "id": "9f7b21c0-6e23-4445-85f8-0af77a0e7101",
+              "type": "default",
+              "x": 1273.6875,
+              "y": 385,
+              "name": "out-1680308778428",
+              "alignment": "right",
+              "parentNode": "893e7fb8-54a1-4830-a676-89e0c18d486c",
+              "links": [
+                "caaecee9-581d-4276-862f-11757be4b552"
+              ],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Bert",
+          "color": "#dd341ee6",
+          "portsInOrder": [
+            "352ee5f3-2720-4df4-829b-47b726ae45b7"
+          ],
+          "portsOutOrder": [
+            "9f7b21c0-6e23-4445-85f8-0af77a0e7101"
+          ],
+          "text": "They's no' wha' they once was. Tha cap'ain o'the Guard\nspends near all o'the time drunk in yon pub."
+        },
+        "09d6d3d7-8012-4534-9dd4-6003ec49d2ef": {
+          "id": "09d6d3d7-8012-4534-9dd4-6003ec49d2ef",
+          "type": "dialogue",
+          "selected": false,
+          "x": 818,
+          "y": 432,
+          "ports": [
+            {
+              "id": "64a467cf-752a-41a7-a9cc-7178430f4ae1",
+              "type": "default",
+              "x": 805,
+              "y": 463,
+              "name": "in-1680308779624 ",
+              "alignment": "left",
+              "parentNode": "09d6d3d7-8012-4534-9dd4-6003ec49d2ef",
+              "links": [
+                "caaecee9-581d-4276-862f-11757be4b552"
+              ],
+              "in": true,
+              "label": "❯"
+            },
+            {
+              "id": "97e5c88f-6f9d-4f3a-90e7-cdaeaebc4846",
+              "type": "default",
+              "x": 1244.375,
+              "y": 463,
+              "name": "out-1680308779624",
+              "alignment": "right",
+              "parentNode": "09d6d3d7-8012-4534-9dd4-6003ec49d2ef",
+              "links": [
+                "792c4955-cca8-49a7-9678-d54b88b4c151"
+              ],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "<player>",
+          "color": "#dd341ee6",
+          "portsInOrder": [
+            "64a467cf-752a-41a7-a9cc-7178430f4ae1"
+          ],
+          "portsOutOrder": [
+            "97e5c88f-6f9d-4f3a-90e7-cdaeaebc4846"
+          ],
+          "text": "Oh? The Guard Captain is drunk in the pub you say?\nThat's not good, what will you do?"
+        },
+        "40739dd2-3276-4a82-a6b7-627ff7c75678": {
+          "id": "40739dd2-3276-4a82-a6b7-627ff7c75678",
+          "type": "dialogue",
+          "selected": false,
+          "x": 818,
+          "y": 510,
+          "ports": [
+            {
+              "id": "c460adad-0bb8-4791-ad29-be3ad6886252",
+              "type": "default",
+              "x": 805,
+              "y": 541,
+              "name": "in-1680308780242 ",
+              "alignment": "left",
+              "parentNode": "40739dd2-3276-4a82-a6b7-627ff7c75678",
+              "links": [
+                "792c4955-cca8-49a7-9678-d54b88b4c151"
+              ],
+              "in": true,
+              "label": "❯"
+            },
+            {
+              "id": "aa214599-ebdb-4750-bd00-079f7b11d08a",
+              "type": "default",
+              "x": 995.1875,
+              "y": 541,
+              "name": "out-1680308780242",
+              "alignment": "right",
+              "parentNode": "40739dd2-3276-4a82-a6b7-627ff7c75678",
+              "links": [
+                "66b3001e-8e2d-443a-915c-5bea420e8877"
+              ],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Bert",
+          "color": "#dd341ee6",
+          "portsInOrder": [
+            "c460adad-0bb8-4791-ad29-be3ad6886252"
+          ],
+          "portsOutOrder": [
+            "aa214599-ebdb-4750-bd00-079f7b11d08a"
+          ],
+          "text": "I's got no clue."
+        },
+        "06aa1efa-2cd0-414e-ab64-a25c826c746f": {
+          "id": "06aa1efa-2cd0-414e-ab64-a25c826c746f",
+          "type": "dialogue",
+          "selected": false,
+          "x": 818,
+          "y": 573,
+          "ports": [
+            {
+              "id": "b3d344f8-8761-40e1-9c30-46cd64ea09f7",
+              "type": "default",
+              "x": 805,
+              "y": 604,
+              "name": "in-1680308780849 ",
+              "alignment": "left",
+              "parentNode": "06aa1efa-2cd0-414e-ab64-a25c826c746f",
+              "links": [
+                "66b3001e-8e2d-443a-915c-5bea420e8877"
+              ],
+              "in": true,
+              "label": "❯"
+            },
+            {
+              "id": "9987b74d-5ead-471c-bac7-24f0153d891c",
+              "type": "default",
+              "x": 1229.71875,
+              "y": 604,
+              "name": "out-1680308780849",
+              "alignment": "right",
+              "parentNode": "06aa1efa-2cd0-414e-ab64-a25c826c746f",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "",
+          "color": "#dd341ee6",
+          "portsInOrder": [
+            "b3d344f8-8761-40e1-9c30-46cd64ea09f7"
+          ],
+          "portsOutOrder": [
+            "9987b74d-5ead-471c-bac7-24f0153d891c"
+          ],
+          "text": "You do not meet all of the requirements to start\nThe Hand in the Sand quest."
+        },
+        "1a6f12dd-6c4d-4e85-8a31-b52b866bd1ad": {
+          "id": "1a6f12dd-6c4d-4e85-8a31-b52b866bd1ad",
+          "type": "note",
+          "selected": true,
+          "x": 510,
+          "y": 579,
+          "ports": [],
+          "title": "TODO",
+          "color": "#19e0e7e6",
+          "portsInOrder": [],
+          "portsOutOrder": [],
+          "text": "Check requirements & start quest"
+        }
+      }
+    }
+  ],
+  "trees": {}
+}

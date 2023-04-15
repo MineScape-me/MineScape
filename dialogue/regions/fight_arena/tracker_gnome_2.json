@@ -1,0 +1,199 @@
+{
+  "id": "af5f5330-1229-4c90-8e73-13e77c109a90",
+  "offsetX": 0,
+  "offsetY": 0,
+  "zoom": 100,
+  "gridSize": 0,
+  "layers": [
+    {
+      "id": "e4126795-035c-4e6d-b65f-7ae21e5456fa",
+      "type": "diagram-links",
+      "isSvg": true,
+      "transformed": true,
+      "models": {
+        "83161c9c-c66f-43b3-84a3-3f7c7868041f": {
+          "id": "83161c9c-c66f-43b3-84a3-3f7c7868041f",
+          "type": "default",
+          "source": "69e9035f-1c37-4f01-8e99-81ca98dc6516",
+          "sourcePort": "1382ebeb-d88d-4a50-bcee-dce8c7c826c7",
+          "target": "c320580a-ec78-4528-87ee-2ae8e88984bd",
+          "targetPort": "dc3e886d-dae9-44dd-982b-b21061f3ee8f",
+          "points": [
+            {
+              "id": "8634c14a-70e3-478f-9266-5a76c6ba6949",
+              "type": "point",
+              "x": 278.40625,
+              "y": 64.5
+            },
+            {
+              "id": "ce5ec1fb-e9b0-40e5-9fb9-b751570ee32f",
+              "type": "point",
+              "x": 161.5,
+              "y": 127.5
+            }
+          ],
+          "labels": [],
+          "width": 3,
+          "color": "gray",
+          "curvyness": 50,
+          "selectedColor": "rgb(0,192,255)"
+        },
+        "8ee8ec31-39fc-49ee-93d1-5254373c34f5": {
+          "id": "8ee8ec31-39fc-49ee-93d1-5254373c34f5",
+          "type": "default",
+          "selected": false,
+          "source": "cdfe4815-b8f0-4506-8f78-5857fb5b6406",
+          "sourcePort": "1620236b-531a-4655-8b54-d42a20750dac",
+          "target": "69e9035f-1c37-4f01-8e99-81ca98dc6516",
+          "targetPort": "a566aed2-5eeb-4633-a8af-3e87f53dea6e",
+          "points": [
+            {
+              "id": "1255d130-5b5d-40fe-a048-011e72d03aff",
+              "type": "point",
+              "x": 133.296875,
+              "y": 64.5
+            },
+            {
+              "id": "d3654e54-7492-4d57-b97a-4501cc03f41f",
+              "type": "point",
+              "x": 161.5,
+              "y": 64.5
+            }
+          ],
+          "labels": [],
+          "width": 3,
+          "color": "gray",
+          "curvyness": 50,
+          "selectedColor": "rgb(0,192,255)"
+        }
+      }
+    },
+    {
+      "id": "984dbd95-8844-4b14-a649-9379b5e0c008",
+      "type": "diagram-nodes",
+      "isSvg": false,
+      "transformed": true,
+      "models": {
+        "cdfe4815-b8f0-4506-8f78-5857fb5b6406": {
+          "id": "cdfe4815-b8f0-4506-8f78-5857fb5b6406",
+          "type": "start",
+          "x": 50,
+          "y": 50,
+          "ports": [
+            {
+              "id": "1620236b-531a-4655-8b54-d42a20750dac",
+              "type": "default",
+              "x": 125.796875,
+              "y": 57,
+              "name": "out-1680328194219",
+              "alignment": "right",
+              "parentNode": "cdfe4815-b8f0-4506-8f78-5857fb5b6406",
+              "links": [
+                "8ee8ec31-39fc-49ee-93d1-5254373c34f5"
+              ],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Start",
+          "color": "#16db26e6",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "1620236b-531a-4655-8b54-d42a20750dac"
+          ]
+        },
+        "69e9035f-1c37-4f01-8e99-81ca98dc6516": {
+          "id": "69e9035f-1c37-4f01-8e99-81ca98dc6516",
+          "type": "dialogue",
+          "selected": false,
+          "x": 167,
+          "y": 26,
+          "ports": [
+            {
+              "id": "a566aed2-5eeb-4633-a8af-3e87f53dea6e",
+              "type": "default",
+              "x": 154,
+              "y": 57,
+              "name": "in-1680328196805 ",
+              "alignment": "left",
+              "parentNode": "69e9035f-1c37-4f01-8e99-81ca98dc6516",
+              "links": [
+                "8ee8ec31-39fc-49ee-93d1-5254373c34f5"
+              ],
+              "in": true,
+              "label": "❯"
+            },
+            {
+              "id": "1382ebeb-d88d-4a50-bcee-dce8c7c826c7",
+              "type": "default",
+              "x": 270.90625,
+              "y": 57,
+              "name": "out-1680328196805",
+              "alignment": "right",
+              "parentNode": "69e9035f-1c37-4f01-8e99-81ca98dc6516",
+              "links": [
+                "83161c9c-c66f-43b3-84a3-3f7c7868041f"
+              ],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "<player>",
+          "color": "#dd341ee6",
+          "portsInOrder": [
+            "a566aed2-5eeb-4633-a8af-3e87f53dea6e"
+          ],
+          "portsOutOrder": [
+            "1382ebeb-d88d-4a50-bcee-dce8c7c826c7"
+          ],
+          "text": "Hello."
+        },
+        "c320580a-ec78-4528-87ee-2ae8e88984bd": {
+          "id": "c320580a-ec78-4528-87ee-2ae8e88984bd",
+          "type": "dialogue",
+          "selected": false,
+          "x": 167,
+          "y": 89,
+          "ports": [
+            {
+              "id": "dc3e886d-dae9-44dd-982b-b21061f3ee8f",
+              "type": "default",
+              "x": 154,
+              "y": 120,
+              "name": "in-1680328198042 ",
+              "alignment": "left",
+              "parentNode": "c320580a-ec78-4528-87ee-2ae8e88984bd",
+              "links": [
+                "83161c9c-c66f-43b3-84a3-3f7c7868041f"
+              ],
+              "in": true,
+              "label": "❯"
+            },
+            {
+              "id": "e73e150b-7924-4683-ac58-eabbd98d083a",
+              "type": "default",
+              "x": 615.359375,
+              "y": 120,
+              "name": "out-1680328198042",
+              "alignment": "right",
+              "parentNode": "c320580a-ec78-4528-87ee-2ae8e88984bd",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Tracker gnome 2",
+          "color": "#dd341ee6",
+          "portsInOrder": [
+            "dc3e886d-dae9-44dd-982b-b21061f3ee8f"
+          ],
+          "portsOutOrder": [
+            "e73e150b-7924-4683-ac58-eabbd98d083a"
+          ],
+          "text": "I can't talk now. If the guards catch me I'll be dead\ngnome meat."
+        }
+      }
+    }
+  ],
+  "trees": {}
+}
