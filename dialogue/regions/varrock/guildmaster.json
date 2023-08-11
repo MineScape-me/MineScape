@@ -1,0 +1,1257 @@
+{
+  "id": "cdbf1172-7fc9-4cae-879b-09cbabdb591e",
+  "offsetX": 1,
+  "offsetY": -1,
+  "zoom": 100,
+  "gridSize": 0,
+  "layers": [
+    {
+      "id": "35e7ede5-d609-4ecb-b59d-b6986589fdb0",
+      "type": "diagram-links",
+      "isSvg": true,
+      "transformed": true,
+      "models": {
+        "85c4ee1d-c033-45e2-9732-34254888ef39": {
+          "id": "85c4ee1d-c033-45e2-9732-34254888ef39",
+          "type": "default",
+          "selected": false,
+          "source": "8e0ead1c-7fde-4c25-845a-7a97bf8db9d6",
+          "sourcePort": "563d546f-3bf2-4b94-9f11-b21e18fa9640",
+          "target": "65bdbbed-df31-4262-88a7-ba0d3f240074",
+          "targetPort": "6bf09538-7a2a-4e6a-a148-c557fc5900f3",
+          "points": [
+            {
+              "id": "a2345759-364c-4f11-aa7a-815d9e78b8a6",
+              "type": "point",
+              "x": 133.296875,
+              "y": 64.5
+            },
+            {
+              "id": "ffdef38d-4ab4-4b72-a4f0-68e9e88f3e1b",
+              "type": "point",
+              "x": 183.5,
+              "y": 64.5
+            }
+          ],
+          "labels": [],
+          "width": 3,
+          "color": "gray",
+          "curvyness": 50,
+          "selectedColor": "rgb(0,192,255)"
+        },
+        "ef1bc979-f8f1-4485-aef8-7a8624ff48c9": {
+          "id": "ef1bc979-f8f1-4485-aef8-7a8624ff48c9",
+          "type": "default",
+          "selected": false,
+          "source": "65bdbbed-df31-4262-88a7-ba0d3f240074",
+          "sourcePort": "04968c4f-104f-4a41-9a6f-2e06ad22a97a",
+          "target": "4144e91f-ad15-4044-9e89-07fd0bb269cc",
+          "targetPort": "64450b37-d60d-4402-8581-15a10ec5f28d",
+          "points": [
+            {
+              "id": "c4305331-f645-4d5d-ac11-b52af23f4d7b",
+              "type": "point",
+              "x": 500.40625,
+              "y": 81.5
+            },
+            {
+              "id": "47527729-53c6-4ac1-a27f-9a121a399f38",
+              "type": "point",
+              "x": 546.5,
+              "y": 82
+            }
+          ],
+          "labels": [],
+          "width": 3,
+          "color": "gray",
+          "curvyness": 50,
+          "selectedColor": "rgb(0,192,255)"
+        }
+      }
+    },
+    {
+      "id": "d776163a-7eeb-4788-a50f-b6e5369794ec",
+      "type": "diagram-nodes",
+      "isSvg": false,
+      "transformed": true,
+      "models": {
+        "8e0ead1c-7fde-4c25-845a-7a97bf8db9d6": {
+          "id": "8e0ead1c-7fde-4c25-845a-7a97bf8db9d6",
+          "type": "start",
+          "selected": false,
+          "x": 50,
+          "y": 50,
+          "ports": [
+            {
+              "id": "563d546f-3bf2-4b94-9f11-b21e18fa9640",
+              "type": "default",
+              "x": 125.796875,
+              "y": 57,
+              "name": "out-1691740381997",
+              "alignment": "right",
+              "parentNode": "8e0ead1c-7fde-4c25-845a-7a97bf8db9d6",
+              "links": [
+                "85c4ee1d-c033-45e2-9732-34254888ef39"
+              ],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Start",
+          "color": "#16db26e6",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "563d546f-3bf2-4b94-9f11-b21e18fa9640"
+          ]
+        },
+        "65bdbbed-df31-4262-88a7-ba0d3f240074": {
+          "id": "65bdbbed-df31-4262-88a7-ba0d3f240074",
+          "type": "condition",
+          "selected": false,
+          "x": 189,
+          "y": 26,
+          "ports": [
+            {
+              "id": "6bf09538-7a2a-4e6a-a148-c557fc5900f3",
+              "type": "default",
+              "x": 176,
+              "y": 57,
+              "name": "in-1691740517171 ",
+              "alignment": "left",
+              "parentNode": "65bdbbed-df31-4262-88a7-ba0d3f240074",
+              "links": [
+                "85c4ee1d-c033-45e2-9732-34254888ef39"
+              ],
+              "in": true,
+              "label": "❯"
+            },
+            {
+              "id": "0bfa7dfd-112e-4071-b406-32db74068126",
+              "type": "default",
+              "x": 490.765625,
+              "y": 57,
+              "name": "out-1691740517171",
+              "alignment": "right",
+              "parentNode": "65bdbbed-df31-4262-88a7-ba0d3f240074",
+              "links": [],
+              "in": false,
+              "label": "true"
+            },
+            {
+              "id": "04968c4f-104f-4a41-9a6f-2e06ad22a97a",
+              "type": "default",
+              "x": 492.90625,
+              "y": 74,
+              "name": "out-16917405171711",
+              "alignment": "right",
+              "parentNode": "65bdbbed-df31-4262-88a7-ba0d3f240074",
+              "links": [
+                "ef1bc979-f8f1-4485-aef8-7a8624ff48c9"
+              ],
+              "in": false,
+              "label": "false"
+            }
+          ],
+          "title": "Condition",
+          "color": "#02630ae6",
+          "portsInOrder": [
+            "6bf09538-7a2a-4e6a-a148-c557fc5900f3"
+          ],
+          "portsOutOrder": [
+            "0bfa7dfd-112e-4071-b406-32db74068126",
+            "04968c4f-104f-4a41-9a6f-2e06ad22a97a"
+          ],
+          "conditions": {
+            "conditions": [
+              "basicCondition"
+            ],
+            "args": [
+              [
+                "false"
+              ]
+            ]
+          }
+        },
+        "4144e91f-ad15-4044-9e89-07fd0bb269cc": {
+          "id": "4144e91f-ad15-4044-9e89-07fd0bb269cc",
+          "type": "tree",
+          "selected": true,
+          "x": 548,
+          "y": 60,
+          "ports": [
+            {
+              "id": "64450b37-d60d-4402-8581-15a10ec5f28d",
+              "type": "default",
+              "x": 539,
+              "y": 74.5,
+              "name": "in-1691740536395 ",
+              "alignment": "left",
+              "parentNode": "4144e91f-ad15-4044-9e89-07fd0bb269cc",
+              "links": [
+                "ef1bc979-f8f1-4485-aef8-7a8624ff48c9"
+              ],
+              "in": true,
+              "label": "❯"
+            }
+          ],
+          "title": "Tree",
+          "color": "#e02e87e6",
+          "portsInOrder": [
+            "64450b37-d60d-4402-8581-15a10ec5f28d"
+          ],
+          "portsOutOrder": [],
+          "tree": "dragon_slayer_before",
+          "start": "Start"
+        }
+      }
+    }
+  ],
+  "trees": {
+    "dragon_slayer_before": {
+      "id": "ff7be2b6-adb1-4c25-8dcb-85282a59b361",
+      "offsetX": 0,
+      "offsetY": 0,
+      "zoom": 100,
+      "gridSize": 0,
+      "layers": [
+        {
+          "id": "21219ec1-6390-47aa-b931-701588601347",
+          "type": "diagram-links",
+          "isSvg": true,
+          "transformed": true,
+          "models": {
+            "ac1d108c-b112-473f-88e4-f7bf32c7765a": {
+              "id": "ac1d108c-b112-473f-88e4-f7bf32c7765a",
+              "type": "default",
+              "selected": false,
+              "source": "d79a6769-a3e2-4ea0-b677-b62b71504e7c",
+              "sourcePort": "af581fa3-08f3-4c85-a57c-92b978859112",
+              "target": "5d7479e1-cacb-4d75-bb0b-b23086b9212e",
+              "targetPort": "a3b55c3b-5891-4a6c-9334-c3cf70402c83",
+              "points": [
+                {
+                  "id": "052b9674-d7fd-4afc-a39a-a1e82dac4ce1",
+                  "type": "point",
+                  "x": 312.71875,
+                  "y": 66.5
+                },
+                {
+                  "id": "f4694b71-c44e-49d2-bea1-e0791cfb48cd",
+                  "type": "point",
+                  "x": 159.5,
+                  "y": 197.5
+                }
+              ],
+              "labels": [],
+              "width": 3,
+              "color": "gray",
+              "curvyness": 50,
+              "selectedColor": "rgb(0,192,255)"
+            },
+            "0265db1a-d4f3-4ef5-964e-ee9e2bad5101": {
+              "id": "0265db1a-d4f3-4ef5-964e-ee9e2bad5101",
+              "type": "default",
+              "selected": false,
+              "source": "ddc0706c-0997-4690-8a7a-fef4ee494566",
+              "sourcePort": "f72698dc-cc65-4170-84b8-e01f31f9162e",
+              "target": "f199b01f-9931-43bb-a130-0ca5efe3e0a4",
+              "targetPort": "bfd7fd74-1962-489f-a5ef-6aea192b6c1e",
+              "points": [
+                {
+                  "id": "b05f1787-2610-4184-88ba-acb3cbfa2a16",
+                  "type": "point",
+                  "x": 371.6875,
+                  "y": 310.5
+                },
+                {
+                  "id": "bdc09792-2d16-460e-9ba5-3653afd18dc1",
+                  "type": "point",
+                  "x": 147.5,
+                  "y": 366.5
+                }
+              ],
+              "labels": [],
+              "width": 3,
+              "color": "gray",
+              "curvyness": 50,
+              "selectedColor": "rgb(0,192,255)"
+            },
+            "b13e7576-9fc2-42d3-9c59-d26a308744c2": {
+              "id": "b13e7576-9fc2-42d3-9c59-d26a308744c2",
+              "type": "default",
+              "selected": false,
+              "source": "5d7479e1-cacb-4d75-bb0b-b23086b9212e",
+              "sourcePort": "76cc038a-6aef-42d9-847f-2b155fb7802b",
+              "target": "ddc0706c-0997-4690-8a7a-fef4ee494566",
+              "targetPort": "dbc6983e-9397-4e19-8ee6-6e1f329e7ddc",
+              "points": [
+                {
+                  "id": "b64560a1-f583-4dc5-9161-b12366faf20f",
+                  "type": "point",
+                  "x": 431.046875,
+                  "y": 206.5
+                },
+                {
+                  "id": "2816c332-a1a9-4816-a5a7-9c998c5800fa",
+                  "type": "point",
+                  "x": 159.5,
+                  "y": 310.5
+                }
+              ],
+              "labels": [],
+              "width": 3,
+              "color": "gray",
+              "curvyness": 50,
+              "selectedColor": "rgb(0,192,255)"
+            },
+            "8f27e213-2087-4327-8d89-340c084ccc47": {
+              "id": "8f27e213-2087-4327-8d89-340c084ccc47",
+              "type": "default",
+              "selected": false,
+              "source": "99b8726c-2199-40df-9052-0c8aabf7f416",
+              "sourcePort": "ba895130-03b7-4f9a-acdb-39de28d57474",
+              "target": "fa518d7d-5ff5-48c8-9715-3f72bf2e4021",
+              "targetPort": "10f14c3c-933c-41b2-a2c2-e0523ab67ffb",
+              "points": [
+                {
+                  "id": "bd389b9c-7a7d-4619-8a92-bcbc81b242ac",
+                  "type": "point",
+                  "x": 870.6875,
+                  "y": 75.5
+                },
+                {
+                  "id": "b74c0566-ac93-40a2-b899-b3b403c1f0e9",
+                  "type": "point",
+                  "x": 658.5,
+                  "y": 138.5
+                }
+              ],
+              "labels": [],
+              "width": 3,
+              "color": "gray",
+              "curvyness": 50,
+              "selectedColor": "rgb(0,192,255)"
+            },
+            "20ae02be-5f82-45e1-8a7b-be7c0b19bdfc": {
+              "id": "20ae02be-5f82-45e1-8a7b-be7c0b19bdfc",
+              "type": "default",
+              "selected": false,
+              "source": "fa518d7d-5ff5-48c8-9715-3f72bf2e4021",
+              "sourcePort": "ea20b6e5-37c4-49a4-b10e-591eadd61bb2",
+              "target": "03f76808-193c-42fd-9d45-823fd36f7364",
+              "targetPort": "dc7b969d-bb4a-4e9a-9859-73bf95f9a8b6",
+              "points": [
+                {
+                  "id": "ff16cc04-41a1-44e5-ab2b-2fc65395add5",
+                  "type": "point",
+                  "x": 779.875,
+                  "y": 138.5
+                },
+                {
+                  "id": "6a751d74-aa45-4532-83eb-c92fcf127986",
+                  "type": "point",
+                  "x": 646.5,
+                  "y": 194.5
+                }
+              ],
+              "labels": [],
+              "width": 3,
+              "color": "gray",
+              "curvyness": 50,
+              "selectedColor": "rgb(0,192,255)"
+            },
+            "e12d425d-57df-4d13-8445-cf4ef2dd53bc": {
+              "id": "e12d425d-57df-4d13-8445-cf4ef2dd53bc",
+              "type": "default",
+              "selected": false,
+              "source": "03f76808-193c-42fd-9d45-823fd36f7364",
+              "sourcePort": "09a79489-090b-4911-bc25-c5e95b06cefd",
+              "target": "5881ebb5-2d6b-4b60-80ac-f6a912777cd5",
+              "targetPort": "5df0626a-3aab-484e-9b31-6bd1bd87c64a",
+              "points": [
+                {
+                  "id": "c6900698-cbea-4a6b-a548-414fb51eae71",
+                  "type": "point",
+                  "x": 1129.84375,
+                  "y": 194.5
+                },
+                {
+                  "id": "0e952ef4-aa32-40c8-84c5-6416a608868e",
+                  "type": "point",
+                  "x": 668.5,
+                  "y": 299.5
+                }
+              ],
+              "labels": [],
+              "width": 3,
+              "color": "gray",
+              "curvyness": 50,
+              "selectedColor": "rgb(0,192,255)"
+            },
+            "3efebecb-0d3d-4b27-9ef8-20d235762eb5": {
+              "id": "3efebecb-0d3d-4b27-9ef8-20d235762eb5",
+              "type": "default",
+              "selected": false,
+              "source": "5d7479e1-cacb-4d75-bb0b-b23086b9212e",
+              "sourcePort": "b1dd850d-7776-48d7-8b9c-ebb25f8e53c9",
+              "target": "99b8726c-2199-40df-9052-0c8aabf7f416",
+              "targetPort": "78b4ec2d-2e01-4137-b922-48e7cf19c8c2",
+              "points": [
+                {
+                  "id": "ad72ec1b-0c87-4932-a8d3-978d553a9d95",
+                  "type": "point",
+                  "x": 431.046875,
+                  "y": 242.5
+                },
+                {
+                  "id": "eaece35e-4727-4a5c-bd0e-19a6ab618166",
+                  "type": "point",
+                  "x": 658.5,
+                  "y": 75.5
+                }
+              ],
+              "labels": [],
+              "width": 3,
+              "color": "gray",
+              "curvyness": 50,
+              "selectedColor": "rgb(0,192,255)"
+            },
+            "82d2a03a-df62-463e-b782-ae8822f0e1d8": {
+              "id": "82d2a03a-df62-463e-b782-ae8822f0e1d8",
+              "type": "default",
+              "selected": false,
+              "source": "5881ebb5-2d6b-4b60-80ac-f6a912777cd5",
+              "sourcePort": "7410b220-ad84-4f19-8870-d7edcbfa0041",
+              "target": "f483526c-31bd-48bd-90fc-0aac2bbb2a60",
+              "targetPort": "d9af14c8-d61a-435e-b1d9-e10e8b1695cf",
+              "points": [
+                {
+                  "id": "4791133d-d533-4ba1-80a5-4115a961efa8",
+                  "type": "point",
+                  "x": 847.875,
+                  "y": 344.5
+                },
+                {
+                  "id": "65a9131f-d18a-4651-b388-f50ac7dfafb5",
+                  "type": "point",
+                  "x": 989.5,
+                  "y": 345.5
+                }
+              ],
+              "labels": [],
+              "width": 3,
+              "color": "gray",
+              "curvyness": 50,
+              "selectedColor": "rgb(0,192,255)"
+            },
+            "00ad0214-69b9-4a00-8925-c358fc3dbd6f": {
+              "id": "00ad0214-69b9-4a00-8925-c358fc3dbd6f",
+              "type": "default",
+              "selected": false,
+              "source": "86a41fe3-6fe4-4855-ad9b-20caa1d1b28b",
+              "sourcePort": "9c7e9701-88c3-42e6-86cc-37179bd0989b",
+              "target": "3a76ee71-76fb-441f-b444-7cec5a28c903",
+              "targetPort": "566da46d-5cdb-4300-8b08-4c519e99d468",
+              "points": [
+                {
+                  "id": "e9eadf23-7275-427a-9c39-c6d1309e2f82",
+                  "type": "point",
+                  "x": 909,
+                  "y": 442.5
+                },
+                {
+                  "id": "e6d73085-3769-48bf-81d7-a39beb7dc259",
+                  "type": "point",
+                  "x": 655.5,
+                  "y": 498.5
+                }
+              ],
+              "labels": [],
+              "width": 3,
+              "color": "gray",
+              "curvyness": 50,
+              "selectedColor": "rgb(0,192,255)"
+            },
+            "82f88d37-0ebf-4162-a386-55c88d674a90": {
+              "id": "82f88d37-0ebf-4162-a386-55c88d674a90",
+              "type": "default",
+              "selected": false,
+              "source": "3a76ee71-76fb-441f-b444-7cec5a28c903",
+              "sourcePort": "64801c60-28a5-41f6-9929-ae2e6c67a46d",
+              "target": "a85c638e-4e16-44d1-a2c6-1ae9322fadd9",
+              "targetPort": "6049a1a8-fd6c-4088-b0b8-a6ecf0ed66fb",
+              "points": [
+                {
+                  "id": "07f227a7-724e-4ad5-a0a3-95464760055b",
+                  "type": "point",
+                  "x": 1087.546875,
+                  "y": 498.5
+                },
+                {
+                  "id": "6c2000fe-393c-4452-ab19-13b356d17170",
+                  "type": "point",
+                  "x": 668.5,
+                  "y": 602.5
+                }
+              ],
+              "labels": [],
+              "width": 3,
+              "color": "gray",
+              "curvyness": 50,
+              "selectedColor": "rgb(0,192,255)"
+            },
+            "04dd27ec-f1f1-4ec7-82b5-d80d2aa5b5c5": {
+              "id": "04dd27ec-f1f1-4ec7-82b5-d80d2aa5b5c5",
+              "type": "default",
+              "selected": false,
+              "source": "5881ebb5-2d6b-4b60-80ac-f6a912777cd5",
+              "sourcePort": "3be9341d-9d98-40d7-8a86-91b749eacb6d",
+              "target": "86a41fe3-6fe4-4855-ad9b-20caa1d1b28b",
+              "targetPort": "184f2762-6c50-4eaf-bad2-5d76bcf48de4",
+              "points": [
+                {
+                  "id": "65562c3a-99e5-450f-bbd1-4cd837e40d47",
+                  "type": "point",
+                  "x": 847.875,
+                  "y": 308.5
+                },
+                {
+                  "id": "ba1c1925-2c6d-4f33-813a-4f31815ca8e7",
+                  "type": "point",
+                  "x": 667.5,
+                  "y": 442.5
+                }
+              ],
+              "labels": [],
+              "width": 3,
+              "color": "gray",
+              "curvyness": 50,
+              "selectedColor": "rgb(0,192,255)"
+            },
+            "980379ac-0b67-4fe1-a8fb-85387f2d05d4": {
+              "id": "980379ac-0b67-4fe1-a8fb-85387f2d05d4",
+              "type": "default",
+              "selected": false,
+              "source": "0d3213aa-7e5f-4289-8d69-5ec816f86488",
+              "sourcePort": "fa011020-759d-43b9-9448-5c6620a945e2",
+              "target": "d79a6769-a3e2-4ea0-b677-b62b71504e7c",
+              "targetPort": "3dd7a07a-722c-4c3b-8911-c4a58214189a",
+              "points": [
+                {
+                  "id": "e0acb248-8b4c-4f94-a12d-c3170fddde78",
+                  "type": "point",
+                  "x": 133.296875,
+                  "y": 64.5
+                },
+                {
+                  "id": "8141c000-5d19-43e2-90dd-a64901ba6446",
+                  "type": "point",
+                  "x": 166.5,
+                  "y": 66.5
+                }
+              ],
+              "labels": [],
+              "width": 3,
+              "color": "gray",
+              "curvyness": 50,
+              "selectedColor": "rgb(0,192,255)"
+            }
+          }
+        },
+        {
+          "id": "e187591b-5ccd-40ce-a42d-bda14a59e717",
+          "type": "diagram-nodes",
+          "isSvg": false,
+          "transformed": true,
+          "models": {
+            "0d3213aa-7e5f-4289-8d69-5ec816f86488": {
+              "id": "0d3213aa-7e5f-4289-8d69-5ec816f86488",
+              "type": "start",
+              "x": 50,
+              "y": 50,
+              "ports": [
+                {
+                  "id": "fa011020-759d-43b9-9448-5c6620a945e2",
+                  "type": "default",
+                  "x": 125.796875,
+                  "y": 57,
+                  "name": "out-1691740500968",
+                  "alignment": "right",
+                  "parentNode": "0d3213aa-7e5f-4289-8d69-5ec816f86488",
+                  "links": [
+                    "980379ac-0b67-4fe1-a8fb-85387f2d05d4"
+                  ],
+                  "in": false,
+                  "label": "❯"
+                }
+              ],
+              "title": "Start",
+              "color": "#16db26e6",
+              "portsInOrder": [],
+              "portsOutOrder": [
+                "fa011020-759d-43b9-9448-5c6620a945e2"
+              ]
+            },
+            "d79a6769-a3e2-4ea0-b677-b62b71504e7c": {
+              "id": "d79a6769-a3e2-4ea0-b677-b62b71504e7c",
+              "type": "dialogue",
+              "selected": false,
+              "x": 172,
+              "y": 28,
+              "ports": [
+                {
+                  "id": "3dd7a07a-722c-4c3b-8911-c4a58214189a",
+                  "type": "default",
+                  "x": 159,
+                  "y": 59,
+                  "name": "in-1691740384695 ",
+                  "alignment": "left",
+                  "parentNode": "d79a6769-a3e2-4ea0-b677-b62b71504e7c",
+                  "links": [
+                    "980379ac-0b67-4fe1-a8fb-85387f2d05d4"
+                  ],
+                  "in": true,
+                  "label": "❯"
+                },
+                {
+                  "id": "af581fa3-08f3-4c85-a57c-92b978859112",
+                  "type": "default",
+                  "x": 305.21875,
+                  "y": 59,
+                  "name": "out-1691740384695",
+                  "alignment": "right",
+                  "parentNode": "d79a6769-a3e2-4ea0-b677-b62b71504e7c",
+                  "links": [
+                    "ac1d108c-b112-473f-88e4-f7bf32c7765a"
+                  ],
+                  "in": false,
+                  "label": "❯"
+                }
+              ],
+              "title": "Guildmaster",
+              "color": "#dd341ee6",
+              "portsInOrder": [
+                "3dd7a07a-722c-4c3b-8911-c4a58214189a"
+              ],
+              "portsOutOrder": [
+                "af581fa3-08f3-4c85-a57c-92b978859112"
+              ],
+              "text": "Greetings!"
+            },
+            "5d7479e1-cacb-4d75-bb0b-b23086b9212e": {
+              "id": "5d7479e1-cacb-4d75-bb0b-b23086b9212e",
+              "type": "option",
+              "selected": false,
+              "x": 165,
+              "y": 159,
+              "ports": [
+                {
+                  "id": "76cc038a-6aef-42d9-847f-2b155fb7802b",
+                  "type": "default",
+                  "x": 423.546875,
+                  "y": 199,
+                  "name": "out-16917403864971",
+                  "alignment": "right",
+                  "parentNode": "5d7479e1-cacb-4d75-bb0b-b23086b9212e",
+                  "links": [
+                    "b13e7576-9fc2-42d3-9c59-d26a308744c2"
+                  ],
+                  "in": false,
+                  "label": "❯"
+                },
+                {
+                  "id": "a3b55c3b-5891-4a6c-9334-c3cf70402c83",
+                  "type": "default",
+                  "x": 152,
+                  "y": 190,
+                  "name": "in-1691740386497 ",
+                  "alignment": "left",
+                  "parentNode": "5d7479e1-cacb-4d75-bb0b-b23086b9212e",
+                  "links": [
+                    "ac1d108c-b112-473f-88e4-f7bf32c7765a"
+                  ],
+                  "in": true,
+                  "label": "❯"
+                },
+                {
+                  "id": "b1dd850d-7776-48d7-8b9c-ebb25f8e53c9",
+                  "type": "default",
+                  "x": 423.546875,
+                  "y": 235,
+                  "name": "out-1691740386497",
+                  "alignment": "right",
+                  "parentNode": "5d7479e1-cacb-4d75-bb0b-b23086b9212e",
+                  "links": [
+                    "3efebecb-0d3d-4b27-9ef8-20d235762eb5"
+                  ],
+                  "in": false,
+                  "label": "❯"
+                }
+              ],
+              "title": "Select an option.",
+              "color": "#0756b1e6",
+              "portsInOrder": [
+                "a3b55c3b-5891-4a6c-9334-c3cf70402c83"
+              ],
+              "portsOutOrder": [
+                "76cc038a-6aef-42d9-847f-2b155fb7802b",
+                "b1dd850d-7776-48d7-8b9c-ebb25f8e53c9"
+              ],
+              "options": [
+                {
+                  "conditions": [
+                    ""
+                  ],
+                  "args": [],
+                  "text": "What is this place?"
+                },
+                {
+                  "conditions": [
+                    ""
+                  ],
+                  "args": [],
+                  "text": "Can I have a quest?"
+                }
+              ]
+            },
+            "ddc0706c-0997-4690-8a7a-fef4ee494566": {
+              "id": "ddc0706c-0997-4690-8a7a-fef4ee494566",
+              "type": "dialogue",
+              "selected": false,
+              "x": 165,
+              "y": 272,
+              "ports": [
+                {
+                  "id": "dbc6983e-9397-4e19-8ee6-6e1f329e7ddc",
+                  "type": "default",
+                  "x": 152,
+                  "y": 303,
+                  "name": "in-1691740387694 ",
+                  "alignment": "left",
+                  "parentNode": "ddc0706c-0997-4690-8a7a-fef4ee494566",
+                  "links": [
+                    "b13e7576-9fc2-42d3-9c59-d26a308744c2"
+                  ],
+                  "in": true,
+                  "label": "❯"
+                },
+                {
+                  "id": "f72698dc-cc65-4170-84b8-e01f31f9162e",
+                  "type": "default",
+                  "x": 364.1875,
+                  "y": 303,
+                  "name": "out-1691740387694",
+                  "alignment": "right",
+                  "parentNode": "ddc0706c-0997-4690-8a7a-fef4ee494566",
+                  "links": [
+                    "0265db1a-d4f3-4ef5-964e-ee9e2bad5101"
+                  ],
+                  "in": false,
+                  "label": "❯"
+                }
+              ],
+              "title": "<player>",
+              "color": "#dd341ee6",
+              "portsInOrder": [
+                "dbc6983e-9397-4e19-8ee6-6e1f329e7ddc"
+              ],
+              "portsOutOrder": [
+                "f72698dc-cc65-4170-84b8-e01f31f9162e"
+              ],
+              "text": "What is this place?"
+            },
+            "f199b01f-9931-43bb-a130-0ca5efe3e0a4": {
+              "id": "f199b01f-9931-43bb-a130-0ca5efe3e0a4",
+              "type": "dialogue",
+              "selected": false,
+              "x": 165,
+              "y": 335,
+              "ports": [
+                {
+                  "id": "bfd7fd74-1962-489f-a5ef-6aea192b6c1e",
+                  "type": "default",
+                  "x": 140,
+                  "y": 359,
+                  "name": "in-1691740388894 ",
+                  "alignment": "left",
+                  "parentNode": "f199b01f-9931-43bb-a130-0ca5efe3e0a4",
+                  "links": [
+                    "0265db1a-d4f3-4ef5-964e-ee9e2bad5101"
+                  ],
+                  "in": true,
+                  "label": "❯"
+                },
+                {
+                  "id": "0e4a9346-55b6-4411-95df-5e3700dfa25b",
+                  "type": "default",
+                  "x": 579.375,
+                  "y": 359,
+                  "name": "out-1691740388895",
+                  "alignment": "right",
+                  "parentNode": "f199b01f-9931-43bb-a130-0ca5efe3e0a4",
+                  "links": [],
+                  "in": false,
+                  "label": "❯"
+                }
+              ],
+              "title": "Guildmaster",
+              "color": "#dd341ee6",
+              "portsInOrder": [
+                "bfd7fd74-1962-489f-a5ef-6aea192b6c1e"
+              ],
+              "portsOutOrder": [
+                "0e4a9346-55b6-4411-95df-5e3700dfa25b"
+              ],
+              "text": "This is the Champions' Guild. Only adventurers who\nhave proved themselves worthy by gaining influence\nfrom quests are allowed in here."
+            },
+            "99b8726c-2199-40df-9052-0c8aabf7f416": {
+              "id": "99b8726c-2199-40df-9052-0c8aabf7f416",
+              "type": "dialogue",
+              "selected": false,
+              "x": 664,
+              "y": 37,
+              "ports": [
+                {
+                  "id": "78b4ec2d-2e01-4137-b922-48e7cf19c8c2",
+                  "type": "default",
+                  "x": 651,
+                  "y": 68,
+                  "name": "in-1691740411095 ",
+                  "alignment": "left",
+                  "parentNode": "99b8726c-2199-40df-9052-0c8aabf7f416",
+                  "links": [
+                    "3efebecb-0d3d-4b27-9ef8-20d235762eb5"
+                  ],
+                  "in": true,
+                  "label": "❯"
+                },
+                {
+                  "id": "ba895130-03b7-4f9a-acdb-39de28d57474",
+                  "type": "default",
+                  "x": 863.1875,
+                  "y": 68,
+                  "name": "out-1691740411095",
+                  "alignment": "right",
+                  "parentNode": "99b8726c-2199-40df-9052-0c8aabf7f416",
+                  "links": [
+                    "8f27e213-2087-4327-8d89-340c084ccc47"
+                  ],
+                  "in": false,
+                  "label": "❯"
+                }
+              ],
+              "title": "<player>",
+              "color": "#dd341ee6",
+              "portsInOrder": [
+                "78b4ec2d-2e01-4137-b922-48e7cf19c8c2"
+              ],
+              "portsOutOrder": [
+                "ba895130-03b7-4f9a-acdb-39de28d57474"
+              ],
+              "text": "Can I have a quest?"
+            },
+            "fa518d7d-5ff5-48c8-9715-3f72bf2e4021": {
+              "id": "fa518d7d-5ff5-48c8-9715-3f72bf2e4021",
+              "type": "dialogue",
+              "selected": false,
+              "x": 664,
+              "y": 100,
+              "ports": [
+                {
+                  "id": "10f14c3c-933c-41b2-a2c2-e0523ab67ffb",
+                  "type": "default",
+                  "x": 651,
+                  "y": 131,
+                  "name": "in-1691740412295 ",
+                  "alignment": "left",
+                  "parentNode": "fa518d7d-5ff5-48c8-9715-3f72bf2e4021",
+                  "links": [
+                    "8f27e213-2087-4327-8d89-340c084ccc47"
+                  ],
+                  "in": true,
+                  "label": "❯"
+                },
+                {
+                  "id": "ea20b6e5-37c4-49a4-b10e-591eadd61bb2",
+                  "type": "default",
+                  "x": 772.375,
+                  "y": 131,
+                  "name": "out-1691740412295",
+                  "alignment": "right",
+                  "parentNode": "fa518d7d-5ff5-48c8-9715-3f72bf2e4021",
+                  "links": [
+                    "20ae02be-5f82-45e1-8a7b-be7c0b19bdfc"
+                  ],
+                  "in": false,
+                  "label": "❯"
+                }
+              ],
+              "title": "Guildmaster",
+              "color": "#dd341ee6",
+              "portsInOrder": [
+                "10f14c3c-933c-41b2-a2c2-e0523ab67ffb"
+              ],
+              "portsOutOrder": [
+                "ea20b6e5-37c4-49a4-b10e-591eadd61bb2"
+              ],
+              "text": "Aha!"
+            },
+            "03f76808-193c-42fd-9d45-823fd36f7364": {
+              "id": "03f76808-193c-42fd-9d45-823fd36f7364",
+              "type": "dialogue",
+              "selected": false,
+              "x": 664,
+              "y": 163,
+              "ports": [
+                {
+                  "id": "dc7b969d-bb4a-4e9a-9859-73bf95f9a8b6",
+                  "type": "default",
+                  "x": 639,
+                  "y": 187,
+                  "name": "in-1691740413494 ",
+                  "alignment": "left",
+                  "parentNode": "03f76808-193c-42fd-9d45-823fd36f7364",
+                  "links": [
+                    "20ae02be-5f82-45e1-8a7b-be7c0b19bdfc"
+                  ],
+                  "in": true,
+                  "label": "❯"
+                },
+                {
+                  "id": "09a79489-090b-4911-bc25-c5e95b06cefd",
+                  "type": "default",
+                  "x": 1122.34375,
+                  "y": 187,
+                  "name": "out-1691740413494",
+                  "alignment": "right",
+                  "parentNode": "03f76808-193c-42fd-9d45-823fd36f7364",
+                  "links": [
+                    "e12d425d-57df-4d13-8445-cf4ef2dd53bc"
+                  ],
+                  "in": false,
+                  "label": "❯"
+                }
+              ],
+              "title": "Guildmaster",
+              "color": "#dd341ee6",
+              "portsInOrder": [
+                "dc7b969d-bb4a-4e9a-9859-73bf95f9a8b6"
+              ],
+              "portsOutOrder": [
+                "09a79489-090b-4911-bc25-c5e95b06cefd"
+              ],
+              "text": "Yes! A mighty and perilous quest fit only for the most\npowerful champions! And, at the end of it, you will earn\nthe right to wear the legendary rune platebody!"
+            },
+            "5881ebb5-2d6b-4b60-80ac-f6a912777cd5": {
+              "id": "5881ebb5-2d6b-4b60-80ac-f6a912777cd5",
+              "type": "option",
+              "selected": false,
+              "x": 674,
+              "y": 261,
+              "ports": [
+                {
+                  "id": "3be9341d-9d98-40d7-8a86-91b749eacb6d",
+                  "type": "default",
+                  "x": 840.375,
+                  "y": 301,
+                  "name": "out-16917404146951",
+                  "alignment": "right",
+                  "parentNode": "5881ebb5-2d6b-4b60-80ac-f6a912777cd5",
+                  "links": [
+                    "04dd27ec-f1f1-4ec7-82b5-d80d2aa5b5c5"
+                  ],
+                  "in": false,
+                  "label": "❯"
+                },
+                {
+                  "id": "5df0626a-3aab-484e-9b31-6bd1bd87c64a",
+                  "type": "default",
+                  "x": 661,
+                  "y": 292,
+                  "name": "in-1691740414695 ",
+                  "alignment": "left",
+                  "parentNode": "5881ebb5-2d6b-4b60-80ac-f6a912777cd5",
+                  "links": [
+                    "e12d425d-57df-4d13-8445-cf4ef2dd53bc"
+                  ],
+                  "in": true,
+                  "label": "❯"
+                },
+                {
+                  "id": "7410b220-ad84-4f19-8870-d7edcbfa0041",
+                  "type": "default",
+                  "x": 840.375,
+                  "y": 337,
+                  "name": "out-1691740414695",
+                  "alignment": "right",
+                  "parentNode": "5881ebb5-2d6b-4b60-80ac-f6a912777cd5",
+                  "links": [
+                    "82d2a03a-df62-463e-b782-ae8822f0e1d8"
+                  ],
+                  "in": false,
+                  "label": "❯"
+                }
+              ],
+              "title": "Select an option.",
+              "color": "#0756b1e6",
+              "portsInOrder": [
+                "5df0626a-3aab-484e-9b31-6bd1bd87c64a"
+              ],
+              "portsOutOrder": [
+                "3be9341d-9d98-40d7-8a86-91b749eacb6d",
+                "7410b220-ad84-4f19-8870-d7edcbfa0041"
+              ],
+              "options": [
+                {
+                  "conditions": [
+                    ""
+                  ],
+                  "args": [],
+                  "text": "Yes."
+                },
+                {
+                  "conditions": [
+                    ""
+                  ],
+                  "args": [],
+                  "text": "No."
+                }
+              ]
+            },
+            "f483526c-31bd-48bd-90fc-0aac2bbb2a60": {
+              "id": "f483526c-31bd-48bd-90fc-0aac2bbb2a60",
+              "type": "dialogue",
+              "selected": false,
+              "x": 995,
+              "y": 307,
+              "ports": [
+                {
+                  "id": "d9af14c8-d61a-435e-b1d9-e10e8b1695cf",
+                  "type": "default",
+                  "x": 982,
+                  "y": 338,
+                  "name": "in-1691740416495 ",
+                  "alignment": "left",
+                  "parentNode": "f483526c-31bd-48bd-90fc-0aac2bbb2a60",
+                  "links": [
+                    "82d2a03a-df62-463e-b782-ae8822f0e1d8"
+                  ],
+                  "in": true,
+                  "label": "❯"
+                },
+                {
+                  "id": "283cc5e9-9d8c-4bcb-b071-786055b233b3",
+                  "type": "default",
+                  "x": 1274.796875,
+                  "y": 338,
+                  "name": "out-1691740416495",
+                  "alignment": "right",
+                  "parentNode": "f483526c-31bd-48bd-90fc-0aac2bbb2a60",
+                  "links": [],
+                  "in": false,
+                  "label": "❯"
+                }
+              ],
+              "title": "<player>",
+              "color": "#dd341ee6",
+              "portsInOrder": [
+                "d9af14c8-d61a-435e-b1d9-e10e8b1695cf"
+              ],
+              "portsOutOrder": [
+                "283cc5e9-9d8c-4bcb-b071-786055b233b3"
+              ],
+              "text": "Actually, I'll give it a miss."
+            },
+            "86a41fe3-6fe4-4855-ad9b-20caa1d1b28b": {
+              "id": "86a41fe3-6fe4-4855-ad9b-20caa1d1b28b",
+              "type": "dialogue",
+              "selected": false,
+              "x": 673,
+              "y": 404,
+              "ports": [
+                {
+                  "id": "184f2762-6c50-4eaf-bad2-5d76bcf48de4",
+                  "type": "default",
+                  "x": 660,
+                  "y": 435,
+                  "name": "in-1691740457895 ",
+                  "alignment": "left",
+                  "parentNode": "86a41fe3-6fe4-4855-ad9b-20caa1d1b28b",
+                  "links": [
+                    "04dd27ec-f1f1-4ec7-82b5-d80d2aa5b5c5"
+                  ],
+                  "in": true,
+                  "label": "❯"
+                },
+                {
+                  "id": "9c7e9701-88c3-42e6-86cc-37179bd0989b",
+                  "type": "default",
+                  "x": 901.5,
+                  "y": 435,
+                  "name": "out-1691740457895",
+                  "alignment": "right",
+                  "parentNode": "86a41fe3-6fe4-4855-ad9b-20caa1d1b28b",
+                  "links": [
+                    "00ad0214-69b9-4a00-8925-c358fc3dbd6f"
+                  ],
+                  "in": false,
+                  "label": "❯"
+                }
+              ],
+              "title": "<player>",
+              "color": "#dd341ee6",
+              "portsInOrder": [
+                "184f2762-6c50-4eaf-bad2-5d76bcf48de4"
+              ],
+              "portsOutOrder": [
+                "9c7e9701-88c3-42e6-86cc-37179bd0989b"
+              ],
+              "text": "So, what is this quest?"
+            },
+            "3a76ee71-76fb-441f-b444-7cec5a28c903": {
+              "id": "3a76ee71-76fb-441f-b444-7cec5a28c903",
+              "type": "dialogue",
+              "selected": false,
+              "x": 673,
+              "y": 467,
+              "ports": [
+                {
+                  "id": "566da46d-5cdb-4300-8b08-4c519e99d468",
+                  "type": "default",
+                  "x": 648,
+                  "y": 491,
+                  "name": "in-1691740459094 ",
+                  "alignment": "left",
+                  "parentNode": "3a76ee71-76fb-441f-b444-7cec5a28c903",
+                  "links": [
+                    "00ad0214-69b9-4a00-8925-c358fc3dbd6f"
+                  ],
+                  "in": true,
+                  "label": "❯"
+                },
+                {
+                  "id": "64801c60-28a5-41f6-9929-ae2e6c67a46d",
+                  "type": "default",
+                  "x": 1080.046875,
+                  "y": 491,
+                  "name": "out-1691740459094",
+                  "alignment": "right",
+                  "parentNode": "3a76ee71-76fb-441f-b444-7cec5a28c903",
+                  "links": [
+                    "82f88d37-0ebf-4162-a386-55c88d674a90"
+                  ],
+                  "in": false,
+                  "label": "❯"
+                }
+              ],
+              "title": "Guildmaster",
+              "color": "#dd341ee6",
+              "portsInOrder": [
+                "566da46d-5cdb-4300-8b08-4c519e99d468"
+              ],
+              "portsOutOrder": [
+                "64801c60-28a5-41f6-9929-ae2e6c67a46d"
+              ],
+              "text": "You'll have to speak to Oziach, the maker of rune\narmour. He sets the quests that champions must\ncomplete in order to wear it."
+            },
+            "a85c638e-4e16-44d1-a2c6-1ae9322fadd9": {
+              "id": "a85c638e-4e16-44d1-a2c6-1ae9322fadd9",
+              "type": "dialogue",
+              "selected": false,
+              "x": 674,
+              "y": 564,
+              "ports": [
+                {
+                  "id": "6049a1a8-fd6c-4088-b0b8-a6ecf0ed66fb",
+                  "type": "default",
+                  "x": 661,
+                  "y": 595,
+                  "name": "in-1691740459735 ",
+                  "alignment": "left",
+                  "parentNode": "a85c638e-4e16-44d1-a2c6-1ae9322fadd9",
+                  "links": [
+                    "82f88d37-0ebf-4162-a386-55c88d674a90"
+                  ],
+                  "in": true,
+                  "label": "❯"
+                },
+                {
+                  "id": "7820e488-01b2-40ae-91e2-52cd1cc1e7b3",
+                  "type": "default",
+                  "x": 1144.34375,
+                  "y": 595,
+                  "name": "out-1691740459735",
+                  "alignment": "right",
+                  "parentNode": "a85c638e-4e16-44d1-a2c6-1ae9322fadd9",
+                  "links": [],
+                  "in": false,
+                  "label": "❯"
+                }
+              ],
+              "title": "Guildmaster",
+              "color": "#dd341ee6",
+              "portsInOrder": [
+                "6049a1a8-fd6c-4088-b0b8-a6ecf0ed66fb"
+              ],
+              "portsOutOrder": [
+                "7820e488-01b2-40ae-91e2-52cd1cc1e7b3"
+              ],
+              "text": "Oziach lives in a hut, by the cliffs to the west of\nEdgeville. He can be a little...odd...sometimes, though."
+            },
+            "cc97345a-0566-42bf-a90d-50e845abb761": {
+              "id": "cc97345a-0566-42bf-a90d-50e845abb761",
+              "type": "action",
+              "selected": false,
+              "x": 675,
+              "y": 650,
+              "ports": [
+                {
+                  "id": "db25a4f1-5512-4dc6-9615-32f2b29b146c",
+                  "type": "default",
+                  "x": 662,
+                  "y": 681,
+                  "name": "in-1691740480100 ",
+                  "alignment": "left",
+                  "parentNode": "cc97345a-0566-42bf-a90d-50e845abb761",
+                  "links": [],
+                  "in": true,
+                  "label": "❯"
+                },
+                {
+                  "id": "e375109a-41d3-4384-92ae-476fd7974752",
+                  "type": "default",
+                  "x": 939.03125,
+                  "y": 681,
+                  "name": "out-1691740480100",
+                  "alignment": "right",
+                  "parentNode": "cc97345a-0566-42bf-a90d-50e845abb761",
+                  "links": [],
+                  "in": false,
+                  "label": "❯"
+                }
+              ],
+              "title": "Action",
+              "color": "#3e077ee6",
+              "portsInOrder": [
+                "db25a4f1-5512-4dc6-9615-32f2b29b146c"
+              ],
+              "portsOutOrder": [
+                "e375109a-41d3-4384-92ae-476fd7974752"
+              ],
+              "actions": {
+                "actions": [
+                  "basicAction"
+                ],
+                "args": [
+                  [
+                    "EMPTY_ACTION"
+                  ]
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  }
+}

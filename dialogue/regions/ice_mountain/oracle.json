@@ -1,0 +1,3105 @@
+{
+  "id": "7f738c42-6edb-4923-9300-a48129efab86",
+  "offsetX": 31.26143180373268,
+  "offsetY": -4.855234434212868,
+  "zoom": 93.33333333333336,
+  "gridSize": 0,
+  "layers": [
+    {
+      "id": "ccb904a1-5e88-44e5-b104-8f334b0fd5a1",
+      "type": "diagram-links",
+      "isSvg": true,
+      "transformed": true,
+      "models": {
+        "c70b4d16-193f-441d-ba7e-26b9aeb9bf68": {
+          "id": "c70b4d16-193f-441d-ba7e-26b9aeb9bf68",
+          "type": "default",
+          "selected": false,
+          "source": "e962d87d-d794-40b6-b117-a354fbf1b2ee",
+          "sourcePort": "23e2cd24-143c-4dad-9846-734a94d6c406",
+          "target": "9224f656-8715-4460-9d34-7e0e529c9046",
+          "targetPort": "7a0e10ba-d6e3-4fd1-8d02-67a4535a414c",
+          "points": [
+            {
+              "id": "663a123b-e620-4cd2-9bf2-30be3d21de55",
+              "type": "point",
+              "x": 133.29692141017094,
+              "y": 64.49999771195442
+            },
+            {
+              "id": "ab3e6116-35ee-4ae8-aeea-b60401823f74",
+              "type": "point",
+              "x": 179.92412858410069,
+              "y": 65.43079964724248
+            }
+          ],
+          "labels": [],
+          "width": 3,
+          "color": "gray",
+          "curvyness": 50,
+          "selectedColor": "rgb(0,192,255)"
+        },
+        "061fa9d8-6033-460a-84b4-5823c75ddde0": {
+          "id": "061fa9d8-6033-460a-84b4-5823c75ddde0",
+          "type": "default",
+          "selected": false,
+          "source": "9224f656-8715-4460-9d34-7e0e529c9046",
+          "sourcePort": "8d3b5958-f2f9-4001-a6b8-417c4eddfcfb",
+          "target": "5a37b1b2-3d04-45ef-902e-eeaf6964e1d1",
+          "targetPort": "ed3ef2f3-0098-41f0-a4d8-85188f86b5c1",
+          "points": [
+            {
+              "id": "596738b7-9c79-4e53-b384-58203e258191",
+              "type": "point",
+              "x": 496.8303813584265,
+              "y": 82.43081074454358
+            },
+            {
+              "id": "d275e46f-6880-4de0-b8f7-ff8ad605f42c",
+              "type": "point",
+              "x": 566.075899483444,
+              "y": 85.04465338375476
+            }
+          ],
+          "labels": [],
+          "width": 3,
+          "color": "gray",
+          "curvyness": 50,
+          "selectedColor": "rgb(0,192,255)"
+        }
+      }
+    },
+    {
+      "id": "3b8ade84-ebff-4e38-82a4-5706d49c1bef",
+      "type": "diagram-nodes",
+      "isSvg": false,
+      "transformed": true,
+      "models": {
+        "e962d87d-d794-40b6-b117-a354fbf1b2ee": {
+          "id": "e962d87d-d794-40b6-b117-a354fbf1b2ee",
+          "type": "start",
+          "selected": false,
+          "x": 50,
+          "y": 50,
+          "ports": [
+            {
+              "id": "23e2cd24-143c-4dad-9846-734a94d6c406",
+              "type": "default",
+              "x": 125.79692141017092,
+              "y": 56.99999771195442,
+              "name": "out-1691737623325",
+              "alignment": "right",
+              "parentNode": "e962d87d-d794-40b6-b117-a354fbf1b2ee",
+              "links": [
+                "c70b4d16-193f-441d-ba7e-26b9aeb9bf68"
+              ],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Start",
+          "color": "#16db26e6",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "23e2cd24-143c-4dad-9846-734a94d6c406"
+          ]
+        },
+        "9224f656-8715-4460-9d34-7e0e529c9046": {
+          "id": "9224f656-8715-4460-9d34-7e0e529c9046",
+          "type": "condition",
+          "selected": false,
+          "x": 185.42474170998844,
+          "y": 26.94386117067996,
+          "ports": [
+            {
+              "id": "7a0e10ba-d6e3-4fd1-8d02-67a4535a414c",
+              "type": "default",
+              "x": 172.42412858410069,
+              "y": 57.93079964724249,
+              "name": "in-1691738633096 ",
+              "alignment": "left",
+              "parentNode": "9224f656-8715-4460-9d34-7e0e529c9046",
+              "links": [
+                "c70b4d16-193f-441d-ba7e-26b9aeb9bf68"
+              ],
+              "in": true,
+              "label": "❯"
+            },
+            {
+              "id": "73f6f917-5e6b-431f-b229-c39bfd9649d1",
+              "type": "default",
+              "x": 487.189711969222,
+              "y": 57.93079964724249,
+              "name": "out-1691738633096",
+              "alignment": "right",
+              "parentNode": "9224f656-8715-4460-9d34-7e0e529c9046",
+              "links": [],
+              "in": false,
+              "label": "true"
+            },
+            {
+              "id": "8d3b5958-f2f9-4001-a6b8-417c4eddfcfb",
+              "type": "default",
+              "x": 489.3303813584265,
+              "y": 74.93081074454358,
+              "name": "out-16917386330961",
+              "alignment": "right",
+              "parentNode": "9224f656-8715-4460-9d34-7e0e529c9046",
+              "links": [
+                "061fa9d8-6033-460a-84b4-5823c75ddde0"
+              ],
+              "in": false,
+              "label": "false"
+            }
+          ],
+          "title": "Condition",
+          "color": "#02630ae6",
+          "portsInOrder": [
+            "7a0e10ba-d6e3-4fd1-8d02-67a4535a414c"
+          ],
+          "portsOutOrder": [
+            "73f6f917-5e6b-431f-b229-c39bfd9649d1",
+            "8d3b5958-f2f9-4001-a6b8-417c4eddfcfb"
+          ],
+          "conditions": {
+            "conditions": [
+              "basicCondition"
+            ],
+            "args": [
+              [
+                "false"
+              ]
+            ]
+          }
+        },
+        "5a37b1b2-3d04-45ef-902e-eeaf6964e1d1": {
+          "id": "5a37b1b2-3d04-45ef-902e-eeaf6964e1d1",
+          "type": "tree",
+          "selected": true,
+          "x": 567.5770373531435,
+          "y": 63.05917975094234,
+          "ports": [
+            {
+              "id": "ed3ef2f3-0098-41f0-a4d8-85188f86b5c1",
+              "type": "default",
+              "x": 558.5758994834447,
+              "y": 77.54465338375482,
+              "name": "in-1691738644889 ",
+              "alignment": "left",
+              "parentNode": "5a37b1b2-3d04-45ef-902e-eeaf6964e1d1",
+              "links": [
+                "061fa9d8-6033-460a-84b4-5823c75ddde0"
+              ],
+              "in": true,
+              "label": "❯"
+            }
+          ],
+          "title": "Tree",
+          "color": "#e02e87e6",
+          "portsInOrder": [
+            "ed3ef2f3-0098-41f0-a4d8-85188f86b5c1"
+          ],
+          "portsOutOrder": [],
+          "tree": "dragon_slayer_before",
+          "start": "Start"
+        }
+      }
+    }
+  ],
+  "trees": {
+    "dragon_slayer_before": {
+      "id": "053a8b7b-3099-4ca8-8c80-a541e98b5874",
+      "offsetX": 259.11994963120117,
+      "offsetY": 94.20444485127373,
+      "zoom": 46.6666666666666,
+      "gridSize": 0,
+      "layers": [
+        {
+          "id": "60d1e017-2ec5-4a81-a48a-85ae3604cc00",
+          "type": "diagram-links",
+          "isSvg": true,
+          "transformed": true,
+          "models": {
+            "f112baae-f1ef-451e-b5ed-431f599c0c1f": {
+              "id": "f112baae-f1ef-451e-b5ed-431f599c0c1f",
+              "type": "default",
+              "selected": false,
+              "source": "579082d9-f835-40cd-abc4-206015a2ab18",
+              "sourcePort": "055982d7-772d-4180-80f8-a8dec0f468a3",
+              "target": "815346f2-58bc-4437-b290-d95718f37b34",
+              "targetPort": "cf630be3-d111-4c83-9613-afc55dd24020",
+              "points": [
+                {
+                  "id": "18d5c7f3-1558-48d4-bbea-2b96f9d573ab",
+                  "type": "point",
+                  "x": 630.259714954304,
+                  "y": 63.40566066526014
+                },
+                {
+                  "id": "5e2dd6e6-410d-4d49-8fda-f6283e96698a",
+                  "type": "point",
+                  "x": 189.5468934257075,
+                  "y": 130.64061981776973
+                }
+              ],
+              "labels": [],
+              "width": 3,
+              "color": "gray",
+              "curvyness": 50,
+              "selectedColor": "rgb(0,192,255)"
+            },
+            "624a8f6e-801b-4a40-9984-af09d86ff4b9": {
+              "id": "624a8f6e-801b-4a40-9984-af09d86ff4b9",
+              "type": "default",
+              "selected": false,
+              "source": "815346f2-58bc-4437-b290-d95718f37b34",
+              "sourcePort": "acadbc8a-cdc3-49c2-8f29-f7654e1c937a",
+              "target": "96f9a9e6-dc44-4ded-a5fc-dd129faff60d",
+              "targetPort": "af1fba3f-c4d7-45c7-a1f2-eb6fd5d48632",
+              "points": [
+                {
+                  "id": "cc16743d-08a2-417b-bd49-46d1fc8276ce",
+                  "type": "point",
+                  "x": 285.87501842570754,
+                  "y": 130.64061981776973
+                },
+                {
+                  "id": "7df46189-b25e-4f72-9545-17883dec6793",
+                  "type": "point",
+                  "x": 451.5565853478776,
+                  "y": 134.40565692253836
+                }
+              ],
+              "labels": [],
+              "width": 3,
+              "color": "gray",
+              "curvyness": 50,
+              "selectedColor": "rgb(0,192,255)"
+            },
+            "c225b321-a516-4fc0-bd47-7c9d708a1c5d": {
+              "id": "c225b321-a516-4fc0-bd47-7c9d708a1c5d",
+              "type": "default",
+              "selected": false,
+              "source": "815346f2-58bc-4437-b290-d95718f37b34",
+              "sourcePort": "e7d1916c-d7cc-4868-b61e-48c061535b38",
+              "target": "eaaaa0ab-acac-477f-b7a1-59ff55d23c9e",
+              "targetPort": "4d80e474-cfb5-470f-9f21-05f38f6789ac",
+              "points": [
+                {
+                  "id": "b7f59ed3-3119-4afe-8511-67188aa5a4d5",
+                  "type": "point",
+                  "x": 285.76563881928064,
+                  "y": 147.64062384839326
+                },
+                {
+                  "id": "be14a639-ec71-45f7-b47c-c5c8913de2d1",
+                  "type": "point",
+                  "x": 449.55658995430434,
+                  "y": 191.40566383217893
+                }
+              ],
+              "labels": [],
+              "width": 3,
+              "color": "gray",
+              "curvyness": 50,
+              "selectedColor": "rgb(0,192,255)"
+            },
+            "fc083888-cdba-4c99-b8bc-6a7bc0042aff": {
+              "id": "fc083888-cdba-4c99-b8bc-6a7bc0042aff",
+              "type": "default",
+              "selected": false,
+              "source": "815346f2-58bc-4437-b290-d95718f37b34",
+              "sourcePort": "988298f0-2e68-4ff2-91fa-47424f783863",
+              "target": "5ee6ea90-c59b-4d46-8a07-6f5762ddda4e",
+              "targetPort": "1da8109c-a931-42a6-8878-ef569271af3d",
+              "points": [
+                {
+                  "id": "38edfcef-00e7-4540-924a-62ebbb15ff15",
+                  "type": "point",
+                  "x": 285.76563881928064,
+                  "y": 164.6406365160672
+                },
+                {
+                  "id": "bc707508-b34a-4cdd-a95e-36da3e45464f",
+                  "type": "point",
+                  "x": 449.55658995430434,
+                  "y": 269.40567419663944
+                }
+              ],
+              "labels": [],
+              "width": 3,
+              "color": "gray",
+              "curvyness": 50,
+              "selectedColor": "rgb(0,192,255)"
+            },
+            "90b96cbe-2e8e-4768-8bc9-ecf28a680b71": {
+              "id": "90b96cbe-2e8e-4768-8bc9-ecf28a680b71",
+              "type": "default",
+              "selected": false,
+              "source": "815346f2-58bc-4437-b290-d95718f37b34",
+              "sourcePort": "e31626e4-26d6-44b3-a5a2-b25b8c4f33d8",
+              "target": "3d129c6d-2d57-447a-99cc-f264c4954608",
+              "targetPort": "da351b66-70f7-4456-9055-b220b480f742",
+              "points": [
+                {
+                  "id": "3ed56f46-5a5d-49ef-b4f8-978e16b0ef56",
+                  "type": "point",
+                  "x": 285.76563881928064,
+                  "y": 181.64063190964032
+                },
+                {
+                  "id": "5b0767e3-ce84-46f8-9079-60f2bb4c4793",
+                  "type": "point",
+                  "x": 449.55658995430434,
+                  "y": 332.40566728699855
+                }
+              ],
+              "labels": [],
+              "width": 3,
+              "color": "gray",
+              "curvyness": 50,
+              "selectedColor": "rgb(0,192,255)"
+            },
+            "ec06dd34-a185-4020-9fd9-25a195902fa5": {
+              "id": "ec06dd34-a185-4020-9fd9-25a195902fa5",
+              "type": "default",
+              "selected": false,
+              "source": "815346f2-58bc-4437-b290-d95718f37b34",
+              "sourcePort": "43917279-deb0-460f-9844-24e091b8febc",
+              "target": "fbfab38b-f391-4a24-bda3-6c13a1712eb1",
+              "targetPort": "435d34a6-8d43-4772-9cef-325978292552",
+              "points": [
+                {
+                  "id": "15b87921-a694-4ef3-89b7-3893d7e4eba6",
+                  "type": "point",
+                  "x": 285.76563881928064,
+                  "y": 198.64062730321342
+                },
+                {
+                  "id": "29678e74-c182-47fe-9e55-85413dc7e83e",
+                  "type": "point",
+                  "x": 450.5566221992928,
+                  "y": 395.4056603773581
+                }
+              ],
+              "labels": [],
+              "width": 3,
+              "color": "gray",
+              "curvyness": 50,
+              "selectedColor": "rgb(0,192,255)"
+            },
+            "efabe745-c9b8-48aa-a83c-ae94ae0f2de3": {
+              "id": "efabe745-c9b8-48aa-a83c-ae94ae0f2de3",
+              "type": "default",
+              "selected": false,
+              "source": "815346f2-58bc-4437-b290-d95718f37b34",
+              "sourcePort": "13d3b0ab-f115-463e-8187-a029f9c3ecb1",
+              "target": "e43116f4-b3db-40da-92cc-2d1c9aecc418",
+              "targetPort": "5c3c58cb-faee-4cad-be79-5255e7df489d",
+              "points": [
+                {
+                  "id": "bded28b8-ee1a-40b9-b70c-1390325d8789",
+                  "type": "point",
+                  "x": 285.76563881928064,
+                  "y": 215.64062269678655
+                },
+                {
+                  "id": "ee3fb016-f0b8-4c39-8e21-2e0a0cfa14d2",
+                  "type": "point",
+                  "x": 450.5566221992928,
+                  "y": 458.4056534677179
+                }
+              ],
+              "labels": [],
+              "width": 3,
+              "color": "gray",
+              "curvyness": 50,
+              "selectedColor": "rgb(0,192,255)"
+            },
+            "e00ed81d-a2b1-42c7-8e55-757216ad9875": {
+              "id": "e00ed81d-a2b1-42c7-8e55-757216ad9875",
+              "type": "default",
+              "selected": false,
+              "source": "815346f2-58bc-4437-b290-d95718f37b34",
+              "sourcePort": "64df6a42-0601-4238-ae79-6a1fac29bd09",
+              "target": "ba150287-c35a-4746-b3ba-7e109beba81c",
+              "targetPort": "24c85fed-20ce-450e-8dc2-3f9d6e9dee0a",
+              "points": [
+                {
+                  "id": "0d9285a8-4ed0-4767-9378-42415ef4e98e",
+                  "type": "point",
+                  "x": 285.76563881928064,
+                  "y": 232.64065263856133
+                },
+                {
+                  "id": "5d40d69d-f433-4540-a266-fb3a987ad655",
+                  "type": "point",
+                  "x": 450.5566221992928,
+                  "y": 521.4056465580778
+                }
+              ],
+              "labels": [],
+              "width": 3,
+              "color": "gray",
+              "curvyness": 50,
+              "selectedColor": "rgb(0,192,255)"
+            },
+            "f640de12-de90-48a7-8fa5-21537532da0d": {
+              "id": "f640de12-de90-48a7-8fa5-21537532da0d",
+              "type": "default",
+              "selected": false,
+              "source": "815346f2-58bc-4437-b290-d95718f37b34",
+              "sourcePort": "c3b790af-0079-4579-a520-ceb7572cccf4",
+              "target": "736daa64-46aa-4171-a1e3-6f20a876a91f",
+              "targetPort": "9d337ad8-71bd-409d-96b9-649e8b3eac08",
+              "points": [
+                {
+                  "id": "8497cdb7-0b4b-4acd-a38e-cebf3de12ca0",
+                  "type": "point",
+                  "x": 285.76563881928064,
+                  "y": 249.64064803213444
+                },
+                {
+                  "id": "57da3f0d-4003-4a7a-ba25-a0eeee2f3037",
+                  "type": "point",
+                  "x": 450.5566221992928,
+                  "y": 584.4056741966401
+                }
+              ],
+              "labels": [],
+              "width": 3,
+              "color": "gray",
+              "curvyness": 50,
+              "selectedColor": "rgb(0,192,255)"
+            },
+            "761b463e-948f-49f2-941b-6da5cb2fca1e": {
+              "id": "761b463e-948f-49f2-941b-6da5cb2fca1e",
+              "type": "default",
+              "selected": false,
+              "source": "815346f2-58bc-4437-b290-d95718f37b34",
+              "sourcePort": "5091f8d2-cef4-4c14-b1ee-74df9488308c",
+              "target": "b6ad871d-7026-4580-92a1-bce24e908084",
+              "targetPort": "ec9ae10c-9094-404a-a7bf-5613ed80eef2",
+              "points": [
+                {
+                  "id": "b9dadf8b-ec95-40c4-bd2a-9cdf1b9fbc03",
+                  "type": "point",
+                  "x": 285.76563881928064,
+                  "y": 266.64062615160674
+                },
+                {
+                  "id": "d1360ee5-95d7-4d78-86cc-5fe98a5d534d",
+                  "type": "point",
+                  "x": 451.5565853478776,
+                  "y": 647.4056327387984
+                }
+              ],
+              "labels": [],
+              "width": 3,
+              "color": "gray",
+              "curvyness": 50,
+              "selectedColor": "rgb(0,192,255)"
+            },
+            "b098e545-6fbf-4048-b605-931f2e6b9eec": {
+              "id": "b098e545-6fbf-4048-b605-931f2e6b9eec",
+              "type": "default",
+              "selected": false,
+              "source": "815346f2-58bc-4437-b290-d95718f37b34",
+              "sourcePort": "71546539-c4ce-4ac9-8951-02feabcd68a4",
+              "target": "ad433987-f53e-4654-a060-1261076d30f0",
+              "targetPort": "773fcac1-3a4f-4d41-8f70-a94904deb4a9",
+              "points": [
+                {
+                  "id": "ec7b360d-d497-49c2-bd64-b0e1f4e16228",
+                  "type": "point",
+                  "x": 285.76563881928064,
+                  "y": 283.6406215451799
+                },
+                {
+                  "id": "5e41e113-9983-487d-93b2-bbe9d7a3e365",
+                  "type": "point",
+                  "x": 451.5565853478776,
+                  "y": 710.4056603773597
+                }
+              ],
+              "labels": [],
+              "width": 3,
+              "color": "gray",
+              "curvyness": 50,
+              "selectedColor": "rgb(0,192,255)"
+            },
+            "3aaee0e3-226b-4516-9a13-f2c3fe3dc109": {
+              "id": "3aaee0e3-226b-4516-9a13-f2c3fe3dc109",
+              "type": "default",
+              "selected": false,
+              "source": "815346f2-58bc-4437-b290-d95718f37b34",
+              "sourcePort": "bd292d2f-5682-4ebc-84bb-b24bf427aa28",
+              "target": "d834253b-2f6c-4c0f-b9b1-d36cdff3ca0c",
+              "targetPort": "d7136226-f1b2-4869-b430-e6b550552a37",
+              "points": [
+                {
+                  "id": "f1242878-300e-4659-889f-8ff9af379928",
+                  "type": "point",
+                  "x": 285.76563881928064,
+                  "y": 300.6406342128538
+                },
+                {
+                  "id": "a983b0f4-306b-49ab-ac4a-3be6d0010bb3",
+                  "type": "point",
+                  "x": 452.55661759286585,
+                  "y": 772.4056557709328
+                }
+              ],
+              "labels": [],
+              "width": 3,
+              "color": "gray",
+              "curvyness": 50,
+              "selectedColor": "rgb(0,192,255)"
+            },
+            "b50d7402-3111-4a33-af43-bf2f62a8b42e": {
+              "id": "b50d7402-3111-4a33-af43-bf2f62a8b42e",
+              "type": "default",
+              "selected": false,
+              "source": "815346f2-58bc-4437-b290-d95718f37b34",
+              "sourcePort": "ec615c27-6ca4-4569-b391-44488958bb2a",
+              "target": "93432e2c-2e89-4d6a-b3f5-6c7e498e714f",
+              "targetPort": "c227c741-49d2-4c37-a554-4d59d567db1f",
+              "points": [
+                {
+                  "id": "3c378626-efc2-43b4-9257-0b83993dd816",
+                  "type": "point",
+                  "x": 285.76563881928064,
+                  "y": 317.6406296064269
+                },
+                {
+                  "id": "9b1e02d6-98bc-445a-9bcc-c4a4a768b214",
+                  "type": "point",
+                  "x": 452.55661759286585,
+                  "y": 835.4056143130911
+                }
+              ],
+              "labels": [],
+              "width": 3,
+              "color": "gray",
+              "curvyness": 50,
+              "selectedColor": "rgb(0,192,255)"
+            },
+            "477827bf-5ec0-44e9-9c29-c1f87405716a": {
+              "id": "477827bf-5ec0-44e9-9c29-c1f87405716a",
+              "type": "default",
+              "selected": false,
+              "source": "815346f2-58bc-4437-b290-d95718f37b34",
+              "sourcePort": "b1206d3f-80c1-4194-a302-1c96bcec6c4e",
+              "target": "bf3328dd-6657-46dd-a1fe-1d60e3e64d8e",
+              "targetPort": "fd95c5f3-1eb4-43a8-a630-9596ddebe4ad",
+              "points": [
+                {
+                  "id": "355ab1f1-3dd8-4d36-9883-f2ca8a6b4262",
+                  "type": "point",
+                  "x": 285.76563881928064,
+                  "y": 334.64062500000006
+                },
+                {
+                  "id": "b67b3b34-945e-44bf-94c8-bf2683718049",
+                  "type": "point",
+                  "x": 452.55661759286585,
+                  "y": 898.4056419516523
+                }
+              ],
+              "labels": [],
+              "width": 3,
+              "color": "gray",
+              "curvyness": 50,
+              "selectedColor": "rgb(0,192,255)"
+            },
+            "b61ece43-35fc-4f3b-a9dc-ca7a979085ce": {
+              "id": "b61ece43-35fc-4f3b-a9dc-ca7a979085ce",
+              "type": "default",
+              "selected": false,
+              "source": "815346f2-58bc-4437-b290-d95718f37b34",
+              "sourcePort": "c50172c5-ec2d-489f-901b-2ca06c757bc2",
+              "target": "fdb707fb-8efe-4672-9d9d-d0029daca3dd",
+              "targetPort": "c9d6406f-d5d8-4b05-8c50-4e771a0c0215",
+              "points": [
+                {
+                  "id": "185501b3-ede5-45c8-bf12-ec30494b1f3c",
+                  "type": "point",
+                  "x": 285.76563881928064,
+                  "y": 351.64062039357316
+                },
+                {
+                  "id": "874a2e00-1a8b-4e22-99b2-cd79848becce",
+                  "type": "point",
+                  "x": 452.55661759286585,
+                  "y": 961.4056004938102
+                }
+              ],
+              "labels": [],
+              "width": 3,
+              "color": "gray",
+              "curvyness": 50,
+              "selectedColor": "rgb(0,192,255)"
+            },
+            "521e7a31-8f31-43e8-8032-8355556eee71": {
+              "id": "521e7a31-8f31-43e8-8032-8355556eee71",
+              "type": "default",
+              "selected": false,
+              "source": "815346f2-58bc-4437-b290-d95718f37b34",
+              "sourcePort": "dc7eacc5-7526-4ea1-9345-8921b6054b31",
+              "target": "22dc48dc-a5ae-4732-9b5f-3472bdcf5774",
+              "targetPort": "f5e0f99d-f3b6-4d05-9149-1b89b790e51a",
+              "points": [
+                {
+                  "id": "a47b5f31-7491-4f56-8e2f-ffd92e76a902",
+                  "type": "point",
+                  "x": 285.76563881928064,
+                  "y": 368.64061578714626
+                },
+                {
+                  "id": "26bdfa80-7cb6-4e95-8a43-0cc42499394d",
+                  "type": "point",
+                  "x": 452.55661759286585,
+                  "y": 1039.40562813237
+                }
+              ],
+              "labels": [],
+              "width": 3,
+              "color": "gray",
+              "curvyness": 50,
+              "selectedColor": "rgb(0,192,255)"
+            },
+            "d1c5935b-8596-460f-ab06-dc1a3e29e7eb": {
+              "id": "d1c5935b-8596-460f-ab06-dc1a3e29e7eb",
+              "type": "default",
+              "selected": false,
+              "source": "815346f2-58bc-4437-b290-d95718f37b34",
+              "sourcePort": "bc656abd-1b1f-42ce-a7b5-628f5fad2db3",
+              "target": "5088523c-b4de-411f-b2e3-0b69584ecd5d",
+              "targetPort": "66726e6a-3ae5-4c81-9e71-7148706665c1",
+              "points": [
+                {
+                  "id": "c2ca44c9-b70f-4c41-9438-f4d9f61e452a",
+                  "type": "point",
+                  "x": 285.76563881928064,
+                  "y": 385.6406284548202
+                },
+                {
+                  "id": "0ad0b275-81da-4730-b612-2f6e99a87a7d",
+                  "type": "point",
+                  "x": 452.55661759286585,
+                  "y": 1102.4056212227301
+                }
+              ],
+              "labels": [],
+              "width": 3,
+              "color": "gray",
+              "curvyness": 50,
+              "selectedColor": "rgb(0,192,255)"
+            },
+            "273afd35-1abc-4025-a88a-abd22b6b124c": {
+              "id": "273afd35-1abc-4025-a88a-abd22b6b124c",
+              "type": "default",
+              "selected": false,
+              "source": "815346f2-58bc-4437-b290-d95718f37b34",
+              "sourcePort": "2388e034-846c-43de-855d-8982a2d45f3e",
+              "target": "d364ef3d-812b-4d69-a6d9-b003baadd4b7",
+              "targetPort": "501a888e-5ea7-42db-b444-6a8ea3db8a63",
+              "points": [
+                {
+                  "id": "d805d3aa-bef3-47b0-910c-7131101ab259",
+                  "type": "point",
+                  "x": 285.76563881928064,
+                  "y": 402.6406411224942
+                },
+                {
+                  "id": "fe83cb0d-b173-4cdb-b88f-67c8387d17fc",
+                  "type": "point",
+                  "x": 452.55661759286585,
+                  "y": 1165.4056143130897
+                }
+              ],
+              "labels": [],
+              "width": 3,
+              "color": "gray",
+              "curvyness": 50,
+              "selectedColor": "rgb(0,192,255)"
+            },
+            "b9044eaa-349e-433f-a7de-bc1e40f42da1": {
+              "id": "b9044eaa-349e-433f-a7de-bc1e40f42da1",
+              "type": "default",
+              "selected": false,
+              "source": "815346f2-58bc-4437-b290-d95718f37b34",
+              "sourcePort": "dd3705be-3765-4dcd-8848-32dd111114cd",
+              "target": "68912510-25a6-44ae-905a-fe13930dd9fd",
+              "targetPort": "ee49e370-a900-4ed5-913b-0be0d336ffdb",
+              "points": [
+                {
+                  "id": "92d83fe1-fe3c-4fc0-9324-f371c0d81fdc",
+                  "type": "point",
+                  "x": 285.76563881928064,
+                  "y": 419.6406365160673
+                },
+                {
+                  "id": "a88d7bee-5f74-4b2a-ade5-beb4d962d8e9",
+                  "type": "point",
+                  "x": 452.55661759286585,
+                  "y": 1228.4056419516514
+                }
+              ],
+              "labels": [],
+              "width": 3,
+              "color": "gray",
+              "curvyness": 50,
+              "selectedColor": "rgb(0,192,255)"
+            },
+            "7c24c0c8-350b-4a3e-a3c0-6389b19c9abf": {
+              "id": "7c24c0c8-350b-4a3e-a3c0-6389b19c9abf",
+              "type": "default",
+              "selected": false,
+              "source": "815346f2-58bc-4437-b290-d95718f37b34",
+              "sourcePort": "13a4a6d8-d788-4664-8394-375a07798ed8",
+              "target": "ddbf1faa-d482-4914-9f73-2a24a9072828",
+              "targetPort": "dffba683-27bc-4fb2-bec8-cdd8af595229",
+              "points": [
+                {
+                  "id": "2b0294e9-2d27-495e-8caa-a86ada34d5e0",
+                  "type": "point",
+                  "x": 285.76563881928064,
+                  "y": 436.64063190964043
+                },
+                {
+                  "id": "b476dca3-6d73-4e59-b341-53ab08acb763",
+                  "type": "point",
+                  "x": 452.55661759286585,
+                  "y": 1291.4056695902123
+                }
+              ],
+              "labels": [],
+              "width": 3,
+              "color": "gray",
+              "curvyness": 50,
+              "selectedColor": "rgb(0,192,255)"
+            },
+            "6cba5bf9-92b5-41d5-9e6e-16cb66379597": {
+              "id": "6cba5bf9-92b5-41d5-9e6e-16cb66379597",
+              "type": "default",
+              "selected": false,
+              "source": "815346f2-58bc-4437-b290-d95718f37b34",
+              "sourcePort": "24822f85-cef6-4693-8ba8-56b23d2efb94",
+              "target": "8f5850b1-6cbf-4a9c-85a3-5ce9643765de",
+              "targetPort": "69cbe09c-7d68-47a7-832f-752ba349a26d",
+              "points": [
+                {
+                  "id": "a8e231b8-8058-4953-90b1-5d16bcf5108d",
+                  "type": "point",
+                  "x": 285.76563881928064,
+                  "y": 453.64062730321353
+                },
+                {
+                  "id": "c8e6df6c-e72e-4d11-a90f-79a3d7b33db0",
+                  "type": "point",
+                  "x": 452.55661759286585,
+                  "y": 1369.4055590359671
+                }
+              ],
+              "labels": [],
+              "width": 3,
+              "color": "gray",
+              "curvyness": 50,
+              "selectedColor": "rgb(0,192,255)"
+            },
+            "81bbfe04-376e-4da1-a39e-ad2ee5660d9f": {
+              "id": "81bbfe04-376e-4da1-a39e-ad2ee5660d9f",
+              "type": "default",
+              "selected": false,
+              "source": "815346f2-58bc-4437-b290-d95718f37b34",
+              "sourcePort": "f9918da1-cead-42e3-b83a-513ba4156209",
+              "target": "d1eba968-0c26-4152-92a1-d06fbef434c7",
+              "targetPort": "08643ee1-52b1-4801-8283-c6f459ab3b82",
+              "points": [
+                {
+                  "id": "d8adbe59-c6a2-4088-9b2a-a1afac8cd894",
+                  "type": "point",
+                  "x": 285.76563881928064,
+                  "y": 470.64062269678664
+                },
+                {
+                  "id": "5ef014d1-53e5-4e8e-9315-9c29cb207fc4",
+                  "type": "point",
+                  "x": 452.55661759286585,
+                  "y": 1432.4055866745289
+                }
+              ],
+              "labels": [],
+              "width": 3,
+              "color": "gray",
+              "curvyness": 50,
+              "selectedColor": "rgb(0,192,255)"
+            },
+            "0e526d49-c9ff-4969-969d-ae30145d9181": {
+              "id": "0e526d49-c9ff-4969-969d-ae30145d9181",
+              "type": "default",
+              "selected": false,
+              "source": "815346f2-58bc-4437-b290-d95718f37b34",
+              "sourcePort": "ed9597a6-dd1f-4618-811f-f139d1e1dcf0",
+              "target": "baed3ab4-fc50-4161-9920-fbbec9a440d2",
+              "targetPort": "06d1730b-934b-4033-b951-69fea2be80b6",
+              "points": [
+                {
+                  "id": "9fd8a66d-6ebe-418f-94da-d53012b7e47c",
+                  "type": "point",
+                  "x": 285.76563881928064,
+                  "y": 487.6406180903598
+                },
+                {
+                  "id": "6d2995e1-8c3f-4641-83f8-74109d2166a4",
+                  "type": "point",
+                  "x": 452.55661759286585,
+                  "y": 1510.4056143130897
+                }
+              ],
+              "labels": [],
+              "width": 3,
+              "color": "gray",
+              "curvyness": 50,
+              "selectedColor": "rgb(0,192,255)"
+            },
+            "91312cda-8104-40bc-be75-8abbb753d39d": {
+              "id": "91312cda-8104-40bc-be75-8abbb753d39d",
+              "type": "default",
+              "selected": false,
+              "source": "815346f2-58bc-4437-b290-d95718f37b34",
+              "sourcePort": "e13aecc7-418f-4108-b5f5-1b28a6e327ef",
+              "target": "eb152f65-aa18-4780-8919-a9e0eee3308a",
+              "targetPort": "b6c9bbc7-aac2-415b-aefa-5a77578a5bd8",
+              "points": [
+                {
+                  "id": "47c727b2-6a4c-4708-9631-caae495e69c6",
+                  "type": "point",
+                  "x": 285.76563881928064,
+                  "y": 504.6405962098321
+                },
+                {
+                  "id": "edf2c444-c248-49d2-8261-046ef8a54846",
+                  "type": "point",
+                  "x": 452.55661759286585,
+                  "y": 1588.4056419516514
+                }
+              ],
+              "labels": [],
+              "width": 3,
+              "color": "gray",
+              "curvyness": 50,
+              "selectedColor": "rgb(0,192,255)"
+            },
+            "4218f822-e0a7-4f84-a8f9-ac6238ce02dd": {
+              "id": "4218f822-e0a7-4f84-a8f9-ac6238ce02dd",
+              "type": "default",
+              "selected": false,
+              "source": "815346f2-58bc-4437-b290-d95718f37b34",
+              "sourcePort": "db1a685c-dfcd-4781-8f8e-6fdcaa3a06f3",
+              "target": "b85807a9-4ac3-4bf2-8498-a9c79cd312ec",
+              "targetPort": "6e5308a1-390d-4af7-a575-9035e6a84ab3",
+              "points": [
+                {
+                  "id": "8d59245d-4f01-481e-85b0-aa380d21becb",
+                  "type": "point",
+                  "x": 285.76563881928064,
+                  "y": 521.6406434257077
+                },
+                {
+                  "id": "24032538-3a99-4107-bb7e-0e9c4c2eb56b",
+                  "type": "point",
+                  "x": 452.55661759286585,
+                  "y": 1666.4056695902132
+                }
+              ],
+              "labels": [],
+              "width": 3,
+              "color": "gray",
+              "curvyness": 50,
+              "selectedColor": "rgb(0,192,255)"
+            },
+            "de4afbb8-ccd3-4c6e-974d-893c42c6d2fc": {
+              "id": "de4afbb8-ccd3-4c6e-974d-893c42c6d2fc",
+              "type": "default",
+              "selected": false,
+              "source": "815346f2-58bc-4437-b290-d95718f37b34",
+              "sourcePort": "afbc9e9e-6ae3-4d8d-9cb6-02e98ed2e397",
+              "target": "9aa6e4af-258c-49bb-aa31-dd46d5688546",
+              "targetPort": "74169792-4556-40f0-b704-967559286069",
+              "points": [
+                {
+                  "id": "6906145c-4f04-485b-9fbc-0cfaf97470eb",
+                  "type": "point",
+                  "x": 285.76563881928064,
+                  "y": 538.6406388192808
+                },
+                {
+                  "id": "3b60d72b-39a3-4406-ada4-785c6b0c252e",
+                  "type": "point",
+                  "x": 452.55661759286585,
+                  "y": 1729.4055590359671
+                }
+              ],
+              "labels": [],
+              "width": 3,
+              "color": "gray",
+              "curvyness": 50,
+              "selectedColor": "rgb(0,192,255)"
+            },
+            "c5cd62ca-5f05-4273-99c2-34873c6ed650": {
+              "id": "c5cd62ca-5f05-4273-99c2-34873c6ed650",
+              "type": "default",
+              "selected": false,
+              "source": "815346f2-58bc-4437-b290-d95718f37b34",
+              "sourcePort": "8d43dbc8-6dee-4059-9b16-c6f5dc656126",
+              "target": "a9181b43-b537-40c4-aa06-e7ff3d4581a9",
+              "targetPort": "8024a991-ff8f-4772-bc06-9b12ad5f2cb2",
+              "points": [
+                {
+                  "id": "1ac63fe1-bfd9-40f8-bd07-fd41dc40faba",
+                  "type": "point",
+                  "x": 285.76563881928064,
+                  "y": 555.6406342128539
+                },
+                {
+                  "id": "296db161-ccdf-4180-bfa3-54d51d5aa60a",
+                  "type": "point",
+                  "x": 452.55661759286585,
+                  "y": 1792.4055866745289
+                }
+              ],
+              "labels": [],
+              "width": 3,
+              "color": "gray",
+              "curvyness": 50,
+              "selectedColor": "rgb(0,192,255)"
+            },
+            "64d0e667-6096-43b9-8e07-8f0c266603e9": {
+              "id": "64d0e667-6096-43b9-8e07-8f0c266603e9",
+              "type": "default",
+              "selected": false,
+              "source": "815346f2-58bc-4437-b290-d95718f37b34",
+              "sourcePort": "f9969252-4b2b-4059-a644-143ef5840280",
+              "target": "ab177be4-aeba-4118-8e0c-0712f9f9ee43",
+              "targetPort": "f8d96948-0594-46cf-b23a-f37498146a65",
+              "points": [
+                {
+                  "id": "d8f4fb9b-d8a7-4e80-b5f5-953c84420af8",
+                  "type": "point",
+                  "x": 285.76563881928064,
+                  "y": 572.6405950582255
+                },
+                {
+                  "id": "fb5e54e9-0c0f-43cc-b05a-86c02acc297e",
+                  "type": "point",
+                  "x": 453.60349719929286,
+                  "y": 1857.4993735259434
+                }
+              ],
+              "labels": [],
+              "width": 3,
+              "color": "gray",
+              "curvyness": 50,
+              "selectedColor": "rgb(0,192,255)"
+            },
+            "ce9b1771-664d-45d7-a467-cc10d3b42a66": {
+              "id": "ce9b1771-664d-45d7-a467-cc10d3b42a66",
+              "type": "default",
+              "selected": false,
+              "source": "815346f2-58bc-4437-b290-d95718f37b34",
+              "sourcePort": "abf882f8-9c6d-44e9-83d6-470089b21775",
+              "target": "48459213-a027-4d50-baf2-4ac6a91aa9e6",
+              "targetPort": "9c75c679-e6e1-4661-be56-72f55791e3f0",
+              "points": [
+                {
+                  "id": "d3d578dc-95ed-4677-b077-19ba7e5ef907",
+                  "type": "point",
+                  "x": 285.76563881928064,
+                  "y": 589.6406250000002
+                },
+                {
+                  "id": "c81c0f98-ee04-41dd-af61-9bffc6dbf798",
+                  "type": "point",
+                  "x": 453.60349719929286,
+                  "y": 1920.4994011645051
+                }
+              ],
+              "labels": [],
+              "width": 3,
+              "color": "gray",
+              "curvyness": 50,
+              "selectedColor": "rgb(0,192,255)"
+            },
+            "51da313c-2e47-4bac-82dd-f380309d531e": {
+              "id": "51da313c-2e47-4bac-82dd-f380309d531e",
+              "type": "default",
+              "selected": false,
+              "source": "815346f2-58bc-4437-b290-d95718f37b34",
+              "sourcePort": "f1193c8c-f404-48c1-aac0-822144f01b2b",
+              "target": "7dbaa445-c8d8-4456-a088-d176c84fd6bf",
+              "targetPort": "a8e1ddec-dc18-458f-8abc-0151a2de8e0c",
+              "points": [
+                {
+                  "id": "f15e7875-e45c-4993-90d8-a1d491bfddba",
+                  "type": "point",
+                  "x": 285.76563881928064,
+                  "y": 606.6406203935734
+                },
+                {
+                  "id": "91aff0b2-04ad-47f5-8749-693a190658e8",
+                  "type": "point",
+                  "x": 453.60349719929286,
+                  "y": 1998.4994288030668
+                }
+              ],
+              "labels": [],
+              "width": 3,
+              "color": "gray",
+              "curvyness": 50,
+              "selectedColor": "rgb(0,192,255)"
+            },
+            "28c7dd6f-ae6c-4032-88af-047f10230adf": {
+              "id": "28c7dd6f-ae6c-4032-88af-047f10230adf",
+              "type": "default",
+              "selected": false,
+              "source": "815346f2-58bc-4437-b290-d95718f37b34",
+              "sourcePort": "f7cfe427-a1fa-4d2a-855f-c9c1c7f4e004",
+              "target": "330a2fa5-fb40-4c73-8bbb-1114eedf35f5",
+              "targetPort": "be0758d1-e2cb-48b1-8fe7-ffc00a098326",
+              "points": [
+                {
+                  "id": "19ce754e-0e82-435f-b975-b6a726a9f2d5",
+                  "type": "point",
+                  "x": 285.76563881928064,
+                  "y": 623.6406157871464
+                },
+                {
+                  "id": "38d01539-5e94-43c9-9a9e-3badd26c14e2",
+                  "type": "point",
+                  "x": 453.60349719929286,
+                  "y": 2076.4993182488206
+                }
+              ],
+              "labels": [],
+              "width": 3,
+              "color": "gray",
+              "curvyness": 50,
+              "selectedColor": "rgb(0,192,255)"
+            },
+            "1e5428bf-a0fd-4588-9d71-6ab52d42092f": {
+              "id": "1e5428bf-a0fd-4588-9d71-6ab52d42092f",
+              "type": "default",
+              "selected": false,
+              "source": "815346f2-58bc-4437-b290-d95718f37b34",
+              "sourcePort": "7375b450-2e5d-4db4-91b0-26709e7fcc3d",
+              "target": "869e5c78-1e7e-4371-bf72-de7abe44119e",
+              "targetPort": "5bae23d8-e4be-47d1-bf89-662cf1e56967",
+              "points": [
+                {
+                  "id": "45686211-ba6e-4fab-91e0-aa77e475df1c",
+                  "type": "point",
+                  "x": 285.76563881928064,
+                  "y": 640.6406111807196
+                },
+                {
+                  "id": "56dff109-76cb-4caa-9240-a1f9a1499afd",
+                  "type": "point",
+                  "x": 453.60349719929286,
+                  "y": 2154.499345887383
+                }
+              ],
+              "labels": [],
+              "width": 3,
+              "color": "gray",
+              "curvyness": 50,
+              "selectedColor": "rgb(0,192,255)"
+            },
+            "9cf6adad-ccb0-4afa-a444-9b0399cec80b": {
+              "id": "9cf6adad-ccb0-4afa-a444-9b0399cec80b",
+              "type": "default",
+              "selected": false,
+              "source": "f59833b5-718d-4644-8b4d-daa2b0c8d419",
+              "sourcePort": "56ee4371-9f36-475f-a25b-8bb7db8c0ce8",
+              "target": "579082d9-f835-40cd-abc4-206015a2ab18",
+              "targetPort": "70a38a03-3b9f-4b41-b0f7-7d5aedb0f7ac",
+              "points": [
+                {
+                  "id": "55311e1a-8b92-4182-aeb4-fad32c66350a",
+                  "type": "point",
+                  "x": 133.29689342570748,
+                  "y": 64.49999654517978
+                },
+                {
+                  "id": "cad2e9d1-3284-4c4e-8c08-a00e575737e4",
+                  "type": "point",
+                  "x": 183.55661528965214,
+                  "y": 63.405660665260115
+                }
+              ],
+              "labels": [],
+              "width": 3,
+              "color": "gray",
+              "curvyness": 50,
+              "selectedColor": "rgb(0,192,255)"
+            }
+          }
+        },
+        {
+          "id": "b3840191-4a8c-4ad1-ba0c-7f25febef6a7",
+          "type": "diagram-nodes",
+          "isSvg": false,
+          "transformed": true,
+          "models": {
+            "f59833b5-718d-4644-8b4d-daa2b0c8d419": {
+              "id": "f59833b5-718d-4644-8b4d-daa2b0c8d419",
+              "type": "start",
+              "x": 50,
+              "y": 50,
+              "ports": [
+                {
+                  "id": "56ee4371-9f36-475f-a25b-8bb7db8c0ce8",
+                  "type": "default",
+                  "x": 125.79689342570748,
+                  "y": 56.99999654517978,
+                  "name": "out-1691738586750",
+                  "alignment": "right",
+                  "parentNode": "f59833b5-718d-4644-8b4d-daa2b0c8d419",
+                  "links": [
+                    "9cf6adad-ccb0-4afa-a444-9b0399cec80b"
+                  ],
+                  "in": false,
+                  "label": "❯"
+                }
+              ],
+              "title": "Start",
+              "color": "#16db26e6",
+              "portsInOrder": [],
+              "portsOutOrder": [
+                "56ee4371-9f36-475f-a25b-8bb7db8c0ce8"
+              ]
+            },
+            "579082d9-f835-40cd-abc4-206015a2ab18": {
+              "id": "579082d9-f835-40cd-abc4-206015a2ab18",
+              "type": "dialogue",
+              "selected": false,
+              "x": 189.05660377358498,
+              "y": 24.9056603773585,
+              "ports": [
+                {
+                  "id": "70a38a03-3b9f-4b41-b0f7-7d5aedb0f7ac",
+                  "type": "default",
+                  "x": 176.05661528965214,
+                  "y": 55.905664983785314,
+                  "name": "in-1691737651990 ",
+                  "alignment": "left",
+                  "parentNode": "579082d9-f835-40cd-abc4-206015a2ab18",
+                  "links": [
+                    "9cf6adad-ccb0-4afa-a444-9b0399cec80b"
+                  ],
+                  "in": true,
+                  "label": "❯"
+                },
+                {
+                  "id": "055982d7-772d-4180-80f8-a8dec0f468a3",
+                  "type": "default",
+                  "x": 622.759714954304,
+                  "y": 55.905664983785314,
+                  "name": "out-1691737651990",
+                  "alignment": "right",
+                  "parentNode": "579082d9-f835-40cd-abc4-206015a2ab18",
+                  "links": [
+                    "f112baae-f1ef-451e-b5ed-431f599c0c1f"
+                  ],
+                  "in": false,
+                  "label": "❯"
+                }
+              ],
+              "title": "<player>",
+              "color": "#dd341ee6",
+              "portsInOrder": [
+                "70a38a03-3b9f-4b41-b0f7-7d5aedb0f7ac"
+              ],
+              "portsOutOrder": [
+                "055982d7-772d-4180-80f8-a8dec0f468a3"
+              ],
+              "text": "Can you impart your wise knowledge to me, O Oracle?"
+            },
+            "eaaaa0ab-acac-477f-b7a1-59ff55d23c9e": {
+              "id": "eaaaa0ab-acac-477f-b7a1-59ff55d23c9e",
+              "type": "dialogue",
+              "selected": false,
+              "x": 455.056603773585,
+              "y": 152.90566037735852,
+              "ports": [
+                {
+                  "id": "4d80e474-cfb5-470f-9f21-05f38f6789ac",
+                  "type": "default",
+                  "x": 442.0565899543047,
+                  "y": 183.90566383217893,
+                  "name": "in-1691737653789 ",
+                  "alignment": "left",
+                  "parentNode": "eaaaa0ab-acac-477f-b7a1-59ff55d23c9e",
+                  "links": [
+                    "c225b321-a516-4fc0-bd47-7c9d708a1c5d"
+                  ],
+                  "in": true,
+                  "label": "❯"
+                },
+                {
+                  "id": "d9c8ba8e-7a9d-4efd-a7c5-a9987fea352c",
+                  "type": "default",
+                  "x": 874.103478773586,
+                  "y": 183.90566383217893,
+                  "name": "out-1691737653789",
+                  "alignment": "right",
+                  "parentNode": "eaaaa0ab-acac-477f-b7a1-59ff55d23c9e",
+                  "links": [],
+                  "in": false,
+                  "label": "❯"
+                }
+              ],
+              "title": "Oracle",
+              "color": "#dd341ee6",
+              "portsInOrder": [
+                "4d80e474-cfb5-470f-9f21-05f38f6789ac"
+              ],
+              "portsOutOrder": [
+                "d9c8ba8e-7a9d-4efd-a7c5-a9987fea352c"
+              ],
+              "text": "The God Wars are over...as long as the thing they\nwere fighting over remains hidden."
+            },
+            "96f9a9e6-dc44-4ded-a5fc-dd129faff60d": {
+              "id": "96f9a9e6-dc44-4ded-a5fc-dd129faff60d",
+              "type": "dialogue",
+              "selected": false,
+              "x": 457.056603773585,
+              "y": 95.9056603773585,
+              "ports": [
+                {
+                  "id": "af1fba3f-c4d7-45c7-a1f2-eb6fd5d48632",
+                  "type": "default",
+                  "x": 444.05658534787796,
+                  "y": 126.90565692253813,
+                  "name": "in-1691737653789 ",
+                  "alignment": "left",
+                  "parentNode": "96f9a9e6-dc44-4ded-a5fc-dd129faff60d",
+                  "links": [
+                    "624a8f6e-801b-4a40-9984-af09d86ff4b9"
+                  ],
+                  "in": true,
+                  "label": "❯"
+                },
+                {
+                  "id": "509005c7-8808-409c-8f22-a47ec2fd7372",
+                  "type": "default",
+                  "x": 861.447228773586,
+                  "y": 126.90565692253813,
+                  "name": "out-1691737653789",
+                  "alignment": "right",
+                  "parentNode": "96f9a9e6-dc44-4ded-a5fc-dd129faff60d",
+                  "links": [],
+                  "in": false,
+                  "label": "❯"
+                }
+              ],
+              "title": "Oracle",
+              "color": "#dd341ee6",
+              "portsInOrder": [
+                "af1fba3f-c4d7-45c7-a1f2-eb6fd5d48632"
+              ],
+              "portsOutOrder": [
+                "509005c7-8808-409c-8f22-a47ec2fd7372"
+              ],
+              "text": "Beware the cabbage: it is both green AND leafy."
+            },
+            "815346f2-58bc-4437-b290-d95718f37b34": {
+              "id": "815346f2-58bc-4437-b290-d95718f37b34",
+              "type": "random",
+              "selected": false,
+              "x": 195.05660377358498,
+              "y": 92.14890362060174,
+              "ports": [
+                {
+                  "id": "cf630be3-d111-4c83-9613-afc55dd24020",
+                  "type": "default",
+                  "x": 182.0468934257075,
+                  "y": 123.14061118071932,
+                  "name": "in-1691737696319 ",
+                  "alignment": "left",
+                  "parentNode": "815346f2-58bc-4437-b290-d95718f37b34",
+                  "links": [
+                    "f112baae-f1ef-451e-b5ed-431f599c0c1f"
+                  ],
+                  "in": true,
+                  "label": "❯"
+                },
+                {
+                  "id": "acadbc8a-cdc3-49c2-8f29-f7654e1c937a",
+                  "type": "default",
+                  "x": 278.37501842570754,
+                  "y": 123.14061118071932,
+                  "name": "out-1691737696319",
+                  "alignment": "right",
+                  "parentNode": "815346f2-58bc-4437-b290-d95718f37b34",
+                  "links": [
+                    "624a8f6e-801b-4a40-9984-af09d86ff4b9"
+                  ],
+                  "in": false,
+                  "label": "❯"
+                },
+                {
+                  "id": "e7d1916c-d7cc-4868-b61e-48c061535b38",
+                  "type": "default",
+                  "x": 278.26563881928064,
+                  "y": 140.14062384839326,
+                  "name": "out-1691737703113",
+                  "alignment": "right",
+                  "parentNode": "815346f2-58bc-4437-b290-d95718f37b34",
+                  "links": [
+                    "c225b321-a516-4fc0-bd47-7c9d708a1c5d"
+                  ],
+                  "in": false,
+                  "label": "❯"
+                },
+                {
+                  "id": "988298f0-2e68-4ff2-91fa-47424f783863",
+                  "type": "default",
+                  "x": 278.26563881928064,
+                  "y": 157.1406365160672,
+                  "name": "out-1691737758517",
+                  "alignment": "right",
+                  "parentNode": "815346f2-58bc-4437-b290-d95718f37b34",
+                  "links": [
+                    "fc083888-cdba-4c99-b8bc-6a7bc0042aff"
+                  ],
+                  "in": false,
+                  "label": "❯"
+                },
+                {
+                  "id": "e31626e4-26d6-44b3-a5a2-b25b8c4f33d8",
+                  "type": "default",
+                  "x": 278.26563881928064,
+                  "y": 174.14063190964032,
+                  "name": "out-1691737758682",
+                  "alignment": "right",
+                  "parentNode": "815346f2-58bc-4437-b290-d95718f37b34",
+                  "links": [
+                    "90b96cbe-2e8e-4768-8bc9-ecf28a680b71"
+                  ],
+                  "in": false,
+                  "label": "❯"
+                },
+                {
+                  "id": "43917279-deb0-460f-9844-24e091b8febc",
+                  "type": "default",
+                  "x": 278.26563881928064,
+                  "y": 191.14062730321342,
+                  "name": "out-1691737758851",
+                  "alignment": "right",
+                  "parentNode": "815346f2-58bc-4437-b290-d95718f37b34",
+                  "links": [
+                    "ec06dd34-a185-4020-9fd9-25a195902fa5"
+                  ],
+                  "in": false,
+                  "label": "❯"
+                },
+                {
+                  "id": "13d3b0ab-f115-463e-8187-a029f9c3ecb1",
+                  "type": "default",
+                  "x": 278.26563881928064,
+                  "y": 208.14062269678655,
+                  "name": "out-1691737759003",
+                  "alignment": "right",
+                  "parentNode": "815346f2-58bc-4437-b290-d95718f37b34",
+                  "links": [
+                    "efabe745-c9b8-48aa-a83c-ae94ae0f2de3"
+                  ],
+                  "in": false,
+                  "label": "❯"
+                },
+                {
+                  "id": "64df6a42-0601-4238-ae79-6a1fac29bd09",
+                  "type": "default",
+                  "x": 278.26563881928064,
+                  "y": 225.14065263856133,
+                  "name": "out-1691737759138",
+                  "alignment": "right",
+                  "parentNode": "815346f2-58bc-4437-b290-d95718f37b34",
+                  "links": [
+                    "e00ed81d-a2b1-42c7-8e55-757216ad9875"
+                  ],
+                  "in": false,
+                  "label": "❯"
+                },
+                {
+                  "id": "c3b790af-0079-4579-a520-ceb7572cccf4",
+                  "type": "default",
+                  "x": 278.26563881928064,
+                  "y": 242.14064803213444,
+                  "name": "out-1691737759274",
+                  "alignment": "right",
+                  "parentNode": "815346f2-58bc-4437-b290-d95718f37b34",
+                  "links": [
+                    "f640de12-de90-48a7-8fa5-21537532da0d"
+                  ],
+                  "in": false,
+                  "label": "❯"
+                },
+                {
+                  "id": "5091f8d2-cef4-4c14-b1ee-74df9488308c",
+                  "type": "default",
+                  "x": 278.26563881928064,
+                  "y": 259.14064342570754,
+                  "name": "out-1691737759410",
+                  "alignment": "right",
+                  "parentNode": "815346f2-58bc-4437-b290-d95718f37b34",
+                  "links": [
+                    "761b463e-948f-49f2-941b-6da5cb2fca1e"
+                  ],
+                  "in": false,
+                  "label": "❯"
+                },
+                {
+                  "id": "71546539-c4ce-4ac9-8951-02feabcd68a4",
+                  "type": "default",
+                  "x": 278.26563881928064,
+                  "y": 276.14060427107904,
+                  "name": "out-1691737759554",
+                  "alignment": "right",
+                  "parentNode": "815346f2-58bc-4437-b290-d95718f37b34",
+                  "links": [
+                    "b098e545-6fbf-4048-b605-931f2e6b9eec"
+                  ],
+                  "in": false,
+                  "label": "❯"
+                },
+                {
+                  "id": "bd292d2f-5682-4ebc-84bb-b24bf427aa28",
+                  "type": "default",
+                  "x": 278.26563881928064,
+                  "y": 293.1406342128538,
+                  "name": "out-1691737759698",
+                  "alignment": "right",
+                  "parentNode": "815346f2-58bc-4437-b290-d95718f37b34",
+                  "links": [
+                    "3aaee0e3-226b-4516-9a13-f2c3fe3dc109"
+                  ],
+                  "in": false,
+                  "label": "❯"
+                },
+                {
+                  "id": "ec615c27-6ca4-4569-b391-44488958bb2a",
+                  "type": "default",
+                  "x": 278.26563881928064,
+                  "y": 310.1406296064269,
+                  "name": "out-1691737759859",
+                  "alignment": "right",
+                  "parentNode": "815346f2-58bc-4437-b290-d95718f37b34",
+                  "links": [
+                    "b50d7402-3111-4a33-af43-bf2f62a8b42e"
+                  ],
+                  "in": false,
+                  "label": "❯"
+                },
+                {
+                  "id": "b1206d3f-80c1-4194-a302-1c96bcec6c4e",
+                  "type": "default",
+                  "x": 278.26563881928064,
+                  "y": 327.14062500000006,
+                  "name": "out-1691737760002",
+                  "alignment": "right",
+                  "parentNode": "815346f2-58bc-4437-b290-d95718f37b34",
+                  "links": [
+                    "477827bf-5ec0-44e9-9c29-c1f87405716a"
+                  ],
+                  "in": false,
+                  "label": "❯"
+                },
+                {
+                  "id": "c50172c5-ec2d-489f-901b-2ca06c757bc2",
+                  "type": "default",
+                  "x": 278.26563881928064,
+                  "y": 344.14062039357316,
+                  "name": "out-1691737760146",
+                  "alignment": "right",
+                  "parentNode": "815346f2-58bc-4437-b290-d95718f37b34",
+                  "links": [
+                    "b61ece43-35fc-4f3b-a9dc-ca7a979085ce"
+                  ],
+                  "in": false,
+                  "label": "❯"
+                },
+                {
+                  "id": "dc7eacc5-7526-4ea1-9345-8921b6054b31",
+                  "type": "default",
+                  "x": 278.26563881928064,
+                  "y": 361.14061578714626,
+                  "name": "out-1691737760418",
+                  "alignment": "right",
+                  "parentNode": "815346f2-58bc-4437-b290-d95718f37b34",
+                  "links": [
+                    "521e7a31-8f31-43e8-8032-8355556eee71"
+                  ],
+                  "in": false,
+                  "label": "❯"
+                },
+                {
+                  "id": "bc656abd-1b1f-42ce-a7b5-628f5fad2db3",
+                  "type": "default",
+                  "x": 278.26563881928064,
+                  "y": 378.1406457289211,
+                  "name": "out-1691737760570",
+                  "alignment": "right",
+                  "parentNode": "815346f2-58bc-4437-b290-d95718f37b34",
+                  "links": [
+                    "d1c5935b-8596-460f-ab06-dc1a3e29e7eb"
+                  ],
+                  "in": false,
+                  "label": "❯"
+                },
+                {
+                  "id": "2388e034-846c-43de-855d-8982a2d45f3e",
+                  "type": "default",
+                  "x": 278.26563881928064,
+                  "y": 395.1406411224942,
+                  "name": "out-1691737760714",
+                  "alignment": "right",
+                  "parentNode": "815346f2-58bc-4437-b290-d95718f37b34",
+                  "links": [
+                    "273afd35-1abc-4025-a88a-abd22b6b124c"
+                  ],
+                  "in": false,
+                  "label": "❯"
+                },
+                {
+                  "id": "dd3705be-3765-4dcd-8848-32dd111114cd",
+                  "type": "default",
+                  "x": 278.26563881928064,
+                  "y": 412.1406365160673,
+                  "name": "out-1691737760874",
+                  "alignment": "right",
+                  "parentNode": "815346f2-58bc-4437-b290-d95718f37b34",
+                  "links": [
+                    "b9044eaa-349e-433f-a7de-bc1e40f42da1"
+                  ],
+                  "in": false,
+                  "label": "❯"
+                },
+                {
+                  "id": "13a4a6d8-d788-4664-8394-375a07798ed8",
+                  "type": "default",
+                  "x": 278.26563881928064,
+                  "y": 429.14063190964043,
+                  "name": "out-1691737761034",
+                  "alignment": "right",
+                  "parentNode": "815346f2-58bc-4437-b290-d95718f37b34",
+                  "links": [
+                    "7c24c0c8-350b-4a3e-a3c0-6389b19c9abf"
+                  ],
+                  "in": false,
+                  "label": "❯"
+                },
+                {
+                  "id": "24822f85-cef6-4693-8ba8-56b23d2efb94",
+                  "type": "default",
+                  "x": 278.26563881928064,
+                  "y": 446.14062730321353,
+                  "name": "out-1691737761186",
+                  "alignment": "right",
+                  "parentNode": "815346f2-58bc-4437-b290-d95718f37b34",
+                  "links": [
+                    "6cba5bf9-92b5-41d5-9e6e-16cb66379597"
+                  ],
+                  "in": false,
+                  "label": "❯"
+                },
+                {
+                  "id": "f9918da1-cead-42e3-b83a-513ba4156209",
+                  "type": "default",
+                  "x": 278.26563881928064,
+                  "y": 463.14062269678664,
+                  "name": "out-1691737761330",
+                  "alignment": "right",
+                  "parentNode": "815346f2-58bc-4437-b290-d95718f37b34",
+                  "links": [
+                    "81bbfe04-376e-4da1-a39e-ad2ee5660d9f"
+                  ],
+                  "in": false,
+                  "label": "❯"
+                },
+                {
+                  "id": "ed9597a6-dd1f-4618-811f-f139d1e1dcf0",
+                  "type": "default",
+                  "x": 278.26563881928064,
+                  "y": 480.1406180903598,
+                  "name": "out-1691737761474",
+                  "alignment": "right",
+                  "parentNode": "815346f2-58bc-4437-b290-d95718f37b34",
+                  "links": [
+                    "0e526d49-c9ff-4969-969d-ae30145d9181"
+                  ],
+                  "in": false,
+                  "label": "❯"
+                },
+                {
+                  "id": "e13aecc7-418f-4108-b5f5-1b28a6e327ef",
+                  "type": "default",
+                  "x": 278.26563881928064,
+                  "y": 497.1406134839329,
+                  "name": "out-1691737761635",
+                  "alignment": "right",
+                  "parentNode": "815346f2-58bc-4437-b290-d95718f37b34",
+                  "links": [
+                    "91312cda-8104-40bc-be75-8abbb753d39d"
+                  ],
+                  "in": false,
+                  "label": "❯"
+                },
+                {
+                  "id": "db1a685c-dfcd-4781-8f8e-6fdcaa3a06f3",
+                  "type": "default",
+                  "x": 278.26563881928064,
+                  "y": 514.1406434257077,
+                  "name": "out-1691737762099",
+                  "alignment": "right",
+                  "parentNode": "815346f2-58bc-4437-b290-d95718f37b34",
+                  "links": [
+                    "4218f822-e0a7-4f84-a8f9-ac6238ce02dd"
+                  ],
+                  "in": false,
+                  "label": "❯"
+                },
+                {
+                  "id": "afbc9e9e-6ae3-4d8d-9cb6-02e98ed2e397",
+                  "type": "default",
+                  "x": 278.26563881928064,
+                  "y": 531.1406388192808,
+                  "name": "out-1691737762243",
+                  "alignment": "right",
+                  "parentNode": "815346f2-58bc-4437-b290-d95718f37b34",
+                  "links": [
+                    "de4afbb8-ccd3-4c6e-974d-893c42c6d2fc"
+                  ],
+                  "in": false,
+                  "label": "❯"
+                },
+                {
+                  "id": "8d43dbc8-6dee-4059-9b16-c6f5dc656126",
+                  "type": "default",
+                  "x": 278.26563881928064,
+                  "y": 548.1406342128539,
+                  "name": "out-1691737762386",
+                  "alignment": "right",
+                  "parentNode": "815346f2-58bc-4437-b290-d95718f37b34",
+                  "links": [
+                    "c5cd62ca-5f05-4273-99c2-34873c6ed650"
+                  ],
+                  "in": false,
+                  "label": "❯"
+                },
+                {
+                  "id": "f9969252-4b2b-4059-a644-143ef5840280",
+                  "type": "default",
+                  "x": 278.26563881928064,
+                  "y": 565.1406296064271,
+                  "name": "out-1691738006259",
+                  "alignment": "right",
+                  "parentNode": "815346f2-58bc-4437-b290-d95718f37b34",
+                  "links": [
+                    "64d0e667-6096-43b9-8e07-8f0c266603e9"
+                  ],
+                  "in": false,
+                  "label": "❯"
+                },
+                {
+                  "id": "abf882f8-9c6d-44e9-83d6-470089b21775",
+                  "type": "default",
+                  "x": 278.26563881928064,
+                  "y": 582.1406250000002,
+                  "name": "out-1691738006406",
+                  "alignment": "right",
+                  "parentNode": "815346f2-58bc-4437-b290-d95718f37b34",
+                  "links": [
+                    "ce9b1771-664d-45d7-a467-cc10d3b42a66"
+                  ],
+                  "in": false,
+                  "label": "❯"
+                },
+                {
+                  "id": "f1193c8c-f404-48c1-aac0-822144f01b2b",
+                  "type": "default",
+                  "x": 278.26563881928064,
+                  "y": 599.1406203935734,
+                  "name": "out-1691738006556",
+                  "alignment": "right",
+                  "parentNode": "815346f2-58bc-4437-b290-d95718f37b34",
+                  "links": [
+                    "51da313c-2e47-4bac-82dd-f380309d531e"
+                  ],
+                  "in": false,
+                  "label": "❯"
+                },
+                {
+                  "id": "f7cfe427-a1fa-4d2a-855f-c9c1c7f4e004",
+                  "type": "default",
+                  "x": 278.26563881928064,
+                  "y": 616.1406157871464,
+                  "name": "out-1691738006693",
+                  "alignment": "right",
+                  "parentNode": "815346f2-58bc-4437-b290-d95718f37b34",
+                  "links": [
+                    "28c7dd6f-ae6c-4032-88af-047f10230adf"
+                  ],
+                  "in": false,
+                  "label": "❯"
+                },
+                {
+                  "id": "7375b450-2e5d-4db4-91b0-26709e7fcc3d",
+                  "type": "default",
+                  "x": 278.26563881928064,
+                  "y": 633.1406111807196,
+                  "name": "out-1691738006821",
+                  "alignment": "right",
+                  "parentNode": "815346f2-58bc-4437-b290-d95718f37b34",
+                  "links": [
+                    "1e5428bf-a0fd-4588-9d71-6ab52d42092f"
+                  ],
+                  "in": false,
+                  "label": "❯"
+                },
+                {
+                  "id": "b957d9f4-c17f-40e3-834a-a04f8d7ba2ef",
+                  "type": "default",
+                  "x": 278.27534686394455,
+                  "y": 650.1399847066634,
+                  "name": "out-1691738510660",
+                  "alignment": "right",
+                  "parentNode": "815346f2-58bc-4437-b290-d95718f37b34",
+                  "links": [],
+                  "in": false,
+                  "label": "❯"
+                }
+              ],
+              "title": "Random",
+              "color": "#bdce26e6",
+              "portsInOrder": [
+                "cf630be3-d111-4c83-9613-afc55dd24020"
+              ],
+              "portsOutOrder": [
+                "acadbc8a-cdc3-49c2-8f29-f7654e1c937a",
+                "e7d1916c-d7cc-4868-b61e-48c061535b38",
+                "988298f0-2e68-4ff2-91fa-47424f783863",
+                "e31626e4-26d6-44b3-a5a2-b25b8c4f33d8",
+                "43917279-deb0-460f-9844-24e091b8febc",
+                "13d3b0ab-f115-463e-8187-a029f9c3ecb1",
+                "64df6a42-0601-4238-ae79-6a1fac29bd09",
+                "c3b790af-0079-4579-a520-ceb7572cccf4",
+                "5091f8d2-cef4-4c14-b1ee-74df9488308c",
+                "71546539-c4ce-4ac9-8951-02feabcd68a4",
+                "bd292d2f-5682-4ebc-84bb-b24bf427aa28",
+                "ec615c27-6ca4-4569-b391-44488958bb2a",
+                "b1206d3f-80c1-4194-a302-1c96bcec6c4e",
+                "c50172c5-ec2d-489f-901b-2ca06c757bc2",
+                "dc7eacc5-7526-4ea1-9345-8921b6054b31",
+                "bc656abd-1b1f-42ce-a7b5-628f5fad2db3",
+                "2388e034-846c-43de-855d-8982a2d45f3e",
+                "dd3705be-3765-4dcd-8848-32dd111114cd",
+                "13a4a6d8-d788-4664-8394-375a07798ed8",
+                "24822f85-cef6-4693-8ba8-56b23d2efb94",
+                "f9918da1-cead-42e3-b83a-513ba4156209",
+                "ed9597a6-dd1f-4618-811f-f139d1e1dcf0",
+                "e13aecc7-418f-4108-b5f5-1b28a6e327ef",
+                "db1a685c-dfcd-4781-8f8e-6fdcaa3a06f3",
+                "afbc9e9e-6ae3-4d8d-9cb6-02e98ed2e397",
+                "8d43dbc8-6dee-4059-9b16-c6f5dc656126",
+                "f9969252-4b2b-4059-a644-143ef5840280",
+                "abf882f8-9c6d-44e9-83d6-470089b21775",
+                "f1193c8c-f404-48c1-aac0-822144f01b2b",
+                "f7cfe427-a1fa-4d2a-855f-c9c1c7f4e004",
+                "7375b450-2e5d-4db4-91b0-26709e7fcc3d"
+              ]
+            },
+            "5ee6ea90-c59b-4d46-8a07-6f5762ddda4e": {
+              "id": "5ee6ea90-c59b-4d46-8a07-6f5762ddda4e",
+              "type": "dialogue",
+              "selected": false,
+              "x": 455.056603773585,
+              "y": 230.90566037735852,
+              "ports": [
+                {
+                  "id": "1da8109c-a931-42a6-8878-ef569271af3d",
+                  "type": "default",
+                  "x": 442.0565899543047,
+                  "y": 261.90567419663955,
+                  "name": "in-1691737653789 ",
+                  "alignment": "left",
+                  "parentNode": "5ee6ea90-c59b-4d46-8a07-6f5762ddda4e",
+                  "links": [
+                    "fc083888-cdba-4c99-b8bc-6a7bc0042aff"
+                  ],
+                  "in": true,
+                  "label": "❯"
+                },
+                {
+                  "id": "d949a2cc-b280-4b38-b470-8282f09f1ec4",
+                  "type": "default",
+                  "x": 815.4784281028903,
+                  "y": 261.90567419663955,
+                  "name": "out-1691737653789",
+                  "alignment": "right",
+                  "parentNode": "5ee6ea90-c59b-4d46-8a07-6f5762ddda4e",
+                  "links": [],
+                  "in": false,
+                  "label": "❯"
+                }
+              ],
+              "title": "Oracle",
+              "color": "#dd341ee6",
+              "portsInOrder": [
+                "1da8109c-a931-42a6-8878-ef569271af3d"
+              ],
+              "portsOutOrder": [
+                "d949a2cc-b280-4b38-b470-8282f09f1ec4"
+              ],
+              "text": "Do not fear the dragons...fear their kin."
+            },
+            "3d129c6d-2d57-447a-99cc-f264c4954608": {
+              "id": "3d129c6d-2d57-447a-99cc-f264c4954608",
+              "type": "dialogue",
+              "selected": false,
+              "x": 455.056603773585,
+              "y": 293.9056603773585,
+              "ports": [
+                {
+                  "id": "da351b66-70f7-4456-9055-b220b480f742",
+                  "type": "default",
+                  "x": 442.0565899543047,
+                  "y": 324.905667286998,
+                  "name": "in-1691737653789 ",
+                  "alignment": "left",
+                  "parentNode": "3d129c6d-2d57-447a-99cc-f264c4954608",
+                  "links": [
+                    "90b96cbe-2e8e-4768-8bc9-ecf28a680b71"
+                  ],
+                  "in": true,
+                  "label": "❯"
+                },
+                {
+                  "id": "cc16a237-0cef-4550-a351-0576f51005bc",
+                  "type": "default",
+                  "x": 800.8221827093173,
+                  "y": 324.905667286998,
+                  "name": "out-1691737653789",
+                  "alignment": "right",
+                  "parentNode": "3d129c6d-2d57-447a-99cc-f264c4954608",
+                  "links": [],
+                  "in": false,
+                  "label": "❯"
+                }
+              ],
+              "title": "Oracle",
+              "color": "#dd341ee6",
+              "portsInOrder": [
+                "da351b66-70f7-4456-9055-b220b480f742"
+              ],
+              "portsOutOrder": [
+                "cc16a237-0cef-4550-a351-0576f51005bc"
+              ],
+              "text": "Everyone you know will one day be dead."
+            },
+            "fbfab38b-f391-4a24-bda3-6c13a1712eb1": {
+              "id": "fbfab38b-f391-4a24-bda3-6c13a1712eb1",
+              "type": "dialogue",
+              "selected": false,
+              "x": 456.056603773585,
+              "y": 356.9056603773585,
+              "ports": [
+                {
+                  "id": "435d34a6-8d43-4772-9cef-325978292552",
+                  "type": "default",
+                  "x": 443.05662219929314,
+                  "y": 387.90566037735755,
+                  "name": "in-1691737653789 ",
+                  "alignment": "left",
+                  "parentNode": "fbfab38b-f391-4a24-bda3-6c13a1712eb1",
+                  "links": [
+                    "ec06dd34-a185-4020-9fd9-25a195902fa5"
+                  ],
+                  "in": true,
+                  "label": "❯"
+                },
+                {
+                  "id": "f1198f33-a725-41b5-a7d3-528833b03269",
+                  "type": "default",
+                  "x": 801.8222149543055,
+                  "y": 387.90566037735755,
+                  "name": "out-1691737653789",
+                  "alignment": "right",
+                  "parentNode": "fbfab38b-f391-4a24-bda3-6c13a1712eb1",
+                  "links": [],
+                  "in": false,
+                  "label": "❯"
+                }
+              ],
+              "title": "Oracle",
+              "color": "#dd341ee6",
+              "portsInOrder": [
+                "435d34a6-8d43-4772-9cef-325978292552"
+              ],
+              "portsOutOrder": [
+                "f1198f33-a725-41b5-a7d3-528833b03269"
+              ],
+              "text": "Is it time to wake up? I am not sure..."
+            },
+            "e43116f4-b3db-40da-92cc-2d1c9aecc418": {
+              "id": "e43116f4-b3db-40da-92cc-2d1c9aecc418",
+              "type": "dialogue",
+              "selected": false,
+              "x": 456.056603773585,
+              "y": 419.9056603773585,
+              "ports": [
+                {
+                  "id": "5c3c58cb-faee-4cad-be79-5255e7df489d",
+                  "type": "default",
+                  "x": 443.05662219929314,
+                  "y": 450.90565346771734,
+                  "name": "in-1691737653789 ",
+                  "alignment": "left",
+                  "parentNode": "e43116f4-b3db-40da-92cc-2d1c9aecc418",
+                  "links": [
+                    "efabe745-c9b8-48aa-a83c-ae94ae0f2de3"
+                  ],
+                  "in": true,
+                  "label": "❯"
+                },
+                {
+                  "id": "df5fbce9-138a-48bd-a5d0-a3736c0a52be",
+                  "type": "default",
+                  "x": 801.8222149543055,
+                  "y": 450.90565346771734,
+                  "name": "out-1691737653789",
+                  "alignment": "right",
+                  "parentNode": "e43116f4-b3db-40da-92cc-2d1c9aecc418",
+                  "links": [],
+                  "in": false,
+                  "label": "❯"
+                }
+              ],
+              "title": "Oracle",
+              "color": "#dd341ee6",
+              "portsInOrder": [
+                "5c3c58cb-faee-4cad-be79-5255e7df489d"
+              ],
+              "portsOutOrder": [
+                "df5fbce9-138a-48bd-a5d0-a3736c0a52be"
+              ],
+              "text": "Too many cooks spoil the anchovy pizza."
+            },
+            "ba150287-c35a-4746-b3ba-7e109beba81c": {
+              "id": "ba150287-c35a-4746-b3ba-7e109beba81c",
+              "type": "dialogue",
+              "selected": false,
+              "x": 456.056603773585,
+              "y": 482.9056603773585,
+              "ports": [
+                {
+                  "id": "24c85fed-20ce-450e-8dc2-3f9d6e9dee0a",
+                  "type": "default",
+                  "x": 443.05662219929314,
+                  "y": 513.9056465580776,
+                  "name": "in-1691737653789 ",
+                  "alignment": "left",
+                  "parentNode": "ba150287-c35a-4746-b3ba-7e109beba81c",
+                  "links": [
+                    "e00ed81d-a2b1-42c7-8e55-757216ad9875"
+                  ],
+                  "in": true,
+                  "label": "❯"
+                },
+                {
+                  "id": "ee96f53e-12be-4e2d-bb43-ee64a635ed86",
+                  "type": "default",
+                  "x": 765.1659511350247,
+                  "y": 513.9056465580776,
+                  "name": "out-1691737653789",
+                  "alignment": "right",
+                  "parentNode": "ba150287-c35a-4746-b3ba-7e109beba81c",
+                  "links": [],
+                  "in": false,
+                  "label": "❯"
+                }
+              ],
+              "title": "Oracle",
+              "color": "#dd341ee6",
+              "portsInOrder": [
+                "24c85fed-20ce-450e-8dc2-3f9d6e9dee0a"
+              ],
+              "portsOutOrder": [
+                "ee96f53e-12be-4e2d-bb43-ee64a635ed86"
+              ],
+              "text": "Pies...they're great, aren't they?"
+            },
+            "736daa64-46aa-4171-a1e3-6f20a876a91f": {
+              "id": "736daa64-46aa-4171-a1e3-6f20a876a91f",
+              "type": "dialogue",
+              "selected": false,
+              "x": 456.056603773585,
+              "y": 545.9056603773585,
+              "ports": [
+                {
+                  "id": "9d337ad8-71bd-409d-96b9-649e8b3eac08",
+                  "type": "default",
+                  "x": 443.05662219929314,
+                  "y": 576.9056741966391,
+                  "name": "in-1691737653789 ",
+                  "alignment": "left",
+                  "parentNode": "736daa64-46aa-4171-a1e3-6f20a876a91f",
+                  "links": [
+                    "f640de12-de90-48a7-8fa5-21537532da0d"
+                  ],
+                  "in": true,
+                  "label": "❯"
+                },
+                {
+                  "id": "b60720b5-0a70-430f-8ba6-377be86a7b40",
+                  "type": "default",
+                  "x": 706.5409695607325,
+                  "y": 576.9056741966391,
+                  "name": "out-1691737653789",
+                  "alignment": "right",
+                  "parentNode": "736daa64-46aa-4171-a1e3-6f20a876a91f",
+                  "links": [],
+                  "in": false,
+                  "label": "❯"
+                }
+              ],
+              "title": "Oracle",
+              "color": "#dd341ee6",
+              "portsInOrder": [
+                "9d337ad8-71bd-409d-96b9-649e8b3eac08"
+              ],
+              "portsOutOrder": [
+                "b60720b5-0a70-430f-8ba6-377be86a7b40"
+              ],
+              "text": "Nothing like a tasty fish."
+            },
+            "b6ad871d-7026-4580-92a1-bce24e908084": {
+              "id": "b6ad871d-7026-4580-92a1-bce24e908084",
+              "type": "dialogue",
+              "selected": false,
+              "x": 457.056603773585,
+              "y": 608.9056603773585,
+              "ports": [
+                {
+                  "id": "ec9ae10c-9094-404a-a7bf-5613ed80eef2",
+                  "type": "default",
+                  "x": 444.05658534787796,
+                  "y": 639.9056327387974,
+                  "name": "in-1691737653789 ",
+                  "alignment": "left",
+                  "parentNode": "b6ad871d-7026-4580-92a1-bce24e908084",
+                  "links": [
+                    "761b463e-948f-49f2-941b-6da5cb2fca1e"
+                  ],
+                  "in": true,
+                  "label": "❯"
+                },
+                {
+                  "id": "14b63452-8159-489b-b78f-31e8c54ae4d3",
+                  "type": "default",
+                  "x": 846.7909833800129,
+                  "y": 639.9056327387974,
+                  "name": "out-1691737653789",
+                  "alignment": "right",
+                  "parentNode": "b6ad871d-7026-4580-92a1-bce24e908084",
+                  "links": [],
+                  "in": false,
+                  "label": "❯"
+                }
+              ],
+              "title": "Oracle",
+              "color": "#dd341ee6",
+              "portsInOrder": [
+                "ec9ae10c-9094-404a-a7bf-5613ed80eef2"
+              ],
+              "portsOutOrder": [
+                "14b63452-8159-489b-b78f-31e8c54ae4d3"
+              ],
+              "text": "Sometimes you get lucky, sometimes you don't."
+            },
+            "ad433987-f53e-4654-a060-1261076d30f0": {
+              "id": "ad433987-f53e-4654-a060-1261076d30f0",
+              "type": "dialogue",
+              "selected": false,
+              "x": 457.056603773585,
+              "y": 671.9056603773585,
+              "ports": [
+                {
+                  "id": "773fcac1-3a4f-4d41-8f70-a94904deb4a9",
+                  "type": "default",
+                  "x": 444.05658534787796,
+                  "y": 702.9056603773587,
+                  "name": "in-1691737653789 ",
+                  "alignment": "left",
+                  "parentNode": "ad433987-f53e-4654-a060-1261076d30f0",
+                  "links": [
+                    "b098e545-6fbf-4048-b605-931f2e6b9eec"
+                  ],
+                  "in": true,
+                  "label": "❯"
+                },
+                {
+                  "id": "b16781ce-b1eb-451d-830c-42b21663d1bf",
+                  "type": "default",
+                  "x": 751.5097379864399,
+                  "y": 702.9056603773587,
+                  "name": "out-1691737653789",
+                  "alignment": "right",
+                  "parentNode": "ad433987-f53e-4654-a060-1261076d30f0",
+                  "links": [],
+                  "in": false,
+                  "label": "❯"
+                }
+              ],
+              "title": "Oracle",
+              "color": "#dd341ee6",
+              "portsInOrder": [
+                "773fcac1-3a4f-4d41-8f70-a94904deb4a9"
+              ],
+              "portsOutOrder": [
+                "b16781ce-b1eb-451d-830c-42b21663d1bf"
+              ],
+              "text": "A woodchuck does not chuck wood."
+            },
+            "d834253b-2f6c-4c0f-b9b1-d36cdff3ca0c": {
+              "id": "d834253b-2f6c-4c0f-b9b1-d36cdff3ca0c",
+              "type": "dialogue",
+              "selected": false,
+              "x": 458.056603773585,
+              "y": 733.9056603773585,
+              "ports": [
+                {
+                  "id": "d7136226-f1b2-4869-b430-e6b550552a37",
+                  "type": "default",
+                  "x": 445.0566175928662,
+                  "y": 764.9056557709317,
+                  "name": "in-1691737653789 ",
+                  "alignment": "left",
+                  "parentNode": "d834253b-2f6c-4c0f-b9b1-d36cdff3ca0c",
+                  "links": [
+                    "3aaee0e3-226b-4516-9a13-f2c3fe3dc109"
+                  ],
+                  "in": true,
+                  "label": "❯"
+                },
+                {
+                  "id": "4d7b3831-f665-444f-bbf3-ea8862a3161e",
+                  "type": "default",
+                  "x": 723.1972103478786,
+                  "y": 764.9056557709317,
+                  "name": "out-1691737653789",
+                  "alignment": "right",
+                  "parentNode": "d834253b-2f6c-4c0f-b9b1-d36cdff3ca0c",
+                  "links": [],
+                  "in": false,
+                  "label": "❯"
+                }
+              ],
+              "title": "Oracle",
+              "color": "#dd341ee6",
+              "portsInOrder": [
+                "d7136226-f1b2-4869-b430-e6b550552a37"
+              ],
+              "portsOutOrder": [
+                "4d7b3831-f665-444f-bbf3-ea8862a3161e"
+              ],
+              "text": "Capes are always in fashion!"
+            },
+            "93432e2c-2e89-4d6a-b3f5-6c7e498e714f": {
+              "id": "93432e2c-2e89-4d6a-b3f5-6c7e498e714f",
+              "type": "dialogue",
+              "selected": false,
+              "x": 458.056603773585,
+              "y": 796.9056603773585,
+              "ports": [
+                {
+                  "id": "c227c741-49d2-4c37-a554-4d59d567db1f",
+                  "type": "default",
+                  "x": 445.0566175928662,
+                  "y": 827.90561431309,
+                  "name": "in-1691737653789 ",
+                  "alignment": "left",
+                  "parentNode": "93432e2c-2e89-4d6a-b3f5-6c7e498e714f",
+                  "links": [
+                    "b50d7402-3111-4a33-af43-bf2f62a8b42e"
+                  ],
+                  "in": true,
+                  "label": "❯"
+                },
+                {
+                  "id": "b2ffe924-8ef2-4c18-a238-7bd971eb7dd5",
+                  "type": "default",
+                  "x": 723.1972103478786,
+                  "y": 827.90561431309,
+                  "name": "out-1691737653789",
+                  "alignment": "right",
+                  "parentNode": "93432e2c-2e89-4d6a-b3f5-6c7e498e714f",
+                  "links": [],
+                  "in": false,
+                  "label": "❯"
+                }
+              ],
+              "title": "Oracle",
+              "color": "#dd341ee6",
+              "portsInOrder": [
+                "c227c741-49d2-4c37-a554-4d59d567db1f"
+              ],
+              "portsOutOrder": [
+                "b2ffe924-8ef2-4c18-a238-7bd971eb7dd5"
+              ],
+              "text": "Help wanted? Enquire within."
+            },
+            "bf3328dd-6657-46dd-a1fe-1d60e3e64d8e": {
+              "id": "bf3328dd-6657-46dd-a1fe-1d60e3e64d8e",
+              "type": "dialogue",
+              "selected": false,
+              "x": 458.056603773585,
+              "y": 859.9056603773585,
+              "ports": [
+                {
+                  "id": "fd95c5f3-1eb4-43a8-a630-9596ddebe4ad",
+                  "type": "default",
+                  "x": 445.0566175928662,
+                  "y": 890.9056419516513,
+                  "name": "in-1691737653789 ",
+                  "alignment": "left",
+                  "parentNode": "bf3328dd-6657-46dd-a1fe-1d60e3e64d8e",
+                  "links": [
+                    "477827bf-5ec0-44e9-9c29-c1f87405716a"
+                  ],
+                  "in": true,
+                  "label": "❯"
+                },
+                {
+                  "id": "e378c1ad-7d94-4728-86b8-c826086abb87",
+                  "type": "default",
+                  "x": 759.8378583800129,
+                  "y": 890.9056419516513,
+                  "name": "out-1691737653789",
+                  "alignment": "right",
+                  "parentNode": "bf3328dd-6657-46dd-a1fe-1d60e3e64d8e",
+                  "links": [],
+                  "in": false,
+                  "label": "❯"
+                }
+              ],
+              "title": "Oracle",
+              "color": "#dd341ee6",
+              "portsInOrder": [
+                "fd95c5f3-1eb4-43a8-a630-9596ddebe4ad"
+              ],
+              "portsOutOrder": [
+                "e378c1ad-7d94-4728-86b8-c826086abb87"
+              ],
+              "text": "There are no crisps at the party."
+            },
+            "fdb707fb-8efe-4672-9d9d-d0029daca3dd": {
+              "id": "fdb707fb-8efe-4672-9d9d-d0029daca3dd",
+              "type": "dialogue",
+              "selected": false,
+              "x": 458.056603773585,
+              "y": 922.9056603773585,
+              "ports": [
+                {
+                  "id": "c9d6406f-d5d8-4b05-8c50-4e771a0c0215",
+                  "type": "default",
+                  "x": 445.0566175928662,
+                  "y": 953.9056004938092,
+                  "name": "in-1691737653789 ",
+                  "alignment": "left",
+                  "parentNode": "fdb707fb-8efe-4672-9d9d-d0029daca3dd",
+                  "links": [
+                    "b61ece43-35fc-4f3b-a9dc-ca7a979085ce"
+                  ],
+                  "in": true,
+                  "label": "❯"
+                },
+                {
+                  "id": "736b00ff-ffea-478d-9afe-7fa1515b2d26",
+                  "type": "default",
+                  "x": 928.4003307414516,
+                  "y": 953.9056004938092,
+                  "name": "out-1691737653789",
+                  "alignment": "right",
+                  "parentNode": "fdb707fb-8efe-4672-9d9d-d0029daca3dd",
+                  "links": [],
+                  "in": false,
+                  "label": "❯"
+                }
+              ],
+              "title": "Oracle",
+              "color": "#dd341ee6",
+              "portsInOrder": [
+                "c9d6406f-d5d8-4b05-8c50-4e771a0c0215"
+              ],
+              "portsOutOrder": [
+                "736b00ff-ffea-478d-9afe-7fa1515b2d26"
+              ],
+              "text": "If a tree falls in the forest and no one is around, then\nnobody gets Woodcutting xp."
+            },
+            "22dc48dc-a5ae-4732-9b5f-3472bdcf5774": {
+              "id": "22dc48dc-a5ae-4732-9b5f-3472bdcf5774",
+              "type": "dialogue",
+              "selected": false,
+              "x": 458.056603773585,
+              "y": 1000.9056603773585,
+              "ports": [
+                {
+                  "id": "f5e0f99d-f3b6-4d05-9149-1b89b790e51a",
+                  "type": "default",
+                  "x": 445.0566175928662,
+                  "y": 1031.9056281323692,
+                  "name": "in-1691737653789 ",
+                  "alignment": "left",
+                  "parentNode": "22dc48dc-a5ae-4732-9b5f-3472bdcf5774",
+                  "links": [
+                    "521e7a31-8f31-43e8-8032-8355556eee71"
+                  ],
+                  "in": true,
+                  "label": "❯"
+                },
+                {
+                  "id": "ce597e47-bd4f-496b-a2a2-7acdf9d780fd",
+                  "type": "default",
+                  "x": 759.8378583800129,
+                  "y": 1031.9056281323692,
+                  "name": "out-1691737653789",
+                  "alignment": "right",
+                  "parentNode": "22dc48dc-a5ae-4732-9b5f-3472bdcf5774",
+                  "links": [],
+                  "in": false,
+                  "label": "❯"
+                }
+              ],
+              "title": "Oracle",
+              "color": "#dd341ee6",
+              "portsInOrder": [
+                "f5e0f99d-f3b6-4d05-9149-1b89b790e51a"
+              ],
+              "portsOutOrder": [
+                "ce597e47-bd4f-496b-a2a2-7acdf9d780fd"
+              ],
+              "text": "Yes, I can. But I'm not going to."
+            },
+            "5088523c-b4de-411f-b2e3-0b69584ecd5d": {
+              "id": "5088523c-b4de-411f-b2e3-0b69584ecd5d",
+              "type": "dialogue",
+              "selected": false,
+              "x": 458.056603773585,
+              "y": 1063.9056603773586,
+              "ports": [
+                {
+                  "id": "66726e6a-3ae5-4c81-9e71-7148706665c1",
+                  "type": "default",
+                  "x": 445.0566175928662,
+                  "y": 1094.9056557709314,
+                  "name": "in-1691737653789 ",
+                  "alignment": "left",
+                  "parentNode": "5088523c-b4de-411f-b2e3-0b69584ecd5d",
+                  "links": [
+                    "d1c5935b-8596-460f-ab06-dc1a3e29e7eb"
+                  ],
+                  "in": true,
+                  "label": "❯"
+                },
+                {
+                  "id": "7ed630b2-a6f9-4b28-affc-0e3cae9b28fe",
+                  "type": "default",
+                  "x": 811.1502984964634,
+                  "y": 1094.9056557709314,
+                  "name": "out-1691737653789",
+                  "alignment": "right",
+                  "parentNode": "5088523c-b4de-411f-b2e3-0b69584ecd5d",
+                  "links": [],
+                  "in": false,
+                  "label": "❯"
+                }
+              ],
+              "title": "Oracle",
+              "color": "#dd341ee6",
+              "portsInOrder": [
+                "66726e6a-3ae5-4c81-9e71-7148706665c1"
+              ],
+              "portsOutOrder": [
+                "7ed630b2-a6f9-4b28-affc-0e3cae9b28fe"
+              ],
+              "text": "Many secrets are buried under this land."
+            },
+            "d364ef3d-812b-4d69-a6d9-b003baadd4b7": {
+              "id": "d364ef3d-812b-4d69-a6d9-b003baadd4b7",
+              "type": "dialogue",
+              "selected": false,
+              "x": 458.056603773585,
+              "y": 1126.9056603773586,
+              "ports": [
+                {
+                  "id": "501a888e-5ea7-42db-b444-6a8ea3db8a63",
+                  "type": "default",
+                  "x": 445.0566175928662,
+                  "y": 1157.9056143130888,
+                  "name": "in-1691737653789 ",
+                  "alignment": "left",
+                  "parentNode": "d364ef3d-812b-4d69-a6d9-b003baadd4b7",
+                  "links": [
+                    "273afd35-1abc-4025-a88a-abd22b6b124c"
+                  ],
+                  "in": true,
+                  "label": "❯"
+                },
+                {
+                  "id": "a331d1f9-1a04-4727-bad6-de2d11f1d64b",
+                  "type": "default",
+                  "x": 825.8066129864399,
+                  "y": 1157.9056143130888,
+                  "name": "out-1691737653789",
+                  "alignment": "right",
+                  "parentNode": "d364ef3d-812b-4d69-a6d9-b003baadd4b7",
+                  "links": [],
+                  "in": false,
+                  "label": "❯"
+                }
+              ],
+              "title": "Oracle",
+              "color": "#dd341ee6",
+              "portsInOrder": [
+                "501a888e-5ea7-42db-b444-6a8ea3db8a63"
+              ],
+              "portsOutOrder": [
+                "a331d1f9-1a04-4727-bad6-de2d11f1d64b"
+              ],
+              "text": "A bird in the hand can make a tasty snack."
+            },
+            "68912510-25a6-44ae-905a-fe13930dd9fd": {
+              "id": "68912510-25a6-44ae-905a-fe13930dd9fd",
+              "type": "dialogue",
+              "selected": false,
+              "x": 458.056603773585,
+              "y": 1189.9056603773586,
+              "ports": [
+                {
+                  "id": "ee49e370-a900-4ed5-913b-0be0d336ffdb",
+                  "type": "default",
+                  "x": 445.0566175928662,
+                  "y": 1220.9056419516505,
+                  "name": "in-1691737653789 ",
+                  "alignment": "left",
+                  "parentNode": "68912510-25a6-44ae-905a-fe13930dd9fd",
+                  "links": [
+                    "b9044eaa-349e-433f-a7de-bc1e40f42da1"
+                  ],
+                  "in": true,
+                  "label": "❯"
+                },
+                {
+                  "id": "84c7b6b9-f5f7-4301-8cd8-cb8e38387ade",
+                  "type": "default",
+                  "x": 752.5097011350247,
+                  "y": 1220.9056419516505,
+                  "name": "out-1691737653789",
+                  "alignment": "right",
+                  "parentNode": "68912510-25a6-44ae-905a-fe13930dd9fd",
+                  "links": [],
+                  "in": false,
+                  "label": "❯"
+                }
+              ],
+              "title": "Oracle",
+              "color": "#dd341ee6",
+              "portsInOrder": [
+                "ee49e370-a900-4ed5-913b-0be0d336ffdb"
+              ],
+              "portsOutOrder": [
+                "84c7b6b9-f5f7-4301-8cd8-cb8e38387ade"
+              ],
+              "text": "The chicken came before the egg."
+            },
+            "ddbf1faa-d482-4914-9f73-2a24a9072828": {
+              "id": "ddbf1faa-d482-4914-9f73-2a24a9072828",
+              "type": "dialogue",
+              "selected": false,
+              "x": 458.056603773585,
+              "y": 1252.9056603773586,
+              "ports": [
+                {
+                  "id": "dffba683-27bc-4fb2-bec8-cdd8af595229",
+                  "type": "default",
+                  "x": 445.0566175928662,
+                  "y": 1283.9056695902113,
+                  "name": "in-1691737653789 ",
+                  "alignment": "left",
+                  "parentNode": "ddbf1faa-d482-4914-9f73-2a24a9072828",
+                  "links": [
+                    "7c24c0c8-350b-4a3e-a3c0-6389b19c9abf"
+                  ],
+                  "in": true,
+                  "label": "❯"
+                },
+                {
+                  "id": "0996cc45-e4a7-492a-a501-37717b7cd15c",
+                  "type": "default",
+                  "x": 884.4315945607325,
+                  "y": 1283.9056695902113,
+                  "name": "out-1691737653789",
+                  "alignment": "right",
+                  "parentNode": "ddbf1faa-d482-4914-9f73-2a24a9072828",
+                  "links": [],
+                  "in": false,
+                  "label": "❯"
+                }
+              ],
+              "title": "Oracle",
+              "color": "#dd341ee6",
+              "portsInOrder": [
+                "dffba683-27bc-4fb2-bec8-cdd8af595229"
+              ],
+              "portsOutOrder": [
+                "0996cc45-e4a7-492a-a501-37717b7cd15c"
+              ],
+              "text": "He who uses the power of custard mixes it with his\ntears."
+            },
+            "8f5850b1-6cbf-4a9c-85a3-5ce9643765de": {
+              "id": "8f5850b1-6cbf-4a9c-85a3-5ce9643765de",
+              "type": "dialogue",
+              "selected": false,
+              "x": 458.056603773585,
+              "y": 1330.9056603773586,
+              "ports": [
+                {
+                  "id": "69cbe09c-7d68-47a7-832f-752ba349a26d",
+                  "type": "default",
+                  "x": 445.0566175928662,
+                  "y": 1361.9055590359662,
+                  "name": "in-1691737653789 ",
+                  "alignment": "left",
+                  "parentNode": "8f5850b1-6cbf-4a9c-85a3-5ce9643765de",
+                  "links": [
+                    "6cba5bf9-92b5-41d5-9e6e-16cb66379597"
+                  ],
+                  "in": true,
+                  "label": "❯"
+                },
+                {
+                  "id": "4222146e-4681-4318-a8c8-0568e4d97bbc",
+                  "type": "default",
+                  "x": 693.8847195607325,
+                  "y": 1361.9055590359662,
+                  "name": "out-1691737653789",
+                  "alignment": "right",
+                  "parentNode": "8f5850b1-6cbf-4a9c-85a3-5ce9643765de",
+                  "links": [],
+                  "in": false,
+                  "label": "❯"
+                }
+              ],
+              "title": "Oracle",
+              "color": "#dd341ee6",
+              "portsInOrder": [
+                "69cbe09c-7d68-47a7-832f-752ba349a26d"
+              ],
+              "portsOutOrder": [
+                "4222146e-4681-4318-a8c8-0568e4d97bbc"
+              ],
+              "text": "Jas left a stone behind."
+            },
+            "d1eba968-0c26-4152-92a1-d06fbef434c7": {
+              "id": "d1eba968-0c26-4152-92a1-d06fbef434c7",
+              "type": "dialogue",
+              "selected": false,
+              "x": 458.056603773585,
+              "y": 1393.9056603773586,
+              "ports": [
+                {
+                  "id": "08643ee1-52b1-4801-8283-c6f459ab3b82",
+                  "type": "default",
+                  "x": 445.0566175928662,
+                  "y": 1424.905586674528,
+                  "name": "in-1691737653789 ",
+                  "alignment": "left",
+                  "parentNode": "d1eba968-0c26-4152-92a1-d06fbef434c7",
+                  "links": [
+                    "81bbfe04-376e-4da1-a39e-ad2ee5660d9f"
+                  ],
+                  "in": true,
+                  "label": "❯"
+                },
+                {
+                  "id": "ac2d8d58-d484-4600-90b0-3cf5c9b6343a",
+                  "type": "default",
+                  "x": 855.119103773586,
+                  "y": 1424.905586674528,
+                  "name": "out-1691737653789",
+                  "alignment": "right",
+                  "parentNode": "d1eba968-0c26-4152-92a1-d06fbef434c7",
+                  "links": [],
+                  "in": false,
+                  "label": "❯"
+                }
+              ],
+              "title": "Oracle",
+              "color": "#dd341ee6",
+              "portsInOrder": [
+                "08643ee1-52b1-4801-8283-c6f459ab3b82"
+              ],
+              "portsOutOrder": [
+                "ac2d8d58-d484-4600-90b0-3cf5c9b6343a"
+              ],
+              "text": "The great snake of Guthix guards more than she\nknows."
+            },
+            "baed3ab4-fc50-4161-9920-fbbec9a440d2": {
+              "id": "baed3ab4-fc50-4161-9920-fbbec9a440d2",
+              "type": "dialogue",
+              "selected": false,
+              "x": 458.056603773585,
+              "y": 1471.9056603773586,
+              "ports": [
+                {
+                  "id": "06d1730b-934b-4033-b951-69fea2be80b6",
+                  "type": "default",
+                  "x": 445.0566175928662,
+                  "y": 1502.9056143130888,
+                  "name": "in-1691737653789 ",
+                  "alignment": "left",
+                  "parentNode": "baed3ab4-fc50-4161-9920-fbbec9a440d2",
+                  "links": [
+                    "0e526d49-c9ff-4969-969d-ae30145d9181"
+                  ],
+                  "in": true,
+                  "label": "❯"
+                },
+                {
+                  "id": "6e5a3de5-59c0-4f9d-8d4b-752008a62614",
+                  "type": "default",
+                  "x": 877.1034373157443,
+                  "y": 1502.9056143130888,
+                  "name": "out-1691737653789",
+                  "alignment": "right",
+                  "parentNode": "baed3ab4-fc50-4161-9920-fbbec9a440d2",
+                  "links": [],
+                  "in": false,
+                  "label": "❯"
+                }
+              ],
+              "title": "Oracle",
+              "color": "#dd341ee6",
+              "portsInOrder": [
+                "06d1730b-934b-4033-b951-69fea2be80b6"
+              ],
+              "portsOutOrder": [
+                "6e5a3de5-59c0-4f9d-8d4b-752008a62614"
+              ],
+              "text": "An answer is unimportant; it is the question that\nmatters."
+            },
+            "eb152f65-aa18-4780-8919-a9e0eee3308a": {
+              "id": "eb152f65-aa18-4780-8919-a9e0eee3308a",
+              "type": "dialogue",
+              "selected": false,
+              "x": 458.056603773585,
+              "y": 1549.9056603773586,
+              "ports": [
+                {
+                  "id": "b6c9bbc7-aac2-415b-aefa-5a77578a5bd8",
+                  "type": "default",
+                  "x": 445.0566175928662,
+                  "y": 1580.9056419516505,
+                  "name": "in-1691737653789 ",
+                  "alignment": "left",
+                  "parentNode": "eb152f65-aa18-4780-8919-a9e0eee3308a",
+                  "links": [
+                    "91312cda-8104-40bc-be75-8abbb753d39d"
+                  ],
+                  "in": true,
+                  "label": "❯"
+                },
+                {
+                  "id": "e1bedf60-ecfc-4470-8a9b-39899c433cfd",
+                  "type": "default",
+                  "x": 899.0878399543055,
+                  "y": 1580.9056419516505,
+                  "name": "out-1691737653789",
+                  "alignment": "right",
+                  "parentNode": "eb152f65-aa18-4780-8919-a9e0eee3308a",
+                  "links": [],
+                  "in": false,
+                  "label": "❯"
+                }
+              ],
+              "title": "Oracle",
+              "color": "#dd341ee6",
+              "portsInOrder": [
+                "b6c9bbc7-aac2-415b-aefa-5a77578a5bd8"
+              ],
+              "portsOutOrder": [
+                "e1bedf60-ecfc-4470-8a9b-39899c433cfd"
+              ],
+              "text": "They say that ham does not mix well with other kinds\nof meat."
+            },
+            "b85807a9-4ac3-4bf2-8498-a9c79cd312ec": {
+              "id": "b85807a9-4ac3-4bf2-8498-a9c79cd312ec",
+              "type": "dialogue",
+              "selected": false,
+              "x": 458.056603773585,
+              "y": 1627.9056603773586,
+              "ports": [
+                {
+                  "id": "6e5308a1-390d-4af7-a575-9035e6a84ab3",
+                  "type": "default",
+                  "x": 445.0566175928662,
+                  "y": 1658.9056695902123,
+                  "name": "in-1691737653789 ",
+                  "alignment": "left",
+                  "parentNode": "b85807a9-4ac3-4bf2-8498-a9c79cd312ec",
+                  "links": [
+                    "4218f822-e0a7-4f84-a8f9-ac6238ce02dd"
+                  ],
+                  "in": true,
+                  "label": "❯"
+                },
+                {
+                  "id": "fd1cdeaa-29db-4f21-b985-bd471a424d70",
+                  "type": "default",
+                  "x": 679.228474167159,
+                  "y": 1658.9056695902123,
+                  "name": "out-1691737653789",
+                  "alignment": "right",
+                  "parentNode": "b85807a9-4ac3-4bf2-8498-a9c79cd312ec",
+                  "links": [],
+                  "in": false,
+                  "label": "❯"
+                }
+              ],
+              "title": "Oracle",
+              "color": "#dd341ee6",
+              "portsInOrder": [
+                "6e5308a1-390d-4af7-a575-9035e6a84ab3"
+              ],
+              "portsOutOrder": [
+                "fd1cdeaa-29db-4f21-b985-bd471a424d70"
+              ],
+              "text": "It's not you; it's me."
+            },
+            "9aa6e4af-258c-49bb-aa31-dd46d5688546": {
+              "id": "9aa6e4af-258c-49bb-aa31-dd46d5688546",
+              "type": "dialogue",
+              "selected": false,
+              "x": 458.056603773585,
+              "y": 1690.9056603773586,
+              "ports": [
+                {
+                  "id": "74169792-4556-40f0-b704-967559286069",
+                  "type": "default",
+                  "x": 445.0566175928662,
+                  "y": 1721.9055590359662,
+                  "name": "in-1691737653789 ",
+                  "alignment": "left",
+                  "parentNode": "9aa6e4af-258c-49bb-aa31-dd46d5688546",
+                  "links": [
+                    "de4afbb8-ccd3-4c6e-974d-893c42c6d2fc"
+                  ],
+                  "in": true,
+                  "label": "❯"
+                },
+                {
+                  "id": "a4b7bc40-be68-47f5-8d82-12c2ed19bb8e",
+                  "type": "default",
+                  "x": 825.8066129864399,
+                  "y": 1721.9055590359662,
+                  "name": "out-1691737653789",
+                  "alignment": "right",
+                  "parentNode": "9aa6e4af-258c-49bb-aa31-dd46d5688546",
+                  "links": [],
+                  "in": false,
+                  "label": "❯"
+                }
+              ],
+              "title": "Oracle",
+              "color": "#dd341ee6",
+              "portsInOrder": [
+                "74169792-4556-40f0-b704-967559286069"
+              ],
+              "portsOutOrder": [
+                "a4b7bc40-be68-47f5-8d82-12c2ed19bb8e"
+              ],
+              "text": "When in Asgarnia, do as the Asgarnians do."
+            },
+            "a9181b43-b537-40c4-aa06-e7ff3d4581a9": {
+              "id": "a9181b43-b537-40c4-aa06-e7ff3d4581a9",
+              "type": "dialogue",
+              "selected": false,
+              "x": 458.056603773585,
+              "y": 1753.9056603773586,
+              "ports": [
+                {
+                  "id": "8024a991-ff8f-4772-bc06-9b12ad5f2cb2",
+                  "type": "default",
+                  "x": 445.0566175928662,
+                  "y": 1784.905586674528,
+                  "name": "in-1691737653789 ",
+                  "alignment": "left",
+                  "parentNode": "a9181b43-b537-40c4-aa06-e7ff3d4581a9",
+                  "links": [
+                    "c5cd62ca-5f05-4273-99c2-34873c6ed650"
+                  ],
+                  "in": true,
+                  "label": "❯"
+                },
+                {
+                  "id": "ccce55fe-eaa6-496a-85ef-a003de12f09f",
+                  "type": "default",
+                  "x": 723.1972103478786,
+                  "y": 1784.905586674528,
+                  "name": "out-1691737653789",
+                  "alignment": "right",
+                  "parentNode": "a9181b43-b537-40c4-aa06-e7ff3d4581a9",
+                  "links": [],
+                  "in": false,
+                  "label": "❯"
+                }
+              ],
+              "title": "Oracle",
+              "color": "#dd341ee6",
+              "portsInOrder": [
+                "8024a991-ff8f-4772-bc06-9b12ad5f2cb2"
+              ],
+              "portsOutOrder": [
+                "ccce55fe-eaa6-496a-85ef-a003de12f09f"
+              ],
+              "text": "Help wanted? Enquire within."
+            },
+            "ab177be4-aeba-4118-8e0c-0712f9f9ee43": {
+              "id": "ab177be4-aeba-4118-8e0c-0712f9f9ee43",
+              "type": "dialogue",
+              "selected": false,
+              "x": 459.1092353525323,
+              "y": 1819.0109235352534,
+              "ports": [
+                {
+                  "id": "f8d96948-0594-46cf-b23a-f37498146a65",
+                  "type": "default",
+                  "x": 446.10349719929354,
+                  "y": 1849.999373525943,
+                  "name": "in-1691737653789 ",
+                  "alignment": "left",
+                  "parentNode": "ab177be4-aeba-4118-8e0c-0712f9f9ee43",
+                  "links": [
+                    "64d0e667-6096-43b9-8e07-8f0c266603e9"
+                  ],
+                  "in": true,
+                  "label": "❯"
+                },
+                {
+                  "id": "04520bdc-f950-438d-83e9-7aa254f5273c",
+                  "type": "default",
+                  "x": 694.9315991671588,
+                  "y": 1849.999373525943,
+                  "name": "out-1691737653789",
+                  "alignment": "right",
+                  "parentNode": "ab177be4-aeba-4118-8e0c-0712f9f9ee43",
+                  "links": [],
+                  "in": false,
+                  "label": "❯"
+                }
+              ],
+              "title": "Oracle",
+              "color": "#dd341ee6",
+              "portsInOrder": [
+                "f8d96948-0594-46cf-b23a-f37498146a65"
+              ],
+              "portsOutOrder": [
+                "04520bdc-f950-438d-83e9-7aa254f5273c"
+              ],
+              "text": "No. I'm not in the mood."
+            },
+            "48459213-a027-4d50-baf2-4ac6a91aa9e6": {
+              "id": "48459213-a027-4d50-baf2-4ac6a91aa9e6",
+              "type": "dialogue",
+              "selected": false,
+              "x": 459.1092353525323,
+              "y": 1882.0109235352534,
+              "ports": [
+                {
+                  "id": "9c75c679-e6e1-4661-be56-72f55791e3f0",
+                  "type": "default",
+                  "x": 446.10349719929354,
+                  "y": 1912.9994011645047,
+                  "name": "in-1691737653789 ",
+                  "alignment": "left",
+                  "parentNode": "48459213-a027-4d50-baf2-4ac6a91aa9e6",
+                  "links": [
+                    "ce9b1771-664d-45d7-a467-cc10d3b42a66"
+                  ],
+                  "in": true,
+                  "label": "❯"
+                },
+                {
+                  "id": "f86631c0-bc79-4d86-ba65-886131acc709",
+                  "type": "default",
+                  "x": 929.4472103478774,
+                  "y": 1912.9994011645047,
+                  "name": "out-1691737653789",
+                  "alignment": "right",
+                  "parentNode": "48459213-a027-4d50-baf2-4ac6a91aa9e6",
+                  "links": [],
+                  "in": false,
+                  "label": "❯"
+                }
+              ],
+              "title": "Oracle",
+              "color": "#dd341ee6",
+              "portsInOrder": [
+                "9c75c679-e6e1-4661-be56-72f55791e3f0"
+              ],
+              "portsOutOrder": [
+                "f86631c0-bc79-4d86-ba65-886131acc709"
+              ],
+              "text": "The light at the end of the tunnel is the demon-infested\nlava pit."
+            },
+            "7dbaa445-c8d8-4456-a088-d176c84fd6bf": {
+              "id": "7dbaa445-c8d8-4456-a088-d176c84fd6bf",
+              "type": "dialogue",
+              "selected": false,
+              "x": 459.1092353525323,
+              "y": 1960.0109235352534,
+              "ports": [
+                {
+                  "id": "a8e1ddec-dc18-458f-8abc-0151a2de8e0c",
+                  "type": "default",
+                  "x": 446.10349719929354,
+                  "y": 1990.9994288030655,
+                  "name": "in-1691737653789 ",
+                  "alignment": "left",
+                  "parentNode": "7dbaa445-c8d8-4456-a088-d176c84fd6bf",
+                  "links": [
+                    "51da313c-2e47-4bac-82dd-f380309d531e"
+                  ],
+                  "in": true,
+                  "label": "❯"
+                },
+                {
+                  "id": "b85981d4-0e15-40d8-acbf-acbab1de7e19",
+                  "type": "default",
+                  "x": 892.8065623157436,
+                  "y": 1990.9994288030655,
+                  "name": "out-1691737653789",
+                  "alignment": "right",
+                  "parentNode": "7dbaa445-c8d8-4456-a088-d176c84fd6bf",
+                  "links": [],
+                  "in": false,
+                  "label": "❯"
+                }
+              ],
+              "title": "Oracle",
+              "color": "#dd341ee6",
+              "portsInOrder": [
+                "a8e1ddec-dc18-458f-8abc-0151a2de8e0c"
+              ],
+              "portsOutOrder": [
+                "b85981d4-0e15-40d8-acbf-acbab1de7e19"
+              ],
+              "text": "The goblins will never make up their minds on their\nown."
+            },
+            "330a2fa5-fb40-4c73-8bbb-1114eedf35f5": {
+              "id": "330a2fa5-fb40-4c73-8bbb-1114eedf35f5",
+              "type": "dialogue",
+              "selected": false,
+              "x": 459.1092353525323,
+              "y": 2038.0109235352534,
+              "ports": [
+                {
+                  "id": "be0758d1-e2cb-48b1-8fe7-ffc00a098326",
+                  "type": "default",
+                  "x": 446.10349719929354,
+                  "y": 2068.9993182488206,
+                  "name": "in-1691737653789 ",
+                  "alignment": "left",
+                  "parentNode": "330a2fa5-fb40-4c73-8bbb-1114eedf35f5",
+                  "links": [
+                    "28c7dd6f-ae6c-4032-88af-047f10230adf"
+                  ],
+                  "in": true,
+                  "label": "❯"
+                },
+                {
+                  "id": "b1408433-598f-4327-8604-f866d8e7c417",
+                  "type": "default",
+                  "x": 892.8065623157436,
+                  "y": 2068.9993182488206,
+                  "name": "out-1691737653789",
+                  "alignment": "right",
+                  "parentNode": "330a2fa5-fb40-4c73-8bbb-1114eedf35f5",
+                  "links": [],
+                  "in": false,
+                  "label": "❯"
+                }
+              ],
+              "title": "Oracle",
+              "color": "#dd341ee6",
+              "portsInOrder": [
+                "be0758d1-e2cb-48b1-8fe7-ffc00a098326"
+              ],
+              "portsOutOrder": [
+                "b1408433-598f-4327-8604-f866d8e7c417"
+              ],
+              "text": "Don't judge a book by its cover -  judge it on its'\ngrammar and, punctuation."
+            },
+            "869e5c78-1e7e-4371-bf72-de7abe44119e": {
+              "id": "869e5c78-1e7e-4371-bf72-de7abe44119e",
+              "type": "dialogue",
+              "selected": false,
+              "x": 459.1092353525323,
+              "y": 2116.0109235352534,
+              "ports": [
+                {
+                  "id": "5bae23d8-e4be-47d1-bf89-662cf1e56967",
+                  "type": "default",
+                  "x": 446.10349719929354,
+                  "y": 2146.999345887382,
+                  "name": "in-1691737653789 ",
+                  "alignment": "left",
+                  "parentNode": "869e5c78-1e7e-4371-bf72-de7abe44119e",
+                  "links": [
+                    "1e5428bf-a0fd-4588-9d71-6ab52d42092f"
+                  ],
+                  "in": true,
+                  "label": "❯"
+                },
+                {
+                  "id": "1b637bf4-ff8b-42b2-aa93-51111764b82c",
+                  "type": "default",
+                  "x": 702.259756412147,
+                  "y": 2146.999345887382,
+                  "name": "out-1691737653789",
+                  "alignment": "right",
+                  "parentNode": "869e5c78-1e7e-4371-bf72-de7abe44119e",
+                  "links": [],
+                  "in": false,
+                  "label": "❯"
+                }
+              ],
+              "title": "Oracle",
+              "color": "#dd341ee6",
+              "portsInOrder": [
+                "5bae23d8-e4be-47d1-bf89-662cf1e56967"
+              ],
+              "portsOutOrder": [
+                "1b637bf4-ff8b-42b2-aa93-51111764b82c"
+              ],
+              "text": "Who guards the guardsmen?"
+            }
+          }
+        }
+      ]
+    }
+  }
+}

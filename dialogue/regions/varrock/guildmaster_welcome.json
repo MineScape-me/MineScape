@@ -1,0 +1,126 @@
+{
+  "id": "0dc528ae-5840-472c-9344-d37ded4f433d",
+  "offsetX": 0,
+  "offsetY": 0,
+  "zoom": 100,
+  "gridSize": 0,
+  "layers": [
+    {
+      "id": "9807c75a-c886-41ff-88b8-10978f5223cd",
+      "type": "diagram-links",
+      "isSvg": true,
+      "transformed": true,
+      "models": {
+        "cff2f490-4488-45b1-8a9f-a65ac1be113c": {
+          "id": "cff2f490-4488-45b1-8a9f-a65ac1be113c",
+          "type": "default",
+          "selected": false,
+          "source": "4a513ca3-e78a-41a0-bd3f-8a32be99b736",
+          "sourcePort": "5c618802-a929-44ad-8c8b-ca1d7084bd14",
+          "target": "23ba9ade-ba5a-485a-a579-975944e6285b",
+          "targetPort": "d0902b9d-57da-4a42-b748-d71973b55051",
+          "points": [
+            {
+              "id": "187b875a-4212-4922-bc64-2721b232fc6a",
+              "type": "point",
+              "x": 133.296875,
+              "y": 64.5
+            },
+            {
+              "id": "0bc27cc6-4502-4dbe-9973-46e51e810842",
+              "type": "point",
+              "x": 182.5,
+              "y": 65.5
+            }
+          ],
+          "labels": [],
+          "width": 3,
+          "color": "gray",
+          "curvyness": 50,
+          "selectedColor": "rgb(0,192,255)"
+        }
+      }
+    },
+    {
+      "id": "742d52a3-c8dd-4bac-a60f-850fb82f4058",
+      "type": "diagram-nodes",
+      "isSvg": false,
+      "transformed": true,
+      "models": {
+        "4a513ca3-e78a-41a0-bd3f-8a32be99b736": {
+          "id": "4a513ca3-e78a-41a0-bd3f-8a32be99b736",
+          "type": "start",
+          "x": 50,
+          "y": 50,
+          "ports": [
+            {
+              "id": "5c618802-a929-44ad-8c8b-ca1d7084bd14",
+              "type": "default",
+              "x": 125.796875,
+              "y": 57,
+              "name": "out-1691740297841",
+              "alignment": "right",
+              "parentNode": "4a513ca3-e78a-41a0-bd3f-8a32be99b736",
+              "links": [
+                "cff2f490-4488-45b1-8a9f-a65ac1be113c"
+              ],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Start",
+          "color": "#16db26e6",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "5c618802-a929-44ad-8c8b-ca1d7084bd14"
+          ]
+        },
+        "23ba9ade-ba5a-485a-a579-975944e6285b": {
+          "id": "23ba9ade-ba5a-485a-a579-975944e6285b",
+          "type": "dialogue",
+          "selected": true,
+          "x": 188,
+          "y": 27,
+          "ports": [
+            {
+              "id": "d0902b9d-57da-4a42-b748-d71973b55051",
+              "type": "default",
+              "x": 175,
+              "y": 58,
+              "name": "in-1691740355907 ",
+              "alignment": "left",
+              "parentNode": "23ba9ade-ba5a-485a-a579-975944e6285b",
+              "links": [
+                "cff2f490-4488-45b1-8a9f-a65ac1be113c"
+              ],
+              "in": true,
+              "label": "❯"
+            },
+            {
+              "id": "c6d20d8d-a125-45a4-9875-48232426ecc8",
+              "type": "default",
+              "x": 614.375,
+              "y": 58,
+              "name": "out-1691740355907",
+              "alignment": "right",
+              "parentNode": "23ba9ade-ba5a-485a-a579-975944e6285b",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Guildmaster",
+          "color": "#dd341ee6",
+          "portsInOrder": [
+            "d0902b9d-57da-4a42-b748-d71973b55051"
+          ],
+          "portsOutOrder": [
+            "c6d20d8d-a125-45a4-9875-48232426ecc8"
+          ],
+          "text": "Greetings bold adventurer. Welcome to the guild of\nChampions."
+        }
+      }
+    }
+  ],
+  "trees": {}
+}
