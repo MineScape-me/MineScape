@@ -10,9 +10,9 @@ But the journey doesn't end there! MineScape also features an active and passion
 
 So grab your pickaxe, sharpen your sword, and embark on a grand adventure like no other. The MineScape Minecraft Server awaits you!
 
-Facebook: [https://facebook.com/minescape](https://facebook.com/minescapehttps:/)
-Twitter: [https://twitter.com/playminescape](https://twitter.com/playminescape)
-Instagram: [https://instagram.com/minescape](https://instagram.com/minescape)
-Discord: [https://discord.gg/minescape](https://discord.gg/minescape)
-Reddit: [https://reddit.com/r/playminescape](https://reddit.com/r/playminescape)
-Wiki: [https://minescape.wiki](https://minescape.wiki)
+Facebook: [https://facebook.com/minescape](https://facebook.com/minescapehttps:/)  
+Twitter: [https://twitter.com/playminescape](https://twitter.com/playminescape)  
+Instagram: [https://instagram.com/minescape](https://instagram.com/minescape)  
+Discord: [https://discord.gg/minescape](https://discord.gg/minescape)  
+Reddit: [https://reddit.com/r/playminescape](https://reddit.com/r/playminescape)  
+Wiki: [https://minescape.wiki](https://minescape.wiki)  
