@@ -219,7 +219,7 @@
             {
               "id": "fbb72ab1-aaad-4385-a4f2-839c3291697f",
               "type": "point",
-              "x": 169.67187086202327,
+              "x": 158.14063327595335,
               "y": 68.00000620696503
             },
             {
@@ -660,7 +660,7 @@
             {
               "id": "1f1c7054-9794-44d1-a58c-86de63ed7807",
               "type": "default",
-              "x": 162.17187086202327,
+              "x": 150.64063327595335,
               "y": 60.50000620696503,
               "name": "out-1655359373639",
               "alignment": "right",
@@ -674,8 +674,8 @@
             {
               "id": "c06c7089-ffdf-454b-8ea3-dea5265750fc",
               "type": "default",
-              "x": 164.31252896583683,
-              "y": 77.50001448291842,
+              "x": 152.7812913797669,
+              "y": 77.49999896550581,
               "name": "out-16553593736391",
               "alignment": "right",
               "parentNode": "cb1ea460-aeba-4016-bb36-bced1509d4b7",
@@ -709,13 +709,19 @@
           ],
           "conditions": {
             "conditions": [
-              "questStage"
+              "questStage",
+              "hasItem"
             ],
             "args": [
               [
                 "BLACK_KNIGHTS_FORTRESS",
                 "==",
                 "SABOTAGE"
+              ],
+              [
+                "CABBAGE",
+                "1",
+                "false"
               ]
             ]
           }
