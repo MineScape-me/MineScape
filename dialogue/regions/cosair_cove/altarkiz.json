@@ -1,0 +1,272 @@
+{
+  "id": "54d7fd55-9346-4c14-a431-c2a0e761868d",
+  "offsetX": 0,
+  "offsetY": 0,
+  "zoom": 100,
+  "gridSize": 0,
+  "layers": [
+    {
+      "id": "a4c92a23-8a3f-448c-b900-65581825247a",
+      "type": "diagram-links",
+      "isSvg": true,
+      "transformed": true,
+      "models": {
+        "4195521f-7c0b-4f91-8a9f-d6bf46b6a8e8": {
+          "id": "4195521f-7c0b-4f91-8a9f-d6bf46b6a8e8",
+          "type": "default",
+          "selected": false,
+          "source": "4a551cbc-3e7d-4ab5-a18c-68503cc3a6ae",
+          "sourcePort": "cd14afbe-4098-4815-9a51-0adf87061ada",
+          "target": "6d3a7144-68b6-4940-bd0e-780ec354e9a6",
+          "targetPort": "b62194c8-7313-49e9-86cc-c0d5f00f5ba6",
+          "points": [
+            {
+              "id": "ccf91aef-c619-41a3-99ed-c3c052121a3d",
+              "type": "point",
+              "x": 133.296875,
+              "y": 64.5
+            },
+            {
+              "id": "745ba74c-6481-4cdb-b962-1dbc871eb58f",
+              "type": "point",
+              "x": 222.5,
+              "y": 137.5
+            }
+          ],
+          "labels": [],
+          "width": 3,
+          "color": "gray",
+          "curvyness": 50,
+          "selectedColor": "rgb(0,192,255)"
+        },
+        "fc9a0c0f-32a9-4e92-87a4-accfe823d83f": {
+          "id": "fc9a0c0f-32a9-4e92-87a4-accfe823d83f",
+          "type": "default",
+          "selected": false,
+          "source": "6d3a7144-68b6-4940-bd0e-780ec354e9a6",
+          "sourcePort": "cc86a689-bf78-44d7-ba7c-01b934190c39",
+          "target": "ad0553b0-8102-43e5-a681-078d7af9bd67",
+          "targetPort": "63c04af9-a922-490a-b2e4-34b45d3fff0d",
+          "points": [
+            {
+              "id": "fd7e6fb9-a79d-4d91-8335-32c6cd155226",
+              "type": "point",
+              "x": 339.40625,
+              "y": 137.5
+            },
+            {
+              "id": "bf05c51b-744c-4b4d-9cb7-1b091dd521b1",
+              "type": "point",
+              "x": 222.5,
+              "y": 200.5
+            }
+          ],
+          "labels": [],
+          "width": 3,
+          "color": "gray",
+          "curvyness": 50,
+          "selectedColor": "rgb(0,192,255)"
+        },
+        "12e9a90f-2640-4d9d-993c-36e7ff3cd3bb": {
+          "id": "12e9a90f-2640-4d9d-993c-36e7ff3cd3bb",
+          "type": "default",
+          "selected": false,
+          "source": "ad0553b0-8102-43e5-a681-078d7af9bd67",
+          "sourcePort": "9bb88405-1d59-408f-b3b4-d3a18bba5fa5",
+          "target": "15292097-ea11-4ff6-b7fd-678920b221f0",
+          "targetPort": "c19674c6-6942-47c5-a5b5-427998609dcc",
+          "points": [
+            {
+              "id": "75056ece-7abd-488a-badd-dd9e929ec9e7",
+              "type": "point",
+              "x": 566.59375,
+              "y": 200.5
+            },
+            {
+              "id": "4f04f0e5-fc73-4ddf-ba2e-b370d3071f4a",
+              "type": "point",
+              "x": 222.5,
+              "y": 263.5
+            }
+          ],
+          "labels": [],
+          "width": 3,
+          "color": "gray",
+          "curvyness": 50,
+          "selectedColor": "rgb(0,192,255)"
+        }
+      }
+    },
+    {
+      "id": "66de8cc5-1a04-409f-b0d8-584edc150265",
+      "type": "diagram-nodes",
+      "isSvg": false,
+      "transformed": true,
+      "models": {
+        "4a551cbc-3e7d-4ab5-a18c-68503cc3a6ae": {
+          "id": "4a551cbc-3e7d-4ab5-a18c-68503cc3a6ae",
+          "type": "start",
+          "x": 50,
+          "y": 50,
+          "ports": [
+            {
+              "id": "cd14afbe-4098-4815-9a51-0adf87061ada",
+              "type": "default",
+              "x": 125.796875,
+              "y": 57,
+              "name": "out-1718561671002",
+              "alignment": "right",
+              "parentNode": "4a551cbc-3e7d-4ab5-a18c-68503cc3a6ae",
+              "links": [
+                "4195521f-7c0b-4f91-8a9f-d6bf46b6a8e8"
+              ],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Start",
+          "color": "#16db26e6",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "cd14afbe-4098-4815-9a51-0adf87061ada"
+          ]
+        },
+        "6d3a7144-68b6-4940-bd0e-780ec354e9a6": {
+          "id": "6d3a7144-68b6-4940-bd0e-780ec354e9a6",
+          "type": "dialogue",
+          "selected": false,
+          "x": 228,
+          "y": 99,
+          "ports": [
+            {
+              "id": "b62194c8-7313-49e9-86cc-c0d5f00f5ba6",
+              "type": "default",
+              "x": 215,
+              "y": 130,
+              "name": "in-1718561675780 ",
+              "alignment": "left",
+              "parentNode": "6d3a7144-68b6-4940-bd0e-780ec354e9a6",
+              "links": [
+                "4195521f-7c0b-4f91-8a9f-d6bf46b6a8e8"
+              ],
+              "in": true,
+              "label": "❯"
+            },
+            {
+              "id": "cc86a689-bf78-44d7-ba7c-01b934190c39",
+              "type": "default",
+              "x": 331.90625,
+              "y": 130,
+              "name": "out-1718561675780",
+              "alignment": "right",
+              "parentNode": "6d3a7144-68b6-4940-bd0e-780ec354e9a6",
+              "links": [
+                "fc9a0c0f-32a9-4e92-87a4-accfe823d83f"
+              ],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "<player>",
+          "color": "#dd341ee6",
+          "portsInOrder": [
+            "b62194c8-7313-49e9-86cc-c0d5f00f5ba6"
+          ],
+          "portsOutOrder": [
+            "cc86a689-bf78-44d7-ba7c-01b934190c39"
+          ],
+          "text": "Hello!"
+        },
+        "ad0553b0-8102-43e5-a681-078d7af9bd67": {
+          "id": "ad0553b0-8102-43e5-a681-078d7af9bd67",
+          "type": "dialogue",
+          "x": 228,
+          "y": 162,
+          "ports": [
+            {
+              "id": "63c04af9-a922-490a-b2e4-34b45d3fff0d",
+              "type": "default",
+              "x": 215,
+              "y": 193,
+              "name": "in-1718561679381 ",
+              "alignment": "left",
+              "parentNode": "ad0553b0-8102-43e5-a681-078d7af9bd67",
+              "links": [
+                "fc9a0c0f-32a9-4e92-87a4-accfe823d83f"
+              ],
+              "in": true,
+              "label": "❯"
+            },
+            {
+              "id": "9bb88405-1d59-408f-b3b4-d3a18bba5fa5",
+              "type": "default",
+              "x": 559.09375,
+              "y": 193,
+              "name": "out-1718561679381",
+              "alignment": "right",
+              "parentNode": "ad0553b0-8102-43e5-a681-078d7af9bd67",
+              "links": [
+                "12e9a90f-2640-4d9d-993c-36e7ff3cd3bb"
+              ],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "",
+          "color": "#dd341ee6",
+          "portsInOrder": [
+            "63c04af9-a922-490a-b2e4-34b45d3fff0d"
+          ],
+          "portsOutOrder": [
+            "9bb88405-1d59-408f-b3b4-d3a18bba5fa5"
+          ],
+          "text": "He seems to be in deep concentration."
+        },
+        "15292097-ea11-4ff6-b7fd-678920b221f0": {
+          "id": "15292097-ea11-4ff6-b7fd-678920b221f0",
+          "type": "dialogue",
+          "x": 228,
+          "y": 225,
+          "ports": [
+            {
+              "id": "c19674c6-6942-47c5-a5b5-427998609dcc",
+              "type": "default",
+              "x": 215,
+              "y": 256,
+              "name": "in-1718561686581 ",
+              "alignment": "left",
+              "parentNode": "15292097-ea11-4ff6-b7fd-678920b221f0",
+              "links": [
+                "12e9a90f-2640-4d9d-993c-36e7ff3cd3bb"
+              ],
+              "in": true,
+              "label": "❯"
+            },
+            {
+              "id": "290a5554-6c0c-4b83-8c3a-65e5c93a8e0e",
+              "type": "default",
+              "x": 463.828125,
+              "y": 256,
+              "name": "out-1718561686581",
+              "alignment": "right",
+              "parentNode": "15292097-ea11-4ff6-b7fd-678920b221f0",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "<player>",
+          "color": "#dd341ee6",
+          "portsInOrder": [
+            "c19674c6-6942-47c5-a5b5-427998609dcc"
+          ],
+          "portsOutOrder": [
+            "290a5554-6c0c-4b83-8c3a-65e5c93a8e0e"
+          ],
+          "text": "...I'll leave you to it."
+        }
+      }
+    }
+  ],
+  "trees": {}
+}

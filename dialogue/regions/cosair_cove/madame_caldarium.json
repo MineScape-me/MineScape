@@ -1,0 +1,1924 @@
+{
+  "id": "b7a6be05-f517-4c58-b555-8012e81061e6",
+  "offsetX": 31,
+  "offsetY": 62,
+  "zoom": 100,
+  "gridSize": 0,
+  "layers": [
+    {
+      "id": "d80d03c2-e148-4e57-917a-5c01e31939f2",
+      "type": "diagram-links",
+      "isSvg": true,
+      "transformed": true,
+      "models": {
+        "437b64eb-2adf-41d6-99a4-d31ca4c60447": {
+          "id": "437b64eb-2adf-41d6-99a4-d31ca4c60447",
+          "type": "default",
+          "selected": false,
+          "source": "a0fd1fbe-f5c1-44f6-ae7b-1f015a4f62fa",
+          "sourcePort": "49d09ce7-5618-4213-817f-1f12c25397e8",
+          "target": "dc503a48-eae3-4973-b0fa-eb3e8c9e5d6b",
+          "targetPort": "61899e1e-161e-4643-9724-bfe022771661",
+          "points": [
+            {
+              "id": "5c0b28d0-af96-4e3b-bb71-bcb7ebf139f3",
+              "type": "point",
+              "x": 133.296875,
+              "y": 64.5
+            },
+            {
+              "id": "8c8acae4-d2e7-4216-ac64-20aedc39f775",
+              "type": "point",
+              "x": 182.5,
+              "y": 60.5
+            }
+          ],
+          "labels": [],
+          "width": 3,
+          "color": "gray",
+          "curvyness": 50,
+          "selectedColor": "rgb(0,192,255)"
+        },
+        "8751021a-9dd7-4fbc-9dd3-160dcd0634b4": {
+          "id": "8751021a-9dd7-4fbc-9dd3-160dcd0634b4",
+          "type": "default",
+          "selected": false,
+          "source": "dc503a48-eae3-4973-b0fa-eb3e8c9e5d6b",
+          "sourcePort": "53491e96-3ab2-4a8b-b4ba-9d92a9b4769a",
+          "target": "d2f9a5e3-6cff-446f-b923-a4eb1a04ae77",
+          "targetPort": "3dde10d3-ca8d-4d8b-994e-352737cfb7e8",
+          "points": [
+            {
+              "id": "89184c84-f8cf-4737-8b08-76e24347d90e",
+              "type": "point",
+              "x": 516.03125,
+              "y": 77.5
+            },
+            {
+              "id": "3c433417-8978-4af6-ab7d-813a8622c411",
+              "type": "point",
+              "x": 595.5,
+              "y": 74
+            }
+          ],
+          "labels": [],
+          "width": 3,
+          "color": "gray",
+          "curvyness": 50,
+          "selectedColor": "rgb(0,192,255)"
+        }
+      }
+    },
+    {
+      "id": "fe63e45f-0f50-4622-9c2c-d2043d93d503",
+      "type": "diagram-nodes",
+      "isSvg": false,
+      "transformed": true,
+      "models": {
+        "a0fd1fbe-f5c1-44f6-ae7b-1f015a4f62fa": {
+          "id": "a0fd1fbe-f5c1-44f6-ae7b-1f015a4f62fa",
+          "type": "start",
+          "x": 50,
+          "y": 50,
+          "ports": [
+            {
+              "id": "49d09ce7-5618-4213-817f-1f12c25397e8",
+              "type": "default",
+              "x": 125.796875,
+              "y": 57,
+              "name": "out-1718559145709",
+              "alignment": "right",
+              "parentNode": "a0fd1fbe-f5c1-44f6-ae7b-1f015a4f62fa",
+              "links": [
+                "437b64eb-2adf-41d6-99a4-d31ca4c60447"
+              ],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Start",
+          "color": "#16db26e6",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "49d09ce7-5618-4213-817f-1f12c25397e8"
+          ]
+        },
+        "6f6200f6-1d24-4075-a155-1b3cc8dcb214": {
+          "id": "6f6200f6-1d24-4075-a155-1b3cc8dcb214",
+          "type": "note",
+          "selected": false,
+          "x": 191,
+          "y": 174,
+          "ports": [],
+          "title": "Note",
+          "color": "#19e0e7e6",
+          "portsInOrder": [],
+          "portsOutOrder": [],
+          "text": "Corsair Curse"
+        },
+        "d2f9a5e3-6cff-446f-b923-a4eb1a04ae77": {
+          "id": "d2f9a5e3-6cff-446f-b923-a4eb1a04ae77",
+          "type": "tree",
+          "selected": false,
+          "x": 597,
+          "y": 52,
+          "ports": [
+            {
+              "id": "3dde10d3-ca8d-4d8b-994e-352737cfb7e8",
+              "type": "default",
+              "x": 588,
+              "y": 66.5,
+              "name": "in-1718559467770 ",
+              "alignment": "left",
+              "parentNode": "d2f9a5e3-6cff-446f-b923-a4eb1a04ae77",
+              "links": [
+                "8751021a-9dd7-4fbc-9dd3-160dcd0634b4"
+              ],
+              "in": true,
+              "label": "❯"
+            }
+          ],
+          "title": "Tree",
+          "color": "#e02e87e6",
+          "portsInOrder": [
+            "3dde10d3-ca8d-4d8b-994e-352737cfb7e8"
+          ],
+          "portsOutOrder": [],
+          "tree": "before_quest",
+          "start": "Start"
+        },
+        "dc503a48-eae3-4973-b0fa-eb3e8c9e5d6b": {
+          "id": "dc503a48-eae3-4973-b0fa-eb3e8c9e5d6b",
+          "type": "condition",
+          "selected": false,
+          "x": 188,
+          "y": 22,
+          "ports": [
+            {
+              "id": "61899e1e-161e-4643-9724-bfe022771661",
+              "type": "default",
+              "x": 175,
+              "y": 53,
+              "name": "in-1723371040430 ",
+              "alignment": "left",
+              "parentNode": "dc503a48-eae3-4973-b0fa-eb3e8c9e5d6b",
+              "links": [
+                "437b64eb-2adf-41d6-99a4-d31ca4c60447"
+              ],
+              "in": true,
+              "label": "❯"
+            },
+            {
+              "id": "626f1e95-b0d2-45e2-9a04-0a2581c88731",
+              "type": "default",
+              "x": 506.390625,
+              "y": 53,
+              "name": "out-1723371040430",
+              "alignment": "right",
+              "parentNode": "dc503a48-eae3-4973-b0fa-eb3e8c9e5d6b",
+              "links": [],
+              "in": false,
+              "label": "true"
+            },
+            {
+              "id": "53491e96-3ab2-4a8b-b4ba-9d92a9b4769a",
+              "type": "default",
+              "x": 508.53125,
+              "y": 70,
+              "name": "out-17233710404301",
+              "alignment": "right",
+              "parentNode": "dc503a48-eae3-4973-b0fa-eb3e8c9e5d6b",
+              "links": [
+                "8751021a-9dd7-4fbc-9dd3-160dcd0634b4"
+              ],
+              "in": false,
+              "label": "false"
+            }
+          ],
+          "title": "Condition",
+          "color": "#02630ae6",
+          "portsInOrder": [
+            "61899e1e-161e-4643-9724-bfe022771661"
+          ],
+          "portsOutOrder": [
+            "626f1e95-b0d2-45e2-9a04-0a2581c88731",
+            "53491e96-3ab2-4a8b-b4ba-9d92a9b4769a"
+          ],
+          "conditions": {
+            "conditions": [
+              "basicCondition"
+            ],
+            "args": [
+              [
+                "false"
+              ]
+            ],
+            "ors": [
+              false
+            ],
+            "negates": [
+              false
+            ]
+          }
+        }
+      }
+    }
+  ],
+  "trees": {
+    "before_quest": {
+      "id": "167b7844-b858-480d-8a9b-dea9e210c2b8",
+      "offsetX": 220,
+      "offsetY": -2,
+      "zoom": 100,
+      "gridSize": 0,
+      "layers": [
+        {
+          "id": "819b6fc7-de88-4919-969b-a3b729657c7c",
+          "type": "diagram-links",
+          "isSvg": true,
+          "transformed": true,
+          "models": {
+            "aecbf8f5-fe1c-4094-bb97-b8e59471d1d6": {
+              "id": "aecbf8f5-fe1c-4094-bb97-b8e59471d1d6",
+              "type": "default",
+              "selected": false,
+              "source": "594d1017-dabb-463c-82cf-c2199a77ced2",
+              "sourcePort": "5b9b9d59-44be-49a3-b517-697cff79cec2",
+              "target": "feb5eb11-f1bd-4e48-9101-e5c1455489c1",
+              "targetPort": "23c24370-ce10-467a-9653-d191e30818ad",
+              "points": [
+                {
+                  "id": "43d88cde-113e-4088-a75a-41b893f0f1eb",
+                  "type": "point",
+                  "x": 133.296875,
+                  "y": 64.5
+                },
+                {
+                  "id": "11ff4d75-60f0-435e-9548-0258ddcbf8c2",
+                  "type": "point",
+                  "x": 214.5,
+                  "y": 119.5
+                }
+              ],
+              "labels": [],
+              "width": 3,
+              "color": "gray",
+              "curvyness": 50,
+              "selectedColor": "rgb(0,192,255)"
+            },
+            "dfdc8943-8416-4b10-810e-89e134f326fa": {
+              "id": "dfdc8943-8416-4b10-810e-89e134f326fa",
+              "type": "default",
+              "selected": false,
+              "source": "feb5eb11-f1bd-4e48-9101-e5c1455489c1",
+              "sourcePort": "5523a8d4-5feb-45e7-be66-5e6042b1514f",
+              "target": "54af8313-5142-4eb4-be72-421818482209",
+              "targetPort": "23932475-7bcc-4e94-9aaa-9092c2baec61",
+              "points": [
+                {
+                  "id": "2ac57957-4758-47d8-8fc9-82bef9c2a745",
+                  "type": "point",
+                  "x": 331.40625,
+                  "y": 119.5
+                },
+                {
+                  "id": "1005404c-32a1-4e17-9dca-d2295693d782",
+                  "type": "point",
+                  "x": 214.5,
+                  "y": 182.5
+                }
+              ],
+              "labels": [],
+              "width": 3,
+              "color": "gray",
+              "curvyness": 50,
+              "selectedColor": "rgb(0,192,255)"
+            },
+            "3bae7f2e-8741-4826-b335-54b47d9acab5": {
+              "id": "3bae7f2e-8741-4826-b335-54b47d9acab5",
+              "type": "default",
+              "selected": false,
+              "source": "54af8313-5142-4eb4-be72-421818482209",
+              "sourcePort": "b1922d98-880e-400c-96be-012c8ee36071",
+              "target": "381d9b5d-69c6-4b8e-9d05-b9aa7301dd14",
+              "targetPort": "34947caf-212f-46e3-9fef-2851df4df2d1",
+              "points": [
+                {
+                  "id": "4f020681-11fb-4fd5-9d8a-bb281e52bee8",
+                  "type": "point",
+                  "x": 463.328125,
+                  "y": 182.5
+                },
+                {
+                  "id": "6d407f95-bb4e-4e7a-9c99-11ccfa4b7ae7",
+                  "type": "point",
+                  "x": 214.5,
+                  "y": 245.5
+                }
+              ],
+              "labels": [],
+              "width": 3,
+              "color": "gray",
+              "curvyness": 50,
+              "selectedColor": "rgb(0,192,255)"
+            },
+            "e8a5a32c-a553-4877-91aa-facf0f4fb966": {
+              "id": "e8a5a32c-a553-4877-91aa-facf0f4fb966",
+              "type": "default",
+              "selected": false,
+              "source": "381d9b5d-69c6-4b8e-9d05-b9aa7301dd14",
+              "sourcePort": "b26817a6-12af-445a-bb0f-916c53839d5d",
+              "target": "e7a6a643-6c40-4fec-b1ec-15fea01b47e4",
+              "targetPort": "881ae676-b678-4bb7-b6a8-b1b895002136",
+              "points": [
+                {
+                  "id": "9aeeb7bf-29f5-4bc8-99a4-7f2757214016",
+                  "type": "point",
+                  "x": 434.15625,
+                  "y": 254.5
+                },
+                {
+                  "id": "986f14b2-add3-4bb3-a995-c3133089a065",
+                  "type": "point",
+                  "x": 749.5,
+                  "y": 183.5
+                }
+              ],
+              "labels": [],
+              "width": 3,
+              "color": "gray",
+              "curvyness": 50,
+              "selectedColor": "rgb(0,192,255)"
+            },
+            "059ed5a2-ae8e-427f-8e16-961dbdd4ab60": {
+              "id": "059ed5a2-ae8e-427f-8e16-961dbdd4ab60",
+              "type": "default",
+              "selected": false,
+              "source": "381d9b5d-69c6-4b8e-9d05-b9aa7301dd14",
+              "sourcePort": "848f8186-8932-4d15-b555-7a3d50cb1cf2",
+              "target": "5cdf7a57-07bf-4983-b121-5c53be66be4d",
+              "targetPort": "065abac0-168f-4ce7-bbc4-a917e9ef9827",
+              "points": [
+                {
+                  "id": "38e3c258-0cbe-4a9c-9759-f389d7ef0987",
+                  "type": "point",
+                  "x": 434.15625,
+                  "y": 290.5
+                },
+                {
+                  "id": "9df8f71b-35d4-4b9c-99ff-75bfe80c3fa7",
+                  "type": "point",
+                  "x": 208.5,
+                  "y": 428.5
+                }
+              ],
+              "labels": [],
+              "width": 3,
+              "color": "gray",
+              "curvyness": 50,
+              "selectedColor": "rgb(0,192,255)"
+            },
+            "f9fa4060-9b23-438e-8f50-ae2eaa778757": {
+              "id": "f9fa4060-9b23-438e-8f50-ae2eaa778757",
+              "type": "default",
+              "selected": false,
+              "source": "381d9b5d-69c6-4b8e-9d05-b9aa7301dd14",
+              "sourcePort": "d2aa27ef-bdd1-48b0-8a5f-5e4da8246d4f",
+              "target": "6fc6c608-d36d-4189-80cf-e6d7bf27dbd5",
+              "targetPort": "9ea65459-3647-47b6-959d-7c9e416a51f7",
+              "points": [
+                {
+                  "id": "0cf05d89-edf8-4db3-878c-c9bb381ddfa5",
+                  "type": "point",
+                  "x": 434.15625,
+                  "y": 326.5
+                },
+                {
+                  "id": "77f69cde-88d4-4e82-baca-b44887ad8d93",
+                  "type": "point",
+                  "x": -79.5,
+                  "y": 414.5
+                }
+              ],
+              "labels": [],
+              "width": 3,
+              "color": "gray",
+              "curvyness": 50,
+              "selectedColor": "rgb(0,192,255)"
+            },
+            "2f176b8e-6502-4563-a577-df55d77f55b8": {
+              "id": "2f176b8e-6502-4563-a577-df55d77f55b8",
+              "type": "default",
+              "selected": false,
+              "source": "6fc6c608-d36d-4189-80cf-e6d7bf27dbd5",
+              "sourcePort": "7cea86a3-7af7-404e-a92e-47d5b5290564",
+              "target": "0e66aa31-a7d1-4ae4-9ff0-0122e440c678",
+              "targetPort": "ff70c450-7b3f-46d1-b6dd-27e3a0b3b317",
+              "points": [
+                {
+                  "id": "7eb7ad0d-90d9-4319-9e3e-7e6bae150726",
+                  "type": "point",
+                  "x": 52.0625,
+                  "y": 414.5
+                },
+                {
+                  "id": "91c2655b-8670-4e6f-82dc-82ea98253b78",
+                  "type": "point",
+                  "x": -79.5,
+                  "y": 477.5
+                }
+              ],
+              "labels": [],
+              "width": 3,
+              "color": "gray",
+              "curvyness": 50,
+              "selectedColor": "rgb(0,192,255)"
+            },
+            "15af142b-16b3-4dc6-a98b-08af31e9b864": {
+              "id": "15af142b-16b3-4dc6-a98b-08af31e9b864",
+              "type": "default",
+              "selected": false,
+              "source": "c9fd7fa4-d8a0-4170-9df2-543d579a53ab",
+              "sourcePort": "b40c21a3-4dc0-4d44-aa25-f5a857062783",
+              "target": "756f71f9-bcb4-4320-977e-581c31f61bb6",
+              "targetPort": "2d6e2034-dfdd-4807-849d-58d2b78ff8f2",
+              "points": [
+                {
+                  "id": "94b39f91-5eee-4943-8ba0-52f547e71f87",
+                  "type": "point",
+                  "x": 677.1875,
+                  "y": 491.5
+                },
+                {
+                  "id": "adfe08c6-7897-4497-aa18-d61b5bca9aa1",
+                  "type": "point",
+                  "x": 208.5,
+                  "y": 584.5
+                }
+              ],
+              "labels": [],
+              "width": 3,
+              "color": "gray",
+              "curvyness": 50,
+              "selectedColor": "rgb(0,192,255)"
+            },
+            "40e5e425-2e26-4a06-aea9-8c53ef9f69e1": {
+              "id": "40e5e425-2e26-4a06-aea9-8c53ef9f69e1",
+              "type": "default",
+              "selected": false,
+              "source": "5cdf7a57-07bf-4983-b121-5c53be66be4d",
+              "sourcePort": "dc830621-656b-493e-96c8-4af5fcf05691",
+              "target": "c9fd7fa4-d8a0-4170-9df2-543d579a53ab",
+              "targetPort": "2bc53978-207c-4c93-a971-112455edcf7c",
+              "points": [
+                {
+                  "id": "8143e876-fffa-42ed-93c3-2da3061c76a7",
+                  "type": "point",
+                  "x": 369.375,
+                  "y": 428.5
+                },
+                {
+                  "id": "b4d615fb-232f-4962-8b41-7c113ccbcd82",
+                  "type": "point",
+                  "x": 208.5,
+                  "y": 491.5
+                }
+              ],
+              "labels": [],
+              "width": 3,
+              "color": "gray",
+              "curvyness": 50,
+              "selectedColor": "rgb(0,192,255)"
+            },
+            "2bd927e8-187b-43ec-8c19-011f3f4e8c27": {
+              "id": "2bd927e8-187b-43ec-8c19-011f3f4e8c27",
+              "type": "default",
+              "selected": false,
+              "source": "756f71f9-bcb4-4320-977e-581c31f61bb6",
+              "sourcePort": "242f2bf2-c2ef-4080-9801-6e2eae05407f",
+              "target": "8159a9d8-4020-4533-b6b1-4ae3e19b7af9",
+              "targetPort": "20edafd1-5d19-4d70-8015-fab9f5407cf3",
+              "points": [
+                {
+                  "id": "916d6e5e-57f0-4435-a44a-149fcc7ea0e5",
+                  "type": "point",
+                  "x": 677.1875,
+                  "y": 584.5
+                },
+                {
+                  "id": "bf372073-b697-4868-b21c-c79d32ff70e5",
+                  "type": "point",
+                  "x": 208.5,
+                  "y": 662.5
+                }
+              ],
+              "labels": [],
+              "width": 3,
+              "color": "gray",
+              "curvyness": 50,
+              "selectedColor": "rgb(0,192,255)"
+            },
+            "f0880e5b-0a2d-4e59-a50f-93633977f1e1": {
+              "id": "f0880e5b-0a2d-4e59-a50f-93633977f1e1",
+              "type": "default",
+              "selected": false,
+              "source": "8159a9d8-4020-4533-b6b1-4ae3e19b7af9",
+              "sourcePort": "437f1a42-9425-42b9-84b3-a083a316cb4d",
+              "target": "2e6c101e-6080-4000-baa4-a056088e41a2",
+              "targetPort": "89aaf7d8-84ae-415a-be11-7b518a873837",
+              "points": [
+                {
+                  "id": "466dbb54-7810-4456-bc81-2b100faf79d4",
+                  "type": "point",
+                  "x": 508.625,
+                  "y": 662.5
+                },
+                {
+                  "id": "78ef80c8-6358-4c0d-a521-76caced69f47",
+                  "type": "point",
+                  "x": 208.5,
+                  "y": 725.5
+                }
+              ],
+              "labels": [],
+              "width": 3,
+              "color": "gray",
+              "curvyness": 50,
+              "selectedColor": "rgb(0,192,255)"
+            },
+            "6e5c584c-7aa9-4d06-8332-76a05dfb6c4a": {
+              "id": "6e5c584c-7aa9-4d06-8332-76a05dfb6c4a",
+              "type": "default",
+              "selected": false,
+              "source": "2e6c101e-6080-4000-baa4-a056088e41a2",
+              "sourcePort": "57d1c7dc-e061-478b-9fae-e2dff2677f93",
+              "target": "86bed399-4962-48ce-8775-41bd962c705b",
+              "targetPort": "9f01b459-6738-42ca-aef3-d93e99ead4ce",
+              "points": [
+                {
+                  "id": "b3f1fc4b-e923-4d1b-b46f-bb93e10cbb66",
+                  "type": "point",
+                  "x": 684.515625,
+                  "y": 725.5
+                },
+                {
+                  "id": "18f3a966-e000-433a-ad0b-c1ad691da255",
+                  "type": "point",
+                  "x": 208.5,
+                  "y": 833.5
+                }
+              ],
+              "labels": [],
+              "width": 3,
+              "color": "gray",
+              "curvyness": 50,
+              "selectedColor": "rgb(0,192,255)"
+            },
+            "1da4a6ed-4cb8-491c-91bb-8069cbb360e1": {
+              "id": "1da4a6ed-4cb8-491c-91bb-8069cbb360e1",
+              "type": "default",
+              "selected": false,
+              "source": "86bed399-4962-48ce-8775-41bd962c705b",
+              "sourcePort": "cafa9c5b-c881-4215-ba92-50bbb9c41b40",
+              "target": "4a85696f-4f58-492e-88db-ac7fbf14eeb2",
+              "targetPort": "5bc5e256-b497-4b6b-ab92-4292f7b1fb2b",
+              "points": [
+                {
+                  "id": "735b2fe6-881d-476a-a0f8-cfd8721b84d4",
+                  "type": "point",
+                  "x": 699.171875,
+                  "y": 833.5
+                },
+                {
+                  "id": "88fecf46-02a0-420e-b97b-c3aaf1063342",
+                  "type": "point",
+                  "x": 208.5,
+                  "y": 911.5
+                }
+              ],
+              "labels": [],
+              "width": 3,
+              "color": "gray",
+              "curvyness": 50,
+              "selectedColor": "rgb(0,192,255)"
+            },
+            "c4cbd070-4548-4351-9026-3503bb107e7a": {
+              "id": "c4cbd070-4548-4351-9026-3503bb107e7a",
+              "type": "default",
+              "selected": false,
+              "source": "4a85696f-4f58-492e-88db-ac7fbf14eeb2",
+              "sourcePort": "bd865532-9e03-40f2-9a28-c847d9ad6361",
+              "target": "fc56e666-36b2-4a7f-a3f2-744d6a7d56f0",
+              "targetPort": "9362b223-d89c-49fe-8efe-ff980c043c15",
+              "points": [
+                {
+                  "id": "50486d8d-0495-4fb2-8d60-c40ffd7493a8",
+                  "type": "point",
+                  "x": 684.515625,
+                  "y": 911.5
+                },
+                {
+                  "id": "a546bbab-d283-472b-afea-3a3a22ce6e44",
+                  "type": "point",
+                  "x": 208.5,
+                  "y": 989.5
+                }
+              ],
+              "labels": [],
+              "width": 3,
+              "color": "gray",
+              "curvyness": 50,
+              "selectedColor": "rgb(0,192,255)"
+            },
+            "64bb7dd3-aab8-4bb0-9b79-f676b8cff1de": {
+              "id": "64bb7dd3-aab8-4bb0-9b79-f676b8cff1de",
+              "type": "default",
+              "selected": false,
+              "source": "fc56e666-36b2-4a7f-a3f2-744d6a7d56f0",
+              "sourcePort": "e895ac68-ed72-45fe-8a2c-27a3617c1611",
+              "target": "0b47690c-d7c0-49e9-8094-2d601ceef023",
+              "targetPort": "b54d3070-ebf2-41d4-b822-971e494d8fd9",
+              "points": [
+                {
+                  "id": "71734f3b-ea72-42e5-be43-1f8ed97e9bf1",
+                  "type": "point",
+                  "x": 691.84375,
+                  "y": 989.5
+                },
+                {
+                  "id": "917db233-fb65-4b20-88e0-8537121938ad",
+                  "type": "point",
+                  "x": 208.5,
+                  "y": 1067.5
+                }
+              ],
+              "labels": [],
+              "width": 3,
+              "color": "gray",
+              "curvyness": 50,
+              "selectedColor": "rgb(0,192,255)"
+            },
+            "66e329b8-ae35-47a3-bb1c-d4f41026786e": {
+              "id": "66e329b8-ae35-47a3-bb1c-d4f41026786e",
+              "type": "default",
+              "selected": false,
+              "source": "e7a6a643-6c40-4fec-b1ec-15fea01b47e4",
+              "sourcePort": "f8511ef3-39c1-4875-a252-7fa98b506935",
+              "target": "aa456ace-e727-4b0f-9e65-78ae64215503",
+              "targetPort": "b46c6bb1-acae-4b04-9cb1-bf30653dc2ea",
+              "points": [
+                {
+                  "id": "a618441a-23dd-491e-9567-3ec7ed384731",
+                  "type": "point",
+                  "x": 903.046875,
+                  "y": 183.5
+                },
+                {
+                  "id": "bb4d7b69-2fbb-4cae-b91b-ef83c6c0dca1",
+                  "type": "point",
+                  "x": 749.5,
+                  "y": 246.5
+                }
+              ],
+              "labels": [],
+              "width": 3,
+              "color": "gray",
+              "curvyness": 50,
+              "selectedColor": "rgb(0,192,255)"
+            },
+            "68527503-aeba-4388-94eb-97411a2876ee": {
+              "id": "68527503-aeba-4388-94eb-97411a2876ee",
+              "type": "default",
+              "selected": false,
+              "source": "aa456ace-e727-4b0f-9e65-78ae64215503",
+              "sourcePort": "ec35a1a5-97c7-4df5-a01b-db62b7ab39f6",
+              "target": "d4bc31fd-c9e9-489a-b0bc-e0f77d6c0b70",
+              "targetPort": "d610537f-3fb8-4abf-bdd5-45000b6aaf7e",
+              "points": [
+                {
+                  "id": "56ed107c-5c50-467c-bab7-5b502fb7d73d",
+                  "type": "point",
+                  "x": 1225.515625,
+                  "y": 246.5
+                },
+                {
+                  "id": "90047179-dce0-4ca3-a4f6-c2d13ab7f0ab",
+                  "type": "point",
+                  "x": 749.5,
+                  "y": 324.5
+                }
+              ],
+              "labels": [],
+              "width": 3,
+              "color": "gray",
+              "curvyness": 50,
+              "selectedColor": "rgb(0,192,255)"
+            },
+            "a3eb6542-c56e-4fc8-8c23-2da87c8d70b1": {
+              "id": "a3eb6542-c56e-4fc8-8c23-2da87c8d70b1",
+              "type": "default",
+              "selected": false,
+              "source": "d4bc31fd-c9e9-489a-b0bc-e0f77d6c0b70",
+              "sourcePort": "89474181-eadb-43cc-b34a-a6065c078221",
+              "target": "8606953e-ad17-47ef-b657-5e546c6b7477",
+              "targetPort": "bc62d00d-5593-4f8c-ab80-bf391f8f1ce1",
+              "points": [
+                {
+                  "id": "31993226-e1ab-41d9-9b92-db29a23c50e3",
+                  "type": "point",
+                  "x": 1196.203125,
+                  "y": 324.5
+                },
+                {
+                  "id": "12bff8d5-cb47-4101-98f9-97f4dc4b8a36",
+                  "type": "point",
+                  "x": 749.5,
+                  "y": 402.5
+                }
+              ],
+              "labels": [],
+              "width": 3,
+              "color": "gray",
+              "curvyness": 50,
+              "selectedColor": "rgb(0,192,255)"
+            },
+            "53cb12b3-e086-4e59-80dd-91213bfc4b1a": {
+              "id": "53cb12b3-e086-4e59-80dd-91213bfc4b1a",
+              "type": "default",
+              "selected": false,
+              "source": "8606953e-ad17-47ef-b657-5e546c6b7477",
+              "sourcePort": "49f22986-b9f4-481a-b9ab-5aa2c2b1dfa5",
+              "target": "15fa5001-059f-4bb7-8dcc-652ac269d185",
+              "targetPort": "4d434b4a-026d-421c-b0dd-2eab1b74ba59",
+              "points": [
+                {
+                  "id": "0eea95d3-d661-45f8-b115-e25894d69835",
+                  "type": "point",
+                  "x": 1225.515625,
+                  "y": 402.5
+                },
+                {
+                  "id": "bf8ee87f-a900-45c2-bd3d-f8713e2f085a",
+                  "type": "point",
+                  "x": 749.5,
+                  "y": 480.5
+                }
+              ],
+              "labels": [],
+              "width": 3,
+              "color": "gray",
+              "curvyness": 50,
+              "selectedColor": "rgb(0,192,255)"
+            },
+            "04119254-0037-428d-bc99-810e3c17121e": {
+              "id": "04119254-0037-428d-bc99-810e3c17121e",
+              "type": "default",
+              "selected": false,
+              "source": "15fa5001-059f-4bb7-8dcc-652ac269d185",
+              "sourcePort": "371e1f98-60fa-443b-92dc-a3b6df01b1f8",
+              "target": "f8ec0239-b3e8-4ed8-a004-b3b77a711217",
+              "targetPort": "9eef86ac-40b3-456a-80a5-461e4f7271ca",
+              "points": [
+                {
+                  "id": "6979a7b4-03a2-4332-86f9-df38a3b6e516",
+                  "type": "point",
+                  "x": 859.078125,
+                  "y": 480.5
+                },
+                {
+                  "id": "15db75cb-cd25-4fc7-b06e-2b650c58ab56",
+                  "type": "point",
+                  "x": 749.5,
+                  "y": 543.5
+                }
+              ],
+              "labels": [],
+              "width": 3,
+              "color": "gray",
+              "curvyness": 50,
+              "selectedColor": "rgb(0,192,255)"
+            },
+            "6fed4d82-015e-49c8-8bf8-a321f4723528": {
+              "id": "6fed4d82-015e-49c8-8bf8-a321f4723528",
+              "type": "default",
+              "selected": false,
+              "source": "f8ec0239-b3e8-4ed8-a004-b3b77a711217",
+              "sourcePort": "c13be31c-aa5f-45e0-9502-0afae1dacda6",
+              "target": "5cdf7a57-07bf-4983-b121-5c53be66be4d",
+              "targetPort": "065abac0-168f-4ce7-bbc4-a917e9ef9827",
+              "points": [
+                {
+                  "id": "6a4ec2ec-825e-44ea-b7c2-3639a5c4af18",
+                  "type": "point",
+                  "x": 969.15625,
+                  "y": 552.5
+                },
+                {
+                  "id": "2f00e3b5-2bbb-4778-b87c-8bc0d988cc8c",
+                  "type": "point",
+                  "x": 208.5,
+                  "y": 428.5
+                }
+              ],
+              "labels": [],
+              "width": 3,
+              "color": "gray",
+              "curvyness": 50,
+              "selectedColor": "rgb(0,192,255)"
+            },
+            "c6848903-42ae-472c-91ad-8d8a2c351f31": {
+              "id": "c6848903-42ae-472c-91ad-8d8a2c351f31",
+              "type": "default",
+              "selected": false,
+              "source": "f8ec0239-b3e8-4ed8-a004-b3b77a711217",
+              "sourcePort": "7665917e-c45c-4083-8949-b13c614eb09f",
+              "target": "6fc6c608-d36d-4189-80cf-e6d7bf27dbd5",
+              "targetPort": "9ea65459-3647-47b6-959d-7c9e416a51f7",
+              "points": [
+                {
+                  "id": "e89175fb-5bb9-41b4-b1bb-59461eb02318",
+                  "type": "point",
+                  "x": 969.15625,
+                  "y": 588.5
+                },
+                {
+                  "id": "0e9302ac-e94f-446f-a867-207f1d4574b2",
+                  "type": "point",
+                  "x": -79.5,
+                  "y": 414.5
+                }
+              ],
+              "labels": [],
+              "width": 3,
+              "color": "gray",
+              "curvyness": 50,
+              "selectedColor": "rgb(0,192,255)"
+            }
+          }
+        },
+        {
+          "id": "f9601399-169c-4671-8589-ec35bcadb07a",
+          "type": "diagram-nodes",
+          "isSvg": false,
+          "transformed": true,
+          "models": {
+            "594d1017-dabb-463c-82cf-c2199a77ced2": {
+              "id": "594d1017-dabb-463c-82cf-c2199a77ced2",
+              "type": "start",
+              "selected": false,
+              "x": 50,
+              "y": 50,
+              "ports": [
+                {
+                  "id": "5b9b9d59-44be-49a3-b517-697cff79cec2",
+                  "type": "default",
+                  "x": 125.796875,
+                  "y": 57,
+                  "name": "out-1718559479492",
+                  "alignment": "right",
+                  "parentNode": "594d1017-dabb-463c-82cf-c2199a77ced2",
+                  "links": [
+                    "aecbf8f5-fe1c-4094-bb97-b8e59471d1d6"
+                  ],
+                  "in": false,
+                  "label": "❯"
+                }
+              ],
+              "title": "Start",
+              "color": "#16db26e6",
+              "portsInOrder": [],
+              "portsOutOrder": [
+                "5b9b9d59-44be-49a3-b517-697cff79cec2"
+              ]
+            },
+            "feb5eb11-f1bd-4e48-9101-e5c1455489c1": {
+              "id": "feb5eb11-f1bd-4e48-9101-e5c1455489c1",
+              "type": "dialogue",
+              "selected": false,
+              "x": 220,
+              "y": 81,
+              "ports": [
+                {
+                  "id": "23c24370-ce10-467a-9653-d191e30818ad",
+                  "type": "default",
+                  "x": 207,
+                  "y": 112,
+                  "name": "in-1718559759045 ",
+                  "alignment": "left",
+                  "parentNode": "feb5eb11-f1bd-4e48-9101-e5c1455489c1",
+                  "links": [
+                    "aecbf8f5-fe1c-4094-bb97-b8e59471d1d6"
+                  ],
+                  "in": true,
+                  "label": "❯"
+                },
+                {
+                  "id": "5523a8d4-5feb-45e7-be66-5e6042b1514f",
+                  "type": "default",
+                  "x": 323.90625,
+                  "y": 112,
+                  "name": "out-1718559759045",
+                  "alignment": "right",
+                  "parentNode": "feb5eb11-f1bd-4e48-9101-e5c1455489c1",
+                  "links": [
+                    "dfdc8943-8416-4b10-810e-89e134f326fa"
+                  ],
+                  "in": false,
+                  "label": "❯"
+                }
+              ],
+              "title": "<player>",
+              "color": "#dd341ee6",
+              "portsInOrder": [
+                "23c24370-ce10-467a-9653-d191e30818ad"
+              ],
+              "portsOutOrder": [
+                "5523a8d4-5feb-45e7-be66-5e6042b1514f"
+              ],
+              "text": "Hello!"
+            },
+            "54af8313-5142-4eb4-be72-421818482209": {
+              "id": "54af8313-5142-4eb4-be72-421818482209",
+              "type": "dialogue",
+              "selected": false,
+              "x": 220,
+              "y": 144,
+              "ports": [
+                {
+                  "id": "23932475-7bcc-4e94-9aaa-9092c2baec61",
+                  "type": "default",
+                  "x": 207,
+                  "y": 175,
+                  "name": "in-1718559762667 ",
+                  "alignment": "left",
+                  "parentNode": "54af8313-5142-4eb4-be72-421818482209",
+                  "links": [
+                    "dfdc8943-8416-4b10-810e-89e134f326fa"
+                  ],
+                  "in": true,
+                  "label": "❯"
+                },
+                {
+                  "id": "b1922d98-880e-400c-96be-012c8ee36071",
+                  "type": "default",
+                  "x": 455.828125,
+                  "y": 175,
+                  "name": "out-1718559762667",
+                  "alignment": "right",
+                  "parentNode": "54af8313-5142-4eb4-be72-421818482209",
+                  "links": [
+                    "3bae7f2e-8741-4826-b335-54b47d9acab5"
+                  ],
+                  "in": false,
+                  "label": "❯"
+                }
+              ],
+              "title": "Madame Caldarium",
+              "color": "#dd341ee6",
+              "portsInOrder": [
+                "23932475-7bcc-4e94-9aaa-9092c2baec61"
+              ],
+              "portsOutOrder": [
+                "b1922d98-880e-400c-96be-012c8ee36071"
+              ],
+              "text": "Good morrow, adventurer."
+            },
+            "381d9b5d-69c6-4b8e-9d05-b9aa7301dd14": {
+              "id": "381d9b5d-69c6-4b8e-9d05-b9aa7301dd14",
+              "type": "option",
+              "selected": false,
+              "x": 220,
+              "y": 207,
+              "ports": [
+                {
+                  "id": "b26817a6-12af-445a-bb0f-916c53839d5d",
+                  "type": "default",
+                  "x": 426.65625,
+                  "y": 247,
+                  "name": "out-17185597644491",
+                  "alignment": "right",
+                  "parentNode": "381d9b5d-69c6-4b8e-9d05-b9aa7301dd14",
+                  "links": [
+                    "e8a5a32c-a553-4877-91aa-facf0f4fb966"
+                  ],
+                  "in": false,
+                  "label": "❯"
+                },
+                {
+                  "id": "848f8186-8932-4d15-b555-7a3d50cb1cf2",
+                  "type": "default",
+                  "x": 426.65625,
+                  "y": 283,
+                  "name": "out-17185597644492",
+                  "alignment": "right",
+                  "parentNode": "381d9b5d-69c6-4b8e-9d05-b9aa7301dd14",
+                  "links": [
+                    "059ed5a2-ae8e-427f-8e16-961dbdd4ab60"
+                  ],
+                  "in": false,
+                  "label": "❯"
+                },
+                {
+                  "id": "34947caf-212f-46e3-9fef-2851df4df2d1",
+                  "type": "default",
+                  "x": 207,
+                  "y": 238,
+                  "name": "in-1718559764449 ",
+                  "alignment": "left",
+                  "parentNode": "381d9b5d-69c6-4b8e-9d05-b9aa7301dd14",
+                  "links": [
+                    "3bae7f2e-8741-4826-b335-54b47d9acab5"
+                  ],
+                  "in": true,
+                  "label": "❯"
+                },
+                {
+                  "id": "d2aa27ef-bdd1-48b0-8a5f-5e4da8246d4f",
+                  "type": "default",
+                  "x": 426.65625,
+                  "y": 319,
+                  "name": "out-1718559764449",
+                  "alignment": "right",
+                  "parentNode": "381d9b5d-69c6-4b8e-9d05-b9aa7301dd14",
+                  "links": [
+                    "f9fa4060-9b23-438e-8f50-ae2eaa778757"
+                  ],
+                  "in": false,
+                  "label": "❯"
+                }
+              ],
+              "title": "Select an option.",
+              "color": "#0756b1e6",
+              "portsInOrder": [
+                "34947caf-212f-46e3-9fef-2851df4df2d1"
+              ],
+              "portsOutOrder": [
+                "b26817a6-12af-445a-bb0f-916c53839d5d",
+                "848f8186-8932-4d15-b555-7a3d50cb1cf2",
+                "d2aa27ef-bdd1-48b0-8a5f-5e4da8246d4f"
+              ],
+              "options": [
+                {
+                  "conditions": [
+                    ""
+                  ],
+                  "args": [],
+                  "ors": [
+                    false
+                  ],
+                  "negates": [
+                    false
+                  ],
+                  "text": "I guess so."
+                },
+                {
+                  "conditions": [
+                    ""
+                  ],
+                  "args": [],
+                  "ors": [
+                    false
+                  ],
+                  "negates": [
+                    false
+                  ],
+                  "text": "Who are you?"
+                },
+                {
+                  "conditions": [
+                    ""
+                  ],
+                  "args": [],
+                  "ors": [
+                    false
+                  ],
+                  "negates": [
+                    false
+                  ],
+                  "text": "Goodbye!"
+                }
+              ]
+            },
+            "e7a6a643-6c40-4fec-b1ec-15fea01b47e4": {
+              "id": "e7a6a643-6c40-4fec-b1ec-15fea01b47e4",
+              "type": "dialogue",
+              "selected": false,
+              "x": 755,
+              "y": 145,
+              "ports": [
+                {
+                  "id": "881ae676-b678-4bb7-b6a8-b1b895002136",
+                  "type": "default",
+                  "x": 742,
+                  "y": 176,
+                  "name": "in-1718559768027 ",
+                  "alignment": "left",
+                  "parentNode": "e7a6a643-6c40-4fec-b1ec-15fea01b47e4",
+                  "links": [
+                    "e8a5a32c-a553-4877-91aa-facf0f4fb966"
+                  ],
+                  "in": true,
+                  "label": "❯"
+                },
+                {
+                  "id": "f8511ef3-39c1-4875-a252-7fa98b506935",
+                  "type": "default",
+                  "x": 895.546875,
+                  "y": 176,
+                  "name": "out-1718559768027",
+                  "alignment": "right",
+                  "parentNode": "e7a6a643-6c40-4fec-b1ec-15fea01b47e4",
+                  "links": [
+                    "66e329b8-ae35-47a3-bb1c-d4f41026786e"
+                  ],
+                  "in": false,
+                  "label": "❯"
+                }
+              ],
+              "title": "<player>",
+              "color": "#dd341ee6",
+              "portsInOrder": [
+                "881ae676-b678-4bb7-b6a8-b1b895002136"
+              ],
+              "portsOutOrder": [
+                "f8511ef3-39c1-4875-a252-7fa98b506935"
+              ],
+              "text": "I guess so."
+            },
+            "aa456ace-e727-4b0f-9e65-78ae64215503": {
+              "id": "aa456ace-e727-4b0f-9e65-78ae64215503",
+              "type": "dialogue",
+              "selected": false,
+              "x": 755,
+              "y": 208,
+              "ports": [
+                {
+                  "id": "b46c6bb1-acae-4b04-9cb1-bf30653dc2ea",
+                  "type": "default",
+                  "x": 742,
+                  "y": 239,
+                  "name": "in-1718559772226 ",
+                  "alignment": "left",
+                  "parentNode": "aa456ace-e727-4b0f-9e65-78ae64215503",
+                  "links": [
+                    "66e329b8-ae35-47a3-bb1c-d4f41026786e"
+                  ],
+                  "in": true,
+                  "label": "❯"
+                },
+                {
+                  "id": "ec35a1a5-97c7-4df5-a01b-db62b7ab39f6",
+                  "type": "default",
+                  "x": 1218.015625,
+                  "y": 239,
+                  "name": "out-1718559772226",
+                  "alignment": "right",
+                  "parentNode": "aa456ace-e727-4b0f-9e65-78ae64215503",
+                  "links": [
+                    "68527503-aeba-4388-94eb-97411a2876ee"
+                  ],
+                  "in": false,
+                  "label": "❯"
+                }
+              ],
+              "title": "Madame Caldarium",
+              "color": "#dd341ee6",
+              "portsInOrder": [
+                "b46c6bb1-acae-4b04-9cb1-bf30653dc2ea"
+              ],
+              "portsOutOrder": [
+                "ec35a1a5-97c7-4df5-a01b-db62b7ab39f6"
+              ],
+              "text": "You guess? The sun is shining, the sea breeze is salty,\nwhat's not to enjoy?"
+            },
+            "d4bc31fd-c9e9-489a-b0bc-e0f77d6c0b70": {
+              "id": "d4bc31fd-c9e9-489a-b0bc-e0f77d6c0b70",
+              "type": "dialogue",
+              "selected": false,
+              "x": 755,
+              "y": 286,
+              "ports": [
+                {
+                  "id": "d610537f-3fb8-4abf-bdd5-45000b6aaf7e",
+                  "type": "default",
+                  "x": 742,
+                  "y": 317,
+                  "name": "in-1718559777046 ",
+                  "alignment": "left",
+                  "parentNode": "d4bc31fd-c9e9-489a-b0bc-e0f77d6c0b70",
+                  "links": [
+                    "68527503-aeba-4388-94eb-97411a2876ee"
+                  ],
+                  "in": true,
+                  "label": "❯"
+                },
+                {
+                  "id": "89474181-eadb-43cc-b34a-a6065c078221",
+                  "type": "default",
+                  "x": 1188.703125,
+                  "y": 317,
+                  "name": "out-1718559777046",
+                  "alignment": "right",
+                  "parentNode": "d4bc31fd-c9e9-489a-b0bc-e0f77d6c0b70",
+                  "links": [
+                    "a3eb6542-c56e-4fc8-8c23-2da87c8d70b1"
+                  ],
+                  "in": false,
+                  "label": "❯"
+                }
+              ],
+              "title": "<player>",
+              "color": "#dd341ee6",
+              "portsInOrder": [
+                "d610537f-3fb8-4abf-bdd5-45000b6aaf7e"
+              ],
+              "portsOutOrder": [
+                "89474181-eadb-43cc-b34a-a6065c078221"
+              ],
+              "text": "I don't know... The sand? It's coarse and rough and\nirritating, and it gets everywhere."
+            },
+            "8606953e-ad17-47ef-b657-5e546c6b7477": {
+              "id": "8606953e-ad17-47ef-b657-5e546c6b7477",
+              "type": "dialogue",
+              "selected": false,
+              "x": 755,
+              "y": 364,
+              "ports": [
+                {
+                  "id": "bc62d00d-5593-4f8c-ab80-bf391f8f1ce1",
+                  "type": "default",
+                  "x": 742,
+                  "y": 395,
+                  "name": "in-1718559781846 ",
+                  "alignment": "left",
+                  "parentNode": "8606953e-ad17-47ef-b657-5e546c6b7477",
+                  "links": [
+                    "a3eb6542-c56e-4fc8-8c23-2da87c8d70b1"
+                  ],
+                  "in": true,
+                  "label": "❯"
+                },
+                {
+                  "id": "49f22986-b9f4-481a-b9ab-5aa2c2b1dfa5",
+                  "type": "default",
+                  "x": 1218.015625,
+                  "y": 395,
+                  "name": "out-1718559781846",
+                  "alignment": "right",
+                  "parentNode": "8606953e-ad17-47ef-b657-5e546c6b7477",
+                  "links": [
+                    "53cb12b3-e086-4e59-80dd-91213bfc4b1a"
+                  ],
+                  "in": false,
+                  "label": "❯"
+                }
+              ],
+              "title": "Madame Caldarium",
+              "color": "#dd341ee6",
+              "portsInOrder": [
+                "bc62d00d-5593-4f8c-ab80-bf391f8f1ce1"
+              ],
+              "portsOutOrder": [
+                "49f22986-b9f4-481a-b9ab-5aa2c2b1dfa5"
+              ],
+              "text": "Hmm, well my spa isn't quite ready yet, but when it is,\nI'm sure that'll solve all of your sand related issues!"
+            },
+            "15fa5001-059f-4bb7-8dcc-652ac269d185": {
+              "id": "15fa5001-059f-4bb7-8dcc-652ac269d185",
+              "type": "dialogue",
+              "selected": false,
+              "x": 755,
+              "y": 442,
+              "ports": [
+                {
+                  "id": "4d434b4a-026d-421c-b0dd-2eab1b74ba59",
+                  "type": "default",
+                  "x": 742,
+                  "y": 473,
+                  "name": "in-1718559789647 ",
+                  "alignment": "left",
+                  "parentNode": "15fa5001-059f-4bb7-8dcc-652ac269d185",
+                  "links": [
+                    "53cb12b3-e086-4e59-80dd-91213bfc4b1a"
+                  ],
+                  "in": true,
+                  "label": "❯"
+                },
+                {
+                  "id": "371e1f98-60fa-443b-92dc-a3b6df01b1f8",
+                  "type": "default",
+                  "x": 851.578125,
+                  "y": 473,
+                  "name": "out-1718559789647",
+                  "alignment": "right",
+                  "parentNode": "15fa5001-059f-4bb7-8dcc-652ac269d185",
+                  "links": [
+                    "04119254-0037-428d-bc99-810e3c17121e"
+                  ],
+                  "in": false,
+                  "label": "❯"
+                }
+              ],
+              "title": "<player>",
+              "color": "#dd341ee6",
+              "portsInOrder": [
+                "4d434b4a-026d-421c-b0dd-2eab1b74ba59"
+              ],
+              "portsOutOrder": [
+                "371e1f98-60fa-443b-92dc-a3b6df01b1f8"
+              ],
+              "text": "Okay."
+            },
+            "f8ec0239-b3e8-4ed8-a004-b3b77a711217": {
+              "id": "f8ec0239-b3e8-4ed8-a004-b3b77a711217",
+              "type": "option",
+              "selected": false,
+              "x": 755,
+              "y": 505,
+              "ports": [
+                {
+                  "id": "c13be31c-aa5f-45e0-9502-0afae1dacda6",
+                  "type": "default",
+                  "x": 961.65625,
+                  "y": 545,
+                  "name": "out-17185597908271",
+                  "alignment": "right",
+                  "parentNode": "f8ec0239-b3e8-4ed8-a004-b3b77a711217",
+                  "links": [
+                    "6fed4d82-015e-49c8-8bf8-a321f4723528"
+                  ],
+                  "in": false,
+                  "label": "❯"
+                },
+                {
+                  "id": "9eef86ac-40b3-456a-80a5-461e4f7271ca",
+                  "type": "default",
+                  "x": 742,
+                  "y": 536,
+                  "name": "in-1718559790827 ",
+                  "alignment": "left",
+                  "parentNode": "f8ec0239-b3e8-4ed8-a004-b3b77a711217",
+                  "links": [
+                    "04119254-0037-428d-bc99-810e3c17121e"
+                  ],
+                  "in": true,
+                  "label": "❯"
+                },
+                {
+                  "id": "7665917e-c45c-4083-8949-b13c614eb09f",
+                  "type": "default",
+                  "x": 961.65625,
+                  "y": 581,
+                  "name": "out-1718559790827",
+                  "alignment": "right",
+                  "parentNode": "f8ec0239-b3e8-4ed8-a004-b3b77a711217",
+                  "links": [
+                    "c6848903-42ae-472c-91ad-8d8a2c351f31"
+                  ],
+                  "in": false,
+                  "label": "❯"
+                }
+              ],
+              "title": "Select an option.",
+              "color": "#0756b1e6",
+              "portsInOrder": [
+                "9eef86ac-40b3-456a-80a5-461e4f7271ca"
+              ],
+              "portsOutOrder": [
+                "c13be31c-aa5f-45e0-9502-0afae1dacda6",
+                "7665917e-c45c-4083-8949-b13c614eb09f"
+              ],
+              "options": [
+                {
+                  "conditions": [
+                    ""
+                  ],
+                  "args": [],
+                  "ors": [
+                    false
+                  ],
+                  "negates": [
+                    false
+                  ],
+                  "text": "Who are you?"
+                },
+                {
+                  "conditions": [
+                    ""
+                  ],
+                  "args": [],
+                  "ors": [
+                    false
+                  ],
+                  "negates": [
+                    false
+                  ],
+                  "text": "Goodbye!"
+                }
+              ]
+            },
+            "5cdf7a57-07bf-4983-b121-5c53be66be4d": {
+              "id": "5cdf7a57-07bf-4983-b121-5c53be66be4d",
+              "type": "dialogue",
+              "selected": false,
+              "x": 214,
+              "y": 390,
+              "ports": [
+                {
+                  "id": "065abac0-168f-4ce7-bbc4-a917e9ef9827",
+                  "type": "default",
+                  "x": 201,
+                  "y": 421,
+                  "name": "in-1718559797426 ",
+                  "alignment": "left",
+                  "parentNode": "5cdf7a57-07bf-4983-b121-5c53be66be4d",
+                  "links": [
+                    "059ed5a2-ae8e-427f-8e16-961dbdd4ab60",
+                    "6fed4d82-015e-49c8-8bf8-a321f4723528"
+                  ],
+                  "in": true,
+                  "label": "❯"
+                },
+                {
+                  "id": "dc830621-656b-493e-96c8-4af5fcf05691",
+                  "type": "default",
+                  "x": 361.875,
+                  "y": 421,
+                  "name": "out-1718559797426",
+                  "alignment": "right",
+                  "parentNode": "5cdf7a57-07bf-4983-b121-5c53be66be4d",
+                  "links": [
+                    "40e5e425-2e26-4a06-aea9-8c53ef9f69e1"
+                  ],
+                  "in": false,
+                  "label": "❯"
+                }
+              ],
+              "title": "<player>",
+              "color": "#dd341ee6",
+              "portsInOrder": [
+                "065abac0-168f-4ce7-bbc4-a917e9ef9827"
+              ],
+              "portsOutOrder": [
+                "dc830621-656b-493e-96c8-4af5fcf05691"
+              ],
+              "text": "Who are you?"
+            },
+            "c9fd7fa4-d8a0-4170-9df2-543d579a53ab": {
+              "id": "c9fd7fa4-d8a0-4170-9df2-543d579a53ab",
+              "type": "dialogue",
+              "selected": false,
+              "x": 214,
+              "y": 453,
+              "ports": [
+                {
+                  "id": "2bc53978-207c-4c93-a971-112455edcf7c",
+                  "type": "default",
+                  "x": 201,
+                  "y": 484,
+                  "name": "in-1718559805845 ",
+                  "alignment": "left",
+                  "parentNode": "c9fd7fa4-d8a0-4170-9df2-543d579a53ab",
+                  "links": [
+                    "40e5e425-2e26-4a06-aea9-8c53ef9f69e1"
+                  ],
+                  "in": true,
+                  "label": "❯"
+                },
+                {
+                  "id": "b40c21a3-4dc0-4d44-aa25-f5a857062783",
+                  "type": "default",
+                  "x": 669.6875,
+                  "y": 484,
+                  "name": "out-1718559805845",
+                  "alignment": "right",
+                  "parentNode": "c9fd7fa4-d8a0-4170-9df2-543d579a53ab",
+                  "links": [
+                    "15af142b-16b3-4dc6-a98b-08af31e9b864"
+                  ],
+                  "in": false,
+                  "label": "❯"
+                }
+              ],
+              "title": "Madame Caldarium",
+              "color": "#dd341ee6",
+              "portsInOrder": [
+                "2bc53978-207c-4c93-a971-112455edcf7c"
+              ],
+              "portsOutOrder": [
+                "b40c21a3-4dc0-4d44-aa25-f5a857062783"
+              ],
+              "text": "I am Madame Caldarium! A pirate's life was for me, but\nlately I've been looking to expand my business, I'm\ngetting old, ya see."
+            },
+            "756f71f9-bcb4-4320-977e-581c31f61bb6": {
+              "id": "756f71f9-bcb4-4320-977e-581c31f61bb6",
+              "type": "dialogue",
+              "x": 214,
+              "y": 546,
+              "ports": [
+                {
+                  "id": "2d6e2034-dfdd-4807-849d-58d2b78ff8f2",
+                  "type": "default",
+                  "x": 201,
+                  "y": 577,
+                  "name": "in-1718559826845 ",
+                  "alignment": "left",
+                  "parentNode": "756f71f9-bcb4-4320-977e-581c31f61bb6",
+                  "links": [
+                    "15af142b-16b3-4dc6-a98b-08af31e9b864"
+                  ],
+                  "in": true,
+                  "label": "❯"
+                },
+                {
+                  "id": "242f2bf2-c2ef-4080-9801-6e2eae05407f",
+                  "type": "default",
+                  "x": 669.6875,
+                  "y": 577,
+                  "name": "out-1718559826845",
+                  "alignment": "right",
+                  "parentNode": "756f71f9-bcb4-4320-977e-581c31f61bb6",
+                  "links": [
+                    "2bd927e8-187b-43ec-8c19-011f3f4e8c27"
+                  ],
+                  "in": false,
+                  "label": "❯"
+                }
+              ],
+              "title": "<player>",
+              "color": "#dd341ee6",
+              "portsInOrder": [
+                "2d6e2034-dfdd-4807-849d-58d2b78ff8f2"
+              ],
+              "portsOutOrder": [
+                "242f2bf2-c2ef-4080-9801-6e2eae05407f"
+              ],
+              "text": "A spa business? Do you really think these Corsairs are\nthe washing type?"
+            },
+            "8159a9d8-4020-4533-b6b1-4ae3e19b7af9": {
+              "id": "8159a9d8-4020-4533-b6b1-4ae3e19b7af9",
+              "type": "dialogue",
+              "x": 214,
+              "y": 624,
+              "ports": [
+                {
+                  "id": "20edafd1-5d19-4d70-8015-fab9f5407cf3",
+                  "type": "default",
+                  "x": 201,
+                  "y": 655,
+                  "name": "in-1718559831646 ",
+                  "alignment": "left",
+                  "parentNode": "8159a9d8-4020-4533-b6b1-4ae3e19b7af9",
+                  "links": [
+                    "2bd927e8-187b-43ec-8c19-011f3f4e8c27"
+                  ],
+                  "in": true,
+                  "label": "❯"
+                },
+                {
+                  "id": "437f1a42-9425-42b9-84b3-a083a316cb4d",
+                  "type": "default",
+                  "x": 501.125,
+                  "y": 655,
+                  "name": "out-1718559831646",
+                  "alignment": "right",
+                  "parentNode": "8159a9d8-4020-4533-b6b1-4ae3e19b7af9",
+                  "links": [
+                    "f0880e5b-0a2d-4e59-a50f-93633977f1e1"
+                  ],
+                  "in": false,
+                  "label": "❯"
+                }
+              ],
+              "title": "Madame Caldarium",
+              "color": "#dd341ee6",
+              "portsInOrder": [
+                "20edafd1-5d19-4d70-8015-fab9f5407cf3"
+              ],
+              "portsOutOrder": [
+                "437f1a42-9425-42b9-84b3-a083a316cb4d"
+              ],
+              "text": "Ha! That's what the Rum is for!"
+            },
+            "2e6c101e-6080-4000-baa4-a056088e41a2": {
+              "id": "2e6c101e-6080-4000-baa4-a056088e41a2",
+              "type": "dialogue",
+              "x": 214,
+              "y": 687,
+              "ports": [
+                {
+                  "id": "89aaf7d8-84ae-415a-be11-7b518a873837",
+                  "type": "default",
+                  "x": 201,
+                  "y": 718,
+                  "name": "in-1718559838245 ",
+                  "alignment": "left",
+                  "parentNode": "2e6c101e-6080-4000-baa4-a056088e41a2",
+                  "links": [
+                    "f0880e5b-0a2d-4e59-a50f-93633977f1e1"
+                  ],
+                  "in": true,
+                  "label": "❯"
+                },
+                {
+                  "id": "57d1c7dc-e061-478b-9fae-e2dff2677f93",
+                  "type": "default",
+                  "x": 677.015625,
+                  "y": 718,
+                  "name": "out-1718559838245",
+                  "alignment": "right",
+                  "parentNode": "2e6c101e-6080-4000-baa4-a056088e41a2",
+                  "links": [
+                    "6e5c584c-7aa9-4d06-8332-76a05dfb6c4a"
+                  ],
+                  "in": false,
+                  "label": "❯"
+                }
+              ],
+              "title": "Madame Caldarium",
+              "color": "#dd341ee6",
+              "portsInOrder": [
+                "89aaf7d8-84ae-415a-be11-7b518a873837"
+              ],
+              "portsOutOrder": [
+                "57d1c7dc-e061-478b-9fae-e2dff2677f93"
+              ],
+              "text": " I'm more concerned of their laziness, 'Can't work\ntoday Madame, I'm cursed!'. Bunch of idiots, the lot of\n'em."
+            },
+            "86bed399-4962-48ce-8775-41bd962c705b": {
+              "id": "86bed399-4962-48ce-8775-41bd962c705b",
+              "type": "dialogue",
+              "x": 214,
+              "y": 795,
+              "ports": [
+                {
+                  "id": "9f01b459-6738-42ca-aef3-d93e99ead4ce",
+                  "type": "default",
+                  "x": 201,
+                  "y": 826,
+                  "name": "in-1718559847246 ",
+                  "alignment": "left",
+                  "parentNode": "86bed399-4962-48ce-8775-41bd962c705b",
+                  "links": [
+                    "6e5c584c-7aa9-4d06-8332-76a05dfb6c4a"
+                  ],
+                  "in": true,
+                  "label": "❯"
+                },
+                {
+                  "id": "cafa9c5b-c881-4215-ba92-50bbb9c41b40",
+                  "type": "default",
+                  "x": 691.671875,
+                  "y": 826,
+                  "name": "out-1718559847246",
+                  "alignment": "right",
+                  "parentNode": "86bed399-4962-48ce-8775-41bd962c705b",
+                  "links": [
+                    "1da4a6ed-4cb8-491c-91bb-8069cbb360e1"
+                  ],
+                  "in": false,
+                  "label": "❯"
+                }
+              ],
+              "title": "<player>",
+              "color": "#dd341ee6",
+              "portsInOrder": [
+                "9f01b459-6738-42ca-aef3-d93e99ead4ce"
+              ],
+              "portsOutOrder": [
+                "cafa9c5b-c881-4215-ba92-50bbb9c41b40"
+              ],
+              "text": "Surely you never expected this lot to be any different...\nThey're either stealing, killing or both!"
+            },
+            "4a85696f-4f58-492e-88db-ac7fbf14eeb2": {
+              "id": "4a85696f-4f58-492e-88db-ac7fbf14eeb2",
+              "type": "dialogue",
+              "selected": false,
+              "x": 214,
+              "y": 873,
+              "ports": [
+                {
+                  "id": "5bc5e256-b497-4b6b-ab92-4292f7b1fb2b",
+                  "type": "default",
+                  "x": 201,
+                  "y": 904,
+                  "name": "in-1718559855045 ",
+                  "alignment": "left",
+                  "parentNode": "4a85696f-4f58-492e-88db-ac7fbf14eeb2",
+                  "links": [
+                    "1da4a6ed-4cb8-491c-91bb-8069cbb360e1"
+                  ],
+                  "in": true,
+                  "label": "❯"
+                },
+                {
+                  "id": "bd865532-9e03-40f2-9a28-c847d9ad6361",
+                  "type": "default",
+                  "x": 677.015625,
+                  "y": 904,
+                  "name": "out-1718559855045",
+                  "alignment": "right",
+                  "parentNode": "4a85696f-4f58-492e-88db-ac7fbf14eeb2",
+                  "links": [
+                    "c4cbd070-4548-4351-9026-3503bb107e7a"
+                  ],
+                  "in": false,
+                  "label": "❯"
+                }
+              ],
+              "title": "Madame Caldarium",
+              "color": "#dd341ee6",
+              "portsInOrder": [
+                "5bc5e256-b497-4b6b-ab92-4292f7b1fb2b"
+              ],
+              "portsOutOrder": [
+                "bd865532-9e03-40f2-9a28-c847d9ad6361"
+              ],
+              "text": "Yes... I have plans adventurer, the local cave dwelling\npopulation are... Let's say, sorting something out."
+            },
+            "fc56e666-36b2-4a7f-a3f2-744d6a7d56f0": {
+              "id": "fc56e666-36b2-4a7f-a3f2-744d6a7d56f0",
+              "type": "dialogue",
+              "selected": false,
+              "x": 214,
+              "y": 951,
+              "ports": [
+                {
+                  "id": "9362b223-d89c-49fe-8efe-ff980c043c15",
+                  "type": "default",
+                  "x": 201,
+                  "y": 982,
+                  "name": "in-1718559862846 ",
+                  "alignment": "left",
+                  "parentNode": "fc56e666-36b2-4a7f-a3f2-744d6a7d56f0",
+                  "links": [
+                    "c4cbd070-4548-4351-9026-3503bb107e7a"
+                  ],
+                  "in": true,
+                  "label": "❯"
+                },
+                {
+                  "id": "e895ac68-ed72-45fe-8a2c-27a3617c1611",
+                  "type": "default",
+                  "x": 684.34375,
+                  "y": 982,
+                  "name": "out-1718559862847",
+                  "alignment": "right",
+                  "parentNode": "fc56e666-36b2-4a7f-a3f2-744d6a7d56f0",
+                  "links": [
+                    "64bb7dd3-aab8-4bb0-9b79-f676b8cff1de"
+                  ],
+                  "in": false,
+                  "label": "❯"
+                }
+              ],
+              "title": "<player>",
+              "color": "#dd341ee6",
+              "portsInOrder": [
+                "9362b223-d89c-49fe-8efe-ff980c043c15"
+              ],
+              "portsOutOrder": [
+                "e895ac68-ed72-45fe-8a2c-27a3617c1611"
+              ],
+              "text": "Interesting, I'm sure that'll be an entertaining turn of\nevents."
+            },
+            "0b47690c-d7c0-49e9-8094-2d601ceef023": {
+              "id": "0b47690c-d7c0-49e9-8094-2d601ceef023",
+              "type": "dialogue",
+              "x": 214,
+              "y": 1029,
+              "ports": [
+                {
+                  "id": "b54d3070-ebf2-41d4-b822-971e494d8fd9",
+                  "type": "default",
+                  "x": 201,
+                  "y": 1060,
+                  "name": "in-1718559866446 ",
+                  "alignment": "left",
+                  "parentNode": "0b47690c-d7c0-49e9-8094-2d601ceef023",
+                  "links": [
+                    "64bb7dd3-aab8-4bb0-9b79-f676b8cff1de"
+                  ],
+                  "in": true,
+                  "label": "❯"
+                },
+                {
+                  "id": "1a956c1b-dc3a-47f2-92a7-b493d6decb41",
+                  "type": "default",
+                  "x": 361.875,
+                  "y": 1060,
+                  "name": "out-1718559866446",
+                  "alignment": "right",
+                  "parentNode": "0b47690c-d7c0-49e9-8094-2d601ceef023",
+                  "links": [],
+                  "in": false,
+                  "label": "❯"
+                }
+              ],
+              "title": "Madame Caldarium",
+              "color": "#dd341ee6",
+              "portsInOrder": [
+                "b54d3070-ebf2-41d4-b822-971e494d8fd9"
+              ],
+              "portsOutOrder": [
+                "1a956c1b-dc3a-47f2-92a7-b493d6decb41"
+              ],
+              "text": "We'll see..."
+            },
+            "6fc6c608-d36d-4189-80cf-e6d7bf27dbd5": {
+              "id": "6fc6c608-d36d-4189-80cf-e6d7bf27dbd5",
+              "type": "dialogue",
+              "selected": false,
+              "x": -74,
+              "y": 376,
+              "ports": [
+                {
+                  "id": "9ea65459-3647-47b6-959d-7c9e416a51f7",
+                  "type": "default",
+                  "x": -87,
+                  "y": 407,
+                  "name": "in-1718559880848 ",
+                  "alignment": "left",
+                  "parentNode": "6fc6c608-d36d-4189-80cf-e6d7bf27dbd5",
+                  "links": [
+                    "f9fa4060-9b23-438e-8f50-ae2eaa778757",
+                    "c6848903-42ae-472c-91ad-8d8a2c351f31"
+                  ],
+                  "in": true,
+                  "label": "❯"
+                },
+                {
+                  "id": "7cea86a3-7af7-404e-a92e-47d5b5290564",
+                  "type": "default",
+                  "x": 44.5625,
+                  "y": 407,
+                  "name": "out-1718559880848",
+                  "alignment": "right",
+                  "parentNode": "6fc6c608-d36d-4189-80cf-e6d7bf27dbd5",
+                  "links": [
+                    "2f176b8e-6502-4563-a577-df55d77f55b8"
+                  ],
+                  "in": false,
+                  "label": "❯"
+                }
+              ],
+              "title": "<player>",
+              "color": "#dd341ee6",
+              "portsInOrder": [
+                "9ea65459-3647-47b6-959d-7c9e416a51f7"
+              ],
+              "portsOutOrder": [
+                "7cea86a3-7af7-404e-a92e-47d5b5290564"
+              ],
+              "text": "Goodbye!"
+            },
+            "0e66aa31-a7d1-4ae4-9ff0-0122e440c678": {
+              "id": "0e66aa31-a7d1-4ae4-9ff0-0122e440c678",
+              "type": "dialogue",
+              "selected": false,
+              "x": -74,
+              "y": 439,
+              "ports": [
+                {
+                  "id": "ff70c450-7b3f-46d1-b6dd-27e3a0b3b317",
+                  "type": "default",
+                  "x": -87,
+                  "y": 470,
+                  "name": "in-1718559888647 ",
+                  "alignment": "left",
+                  "parentNode": "0e66aa31-a7d1-4ae4-9ff0-0122e440c678",
+                  "links": [
+                    "2f176b8e-6502-4563-a577-df55d77f55b8"
+                  ],
+                  "in": true,
+                  "label": "❯"
+                },
+                {
+                  "id": "ba144ac9-caee-43af-ac70-b9d3a538adfd",
+                  "type": "default",
+                  "x": 139.84375,
+                  "y": 470,
+                  "name": "out-1718559888647",
+                  "alignment": "right",
+                  "parentNode": "0e66aa31-a7d1-4ae4-9ff0-0122e440c678",
+                  "links": [],
+                  "in": false,
+                  "label": "❯"
+                }
+              ],
+              "title": "Madame Caldarium",
+              "color": "#dd341ee6",
+              "portsInOrder": [
+                "ff70c450-7b3f-46d1-b6dd-27e3a0b3b317"
+              ],
+              "portsOutOrder": [
+                "ba144ac9-caee-43af-ac70-b9d3a538adfd"
+              ],
+              "text": "Farewell, adventurer."
+            }
+          }
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,199 @@
+{
+  "id": "75ef751d-3c66-4d05-b551-fc82ca5d4fad",
+  "offsetX": 0,
+  "offsetY": 0,
+  "zoom": 100,
+  "gridSize": 0,
+  "layers": [
+    {
+      "id": "02500000-8945-497d-ae05-7ff45f406ceb",
+      "type": "diagram-links",
+      "isSvg": true,
+      "transformed": true,
+      "models": {
+        "ca4ba599-4bb7-4a16-88ff-9206a1258c21": {
+          "id": "ca4ba599-4bb7-4a16-88ff-9206a1258c21",
+          "type": "default",
+          "source": "0f2a7ee1-f6ad-4492-99a5-6a91011b47eb",
+          "sourcePort": "1119554f-a48a-4238-bbf1-a798d6d17da2",
+          "target": "cb939260-aabf-4eb5-a500-7d4e03b40023",
+          "targetPort": "8e0dd265-a097-4c6a-b2f9-471ea95b2b3d",
+          "points": [
+            {
+              "id": "f573130c-e3d9-4557-af08-75c3b075a713",
+              "type": "point",
+              "x": 342.171875,
+              "y": 62.5
+            },
+            {
+              "id": "6cbbdcd1-6d0f-4f14-b865-9cb2f443590a",
+              "type": "point",
+              "x": 161.5,
+              "y": 125.5
+            }
+          ],
+          "labels": [],
+          "width": 3,
+          "color": "gray",
+          "curvyness": 50,
+          "selectedColor": "rgb(0,192,255)"
+        },
+        "6ee1244e-7823-4c2e-8466-8aedefd6e51a": {
+          "id": "6ee1244e-7823-4c2e-8466-8aedefd6e51a",
+          "type": "default",
+          "selected": false,
+          "source": "916c3c64-a37e-47b8-a570-9208dc5b0b93",
+          "sourcePort": "9d1c8381-0763-45dd-aa55-dd3b27cab913",
+          "target": "0f2a7ee1-f6ad-4492-99a5-6a91011b47eb",
+          "targetPort": "7426d4b0-5389-40d9-99f8-a53abcadbf7e",
+          "points": [
+            {
+              "id": "3cbabf3d-2eaa-4375-bbb4-67b597a67941",
+              "type": "point",
+              "x": 133.296875,
+              "y": 64.5
+            },
+            {
+              "id": "3c493fb7-2657-4ec2-9fd7-6c9701d32ce6",
+              "type": "point",
+              "x": 161.5,
+              "y": 62.5
+            }
+          ],
+          "labels": [],
+          "width": 3,
+          "color": "gray",
+          "curvyness": 50,
+          "selectedColor": "rgb(0,192,255)"
+        }
+      }
+    },
+    {
+      "id": "56da5061-812e-44ca-877b-dd4649784c74",
+      "type": "diagram-nodes",
+      "isSvg": false,
+      "transformed": true,
+      "models": {
+        "916c3c64-a37e-47b8-a570-9208dc5b0b93": {
+          "id": "916c3c64-a37e-47b8-a570-9208dc5b0b93",
+          "type": "start",
+          "x": 50,
+          "y": 50,
+          "ports": [
+            {
+              "id": "9d1c8381-0763-45dd-aa55-dd3b27cab913",
+              "type": "default",
+              "x": 125.796875,
+              "y": 57,
+              "name": "out-1723447939215",
+              "alignment": "right",
+              "parentNode": "916c3c64-a37e-47b8-a570-9208dc5b0b93",
+              "links": [
+                "6ee1244e-7823-4c2e-8466-8aedefd6e51a"
+              ],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Start",
+          "color": "#16db26e6",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "9d1c8381-0763-45dd-aa55-dd3b27cab913"
+          ]
+        },
+        "0f2a7ee1-f6ad-4492-99a5-6a91011b47eb": {
+          "id": "0f2a7ee1-f6ad-4492-99a5-6a91011b47eb",
+          "type": "dialogue",
+          "selected": false,
+          "x": 167,
+          "y": 24,
+          "ports": [
+            {
+              "id": "7426d4b0-5389-40d9-99f8-a53abcadbf7e",
+              "type": "default",
+              "x": 154,
+              "y": 55,
+              "name": "in-1723447945441 ",
+              "alignment": "left",
+              "parentNode": "0f2a7ee1-f6ad-4492-99a5-6a91011b47eb",
+              "links": [
+                "6ee1244e-7823-4c2e-8466-8aedefd6e51a"
+              ],
+              "in": true,
+              "label": "❯"
+            },
+            {
+              "id": "1119554f-a48a-4238-bbf1-a798d6d17da2",
+              "type": "default",
+              "x": 334.671875,
+              "y": 55,
+              "name": "out-1723447945441",
+              "alignment": "right",
+              "parentNode": "0f2a7ee1-f6ad-4492-99a5-6a91011b47eb",
+              "links": [
+                "ca4ba599-4bb7-4a16-88ff-9206a1258c21"
+              ],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Ithoi the Navigator",
+          "color": "#dd341ee6",
+          "portsInOrder": [
+            "7426d4b0-5389-40d9-99f8-a53abcadbf7e"
+          ],
+          "portsOutOrder": [
+            "1119554f-a48a-4238-bbf1-a798d6d17da2"
+          ],
+          "text": "Urgh..."
+        },
+        "cb939260-aabf-4eb5-a500-7d4e03b40023": {
+          "id": "cb939260-aabf-4eb5-a500-7d4e03b40023",
+          "type": "dialogue",
+          "selected": false,
+          "x": 167,
+          "y": 87,
+          "ports": [
+            {
+              "id": "8e0dd265-a097-4c6a-b2f9-471ea95b2b3d",
+              "type": "default",
+              "x": 154,
+              "y": 118,
+              "name": "in-1723447948427 ",
+              "alignment": "left",
+              "parentNode": "cb939260-aabf-4eb5-a500-7d4e03b40023",
+              "links": [
+                "ca4ba599-4bb7-4a16-88ff-9206a1258c21"
+              ],
+              "in": true,
+              "label": "❯"
+            },
+            {
+              "id": "51a1f30a-deb6-42e5-8c43-e80baf227a29",
+              "type": "default",
+              "x": 417.484375,
+              "y": 118,
+              "name": "out-1723447948427",
+              "alignment": "right",
+              "parentNode": "cb939260-aabf-4eb5-a500-7d4e03b40023",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "",
+          "color": "#dd341ee6",
+          "portsInOrder": [
+            "8e0dd265-a097-4c6a-b2f9-471ea95b2b3d"
+          ],
+          "portsOutOrder": [
+            "51a1f30a-deb6-42e5-8c43-e80baf227a29"
+          ],
+          "text": "He looks too sick to chat."
+        }
+      }
+    }
+  ],
+  "trees": {}
+}

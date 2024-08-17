@@ -1,0 +1,199 @@
+{
+  "id": "3a8dd930-79a4-4542-8444-8225add49583",
+  "offsetX": 0,
+  "offsetY": 0,
+  "zoom": 100,
+  "gridSize": 0,
+  "layers": [
+    {
+      "id": "f741d0fe-43cd-4358-a6fb-9c16922b4e9c",
+      "type": "diagram-links",
+      "isSvg": true,
+      "transformed": true,
+      "models": {
+        "c54fa33a-f4ab-4884-ab39-f3494beb7b2c": {
+          "id": "c54fa33a-f4ab-4884-ab39-f3494beb7b2c",
+          "type": "default",
+          "source": "bd96b216-f7ab-4403-9a95-c651f48908ae",
+          "sourcePort": "f24ae36c-91d5-4d00-bb97-5d2399a85247",
+          "target": "bd2e9be2-62aa-43b6-9edc-e32630bd8f48",
+          "targetPort": "4a98bb95-34f7-4dd8-8d65-05f640cdb9b2",
+          "points": [
+            {
+              "id": "ef08f960-1546-4f2a-ae18-9c1c2cc3a505",
+              "type": "point",
+              "x": 318.375,
+              "y": 65.5
+            },
+            {
+              "id": "da7b5cfc-e92f-44d2-a6a9-36d89270a5fa",
+              "type": "point",
+              "x": 157.5,
+              "y": 128.5
+            }
+          ],
+          "labels": [],
+          "width": 3,
+          "color": "gray",
+          "curvyness": 50,
+          "selectedColor": "rgb(0,192,255)"
+        },
+        "56b28c08-28b8-4dae-96c2-225734fa3db9": {
+          "id": "56b28c08-28b8-4dae-96c2-225734fa3db9",
+          "type": "default",
+          "selected": false,
+          "source": "22a689b4-2409-4f83-9c29-782d530465a1",
+          "sourcePort": "9e38d05c-1ae7-41f7-94fc-f1732db69a9a",
+          "target": "bd96b216-f7ab-4403-9a95-c651f48908ae",
+          "targetPort": "14b89484-1c0b-4e3c-a1df-597774faaa38",
+          "points": [
+            {
+              "id": "d00620e8-a42e-465f-b5b8-9e255409638a",
+              "type": "point",
+              "x": 133.296875,
+              "y": 64.5
+            },
+            {
+              "id": "a5edf78e-8901-4dc4-badc-80945ab3df9f",
+              "type": "point",
+              "x": 157.5,
+              "y": 65.5
+            }
+          ],
+          "labels": [],
+          "width": 3,
+          "color": "gray",
+          "curvyness": 50,
+          "selectedColor": "rgb(0,192,255)"
+        }
+      }
+    },
+    {
+      "id": "8b64435f-8c53-45b6-bc75-ce8791a3df93",
+      "type": "diagram-nodes",
+      "isSvg": false,
+      "transformed": true,
+      "models": {
+        "22a689b4-2409-4f83-9c29-782d530465a1": {
+          "id": "22a689b4-2409-4f83-9c29-782d530465a1",
+          "type": "start",
+          "x": 50,
+          "y": 50,
+          "ports": [
+            {
+              "id": "9e38d05c-1ae7-41f7-94fc-f1732db69a9a",
+              "type": "default",
+              "x": 125.796875,
+              "y": 57,
+              "name": "out-1713875961951",
+              "alignment": "right",
+              "parentNode": "22a689b4-2409-4f83-9c29-782d530465a1",
+              "links": [
+                "56b28c08-28b8-4dae-96c2-225734fa3db9"
+              ],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Start",
+          "color": "#16db26e6",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "9e38d05c-1ae7-41f7-94fc-f1732db69a9a"
+          ]
+        },
+        "bd96b216-f7ab-4403-9a95-c651f48908ae": {
+          "id": "bd96b216-f7ab-4403-9a95-c651f48908ae",
+          "type": "dialogue",
+          "selected": false,
+          "x": 163,
+          "y": 27,
+          "ports": [
+            {
+              "id": "14b89484-1c0b-4e3c-a1df-597774faaa38",
+              "type": "default",
+              "x": 150,
+              "y": 58,
+              "name": "in-1713875969797 ",
+              "alignment": "left",
+              "parentNode": "bd96b216-f7ab-4403-9a95-c651f48908ae",
+              "links": [
+                "56b28c08-28b8-4dae-96c2-225734fa3db9"
+              ],
+              "in": true,
+              "label": "❯"
+            },
+            {
+              "id": "f24ae36c-91d5-4d00-bb97-5d2399a85247",
+              "type": "default",
+              "x": 310.875,
+              "y": 58,
+              "name": "out-1713875969797",
+              "alignment": "right",
+              "parentNode": "bd96b216-f7ab-4403-9a95-c651f48908ae",
+              "links": [
+                "c54fa33a-f4ab-4884-ab39-f3494beb7b2c"
+              ],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "<player>",
+          "color": "#dd341ee6",
+          "portsInOrder": [
+            "14b89484-1c0b-4e3c-a1df-597774faaa38"
+          ],
+          "portsOutOrder": [
+            "f24ae36c-91d5-4d00-bb97-5d2399a85247"
+          ],
+          "text": "Hello there."
+        },
+        "bd2e9be2-62aa-43b6-9edc-e32630bd8f48": {
+          "id": "bd2e9be2-62aa-43b6-9edc-e32630bd8f48",
+          "type": "dialogue",
+          "selected": false,
+          "x": 163,
+          "y": 90,
+          "ports": [
+            {
+              "id": "4a98bb95-34f7-4dd8-8d65-05f640cdb9b2",
+              "type": "default",
+              "x": 150,
+              "y": 121,
+              "name": "in-1713875970986 ",
+              "alignment": "left",
+              "parentNode": "bd2e9be2-62aa-43b6-9edc-e32630bd8f48",
+              "links": [
+                "c54fa33a-f4ab-4884-ab39-f3494beb7b2c"
+              ],
+              "in": true,
+              "label": "❯"
+            },
+            {
+              "id": "84133515-53a8-4d08-9b61-b4dd3d608727",
+              "type": "default",
+              "x": 604.03125,
+              "y": 121,
+              "name": "out-1713875970986",
+              "alignment": "right",
+              "parentNode": "bd2e9be2-62aa-43b6-9edc-e32630bd8f48",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Ranging Guild Doorman",
+          "color": "#dd341ee6",
+          "portsInOrder": [
+            "4a98bb95-34f7-4dd8-8d65-05f640cdb9b2"
+          ],
+          "portsOutOrder": [
+            "84133515-53a8-4d08-9b61-b4dd3d608727"
+          ],
+          "text": "Greetings. If you are an experienced archer, you may\nwant to visit the guild here..."
+        }
+      }
+    }
+  ],
+  "trees": {}
+}

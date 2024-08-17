@@ -1,0 +1,354 @@
+{
+  "id": "b7a6be05-f517-4c58-b555-8012e81061e6",
+  "offsetX": 31,
+  "offsetY": 62,
+  "zoom": 100,
+  "gridSize": 0,
+  "layers": [
+    {
+      "id": "d80d03c2-e148-4e57-917a-5c01e31939f2",
+      "type": "diagram-links",
+      "isSvg": true,
+      "transformed": true,
+      "models": {
+        "d9241d0a-6324-4b13-b246-b814eaa7c3dc": {
+          "id": "d9241d0a-6324-4b13-b246-b814eaa7c3dc",
+          "type": "default",
+          "selected": false,
+          "source": "a0fd1fbe-f5c1-44f6-ae7b-1f015a4f62fa",
+          "sourcePort": "49d09ce7-5618-4213-817f-1f12c25397e8",
+          "target": "a6e88db1-d157-4eea-b77a-69db6b96f2c4",
+          "targetPort": "61899e1e-161e-4643-9724-bfe022771661",
+          "points": [
+            {
+              "id": "6d03a9d4-eaf5-45ae-9415-852494e0f64d",
+              "type": "point",
+              "x": 133.296875,
+              "y": 64.5
+            },
+            {
+              "id": "d22926d2-99ae-4bc6-b023-9bcbf4cfc7b4",
+              "type": "point",
+              "x": 179.5,
+              "y": 63.5
+            }
+          ],
+          "labels": [],
+          "width": 3,
+          "color": "gray",
+          "curvyness": 50,
+          "selectedColor": "rgb(0,192,255)"
+        },
+        "459bd253-2596-47e1-adbb-d796bbb92c11": {
+          "id": "459bd253-2596-47e1-adbb-d796bbb92c11",
+          "type": "default",
+          "selected": false,
+          "source": "a6e88db1-d157-4eea-b77a-69db6b96f2c4",
+          "sourcePort": "53491e96-3ab2-4a8b-b4ba-9d92a9b4769a",
+          "target": "d2f9a5e3-6cff-446f-b923-a4eb1a04ae77",
+          "targetPort": "3dde10d3-ca8d-4d8b-994e-352737cfb7e8",
+          "points": [
+            {
+              "id": "7d5bee08-98e1-4433-aa94-d5e1bb6d1795",
+              "type": "point",
+              "x": 513.03125,
+              "y": 80.5
+            },
+            {
+              "id": "f768e57e-f007-4a7f-8399-a7b90467bad3",
+              "type": "point",
+              "x": 544.5,
+              "y": 78
+            }
+          ],
+          "labels": [],
+          "width": 3,
+          "color": "gray",
+          "curvyness": 50,
+          "selectedColor": "rgb(0,192,255)"
+        }
+      }
+    },
+    {
+      "id": "fe63e45f-0f50-4622-9c2c-d2043d93d503",
+      "type": "diagram-nodes",
+      "isSvg": false,
+      "transformed": true,
+      "models": {
+        "a0fd1fbe-f5c1-44f6-ae7b-1f015a4f62fa": {
+          "id": "a0fd1fbe-f5c1-44f6-ae7b-1f015a4f62fa",
+          "type": "start",
+          "x": 50,
+          "y": 50,
+          "ports": [
+            {
+              "id": "49d09ce7-5618-4213-817f-1f12c25397e8",
+              "type": "default",
+              "x": 125.796875,
+              "y": 57,
+              "name": "out-1718559145709",
+              "alignment": "right",
+              "parentNode": "a0fd1fbe-f5c1-44f6-ae7b-1f015a4f62fa",
+              "links": [
+                "d9241d0a-6324-4b13-b246-b814eaa7c3dc"
+              ],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Start",
+          "color": "#16db26e6",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "49d09ce7-5618-4213-817f-1f12c25397e8"
+          ]
+        },
+        "6f6200f6-1d24-4075-a155-1b3cc8dcb214": {
+          "id": "6f6200f6-1d24-4075-a155-1b3cc8dcb214",
+          "type": "note",
+          "selected": false,
+          "x": 191,
+          "y": 174,
+          "ports": [],
+          "title": "Note",
+          "color": "#19e0e7e6",
+          "portsInOrder": [],
+          "portsOutOrder": [],
+          "text": "Corsair Curse"
+        },
+        "d2f9a5e3-6cff-446f-b923-a4eb1a04ae77": {
+          "id": "d2f9a5e3-6cff-446f-b923-a4eb1a04ae77",
+          "type": "tree",
+          "selected": false,
+          "x": 546,
+          "y": 56,
+          "ports": [
+            {
+              "id": "3dde10d3-ca8d-4d8b-994e-352737cfb7e8",
+              "type": "default",
+              "x": 537,
+              "y": 70.5,
+              "name": "in-1718559467770 ",
+              "alignment": "left",
+              "parentNode": "d2f9a5e3-6cff-446f-b923-a4eb1a04ae77",
+              "links": [
+                "459bd253-2596-47e1-adbb-d796bbb92c11"
+              ],
+              "in": true,
+              "label": "❯"
+            }
+          ],
+          "title": "Tree",
+          "color": "#e02e87e6",
+          "portsInOrder": [
+            "3dde10d3-ca8d-4d8b-994e-352737cfb7e8"
+          ],
+          "portsOutOrder": [],
+          "tree": "before_quest",
+          "start": "Start"
+        },
+        "a6e88db1-d157-4eea-b77a-69db6b96f2c4": {
+          "id": "a6e88db1-d157-4eea-b77a-69db6b96f2c4",
+          "type": "condition",
+          "selected": false,
+          "x": 185,
+          "y": 25,
+          "ports": [
+            {
+              "id": "61899e1e-161e-4643-9724-bfe022771661",
+              "type": "default",
+              "x": 172,
+              "y": 56,
+              "name": "in-1723371040430 ",
+              "alignment": "left",
+              "parentNode": "a6e88db1-d157-4eea-b77a-69db6b96f2c4",
+              "links": [
+                "d9241d0a-6324-4b13-b246-b814eaa7c3dc"
+              ],
+              "in": true,
+              "label": "❯"
+            },
+            {
+              "id": "626f1e95-b0d2-45e2-9a04-0a2581c88731",
+              "type": "default",
+              "x": 503.390625,
+              "y": 56,
+              "name": "out-1723371040430",
+              "alignment": "right",
+              "parentNode": "a6e88db1-d157-4eea-b77a-69db6b96f2c4",
+              "links": [],
+              "in": false,
+              "label": "true"
+            },
+            {
+              "id": "53491e96-3ab2-4a8b-b4ba-9d92a9b4769a",
+              "type": "default",
+              "x": 505.53125,
+              "y": 73,
+              "name": "out-17233710404301",
+              "alignment": "right",
+              "parentNode": "a6e88db1-d157-4eea-b77a-69db6b96f2c4",
+              "links": [
+                "459bd253-2596-47e1-adbb-d796bbb92c11"
+              ],
+              "in": false,
+              "label": "false"
+            }
+          ],
+          "title": "Condition",
+          "color": "#02630ae6",
+          "portsInOrder": [
+            "61899e1e-161e-4643-9724-bfe022771661"
+          ],
+          "portsOutOrder": [
+            "626f1e95-b0d2-45e2-9a04-0a2581c88731",
+            "53491e96-3ab2-4a8b-b4ba-9d92a9b4769a"
+          ],
+          "conditions": {
+            "conditions": [
+              "basicCondition"
+            ],
+            "args": [
+              [
+                "false"
+              ]
+            ],
+            "ors": [
+              false
+            ],
+            "negates": [
+              false
+            ]
+          }
+        }
+      }
+    }
+  ],
+  "trees": {
+    "before_quest": {
+      "id": "167b7844-b858-480d-8a9b-dea9e210c2b8",
+      "offsetX": 0,
+      "offsetY": 0,
+      "zoom": 100,
+      "gridSize": 0,
+      "layers": [
+        {
+          "id": "819b6fc7-de88-4919-969b-a3b729657c7c",
+          "type": "diagram-links",
+          "isSvg": true,
+          "transformed": true,
+          "models": {
+            "913a9a1c-9bec-4475-889a-328aef536296": {
+              "id": "913a9a1c-9bec-4475-889a-328aef536296",
+              "type": "default",
+              "selected": false,
+              "source": "594d1017-dabb-463c-82cf-c2199a77ced2",
+              "sourcePort": "5b9b9d59-44be-49a3-b517-697cff79cec2",
+              "target": "ea5d8786-f6d5-4438-b8eb-b2c63be59015",
+              "targetPort": "9d367dfb-abbc-49b1-a959-70b72c5265aa",
+              "points": [
+                {
+                  "id": "6f093c90-c540-4af5-8de6-40f6cf57290a",
+                  "type": "point",
+                  "x": 133.296875,
+                  "y": 64.5
+                },
+                {
+                  "id": "e1565f15-92af-4304-956c-be9c45fdebc7",
+                  "type": "point",
+                  "x": 200.5,
+                  "y": 122.5
+                }
+              ],
+              "labels": [],
+              "width": 3,
+              "color": "gray",
+              "curvyness": 50,
+              "selectedColor": "rgb(0,192,255)"
+            }
+          }
+        },
+        {
+          "id": "f9601399-169c-4671-8589-ec35bcadb07a",
+          "type": "diagram-nodes",
+          "isSvg": false,
+          "transformed": true,
+          "models": {
+            "594d1017-dabb-463c-82cf-c2199a77ced2": {
+              "id": "594d1017-dabb-463c-82cf-c2199a77ced2",
+              "type": "start",
+              "x": 50,
+              "y": 50,
+              "ports": [
+                {
+                  "id": "5b9b9d59-44be-49a3-b517-697cff79cec2",
+                  "type": "default",
+                  "x": 125.796875,
+                  "y": 57,
+                  "name": "out-1718559479492",
+                  "alignment": "right",
+                  "parentNode": "594d1017-dabb-463c-82cf-c2199a77ced2",
+                  "links": [
+                    "913a9a1c-9bec-4475-889a-328aef536296"
+                  ],
+                  "in": false,
+                  "label": "❯"
+                }
+              ],
+              "title": "Start",
+              "color": "#16db26e6",
+              "portsInOrder": [],
+              "portsOutOrder": [
+                "5b9b9d59-44be-49a3-b517-697cff79cec2"
+              ]
+            },
+            "ea5d8786-f6d5-4438-b8eb-b2c63be59015": {
+              "id": "ea5d8786-f6d5-4438-b8eb-b2c63be59015",
+              "type": "dialogue",
+              "selected": false,
+              "x": 206,
+              "y": 84,
+              "ports": [
+                {
+                  "id": "9d367dfb-abbc-49b1-a959-70b72c5265aa",
+                  "type": "default",
+                  "x": 193,
+                  "y": 115,
+                  "name": "in-1718559482386 ",
+                  "alignment": "left",
+                  "parentNode": "ea5d8786-f6d5-4438-b8eb-b2c63be59015",
+                  "links": [
+                    "913a9a1c-9bec-4475-889a-328aef536296"
+                  ],
+                  "in": true,
+                  "label": "❯"
+                },
+                {
+                  "id": "6399de18-e647-4f9f-a870-a4c7f4cc17e5",
+                  "type": "default",
+                  "x": 434.5,
+                  "y": 115,
+                  "name": "out-1718559482386",
+                  "alignment": "right",
+                  "parentNode": "ea5d8786-f6d5-4438-b8eb-b2c63be59015",
+                  "links": [],
+                  "in": false,
+                  "label": "❯"
+                }
+              ],
+              "title": "Yusuf",
+              "color": "#dd341ee6",
+              "portsInOrder": [
+                "9d367dfb-abbc-49b1-a959-70b72c5265aa"
+              ],
+              "portsOutOrder": [
+                "6399de18-e647-4f9f-a870-a4c7f4cc17e5"
+              ],
+              "text": "Bank's closed. Go away."
+            }
+          }
+        }
+      ]
+    }
+  }
+}

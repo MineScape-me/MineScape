@@ -1,0 +1,392 @@
+{
+  "id": "2cb23490-b67c-471a-b5c5-2a3cc06dd8fd",
+  "offsetX": 82,
+  "offsetY": 340,
+  "zoom": 100,
+  "gridSize": 0,
+  "layers": [
+    {
+      "id": "16ca64dd-1800-4037-bbd7-c3db7445283a",
+      "type": "diagram-links",
+      "isSvg": true,
+      "transformed": true,
+      "models": {
+        "50dc1221-af1b-482e-b8ce-e7060e1aebbc": {
+          "id": "50dc1221-af1b-482e-b8ce-e7060e1aebbc",
+          "type": "default",
+          "selected": false,
+          "source": "8ffe5db4-ca4f-40d8-b97e-25ce78397281",
+          "sourcePort": "7bcbdbd4-43d5-4478-93af-8a3ac67c028b",
+          "target": "6d63ade0-60a1-4b72-b39f-5139db5a1bab",
+          "targetPort": "4daf7216-35e4-448a-821c-13e849fcb5ea",
+          "points": [
+            {
+              "id": "1af10fc8-7651-4dac-b176-79f95cc49770",
+              "type": "point",
+              "x": 1167.515625,
+              "y": -50.5
+            },
+            {
+              "id": "59b549c3-2f12-4328-985f-0c8f38f334f6",
+              "type": "point",
+              "x": 691.5,
+              "y": 42.5
+            }
+          ],
+          "labels": [],
+          "width": 3,
+          "color": "gray",
+          "curvyness": 50,
+          "selectedColor": "rgb(0,192,255)"
+        },
+        "06a0a4ad-f9c4-4ed1-9db9-6e630ad54a90": {
+          "id": "06a0a4ad-f9c4-4ed1-9db9-6e630ad54a90",
+          "type": "default",
+          "selected": false,
+          "source": "6d63ade0-60a1-4b72-b39f-5139db5a1bab",
+          "sourcePort": "562b80f5-5b3e-49b9-8777-494aee238344",
+          "target": "6179abf4-cd67-4973-b97a-2efb552afed0",
+          "targetPort": "d669a773-f152-4243-94a4-4ba98effd7de",
+          "points": [
+            {
+              "id": "cca6ce04-01af-4244-b0bb-5b10f5cec6fa",
+              "type": "point",
+              "x": 1028.265625,
+              "y": 42.5
+            },
+            {
+              "id": "1be9e6f9-f6ff-445b-b920-2de13938af26",
+              "type": "point",
+              "x": 692.5,
+              "y": 113.5
+            }
+          ],
+          "labels": [],
+          "width": 3,
+          "color": "gray",
+          "curvyness": 50,
+          "selectedColor": "rgb(0,192,255)"
+        },
+        "4a0f44d7-ce29-462c-b12c-2af2cefa2f8f": {
+          "id": "4a0f44d7-ce29-462c-b12c-2af2cefa2f8f",
+          "type": "default",
+          "selected": false,
+          "source": "5181e2fa-38db-4274-9031-ef52c248604f",
+          "sourcePort": "e24fca33-5d57-4665-b270-94a39437fce6",
+          "target": "bf7f0c5b-52cd-4f5c-bfd1-a44dc6f2223b",
+          "targetPort": "1a67f2de-478d-4236-957e-a428de088c27",
+          "points": [
+            {
+              "id": "9c69fc25-922d-455f-9477-2e01e0bb0cf2",
+              "type": "point",
+              "x": 131.296875,
+              "y": -75.5
+            },
+            {
+              "id": "41857b58-5ec3-4328-a5e0-03446d9be44f",
+              "type": "point",
+              "x": 224.5,
+              "y": -100.5
+            }
+          ],
+          "labels": [],
+          "width": 3,
+          "color": "gray",
+          "curvyness": 50,
+          "selectedColor": "rgb(0,192,255)"
+        },
+        "1dae489c-8580-4f35-b5c2-bb5f408aaa35": {
+          "id": "1dae489c-8580-4f35-b5c2-bb5f408aaa35",
+          "type": "default",
+          "selected": false,
+          "source": "bf7f0c5b-52cd-4f5c-bfd1-a44dc6f2223b",
+          "sourcePort": "161f491b-6b04-46db-a14e-4fb18786e2b2",
+          "target": "8ffe5db4-ca4f-40d8-b97e-25ce78397281",
+          "targetPort": "8ed173fe-f90c-47fc-a466-2547a4d3d37f",
+          "points": [
+            {
+              "id": "5a8b8fbc-2938-4934-b4a5-2ec44b0e87b7",
+              "type": "point",
+              "x": 602.140625,
+              "y": -83.5
+            },
+            {
+              "id": "af1dad35-b051-4369-8c6f-073a7eef2bde",
+              "type": "point",
+              "x": 691.5,
+              "y": -50.5
+            }
+          ],
+          "labels": [],
+          "width": 3,
+          "color": "gray",
+          "curvyness": 50,
+          "selectedColor": "rgb(0,192,255)"
+        }
+      }
+    },
+    {
+      "id": "478efa0a-cab8-4fca-9c90-ecfd385863e7",
+      "type": "diagram-nodes",
+      "isSvg": false,
+      "transformed": true,
+      "models": {
+        "5181e2fa-38db-4274-9031-ef52c248604f": {
+          "id": "5181e2fa-38db-4274-9031-ef52c248604f",
+          "type": "start",
+          "selected": false,
+          "x": 48,
+          "y": -90,
+          "ports": [
+            {
+              "id": "e24fca33-5d57-4665-b270-94a39437fce6",
+              "type": "default",
+              "x": 123.796875,
+              "y": -83,
+              "name": "out-1719625362590",
+              "alignment": "right",
+              "parentNode": "5181e2fa-38db-4274-9031-ef52c248604f",
+              "links": [
+                "4a0f44d7-ce29-462c-b12c-2af2cefa2f8f"
+              ],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Start",
+          "color": "#16db26e6",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "e24fca33-5d57-4665-b270-94a39437fce6"
+          ]
+        },
+        "8ffe5db4-ca4f-40d8-b97e-25ce78397281": {
+          "id": "8ffe5db4-ca4f-40d8-b97e-25ce78397281",
+          "type": "dialogue",
+          "selected": false,
+          "x": 697,
+          "y": -89,
+          "ports": [
+            {
+              "id": "8ed173fe-f90c-47fc-a466-2547a4d3d37f",
+              "type": "default",
+              "x": 684,
+              "y": -58,
+              "name": "in-1719625902383 ",
+              "alignment": "left",
+              "parentNode": "8ffe5db4-ca4f-40d8-b97e-25ce78397281",
+              "links": [
+                "1dae489c-8580-4f35-b5c2-bb5f408aaa35"
+              ],
+              "in": true,
+              "label": "❯"
+            },
+            {
+              "id": "7bcbdbd4-43d5-4478-93af-8a3ac67c028b",
+              "type": "default",
+              "x": 1160.015625,
+              "y": -58,
+              "name": "out-1719625902383",
+              "alignment": "right",
+              "parentNode": "8ffe5db4-ca4f-40d8-b97e-25ce78397281",
+              "links": [
+                "50dc1221-af1b-482e-b8ce-e7060e1aebbc"
+              ],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Ogre guard",
+          "color": "#dd341ee6",
+          "portsInOrder": [
+            "8ed173fe-f90c-47fc-a466-2547a4d3d37f"
+          ],
+          "portsOutOrder": [
+            "7bcbdbd4-43d5-4478-93af-8a3ac67c028b"
+          ],
+          "text": "Stop, creature! Only ogres and their friends allowed in\nthis city. Show me a sign of companionship, like a lost\nrelic or somefing, and you may pass."
+        },
+        "6d63ade0-60a1-4b72-b39f-5139db5a1bab": {
+          "id": "6d63ade0-60a1-4b72-b39f-5139db5a1bab",
+          "type": "dialogue",
+          "selected": false,
+          "x": 697,
+          "y": 4,
+          "ports": [
+            {
+              "id": "4daf7216-35e4-448a-821c-13e849fcb5ea",
+              "type": "default",
+              "x": 684,
+              "y": 35,
+              "name": "in-1719625944380 ",
+              "alignment": "left",
+              "parentNode": "6d63ade0-60a1-4b72-b39f-5139db5a1bab",
+              "links": [
+                "50dc1221-af1b-482e-b8ce-e7060e1aebbc"
+              ],
+              "in": true,
+              "label": "❯"
+            },
+            {
+              "id": "562b80f5-5b3e-49b9-8777-494aee238344",
+              "type": "default",
+              "x": 1020.765625,
+              "y": 35,
+              "name": "out-1719625944380",
+              "alignment": "right",
+              "parentNode": "6d63ade0-60a1-4b72-b39f-5139db5a1bab",
+              "links": [
+                "06a0a4ad-f9c4-4ed1-9db9-6e630ad54a90"
+              ],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Ogre guard",
+          "color": "#dd341ee6",
+          "portsInOrder": [
+            "4daf7216-35e4-448a-821c-13e849fcb5ea"
+          ],
+          "portsOutOrder": [
+            "562b80f5-5b3e-49b9-8777-494aee238344"
+          ],
+          "text": "Until then, back to whence you came!"
+        },
+        "6179abf4-cd67-4973-b97a-2efb552afed0": {
+          "id": "6179abf4-cd67-4973-b97a-2efb552afed0",
+          "type": "dialogue",
+          "selected": false,
+          "x": 698,
+          "y": 75,
+          "ports": [
+            {
+              "id": "d669a773-f152-4243-94a4-4ba98effd7de",
+              "type": "default",
+              "x": 685,
+              "y": 106,
+              "name": "in-1719626074024 ",
+              "alignment": "left",
+              "parentNode": "6179abf4-cd67-4973-b97a-2efb552afed0",
+              "links": [
+                "06a0a4ad-f9c4-4ed1-9db9-6e630ad54a90"
+              ],
+              "in": true,
+              "label": "❯"
+            },
+            {
+              "id": "0a88557e-e732-48a2-a7bb-b53cf5bf9c69",
+              "type": "default",
+              "x": 1087.734375,
+              "y": 106,
+              "name": "out-1719626074024",
+              "alignment": "right",
+              "parentNode": "6179abf4-cd67-4973-b97a-2efb552afed0",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "",
+          "color": "#dd341ee6",
+          "portsInOrder": [
+            "d669a773-f152-4243-94a4-4ba98effd7de"
+          ],
+          "portsOutOrder": [
+            "0a88557e-e732-48a2-a7bb-b53cf5bf9c69"
+          ],
+          "text": "The ogre guard pushes you back down the hill,\nstunning you and dealing 3 damage"
+        },
+        "bf7f0c5b-52cd-4f5c-bfd1-a44dc6f2223b": {
+          "id": "bf7f0c5b-52cd-4f5c-bfd1-a44dc6f2223b",
+          "type": "condition",
+          "selected": false,
+          "x": 230,
+          "y": -139,
+          "ports": [
+            {
+              "id": "1a67f2de-478d-4236-957e-a428de088c27",
+              "type": "default",
+              "x": 217,
+              "y": -108,
+              "name": "in-1719626088859 ",
+              "alignment": "left",
+              "parentNode": "bf7f0c5b-52cd-4f5c-bfd1-a44dc6f2223b",
+              "links": [
+                "4a0f44d7-ce29-462c-b12c-2af2cefa2f8f"
+              ],
+              "in": true,
+              "label": "❯"
+            },
+            {
+              "id": "97360044-95e7-447e-9c2d-5bc7b21a0afa",
+              "type": "default",
+              "x": 592.5,
+              "y": -108,
+              "name": "out-1719626088859",
+              "alignment": "right",
+              "parentNode": "bf7f0c5b-52cd-4f5c-bfd1-a44dc6f2223b",
+              "links": [],
+              "in": false,
+              "label": "true"
+            },
+            {
+              "id": "161f491b-6b04-46db-a14e-4fb18786e2b2",
+              "type": "default",
+              "x": 594.640625,
+              "y": -91,
+              "name": "out-17196260888591",
+              "alignment": "right",
+              "parentNode": "bf7f0c5b-52cd-4f5c-bfd1-a44dc6f2223b",
+              "links": [
+                "1dae489c-8580-4f35-b5c2-bb5f408aaa35"
+              ],
+              "in": false,
+              "label": "false"
+            }
+          ],
+          "title": "Condition",
+          "color": "#02630ae6",
+          "portsInOrder": [
+            "1a67f2de-478d-4236-957e-a428de088c27"
+          ],
+          "portsOutOrder": [
+            "97360044-95e7-447e-9c2d-5bc7b21a0afa",
+            "161f491b-6b04-46db-a14e-4fb18786e2b2"
+          ],
+          "conditions": {
+            "conditions": [
+              "hasItem"
+            ],
+            "args": [
+              [
+                "",
+                "",
+                ""
+              ]
+            ],
+            "ors": [
+              false
+            ],
+            "negates": [
+              false
+            ]
+          }
+        },
+        "932a7805-3b6e-424f-a002-0acbdd8523fe": {
+          "id": "932a7805-3b6e-424f-a002-0acbdd8523fe",
+          "type": "note",
+          "selected": false,
+          "x": 321,
+          "y": -224,
+          "ports": [],
+          "title": "Note",
+          "color": "#19e0e7e6",
+          "portsInOrder": [],
+          "portsOutOrder": [],
+          "text": "has relic?\n"
+        }
+      }
+    }
+  ],
+  "trees": {}
+}
