@@ -1,0 +1,1352 @@
+{
+  "id": "09b2f3dc-39bb-4441-a3aa-da132ba664b1",
+  "offsetX": 52.327032553504104,
+  "offsetY": 140.92240053694053,
+  "zoom": 76.6666666666666,
+  "gridSize": 0,
+  "layers": [
+    {
+      "id": "fefe78ea-80a5-4f4e-bfe2-95cd338ef92f",
+      "type": "diagram-links",
+      "isSvg": true,
+      "transformed": true,
+      "models": {
+        "273b1dcf-6df0-4dcd-8b9f-61bb69b9faf0": {
+          "id": "273b1dcf-6df0-4dcd-8b9f-61bb69b9faf0",
+          "type": "default",
+          "source": "d0313bd1-7ba4-4a43-8a04-b574027c0c2a",
+          "sourcePort": "68cf2d58-e773-4c1f-b6d3-a1f70c364c66",
+          "target": "952f1e06-a9c7-4a6e-9057-b7998b41ef39",
+          "targetPort": "7c836c83-1628-486f-8285-7eb342a5b98a",
+          "points": [
+            {
+              "id": "b8a0b835-e6f5-4e4b-bdb9-b4a49378c625",
+              "type": "point",
+              "x": 841.171875,
+              "y": 501.5
+            },
+            {
+              "id": "57f00f09-aacb-41c3-b35e-1fe20d6fd6a0",
+              "type": "point",
+              "x": 350.5,
+              "y": 580.5
+            }
+          ],
+          "labels": [],
+          "width": 3,
+          "color": "gray",
+          "curvyness": 50,
+          "selectedColor": "rgb(0,192,255)"
+        },
+        "b48421e6-6e48-4038-a916-3672babf2a3d": {
+          "id": "b48421e6-6e48-4038-a916-3672babf2a3d",
+          "type": "default",
+          "source": "952f1e06-a9c7-4a6e-9057-b7998b41ef39",
+          "sourcePort": "34128a08-5ee2-4776-852b-4ed4589e1815",
+          "target": "e8153556-8489-4859-919f-19ca6e108d77",
+          "targetPort": "5148d4a0-47a6-4523-90a2-d78b98256b53",
+          "points": [
+            {
+              "id": "1892f1d2-b29f-44f0-a92f-aae659b90804",
+              "type": "point",
+              "x": 738.578125,
+              "y": 580.5
+            },
+            {
+              "id": "9c5778cd-fd6e-4bf1-9d25-33865f0d2ff9",
+              "type": "point",
+              "x": 350.5,
+              "y": 643.5
+            }
+          ],
+          "labels": [],
+          "width": 3,
+          "color": "gray",
+          "curvyness": 50,
+          "selectedColor": "rgb(0,192,255)"
+        },
+        "4e36f6c9-3d96-49cc-9db0-3a0693918ef2": {
+          "id": "4e36f6c9-3d96-49cc-9db0-3a0693918ef2",
+          "type": "default",
+          "source": "5fd0573d-4b2f-4b72-9e0d-c9dba45da9a7",
+          "sourcePort": "3f42315f-c10b-40c6-8dbb-c170821e3322",
+          "target": "cca6a9c6-7137-4cdb-a130-bcbaa7e218cc",
+          "targetPort": "88cbfd93-a85a-4345-b5aa-a3210dfbe580",
+          "points": [
+            {
+              "id": "46b73026-684b-4f67-acc8-707ee645df44",
+              "type": "point",
+              "x": 845.171875,
+              "y": 922.5
+            },
+            {
+              "id": "0584716f-0c36-4813-8ac5-d4df1ca3be6a",
+              "type": "point",
+              "x": 354.5,
+              "y": 1000.5
+            }
+          ],
+          "labels": [],
+          "width": 3,
+          "color": "gray",
+          "curvyness": 50,
+          "selectedColor": "rgb(0,192,255)"
+        },
+        "481ee389-de15-4a95-b911-87b66177bcca": {
+          "id": "481ee389-de15-4a95-b911-87b66177bcca",
+          "type": "default",
+          "source": "cca6a9c6-7137-4cdb-a130-bcbaa7e218cc",
+          "sourcePort": "5e6e1679-b4ad-47af-9584-ead26309b181",
+          "target": "95677634-b67b-49ad-8599-55ef48c41b8d",
+          "targetPort": "b7edf962-9136-41d2-994e-09a695525ebe",
+          "points": [
+            {
+              "id": "782033e2-ce12-464f-9929-367024a73d30",
+              "type": "point",
+              "x": 896.484375,
+              "y": 1000.5
+            },
+            {
+              "id": "b692931e-0b73-471d-95b0-62ac4ac6ad14",
+              "type": "point",
+              "x": 354.5,
+              "y": 1063.5
+            }
+          ],
+          "labels": [],
+          "width": 3,
+          "color": "gray",
+          "curvyness": 50,
+          "selectedColor": "rgb(0,192,255)"
+        }
+      }
+    },
+    {
+      "id": "177aa97e-aa67-45ca-8109-4d09ffdb6f73",
+      "type": "diagram-nodes",
+      "isSvg": false,
+      "transformed": true,
+      "models": {
+        "0d0a6488-8290-430c-8c11-18c50faa7049": {
+          "id": "0d0a6488-8290-430c-8c11-18c50faa7049",
+          "type": "start",
+          "x": 50,
+          "y": 50,
+          "ports": [
+            {
+              "id": "b500981e-78d3-4c3c-91c8-673d5528bd36",
+              "type": "default",
+              "x": 125.796875,
+              "y": 57,
+              "name": "out-1732608441829",
+              "alignment": "right",
+              "parentNode": "0d0a6488-8290-430c-8c11-18c50faa7049",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Start",
+          "color": "#16db26e6",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "b500981e-78d3-4c3c-91c8-673d5528bd36"
+          ]
+        },
+        "ab7a47a6-7530-4204-8d8a-dc419bfe03b1": {
+          "id": "ab7a47a6-7530-4204-8d8a-dc419bfe03b1",
+          "type": "dialogue",
+          "selected": false,
+          "x": 356,
+          "y": 84,
+          "ports": [
+            {
+              "id": "98273507-1c8d-438c-a456-9f634d8b8a7c",
+              "type": "default",
+              "x": 343,
+              "y": 115,
+              "name": "in-1732608448484 ",
+              "alignment": "left",
+              "parentNode": "ab7a47a6-7530-4204-8d8a-dc419bfe03b1",
+              "links": [],
+              "in": true,
+              "label": "❯"
+            },
+            {
+              "id": "d8ee349a-bbfd-47b3-be8b-9bce7c0ae64c",
+              "type": "default",
+              "x": 892.3125,
+              "y": 115,
+              "name": "out-1732608448484",
+              "alignment": "right",
+              "parentNode": "ab7a47a6-7530-4204-8d8a-dc419bfe03b1",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "",
+          "color": "#dd341ee6",
+          "portsInOrder": [
+            "98273507-1c8d-438c-a456-9f634d8b8a7c"
+          ],
+          "portsOutOrder": [
+            "d8ee349a-bbfd-47b3-be8b-9bce7c0ae64c"
+          ],
+          "text": "The cage appears unfinished. You're going to need some materials:"
+        },
+        "03d2867f-0dcc-429b-bc16-ca962fa2bed7": {
+          "id": "03d2867f-0dcc-429b-bc16-ca962fa2bed7",
+          "type": "dialogue",
+          "selected": false,
+          "x": 356,
+          "y": 147,
+          "ports": [
+            {
+              "id": "0aa1e053-b8ea-4f25-a6fe-17e9bdd107bd",
+              "type": "default",
+              "x": 343,
+              "y": 178,
+              "name": "in-1732608450318 ",
+              "alignment": "left",
+              "parentNode": "03d2867f-0dcc-429b-bc16-ca962fa2bed7",
+              "links": [],
+              "in": true,
+              "label": "❯"
+            },
+            {
+              "id": "dc454851-b967-4b94-bf1e-7f3bc466a517",
+              "type": "default",
+              "x": 738.40625,
+              "y": 178,
+              "name": "out-1732608450318",
+              "alignment": "right",
+              "parentNode": "03d2867f-0dcc-429b-bc16-ca962fa2bed7",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "",
+          "color": "#dd341ee6",
+          "portsInOrder": [
+            "0aa1e053-b8ea-4f25-a6fe-17e9bdd107bd"
+          ],
+          "portsOutOrder": [
+            "dc454851-b967-4b94-bf1e-7f3bc466a517"
+          ],
+          "text": "5 metal bars and 4 bottles of binding fluid."
+        },
+        "c39fa651-095e-4c8a-a90a-22a09851dbbb": {
+          "id": "c39fa651-095e-4c8a-a90a-22a09851dbbb",
+          "type": "option",
+          "x": 356,
+          "y": 210,
+          "ports": [
+            {
+              "id": "184ab6ad-ea2a-4257-a405-e5bb18fcc606",
+              "type": "default",
+              "x": 522.375,
+              "y": 250,
+              "name": "out-17326084562931",
+              "alignment": "right",
+              "parentNode": "c39fa651-095e-4c8a-a90a-22a09851dbbb",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            },
+            {
+              "id": "54bbdfd8-fffa-448e-98db-938d82d77d7c",
+              "type": "default",
+              "x": 343,
+              "y": 241,
+              "name": "in-1732608456293 ",
+              "alignment": "left",
+              "parentNode": "c39fa651-095e-4c8a-a90a-22a09851dbbb",
+              "links": [],
+              "in": true,
+              "label": "❯"
+            },
+            {
+              "id": "2f7eda5f-c3de-4dc5-ab1e-240498d3deb9",
+              "type": "default",
+              "x": 522.375,
+              "y": 286,
+              "name": "out-1732608456293",
+              "alignment": "right",
+              "parentNode": "c39fa651-095e-4c8a-a90a-22a09851dbbb",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Select an option.",
+          "color": "#0756b1e6",
+          "portsInOrder": [
+            "54bbdfd8-fffa-448e-98db-938d82d77d7c"
+          ],
+          "portsOutOrder": [
+            "184ab6ad-ea2a-4257-a405-e5bb18fcc606",
+            "2f7eda5f-c3de-4dc5-ab1e-240498d3deb9"
+          ],
+          "options": [
+            {
+              "conditions": [
+                ""
+              ],
+              "args": [],
+              "ors": [
+                false
+              ],
+              "negates": [
+                false
+              ],
+              "text": "Yes"
+            },
+            {
+              "conditions": [
+                ""
+              ],
+              "args": [],
+              "ors": [
+                false
+              ],
+              "negates": [
+                false
+              ],
+              "text": "No"
+            }
+          ]
+        },
+        "cce46e4b-3d45-4254-a81c-2ba8052d8986": {
+          "id": "cce46e4b-3d45-4254-a81c-2ba8052d8986",
+          "type": "dialogue",
+          "selected": false,
+          "x": 356,
+          "y": 323,
+          "ports": [
+            {
+              "id": "2e88e95b-b8cf-4374-81c2-7ca567a35108",
+              "type": "default",
+              "x": 343,
+              "y": 354,
+              "name": "in-1732608459919 ",
+              "alignment": "left",
+              "parentNode": "cce46e4b-3d45-4254-a81c-2ba8052d8986",
+              "links": [],
+              "in": true,
+              "label": "❯"
+            },
+            {
+              "id": "6f499993-c303-4498-bc3f-6cff4078c2c4",
+              "type": "default",
+              "x": 716.421875,
+              "y": 354,
+              "name": "out-1732608459919",
+              "alignment": "right",
+              "parentNode": "cce46e4b-3d45-4254-a81c-2ba8052d8986",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "",
+          "color": "#dd341ee6",
+          "portsInOrder": [
+            "2e88e95b-b8cf-4374-81c2-7ca567a35108"
+          ],
+          "portsOutOrder": [
+            "6f499993-c303-4498-bc3f-6cff4078c2c4"
+          ],
+          "text": "You need 5 metal bars to fix the machine."
+        },
+        "d0313bd1-7ba4-4a43-8a04-b574027c0c2a": {
+          "id": "d0313bd1-7ba4-4a43-8a04-b574027c0c2a",
+          "type": "dialogue",
+          "selected": false,
+          "x": 356,
+          "y": 463,
+          "ports": [
+            {
+              "id": "aa0f0408-546f-4769-ba2e-f1acf6a33e69",
+              "type": "default",
+              "x": 343,
+              "y": 494,
+              "name": "in-1732608484494 ",
+              "alignment": "left",
+              "parentNode": "d0313bd1-7ba4-4a43-8a04-b574027c0c2a",
+              "links": [],
+              "in": true,
+              "label": "❯"
+            },
+            {
+              "id": "68cf2d58-e773-4c1f-b6d3-a1f70c364c66",
+              "type": "default",
+              "x": 833.671875,
+              "y": 494,
+              "name": "out-1732608484494",
+              "alignment": "right",
+              "parentNode": "d0313bd1-7ba4-4a43-8a04-b574027c0c2a",
+              "links": [
+                "273b1dcf-6df0-4dcd-8b9f-61bb69b9faf0"
+              ],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "",
+          "color": "#dd341ee6",
+          "portsInOrder": [
+            "aa0f0408-546f-4769-ba2e-f1acf6a33e69"
+          ],
+          "portsOutOrder": [
+            "68cf2d58-e773-4c1f-b6d3-a1f70c364c66"
+          ],
+          "text": "The machine appears unfinished. You're going to need some\nmaterials:"
+        },
+        "952f1e06-a9c7-4a6e-9057-b7998b41ef39": {
+          "id": "952f1e06-a9c7-4a6e-9057-b7998b41ef39",
+          "type": "dialogue",
+          "x": 356,
+          "y": 542,
+          "ports": [
+            {
+              "id": "7c836c83-1628-486f-8285-7eb342a5b98a",
+              "type": "default",
+              "x": 343,
+              "y": 573,
+              "name": "in-1732608488143 ",
+              "alignment": "left",
+              "parentNode": "952f1e06-a9c7-4a6e-9057-b7998b41ef39",
+              "links": [
+                "273b1dcf-6df0-4dcd-8b9f-61bb69b9faf0"
+              ],
+              "in": true,
+              "label": "❯"
+            },
+            {
+              "id": "34128a08-5ee2-4776-852b-4ed4589e1815",
+              "type": "default",
+              "x": 731.078125,
+              "y": 573,
+              "name": "out-1732608488143",
+              "alignment": "right",
+              "parentNode": "952f1e06-a9c7-4a6e-9057-b7998b41ef39",
+              "links": [
+                "b48421e6-6e48-4038-a916-3672babf2a3d"
+              ],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "",
+          "color": "#dd341ee6",
+          "portsInOrder": [
+            "7c836c83-1628-486f-8285-7eb342a5b98a"
+          ],
+          "portsOutOrder": [
+            "34128a08-5ee2-4776-852b-4ed4589e1815"
+          ],
+          "text": "6 rivets, 4 metal pipes, and 5 metal rings."
+        },
+        "e8153556-8489-4859-919f-19ca6e108d77": {
+          "id": "e8153556-8489-4859-919f-19ca6e108d77",
+          "type": "option",
+          "x": 356,
+          "y": 605,
+          "ports": [
+            {
+              "id": "a9eb7456-38e1-4881-be89-b1b0ffb3c8fd",
+              "type": "default",
+              "x": 522.375,
+              "y": 645,
+              "name": "out-17326084893011",
+              "alignment": "right",
+              "parentNode": "e8153556-8489-4859-919f-19ca6e108d77",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            },
+            {
+              "id": "5148d4a0-47a6-4523-90a2-d78b98256b53",
+              "type": "default",
+              "x": 343,
+              "y": 636,
+              "name": "in-1732608489301 ",
+              "alignment": "left",
+              "parentNode": "e8153556-8489-4859-919f-19ca6e108d77",
+              "links": [
+                "b48421e6-6e48-4038-a916-3672babf2a3d"
+              ],
+              "in": true,
+              "label": "❯"
+            },
+            {
+              "id": "7b453b91-1bbe-46bc-bc2a-fb075508392e",
+              "type": "default",
+              "x": 522.375,
+              "y": 681,
+              "name": "out-1732608489301",
+              "alignment": "right",
+              "parentNode": "e8153556-8489-4859-919f-19ca6e108d77",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Select an option.",
+          "color": "#0756b1e6",
+          "portsInOrder": [
+            "5148d4a0-47a6-4523-90a2-d78b98256b53"
+          ],
+          "portsOutOrder": [
+            "a9eb7456-38e1-4881-be89-b1b0ffb3c8fd",
+            "7b453b91-1bbe-46bc-bc2a-fb075508392e"
+          ],
+          "options": [
+            {
+              "conditions": [
+                ""
+              ],
+              "args": [],
+              "ors": [
+                false
+              ],
+              "negates": [
+                false
+              ],
+              "text": "Yes"
+            },
+            {
+              "conditions": [
+                ""
+              ],
+              "args": [],
+              "ors": [
+                false
+              ],
+              "negates": [
+                false
+              ],
+              "text": "No"
+            }
+          ]
+        },
+        "122d42c3-9b7a-4d65-826b-914c0f01e12e": {
+          "id": "122d42c3-9b7a-4d65-826b-914c0f01e12e",
+          "type": "dialogue",
+          "x": 356,
+          "y": 718,
+          "ports": [
+            {
+              "id": "47c396de-4074-4c99-9329-100fdad364f0",
+              "type": "default",
+              "x": 343,
+              "y": 749,
+              "name": "in-1732608491147 ",
+              "alignment": "left",
+              "parentNode": "122d42c3-9b7a-4d65-826b-914c0f01e12e",
+              "links": [],
+              "in": true,
+              "label": "❯"
+            },
+            {
+              "id": "3d3f1f0a-7d1d-45a3-8a6d-d92940a9ffe9",
+              "type": "default",
+              "x": 687.09375,
+              "y": 749,
+              "name": "out-1732608491147",
+              "alignment": "right",
+              "parentNode": "122d42c3-9b7a-4d65-826b-914c0f01e12e",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "",
+          "color": "#dd341ee6",
+          "portsInOrder": [
+            "47c396de-4074-4c99-9329-100fdad364f0"
+          ],
+          "portsOutOrder": [
+            "3d3f1f0a-7d1d-45a3-8a6d-d92940a9ffe9"
+          ],
+          "text": "You need 6 rivets to fix the machine."
+        },
+        "5fd0573d-4b2f-4b72-9e0d-c9dba45da9a7": {
+          "id": "5fd0573d-4b2f-4b72-9e0d-c9dba45da9a7",
+          "type": "dialogue",
+          "selected": false,
+          "x": 360,
+          "y": 884,
+          "ports": [
+            {
+              "id": "c15ad749-3cc3-409d-b27b-9f5e79a6b2a6",
+              "type": "default",
+              "x": 347,
+              "y": 915,
+              "name": "in-1732608506735 ",
+              "alignment": "left",
+              "parentNode": "5fd0573d-4b2f-4b72-9e0d-c9dba45da9a7",
+              "links": [],
+              "in": true,
+              "label": "❯"
+            },
+            {
+              "id": "3f42315f-c10b-40c6-8dbb-c170821e3322",
+              "type": "default",
+              "x": 837.671875,
+              "y": 915,
+              "name": "out-1732608506735",
+              "alignment": "right",
+              "parentNode": "5fd0573d-4b2f-4b72-9e0d-c9dba45da9a7",
+              "links": [
+                "4e36f6c9-3d96-49cc-9db0-3a0693918ef2"
+              ],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "",
+          "color": "#dd341ee6",
+          "portsInOrder": [
+            "c15ad749-3cc3-409d-b27b-9f5e79a6b2a6"
+          ],
+          "portsOutOrder": [
+            "3f42315f-c10b-40c6-8dbb-c170821e3322"
+          ],
+          "text": "The machine appears unfinished. You're going to need some\nmaterials:"
+        },
+        "cca6a9c6-7137-4cdb-a130-bcbaa7e218cc": {
+          "id": "cca6a9c6-7137-4cdb-a130-bcbaa7e218cc",
+          "type": "dialogue",
+          "x": 360,
+          "y": 962,
+          "ports": [
+            {
+              "id": "88cbfd93-a85a-4345-b5aa-a3210dfbe580",
+              "type": "default",
+              "x": 347,
+              "y": 993,
+              "name": "in-1732608511528 ",
+              "alignment": "left",
+              "parentNode": "cca6a9c6-7137-4cdb-a130-bcbaa7e218cc",
+              "links": [
+                "4e36f6c9-3d96-49cc-9db0-3a0693918ef2"
+              ],
+              "in": true,
+              "label": "❯"
+            },
+            {
+              "id": "5e6e1679-b4ad-47af-9584-ead26309b181",
+              "type": "default",
+              "x": 888.984375,
+              "y": 993,
+              "name": "out-1732608511528",
+              "alignment": "right",
+              "parentNode": "cca6a9c6-7137-4cdb-a130-bcbaa7e218cc",
+              "links": [
+                "481ee389-de15-4a95-b911-87b66177bcca"
+              ],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "",
+          "color": "#dd341ee6",
+          "portsInOrder": [
+            "88cbfd93-a85a-4345-b5aa-a3210dfbe580"
+          ],
+          "portsOutOrder": [
+            "5e6e1679-b4ad-47af-9584-ead26309b181"
+          ],
+          "text": "4 coloured balls, 3 pieces of metal sheeting and 4 valve wheels."
+        },
+        "95677634-b67b-49ad-8599-55ef48c41b8d": {
+          "id": "95677634-b67b-49ad-8599-55ef48c41b8d",
+          "type": "option",
+          "x": 360,
+          "y": 1025,
+          "ports": [
+            {
+              "id": "88094323-3047-4300-aa00-fbe20f5c3426",
+              "type": "default",
+              "x": 526.375,
+              "y": 1065,
+              "name": "out-17326085121231",
+              "alignment": "right",
+              "parentNode": "95677634-b67b-49ad-8599-55ef48c41b8d",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            },
+            {
+              "id": "b7edf962-9136-41d2-994e-09a695525ebe",
+              "type": "default",
+              "x": 347,
+              "y": 1056,
+              "name": "in-1732608512123 ",
+              "alignment": "left",
+              "parentNode": "95677634-b67b-49ad-8599-55ef48c41b8d",
+              "links": [
+                "481ee389-de15-4a95-b911-87b66177bcca"
+              ],
+              "in": true,
+              "label": "❯"
+            },
+            {
+              "id": "71237b28-c297-42ab-a4c8-9d34d1e355b2",
+              "type": "default",
+              "x": 526.375,
+              "y": 1101,
+              "name": "out-1732608512123",
+              "alignment": "right",
+              "parentNode": "95677634-b67b-49ad-8599-55ef48c41b8d",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Select an option.",
+          "color": "#0756b1e6",
+          "portsInOrder": [
+            "b7edf962-9136-41d2-994e-09a695525ebe"
+          ],
+          "portsOutOrder": [
+            "88094323-3047-4300-aa00-fbe20f5c3426",
+            "71237b28-c297-42ab-a4c8-9d34d1e355b2"
+          ],
+          "options": [
+            {
+              "conditions": [
+                ""
+              ],
+              "args": [],
+              "ors": [
+                false
+              ],
+              "negates": [
+                false
+              ],
+              "text": "Yes"
+            },
+            {
+              "conditions": [
+                ""
+              ],
+              "args": [],
+              "ors": [
+                false
+              ],
+              "negates": [
+                false
+              ],
+              "text": "No"
+            }
+          ]
+        },
+        "c579939b-d612-422a-a9ba-1e3b14de2807": {
+          "id": "c579939b-d612-422a-a9ba-1e3b14de2807",
+          "type": "dialogue",
+          "x": 360,
+          "y": 1138,
+          "ports": [
+            {
+              "id": "cc773008-ad13-42b0-829b-35cb8fa0f391",
+              "type": "default",
+              "x": 347,
+              "y": 1169,
+              "name": "in-1732608513350 ",
+              "alignment": "left",
+              "parentNode": "c579939b-d612-422a-a9ba-1e3b14de2807",
+              "links": [],
+              "in": true,
+              "label": "❯"
+            },
+            {
+              "id": "6d033afc-e91f-42fc-9749-8955094fb81f",
+              "type": "default",
+              "x": 749.734375,
+              "y": 1169,
+              "name": "out-1732608513350",
+              "alignment": "right",
+              "parentNode": "c579939b-d612-422a-a9ba-1e3b14de2807",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "",
+          "color": "#dd341ee6",
+          "portsInOrder": [
+            "cc773008-ad13-42b0-829b-35cb8fa0f391"
+          ],
+          "portsOutOrder": [
+            "6d033afc-e91f-42fc-9749-8955094fb81f"
+          ],
+          "text": "You need 4 coloured balls to fix the machine."
+        },
+        "cf6c5e13-966d-4cc5-ba08-c3d8318c44dc": {
+          "id": "cf6c5e13-966d-4cc5-ba08-c3d8318c44dc",
+          "type": "dialogue",
+          "selected": false,
+          "x": 1218,
+          "y": 482,
+          "ports": [
+            {
+              "id": "e3d2ce33-9f38-4add-b640-45b18a176cdd",
+              "type": "default",
+              "x": 1205,
+              "y": 513,
+              "name": "in-1732608528911 ",
+              "alignment": "left",
+              "parentNode": "cf6c5e13-966d-4cc5-ba08-c3d8318c44dc",
+              "links": [],
+              "in": true,
+              "label": "❯"
+            },
+            {
+              "id": "581aedf9-a516-4eb1-9cc2-f9002b6ca5c3",
+              "type": "default",
+              "x": 1439.171875,
+              "y": 513,
+              "name": "out-1732608528911",
+              "alignment": "right",
+              "parentNode": "cf6c5e13-966d-4cc5-ba08-c3d8318c44dc",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "",
+          "color": "#dd341ee6",
+          "portsInOrder": [
+            "e3d2ce33-9f38-4add-b640-45b18a176cdd"
+          ],
+          "portsOutOrder": [
+            "581aedf9-a516-4eb1-9cc2-f9002b6ca5c3"
+          ],
+          "text": "It seems to be locked."
+        },
+        "653ac504-7339-4c0e-9b69-619cf2bfda98": {
+          "id": "653ac504-7339-4c0e-9b69-619cf2bfda98",
+          "type": "note",
+          "selected": false,
+          "x": 1219,
+          "y": 409,
+          "ports": [],
+          "title": "Note",
+          "color": "#19e0e7e6",
+          "portsInOrder": [],
+          "portsOutOrder": [],
+          "text": "Trapdoor"
+        },
+        "79b5589f-1f86-40a7-8ffb-f05a83584604": {
+          "id": "79b5589f-1f86-40a7-8ffb-f05a83584604",
+          "type": "dialogue",
+          "selected": false,
+          "x": 814,
+          "y": 206,
+          "ports": [
+            {
+              "id": "be1221f1-13b7-4a90-8fcb-0e01fd219ef7",
+              "type": "default",
+              "x": 801,
+              "y": 237,
+              "name": "in-1732608459919 ",
+              "alignment": "left",
+              "parentNode": "79b5589f-1f86-40a7-8ffb-f05a83584604",
+              "links": [],
+              "in": true,
+              "label": "❯"
+            },
+            {
+              "id": "42fcb6f1-ff64-4f72-ac78-bae00595c993",
+              "type": "default",
+              "x": 1299,
+              "y": 237,
+              "name": "out-1732608459919",
+              "alignment": "right",
+              "parentNode": "79b5589f-1f86-40a7-8ffb-f05a83584604",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "",
+          "color": "#dd341ee6",
+          "portsInOrder": [
+            "be1221f1-13b7-4a90-8fcb-0e01fd219ef7"
+          ],
+          "portsOutOrder": [
+            "42fcb6f1-ff64-4f72-ac78-bae00595c993"
+          ],
+          "text": "You built the machine! It still needs calibrating, though."
+        },
+        "a7068f14-525d-44b9-84e7-a12e7f668639": {
+          "id": "a7068f14-525d-44b9-84e7-a12e7f668639",
+          "type": "dialogue",
+          "selected": false,
+          "x": 814,
+          "y": 269,
+          "ports": [
+            {
+              "id": "3ed9c509-477f-473a-a18b-1fb5e11f6720",
+              "type": "default",
+              "x": 801,
+              "y": 300,
+              "name": "in-1732608459919 ",
+              "alignment": "left",
+              "parentNode": "a7068f14-525d-44b9-84e7-a12e7f668639",
+              "links": [],
+              "in": true,
+              "label": "❯"
+            },
+            {
+              "id": "e0791e25-e321-42a7-99b1-1845345835a4",
+              "type": "default",
+              "x": 1372.296875,
+              "y": 300,
+              "name": "out-1732608459919",
+              "alignment": "right",
+              "parentNode": "a7068f14-525d-44b9-84e7-a12e7f668639",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "",
+          "color": "#dd341ee6",
+          "portsInOrder": [
+            "3ed9c509-477f-473a-a18b-1fb5e11f6720"
+          ],
+          "portsOutOrder": [
+            "e0791e25-e321-42a7-99b1-1845345835a4"
+          ],
+          "text": "The pressure seems to be affected by holes in the pipes. Perhaps you\ncan block them up with the balls."
+        },
+        "f8f07409-4f7f-449d-861d-d907caec6b13": {
+          "id": "f8f07409-4f7f-449d-861d-d907caec6b13",
+          "type": "dialogue",
+          "selected": false,
+          "x": 814,
+          "y": 346,
+          "ports": [
+            {
+              "id": "b27f3dcb-8aea-4f3d-9329-fd46f5faaa64",
+              "type": "default",
+              "x": 801,
+              "y": 377,
+              "name": "in-1732608459919 ",
+              "alignment": "left",
+              "parentNode": "f8f07409-4f7f-449d-861d-d907caec6b13",
+              "links": [],
+              "in": true,
+              "label": "❯"
+            },
+            {
+              "id": "372e6353-e8cb-4fec-b009-a04845898d28",
+              "type": "default",
+              "x": 1042.5,
+              "y": 377,
+              "name": "out-1732608459919",
+              "alignment": "right",
+              "parentNode": "f8f07409-4f7f-449d-861d-d907caec6b13",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "",
+          "color": "#dd341ee6",
+          "portsInOrder": [
+            "b27f3dcb-8aea-4f3d-9329-fd46f5faaa64"
+          ],
+          "portsOutOrder": [
+            "372e6353-e8cb-4fec-b009-a04845898d28"
+          ],
+          "text": "The machine is working!"
+        },
+        "6574c256-4714-42ca-be28-47d0e5555937": {
+          "id": "6574c256-4714-42ca-be28-47d0e5555937",
+          "type": "dialogue",
+          "selected": false,
+          "x": 415,
+          "y": -107,
+          "ports": [
+            {
+              "id": "b4bf4817-da50-4dc4-9003-1dcd8af11bc8",
+              "type": "default",
+              "x": 402,
+              "y": -76,
+              "name": "in-1732608459919 ",
+              "alignment": "left",
+              "parentNode": "6574c256-4714-42ca-be28-47d0e5555937",
+              "links": [],
+              "in": true,
+              "label": "❯"
+            },
+            {
+              "id": "af6a5545-616e-4bc7-8a07-25a82f21d28d",
+              "type": "default",
+              "x": 746.09375,
+              "y": -76,
+              "name": "out-1732608459919",
+              "alignment": "right",
+              "parentNode": "6574c256-4714-42ca-be28-47d0e5555937",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "",
+          "color": "#dd341ee6",
+          "portsInOrder": [
+            "b4bf4817-da50-4dc4-9003-1dcd8af11bc8"
+          ],
+          "portsOutOrder": [
+            "af6a5545-616e-4bc7-8a07-25a82f21d28d"
+          ],
+          "text": "You need a hammer to fix the machine."
+        },
+        "07c54ee1-e808-4c42-a050-a2039dca23b0": {
+          "id": "07c54ee1-e808-4c42-a050-a2039dca23b0",
+          "type": "dialogue",
+          "selected": false,
+          "x": 415,
+          "y": -44,
+          "ports": [
+            {
+              "id": "bc55337c-132e-401e-abfe-ee5847740d9c",
+              "type": "default",
+              "x": 402,
+              "y": -13,
+              "name": "in-1732608459919 ",
+              "alignment": "left",
+              "parentNode": "07c54ee1-e808-4c42-a050-a2039dca23b0",
+              "links": [],
+              "in": true,
+              "label": "❯"
+            },
+            {
+              "id": "a3641c93-37f9-49e9-941f-ef70d7c77a26",
+              "type": "default",
+              "x": 724.109375,
+              "y": -13,
+              "name": "out-1732608459919",
+              "alignment": "right",
+              "parentNode": "07c54ee1-e808-4c42-a050-a2039dca23b0",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "",
+          "color": "#dd341ee6",
+          "portsInOrder": [
+            "bc55337c-132e-401e-abfe-ee5847740d9c"
+          ],
+          "portsOutOrder": [
+            "a3641c93-37f9-49e9-941f-ef70d7c77a26"
+          ],
+          "text": "You need a saw to fix the machine."
+        },
+        "e928bbb3-2299-4417-87ee-ec4c8d748a4c": {
+          "id": "e928bbb3-2299-4417-87ee-ec4c8d748a4c",
+          "type": "dialogue",
+          "selected": false,
+          "x": 949,
+          "y": 1043,
+          "ports": [
+            {
+              "id": "127fe830-6e50-47d1-be21-374d5c19231c",
+              "type": "default",
+              "x": 936,
+              "y": 1074,
+              "name": "in-1732608459919 ",
+              "alignment": "left",
+              "parentNode": "e928bbb3-2299-4417-87ee-ec4c8d748a4c",
+              "links": [],
+              "in": true,
+              "label": "❯"
+            },
+            {
+              "id": "376b4ff8-8d82-4fb7-a1ed-8ad3503dfe91",
+              "type": "default",
+              "x": 1148.1875,
+              "y": 1074,
+              "name": "out-1732608459919",
+              "alignment": "right",
+              "parentNode": "e928bbb3-2299-4417-87ee-ec4c8d748a4c",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "",
+          "color": "#dd341ee6",
+          "portsInOrder": [
+            "127fe830-6e50-47d1-be21-374d5c19231c"
+          ],
+          "portsOutOrder": [
+            "376b4ff8-8d82-4fb7-a1ed-8ad3503dfe91"
+          ],
+          "text": "You built the cage!"
+        },
+        "32397c80-9305-4006-9624-c1b38d50b4c7": {
+          "id": "32397c80-9305-4006-9624-c1b38d50b4c7",
+          "type": "dialogue",
+          "selected": false,
+          "x": 949,
+          "y": 1106,
+          "ports": [
+            {
+              "id": "fabac982-6e07-4bdc-9378-5878e380dff2",
+              "type": "default",
+              "x": 936,
+              "y": 1137,
+              "name": "in-1732608459919 ",
+              "alignment": "left",
+              "parentNode": "32397c80-9305-4006-9624-c1b38d50b4c7",
+              "links": [],
+              "in": true,
+              "label": "❯"
+            },
+            {
+              "id": "d2fd259a-bc52-4c5f-a9f1-b9be69046e63",
+              "type": "default",
+              "x": 1485.3125,
+              "y": 1137,
+              "name": "out-1732608459919",
+              "alignment": "right",
+              "parentNode": "32397c80-9305-4006-9624-c1b38d50b4c7",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "",
+          "color": "#dd341ee6",
+          "portsInOrder": [
+            "fabac982-6e07-4bdc-9378-5878e380dff2"
+          ],
+          "portsOutOrder": [
+            "d2fd259a-bc52-4c5f-a9f1-b9be69046e63"
+          ],
+          "text": "Some of the bars need to be completed - you need to get the sizes\ncorrect, though."
+        },
+        "60b1cbe9-3e42-4e89-8670-105afa01f1fb": {
+          "id": "60b1cbe9-3e42-4e89-8670-105afa01f1fb",
+          "type": "dialogue",
+          "selected": false,
+          "x": 950,
+          "y": 1186,
+          "ports": [
+            {
+              "id": "a0013957-3323-4668-86fe-b276436803d5",
+              "type": "default",
+              "x": 937,
+              "y": 1217,
+              "name": "in-1732608459919 ",
+              "alignment": "left",
+              "parentNode": "60b1cbe9-3e42-4e89-8670-105afa01f1fb",
+              "links": [],
+              "in": true,
+              "label": "❯"
+            },
+            {
+              "id": "dcf8a2bc-11ea-4a07-8af0-3a153a910dd2",
+              "type": "default",
+              "x": 1163.84375,
+              "y": 1217,
+              "name": "out-1732608459919",
+              "alignment": "right",
+              "parentNode": "60b1cbe9-3e42-4e89-8670-105afa01f1fb",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "",
+          "color": "#dd341ee6",
+          "portsInOrder": [
+            "a0013957-3323-4668-86fe-b276436803d5"
+          ],
+          "portsOutOrder": [
+            "dcf8a2bc-11ea-4a07-8af0-3a153a910dd2"
+          ],
+          "text": "The cage is complete!"
+        },
+        "d195beac-ac9e-4f9a-b60f-cc35626d6379": {
+          "id": "d195beac-ac9e-4f9a-b60f-cc35626d6379",
+          "type": "dialogue",
+          "selected": false,
+          "x": 880,
+          "y": 595,
+          "ports": [
+            {
+              "id": "ea6004da-82ea-42e7-b61b-18c0486bc60a",
+              "type": "default",
+              "x": 867,
+              "y": 626,
+              "name": "in-1732608459919 ",
+              "alignment": "left",
+              "parentNode": "d195beac-ac9e-4f9a-b60f-cc35626d6379",
+              "links": [],
+              "in": true,
+              "label": "❯"
+            },
+            {
+              "id": "d7ee6148-0e44-4668-8e24-1cd9a8206782",
+              "type": "default",
+              "x": 1365,
+              "y": 626,
+              "name": "out-1732608459919",
+              "alignment": "right",
+              "parentNode": "d195beac-ac9e-4f9a-b60f-cc35626d6379",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "",
+          "color": "#dd341ee6",
+          "portsInOrder": [
+            "ea6004da-82ea-42e7-b61b-18c0486bc60a"
+          ],
+          "portsOutOrder": [
+            "d7ee6148-0e44-4668-8e24-1cd9a8206782"
+          ],
+          "text": "You built the machine! It still needs calibrating, though."
+        },
+        "d2d203a5-4ecb-4362-8e7f-238a9a5636f0": {
+          "id": "d2d203a5-4ecb-4362-8e7f-238a9a5636f0",
+          "type": "dialogue",
+          "selected": false,
+          "x": 880,
+          "y": 658,
+          "ports": [
+            {
+              "id": "adb5946a-8250-4452-b18a-bdbfb6427561",
+              "type": "default",
+              "x": 867,
+              "y": 689,
+              "name": "in-1732608459919 ",
+              "alignment": "left",
+              "parentNode": "d2d203a5-4ecb-4362-8e7f-238a9a5636f0",
+              "links": [],
+              "in": true,
+              "label": "❯"
+            },
+            {
+              "id": "3b4d5bfb-1706-43e7-a47d-d21543c9de6a",
+              "type": "default",
+              "x": 1430.96875,
+              "y": 689,
+              "name": "out-1732608459919",
+              "alignment": "right",
+              "parentNode": "d2d203a5-4ecb-4362-8e7f-238a9a5636f0",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "",
+          "color": "#dd341ee6",
+          "portsInOrder": [
+            "adb5946a-8250-4452-b18a-bdbfb6427561"
+          ],
+          "portsOutOrder": [
+            "3b4d5bfb-1706-43e7-a47d-d21543c9de6a"
+          ],
+          "text": "Looks like the pipes need connecting, to allow the liquid to travel\nfurther up the tower!"
+        },
+        "2897d6a6-a093-4991-bf19-364348118f36": {
+          "id": "2897d6a6-a093-4991-bf19-364348118f36",
+          "type": "dialogue",
+          "selected": false,
+          "x": 878,
+          "y": 746,
+          "ports": [
+            {
+              "id": "68183e0b-2074-45e3-9703-ae5fba54fbfd",
+              "type": "default",
+              "x": 865,
+              "y": 777,
+              "name": "in-1732608459919 ",
+              "alignment": "left",
+              "parentNode": "2897d6a6-a093-4991-bf19-364348118f36",
+              "links": [],
+              "in": true,
+              "label": "❯"
+            },
+            {
+              "id": "53e83d81-9b72-449c-8896-1c8556f62de6",
+              "type": "default",
+              "x": 1106.5,
+              "y": 777,
+              "name": "out-1732608459919",
+              "alignment": "right",
+              "parentNode": "2897d6a6-a093-4991-bf19-364348118f36",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "",
+          "color": "#dd341ee6",
+          "portsInOrder": [
+            "68183e0b-2074-45e3-9703-ae5fba54fbfd"
+          ],
+          "portsOutOrder": [
+            "53e83d81-9b72-449c-8896-1c8556f62de6"
+          ],
+          "text": "The machine is working!"
+        },
+        "9288d5c9-4787-4775-956c-2f718ddaa6f7": {
+          "id": "9288d5c9-4787-4775-956c-2f718ddaa6f7",
+          "type": "dialogue",
+          "selected": false,
+          "x": 1243,
+          "y": 1293,
+          "ports": [
+            {
+              "id": "495f8c28-4eb1-4c36-b561-77d187ea14e9",
+              "type": "default",
+              "x": 1230,
+              "y": 1324,
+              "name": "in-1732608459919 ",
+              "alignment": "left",
+              "parentNode": "9288d5c9-4787-4775-956c-2f718ddaa6f7",
+              "links": [],
+              "in": true,
+              "label": "❯"
+            },
+            {
+              "id": "69c89e46-65c2-420a-9ffa-4096c4dd980c",
+              "type": "default",
+              "x": 1786.640625,
+              "y": 1324,
+              "name": "out-1732608459919",
+              "alignment": "right",
+              "parentNode": "9288d5c9-4787-4775-956c-2f718ddaa6f7",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "",
+          "color": "#dd341ee6",
+          "portsInOrder": [
+            "495f8c28-4eb1-4c36-b561-77d187ea14e9"
+          ],
+          "portsOutOrder": [
+            "69c89e46-65c2-420a-9ffa-4096c4dd980c"
+          ],
+          "text": "The tower should be in working order now! Best go and tell Effigy!"
+        }
+      }
+    }
+  ],
+  "trees": {}
+}

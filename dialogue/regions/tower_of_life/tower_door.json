@@ -1,0 +1,232 @@
+{
+  "id": "aa848383-d7c8-4f65-9dc3-30edbb0ad1e7",
+  "offsetX": 336,
+  "offsetY": 276,
+  "zoom": 100,
+  "gridSize": 0,
+  "layers": [
+    {
+      "id": "380d6d75-f7fd-4270-a3e6-e223b2fec663",
+      "type": "diagram-links",
+      "isSvg": true,
+      "transformed": true,
+      "models": {
+        "d6898e5d-7323-4d45-901c-1ac189af56a5": {
+          "id": "d6898e5d-7323-4d45-901c-1ac189af56a5",
+          "type": "default",
+          "selected": false,
+          "source": "36ad22a5-bf31-4ac4-89bb-3c9771d8d799",
+          "sourcePort": "ead0188a-ae82-4897-8f60-f7778b93ae47",
+          "target": "bbac7e61-cc8e-4810-8012-b8fc60066320",
+          "targetPort": "ecb49fa6-15f1-4671-bf59-a1156556b349",
+          "points": [
+            {
+              "id": "452657c1-ca6e-437a-8b8b-9b3368dff80d",
+              "type": "point",
+              "x": 133.296875,
+              "y": 64.5
+            },
+            {
+              "id": "b6627b08-d087-4352-ac26-e1a7427e4d86",
+              "type": "point",
+              "x": 169.5,
+              "y": 64.5
+            }
+          ],
+          "labels": [],
+          "width": 3,
+          "color": "gray",
+          "curvyness": 50,
+          "selectedColor": "rgb(0,192,255)"
+        }
+      }
+    },
+    {
+      "id": "c3c03ac5-e5a7-4000-a9ae-70ad4c3cc8d7",
+      "type": "diagram-nodes",
+      "isSvg": false,
+      "transformed": true,
+      "models": {
+        "36ad22a5-bf31-4ac4-89bb-3c9771d8d799": {
+          "id": "36ad22a5-bf31-4ac4-89bb-3c9771d8d799",
+          "type": "start",
+          "x": 50,
+          "y": 50,
+          "ports": [
+            {
+              "id": "ead0188a-ae82-4897-8f60-f7778b93ae47",
+              "type": "default",
+              "x": 125.796875,
+              "y": 57,
+              "name": "out-1732607861356",
+              "alignment": "right",
+              "parentNode": "36ad22a5-bf31-4ac4-89bb-3c9771d8d799",
+              "links": [
+                "d6898e5d-7323-4d45-901c-1ac189af56a5"
+              ],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Start",
+          "color": "#16db26e6",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "ead0188a-ae82-4897-8f60-f7778b93ae47"
+          ]
+        },
+        "bbac7e61-cc8e-4810-8012-b8fc60066320": {
+          "id": "bbac7e61-cc8e-4810-8012-b8fc60066320",
+          "type": "dialogue",
+          "selected": false,
+          "x": 175,
+          "y": 26,
+          "ports": [
+            {
+              "id": "ecb49fa6-15f1-4671-bf59-a1156556b349",
+              "type": "default",
+              "x": 162,
+              "y": 57,
+              "name": "in-1732607863495 ",
+              "alignment": "left",
+              "parentNode": "bbac7e61-cc8e-4810-8012-b8fc60066320",
+              "links": [
+                "d6898e5d-7323-4d45-901c-1ac189af56a5"
+              ],
+              "in": true,
+              "label": "❯"
+            },
+            {
+              "id": "73af4a98-4afc-4c4e-b587-a5ec3d5900f7",
+              "type": "default",
+              "x": 623.359375,
+              "y": 57,
+              "name": "out-1732607863495",
+              "alignment": "right",
+              "parentNode": "bbac7e61-cc8e-4810-8012-b8fc60066320",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "<player>",
+          "color": "#dd341ee6",
+          "portsInOrder": [
+            "ecb49fa6-15f1-4671-bf59-a1156556b349"
+          ],
+          "portsOutOrder": [
+            "73af4a98-4afc-4c4e-b587-a5ec3d5900f7"
+          ],
+          "text": "Wow, this place looks special. Best I look around for\nsomething to fix."
+        },
+        "c1b6ea13-05bf-4a99-ba7e-438d22750030": {
+          "id": "c1b6ea13-05bf-4a99-ba7e-438d22750030",
+          "type": "action",
+          "selected": false,
+          "x": 184,
+          "y": 115,
+          "ports": [
+            {
+              "id": "66f6cfe1-a842-495a-8bdf-8577c33dda68",
+              "type": "default",
+              "x": 171,
+              "y": 146,
+              "name": "in-1732607890024 ",
+              "alignment": "left",
+              "parentNode": "c1b6ea13-05bf-4a99-ba7e-438d22750030",
+              "links": [],
+              "in": true,
+              "label": "❯"
+            },
+            {
+              "id": "8c1e1959-9a1a-40d5-8093-c45ec1a8ed2e",
+              "type": "default",
+              "x": 477.046875,
+              "y": 146,
+              "name": "out-1732607890025",
+              "alignment": "right",
+              "parentNode": "c1b6ea13-05bf-4a99-ba7e-438d22750030",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Action",
+          "color": "#3e077ee6",
+          "portsInOrder": [
+            "66f6cfe1-a842-495a-8bdf-8577c33dda68"
+          ],
+          "portsOutOrder": [
+            "8c1e1959-9a1a-40d5-8093-c45ec1a8ed2e"
+          ],
+          "actions": {
+            "actions": [
+              "setCharacterStat"
+            ],
+            "args": [
+              [
+                "",
+                ""
+              ]
+            ]
+          }
+        },
+        "9aa4c4da-d640-4221-8d5b-d21e60ee55ae": {
+          "id": "9aa4c4da-d640-4221-8d5b-d21e60ee55ae",
+          "type": "note",
+          "x": 554,
+          "y": 129,
+          "ports": [],
+          "title": "Note",
+          "color": "#19e0e7e6",
+          "portsInOrder": [],
+          "portsOutOrder": [],
+          "text": "Set entered"
+        },
+        "36c057a8-8884-424d-8ddd-f857e92433bc": {
+          "id": "36c057a8-8884-424d-8ddd-f857e92433bc",
+          "type": "dialogue",
+          "selected": true,
+          "x": 759,
+          "y": 27,
+          "ports": [
+            {
+              "id": "6234641d-502b-4a2e-a1df-1a96a5c63004",
+              "type": "default",
+              "x": 746,
+              "y": 58,
+              "name": "in-1732607863495 ",
+              "alignment": "left",
+              "parentNode": "36c057a8-8884-424d-8ddd-f857e92433bc",
+              "links": [],
+              "in": true,
+              "label": "❯"
+            },
+            {
+              "id": "7a6cffcd-8c71-44fd-98d9-accb91d49f30",
+              "type": "default",
+              "x": 1229.34375,
+              "y": 58,
+              "name": "out-1732607863495",
+              "alignment": "right",
+              "parentNode": "36c057a8-8884-424d-8ddd-f857e92433bc",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Bonafido",
+          "color": "#dd341ee6",
+          "portsInOrder": [
+            "6234641d-502b-4a2e-a1df-1a96a5c63004"
+          ],
+          "portsOutOrder": [
+            "7a6cffcd-8c71-44fd-98d9-accb91d49f30"
+          ],
+          "text": "Hey, you ain't going in there unless you're kitted out a\nwith hat, boots, shirt and trousers!"
+        }
+      }
+    }
+  ],
+  "trees": {}
+}

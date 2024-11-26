@@ -1,0 +1,4906 @@
+{
+  "id": "81fbfc86-c003-4c41-966a-a61b50201daa",
+  "offsetX": 0,
+  "offsetY": 0,
+  "zoom": 100,
+  "gridSize": 0,
+  "layers": [
+    {
+      "id": "dc7f7e43-0e35-4ec8-acab-f74dfc1f1bd0",
+      "type": "diagram-links",
+      "isSvg": true,
+      "transformed": true,
+      "models": {}
+    },
+    {
+      "id": "e4316148-0fd5-4c8e-b21d-b19342718bed",
+      "type": "diagram-nodes",
+      "isSvg": false,
+      "transformed": true,
+      "models": {
+        "347da9a5-35a0-4d5b-b024-a747e1fc5a25": {
+          "id": "347da9a5-35a0-4d5b-b024-a747e1fc5a25",
+          "type": "start",
+          "x": 50,
+          "y": 50,
+          "ports": [
+            {
+              "id": "ba3713a2-d729-4cc2-8f1a-b1279fec81e9",
+              "type": "default",
+              "x": 125.796875,
+              "y": 57,
+              "name": "out-1732611346984",
+              "alignment": "right",
+              "parentNode": "347da9a5-35a0-4d5b-b024-a747e1fc5a25",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Start",
+          "color": "#16db26e6",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "ba3713a2-d729-4cc2-8f1a-b1279fec81e9"
+          ]
+        }
+      }
+    }
+  ],
+  "trees": {
+    "talk_to_homunculus": {
+      "id": "474c5754-c3f7-4255-a8be-5112437ca71b",
+      "offsetX": -482.1804506674623,
+      "offsetY": -1054.1850919431724,
+      "zoom": 106.66666666666667,
+      "gridSize": 0,
+      "layers": [
+        {
+          "id": "40896fb6-802a-4b9c-86d2-2f5b073c2d71",
+          "type": "diagram-links",
+          "isSvg": true,
+          "transformed": true,
+          "models": {
+            "bfabe1aa-06b9-4822-9566-e73e9684278c": {
+              "id": "bfabe1aa-06b9-4822-9566-e73e9684278c",
+              "type": "default",
+              "selected": false,
+              "source": "e9de94cf-0f2d-4ec4-b8a3-52a94b71e21a",
+              "sourcePort": "a2e65290-8ab3-4c3f-8d12-6746733c0290",
+              "target": "bdf758de-f8ce-457e-ba71-6c93aaae3088",
+              "targetPort": "110a220a-a950-4ee4-9877-8dee5a971ebb",
+              "points": [
+                {
+                  "id": "90990f36-bdb0-4efc-9cbc-0acef07c7bc2",
+                  "type": "point",
+                  "x": 133.29693150344826,
+                  "y": 64.50002090780289
+                },
+                {
+                  "id": "6a6c1b89-e733-4dbe-b21c-b612c7f33e5d",
+                  "type": "point",
+                  "x": 169.50021186566426,
+                  "y": 63.500015359152314
+                }
+              ],
+              "labels": [],
+              "width": 3,
+              "color": "gray",
+              "curvyness": 50,
+              "selectedColor": "rgb(0,192,255)"
+            },
+            "c0418e77-9578-4be8-b4b9-e7d8273932e5": {
+              "id": "c0418e77-9578-4be8-b4b9-e7d8273932e5",
+              "type": "default",
+              "selected": false,
+              "source": "bdf758de-f8ce-457e-ba71-6c93aaae3088",
+              "sourcePort": "99eb46a5-5f3d-4db5-a62f-4a7f1e086971",
+              "target": "8bb28a89-206a-46c4-afc8-bb4041da458f",
+              "targetPort": "f49b0158-fa55-4d5e-a696-ef98827f0426",
+              "points": [
+                {
+                  "id": "20b1f02f-578f-49a2-a76a-2af5e9889f0f",
+                  "type": "point",
+                  "x": 286.4060623628235,
+                  "y": 63.500015359152314
+                },
+                {
+                  "id": "be027968-06ce-4e41-9221-f491b173bebb",
+                  "type": "point",
+                  "x": 169.50021186566426,
+                  "y": 126.49999039022487
+                }
+              ],
+              "labels": [],
+              "width": 3,
+              "color": "gray",
+              "curvyness": 50,
+              "selectedColor": "rgb(0,192,255)"
+            },
+            "633d8c91-5ae0-4c77-85bb-0ae40e06c93c": {
+              "id": "633d8c91-5ae0-4c77-85bb-0ae40e06c93c",
+              "type": "default",
+              "selected": false,
+              "source": "8bb28a89-206a-46c4-afc8-bb4041da458f",
+              "sourcePort": "ab1fc438-c59d-4217-883a-d59e13387d05",
+              "target": "13253c14-ea22-4288-9bc3-1da4b42c42bd",
+              "targetPort": "3d224835-bef0-40f2-aae7-f32107809c65",
+              "points": [
+                {
+                  "id": "36d4c665-8b5b-4f74-ab3f-5d53ee61a385",
+                  "type": "point",
+                  "x": 432.9843205304374,
+                  "y": 126.49999039022487
+                },
+                {
+                  "id": "3c267810-a3ed-477f-aee4-9d2d8e654fbc",
+                  "type": "point",
+                  "x": 169.50021186566426,
+                  "y": 189.50000703617667
+                }
+              ],
+              "labels": [],
+              "width": 3,
+              "color": "gray",
+              "curvyness": 50,
+              "selectedColor": "rgb(0,192,255)"
+            },
+            "b48d200b-95b8-49b6-849a-faa789dee24c": {
+              "id": "b48d200b-95b8-49b6-849a-faa789dee24c",
+              "type": "default",
+              "selected": false,
+              "source": "13253c14-ea22-4288-9bc3-1da4b42c42bd",
+              "sourcePort": "227f9e0f-1474-49fe-86b9-e0f4842ddab9",
+              "target": "6e1b7761-726b-4af8-a0f1-3d5bd2c53576",
+              "targetPort": "7eaba647-5591-4175-8d18-61f0fe4084df",
+              "points": [
+                {
+                  "id": "9b92067d-157f-475c-a738-26eaaefeec69",
+                  "type": "point",
+                  "x": 476.95293736282383,
+                  "y": 189.50000703617667
+                },
+                {
+                  "id": "fc490e3e-3888-4ad5-8143-8de209b7beb5",
+                  "type": "point",
+                  "x": 169.50021186566426,
+                  "y": 252.49998206724922
+                }
+              ],
+              "labels": [],
+              "width": 3,
+              "color": "gray",
+              "curvyness": 50,
+              "selectedColor": "rgb(0,192,255)"
+            },
+            "195f906d-d9fd-4201-8545-757222876bba": {
+              "id": "195f906d-d9fd-4201-8545-757222876bba",
+              "type": "default",
+              "selected": false,
+              "source": "6e1b7761-726b-4af8-a0f1-3d5bd2c53576",
+              "sourcePort": "ce29336d-32b1-4581-be30-06c335ea3f23",
+              "target": "424e4ad2-3d0f-4ab6-87ad-49d437cd2081",
+              "targetPort": "46460633-41e2-4d83-acc7-3daf3fd6adb3",
+              "points": [
+                {
+                  "id": "a79da3f3-b365-4b44-a5c3-12bf59e5a2ab",
+                  "type": "point",
+                  "x": 345.03110675202817,
+                  "y": 252.49998206724922
+                },
+                {
+                  "id": "350d5d0b-6472-447e-a86c-0f0540df1215",
+                  "type": "point",
+                  "x": 169.50021186566426,
+                  "y": 315.499998713201
+                }
+              ],
+              "labels": [],
+              "width": 3,
+              "color": "gray",
+              "curvyness": 50,
+              "selectedColor": "rgb(0,192,255)"
+            },
+            "541a6f53-5529-424b-b612-b922a2f937d7": {
+              "id": "541a6f53-5529-424b-b612-b922a2f937d7",
+              "type": "default",
+              "selected": false,
+              "source": "424e4ad2-3d0f-4ab6-87ad-49d437cd2081",
+              "sourcePort": "be5d26ba-7efa-4f2e-84a2-fbed80224194",
+              "target": "aa45b8c3-db6a-427d-8dfa-c6cacf99b630",
+              "targetPort": "1c129c97-0cac-4c8e-bf8a-185111cbe52c",
+              "points": [
+                {
+                  "id": "ed4d4926-d2ba-46af-8309-fef03e149a47",
+                  "type": "point",
+                  "x": 638.1876230872559,
+                  "y": 315.499998713201
+                },
+                {
+                  "id": "071e01c6-3746-46c9-945f-63064f719755",
+                  "type": "point",
+                  "x": 169.50021186566426,
+                  "y": 393.5000153591529
+                }
+              ],
+              "labels": [],
+              "width": 3,
+              "color": "gray",
+              "curvyness": 50,
+              "selectedColor": "rgb(0,192,255)"
+            },
+            "66cd2c11-59bd-47b3-bdea-3590bda4763a": {
+              "id": "66cd2c11-59bd-47b3-bdea-3590bda4763a",
+              "type": "default",
+              "selected": false,
+              "source": "aa45b8c3-db6a-427d-8dfa-c6cacf99b630",
+              "sourcePort": "08859f4b-5213-43f7-8f43-6ed33e1df444",
+              "target": "f396502b-6513-426b-99e4-2ca9f0356536",
+              "targetPort": "db662225-80ab-47a5-94c3-b2701be7749a",
+              "points": [
+                {
+                  "id": "46103009-f343-4d6f-942a-ae2fc1f87c43",
+                  "type": "point",
+                  "x": 586.8907924764603,
+                  "y": 393.5000153591529
+                },
+                {
+                  "id": "638ba5d9-1b72-4d8f-90e0-fd07fd3c60fd",
+                  "type": "point",
+                  "x": 169.50021186566426,
+                  "y": 471.5000320051047
+                }
+              ],
+              "labels": [],
+              "width": 3,
+              "color": "gray",
+              "curvyness": 50,
+              "selectedColor": "rgb(0,192,255)"
+            },
+            "eccfdc4d-c14e-4213-9c47-76dd964acdc9": {
+              "id": "eccfdc4d-c14e-4213-9c47-76dd964acdc9",
+              "type": "default",
+              "selected": false,
+              "source": "f396502b-6513-426b-99e4-2ca9f0356536",
+              "sourcePort": "0e79ef2e-3f7c-4629-8637-7a6d28af05df",
+              "target": "f239aefc-6074-4eec-8ac2-a1222f1fada7",
+              "targetPort": "72ab59cd-8778-46b1-9d5c-f5f69a6ebe2e",
+              "points": [
+                {
+                  "id": "1fd6ac4f-6be5-4413-a6f2-00720642ae3a",
+                  "type": "point",
+                  "x": 323.0467983358349,
+                  "y": 471.5000320051047
+                },
+                {
+                  "id": "b1273b84-fa38-43a8-a743-579e51b94358",
+                  "type": "point",
+                  "x": 169.50021186566426,
+                  "y": 534.4999654212979
+                }
+              ],
+              "labels": [],
+              "width": 3,
+              "color": "gray",
+              "curvyness": 50,
+              "selectedColor": "rgb(0,192,255)"
+            },
+            "dde38e80-78e8-4f79-8337-30536f027c5a": {
+              "id": "dde38e80-78e8-4f79-8337-30536f027c5a",
+              "type": "default",
+              "selected": false,
+              "source": "f239aefc-6074-4eec-8ac2-a1222f1fada7",
+              "sourcePort": "3c83783c-7f51-4866-a686-d7beac288d55",
+              "target": "62695471-4066-40f1-afed-ae8b9a3c4362",
+              "targetPort": "5e3347ec-ffec-4881-ba85-c1afd33490fc",
+              "points": [
+                {
+                  "id": "097b236e-c69d-4875-9243-37fd947ea2c5",
+                  "type": "point",
+                  "x": 572.2343649196422,
+                  "y": 534.4999654212979
+                },
+                {
+                  "id": "081b8b30-09ff-4aac-ba30-04e4c165d19f",
+                  "type": "point",
+                  "x": 169.50021186566426,
+                  "y": 597.5000652970083
+                }
+              ],
+              "labels": [],
+              "width": 3,
+              "color": "gray",
+              "curvyness": 50,
+              "selectedColor": "rgb(0,192,255)"
+            },
+            "18495540-719b-427d-aee7-03febfef65b5": {
+              "id": "18495540-719b-427d-aee7-03febfef65b5",
+              "type": "default",
+              "selected": false,
+              "source": "62695471-4066-40f1-afed-ae8b9a3c4362",
+              "sourcePort": "bb003956-17af-41c6-ad64-5d2abd81a62e",
+              "target": "5a25bc56-a7eb-4b40-807e-388d506509e6",
+              "targetPort": "855c4050-d49c-4b2d-b207-0fb517bf41bd",
+              "points": [
+                {
+                  "id": "4a0a3db2-32aa-40c3-85d1-1e958ea161f3",
+                  "type": "point",
+                  "x": 564.9061511412331,
+                  "y": 597.5000652970083
+                },
+                {
+                  "id": "b13d00da-3222-4d20-994a-58b22bf95013",
+                  "type": "point",
+                  "x": 169.50021186566426,
+                  "y": 660.4999987132015
+                }
+              ],
+              "labels": [],
+              "width": 3,
+              "color": "gray",
+              "curvyness": 50,
+              "selectedColor": "rgb(0,192,255)"
+            },
+            "a4179118-f128-4661-8ae9-d6ddc60f5fdf": {
+              "id": "a4179118-f128-4661-8ae9-d6ddc60f5fdf",
+              "type": "default",
+              "selected": false,
+              "source": "5a25bc56-a7eb-4b40-807e-388d506509e6",
+              "sourcePort": "d6c05892-c128-4d72-a538-d7ff73578a10",
+              "target": "4aaac068-c162-40a0-b347-bd0ef57a0529",
+              "targetPort": "97c1bda9-0696-416d-9607-927d38569335",
+              "points": [
+                {
+                  "id": "3e1f03a5-9f42-4eb1-8250-fa0602c10171",
+                  "type": "point",
+                  "x": 491.609364919642,
+                  "y": 660.4999987132015
+                },
+                {
+                  "id": "5872428e-5932-44f7-8981-6700b618cb25",
+                  "type": "point",
+                  "x": 169.50021186566426,
+                  "y": 723.4999321293949
+                }
+              ],
+              "labels": [],
+              "width": 3,
+              "color": "gray",
+              "curvyness": 50,
+              "selectedColor": "rgb(0,192,255)"
+            },
+            "29bb7204-ae31-42e0-ae73-6881f975b3d3": {
+              "id": "29bb7204-ae31-42e0-ae73-6881f975b3d3",
+              "type": "default",
+              "selected": false,
+              "source": "4aaac068-c162-40a0-b347-bd0ef57a0529",
+              "sourcePort": "6460bade-28c1-43ec-8764-7e28deaa46ae",
+              "target": "dbc29d4c-552b-4bef-815d-cdbb93f5c39d",
+              "targetPort": "02dacfc7-600c-4409-badf-64b07db630fe",
+              "points": [
+                {
+                  "id": "746dc6a3-e4da-492d-aa51-5927246cde81",
+                  "type": "point",
+                  "x": 645.5155039466309,
+                  "y": 723.4999321293949
+                },
+                {
+                  "id": "43b3aa01-f9a1-4166-a30f-b5f8b8350168",
+                  "type": "point",
+                  "x": 169.50021186566426,
+                  "y": 786.5000320051051
+                }
+              ],
+              "labels": [],
+              "width": 3,
+              "color": "gray",
+              "curvyness": 50,
+              "selectedColor": "rgb(0,192,255)"
+            },
+            "f9118395-50a7-49b8-93a3-6f6d375ec241": {
+              "id": "f9118395-50a7-49b8-93a3-6f6d375ec241",
+              "type": "default",
+              "selected": false,
+              "source": "dbc29d4c-552b-4bef-815d-cdbb93f5c39d",
+              "sourcePort": "02bba49c-2815-4d9d-bd08-09c7af7d8ded",
+              "target": "e9735c8e-800a-4614-87a1-bbb1510a575d",
+              "targetPort": "2a747d89-9db4-49d5-adde-f2099d81939c",
+              "points": [
+                {
+                  "id": "34f81527-90ec-4a5a-9c39-b1348a7c9e71",
+                  "type": "point",
+                  "x": 308.3907036980508,
+                  "y": 786.5000320051051
+                },
+                {
+                  "id": "7d4607d1-73bf-4a15-83ae-b42dca330b7e",
+                  "type": "point",
+                  "x": 169.50021186566426,
+                  "y": 849.4999654212985
+                }
+              ],
+              "labels": [],
+              "width": 3,
+              "color": "gray",
+              "curvyness": 50,
+              "selectedColor": "rgb(0,192,255)"
+            },
+            "fd6a25d0-b9be-46c9-8327-5ae3d8101366": {
+              "id": "fd6a25d0-b9be-46c9-8327-5ae3d8101366",
+              "type": "default",
+              "selected": false,
+              "source": "e9735c8e-800a-4614-87a1-bbb1510a575d",
+              "sourcePort": "99d31c11-d809-4da3-885d-808b57f34861",
+              "target": "981d1722-7e90-4dc5-b702-65a8d47f3465",
+              "targetPort": "8aa525cd-9d9b-4afe-a408-985d926199b6",
+              "points": [
+                {
+                  "id": "d8f03ad3-319e-4b6a-bd1b-9322186a847b",
+                  "type": "point",
+                  "x": 696.8279817520287,
+                  "y": 849.4999654212985
+                },
+                {
+                  "id": "6487d883-ec98-4652-849a-67a0b5b9c193",
+                  "type": "point",
+                  "x": 169.50021186566426,
+                  "y": 927.5000652970089
+                }
+              ],
+              "labels": [],
+              "width": 3,
+              "color": "gray",
+              "curvyness": 50,
+              "selectedColor": "rgb(0,192,255)"
+            },
+            "a1c0db3d-bce5-4e9b-b447-d6a320221501": {
+              "id": "a1c0db3d-bce5-4e9b-b447-d6a320221501",
+              "type": "default",
+              "selected": false,
+              "source": "981d1722-7e90-4dc5-b702-65a8d47f3465",
+              "sourcePort": "cbab8cce-56fb-4905-bcff-8422b2eb7f70",
+              "target": "700a87d5-a31c-4c38-9349-6923d72b0595",
+              "targetPort": "c6dbc403-49ac-4f11-b0c4-d155f2cd83eb",
+              "points": [
+                {
+                  "id": "8dc0323f-3361-4442-ad4a-13b7d64cabee",
+                  "type": "point",
+                  "x": 594.2186733358353,
+                  "y": 927.5000652970089
+                },
+                {
+                  "id": "07201a2b-da34-4dce-a344-4ec51015fd4e",
+                  "type": "point",
+                  "x": 169.50021186566426,
+                  "y": 1005.4999987132021
+                }
+              ],
+              "labels": [],
+              "width": 3,
+              "color": "gray",
+              "curvyness": 50,
+              "selectedColor": "rgb(0,192,255)"
+            },
+            "382341ac-a370-4088-ad6c-56a5704c1109": {
+              "id": "382341ac-a370-4088-ad6c-56a5704c1109",
+              "type": "default",
+              "selected": false,
+              "source": "700a87d5-a31c-4c38-9349-6923d72b0595",
+              "sourcePort": "b57f3086-f3f8-4d0c-8497-79cebf51825d",
+              "target": "06c66e0f-eb16-4720-8147-fa90284b552a",
+              "targetPort": "ef9ee272-052c-44ec-b03b-21d9e8c766bf",
+              "points": [
+                {
+                  "id": "e6111a58-282a-48eb-9640-2c9e0aa5202c",
+                  "type": "point",
+                  "x": 337.70289297361904,
+                  "y": 1005.4999987132021
+                },
+                {
+                  "id": "1f9b0f4a-6a24-4df2-bd17-5a836281d57a",
+                  "type": "point",
+                  "x": 169.50021186566426,
+                  "y": 1068.5000985889124
+                }
+              ],
+              "labels": [],
+              "width": 3,
+              "color": "gray",
+              "curvyness": 50,
+              "selectedColor": "rgb(0,192,255)"
+            },
+            "a5dc96ad-d2cc-40ff-ad56-952ec51431c2": {
+              "id": "a5dc96ad-d2cc-40ff-ad56-952ec51431c2",
+              "type": "default",
+              "selected": false,
+              "source": "09e08869-2fcf-4c5d-b04c-def70f4b0dc9",
+              "sourcePort": "2cda30c7-c8c1-490c-a232-ff543823dc11",
+              "target": "b17cd999-c350-4941-8290-0e12b5d82855",
+              "targetPort": "4591e188-4881-4f3c-82b3-386589362f96",
+              "points": [
+                {
+                  "id": "fe33d5c3-a527-439a-93b5-d0de329bc50d",
+                  "type": "point",
+                  "x": 1469.5157480872572,
+                  "y": 1137.500065297009
+                },
+                {
+                  "id": "b63de35c-91af-4999-a0ee-ac810f72d706",
+                  "type": "point",
+                  "x": 1140.078048335836,
+                  "y": 1200.4999987132026
+                }
+              ],
+              "labels": [],
+              "width": 3,
+              "color": "gray",
+              "curvyness": 50,
+              "selectedColor": "rgb(0,192,255)"
+            },
+            "e0b160af-0e0a-4009-a32f-a87f8e3dd9f9": {
+              "id": "e0b160af-0e0a-4009-a32f-a87f8e3dd9f9",
+              "type": "default",
+              "selected": false,
+              "source": "b17cd999-c350-4941-8290-0e12b5d82855",
+              "sourcePort": "da48f8bc-7ebf-467c-a913-f5e9fbd80942",
+              "target": "35aeecc8-b17d-45b8-be15-3678be0909e3",
+              "targetPort": "eafba889-d7e3-4ef7-bba9-fced7e4d30ed",
+              "points": [
+                {
+                  "id": "5dae82ab-7d77-4818-b55d-f96c941a87c9",
+                  "type": "point",
+                  "x": 1418.218917476462,
+                  "y": 1200.4999987132026
+                },
+                {
+                  "id": "e44b4c15-aa69-4454-a8df-dacad845be9c",
+                  "type": "point",
+                  "x": 1140.0780483358362,
+                  "y": 1263.5000985889128
+                }
+              ],
+              "labels": [],
+              "width": 3,
+              "color": "gray",
+              "curvyness": 50,
+              "selectedColor": "rgb(0,192,255)"
+            },
+            "2d9f214d-4c48-45b2-9a3f-7bb52d86ac4f": {
+              "id": "2d9f214d-4c48-45b2-9a3f-7bb52d86ac4f",
+              "type": "default",
+              "selected": false,
+              "source": "35aeecc8-b17d-45b8-be15-3678be0909e3",
+              "sourcePort": "841b4513-12f7-4267-a874-0ef251a8a3ea",
+              "target": "1a07678d-9b15-4be7-a878-656e23104a2f",
+              "targetPort": "5c4f9826-526d-4269-bd17-16daec3467af",
+              "points": [
+                {
+                  "id": "87083c8e-fc51-4127-b932-95dd5f14c5f0",
+                  "type": "point",
+                  "x": 1579.4529373628257,
+                  "y": 1263.5000985889128
+                },
+                {
+                  "id": "38eb1acb-4f10-486b-8d17-825f91b11c63",
+                  "type": "point",
+                  "x": 1140.0780483358362,
+                  "y": 1341.500032005106
+                }
+              ],
+              "labels": [],
+              "width": 3,
+              "color": "gray",
+              "curvyness": 50,
+              "selectedColor": "rgb(0,192,255)"
+            },
+            "c4326503-fff8-46bb-89a0-d14f10674926": {
+              "id": "c4326503-fff8-46bb-89a0-d14f10674926",
+              "type": "default",
+              "selected": false,
+              "source": "1a07678d-9b15-4be7-a878-656e23104a2f",
+              "sourcePort": "f784372d-640a-4242-83dd-11294bf7a9ac",
+              "target": "47364e65-6c61-4086-bcc1-0351408b9c08",
+              "targetPort": "f6952fe8-baa9-47b4-8860-b80249aeef83",
+              "points": [
+                {
+                  "id": "e4c8e8eb-cef4-4856-977c-7f42b2b7869b",
+                  "type": "point",
+                  "x": 1249.6563508926545,
+                  "y": 1341.500032005106
+                },
+                {
+                  "id": "9f9fdefe-57a9-45ad-bcd0-f1612b9e97fd",
+                  "type": "point",
+                  "x": 1140.0780483358362,
+                  "y": 1404.4999654212993
+                }
+              ],
+              "labels": [],
+              "width": 3,
+              "color": "gray",
+              "curvyness": 50,
+              "selectedColor": "rgb(0,192,255)"
+            },
+            "444c7e53-4655-4592-9c75-a9cf1b622d8e": {
+              "id": "444c7e53-4655-4592-9c75-a9cf1b622d8e",
+              "type": "default",
+              "selected": false,
+              "source": "47364e65-6c61-4086-bcc1-0351408b9c08",
+              "sourcePort": "7b9802c7-71ec-4f05-b785-8878db672a9b",
+              "target": "9c31ca9a-2647-46c5-9fd2-832076dfab63",
+              "targetPort": "d84c207f-d26d-46a1-87f7-01d8462c5e41",
+              "points": [
+                {
+                  "id": "00290c09-5b3a-47d2-9e82-86bf81302729",
+                  "type": "point",
+                  "x": 1630.7497679736211,
+                  "y": 1404.4999654212993
+                },
+                {
+                  "id": "9f4cc766-6e17-4660-b460-51fa4bffe2d9",
+                  "type": "point",
+                  "x": 1140.0780483358362,
+                  "y": 1512.5000652970098
+                }
+              ],
+              "labels": [],
+              "width": 3,
+              "color": "gray",
+              "curvyness": 50,
+              "selectedColor": "rgb(0,192,255)"
+            },
+            "50e1820e-4921-4fbd-aef3-90bea8cf05f7": {
+              "id": "50e1820e-4921-4fbd-aef3-90bea8cf05f7",
+              "type": "default",
+              "selected": false,
+              "source": "9c31ca9a-2647-46c5-9fd2-832076dfab63",
+              "sourcePort": "f91ffaca-f49c-4041-a1f5-db4cf6e8e6b8",
+              "target": "75f36963-4730-491a-be3f-a33791e16538",
+              "targetPort": "90157c8b-d49c-49d9-9c99-72208b53053c",
+              "points": [
+                {
+                  "id": "f214276d-858f-44a1-a2e2-bfa267ac8765",
+                  "type": "point",
+                  "x": 1608.765792476462,
+                  "y": 1512.5000652970098
+                },
+                {
+                  "id": "c3d9db74-7148-4994-b1af-7aa8c288541f",
+                  "type": "point",
+                  "x": 1140.0780483358362,
+                  "y": 1575.499998713203
+                }
+              ],
+              "labels": [],
+              "width": 3,
+              "color": "gray",
+              "curvyness": 50,
+              "selectedColor": "rgb(0,192,255)"
+            },
+            "4760165e-e48e-4c63-bdec-6edba0a99be1": {
+              "id": "4760165e-e48e-4c63-bdec-6edba0a99be1",
+              "type": "default",
+              "selected": false,
+              "source": "75f36963-4730-491a-be3f-a33791e16538",
+              "sourcePort": "33ab6523-64f3-4d26-8e07-0e3a588e6a48",
+              "target": "0f63162a-1cd3-4729-b0af-393eeb1ce7de",
+              "targetPort": "13a51513-04ec-4a4f-8c20-8c19b3738078",
+              "points": [
+                {
+                  "id": "24bd0099-4949-44bb-bacc-9ff117a5ecff",
+                  "type": "point",
+                  "x": 1550.1407480872574,
+                  "y": 1575.499998713203
+                },
+                {
+                  "id": "14057b50-aaff-43b9-a681-f2bc7922d144",
+                  "type": "point",
+                  "x": 1140.0780483358362,
+                  "y": 1653.4999321293963
+                }
+              ],
+              "labels": [],
+              "width": 3,
+              "color": "gray",
+              "curvyness": 50,
+              "selectedColor": "rgb(0,192,255)"
+            }
+          }
+        },
+        {
+          "id": "15bd0f88-7f73-4014-80ad-2c1f69ced7af",
+          "type": "diagram-nodes",
+          "isSvg": false,
+          "transformed": true,
+          "models": {
+            "e9de94cf-0f2d-4ec4-b8a3-52a94b71e21a": {
+              "id": "e9de94cf-0f2d-4ec4-b8a3-52a94b71e21a",
+              "type": "start",
+              "selected": false,
+              "x": 50,
+              "y": 50,
+              "ports": [
+                {
+                  "id": "a2e65290-8ab3-4c3f-8d12-6746733c0290",
+                  "type": "default",
+                  "x": 125.79693150344826,
+                  "y": 57.00002090780288,
+                  "name": "out-1732611357833",
+                  "alignment": "right",
+                  "parentNode": "e9de94cf-0f2d-4ec4-b8a3-52a94b71e21a",
+                  "links": [
+                    "bfabe1aa-06b9-4822-9566-e73e9684278c"
+                  ],
+                  "in": false,
+                  "label": "❯"
+                }
+              ],
+              "title": "Start",
+              "color": "#16db26e6",
+              "portsInOrder": [],
+              "portsOutOrder": [
+                "a2e65290-8ab3-4c3f-8d12-6746733c0290"
+              ]
+            },
+            "bdf758de-f8ce-457e-ba71-6c93aaae3088": {
+              "id": "bdf758de-f8ce-457e-ba71-6c93aaae3088",
+              "type": "dialogue",
+              "selected": false,
+              "x": 175,
+              "y": 25,
+              "ports": [
+                {
+                  "id": "110a220a-a950-4ee4-9877-8dee5a971ebb",
+                  "type": "default",
+                  "x": 162.00021186566423,
+                  "y": 56.00001535915231,
+                  "name": "in-1732611364831 ",
+                  "alignment": "left",
+                  "parentNode": "bdf758de-f8ce-457e-ba71-6c93aaae3088",
+                  "links": [
+                    "bfabe1aa-06b9-4822-9566-e73e9684278c"
+                  ],
+                  "in": true,
+                  "label": "❯"
+                },
+                {
+                  "id": "99eb46a5-5f3d-4db5-a62f-4a7f1e086971",
+                  "type": "default",
+                  "x": 278.9060623628235,
+                  "y": 56.00001535915231,
+                  "name": "out-1732611364831",
+                  "alignment": "right",
+                  "parentNode": "bdf758de-f8ce-457e-ba71-6c93aaae3088",
+                  "links": [
+                    "c0418e77-9578-4be8-b4b9-e7d8273932e5"
+                  ],
+                  "in": false,
+                  "label": "❯"
+                }
+              ],
+              "title": "<player>",
+              "color": "#dd341ee6",
+              "portsInOrder": [
+                "110a220a-a950-4ee4-9877-8dee5a971ebb"
+              ],
+              "portsOutOrder": [
+                "99eb46a5-5f3d-4db5-a62f-4a7f1e086971"
+              ],
+              "text": "Hello?"
+            },
+            "8bb28a89-206a-46c4-afc8-bb4041da458f": {
+              "id": "8bb28a89-206a-46c4-afc8-bb4041da458f",
+              "type": "dialogue",
+              "selected": false,
+              "x": 175,
+              "y": 88,
+              "ports": [
+                {
+                  "id": "f49b0158-fa55-4d5e-a696-ef98827f0426",
+                  "type": "default",
+                  "x": 162.00021186566423,
+                  "y": 118.99999039022485,
+                  "name": "in-1732611372076 ",
+                  "alignment": "left",
+                  "parentNode": "8bb28a89-206a-46c4-afc8-bb4041da458f",
+                  "links": [
+                    "c0418e77-9578-4be8-b4b9-e7d8273932e5"
+                  ],
+                  "in": true,
+                  "label": "❯"
+                },
+                {
+                  "id": "ab1fc438-c59d-4217-883a-d59e13387d05",
+                  "type": "default",
+                  "x": 425.4843205304374,
+                  "y": 118.99999039022485,
+                  "name": "out-1732611372076",
+                  "alignment": "right",
+                  "parentNode": "8bb28a89-206a-46c4-afc8-bb4041da458f",
+                  "links": [
+                    "633d8c91-5ae0-4c77-85bb-0ae40e06c93c"
+                  ],
+                  "in": false,
+                  "label": "❯"
+                }
+              ],
+              "title": "Homunculus",
+              "color": "#dd341ee6",
+              "portsInOrder": [
+                "f49b0158-fa55-4d5e-a696-ef98827f0426"
+              ],
+              "portsOutOrder": [
+                "ab1fc438-c59d-4217-883a-d59e13387d05"
+              ],
+              "text": "Leeet mwwe free. Argyyghh."
+            },
+            "13253c14-ea22-4288-9bc3-1da4b42c42bd": {
+              "id": "13253c14-ea22-4288-9bc3-1da4b42c42bd",
+              "type": "dialogue",
+              "selected": false,
+              "x": 175,
+              "y": 151,
+              "ports": [
+                {
+                  "id": "3d224835-bef0-40f2-aae7-f32107809c65",
+                  "type": "default",
+                  "x": 162.00021186566423,
+                  "y": 182.00000703617667,
+                  "name": "in-1732611373238 ",
+                  "alignment": "left",
+                  "parentNode": "13253c14-ea22-4288-9bc3-1da4b42c42bd",
+                  "links": [
+                    "633d8c91-5ae0-4c77-85bb-0ae40e06c93c"
+                  ],
+                  "in": true,
+                  "label": "❯"
+                },
+                {
+                  "id": "227f9e0f-1474-49fe-86b9-e0f4842ddab9",
+                  "type": "default",
+                  "x": 469.45293736282383,
+                  "y": 182.00000703617667,
+                  "name": "out-1732611373238",
+                  "alignment": "right",
+                  "parentNode": "13253c14-ea22-4288-9bc3-1da4b42c42bd",
+                  "links": [
+                    "b48d200b-95b8-49b6-849a-faa789dee24c"
+                  ],
+                  "in": false,
+                  "label": "❯"
+                }
+              ],
+              "title": "<player>",
+              "color": "#dd341ee6",
+              "portsInOrder": [
+                "3d224835-bef0-40f2-aae7-f32107809c65"
+              ],
+              "portsOutOrder": [
+                "227f9e0f-1474-49fe-86b9-e0f4842ddab9"
+              ],
+              "text": "It's okay, I'm here to help you."
+            },
+            "6e1b7761-726b-4af8-a0f1-3d5bd2c53576": {
+              "id": "6e1b7761-726b-4af8-a0f1-3d5bd2c53576",
+              "type": "dialogue",
+              "selected": false,
+              "x": 175,
+              "y": 214,
+              "ports": [
+                {
+                  "id": "7eaba647-5591-4175-8d18-61f0fe4084df",
+                  "type": "default",
+                  "x": 162.00021186566423,
+                  "y": 244.9999820672492,
+                  "name": "in-1732611375088 ",
+                  "alignment": "left",
+                  "parentNode": "6e1b7761-726b-4af8-a0f1-3d5bd2c53576",
+                  "links": [
+                    "b48d200b-95b8-49b6-849a-faa789dee24c"
+                  ],
+                  "in": true,
+                  "label": "❯"
+                },
+                {
+                  "id": "ce29336d-32b1-4581-be30-06c335ea3f23",
+                  "type": "default",
+                  "x": 337.53110675202817,
+                  "y": 244.9999820672492,
+                  "name": "out-1732611375088",
+                  "alignment": "right",
+                  "parentNode": "6e1b7761-726b-4af8-a0f1-3d5bd2c53576",
+                  "links": [
+                    "195f906d-d9fd-4201-8545-757222876bba"
+                  ],
+                  "in": false,
+                  "label": "❯"
+                }
+              ],
+              "title": "Homunculus",
+              "color": "#dd341ee6",
+              "portsInOrder": [
+                "7eaba647-5591-4175-8d18-61f0fe4084df"
+              ],
+              "portsOutOrder": [
+                "ce29336d-32b1-4581-be30-06c335ea3f23"
+              ],
+              "text": "Lieees. Grahhh"
+            },
+            "424e4ad2-3d0f-4ab6-87ad-49d437cd2081": {
+              "id": "424e4ad2-3d0f-4ab6-87ad-49d437cd2081",
+              "type": "dialogue",
+              "selected": false,
+              "x": 175,
+              "y": 277,
+              "ports": [
+                {
+                  "id": "46460633-41e2-4d83-acc7-3daf3fd6adb3",
+                  "type": "default",
+                  "x": 162.00021186566423,
+                  "y": 307.999998713201,
+                  "name": "in-1732611376272 ",
+                  "alignment": "left",
+                  "parentNode": "424e4ad2-3d0f-4ab6-87ad-49d437cd2081",
+                  "links": [
+                    "195f906d-d9fd-4201-8545-757222876bba"
+                  ],
+                  "in": true,
+                  "label": "❯"
+                },
+                {
+                  "id": "be5d26ba-7efa-4f2e-84a2-fbed80224194",
+                  "type": "default",
+                  "x": 630.6876230872559,
+                  "y": 307.999998713201,
+                  "name": "out-1732611376272",
+                  "alignment": "right",
+                  "parentNode": "424e4ad2-3d0f-4ab6-87ad-49d437cd2081",
+                  "links": [
+                    "541a6f53-5529-424b-b612-b922a2f937d7"
+                  ],
+                  "in": false,
+                  "label": "❯"
+                }
+              ],
+              "title": "<player>",
+              "color": "#dd341ee6",
+              "portsInOrder": [
+                "46460633-41e2-4d83-acc7-3daf3fd6adb3"
+              ],
+              "portsOutOrder": [
+                "be5d26ba-7efa-4f2e-84a2-fbed80224194"
+              ],
+              "text": "No, honest. I helped the alchemists, but I had no idea\nwhat their plans involved."
+            },
+            "aa45b8c3-db6a-427d-8dfa-c6cacf99b630": {
+              "id": "aa45b8c3-db6a-427d-8dfa-c6cacf99b630",
+              "type": "dialogue",
+              "selected": false,
+              "x": 175,
+              "y": 355,
+              "ports": [
+                {
+                  "id": "1c129c97-0cac-4c8e-bf8a-185111cbe52c",
+                  "type": "default",
+                  "x": 162.00021186566423,
+                  "y": 386.0000153591529,
+                  "name": "in-1732611377497 ",
+                  "alignment": "left",
+                  "parentNode": "aa45b8c3-db6a-427d-8dfa-c6cacf99b630",
+                  "links": [
+                    "541a6f53-5529-424b-b612-b922a2f937d7"
+                  ],
+                  "in": true,
+                  "label": "❯"
+                },
+                {
+                  "id": "08859f4b-5213-43f7-8f43-6ed33e1df444",
+                  "type": "default",
+                  "x": 579.3907924764603,
+                  "y": 386.0000153591529,
+                  "name": "out-1732611377497",
+                  "alignment": "right",
+                  "parentNode": "aa45b8c3-db6a-427d-8dfa-c6cacf99b630",
+                  "links": [
+                    "66cd2c11-59bd-47b3-bdea-3590bda4763a"
+                  ],
+                  "in": false,
+                  "label": "❯"
+                }
+              ],
+              "title": "Homunculus",
+              "color": "#dd341ee6",
+              "portsInOrder": [
+                "1c129c97-0cac-4c8e-bf8a-185111cbe52c"
+              ],
+              "portsOutOrder": [
+                "08859f4b-5213-43f7-8f43-6ed33e1df444"
+              ],
+              "text": "Arggh, so alchemist create me now I trapped for\nexperiements. But still I confused."
+            },
+            "f396502b-6513-426b-99e4-2ca9f0356536": {
+              "id": "f396502b-6513-426b-99e4-2ca9f0356536",
+              "type": "dialogue",
+              "selected": false,
+              "x": 175,
+              "y": 433,
+              "ports": [
+                {
+                  "id": "db662225-80ab-47a5-94c3-b2701be7749a",
+                  "type": "default",
+                  "x": 162.00021186566423,
+                  "y": 464.0000320051047,
+                  "name": "in-1732611378689 ",
+                  "alignment": "left",
+                  "parentNode": "f396502b-6513-426b-99e4-2ca9f0356536",
+                  "links": [
+                    "66cd2c11-59bd-47b3-bdea-3590bda4763a"
+                  ],
+                  "in": true,
+                  "label": "❯"
+                },
+                {
+                  "id": "0e79ef2e-3f7c-4629-8637-7a6d28af05df",
+                  "type": "default",
+                  "x": 315.5467983358349,
+                  "y": 464.0000320051047,
+                  "name": "out-1732611378689",
+                  "alignment": "right",
+                  "parentNode": "f396502b-6513-426b-99e4-2ca9f0356536",
+                  "links": [
+                    "eccfdc4d-c14e-4213-9c47-76dd964acdc9"
+                  ],
+                  "in": false,
+                  "label": "❯"
+                }
+              ],
+              "title": "<player>",
+              "color": "#dd341ee6",
+              "portsInOrder": [
+                "db662225-80ab-47a5-94c3-b2701be7749a"
+              ],
+              "portsOutOrder": [
+                "0e79ef2e-3f7c-4629-8637-7a6d28af05df"
+              ],
+              "text": "About what?"
+            },
+            "f239aefc-6074-4eec-8ac2-a1222f1fada7": {
+              "id": "f239aefc-6074-4eec-8ac2-a1222f1fada7",
+              "type": "dialogue",
+              "selected": false,
+              "x": 175,
+              "y": 496,
+              "ports": [
+                {
+                  "id": "72ab59cd-8778-46b1-9d5c-f5f69a6ebe2e",
+                  "type": "default",
+                  "x": 162.00021186566423,
+                  "y": 526.9999654212979,
+                  "name": "in-1732611379876 ",
+                  "alignment": "left",
+                  "parentNode": "f239aefc-6074-4eec-8ac2-a1222f1fada7",
+                  "links": [
+                    "eccfdc4d-c14e-4213-9c47-76dd964acdc9"
+                  ],
+                  "in": true,
+                  "label": "❯"
+                },
+                {
+                  "id": "3c83783c-7f51-4866-a686-d7beac288d55",
+                  "type": "default",
+                  "x": 564.7343649196422,
+                  "y": 526.9999654212979,
+                  "name": "out-1732611379876",
+                  "alignment": "right",
+                  "parentNode": "f239aefc-6074-4eec-8ac2-a1222f1fada7",
+                  "links": [
+                    "dde38e80-78e8-4f79-8337-30536f027c5a"
+                  ],
+                  "in": false,
+                  "label": "❯"
+                }
+              ],
+              "title": "Homunculus",
+              "color": "#dd341ee6",
+              "portsInOrder": [
+                "72ab59cd-8778-46b1-9d5c-f5f69a6ebe2e"
+              ],
+              "portsOutOrder": [
+                "3c83783c-7f51-4866-a686-d7beac288d55"
+              ],
+              "text": "Me see logic, feeeel magic. A mix of the two."
+            },
+            "62695471-4066-40f1-afed-ae8b9a3c4362": {
+              "id": "62695471-4066-40f1-afed-ae8b9a3c4362",
+              "type": "dialogue",
+              "selected": false,
+              "x": 175,
+              "y": 559,
+              "ports": [
+                {
+                  "id": "5e3347ec-ffec-4881-ba85-c1afd33490fc",
+                  "type": "default",
+                  "x": 162.00021186566423,
+                  "y": 590.0000652970083,
+                  "name": "in-1732611381676 ",
+                  "alignment": "left",
+                  "parentNode": "62695471-4066-40f1-afed-ae8b9a3c4362",
+                  "links": [
+                    "dde38e80-78e8-4f79-8337-30536f027c5a"
+                  ],
+                  "in": true,
+                  "label": "❯"
+                },
+                {
+                  "id": "bb003956-17af-41c6-ad64-5d2abd81a62e",
+                  "type": "default",
+                  "x": 557.4061511412331,
+                  "y": 590.0000652970083,
+                  "name": "out-1732611381676",
+                  "alignment": "right",
+                  "parentNode": "62695471-4066-40f1-afed-ae8b9a3c4362",
+                  "links": [
+                    "18495540-719b-427d-aee7-03febfef65b5"
+                  ],
+                  "in": false,
+                  "label": "❯"
+                }
+              ],
+              "title": "<player>",
+              "color": "#dd341ee6",
+              "portsInOrder": [
+                "5e3347ec-ffec-4881-ba85-c1afd33490fc"
+              ],
+              "portsOutOrder": [
+                "bb003956-17af-41c6-ad64-5d2abd81a62e"
+              ],
+              "text": "Hmmm. A creature created of logic and magic."
+            },
+            "5a25bc56-a7eb-4b40-807e-388d506509e6": {
+              "id": "5a25bc56-a7eb-4b40-807e-388d506509e6",
+              "type": "dialogue",
+              "selected": false,
+              "x": 175,
+              "y": 622,
+              "ports": [
+                {
+                  "id": "855c4050-d49c-4b2d-b207-0fb517bf41bd",
+                  "type": "default",
+                  "x": 162.00021186566423,
+                  "y": 652.9999987132015,
+                  "name": "in-1732611382837 ",
+                  "alignment": "left",
+                  "parentNode": "5a25bc56-a7eb-4b40-807e-388d506509e6",
+                  "links": [
+                    "18495540-719b-427d-aee7-03febfef65b5"
+                  ],
+                  "in": true,
+                  "label": "❯"
+                },
+                {
+                  "id": "d6c05892-c128-4d72-a538-d7ff73578a10",
+                  "type": "default",
+                  "x": 484.109364919642,
+                  "y": 652.9999987132015,
+                  "name": "out-1732611382837",
+                  "alignment": "right",
+                  "parentNode": "5a25bc56-a7eb-4b40-807e-388d506509e6",
+                  "links": [
+                    "a4179118-f128-4661-8ae9-d6ddc60f5fdf"
+                  ],
+                  "in": false,
+                  "label": "❯"
+                }
+              ],
+              "title": "<player>",
+              "color": "#dd341ee6",
+              "portsInOrder": [
+                "855c4050-d49c-4b2d-b207-0fb517bf41bd"
+              ],
+              "portsOutOrder": [
+                "d6c05892-c128-4d72-a538-d7ff73578a10"
+              ],
+              "text": "Don't fear. I shall fix your mind!"
+            },
+            "4aaac068-c162-40a0-b347-bd0ef57a0529": {
+              "id": "4aaac068-c162-40a0-b347-bd0ef57a0529",
+              "type": "dialogue",
+              "selected": false,
+              "x": 175,
+              "y": 685,
+              "ports": [
+                {
+                  "id": "97c1bda9-0696-416d-9607-927d38569335",
+                  "type": "default",
+                  "x": 162.00021186566423,
+                  "y": 715.9999321293949,
+                  "name": "in-1732611384097 ",
+                  "alignment": "left",
+                  "parentNode": "4aaac068-c162-40a0-b347-bd0ef57a0529",
+                  "links": [
+                    "a4179118-f128-4661-8ae9-d6ddc60f5fdf"
+                  ],
+                  "in": true,
+                  "label": "❯"
+                },
+                {
+                  "id": "6460bade-28c1-43ec-8764-7e28deaa46ae",
+                  "type": "default",
+                  "x": 638.0155039466309,
+                  "y": 715.9999321293949,
+                  "name": "out-1732611384097",
+                  "alignment": "right",
+                  "parentNode": "4aaac068-c162-40a0-b347-bd0ef57a0529",
+                  "links": [
+                    "29bb7204-ae31-42e0-ae73-6881f975b3d3"
+                  ],
+                  "in": false,
+                  "label": "❯"
+                }
+              ],
+              "title": "Homunculus",
+              "color": "#dd341ee6",
+              "portsInOrder": [
+                "97c1bda9-0696-416d-9607-927d38569335"
+              ],
+              "portsOutOrder": [
+                "6460bade-28c1-43ec-8764-7e28deaa46ae"
+              ],
+              "text": "No so sure it is easy to do. No one canna 'elp. Arghhh."
+            },
+            "dbc29d4c-552b-4bef-815d-cdbb93f5c39d": {
+              "id": "dbc29d4c-552b-4bef-815d-cdbb93f5c39d",
+              "type": "dialogue",
+              "selected": false,
+              "x": 175,
+              "y": 748,
+              "ports": [
+                {
+                  "id": "02dacfc7-600c-4409-badf-64b07db630fe",
+                  "type": "default",
+                  "x": 162.00021186566423,
+                  "y": 779.0000320051051,
+                  "name": "in-1732611385254 ",
+                  "alignment": "left",
+                  "parentNode": "dbc29d4c-552b-4bef-815d-cdbb93f5c39d",
+                  "links": [
+                    "29bb7204-ae31-42e0-ae73-6881f975b3d3"
+                  ],
+                  "in": true,
+                  "label": "❯"
+                },
+                {
+                  "id": "02bba49c-2815-4d9d-bd08-09c7af7d8ded",
+                  "type": "default",
+                  "x": 300.8907036980508,
+                  "y": 779.0000320051051,
+                  "name": "out-1732611385254",
+                  "alignment": "right",
+                  "parentNode": "dbc29d4c-552b-4bef-815d-cdbb93f5c39d",
+                  "links": [
+                    "f9118395-50a7-49b8-93a3-6f6d375ec241"
+                  ],
+                  "in": false,
+                  "label": "❯"
+                }
+              ],
+              "title": "<player>",
+              "color": "#dd341ee6",
+              "portsInOrder": [
+                "02dacfc7-600c-4409-badf-64b07db630fe"
+              ],
+              "portsOutOrder": [
+                "02bba49c-2815-4d9d-bd08-09c7af7d8ded"
+              ],
+              "text": "Watch me."
+            },
+            "e9735c8e-800a-4614-87a1-bbb1510a575d": {
+              "id": "e9735c8e-800a-4614-87a1-bbb1510a575d",
+              "type": "dialogue",
+              "selected": false,
+              "x": 175,
+              "y": 811,
+              "ports": [
+                {
+                  "id": "2a747d89-9db4-49d5-adde-f2099d81939c",
+                  "type": "default",
+                  "x": 162.00021186566423,
+                  "y": 841.9999654212985,
+                  "name": "in-1732611386439 ",
+                  "alignment": "left",
+                  "parentNode": "e9735c8e-800a-4614-87a1-bbb1510a575d",
+                  "links": [
+                    "f9118395-50a7-49b8-93a3-6f6d375ec241"
+                  ],
+                  "in": true,
+                  "label": "❯"
+                },
+                {
+                  "id": "99d31c11-d809-4da3-885d-808b57f34861",
+                  "type": "default",
+                  "x": 689.3279817520287,
+                  "y": 841.9999654212985,
+                  "name": "out-1732611386439",
+                  "alignment": "right",
+                  "parentNode": "e9735c8e-800a-4614-87a1-bbb1510a575d",
+                  "links": [
+                    "fd6a25d0-b9be-46c9-8327-5ae3d8101366"
+                  ],
+                  "in": false,
+                  "label": "❯"
+                }
+              ],
+              "title": "",
+              "color": "#dd341ee6",
+              "portsInOrder": [
+                "2a747d89-9db4-49d5-adde-f2099d81939c"
+              ],
+              "portsOutOrder": [
+                "99d31c11-d809-4da3-885d-808b57f34861"
+              ],
+              "text": "You must now make sense of the Homunculus's mind. Force him to\neither follow the line of logic or the line of magic."
+            },
+            "981d1722-7e90-4dc5-b702-65a8d47f3465": {
+              "id": "981d1722-7e90-4dc5-b702-65a8d47f3465",
+              "type": "dialogue",
+              "selected": false,
+              "x": 175,
+              "y": 889,
+              "ports": [
+                {
+                  "id": "8aa525cd-9d9b-4afe-a408-985d926199b6",
+                  "type": "default",
+                  "x": 162.00021186566423,
+                  "y": 920.0000652970089,
+                  "name": "in-1732611397248 ",
+                  "alignment": "left",
+                  "parentNode": "981d1722-7e90-4dc5-b702-65a8d47f3465",
+                  "links": [
+                    "fd6a25d0-b9be-46c9-8327-5ae3d8101366"
+                  ],
+                  "in": true,
+                  "label": "❯"
+                },
+                {
+                  "id": "cbab8cce-56fb-4905-bcff-8422b2eb7f70",
+                  "type": "default",
+                  "x": 586.7186733358353,
+                  "y": 920.0000652970089,
+                  "name": "out-1732611397248",
+                  "alignment": "right",
+                  "parentNode": "981d1722-7e90-4dc5-b702-65a8d47f3465",
+                  "links": [
+                    "a1c0db3d-bce5-4e9b-b447-d6a320221501"
+                  ],
+                  "in": false,
+                  "label": "❯"
+                }
+              ],
+              "title": "<player>",
+              "color": "#dd341ee6",
+              "portsInOrder": [
+                "8aa525cd-9d9b-4afe-a408-985d926199b6"
+              ],
+              "portsOutOrder": [
+                "cbab8cce-56fb-4905-bcff-8422b2eb7f70"
+              ],
+              "text": "You tell me that you're confused, so ask me some\nquestions!"
+            },
+            "700a87d5-a31c-4c38-9349-6923d72b0595": {
+              "id": "700a87d5-a31c-4c38-9349-6923d72b0595",
+              "type": "dialogue",
+              "selected": false,
+              "x": 175,
+              "y": 967,
+              "ports": [
+                {
+                  "id": "c6dbc403-49ac-4f11-b0c4-d155f2cd83eb",
+                  "type": "default",
+                  "x": 162.00021186566423,
+                  "y": 997.9999987132021,
+                  "name": "in-1732611400244 ",
+                  "alignment": "left",
+                  "parentNode": "700a87d5-a31c-4c38-9349-6923d72b0595",
+                  "links": [
+                    "a1c0db3d-bce5-4e9b-b447-d6a320221501"
+                  ],
+                  "in": true,
+                  "label": "❯"
+                },
+                {
+                  "id": "b57f3086-f3f8-4d0c-8497-79cebf51825d",
+                  "type": "default",
+                  "x": 330.20289297361904,
+                  "y": 997.9999987132021,
+                  "name": "out-1732611400244",
+                  "alignment": "right",
+                  "parentNode": "700a87d5-a31c-4c38-9349-6923d72b0595",
+                  "links": [
+                    "382341ac-a370-4088-ad6c-56a5704c1109"
+                  ],
+                  "in": false,
+                  "label": "❯"
+                }
+              ],
+              "title": "Homunculus",
+              "color": "#dd341ee6",
+              "portsInOrder": [
+                "c6dbc403-49ac-4f11-b0c4-d155f2cd83eb"
+              ],
+              "portsOutOrder": [
+                "b57f3086-f3f8-4d0c-8497-79cebf51825d"
+              ],
+              "text": "Ah, please..."
+            },
+            "06c66e0f-eb16-4720-8147-fa90284b552a": {
+              "id": "06c66e0f-eb16-4720-8147-fa90284b552a",
+              "type": "option",
+              "selected": false,
+              "x": 175,
+              "y": 1030,
+              "ports": [
+                {
+                  "id": "f7fc5869-d495-44e3-9253-60a906420a6b",
+                  "type": "default",
+                  "x": 574.4063286980512,
+                  "y": 1070.000065297009,
+                  "name": "out-17326114014551",
+                  "alignment": "right",
+                  "parentNode": "06c66e0f-eb16-4720-8147-fa90284b552a",
+                  "links": [],
+                  "in": false,
+                  "label": "❯"
+                },
+                {
+                  "id": "0b40ac70-9e56-4fe9-9a89-bd5e6d086833",
+                  "type": "default",
+                  "x": 574.4063286980512,
+                  "y": 1106.0000985889126,
+                  "name": "out-17326114014552",
+                  "alignment": "right",
+                  "parentNode": "06c66e0f-eb16-4720-8147-fa90284b552a",
+                  "links": [],
+                  "in": false,
+                  "label": "❯"
+                },
+                {
+                  "id": "ef9ee272-052c-44ec-b03b-21d9e8c766bf",
+                  "type": "default",
+                  "x": 162.00021186566423,
+                  "y": 1061.0000985889124,
+                  "name": "in-1732611401455 ",
+                  "alignment": "left",
+                  "parentNode": "06c66e0f-eb16-4720-8147-fa90284b552a",
+                  "links": [
+                    "382341ac-a370-4088-ad6c-56a5704c1109"
+                  ],
+                  "in": true,
+                  "label": "❯"
+                },
+                {
+                  "id": "097a85a3-e355-4c02-8e52-41a103e74a34",
+                  "type": "default",
+                  "x": 574.4063286980512,
+                  "y": 1141.999965421299,
+                  "name": "out-1732611401455",
+                  "alignment": "right",
+                  "parentNode": "06c66e0f-eb16-4720-8147-fa90284b552a",
+                  "links": [],
+                  "in": false,
+                  "label": "❯"
+                }
+              ],
+              "title": "Select an option.",
+              "color": "#0756b1e6",
+              "portsInOrder": [
+                "ef9ee272-052c-44ec-b03b-21d9e8c766bf"
+              ],
+              "portsOutOrder": [
+                "f7fc5869-d495-44e3-9253-60a906420a6b",
+                "0b40ac70-9e56-4fe9-9a89-bd5e6d086833",
+                "097a85a3-e355-4c02-8e52-41a103e74a34"
+              ],
+              "options": [
+                {
+                  "conditions": [
+                    ""
+                  ],
+                  "args": [],
+                  "ors": [
+                    false
+                  ],
+                  "negates": [
+                    false
+                  ],
+                  "text": "Get some logs and a tinderbox."
+                },
+                {
+                  "conditions": [
+                    ""
+                  ],
+                  "args": [],
+                  "ors": [
+                    false
+                  ],
+                  "negates": [
+                    false
+                  ],
+                  "text": "With the aid of 5 fire runes."
+                },
+                {
+                  "conditions": [
+                    ""
+                  ],
+                  "args": [],
+                  "ors": [
+                    false
+                  ],
+                  "negates": [
+                    false
+                  ],
+                  "text": "That's impossible! No one can do that!"
+                }
+              ]
+            },
+            "b41a6f13-a9c8-45ee-8dbf-8b303da5e26d": {
+              "id": "b41a6f13-a9c8-45ee-8dbf-8b303da5e26d",
+              "type": "option",
+              "selected": false,
+              "x": 175,
+              "y": 1179,
+              "ports": [
+                {
+                  "id": "23608821-2aed-47d8-a538-26cae0a69dbb",
+                  "type": "default",
+                  "x": 655.9531815034491,
+                  "y": 1218.9999765186003,
+                  "name": "out-17326114092521",
+                  "alignment": "right",
+                  "parentNode": "b41a6f13-a9c8-45ee-8dbf-8b303da5e26d",
+                  "links": [],
+                  "in": false,
+                  "label": "❯"
+                },
+                {
+                  "id": "49168da5-4fec-4926-a645-36a8f2c2f411",
+                  "type": "default",
+                  "x": 655.9375343088468,
+                  "y": 1255.0000098105036,
+                  "name": "out-17326114092522",
+                  "alignment": "right",
+                  "parentNode": "b41a6f13-a9c8-45ee-8dbf-8b303da5e26d",
+                  "links": [],
+                  "in": false,
+                  "label": "❯"
+                },
+                {
+                  "id": "93df6b2d-69aa-4ca1-8f74-fceaffc4d769",
+                  "type": "default",
+                  "x": 162.00021186566423,
+                  "y": 1210.0000098105036,
+                  "name": "in-1732611409252 ",
+                  "alignment": "left",
+                  "parentNode": "b41a6f13-a9c8-45ee-8dbf-8b303da5e26d",
+                  "links": [],
+                  "in": true,
+                  "label": "❯"
+                },
+                {
+                  "id": "6ab5a698-d581-4dd0-b4e2-2cc60584ceb7",
+                  "type": "default",
+                  "x": 655.9531815034491,
+                  "y": 1291.000043102407,
+                  "name": "out-1732611409252",
+                  "alignment": "right",
+                  "parentNode": "b41a6f13-a9c8-45ee-8dbf-8b303da5e26d",
+                  "links": [],
+                  "in": false,
+                  "label": "❯"
+                }
+              ],
+              "title": "Select an option.",
+              "color": "#0756b1e6",
+              "portsInOrder": [
+                "93df6b2d-69aa-4ca1-8f74-fceaffc4d769"
+              ],
+              "portsOutOrder": [
+                "23608821-2aed-47d8-a538-26cae0a69dbb",
+                "49168da5-4fec-4926-a645-36a8f2c2f411",
+                "6ab5a698-d581-4dd0-b4e2-2cc60584ceb7"
+              ],
+              "options": [
+                {
+                  "conditions": [
+                    ""
+                  ],
+                  "args": [],
+                  "ors": [
+                    false
+                  ],
+                  "negates": [
+                    false
+                  ],
+                  "text": "Not too sure, I've never seen it happen."
+                },
+                {
+                  "conditions": [
+                    ""
+                  ],
+                  "args": [],
+                  "ors": [
+                    false
+                  ],
+                  "negates": [
+                    false
+                  ],
+                  "text": "With the help of the magical dragonstones!"
+                },
+                {
+                  "conditions": [
+                    ""
+                  ],
+                  "args": [],
+                  "ors": [
+                    false
+                  ],
+                  "negates": [
+                    false
+                  ],
+                  "text": "By ignition of gas in their belly as they exhale."
+                }
+              ]
+            },
+            "3ed8d158-c20f-4f89-b288-69449cd77339": {
+              "id": "3ed8d158-c20f-4f89-b288-69449cd77339",
+              "type": "option",
+              "selected": false,
+              "x": 175,
+              "y": 1328,
+              "ports": [
+                {
+                  "id": "d60f8621-608c-4c35-a800-d60b839c189f",
+                  "type": "default",
+                  "x": 633.7188508926536,
+                  "y": 1368.0000541997083,
+                  "name": "out-17326114158571",
+                  "alignment": "right",
+                  "parentNode": "3ed8d158-c20f-4f89-b288-69449cd77339",
+                  "links": [],
+                  "in": false,
+                  "label": "❯"
+                },
+                {
+                  "id": "ed20cea2-ed27-44e5-99ac-ea10f4d91415",
+                  "type": "default",
+                  "x": 633.7188508926536,
+                  "y": 1403.9999210320948,
+                  "name": "out-17326114158572",
+                  "alignment": "right",
+                  "parentNode": "3ed8d158-c20f-4f89-b288-69449cd77339",
+                  "links": [],
+                  "in": false,
+                  "label": "❯"
+                },
+                {
+                  "id": "a15b24d5-916d-4c75-a33b-e355cc111477",
+                  "type": "default",
+                  "x": 162.00021186566423,
+                  "y": 1359.0000874916118,
+                  "name": "in-1732611415857 ",
+                  "alignment": "left",
+                  "parentNode": "3ed8d158-c20f-4f89-b288-69449cd77339",
+                  "links": [],
+                  "in": true,
+                  "label": "❯"
+                },
+                {
+                  "id": "890967b1-7f45-47c8-bb6e-e90752b2af3d",
+                  "type": "default",
+                  "x": 633.7188508926536,
+                  "y": 1439.9999543239983,
+                  "name": "out-1732611415857",
+                  "alignment": "right",
+                  "parentNode": "3ed8d158-c20f-4f89-b288-69449cd77339",
+                  "links": [],
+                  "in": false,
+                  "label": "❯"
+                }
+              ],
+              "title": "Select an option.",
+              "color": "#0756b1e6",
+              "portsInOrder": [
+                "a15b24d5-916d-4c75-a33b-e355cc111477"
+              ],
+              "portsOutOrder": [
+                "d60f8621-608c-4c35-a800-d60b839c189f",
+                "ed20cea2-ed27-44e5-99ac-ea10f4d91415",
+                "890967b1-7f45-47c8-bb6e-e90752b2af3d"
+              ],
+              "options": [
+                {
+                  "conditions": [
+                    ""
+                  ],
+                  "args": [],
+                  "ors": [
+                    false
+                  ],
+                  "negates": [
+                    false
+                  ],
+                  "text": "Runecraft, enchant jewellery, perform alchemy."
+                },
+                {
+                  "conditions": [
+                    ""
+                  ],
+                  "args": [],
+                  "ors": [
+                    false
+                  ],
+                  "negates": [
+                    false
+                  ],
+                  "text": "Eat, sleep, nothing that exciting."
+                },
+                {
+                  "conditions": [
+                    ""
+                  ],
+                  "args": [],
+                  "ors": [
+                    false
+                  ],
+                  "negates": [
+                    false
+                  ],
+                  "text": "Fletching, Crafting, Smithing."
+                }
+              ]
+            },
+            "7ca2c40f-4edd-4364-8b3d-f0762cf8fc54": {
+              "id": "7ca2c40f-4edd-4364-8b3d-f0762cf8fc54",
+              "type": "option",
+              "selected": false,
+              "x": 175,
+              "y": 1477,
+              "ports": [
+                {
+                  "id": "5293a0b3-d664-4c5d-9e9c-e28fdac10816",
+                  "type": "default",
+                  "x": 707.8282924764605,
+                  "y": 1516.9999654212995,
+                  "name": "out-17326114200341",
+                  "alignment": "right",
+                  "parentNode": "7ca2c40f-4edd-4364-8b3d-f0762cf8fc54",
+                  "links": [],
+                  "in": false,
+                  "label": "❯"
+                },
+                {
+                  "id": "6e7420be-ebc8-474e-afc5-7e714d595b24",
+                  "type": "default",
+                  "x": 707.8436067520288,
+                  "y": 1552.999998713203,
+                  "name": "out-17326114200342",
+                  "alignment": "right",
+                  "parentNode": "7ca2c40f-4edd-4364-8b3d-f0762cf8fc54",
+                  "links": [],
+                  "in": false,
+                  "label": "❯"
+                },
+                {
+                  "id": "48e04d40-570a-4324-a8cf-51ebdff4b0d2",
+                  "type": "default",
+                  "x": 162.00021186566423,
+                  "y": 1507.999998713203,
+                  "name": "in-1732611420034 ",
+                  "alignment": "left",
+                  "parentNode": "7ca2c40f-4edd-4364-8b3d-f0762cf8fc54",
+                  "links": [],
+                  "in": true,
+                  "label": "❯"
+                },
+                {
+                  "id": "292ce880-cace-4635-a53b-89129541a88c",
+                  "type": "default",
+                  "x": 707.8436067520288,
+                  "y": 1589.0000320051065,
+                  "name": "out-1732611420034",
+                  "alignment": "right",
+                  "parentNode": "7ca2c40f-4edd-4364-8b3d-f0762cf8fc54",
+                  "links": [],
+                  "in": false,
+                  "label": "❯"
+                }
+              ],
+              "title": "Select an option.",
+              "color": "#0756b1e6",
+              "portsInOrder": [
+                "48e04d40-570a-4324-a8cf-51ebdff4b0d2"
+              ],
+              "portsOutOrder": [
+                "5293a0b3-d664-4c5d-9e9c-e28fdac10816",
+                "6e7420be-ebc8-474e-afc5-7e714d595b24",
+                "292ce880-cace-4635-a53b-89129541a88c"
+              ],
+              "options": [
+                {
+                  "conditions": [
+                    ""
+                  ],
+                  "args": [],
+                  "ors": [
+                    false
+                  ],
+                  "negates": [
+                    false
+                  ],
+                  "text": "Bury them."
+                },
+                {
+                  "conditions": [
+                    ""
+                  ],
+                  "args": [],
+                  "ors": [
+                    false
+                  ],
+                  "negates": [
+                    false
+                  ],
+                  "text": "I'd like to think you wouldn't be carrying bones around."
+                },
+                {
+                  "conditions": [
+                    ""
+                  ],
+                  "args": [],
+                  "ors": [
+                    false
+                  ],
+                  "negates": [
+                    false
+                  ],
+                  "text": "Turn them into bananas or peaches!"
+                }
+              ]
+            },
+            "22df58e1-3b7a-440c-bf03-b265db01643b": {
+              "id": "22df58e1-3b7a-440c-bf03-b265db01643b",
+              "type": "option",
+              "selected": false,
+              "x": 175,
+              "y": 1626,
+              "ports": [
+                {
+                  "id": "98f80854-a91a-45d9-9bd6-ffa86a179ab0",
+                  "type": "default",
+                  "x": 774.5625786980515,
+                  "y": 1666.0000431024077,
+                  "name": "out-17326114242341",
+                  "alignment": "right",
+                  "parentNode": "22df58e1-3b7a-440c-bf03-b265db01643b",
+                  "links": [],
+                  "in": false,
+                  "label": "❯"
+                },
+                {
+                  "id": "3778c199-948b-4978-b893-61223cfb962b",
+                  "type": "default",
+                  "x": 774.5782258926538,
+                  "y": 1701.9999099347942,
+                  "name": "out-17326114242342",
+                  "alignment": "right",
+                  "parentNode": "22df58e1-3b7a-440c-bf03-b265db01643b",
+                  "links": [],
+                  "in": false,
+                  "label": "❯"
+                },
+                {
+                  "id": "d7d2cab7-6113-47af-87a8-896f15028675",
+                  "type": "default",
+                  "x": 162.00021186566423,
+                  "y": 1656.999909934794,
+                  "name": "in-1732611424234 ",
+                  "alignment": "left",
+                  "parentNode": "22df58e1-3b7a-440c-bf03-b265db01643b",
+                  "links": [],
+                  "in": true,
+                  "label": "❯"
+                },
+                {
+                  "id": "9e656e5c-dcb9-455e-9a16-56a1b580f441",
+                  "type": "default",
+                  "x": 774.5782258926538,
+                  "y": 1737.9999432266977,
+                  "name": "out-1732611424234",
+                  "alignment": "right",
+                  "parentNode": "22df58e1-3b7a-440c-bf03-b265db01643b",
+                  "links": [],
+                  "in": false,
+                  "label": "❯"
+                }
+              ],
+              "title": "Select an option.",
+              "color": "#0756b1e6",
+              "portsInOrder": [
+                "d7d2cab7-6113-47af-87a8-896f15028675"
+              ],
+              "portsOutOrder": [
+                "98f80854-a91a-45d9-9bd6-ffa86a179ab0",
+                "3778c199-948b-4978-b893-61223cfb962b",
+                "9e656e5c-dcb9-455e-9a16-56a1b580f441"
+              ],
+              "options": [
+                {
+                  "conditions": [
+                    ""
+                  ],
+                  "args": [],
+                  "ors": [
+                    false
+                  ],
+                  "negates": [
+                    false
+                  ],
+                  "text": "I'm not really much of a traveller, sorry."
+                },
+                {
+                  "conditions": [
+                    ""
+                  ],
+                  "args": [],
+                  "ors": [
+                    false
+                  ],
+                  "negates": [
+                    false
+                  ],
+                  "text": "Run, run as fast as you can."
+                },
+                {
+                  "conditions": [
+                    ""
+                  ],
+                  "args": [],
+                  "ors": [
+                    false
+                  ],
+                  "negates": [
+                    false
+                  ],
+                  "text": "Depends where you are headed, but teleport spells are a safe bet."
+                }
+              ]
+            },
+            "42d07049-1119-4105-a5eb-59ab219b17d9": {
+              "id": "42d07049-1119-4105-a5eb-59ab219b17d9",
+              "type": "option",
+              "selected": false,
+              "x": 175,
+              "y": 1775,
+              "ports": [
+                {
+                  "id": "8d84cb2c-c4aa-42e9-8080-7c3b5a252b11",
+                  "type": "default",
+                  "x": 810.859409308847,
+                  "y": 1814.999954323999,
+                  "name": "out-17326114344541",
+                  "alignment": "right",
+                  "parentNode": "42d07049-1119-4105-a5eb-59ab219b17d9",
+                  "links": [],
+                  "in": false,
+                  "label": "❯"
+                },
+                {
+                  "id": "5747048e-ee6b-44e9-a22b-3dd6a771b992",
+                  "type": "default",
+                  "x": 810.8750565034494,
+                  "y": 1850.9999876159025,
+                  "name": "out-17326114344542",
+                  "alignment": "right",
+                  "parentNode": "42d07049-1119-4105-a5eb-59ab219b17d9",
+                  "links": [],
+                  "in": false,
+                  "label": "❯"
+                },
+                {
+                  "id": "e31392e2-4b68-4dff-9ccc-27dc2c5f3d67",
+                  "type": "default",
+                  "x": 162.00021186566423,
+                  "y": 1805.9999876159022,
+                  "name": "in-1732611434455 ",
+                  "alignment": "left",
+                  "parentNode": "42d07049-1119-4105-a5eb-59ab219b17d9",
+                  "links": [],
+                  "in": true,
+                  "label": "❯"
+                },
+                {
+                  "id": "b63c5abb-5537-486b-a5f8-a1ea2fa085a3",
+                  "type": "default",
+                  "x": 810.859409308847,
+                  "y": 1887.0000209078057,
+                  "name": "out-1732611434455",
+                  "alignment": "right",
+                  "parentNode": "42d07049-1119-4105-a5eb-59ab219b17d9",
+                  "links": [],
+                  "in": false,
+                  "label": "❯"
+                }
+              ],
+              "title": "Select an option.",
+              "color": "#0756b1e6",
+              "portsInOrder": [
+                "e31392e2-4b68-4dff-9ccc-27dc2c5f3d67"
+              ],
+              "portsOutOrder": [
+                "8d84cb2c-c4aa-42e9-8080-7c3b5a252b11",
+                "5747048e-ee6b-44e9-a22b-3dd6a771b992",
+                "b63c5abb-5537-486b-a5f8-a1ea2fa085a3"
+              ],
+              "options": [
+                {
+                  "conditions": [
+                    ""
+                  ],
+                  "args": [],
+                  "ors": [
+                    false
+                  ],
+                  "negates": [
+                    false
+                  ],
+                  "text": "Yes, you can make magic potions to boost your skills."
+                },
+                {
+                  "conditions": [
+                    ""
+                  ],
+                  "args": [],
+                  "ors": [
+                    false
+                  ],
+                  "negates": [
+                    false
+                  ],
+                  "text": "People mix together ingredients in vials. The nutrients will help you."
+                },
+                {
+                  "conditions": [
+                    ""
+                  ],
+                  "args": [],
+                  "ors": [
+                    false
+                  ],
+                  "negates": [
+                    false
+                  ],
+                  "text": "Yes, liquid-filled vials. Big deal."
+                }
+              ]
+            },
+            "4f7ed130-4e17-4fe9-8641-e2534e94259f": {
+              "id": "4f7ed130-4e17-4fe9-8641-e2534e94259f",
+              "type": "option",
+              "selected": false,
+              "x": 175,
+              "y": 1924,
+              "ports": [
+                {
+                  "id": "db372f08-2a46-40a1-9c9e-508d4616463a",
+                  "type": "default",
+                  "x": 655.9531815034491,
+                  "y": 1964.0000320051072,
+                  "name": "out-17326114452371",
+                  "alignment": "right",
+                  "parentNode": "4f7ed130-4e17-4fe9-8641-e2534e94259f",
+                  "links": [],
+                  "in": false,
+                  "label": "❯"
+                },
+                {
+                  "id": "4a9d8592-70f9-4842-baa4-fd7828780ab5",
+                  "type": "default",
+                  "x": 655.9531815034491,
+                  "y": 2000.0000652970105,
+                  "name": "out-17326114452382",
+                  "alignment": "right",
+                  "parentNode": "4f7ed130-4e17-4fe9-8641-e2534e94259f",
+                  "links": [],
+                  "in": false,
+                  "label": "❯"
+                },
+                {
+                  "id": "91fbdc66-fa0a-4c3f-9bcf-884815731558",
+                  "type": "default",
+                  "x": 162.00021186566423,
+                  "y": 1955.0000652970105,
+                  "name": "in-1732611445238 ",
+                  "alignment": "left",
+                  "parentNode": "4f7ed130-4e17-4fe9-8641-e2534e94259f",
+                  "links": [],
+                  "in": true,
+                  "label": "❯"
+                },
+                {
+                  "id": "c71df0ba-de37-417b-ac91-935feb0153f9",
+                  "type": "default",
+                  "x": 655.9531815034491,
+                  "y": 2035.999932129397,
+                  "name": "out-1732611445238",
+                  "alignment": "right",
+                  "parentNode": "4f7ed130-4e17-4fe9-8641-e2534e94259f",
+                  "links": [],
+                  "in": false,
+                  "label": "❯"
+                }
+              ],
+              "title": "Select an option.",
+              "color": "#0756b1e6",
+              "portsInOrder": [
+                "91fbdc66-fa0a-4c3f-9bcf-884815731558"
+              ],
+              "portsOutOrder": [
+                "db372f08-2a46-40a1-9c9e-508d4616463a",
+                "4a9d8592-70f9-4842-baa4-fd7828780ab5",
+                "c71df0ba-de37-417b-ac91-935feb0153f9"
+              ],
+              "options": [
+                {
+                  "conditions": [
+                    ""
+                  ],
+                  "args": [],
+                  "ors": [
+                    false
+                  ],
+                  "negates": [
+                    false
+                  ],
+                  "text": "By harnessing the power of the gods!"
+                },
+                {
+                  "conditions": [
+                    ""
+                  ],
+                  "args": [],
+                  "ors": [
+                    false
+                  ],
+                  "negates": [
+                    false
+                  ],
+                  "text": "Never seen one personally."
+                },
+                {
+                  "conditions": [
+                    ""
+                  ],
+                  "args": [],
+                  "ors": [
+                    false
+                  ],
+                  "negates": [
+                    false
+                  ],
+                  "text": "Take some essence to an altar and use a talisman."
+                }
+              ]
+            },
+            "3d8f4197-8aaf-474e-82a8-889d9d18a9e0": {
+              "id": "3d8f4197-8aaf-474e-82a8-889d9d18a9e0",
+              "type": "option",
+              "selected": false,
+              "x": 175,
+              "y": 2073,
+              "ports": [
+                {
+                  "id": "4662c3ea-e78e-4c3e-b0f0-7ef0ce6aef40",
+                  "type": "default",
+                  "x": 648.5314174764604,
+                  "y": 2112.999943226698,
+                  "name": "out-17326114501031",
+                  "alignment": "right",
+                  "parentNode": "3d8f4197-8aaf-474e-82a8-889d9d18a9e0",
+                  "links": [],
+                  "in": false,
+                  "label": "❯"
+                },
+                {
+                  "id": "0f8b3a8d-885f-4c71-ba18-fdf00fa6857f",
+                  "type": "default",
+                  "x": 648.5467317520287,
+                  "y": 2148.9999765186017,
+                  "name": "out-17326114501032",
+                  "alignment": "right",
+                  "parentNode": "3d8f4197-8aaf-474e-82a8-889d9d18a9e0",
+                  "links": [],
+                  "in": false,
+                  "label": "❯"
+                },
+                {
+                  "id": "65484a03-60c0-4ccb-bb54-963098af679e",
+                  "type": "default",
+                  "x": 162.00021186566423,
+                  "y": 2103.9999765186017,
+                  "name": "in-1732611450103 ",
+                  "alignment": "left",
+                  "parentNode": "3d8f4197-8aaf-474e-82a8-889d9d18a9e0",
+                  "links": [],
+                  "in": true,
+                  "label": "❯"
+                },
+                {
+                  "id": "e6de0ea6-5831-4584-8936-cdf94994fcab",
+                  "type": "default",
+                  "x": 648.5467317520287,
+                  "y": 2185.000009810505,
+                  "name": "out-1732611450103",
+                  "alignment": "right",
+                  "parentNode": "3d8f4197-8aaf-474e-82a8-889d9d18a9e0",
+                  "links": [],
+                  "in": false,
+                  "label": "❯"
+                }
+              ],
+              "title": "Select an option.",
+              "color": "#0756b1e6",
+              "portsInOrder": [
+                "65484a03-60c0-4ccb-bb54-963098af679e"
+              ],
+              "portsOutOrder": [
+                "4662c3ea-e78e-4c3e-b0f0-7ef0ce6aef40",
+                "0f8b3a8d-885f-4c71-ba18-fdf00fa6857f",
+                "e6de0ea6-5831-4584-8936-cdf94994fcab"
+              ],
+              "options": [
+                {
+                  "conditions": [
+                    ""
+                  ],
+                  "args": [],
+                  "ors": [
+                    false
+                  ],
+                  "negates": [
+                    false
+                  ],
+                  "text": "Perhaps. I've never seen it myself, though."
+                },
+                {
+                  "conditions": [
+                    ""
+                  ],
+                  "args": [],
+                  "ors": [
+                    false
+                  ],
+                  "negates": [
+                    false
+                  ],
+                  "text": "Yep, you can use the Telekinetic Grab spell."
+                },
+                {
+                  "conditions": [
+                    ""
+                  ],
+                  "args": [],
+                  "ors": [
+                    false
+                  ],
+                  "negates": [
+                    false
+                  ],
+                  "text": "Sure. Use your brain to tell someone to move it!"
+                }
+              ]
+            },
+            "bd6daff3-d05e-4766-9fcc-75c4a4698775": {
+              "id": "bd6daff3-d05e-4766-9fcc-75c4a4698775",
+              "type": "option",
+              "selected": false,
+              "x": 175,
+              "y": 2222,
+              "ports": [
+                {
+                  "id": "8065e77f-5bfd-42b3-8658-90551cf3b2e3",
+                  "type": "default",
+                  "x": 604.0624233358354,
+                  "y": 2262.0000209078066,
+                  "name": "out-17326114662531",
+                  "alignment": "right",
+                  "parentNode": "bd6daff3-d05e-4766-9fcc-75c4a4698775",
+                  "links": [],
+                  "in": false,
+                  "label": "❯"
+                },
+                {
+                  "id": "986e1aa0-526d-4b64-b3e5-85d3f888a6a2",
+                  "type": "default",
+                  "x": 604.0467761412331,
+                  "y": 2298.0000541997097,
+                  "name": "out-17326114662532",
+                  "alignment": "right",
+                  "parentNode": "bd6daff3-d05e-4766-9fcc-75c4a4698775",
+                  "links": [],
+                  "in": false,
+                  "label": "❯"
+                },
+                {
+                  "id": "26acacb0-cf9a-4d7d-838d-079a296b70be",
+                  "type": "default",
+                  "x": 162.00021186566423,
+                  "y": 2253.0000541997097,
+                  "name": "in-1732611466253 ",
+                  "alignment": "left",
+                  "parentNode": "bd6daff3-d05e-4766-9fcc-75c4a4698775",
+                  "links": [],
+                  "in": true,
+                  "label": "❯"
+                },
+                {
+                  "id": "5ed15a23-0899-4254-8996-ee6664e3b024",
+                  "type": "default",
+                  "x": 604.0624233358354,
+                  "y": 2334.000087491613,
+                  "name": "out-1732611466253",
+                  "alignment": "right",
+                  "parentNode": "bd6daff3-d05e-4766-9fcc-75c4a4698775",
+                  "links": [],
+                  "in": false,
+                  "label": "❯"
+                }
+              ],
+              "title": "Select an option.",
+              "color": "#0756b1e6",
+              "portsInOrder": [
+                "26acacb0-cf9a-4d7d-838d-079a296b70be"
+              ],
+              "portsOutOrder": [
+                "8065e77f-5bfd-42b3-8658-90551cf3b2e3",
+                "986e1aa0-526d-4b64-b3e5-85d3f888a6a2",
+                "5ed15a23-0899-4254-8996-ee6664e3b024"
+              ],
+              "options": [
+                {
+                  "conditions": [
+                    ""
+                  ],
+                  "args": [],
+                  "ors": [
+                    false
+                  ],
+                  "negates": [
+                    false
+                  ],
+                  "text": "Through the power of alchemy."
+                },
+                {
+                  "conditions": [
+                    ""
+                  ],
+                  "args": [],
+                  "ors": [
+                    false
+                  ],
+                  "negates": [
+                    false
+                  ],
+                  "text": "It's beyond me!"
+                },
+                {
+                  "conditions": [
+                    ""
+                  ],
+                  "args": [],
+                  "ors": [
+                    false
+                  ],
+                  "negates": [
+                    false
+                  ],
+                  "text": "It's a simple case of combining materials."
+                }
+              ]
+            },
+            "bf97e1ac-724c-4f7a-b36a-0ce67520ffab": {
+              "id": "bf97e1ac-724c-4f7a-b36a-0ce67520ffab",
+              "type": "option",
+              "selected": false,
+              "x": 175,
+              "y": 2371,
+              "ports": [
+                {
+                  "id": "57ba7402-f842-4a19-b8e2-2298681aa006",
+                  "type": "default",
+                  "x": 781.9843427250402,
+                  "y": 2410.9997656698806,
+                  "name": "out-17326114698631",
+                  "alignment": "right",
+                  "parentNode": "bf97e1ac-724c-4f7a-b36a-0ce67520ffab",
+                  "links": [],
+                  "in": false,
+                  "label": "❯"
+                },
+                {
+                  "id": "18aa408b-328e-40f6-8417-95f9983b9700",
+                  "type": "default",
+                  "x": 781.9686955304379,
+                  "y": 2446.999965421301,
+                  "name": "out-17326114698632",
+                  "alignment": "right",
+                  "parentNode": "bf97e1ac-724c-4f7a-b36a-0ce67520ffab",
+                  "links": [],
+                  "in": false,
+                  "label": "❯"
+                },
+                {
+                  "id": "4a2bfa62-e78e-40b3-a12e-b354fc19b190",
+                  "type": "default",
+                  "x": 162.00021186566423,
+                  "y": 2401.999965421301,
+                  "name": "in-1732611469863 ",
+                  "alignment": "left",
+                  "parentNode": "bf97e1ac-724c-4f7a-b36a-0ce67520ffab",
+                  "links": [],
+                  "in": true,
+                  "label": "❯"
+                },
+                {
+                  "id": "c2654254-4158-4615-97af-fc992a062417",
+                  "type": "default",
+                  "x": 781.9843427250402,
+                  "y": 2483.0001651727216,
+                  "name": "out-1732611469863",
+                  "alignment": "right",
+                  "parentNode": "bf97e1ac-724c-4f7a-b36a-0ce67520ffab",
+                  "links": [],
+                  "in": false,
+                  "label": "❯"
+                }
+              ],
+              "title": "Select an option.",
+              "color": "#0756b1e6",
+              "portsInOrder": [
+                "4a2bfa62-e78e-40b3-a12e-b354fc19b190"
+              ],
+              "portsOutOrder": [
+                "57ba7402-f842-4a19-b8e2-2298681aa006",
+                "18aa408b-328e-40f6-8417-95f9983b9700",
+                "c2654254-4158-4615-97af-fc992a062417"
+              ],
+              "options": [
+                {
+                  "conditions": [
+                    ""
+                  ],
+                  "args": [],
+                  "ors": [
+                    false
+                  ],
+                  "negates": [
+                    false
+                  ],
+                  "text": "You have special powers - no surprise seeing how you were created."
+                },
+                {
+                  "conditions": [
+                    ""
+                  ],
+                  "args": [],
+                  "ors": [
+                    false
+                  ],
+                  "negates": [
+                    false
+                  ],
+                  "text": "Coincidence - there is a lot of loose metal around."
+                },
+                {
+                  "conditions": [
+                    ""
+                  ],
+                  "args": [],
+                  "ors": [
+                    false
+                  ],
+                  "negates": [
+                    false
+                  ],
+                  "text": "Yeah, they were cool! Nice one."
+                }
+              ]
+            },
+            "b14cacfd-8a30-4656-b1ec-a1fe70a0fa9b": {
+              "id": "b14cacfd-8a30-4656-b1ec-a1fe70a0fa9b",
+              "type": "option",
+              "selected": false,
+              "x": 175,
+              "y": 2520,
+              "ports": [
+                {
+                  "id": "a8a4b115-0bb8-43d4-95d8-252698e87c51",
+                  "type": "default",
+                  "x": 700.4374899196423,
+                  "y": 2560.0000098105056,
+                  "name": "out-17326114800661",
+                  "alignment": "right",
+                  "parentNode": "b14cacfd-8a30-4656-b1ec-a1fe70a0fa9b",
+                  "links": [],
+                  "in": false,
+                  "label": "❯"
+                },
+                {
+                  "id": "ecdbf438-82e7-4cc9-b0a8-08d1e5a0ce04",
+                  "type": "default",
+                  "x": 700.4374899196423,
+                  "y": 2596.000209561926,
+                  "name": "out-17326114800662",
+                  "alignment": "right",
+                  "parentNode": "b14cacfd-8a30-4656-b1ec-a1fe70a0fa9b",
+                  "links": [],
+                  "in": false,
+                  "label": "❯"
+                },
+                {
+                  "id": "c40daca6-c4cc-4034-bed4-45dbe2fdb8b6",
+                  "type": "default",
+                  "x": 162.00021186566423,
+                  "y": 2551.000209561926,
+                  "name": "in-1732611480066 ",
+                  "alignment": "left",
+                  "parentNode": "b14cacfd-8a30-4656-b1ec-a1fe70a0fa9b",
+                  "links": [],
+                  "in": true,
+                  "label": "❯"
+                },
+                {
+                  "id": "466c48f4-1989-43da-90a5-b146df9d0ebb",
+                  "type": "default",
+                  "x": 700.4374899196423,
+                  "y": 2632.0000763943126,
+                  "name": "out-1732611480066",
+                  "alignment": "right",
+                  "parentNode": "b14cacfd-8a30-4656-b1ec-a1fe70a0fa9b",
+                  "links": [],
+                  "in": false,
+                  "label": "❯"
+                }
+              ],
+              "title": "Select an option.",
+              "color": "#0756b1e6",
+              "portsInOrder": [
+                "c40daca6-c4cc-4034-bed4-45dbe2fdb8b6"
+              ],
+              "portsOutOrder": [
+                "a8a4b115-0bb8-43d4-95d8-252698e87c51",
+                "ecdbf438-82e7-4cc9-b0a8-08d1e5a0ce04",
+                "466c48f4-1989-43da-90a5-b146df9d0ebb"
+              ],
+              "options": [
+                {
+                  "conditions": [
+                    ""
+                  ],
+                  "args": [],
+                  "ors": [
+                    false
+                  ],
+                  "negates": [
+                    false
+                  ],
+                  "text": "Try some Mining followed by Smithing."
+                },
+                {
+                  "conditions": [
+                    ""
+                  ],
+                  "args": [],
+                  "ors": [
+                    false
+                  ],
+                  "negates": [
+                    false
+                  ],
+                  "text": "How about Magic and Runecrafting?"
+                },
+                {
+                  "conditions": [
+                    ""
+                  ],
+                  "args": [],
+                  "ors": [
+                    false
+                  ],
+                  "negates": [
+                    false
+                  ],
+                  "text": "That's up to you; depends on what you find interesting."
+                }
+              ]
+            },
+            "420d4d80-5727-4ba7-bf6c-a3f121c9c298": {
+              "id": "420d4d80-5727-4ba7-bf6c-a3f121c9c298",
+              "type": "option",
+              "selected": false,
+              "x": 175,
+              "y": 2669,
+              "ports": [
+                {
+                  "id": "f51b5d6f-fec5-4be0-8033-1813c329a54f",
+                  "type": "default",
+                  "x": 744.9217983358357,
+                  "y": 2709.000253951131,
+                  "name": "out-17326114884641",
+                  "alignment": "right",
+                  "parentNode": "420d4d80-5727-4ba7-bf6c-a3f121c9c298",
+                  "links": [],
+                  "in": false,
+                  "label": "❯"
+                },
+                {
+                  "id": "4cd87019-aa57-4ac2-a8bf-299352012ad3",
+                  "type": "default",
+                  "x": 744.9217983358357,
+                  "y": 2745.0001207835176,
+                  "name": "out-17326114884642",
+                  "alignment": "right",
+                  "parentNode": "420d4d80-5727-4ba7-bf6c-a3f121c9c298",
+                  "links": [],
+                  "in": false,
+                  "label": "❯"
+                },
+                {
+                  "id": "7cd3a57c-a198-41be-bc3f-cdb276d44cb9",
+                  "type": "default",
+                  "x": 162.00021186566423,
+                  "y": 2700.000120783517,
+                  "name": "in-1732611488464 ",
+                  "alignment": "left",
+                  "parentNode": "420d4d80-5727-4ba7-bf6c-a3f121c9c298",
+                  "links": [],
+                  "in": true,
+                  "label": "❯"
+                },
+                {
+                  "id": "f20a1868-34cd-4fa5-97ce-2f42ccc775f2",
+                  "type": "default",
+                  "x": 744.9217983358357,
+                  "y": 2780.999987615904,
+                  "name": "out-1732611488464",
+                  "alignment": "right",
+                  "parentNode": "420d4d80-5727-4ba7-bf6c-a3f121c9c298",
+                  "links": [],
+                  "in": false,
+                  "label": "❯"
+                }
+              ],
+              "title": "Select an option.",
+              "color": "#0756b1e6",
+              "portsInOrder": [
+                "7cd3a57c-a198-41be-bc3f-cdb276d44cb9"
+              ],
+              "portsOutOrder": [
+                "f51b5d6f-fec5-4be0-8033-1813c329a54f",
+                "4cd87019-aa57-4ac2-a8bf-299352012ad3",
+                "f20a1868-34cd-4fa5-97ce-2f42ccc775f2"
+              ],
+              "options": [
+                {
+                  "conditions": [
+                    ""
+                  ],
+                  "args": [],
+                  "ors": [
+                    false
+                  ],
+                  "negates": [
+                    false
+                  ],
+                  "text": "Don't be silly! You'd get burnt!"
+                },
+                {
+                  "conditions": [
+                    ""
+                  ],
+                  "args": [],
+                  "ors": [
+                    false
+                  ],
+                  "negates": [
+                    false
+                  ],
+                  "text": "Can't see why not, anything is possible."
+                },
+                {
+                  "conditions": [
+                    ""
+                  ],
+                  "args": [],
+                  "ors": [
+                    false
+                  ],
+                  "negates": [
+                    false
+                  ],
+                  "text": "Well the sun is not actually there, it's where it used to be!"
+                }
+              ]
+            },
+            "becf1980-f614-48ef-a852-9d0c45eaf25a": {
+              "id": "becf1980-f614-48ef-a852-9d0c45eaf25a",
+              "type": "option",
+              "selected": false,
+              "x": 175,
+              "y": 2818,
+              "ports": [
+                {
+                  "id": "6b6a7766-3d1a-4192-8adc-9626428faddd",
+                  "type": "default",
+                  "x": 730.0939174764605,
+                  "y": 2858.000165172722,
+                  "name": "out-17326114920751",
+                  "alignment": "right",
+                  "parentNode": "becf1980-f614-48ef-a852-9d0c45eaf25a",
+                  "links": [],
+                  "in": false,
+                  "label": "❯"
+                },
+                {
+                  "id": "6edbefc5-29d9-4202-b0cc-6b21dbe7b383",
+                  "type": "default",
+                  "x": 730.0779373628242,
+                  "y": 2894.0000320051086,
+                  "name": "out-17326114920752",
+                  "alignment": "right",
+                  "parentNode": "becf1980-f614-48ef-a852-9d0c45eaf25a",
+                  "links": [],
+                  "in": false,
+                  "label": "❯"
+                },
+                {
+                  "id": "cd5199b9-cc83-490a-8ec2-f0ce54a096c2",
+                  "type": "default",
+                  "x": 162.00021186566423,
+                  "y": 2849.0000320051086,
+                  "name": "in-1732611492075 ",
+                  "alignment": "left",
+                  "parentNode": "becf1980-f614-48ef-a852-9d0c45eaf25a",
+                  "links": [],
+                  "in": true,
+                  "label": "❯"
+                },
+                {
+                  "id": "cba40c5b-7570-4506-8b7a-c3aa0dc2c46e",
+                  "type": "default",
+                  "x": 730.0939174764605,
+                  "y": 2930.000231756529,
+                  "name": "out-1732611492075",
+                  "alignment": "right",
+                  "parentNode": "becf1980-f614-48ef-a852-9d0c45eaf25a",
+                  "links": [],
+                  "in": false,
+                  "label": "❯"
+                }
+              ],
+              "title": "Select an option.",
+              "color": "#0756b1e6",
+              "portsInOrder": [
+                "cd5199b9-cc83-490a-8ec2-f0ce54a096c2"
+              ],
+              "portsOutOrder": [
+                "6b6a7766-3d1a-4192-8adc-9626428faddd",
+                "6edbefc5-29d9-4202-b0cc-6b21dbe7b383",
+                "cba40c5b-7570-4506-8b7a-c3aa0dc2c46e"
+              ],
+              "options": [
+                {
+                  "conditions": [
+                    ""
+                  ],
+                  "args": [],
+                  "ors": [
+                    false
+                  ],
+                  "negates": [
+                    false
+                  ],
+                  "text": "Everything has a reason, even if you don't know what it is."
+                },
+                {
+                  "conditions": [
+                    ""
+                  ],
+                  "args": [],
+                  "ors": [
+                    false
+                  ],
+                  "negates": [
+                    false
+                  ],
+                  "text": "Probably a bit of both."
+                },
+                {
+                  "conditions": [
+                    ""
+                  ],
+                  "args": [],
+                  "ors": [
+                    false
+                  ],
+                  "negates": [
+                    false
+                  ],
+                  "text": "Your very existense speaks of mystical forces."
+                }
+              ]
+            },
+            "a3d310b6-ce3b-4593-8d31-148c9a4f8101": {
+              "id": "a3d310b6-ce3b-4593-8d31-148c9a4f8101",
+              "type": "option",
+              "selected": false,
+              "x": 175,
+              "y": 2967,
+              "ports": [
+                {
+                  "id": "5ec9a595-1a29-4b69-966f-903c2f5ec690",
+                  "type": "default",
+                  "x": 581.8280927250399,
+                  "y": 3007.000076394313,
+                  "name": "out-17326115004601",
+                  "alignment": "right",
+                  "parentNode": "a3d310b6-ce3b-4593-8d31-148c9a4f8101",
+                  "links": [],
+                  "in": false,
+                  "label": "❯"
+                },
+                {
+                  "id": "8cc3ad59-0e33-4443-a619-36649e6a0b84",
+                  "type": "default",
+                  "x": 581.8280927250399,
+                  "y": 3043.000276145734,
+                  "name": "out-17326115004602",
+                  "alignment": "right",
+                  "parentNode": "a3d310b6-ce3b-4593-8d31-148c9a4f8101",
+                  "links": [],
+                  "in": false,
+                  "label": "❯"
+                },
+                {
+                  "id": "49093cdd-fe31-4720-81e0-8b3151e83d43",
+                  "type": "default",
+                  "x": 162.00021186566423,
+                  "y": 2998.0002761457336,
+                  "name": "in-1732611500460 ",
+                  "alignment": "left",
+                  "parentNode": "a3d310b6-ce3b-4593-8d31-148c9a4f8101",
+                  "links": [],
+                  "in": true,
+                  "label": "❯"
+                },
+                {
+                  "id": "bdde0fd5-7d0c-4ae2-9cfa-92163c39b3d4",
+                  "type": "default",
+                  "x": 581.8280927250399,
+                  "y": 3079.00014297812,
+                  "name": "out-1732611500460",
+                  "alignment": "right",
+                  "parentNode": "a3d310b6-ce3b-4593-8d31-148c9a4f8101",
+                  "links": [],
+                  "in": false,
+                  "label": "❯"
+                }
+              ],
+              "title": "Select an option.",
+              "color": "#0756b1e6",
+              "portsInOrder": [
+                "49093cdd-fe31-4720-81e0-8b3151e83d43"
+              ],
+              "portsOutOrder": [
+                "5ec9a595-1a29-4b69-966f-903c2f5ec690",
+                "8cc3ad59-0e33-4443-a619-36649e6a0b84",
+                "bdde0fd5-7d0c-4ae2-9cfa-92163c39b3d4"
+              ],
+              "options": [
+                {
+                  "conditions": [
+                    ""
+                  ],
+                  "args": [],
+                  "ors": [
+                    false
+                  ],
+                  "negates": [
+                    false
+                  ],
+                  "text": "Magic."
+                },
+                {
+                  "conditions": [
+                    ""
+                  ],
+                  "args": [],
+                  "ors": [
+                    false
+                  ],
+                  "negates": [
+                    false
+                  ],
+                  "text": "I'm too laid back to really care, mate."
+                },
+                {
+                  "conditions": [
+                    ""
+                  ],
+                  "args": [],
+                  "ors": [
+                    false
+                  ],
+                  "negates": [
+                    false
+                  ],
+                  "text": "Logic."
+                }
+              ]
+            },
+            "09e08869-2fcf-4c5d-b04c-def70f4b0dc9": {
+              "id": "09e08869-2fcf-4c5d-b04c-def70f4b0dc9",
+              "type": "dialogue",
+              "selected": false,
+              "x": 1145.5882352941192,
+              "y": 1098.9999999999948,
+              "ports": [
+                {
+                  "id": "9af21829-47c3-4c21-9e39-57fc56df7e32",
+                  "type": "default",
+                  "x": 1132.5780483358362,
+                  "y": 1130.000065297009,
+                  "name": "in-1732611735687 ",
+                  "alignment": "left",
+                  "parentNode": "09e08869-2fcf-4c5d-b04c-def70f4b0dc9",
+                  "links": [],
+                  "in": true,
+                  "label": "❯"
+                },
+                {
+                  "id": "2cda30c7-c8c1-490c-a232-ff543823dc11",
+                  "type": "default",
+                  "x": 1462.0157480872572,
+                  "y": 1130.000065297009,
+                  "name": "out-1732611735687",
+                  "alignment": "right",
+                  "parentNode": "09e08869-2fcf-4c5d-b04c-def70f4b0dc9",
+                  "links": [
+                    "a5dc96ad-d2cc-40ff-ad56-952ec51431c2"
+                  ],
+                  "in": false,
+                  "label": "❯"
+                }
+              ],
+              "title": "Homunculus",
+              "color": "#dd341ee6",
+              "portsInOrder": [
+                "9af21829-47c3-4c21-9e39-57fc56df7e32"
+              ],
+              "portsOutOrder": [
+                "2cda30c7-c8c1-490c-a232-ff543823dc11"
+              ],
+              "text": "That it! Make sense now, thank you!"
+            },
+            "b17cd999-c350-4941-8290-0e12b5d82855": {
+              "id": "b17cd999-c350-4941-8290-0e12b5d82855",
+              "type": "dialogue",
+              "selected": false,
+              "x": 1145.5882352941192,
+              "y": 1161.9999999999948,
+              "ports": [
+                {
+                  "id": "4591e188-4881-4f3c-82b3-386589362f96",
+                  "type": "default",
+                  "x": 1132.5780483358365,
+                  "y": 1192.999998713202,
+                  "name": "in-1732611744707 ",
+                  "alignment": "left",
+                  "parentNode": "b17cd999-c350-4941-8290-0e12b5d82855",
+                  "links": [
+                    "a5dc96ad-d2cc-40ff-ad56-952ec51431c2"
+                  ],
+                  "in": true,
+                  "label": "❯"
+                },
+                {
+                  "id": "da48f8bc-7ebf-467c-a913-f5e9fbd80942",
+                  "type": "default",
+                  "x": 1410.7189174764615,
+                  "y": 1192.999998713202,
+                  "name": "out-1732611744707",
+                  "alignment": "right",
+                  "parentNode": "b17cd999-c350-4941-8290-0e12b5d82855",
+                  "links": [
+                    "e0b160af-0e0a-4009-a32f-a87f8e3dd9f9"
+                  ],
+                  "in": false,
+                  "label": "❯"
+                }
+              ],
+              "title": "<player>",
+              "color": "#dd341ee6",
+              "portsInOrder": [
+                "4591e188-4881-4f3c-82b3-386589362f96"
+              ],
+              "portsOutOrder": [
+                "da48f8bc-7ebf-467c-a913-f5e9fbd80942"
+              ],
+              "text": "I decided to root for logic."
+            },
+            "35aeecc8-b17d-45b8-be15-3678be0909e3": {
+              "id": "35aeecc8-b17d-45b8-be15-3678be0909e3",
+              "type": "dialogue",
+              "selected": false,
+              "x": 1145.5882352941192,
+              "y": 1224.9999999999948,
+              "ports": [
+                {
+                  "id": "eafba889-d7e3-4ef7-bba9-fced7e4d30ed",
+                  "type": "default",
+                  "x": 1132.5780483358362,
+                  "y": 1256.0000985889128,
+                  "name": "in-1732611745917 ",
+                  "alignment": "left",
+                  "parentNode": "35aeecc8-b17d-45b8-be15-3678be0909e3",
+                  "links": [
+                    "e0b160af-0e0a-4009-a32f-a87f8e3dd9f9"
+                  ],
+                  "in": true,
+                  "label": "❯"
+                },
+                {
+                  "id": "841b4513-12f7-4267-a874-0ef251a8a3ea",
+                  "type": "default",
+                  "x": 1571.9529373628257,
+                  "y": 1256.0000985889128,
+                  "name": "out-1732611745917",
+                  "alignment": "right",
+                  "parentNode": "35aeecc8-b17d-45b8-be15-3678be0909e3",
+                  "links": [
+                    "2d9f214d-4c48-45b2-9a3f-7bb52d86ac4f"
+                  ],
+                  "in": false,
+                  "label": "❯"
+                }
+              ],
+              "title": "Homunculus",
+              "color": "#dd341ee6",
+              "portsInOrder": [
+                "eafba889-d7e3-4ef7-bba9-fced7e4d30ed"
+              ],
+              "portsOutOrder": [
+                "841b4513-12f7-4267-a874-0ef251a8a3ea"
+              ],
+              "text": "No does matter which you chose. Me needed organise\nmy thoughts. I see there is truth in both."
+            },
+            "1a07678d-9b15-4be7-a878-656e23104a2f": {
+              "id": "1a07678d-9b15-4be7-a878-656e23104a2f",
+              "type": "dialogue",
+              "selected": false,
+              "x": 1145.5882352941192,
+              "y": 1302.9999999999948,
+              "ports": [
+                {
+                  "id": "5c4f9826-526d-4269-bd17-16daec3467af",
+                  "type": "default",
+                  "x": 1132.5780483358362,
+                  "y": 1334.000032005106,
+                  "name": "in-1732611748316 ",
+                  "alignment": "left",
+                  "parentNode": "1a07678d-9b15-4be7-a878-656e23104a2f",
+                  "links": [
+                    "2d9f214d-4c48-45b2-9a3f-7bb52d86ac4f"
+                  ],
+                  "in": true,
+                  "label": "❯"
+                },
+                {
+                  "id": "f784372d-640a-4242-83dd-11294bf7a9ac",
+                  "type": "default",
+                  "x": 1242.1563508926545,
+                  "y": 1334.000032005106,
+                  "name": "out-1732611748316",
+                  "alignment": "right",
+                  "parentNode": "1a07678d-9b15-4be7-a878-656e23104a2f",
+                  "links": [
+                    "c4326503-fff8-46bb-89a0-d14f10674926"
+                  ],
+                  "in": false,
+                  "label": "❯"
+                }
+              ],
+              "title": "<player>",
+              "color": "#dd341ee6",
+              "portsInOrder": [
+                "5c4f9826-526d-4269-bd17-16daec3467af"
+              ],
+              "portsOutOrder": [
+                "f784372d-640a-4242-83dd-11294bf7a9ac"
+              ],
+              "text": "Okay."
+            },
+            "47364e65-6c61-4086-bcc1-0351408b9c08": {
+              "id": "47364e65-6c61-4086-bcc1-0351408b9c08",
+              "type": "dialogue",
+              "selected": false,
+              "x": 1145.5882352941192,
+              "y": 1365.9999999999948,
+              "ports": [
+                {
+                  "id": "f6952fe8-baa9-47b4-8860-b80249aeef83",
+                  "type": "default",
+                  "x": 1132.5780483358362,
+                  "y": 1396.9999654212993,
+                  "name": "in-1732611749513 ",
+                  "alignment": "left",
+                  "parentNode": "47364e65-6c61-4086-bcc1-0351408b9c08",
+                  "links": [
+                    "c4326503-fff8-46bb-89a0-d14f10674926"
+                  ],
+                  "in": true,
+                  "label": "❯"
+                },
+                {
+                  "id": "7b9802c7-71ec-4f05-b785-8878db672a9b",
+                  "type": "default",
+                  "x": 1623.2497679736211,
+                  "y": 1396.9999654212993,
+                  "name": "out-1732611749513",
+                  "alignment": "right",
+                  "parentNode": "47364e65-6c61-4086-bcc1-0351408b9c08",
+                  "links": [
+                    "444c7e53-4655-4592-9c75-a9cf1b622d8e"
+                  ],
+                  "in": false,
+                  "label": "❯"
+                }
+              ],
+              "title": "Homunculus",
+              "color": "#dd341ee6",
+              "portsInOrder": [
+                "f6952fe8-baa9-47b4-8860-b80249aeef83"
+              ],
+              "portsOutOrder": [
+                "7b9802c7-71ec-4f05-b785-8878db672a9b"
+              ],
+              "text": "Now we go scare alchemies - they have been wrong to\ndo this! Although I have life, they mustn't go about this\nagain."
+            },
+            "9c31ca9a-2647-46c5-9fd2-832076dfab63": {
+              "id": "9c31ca9a-2647-46c5-9fd2-832076dfab63",
+              "type": "dialogue",
+              "selected": false,
+              "x": 1145.5882352941192,
+              "y": 1473.9999999999948,
+              "ports": [
+                {
+                  "id": "d84c207f-d26d-46a1-87f7-01d8462c5e41",
+                  "type": "default",
+                  "x": 1132.5780483358362,
+                  "y": 1505.0000652970098,
+                  "name": "in-1732611750678 ",
+                  "alignment": "left",
+                  "parentNode": "9c31ca9a-2647-46c5-9fd2-832076dfab63",
+                  "links": [
+                    "444c7e53-4655-4592-9c75-a9cf1b622d8e"
+                  ],
+                  "in": true,
+                  "label": "❯"
+                },
+                {
+                  "id": "f91ffaca-f49c-4041-a1f5-db4cf6e8e6b8",
+                  "type": "default",
+                  "x": 1601.265792476462,
+                  "y": 1505.0000652970098,
+                  "name": "out-1732611750678",
+                  "alignment": "right",
+                  "parentNode": "9c31ca9a-2647-46c5-9fd2-832076dfab63",
+                  "links": [
+                    "50e1820e-4921-4fbd-aef3-90bea8cf05f7"
+                  ],
+                  "in": false,
+                  "label": "❯"
+                }
+              ],
+              "title": "<player>",
+              "color": "#dd341ee6",
+              "portsInOrder": [
+                "d84c207f-d26d-46a1-87f7-01d8462c5e41"
+              ],
+              "portsOutOrder": [
+                "f91ffaca-f49c-4041-a1f5-db4cf6e8e6b8"
+              ],
+              "text": "Sounds like a good plan. Can you get out of that cage?"
+            },
+            "75f36963-4730-491a-be3f-a33791e16538": {
+              "id": "75f36963-4730-491a-be3f-a33791e16538",
+              "type": "dialogue",
+              "selected": false,
+              "x": 1145.5882352941192,
+              "y": 1536.9999999999948,
+              "ports": [
+                {
+                  "id": "90157c8b-d49c-49d9-9c99-72208b53053c",
+                  "type": "default",
+                  "x": 1132.5780483358362,
+                  "y": 1567.999998713203,
+                  "name": "in-1732611751906 ",
+                  "alignment": "left",
+                  "parentNode": "75f36963-4730-491a-be3f-a33791e16538",
+                  "links": [
+                    "50e1820e-4921-4fbd-aef3-90bea8cf05f7"
+                  ],
+                  "in": true,
+                  "label": "❯"
+                },
+                {
+                  "id": "33ab6523-64f3-4d26-8e07-0e3a588e6a48",
+                  "type": "default",
+                  "x": 1542.6407480872574,
+                  "y": 1567.999998713203,
+                  "name": "out-1732611751906",
+                  "alignment": "right",
+                  "parentNode": "75f36963-4730-491a-be3f-a33791e16538",
+                  "links": [
+                    "4760165e-e48e-4c63-bdec-6edba0a99be1"
+                  ],
+                  "in": false,
+                  "label": "❯"
+                }
+              ],
+              "title": "Homunculus",
+              "color": "#dd341ee6",
+              "portsInOrder": [
+                "90157c8b-d49c-49d9-9c99-72208b53053c"
+              ],
+              "portsOutOrder": [
+                "33ab6523-64f3-4d26-8e07-0e3a588e6a48"
+              ],
+              "text": "Easy. You run down and I watching from here. I\nsurprise right moment."
+            },
+            "0f63162a-1cd3-4729-b0af-393eeb1ce7de": {
+              "id": "0f63162a-1cd3-4729-b0af-393eeb1ce7de",
+              "type": "dialogue",
+              "selected": false,
+              "x": 1145.5882352941192,
+              "y": 1614.9999999999948,
+              "ports": [
+                {
+                  "id": "13a51513-04ec-4a4f-8c20-8c19b3738078",
+                  "type": "default",
+                  "x": 1132.5780483358362,
+                  "y": 1645.9999321293963,
+                  "name": "in-1732611753080 ",
+                  "alignment": "left",
+                  "parentNode": "0f63162a-1cd3-4729-b0af-393eeb1ce7de",
+                  "links": [
+                    "4760165e-e48e-4c63-bdec-6edba0a99be1"
+                  ],
+                  "in": true,
+                  "label": "❯"
+                },
+                {
+                  "id": "f7d31fe7-3a7c-45a4-972e-66ef4d2d308c",
+                  "type": "default",
+                  "x": 1242.1563508926545,
+                  "y": 1645.9999321293963,
+                  "name": "out-1732611753080",
+                  "alignment": "right",
+                  "parentNode": "0f63162a-1cd3-4729-b0af-393eeb1ce7de",
+                  "links": [],
+                  "in": false,
+                  "label": "❯"
+                }
+              ],
+              "title": "<player>",
+              "color": "#dd341ee6",
+              "portsInOrder": [
+                "13a51513-04ec-4a4f-8c20-8c19b3738078"
+              ],
+              "portsOutOrder": [
+                "f7d31fe7-3a7c-45a4-972e-66ef4d2d308c"
+              ],
+              "text": "Okay."
+            },
+            "62f49125-98ff-4d1a-b2fb-dc3f43cfbaea": {
+              "id": "62f49125-98ff-4d1a-b2fb-dc3f43cfbaea",
+              "type": "note",
+              "selected": false,
+              "x": 685.0224657778836,
+              "y": 3059.861039661819,
+              "ports": [],
+              "title": "Note",
+              "color": "#19e0e7e6",
+              "portsInOrder": [],
+              "portsOutOrder": [],
+              "text": "Takes 7 options"
+            },
+            "32a10651-b1de-4929-9a17-89608302fbd4": {
+              "id": "32a10651-b1de-4929-9a17-89608302fbd4",
+              "type": "dialogue",
+              "selected": true,
+              "x": 1566.5257352941192,
+              "y": 1156.5624999999948,
+              "ports": [
+                {
+                  "id": "c413e436-39eb-4891-8358-9fccb6bcbeb7",
+                  "type": "default",
+                  "x": 1553.5156919709605,
+                  "y": 1187.5625923002397,
+                  "name": "in-1732611744707 ",
+                  "alignment": "left",
+                  "parentNode": "32a10651-b1de-4929-9a17-89608302fbd4",
+                  "links": [],
+                  "in": true,
+                  "label": "❯"
+                },
+                {
+                  "id": "2874892f-ea1b-468e-af8f-0b649ff35b8c",
+                  "type": "default",
+                  "x": 1831.6563322297495,
+                  "y": 1187.5625923002397,
+                  "name": "out-1732611744707",
+                  "alignment": "right",
+                  "parentNode": "32a10651-b1de-4929-9a17-89608302fbd4",
+                  "links": [],
+                  "in": false,
+                  "label": "❯"
+                }
+              ],
+              "title": "<player>",
+              "color": "#dd341ee6",
+              "portsInOrder": [
+                "c413e436-39eb-4891-8358-9fccb6bcbeb7"
+              ],
+              "portsOutOrder": [
+                "2874892f-ea1b-468e-af8f-0b649ff35b8c"
+              ],
+              "text": "I decided to root for magic."
+            }
+          }
+        }
+      ]
+    },
+    "return_to_effigy": {
+      "id": "70aafe48-f8d6-44de-8a7e-17a1e101444c",
+      "offsetX": 0,
+      "offsetY": 0,
+      "zoom": 100,
+      "gridSize": 0,
+      "layers": [
+        {
+          "id": "2ce0d230-25a8-49e3-b131-4ee02f7f4764",
+          "type": "diagram-links",
+          "isSvg": true,
+          "transformed": true,
+          "models": {
+            "03d36817-2d20-48da-8224-d24ee4e7edec": {
+              "id": "03d36817-2d20-48da-8224-d24ee4e7edec",
+              "type": "default",
+              "source": "4c49dd0c-1264-4b45-b1ef-d49f5453fb4f",
+              "sourcePort": "c7c9b7cb-543e-4805-9a38-6398094a2bd6",
+              "target": "5cf4b951-632e-4788-aba9-bb8a97b5270d",
+              "targetPort": "4d239613-23e3-4157-a470-13e9a0a2a62a",
+              "points": [
+                {
+                  "id": "527da4ba-f280-49e1-9bd5-ea9275229af3",
+                  "type": "point",
+                  "x": 340.375,
+                  "y": 63.5
+                },
+                {
+                  "id": "a8745451-9908-441e-b697-2682078f0c72",
+                  "type": "point",
+                  "x": 179.5,
+                  "y": 126.5
+                }
+              ],
+              "labels": [],
+              "width": 3,
+              "color": "gray",
+              "curvyness": 50,
+              "selectedColor": "rgb(0,192,255)"
+            },
+            "7648ed05-168d-4f1f-a29d-d89bfb37c088": {
+              "id": "7648ed05-168d-4f1f-a29d-d89bfb37c088",
+              "type": "default",
+              "source": "5cf4b951-632e-4788-aba9-bb8a97b5270d",
+              "sourcePort": "d596fb2e-41ac-466b-ad64-ac4f82b2233b",
+              "target": "c74f8328-b7ea-4d42-85b1-dd2c3d993e13",
+              "targetPort": "a4fafe1f-3bd6-427e-b5c2-f751448d7ee0",
+              "points": [
+                {
+                  "id": "78afbda3-8e3b-4765-bd91-0f5f7ec48e84",
+                  "type": "point",
+                  "x": 567.578125,
+                  "y": 126.5
+                },
+                {
+                  "id": "b9bc67dc-c977-41ee-b2f9-dc210768a195",
+                  "type": "point",
+                  "x": 179.5,
+                  "y": 204.5
+                }
+              ],
+              "labels": [],
+              "width": 3,
+              "color": "gray",
+              "curvyness": 50,
+              "selectedColor": "rgb(0,192,255)"
+            },
+            "3cf15ec8-535b-4796-9b40-b651cbad107d": {
+              "id": "3cf15ec8-535b-4796-9b40-b651cbad107d",
+              "type": "default",
+              "source": "c74f8328-b7ea-4d42-85b1-dd2c3d993e13",
+              "sourcePort": "62d8fbc7-d68c-4da8-af79-47d1d7b2c336",
+              "target": "d5b35c3d-b9e8-4716-86dd-be791afb7008",
+              "targetPort": "ddb16bca-569b-4108-9494-391a90101889",
+              "points": [
+                {
+                  "id": "fdf679ce-6588-4430-aab0-f4563b3ecea6",
+                  "type": "point",
+                  "x": 340.375,
+                  "y": 204.5
+                },
+                {
+                  "id": "fbe6986c-1cbf-4b5d-9aa7-b871ee76848d",
+                  "type": "point",
+                  "x": 179.5,
+                  "y": 267.5
+                }
+              ],
+              "labels": [],
+              "width": 3,
+              "color": "gray",
+              "curvyness": 50,
+              "selectedColor": "rgb(0,192,255)"
+            },
+            "70c1ac06-3df7-4806-a3a8-19951c799222": {
+              "id": "70c1ac06-3df7-4806-a3a8-19951c799222",
+              "type": "default",
+              "source": "d5b35c3d-b9e8-4716-86dd-be791afb7008",
+              "sourcePort": "e349181e-01ea-4f34-8550-e28ed8669946",
+              "target": "aa34e6d4-833f-47b1-b080-9b7e4c713b1c",
+              "targetPort": "a1e474be-480e-4977-b660-cf67a065428c",
+              "points": [
+                {
+                  "id": "2e9dfb31-2150-4864-8abc-d676ecc0419e",
+                  "type": "point",
+                  "x": 633.53125,
+                  "y": 267.5
+                },
+                {
+                  "id": "6f4ae9c9-5ed5-48c7-a3dd-4b3085f4395f",
+                  "type": "point",
+                  "x": 179.5,
+                  "y": 330.5
+                }
+              ],
+              "labels": [],
+              "width": 3,
+              "color": "gray",
+              "curvyness": 50,
+              "selectedColor": "rgb(0,192,255)"
+            },
+            "774d3b7e-9b23-4c60-aaba-079cf5968b4b": {
+              "id": "774d3b7e-9b23-4c60-aaba-079cf5968b4b",
+              "type": "default",
+              "source": "aa34e6d4-833f-47b1-b080-9b7e4c713b1c",
+              "sourcePort": "8a768380-d2c8-415f-ba82-151f62039284",
+              "target": "fff66126-4fa6-4532-b164-1680d832f92f",
+              "targetPort": "7261a6fc-814a-4dc7-813d-31d7c3730c79",
+              "points": [
+                {
+                  "id": "f3a95b69-f41e-4c8f-a720-c3220104a8e4",
+                  "type": "point",
+                  "x": 640.859375,
+                  "y": 330.5
+                },
+                {
+                  "id": "d6d74d98-f0b4-428b-ab3d-8c9cbcba8c56",
+                  "type": "point",
+                  "x": 179.5,
+                  "y": 408.5
+                }
+              ],
+              "labels": [],
+              "width": 3,
+              "color": "gray",
+              "curvyness": 50,
+              "selectedColor": "rgb(0,192,255)"
+            },
+            "a2bf1d7d-0b79-4933-8652-eac6922cf99c": {
+              "id": "a2bf1d7d-0b79-4933-8652-eac6922cf99c",
+              "type": "default",
+              "selected": false,
+              "source": "160a5f45-d337-485a-8566-ded39a4eb3cf",
+              "sourcePort": "ff6388ea-288a-4f4c-9b60-cdc69d8c373c",
+              "target": "4c49dd0c-1264-4b45-b1ef-d49f5453fb4f",
+              "targetPort": "941b732a-a1d3-4d47-b83b-bf08a890b65c",
+              "points": [
+                {
+                  "id": "c54af387-9f7f-4def-9a48-2c2c9d2f8731",
+                  "type": "point",
+                  "x": 133.296875,
+                  "y": 64.5
+                },
+                {
+                  "id": "911df9be-851c-4d01-a2a5-f51e791b93d1",
+                  "type": "point",
+                  "x": 179.5,
+                  "y": 63.5
+                }
+              ],
+              "labels": [],
+              "width": 3,
+              "color": "gray",
+              "curvyness": 50,
+              "selectedColor": "rgb(0,192,255)"
+            }
+          }
+        },
+        {
+          "id": "096f4215-f147-4cc5-8848-b0c827d6ff19",
+          "type": "diagram-nodes",
+          "isSvg": false,
+          "transformed": true,
+          "models": {
+            "160a5f45-d337-485a-8566-ded39a4eb3cf": {
+              "id": "160a5f45-d337-485a-8566-ded39a4eb3cf",
+              "type": "start",
+              "x": 50,
+              "y": 50,
+              "ports": [
+                {
+                  "id": "ff6388ea-288a-4f4c-9b60-cdc69d8c373c",
+                  "type": "default",
+                  "x": 125.796875,
+                  "y": 57,
+                  "name": "out-1732611829451",
+                  "alignment": "right",
+                  "parentNode": "160a5f45-d337-485a-8566-ded39a4eb3cf",
+                  "links": [
+                    "a2bf1d7d-0b79-4933-8652-eac6922cf99c"
+                  ],
+                  "in": false,
+                  "label": "❯"
+                }
+              ],
+              "title": "Start",
+              "color": "#16db26e6",
+              "portsInOrder": [],
+              "portsOutOrder": [
+                "ff6388ea-288a-4f4c-9b60-cdc69d8c373c"
+              ]
+            },
+            "4c49dd0c-1264-4b45-b1ef-d49f5453fb4f": {
+              "id": "4c49dd0c-1264-4b45-b1ef-d49f5453fb4f",
+              "type": "dialogue",
+              "selected": false,
+              "x": 185,
+              "y": 25,
+              "ports": [
+                {
+                  "id": "941b732a-a1d3-4d47-b83b-bf08a890b65c",
+                  "type": "default",
+                  "x": 172,
+                  "y": 56,
+                  "name": "in-1732611833508 ",
+                  "alignment": "left",
+                  "parentNode": "4c49dd0c-1264-4b45-b1ef-d49f5453fb4f",
+                  "links": [
+                    "a2bf1d7d-0b79-4933-8652-eac6922cf99c"
+                  ],
+                  "in": true,
+                  "label": "❯"
+                },
+                {
+                  "id": "c7c9b7cb-543e-4805-9a38-6398094a2bd6",
+                  "type": "default",
+                  "x": 332.875,
+                  "y": 56,
+                  "name": "out-1732611833508",
+                  "alignment": "right",
+                  "parentNode": "4c49dd0c-1264-4b45-b1ef-d49f5453fb4f",
+                  "links": [
+                    "03d36817-2d20-48da-8224-d24ee4e7edec"
+                  ],
+                  "in": false,
+                  "label": "❯"
+                }
+              ],
+              "title": "<player>",
+              "color": "#dd341ee6",
+              "portsInOrder": [
+                "941b732a-a1d3-4d47-b83b-bf08a890b65c"
+              ],
+              "portsOutOrder": [
+                "c7c9b7cb-543e-4805-9a38-6398094a2bd6"
+              ],
+              "text": "How are you?"
+            },
+            "5cf4b951-632e-4788-aba9-bb8a97b5270d": {
+              "id": "5cf4b951-632e-4788-aba9-bb8a97b5270d",
+              "type": "dialogue",
+              "selected": false,
+              "x": 185,
+              "y": 88,
+              "ports": [
+                {
+                  "id": "4d239613-23e3-4157-a470-13e9a0a2a62a",
+                  "type": "default",
+                  "x": 172,
+                  "y": 119,
+                  "name": "in-1732611835301 ",
+                  "alignment": "left",
+                  "parentNode": "5cf4b951-632e-4788-aba9-bb8a97b5270d",
+                  "links": [
+                    "03d36817-2d20-48da-8224-d24ee4e7edec"
+                  ],
+                  "in": true,
+                  "label": "❯"
+                },
+                {
+                  "id": "d596fb2e-41ac-466b-ad64-ac4f82b2233b",
+                  "type": "default",
+                  "x": 560.078125,
+                  "y": 119,
+                  "name": "out-1732611835301",
+                  "alignment": "right",
+                  "parentNode": "5cf4b951-632e-4788-aba9-bb8a97b5270d",
+                  "links": [
+                    "7648ed05-168d-4f1f-a29d-d89bfb37c088"
+                  ],
+                  "in": false,
+                  "label": "❯"
+                }
+              ],
+              "title": "Homunculus",
+              "color": "#dd341ee6",
+              "portsInOrder": [
+                "4d239613-23e3-4157-a470-13e9a0a2a62a"
+              ],
+              "portsOutOrder": [
+                "d596fb2e-41ac-466b-ad64-ac4f82b2233b"
+              ],
+              "text": "Better. You been mine angel. I now have the\nunderstanding I need."
+            },
+            "c74f8328-b7ea-4d42-85b1-dd2c3d993e13": {
+              "id": "c74f8328-b7ea-4d42-85b1-dd2c3d993e13",
+              "type": "dialogue",
+              "selected": false,
+              "x": 185,
+              "y": 166,
+              "ports": [
+                {
+                  "id": "a4fafe1f-3bd6-427e-b5c2-f751448d7ee0",
+                  "type": "default",
+                  "x": 172,
+                  "y": 197,
+                  "name": "in-1732611836483 ",
+                  "alignment": "left",
+                  "parentNode": "c74f8328-b7ea-4d42-85b1-dd2c3d993e13",
+                  "links": [
+                    "7648ed05-168d-4f1f-a29d-d89bfb37c088"
+                  ],
+                  "in": true,
+                  "label": "❯"
+                },
+                {
+                  "id": "62d8fbc7-d68c-4da8-af79-47d1d7b2c336",
+                  "type": "default",
+                  "x": 332.875,
+                  "y": 197,
+                  "name": "out-1732611836483",
+                  "alignment": "right",
+                  "parentNode": "c74f8328-b7ea-4d42-85b1-dd2c3d993e13",
+                  "links": [
+                    "3cf15ec8-535b-4796-9b40-b651cbad107d"
+                  ],
+                  "in": false,
+                  "label": "❯"
+                }
+              ],
+              "title": "<player>",
+              "color": "#dd341ee6",
+              "portsInOrder": [
+                "a4fafe1f-3bd6-427e-b5c2-f751448d7ee0"
+              ],
+              "portsOutOrder": [
+                "62d8fbc7-d68c-4da8-af79-47d1d7b2c336"
+              ],
+              "text": "My pleasure."
+            },
+            "d5b35c3d-b9e8-4716-86dd-be791afb7008": {
+              "id": "d5b35c3d-b9e8-4716-86dd-be791afb7008",
+              "type": "dialogue",
+              "selected": false,
+              "x": 185,
+              "y": 229,
+              "ports": [
+                {
+                  "id": "ddb16bca-569b-4108-9494-391a90101889",
+                  "type": "default",
+                  "x": 172,
+                  "y": 260,
+                  "name": "in-1732611837701 ",
+                  "alignment": "left",
+                  "parentNode": "d5b35c3d-b9e8-4716-86dd-be791afb7008",
+                  "links": [
+                    "3cf15ec8-535b-4796-9b40-b651cbad107d"
+                  ],
+                  "in": true,
+                  "label": "❯"
+                },
+                {
+                  "id": "e349181e-01ea-4f34-8550-e28ed8669946",
+                  "type": "default",
+                  "x": 626.03125,
+                  "y": 260,
+                  "name": "out-1732611837701",
+                  "alignment": "right",
+                  "parentNode": "d5b35c3d-b9e8-4716-86dd-be791afb7008",
+                  "links": [
+                    "70c1ac06-3df7-4806-a3a8-19951c799222"
+                  ],
+                  "in": false,
+                  "label": "❯"
+                }
+              ],
+              "title": "Homunculus",
+              "color": "#dd341ee6",
+              "portsInOrder": [
+                "ddb16bca-569b-4108-9494-391a90101889"
+              ],
+              "portsOutOrder": [
+                "e349181e-01ea-4f34-8550-e28ed8669946"
+              ],
+              "text": "Please, alchemists you speak, me appear to surprise."
+            },
+            "aa34e6d4-833f-47b1-b080-9b7e4c713b1c": {
+              "id": "aa34e6d4-833f-47b1-b080-9b7e4c713b1c",
+              "type": "dialogue",
+              "selected": false,
+              "x": 185,
+              "y": 292,
+              "ports": [
+                {
+                  "id": "a1e474be-480e-4977-b660-cf67a065428c",
+                  "type": "default",
+                  "x": 172,
+                  "y": 323,
+                  "name": "in-1732611838923 ",
+                  "alignment": "left",
+                  "parentNode": "aa34e6d4-833f-47b1-b080-9b7e4c713b1c",
+                  "links": [
+                    "70c1ac06-3df7-4806-a3a8-19951c799222"
+                  ],
+                  "in": true,
+                  "label": "❯"
+                },
+                {
+                  "id": "8a768380-d2c8-415f-ba82-151f62039284",
+                  "type": "default",
+                  "x": 633.359375,
+                  "y": 323,
+                  "name": "out-1732611838923",
+                  "alignment": "right",
+                  "parentNode": "aa34e6d4-833f-47b1-b080-9b7e4c713b1c",
+                  "links": [
+                    "774d3b7e-9b23-4c60-aaba-079cf5968b4b"
+                  ],
+                  "in": false,
+                  "label": "❯"
+                }
+              ],
+              "title": "<player>",
+              "color": "#dd341ee6",
+              "portsInOrder": [
+                "a1e474be-480e-4977-b660-cf67a065428c"
+              ],
+              "portsOutOrder": [
+                "8a768380-d2c8-415f-ba82-151f62039284"
+              ],
+              "text": "I'm not sure I understand, but okay, I will go have a\nword with them."
+            },
+            "fff66126-4fa6-4532-b164-1680d832f92f": {
+              "id": "fff66126-4fa6-4532-b164-1680d832f92f",
+              "type": "dialogue",
+              "selected": false,
+              "x": 185,
+              "y": 370,
+              "ports": [
+                {
+                  "id": "7261a6fc-814a-4dc7-813d-31d7c3730c79",
+                  "type": "default",
+                  "x": 172,
+                  "y": 401,
+                  "name": "in-1732611840722 ",
+                  "alignment": "left",
+                  "parentNode": "fff66126-4fa6-4532-b164-1680d832f92f",
+                  "links": [
+                    "774d3b7e-9b23-4c60-aaba-079cf5968b4b"
+                  ],
+                  "in": true,
+                  "label": "❯"
+                },
+                {
+                  "id": "c2fda6f8-51ab-4c7e-9a60-2c4c3f8a0e6e",
+                  "type": "default",
+                  "x": 318.21875,
+                  "y": 401,
+                  "name": "out-1732611840722",
+                  "alignment": "right",
+                  "parentNode": "fff66126-4fa6-4532-b164-1680d832f92f",
+                  "links": [],
+                  "in": false,
+                  "label": "❯"
+                }
+              ],
+              "title": "Homunculus",
+              "color": "#dd341ee6",
+              "portsInOrder": [
+                "7261a6fc-814a-4dc7-813d-31d7c3730c79"
+              ],
+              "portsOutOrder": [
+                "c2fda6f8-51ab-4c7e-9a60-2c4c3f8a0e6e"
+              ],
+              "text": "Thank you."
+            }
+          }
+        }
+      ]
+    },
+    "meet_basement": {
+      "id": "38532d81-39c7-479e-9533-0f300e2ed85f",
+      "offsetX": 0,
+      "offsetY": 0,
+      "zoom": 100,
+      "gridSize": 0,
+      "layers": [
+        {
+          "id": "e4c18325-6a25-46c7-b5d5-8a6a77e464c3",
+          "type": "diagram-links",
+          "isSvg": true,
+          "transformed": true,
+          "models": {
+            "73dd1cd0-896d-4d72-90eb-378f5299dbe4": {
+              "id": "73dd1cd0-896d-4d72-90eb-378f5299dbe4",
+              "type": "default",
+              "selected": false,
+              "source": "36193a08-6bcd-4039-8dcc-1ec06c945608",
+              "sourcePort": "7138d3c0-772d-43dd-b86b-79eb64ddcf06",
+              "target": "3d5f292e-154a-49b6-8b5f-5eabe18f9393",
+              "targetPort": "eb202cc0-5ad1-4c89-a1f9-1eccfd3a3878",
+              "points": [
+                {
+                  "id": "89a73563-4356-4f2a-8f68-42917a4847a0",
+                  "type": "point",
+                  "x": 137.296875,
+                  "y": 61.5
+                },
+                {
+                  "id": "f85c6aa1-1f1f-443e-9e42-9ccaa9a2d111",
+                  "type": "point",
+                  "x": 180.5,
+                  "y": 62.5
+                }
+              ],
+              "labels": [],
+              "width": 3,
+              "color": "gray",
+              "curvyness": 50,
+              "selectedColor": "rgb(0,192,255)"
+            },
+            "f003010a-5cf4-480b-bb83-cdd77f3cbb9a": {
+              "id": "f003010a-5cf4-480b-bb83-cdd77f3cbb9a",
+              "type": "default",
+              "source": "3d5f292e-154a-49b6-8b5f-5eabe18f9393",
+              "sourcePort": "600c63c8-2864-4d49-8cc4-231e740224c1",
+              "target": "808a3ac4-3786-4802-afb6-03240d275320",
+              "targetPort": "5360a14d-f9f1-4e3d-8fb3-905a28e6d9f4",
+              "points": [
+                {
+                  "id": "e5337625-ecc4-4c67-b676-0688225fc7b5",
+                  "type": "point",
+                  "x": 414.671875,
+                  "y": 62.5
+                },
+                {
+                  "id": "45d0e6dc-6bb4-4544-aba4-52723575793f",
+                  "type": "point",
+                  "x": 180.5,
+                  "y": 125.5
+                }
+              ],
+              "labels": [],
+              "width": 3,
+              "color": "gray",
+              "curvyness": 50,
+              "selectedColor": "rgb(0,192,255)"
+            },
+            "f7ad8a08-5812-47f6-80c0-c1e96ad59362": {
+              "id": "f7ad8a08-5812-47f6-80c0-c1e96ad59362",
+              "type": "default",
+              "source": "808a3ac4-3786-4802-afb6-03240d275320",
+              "sourcePort": "135c742d-7113-47a3-94c7-d8f3c5b87581",
+              "target": "86af9442-7b5f-42df-88da-fe6909f53a95",
+              "targetPort": "047681a4-99e7-4991-be55-db85a90d54ed",
+              "points": [
+                {
+                  "id": "b519ecdc-31ed-44c2-a847-7036cec47ad7",
+                  "type": "point",
+                  "x": 480.625,
+                  "y": 125.5
+                },
+                {
+                  "id": "b104d8f0-848f-4d2b-bf68-54a1ff08069f",
+                  "type": "point",
+                  "x": 180.5,
+                  "y": 188.5
+                }
+              ],
+              "labels": [],
+              "width": 3,
+              "color": "gray",
+              "curvyness": 50,
+              "selectedColor": "rgb(0,192,255)"
+            },
+            "2400e33e-b806-4961-ae4f-068202001d6f": {
+              "id": "2400e33e-b806-4961-ae4f-068202001d6f",
+              "type": "default",
+              "source": "86af9442-7b5f-42df-88da-fe6909f53a95",
+              "sourcePort": "199d0324-b4dc-4b94-ad3d-3f5af10f13d9",
+              "target": "0885233a-ab01-4309-a378-9faf973a09b1",
+              "targetPort": "52a99dba-fa33-4bd4-8e1d-ca897650a8ee",
+              "points": [
+                {
+                  "id": "afcb669b-89f7-4f4b-a779-a62d99099eeb",
+                  "type": "point",
+                  "x": 509.9375,
+                  "y": 188.5
+                },
+                {
+                  "id": "43c30ce1-5277-4a7f-a93c-6de8605af5b9",
+                  "type": "point",
+                  "x": 180.5,
+                  "y": 251.5
+                }
+              ],
+              "labels": [],
+              "width": 3,
+              "color": "gray",
+              "curvyness": 50,
+              "selectedColor": "rgb(0,192,255)"
+            },
+            "5a67c0d2-b680-4a39-abed-f2667b8bc69c": {
+              "id": "5a67c0d2-b680-4a39-abed-f2667b8bc69c",
+              "type": "default",
+              "source": "0885233a-ab01-4309-a378-9faf973a09b1",
+              "sourcePort": "20c35181-9245-45d1-83d4-3ab832908ae3",
+              "target": "d3a558cb-5328-4d20-87e7-a179a185e800",
+              "targetPort": "5a670ceb-90a9-4890-9e85-879db5e9b8d1",
+              "points": [
+                {
+                  "id": "1f1767dc-9dbc-4f8a-9460-c35ee99209bc",
+                  "type": "point",
+                  "x": 627.203125,
+                  "y": 251.5
+                },
+                {
+                  "id": "da4de413-d83e-4ebb-9de1-650fca4882e4",
+                  "type": "point",
+                  "x": 180.5,
+                  "y": 359.5
+                }
+              ],
+              "labels": [],
+              "width": 3,
+              "color": "gray",
+              "curvyness": 50,
+              "selectedColor": "rgb(0,192,255)"
+            },
+            "1a15fcf2-569d-48d4-96d4-414ba390b05e": {
+              "id": "1a15fcf2-569d-48d4-96d4-414ba390b05e",
+              "type": "default",
+              "source": "d3a558cb-5328-4d20-87e7-a179a185e800",
+              "sourcePort": "382e0068-08f7-4846-bd42-0b80c34161c9",
+              "target": "51226899-a34c-4c65-8820-f4db03eae4e0",
+              "targetPort": "d0f29776-0a4a-45c0-a455-3e735852374f",
+              "points": [
+                {
+                  "id": "37b4cb58-a6ed-4b29-9060-46df2a7a46a7",
+                  "type": "point",
+                  "x": 634.53125,
+                  "y": 359.5
+                },
+                {
+                  "id": "d2120b23-9bbc-4022-8863-668043d4cfb3",
+                  "type": "point",
+                  "x": 180.5,
+                  "y": 437.5
+                }
+              ],
+              "labels": [],
+              "width": 3,
+              "color": "gray",
+              "curvyness": 50,
+              "selectedColor": "rgb(0,192,255)"
+            }
+          }
+        },
+        {
+          "id": "d9912dce-2095-47c3-8c6e-5f28342f674c",
+          "type": "diagram-nodes",
+          "isSvg": false,
+          "transformed": true,
+          "models": {
+            "36193a08-6bcd-4039-8dcc-1ec06c945608": {
+              "id": "36193a08-6bcd-4039-8dcc-1ec06c945608",
+              "type": "start",
+              "selected": false,
+              "x": 54,
+              "y": 47,
+              "ports": [
+                {
+                  "id": "7138d3c0-772d-43dd-b86b-79eb64ddcf06",
+                  "type": "default",
+                  "x": 129.796875,
+                  "y": 54,
+                  "name": "out-1732612255128",
+                  "alignment": "right",
+                  "parentNode": "36193a08-6bcd-4039-8dcc-1ec06c945608",
+                  "links": [
+                    "73dd1cd0-896d-4d72-90eb-378f5299dbe4"
+                  ],
+                  "in": false,
+                  "label": "❯"
+                }
+              ],
+              "title": "Start",
+              "color": "#16db26e6",
+              "portsInOrder": [],
+              "portsOutOrder": [
+                "7138d3c0-772d-43dd-b86b-79eb64ddcf06"
+              ]
+            },
+            "3d5f292e-154a-49b6-8b5f-5eabe18f9393": {
+              "id": "3d5f292e-154a-49b6-8b5f-5eabe18f9393",
+              "type": "dialogue",
+              "selected": false,
+              "x": 186,
+              "y": 24,
+              "ports": [
+                {
+                  "id": "eb202cc0-5ad1-4c89-a1f9-1eccfd3a3878",
+                  "type": "default",
+                  "x": 173,
+                  "y": 55,
+                  "name": "in-1732612302772 ",
+                  "alignment": "left",
+                  "parentNode": "3d5f292e-154a-49b6-8b5f-5eabe18f9393",
+                  "links": [
+                    "73dd1cd0-896d-4d72-90eb-378f5299dbe4"
+                  ],
+                  "in": true,
+                  "label": "❯"
+                },
+                {
+                  "id": "600c63c8-2864-4d49-8cc4-231e740224c1",
+                  "type": "default",
+                  "x": 407.171875,
+                  "y": 55,
+                  "name": "out-1732612302772",
+                  "alignment": "right",
+                  "parentNode": "3d5f292e-154a-49b6-8b5f-5eabe18f9393",
+                  "links": [
+                    "f003010a-5cf4-480b-bb83-cdd77f3cbb9a"
+                  ],
+                  "in": false,
+                  "label": "❯"
+                }
+              ],
+              "title": "<player>",
+              "color": "#dd341ee6",
+              "portsInOrder": [
+                "eb202cc0-5ad1-4c89-a1f9-1eccfd3a3878"
+              ],
+              "portsOutOrder": [
+                "600c63c8-2864-4d49-8cc4-231e740224c1"
+              ],
+              "text": "This place is bizarre!"
+            },
+            "808a3ac4-3786-4802-afb6-03240d275320": {
+              "id": "808a3ac4-3786-4802-afb6-03240d275320",
+              "type": "dialogue",
+              "x": 186,
+              "y": 87,
+              "ports": [
+                {
+                  "id": "5360a14d-f9f1-4e3d-8fb3-905a28e6d9f4",
+                  "type": "default",
+                  "x": 173,
+                  "y": 118,
+                  "name": "in-1732612311191 ",
+                  "alignment": "left",
+                  "parentNode": "808a3ac4-3786-4802-afb6-03240d275320",
+                  "links": [
+                    "f003010a-5cf4-480b-bb83-cdd77f3cbb9a"
+                  ],
+                  "in": true,
+                  "label": "❯"
+                },
+                {
+                  "id": "135c742d-7113-47a3-94c7-d8f3c5b87581",
+                  "type": "default",
+                  "x": 473.125,
+                  "y": 118,
+                  "name": "out-1732612311191",
+                  "alignment": "right",
+                  "parentNode": "808a3ac4-3786-4802-afb6-03240d275320",
+                  "links": [
+                    "f7ad8a08-5812-47f6-80c0-c1e96ad59362"
+                  ],
+                  "in": false,
+                  "label": "❯"
+                }
+              ],
+              "title": "Homunculus",
+              "color": "#dd341ee6",
+              "portsInOrder": [
+                "5360a14d-f9f1-4e3d-8fb3-905a28e6d9f4"
+              ],
+              "portsOutOrder": [
+                "135c742d-7113-47a3-94c7-d8f3c5b87581"
+              ],
+              "text": "Me do know. Pleased you rescue."
+            },
+            "86af9442-7b5f-42df-88da-fe6909f53a95": {
+              "id": "86af9442-7b5f-42df-88da-fe6909f53a95",
+              "type": "dialogue",
+              "x": 186,
+              "y": 150,
+              "ports": [
+                {
+                  "id": "047681a4-99e7-4991-be55-db85a90d54ed",
+                  "type": "default",
+                  "x": 173,
+                  "y": 181,
+                  "name": "in-1732612312389 ",
+                  "alignment": "left",
+                  "parentNode": "86af9442-7b5f-42df-88da-fe6909f53a95",
+                  "links": [
+                    "f7ad8a08-5812-47f6-80c0-c1e96ad59362"
+                  ],
+                  "in": true,
+                  "label": "❯"
+                },
+                {
+                  "id": "199d0324-b4dc-4b94-ad3d-3f5af10f13d9",
+                  "type": "default",
+                  "x": 502.4375,
+                  "y": 181,
+                  "name": "out-1732612312389",
+                  "alignment": "right",
+                  "parentNode": "86af9442-7b5f-42df-88da-fe6909f53a95",
+                  "links": [
+                    "2400e33e-b806-4961-ae4f-068202001d6f"
+                  ],
+                  "in": false,
+                  "label": "❯"
+                }
+              ],
+              "title": "<player>",
+              "color": "#dd341ee6",
+              "portsInOrder": [
+                "047681a4-99e7-4991-be55-db85a90d54ed"
+              ],
+              "portsOutOrder": [
+                "199d0324-b4dc-4b94-ad3d-3f5af10f13d9"
+              ],
+              "text": "My pleasure. So what is this place?"
+            },
+            "0885233a-ab01-4309-a378-9faf973a09b1": {
+              "id": "0885233a-ab01-4309-a378-9faf973a09b1",
+              "type": "dialogue",
+              "x": 186,
+              "y": 213,
+              "ports": [
+                {
+                  "id": "52a99dba-fa33-4bd4-8e1d-ca897650a8ee",
+                  "type": "default",
+                  "x": 173,
+                  "y": 244,
+                  "name": "in-1732612313587 ",
+                  "alignment": "left",
+                  "parentNode": "0885233a-ab01-4309-a378-9faf973a09b1",
+                  "links": [
+                    "2400e33e-b806-4961-ae4f-068202001d6f"
+                  ],
+                  "in": true,
+                  "label": "❯"
+                },
+                {
+                  "id": "20c35181-9245-45d1-83d4-3ab832908ae3",
+                  "type": "default",
+                  "x": 619.703125,
+                  "y": 244,
+                  "name": "out-1732612313587",
+                  "alignment": "right",
+                  "parentNode": "0885233a-ab01-4309-a378-9faf973a09b1",
+                  "links": [
+                    "5a67c0d2-b680-4a39-abed-f2667b8bc69c"
+                  ],
+                  "in": false,
+                  "label": "❯"
+                }
+              ],
+              "title": "Homunculus",
+              "color": "#dd341ee6",
+              "portsInOrder": [
+                "52a99dba-fa33-4bd4-8e1d-ca897650a8ee"
+              ],
+              "portsOutOrder": [
+                "20c35181-9245-45d1-83d4-3ab832908ae3"
+              ],
+              "text": "They use essence of Guthix power. Create tower pump\nthis from ground. Make me with godly power.\nDangerous."
+            },
+            "d3a558cb-5328-4d20-87e7-a179a185e800": {
+              "id": "d3a558cb-5328-4d20-87e7-a179a185e800",
+              "type": "dialogue",
+              "x": 186,
+              "y": 321,
+              "ports": [
+                {
+                  "id": "5a670ceb-90a9-4890-9e85-879db5e9b8d1",
+                  "type": "default",
+                  "x": 173,
+                  "y": 352,
+                  "name": "in-1732612314175 ",
+                  "alignment": "left",
+                  "parentNode": "d3a558cb-5328-4d20-87e7-a179a185e800",
+                  "links": [
+                    "5a67c0d2-b680-4a39-abed-f2667b8bc69c"
+                  ],
+                  "in": true,
+                  "label": "❯"
+                },
+                {
+                  "id": "382e0068-08f7-4846-bd42-0b80c34161c9",
+                  "type": "default",
+                  "x": 627.03125,
+                  "y": 352,
+                  "name": "out-1732612314175",
+                  "alignment": "right",
+                  "parentNode": "d3a558cb-5328-4d20-87e7-a179a185e800",
+                  "links": [
+                    "1a15fcf2-569d-48d4-96d4-414ba390b05e"
+                  ],
+                  "in": false,
+                  "label": "❯"
+                }
+              ],
+              "title": "<player>",
+              "color": "#dd341ee6",
+              "portsInOrder": [
+                "5a670ceb-90a9-4890-9e85-879db5e9b8d1"
+              ],
+              "portsOutOrder": [
+                "382e0068-08f7-4846-bd42-0b80c34161c9"
+              ],
+              "text": "Oh dear, but you're okay now. You have this place to\nreside in."
+            },
+            "51226899-a34c-4c65-8820-f4db03eae4e0": {
+              "id": "51226899-a34c-4c65-8820-f4db03eae4e0",
+              "type": "dialogue",
+              "x": 186,
+              "y": 399,
+              "ports": [
+                {
+                  "id": "d0f29776-0a4a-45c0-a455-3e735852374f",
+                  "type": "default",
+                  "x": 173,
+                  "y": 430,
+                  "name": "in-1732612315389 ",
+                  "alignment": "left",
+                  "parentNode": "51226899-a34c-4c65-8820-f4db03eae4e0",
+                  "links": [
+                    "1a15fcf2-569d-48d4-96d4-414ba390b05e"
+                  ],
+                  "in": true,
+                  "label": "❯"
+                },
+                {
+                  "id": "82084cac-fb44-41b5-bc3d-f68ff8c43232",
+                  "type": "default",
+                  "x": 568.40625,
+                  "y": 430,
+                  "name": "out-1732612315389",
+                  "alignment": "right",
+                  "parentNode": "51226899-a34c-4c65-8820-f4db03eae4e0",
+                  "links": [],
+                  "in": false,
+                  "label": "❯"
+                }
+              ],
+              "title": "Homunculus",
+              "color": "#dd341ee6",
+              "portsInOrder": [
+                "d0f29776-0a4a-45c0-a455-3e735852374f"
+              ],
+              "portsOutOrder": [
+                "82084cac-fb44-41b5-bc3d-f68ff8c43232"
+              ],
+              "text": "Thrank you. For reward you speak me, I makes\nmonsters."
+            }
+          }
+        }
+      ]
+    },
+    "after": {
+      "id": "34f111be-fce2-4259-a9b9-cfdce3d07e05",
+      "offsetX": 0,
+      "offsetY": 0,
+      "zoom": 100,
+      "gridSize": 0,
+      "layers": [
+        {
+          "id": "54e73441-da28-4236-9cca-bc0c36d54039",
+          "type": "diagram-links",
+          "isSvg": true,
+          "transformed": true,
+          "models": {
+            "f1babfe6-e6ce-4e88-a27d-32b6ff9e19c0": {
+              "id": "f1babfe6-e6ce-4e88-a27d-32b6ff9e19c0",
+              "type": "default",
+              "selected": false,
+              "source": "9423172c-c347-4d2b-9ab2-a94a92a9caa3",
+              "sourcePort": "4144e355-4938-4649-9401-9451f612f76f",
+              "target": "5ad710d1-9f4f-4d79-9189-e9503bb2ab6f",
+              "targetPort": "483035f3-5057-4c55-ae27-69c627aeb7c1",
+              "points": [
+                {
+                  "id": "8e24c572-20bf-424a-8827-04697c6f6367",
+                  "type": "point",
+                  "x": 133.296875,
+                  "y": 64.5
+                },
+                {
+                  "id": "becb228e-d2fd-489a-aed6-1f1014cdaaa9",
+                  "type": "point",
+                  "x": 176.5,
+                  "y": 62.5
+                }
+              ],
+              "labels": [],
+              "width": 3,
+              "color": "gray",
+              "curvyness": 50,
+              "selectedColor": "rgb(0,192,255)"
+            },
+            "2fd02311-356e-46c6-8286-638a186e60df": {
+              "id": "2fd02311-356e-46c6-8286-638a186e60df",
+              "type": "default",
+              "source": "5ad710d1-9f4f-4d79-9189-e9503bb2ab6f",
+              "sourcePort": "64aed54a-ebb4-40be-be34-33476754b93e",
+              "target": "71b6df1b-626f-457b-8faf-7a011516de87",
+              "targetPort": "ceef3558-ef19-43c1-8bd5-b5f1103777cb",
+              "points": [
+                {
+                  "id": "3f0d4491-23d1-4aed-b3ec-c9c58f806169",
+                  "type": "point",
+                  "x": 601.21875,
+                  "y": 62.5
+                },
+                {
+                  "id": "3ad38520-8e67-4d31-a2ab-cb43f595ee4a",
+                  "type": "point",
+                  "x": 176.5,
+                  "y": 140.5
+                }
+              ],
+              "labels": [],
+              "width": 3,
+              "color": "gray",
+              "curvyness": 50,
+              "selectedColor": "rgb(0,192,255)"
+            },
+            "2cf7622f-4c79-4891-8849-47c9b797e227": {
+              "id": "2cf7622f-4c79-4891-8849-47c9b797e227",
+              "type": "default",
+              "source": "71b6df1b-626f-457b-8faf-7a011516de87",
+              "sourcePort": "8753dc1d-b472-478d-be6c-f76f125354e3",
+              "target": "3069a427-2ca8-4ab7-b01f-cc43d17b14d4",
+              "targetPort": "eda001ed-1594-4564-a857-e86b4d2c1994",
+              "points": [
+                {
+                  "id": "e6d11125-6bcf-4466-878b-35c6806c8178",
+                  "type": "point",
+                  "x": 615.875,
+                  "y": 140.5
+                },
+                {
+                  "id": "c3044b95-bd57-4148-846e-21afbd9f8fda",
+                  "type": "point",
+                  "x": 176.5,
+                  "y": 218.5
+                }
+              ],
+              "labels": [],
+              "width": 3,
+              "color": "gray",
+              "curvyness": 50,
+              "selectedColor": "rgb(0,192,255)"
+            },
+            "4dc7e43b-b044-4ad5-a53a-1b4f78a7b42f": {
+              "id": "4dc7e43b-b044-4ad5-a53a-1b4f78a7b42f",
+              "type": "default",
+              "source": "3069a427-2ca8-4ab7-b01f-cc43d17b14d4",
+              "sourcePort": "ea260647-5ba8-4c3b-8b7a-ae159e2b674d",
+              "target": "d573337f-2e38-40e4-9d85-ef36cf7d00f7",
+              "targetPort": "692a7179-e5aa-4ca3-a628-8edaaa73e269",
+              "points": [
+                {
+                  "id": "5f8a9df1-714a-4761-80a3-eb97c5bc3c22",
+                  "type": "point",
+                  "x": 659.84375,
+                  "y": 218.5
+                },
+                {
+                  "id": "99a4a235-2df1-4515-8bea-47df1fa00b87",
+                  "type": "point",
+                  "x": 176.5,
+                  "y": 356.5
+                }
+              ],
+              "labels": [],
+              "width": 3,
+              "color": "gray",
+              "curvyness": 50,
+              "selectedColor": "rgb(0,192,255)"
+            },
+            "8cb4418a-0611-435a-8042-60832f5026a3": {
+              "id": "8cb4418a-0611-435a-8042-60832f5026a3",
+              "type": "default",
+              "source": "d573337f-2e38-40e4-9d85-ef36cf7d00f7",
+              "sourcePort": "aca6728b-3925-44c2-837f-448738006548",
+              "target": "ab451cec-d53f-4858-ae38-aa0ebaf2098b",
+              "targetPort": "580fb01f-bd01-473e-a497-abda024bf217",
+              "points": [
+                {
+                  "id": "c19eb005-a6d7-4646-9ff4-8eccc019b41f",
+                  "type": "point",
+                  "x": 359.359375,
+                  "y": 356.5
+                },
+                {
+                  "id": "fa6d9c27-e5cf-426a-9445-ab9c3c7ad9a4",
+                  "type": "point",
+                  "x": 176.5,
+                  "y": 419.5
+                }
+              ],
+              "labels": [],
+              "width": 3,
+              "color": "gray",
+              "curvyness": 50,
+              "selectedColor": "rgb(0,192,255)"
+            },
+            "f425ec16-471e-43f1-ab31-92098cd53ec7": {
+              "id": "f425ec16-471e-43f1-ab31-92098cd53ec7",
+              "type": "default",
+              "source": "ab451cec-d53f-4858-ae38-aa0ebaf2098b",
+              "sourcePort": "e1472bf9-bb12-40bc-8e7c-d7947fa27c29",
+              "target": "58e6d3e5-0288-45cf-a95f-a763d82d6017",
+              "targetPort": "fedaa88d-6a2a-49db-9bcf-f28a7129601b",
+              "points": [
+                {
+                  "id": "8f9fd09d-38da-4dcf-8b54-ac12b57d1949",
+                  "type": "point",
+                  "x": 461.96875,
+                  "y": 419.5
+                },
+                {
+                  "id": "9ee4c65c-2c8c-48fc-a4e5-b1d79b439be3",
+                  "type": "point",
+                  "x": 176.5,
+                  "y": 482.5
+                }
+              ],
+              "labels": [],
+              "width": 3,
+              "color": "gray",
+              "curvyness": 50,
+              "selectedColor": "rgb(0,192,255)"
+            },
+            "ce0c0428-0d8f-4edb-9624-4bddbb6e213a": {
+              "id": "ce0c0428-0d8f-4edb-9624-4bddbb6e213a",
+              "type": "default",
+              "source": "58e6d3e5-0288-45cf-a95f-a763d82d6017",
+              "sourcePort": "ba05ce4a-3ad7-4528-8865-c4720085231c",
+              "target": "966ed41d-dcb4-4922-90f6-0f48a2c64f71",
+              "targetPort": "0bb62dfa-bfa5-42c9-b66c-beffca04b7b2",
+              "points": [
+                {
+                  "id": "1e2d8d0e-2e4d-4443-b7bf-963b3f70db58",
+                  "type": "point",
+                  "x": 652.515625,
+                  "y": 482.5
+                },
+                {
+                  "id": "f9f2e123-e2dd-4d50-9a5a-2f7cdc1faafc",
+                  "type": "point",
+                  "x": 176.5,
+                  "y": 590.5
+                }
+              ],
+              "labels": [],
+              "width": 3,
+              "color": "gray",
+              "curvyness": 50,
+              "selectedColor": "rgb(0,192,255)"
+            }
+          }
+        },
+        {
+          "id": "1759a2cd-2673-4d7d-adeb-79c69b5d7ee9",
+          "type": "diagram-nodes",
+          "isSvg": false,
+          "transformed": true,
+          "models": {
+            "9423172c-c347-4d2b-9ab2-a94a92a9caa3": {
+              "id": "9423172c-c347-4d2b-9ab2-a94a92a9caa3",
+              "type": "start",
+              "x": 50,
+              "y": 50,
+              "ports": [
+                {
+                  "id": "4144e355-4938-4649-9401-9451f612f76f",
+                  "type": "default",
+                  "x": 125.796875,
+                  "y": 57,
+                  "name": "out-1732612339476",
+                  "alignment": "right",
+                  "parentNode": "9423172c-c347-4d2b-9ab2-a94a92a9caa3",
+                  "links": [
+                    "f1babfe6-e6ce-4e88-a27d-32b6ff9e19c0"
+                  ],
+                  "in": false,
+                  "label": "❯"
+                }
+              ],
+              "title": "Start",
+              "color": "#16db26e6",
+              "portsInOrder": [],
+              "portsOutOrder": [
+                "4144e355-4938-4649-9401-9451f612f76f"
+              ]
+            },
+            "5ad710d1-9f4f-4d79-9189-e9503bb2ab6f": {
+              "id": "5ad710d1-9f4f-4d79-9189-e9503bb2ab6f",
+              "type": "dialogue",
+              "selected": false,
+              "x": 182,
+              "y": 24,
+              "ports": [
+                {
+                  "id": "483035f3-5057-4c55-ae27-69c627aeb7c1",
+                  "type": "default",
+                  "x": 169,
+                  "y": 55,
+                  "name": "in-1732612347157 ",
+                  "alignment": "left",
+                  "parentNode": "5ad710d1-9f4f-4d79-9189-e9503bb2ab6f",
+                  "links": [
+                    "f1babfe6-e6ce-4e88-a27d-32b6ff9e19c0"
+                  ],
+                  "in": true,
+                  "label": "❯"
+                },
+                {
+                  "id": "64aed54a-ebb4-40be-be34-33476754b93e",
+                  "type": "default",
+                  "x": 593.71875,
+                  "y": 55,
+                  "name": "out-1732612347157",
+                  "alignment": "right",
+                  "parentNode": "5ad710d1-9f4f-4d79-9189-e9503bb2ab6f",
+                  "links": [
+                    "2fd02311-356e-46c6-8286-638a186e60df"
+                  ],
+                  "in": false,
+                  "label": "❯"
+                }
+              ],
+              "title": "<player>",
+              "color": "#dd341ee6",
+              "portsInOrder": [
+                "483035f3-5057-4c55-ae27-69c627aeb7c1"
+              ],
+              "portsOutOrder": [
+                "64aed54a-ebb4-40be-be34-33476754b93e"
+              ],
+              "text": "Hi there, you mentioned something about creating\nmonsters...?"
+            },
+            "71b6df1b-626f-457b-8faf-7a011516de87": {
+              "id": "71b6df1b-626f-457b-8faf-7a011516de87",
+              "type": "dialogue",
+              "x": 182,
+              "y": 102,
+              "ports": [
+                {
+                  "id": "ceef3558-ef19-43c1-8bd5-b5f1103777cb",
+                  "type": "default",
+                  "x": 169,
+                  "y": 133,
+                  "name": "in-1732612351989 ",
+                  "alignment": "left",
+                  "parentNode": "71b6df1b-626f-457b-8faf-7a011516de87",
+                  "links": [
+                    "2fd02311-356e-46c6-8286-638a186e60df"
+                  ],
+                  "in": true,
+                  "label": "❯"
+                },
+                {
+                  "id": "8753dc1d-b472-478d-be6c-f76f125354e3",
+                  "type": "default",
+                  "x": 608.375,
+                  "y": 133,
+                  "name": "out-1732612351989",
+                  "alignment": "right",
+                  "parentNode": "71b6df1b-626f-457b-8faf-7a011516de87",
+                  "links": [
+                    "2cf7622f-4c79-4891-8849-47c9b797e227"
+                  ],
+                  "in": false,
+                  "label": "❯"
+                }
+              ],
+              "title": "Homunculus",
+              "color": "#dd341ee6",
+              "portsInOrder": [
+                "ceef3558-ef19-43c1-8bd5-b5f1103777cb"
+              ],
+              "portsOutOrder": [
+                "8753dc1d-b472-478d-be6c-f76f125354e3"
+              ],
+              "text": "Good! I gain know from alchemists and builders. Me\nmake beings."
+            },
+            "3069a427-2ca8-4ab7-b01f-cc43d17b14d4": {
+              "id": "3069a427-2ca8-4ab7-b01f-cc43d17b14d4",
+              "type": "dialogue",
+              "x": 182,
+              "y": 180,
+              "ports": [
+                {
+                  "id": "eda001ed-1594-4564-a857-e86b4d2c1994",
+                  "type": "default",
+                  "x": 169,
+                  "y": 211,
+                  "name": "in-1732612353190 ",
+                  "alignment": "left",
+                  "parentNode": "3069a427-2ca8-4ab7-b01f-cc43d17b14d4",
+                  "links": [
+                    "2cf7622f-4c79-4891-8849-47c9b797e227"
+                  ],
+                  "in": true,
+                  "label": "❯"
+                },
+                {
+                  "id": "ea260647-5ba8-4c3b-8b7a-ae159e2b674d",
+                  "type": "default",
+                  "x": 652.34375,
+                  "y": 211,
+                  "name": "out-1732612353190",
+                  "alignment": "right",
+                  "parentNode": "3069a427-2ca8-4ab7-b01f-cc43d17b14d4",
+                  "links": [
+                    "4dc7e43b-b044-4ad5-a53a-1b4f78a7b42f"
+                  ],
+                  "in": false,
+                  "label": "❯"
+                }
+              ],
+              "title": "<player>",
+              "color": "#dd341ee6",
+              "portsInOrder": [
+                "eda001ed-1594-4564-a857-e86b4d2c1994"
+              ],
+              "portsOutOrder": [
+                "ea260647-5ba8-4c3b-8b7a-ae159e2b674d"
+              ],
+              "text": "Interesting. Tell me if I'm right. By the alchemists and\nbuilders creating you, you have inherited their combined\nknowledge in much the same way that a child might\ninherit the looks of their parents."
+            },
+            "d573337f-2e38-40e4-9d85-ef36cf7d00f7": {
+              "id": "d573337f-2e38-40e4-9d85-ef36cf7d00f7",
+              "type": "dialogue",
+              "x": 182,
+              "y": 318,
+              "ports": [
+                {
+                  "id": "692a7179-e5aa-4ca3-a628-8edaaa73e269",
+                  "type": "default",
+                  "x": 169,
+                  "y": 349,
+                  "name": "in-1732612354394 ",
+                  "alignment": "left",
+                  "parentNode": "d573337f-2e38-40e4-9d85-ef36cf7d00f7",
+                  "links": [
+                    "4dc7e43b-b044-4ad5-a53a-1b4f78a7b42f"
+                  ],
+                  "in": true,
+                  "label": "❯"
+                },
+                {
+                  "id": "aca6728b-3925-44c2-837f-448738006548",
+                  "type": "default",
+                  "x": 351.859375,
+                  "y": 349,
+                  "name": "out-1732612354394",
+                  "alignment": "right",
+                  "parentNode": "d573337f-2e38-40e4-9d85-ef36cf7d00f7",
+                  "links": [
+                    "8cb4418a-0611-435a-8042-60832f5026a3"
+                  ],
+                  "in": false,
+                  "label": "❯"
+                }
+              ],
+              "title": "Homunculus",
+              "color": "#dd341ee6",
+              "portsInOrder": [
+                "692a7179-e5aa-4ca3-a628-8edaaa73e269"
+              ],
+              "portsOutOrder": [
+                "aca6728b-3925-44c2-837f-448738006548"
+              ],
+              "text": "Yes, you right!"
+            },
+            "ab451cec-d53f-4858-ae38-aa0ebaf2098b": {
+              "id": "ab451cec-d53f-4858-ae38-aa0ebaf2098b",
+              "type": "dialogue",
+              "x": 182,
+              "y": 381,
+              "ports": [
+                {
+                  "id": "580fb01f-bd01-473e-a497-abda024bf217",
+                  "type": "default",
+                  "x": 169,
+                  "y": 412,
+                  "name": "in-1732612355567 ",
+                  "alignment": "left",
+                  "parentNode": "ab451cec-d53f-4858-ae38-aa0ebaf2098b",
+                  "links": [
+                    "8cb4418a-0611-435a-8042-60832f5026a3"
+                  ],
+                  "in": true,
+                  "label": "❯"
+                },
+                {
+                  "id": "e1472bf9-bb12-40bc-8e7c-d7947fa27c29",
+                  "type": "default",
+                  "x": 454.46875,
+                  "y": 412,
+                  "name": "out-1732612355567",
+                  "alignment": "right",
+                  "parentNode": "ab451cec-d53f-4858-ae38-aa0ebaf2098b",
+                  "links": [
+                    "f425ec16-471e-43f1-ab31-92098cd53ec7"
+                  ],
+                  "in": false,
+                  "label": "❯"
+                }
+              ],
+              "title": "<player>",
+              "color": "#dd341ee6",
+              "portsInOrder": [
+                "580fb01f-bd01-473e-a497-abda024bf217"
+              ],
+              "portsOutOrder": [
+                "e1472bf9-bb12-40bc-8e7c-d7947fa27c29"
+              ],
+              "text": "So what do you need me to do?"
+            },
+            "58e6d3e5-0288-45cf-a95f-a763d82d6017": {
+              "id": "58e6d3e5-0288-45cf-a95f-a763d82d6017",
+              "type": "dialogue",
+              "x": 182,
+              "y": 444,
+              "ports": [
+                {
+                  "id": "fedaa88d-6a2a-49db-9bcf-f28a7129601b",
+                  "type": "default",
+                  "x": 169,
+                  "y": 475,
+                  "name": "in-1732612356188 ",
+                  "alignment": "left",
+                  "parentNode": "58e6d3e5-0288-45cf-a95f-a763d82d6017",
+                  "links": [
+                    "f425ec16-471e-43f1-ab31-92098cd53ec7"
+                  ],
+                  "in": true,
+                  "label": "❯"
+                },
+                {
+                  "id": "ba05ce4a-3ad7-4528-8865-c4720085231c",
+                  "type": "default",
+                  "x": 645.015625,
+                  "y": 475,
+                  "name": "out-1732612356188",
+                  "alignment": "right",
+                  "parentNode": "58e6d3e5-0288-45cf-a95f-a763d82d6017",
+                  "links": [
+                    "ce0c0428-0d8f-4edb-9624-4bddbb6e213a"
+                  ],
+                  "in": false,
+                  "label": "❯"
+                }
+              ],
+              "title": "Homunculus",
+              "color": "#dd341ee6",
+              "portsInOrder": [
+                "fedaa88d-6a2a-49db-9bcf-f28a7129601b"
+              ],
+              "portsOutOrder": [
+                "ba05ce4a-3ad7-4528-8865-c4720085231c"
+              ],
+              "text": "Inspect symbol of life altars around dungeon. You see\nitem give. Use item on altar. Activate altar to create,\nyou fight."
+            },
+            "966ed41d-dcb4-4922-90f6-0f48a2c64f71": {
+              "id": "966ed41d-dcb4-4922-90f6-0f48a2c64f71",
+              "type": "dialogue",
+              "x": 182,
+              "y": 552,
+              "ports": [
+                {
+                  "id": "0bb62dfa-bfa5-42c9-b66c-beffca04b7b2",
+                  "type": "default",
+                  "x": 169,
+                  "y": 583,
+                  "name": "in-1732612357381 ",
+                  "alignment": "left",
+                  "parentNode": "966ed41d-dcb4-4922-90f6-0f48a2c64f71",
+                  "links": [
+                    "ce0c0428-0d8f-4edb-9624-4bddbb6e213a"
+                  ],
+                  "in": true,
+                  "label": "❯"
+                },
+                {
+                  "id": "f9243b50-61b5-41d4-abce-3c0fd11e0901",
+                  "type": "default",
+                  "x": 461.796875,
+                  "y": 583,
+                  "name": "out-1732612357381",
+                  "alignment": "right",
+                  "parentNode": "966ed41d-dcb4-4922-90f6-0f48a2c64f71",
+                  "links": [],
+                  "in": false,
+                  "label": "❯"
+                }
+              ],
+              "title": "<player>",
+              "color": "#dd341ee6",
+              "portsInOrder": [
+                "0bb62dfa-bfa5-42c9-b66c-beffca04b7b2"
+              ],
+              "portsOutOrder": [
+                "f9243b50-61b5-41d4-abce-3c0fd11e0901"
+              ],
+              "text": "Okay. Sounds like a challenge."
+            }
+          }
+        }
+      ]
+    }
+  }
+}
