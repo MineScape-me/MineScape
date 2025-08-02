@@ -1,7 +1,7 @@
 {
   "id": "81fbfc86-c003-4c41-966a-a61b50201daa",
-  "offsetX": 145,
-  "offsetY": 282,
+  "offsetX": 177,
+  "offsetY": 296,
   "zoom": 100,
   "gridSize": 0,
   "layers": [
@@ -491,7 +491,7 @@
         "13c79b38-2e34-474c-b9b5-5bd1ecf321f7": {
           "id": "13c79b38-2e34-474c-b9b5-5bd1ecf321f7",
           "type": "tree",
-          "selected": true,
+          "selected": false,
           "x": 604,
           "y": 265,
           "ports": [
@@ -8554,6 +8554,34 @@
               "color": "gray",
               "curvyness": 50,
               "selectedColor": "rgb(0,192,255)"
+            },
+            "c80cf188-4072-456f-8a85-5a00140af27d": {
+              "id": "c80cf188-4072-456f-8a85-5a00140af27d",
+              "type": "default",
+              "selected": false,
+              "source": "51226899-a34c-4c65-8820-f4db03eae4e0",
+              "sourcePort": "82084cac-fb44-41b5-bc3d-f68ff8c43232",
+              "target": "22e35cc5-1396-4e6b-9eda-1476b75ea7bd",
+              "targetPort": "0ac82ca8-d6d2-4d3a-b2a7-af9c57179331",
+              "points": [
+                {
+                  "id": "814629ba-05ec-43e5-9e04-114ac3f98858",
+                  "type": "point",
+                  "x": 575.90625,
+                  "y": 437.5
+                },
+                {
+                  "id": "35234ca3-666a-492f-a1df-43a3668f0f8a",
+                  "type": "point",
+                  "x": 180.5,
+                  "y": 525.5
+                }
+              ],
+              "labels": [],
+              "width": 3,
+              "color": "gray",
+              "curvyness": 50,
+              "selectedColor": "rgb(0,192,255)"
             }
           }
         },
@@ -8846,7 +8874,9 @@
                   "name": "out-1732612315389",
                   "alignment": "right",
                   "parentNode": "51226899-a34c-4c65-8820-f4db03eae4e0",
-                  "links": [],
+                  "links": [
+                    "c80cf188-4072-456f-8a85-5a00140af27d"
+                  ],
                   "in": false,
                   "label": "❯"
                 }
@@ -8860,6 +8890,60 @@
                 "82084cac-fb44-41b5-bc3d-f68ff8c43232"
               ],
               "text": "Thrank you. For reward you speak me, I makes\nmonsters."
+            },
+            "22e35cc5-1396-4e6b-9eda-1476b75ea7bd": {
+              "id": "22e35cc5-1396-4e6b-9eda-1476b75ea7bd",
+              "type": "action",
+              "selected": true,
+              "x": 186,
+              "y": 487,
+              "ports": [
+                {
+                  "id": "0ac82ca8-d6d2-4d3a-b2a7-af9c57179331",
+                  "type": "default",
+                  "x": 173,
+                  "y": 518,
+                  "name": "in-1754126880396 ",
+                  "alignment": "left",
+                  "parentNode": "22e35cc5-1396-4e6b-9eda-1476b75ea7bd",
+                  "links": [
+                    "c80cf188-4072-456f-8a85-5a00140af27d"
+                  ],
+                  "in": true,
+                  "label": "❯"
+                },
+                {
+                  "id": "9f45879c-0ea8-4608-bbe8-8923427ff8ad",
+                  "type": "default",
+                  "x": 533.34375,
+                  "y": 518,
+                  "name": "out-1754126880397",
+                  "alignment": "right",
+                  "parentNode": "22e35cc5-1396-4e6b-9eda-1476b75ea7bd",
+                  "links": [],
+                  "in": false,
+                  "label": "❯"
+                }
+              ],
+              "title": "Action",
+              "color": "#3e077ee6",
+              "portsInOrder": [
+                "0ac82ca8-d6d2-4d3a-b2a7-af9c57179331"
+              ],
+              "portsOutOrder": [
+                "9f45879c-0ea8-4608-bbe8-8923427ff8ad"
+              ],
+              "actions": {
+                "actions": [
+                  "finishQuest"
+                ],
+                "args": [
+                  [
+                    "TOWER_OF_LIFE",
+                    "FINISHED"
+                  ]
+                ]
+              }
             }
           }
         }
