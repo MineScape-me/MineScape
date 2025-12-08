@@ -57,8 +57,8 @@
             {
               "id": "45da53f2-97e3-43ae-a3bf-f0c97b45925a",
               "type": "point",
-              "x": 164.5,
-              "y": 181.5
+              "x": 192.5,
+              "y": 180.5
             }
           ],
           "labels": [],
@@ -107,14 +107,14 @@
           "id": "9270c9c0-56d6-4b5c-b9de-d24446f0468d",
           "type": "dialogue",
           "selected": false,
-          "x": 170,
-          "y": 143,
+          "x": 198,
+          "y": 142,
           "ports": [
             {
               "id": "d631b5b4-e615-4544-87e2-2a47cb3336c0",
               "type": "default",
-              "x": 157,
-              "y": 174,
+              "x": 185,
+              "y": 173,
               "name": "in-1733773278777 ",
               "alignment": "left",
               "parentNode": "9270c9c0-56d6-4b5c-b9de-d24446f0468d",
@@ -127,8 +127,8 @@
             {
               "id": "49e01e58-9679-476a-b4ab-45a1fc5d6128",
               "type": "default",
-              "x": 486.4375,
-              "y": 174,
+              "x": 514.4375,
+              "y": 173,
               "name": "out-1733773278777",
               "alignment": "right",
               "parentNode": "9270c9c0-56d6-4b5c-b9de-d24446f0468d",
@@ -150,7 +150,7 @@
         "90031318-212a-4595-bf8e-14122a36b7fb": {
           "id": "90031318-212a-4595-bf8e-14122a36b7fb",
           "type": "action",
-          "selected": true,
+          "selected": false,
           "x": 175,
           "y": 64,
           "ports": [
@@ -214,6 +214,38 @@
           "portsInOrder": [],
           "portsOutOrder": [],
           "text": "When interacting with the manhole in the West Ardy plaza"
+        },
+        "963f9a26-9308-4a8c-8de9-c43131ba4de2": {
+          "id": "963f9a26-9308-4a8c-8de9-c43131ba4de2",
+          "type": "location",
+          "selected": false,
+          "x": 135,
+          "y": -168,
+          "ports": [
+            {
+              "id": "9447de88-f1b7-460d-8d59-4a0070bed7a2",
+              "type": "default",
+              "x": 358.765625,
+              "y": -137,
+              "name": "out-1765216389978",
+              "alignment": "right",
+              "parentNode": "963f9a26-9308-4a8c-8de9-c43131ba4de2",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Location",
+          "color": "#3a7bdd",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "9447de88-f1b7-460d-8d59-4a0070bed7a2"
+          ],
+          "locationType": "area",
+          "locations": [
+            "-1475, 67, -60, 0, 0",
+            "-1475, 67, -60, 0, 0"
+          ]
         }
       }
     }
