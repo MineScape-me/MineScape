@@ -1,0 +1,126 @@
+{
+  "id": "71375012-3b7c-48c0-811e-49d7a745ae0c",
+  "offsetX": 102,
+  "offsetY": 215,
+  "zoom": 100,
+  "gridSize": 0,
+  "layers": [
+    {
+      "id": "e77d9ca1-3f00-48f6-a712-25d6d65ad219",
+      "type": "diagram-links",
+      "isSvg": true,
+      "transformed": true,
+      "models": {
+        "939ef00a-4bf6-43a4-aa3f-8b1e8e3c92fa": {
+          "id": "939ef00a-4bf6-43a4-aa3f-8b1e8e3c92fa",
+          "type": "default",
+          "selected": false,
+          "source": "063a109d-cdd0-4d82-9dda-44ab095ff833",
+          "sourcePort": "8fce14c5-7cbe-4ab2-b34b-69a993840a0d",
+          "target": "56237129-5d20-41b2-bf20-96ebac27b669",
+          "targetPort": "cc2624a1-3bb5-4bcf-a875-395d8b531bcc",
+          "points": [
+            {
+              "id": "0949cc47-b62f-40fe-a78d-3b4b6bc503c0",
+              "type": "point",
+              "x": 133.296875,
+              "y": 64.5
+            },
+            {
+              "id": "d4a22822-4077-48c4-9c9c-9ae590d66919",
+              "type": "point",
+              "x": 263.5,
+              "y": 121.5
+            }
+          ],
+          "labels": [],
+          "width": 3,
+          "color": "gray",
+          "curvyness": 50,
+          "selectedColor": "rgb(0,192,255)"
+        }
+      }
+    },
+    {
+      "id": "95eee438-18ff-4b90-b8df-c7063dd3933d",
+      "type": "diagram-nodes",
+      "isSvg": false,
+      "transformed": true,
+      "models": {
+        "063a109d-cdd0-4d82-9dda-44ab095ff833": {
+          "id": "063a109d-cdd0-4d82-9dda-44ab095ff833",
+          "type": "start",
+          "x": 50,
+          "y": 50,
+          "ports": [
+            {
+              "id": "8fce14c5-7cbe-4ab2-b34b-69a993840a0d",
+              "type": "default",
+              "x": 125.796875,
+              "y": 57,
+              "name": "out-1733770889947",
+              "alignment": "right",
+              "parentNode": "063a109d-cdd0-4d82-9dda-44ab095ff833",
+              "links": [
+                "939ef00a-4bf6-43a4-aa3f-8b1e8e3c92fa"
+              ],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Start",
+          "color": "#16db26e6",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "8fce14c5-7cbe-4ab2-b34b-69a993840a0d"
+          ]
+        },
+        "56237129-5d20-41b2-bf20-96ebac27b669": {
+          "id": "56237129-5d20-41b2-bf20-96ebac27b669",
+          "type": "dialogue",
+          "selected": false,
+          "x": 269,
+          "y": 83,
+          "ports": [
+            {
+              "id": "cc2624a1-3bb5-4bcf-a875-395d8b531bcc",
+              "type": "default",
+              "x": 256,
+              "y": 114,
+              "name": "in-1733770895104 ",
+              "alignment": "left",
+              "parentNode": "56237129-5d20-41b2-bf20-96ebac27b669",
+              "links": [
+                "939ef00a-4bf6-43a4-aa3f-8b1e8e3c92fa"
+              ],
+              "in": true,
+              "label": "❯"
+            },
+            {
+              "id": "7ec0a4ba-96ab-4c79-a9f8-c476ad10ddf8",
+              "type": "default",
+              "x": 578.109375,
+              "y": 114,
+              "name": "out-1733770895104",
+              "alignment": "right",
+              "parentNode": "56237129-5d20-41b2-bf20-96ebac27b669",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "",
+          "color": "#dd341ee6",
+          "portsInOrder": [
+            "cc2624a1-3bb5-4bcf-a875-395d8b531bcc"
+          ],
+          "portsOutOrder": [
+            "7ec0a4ba-96ab-4c79-a9f8-c476ad10ddf8"
+          ],
+          "text": "Billy isn't interested in talking."
+        }
+      }
+    }
+  ],
+  "trees": {}
+}

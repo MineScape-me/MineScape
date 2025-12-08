@@ -1,0 +1,222 @@
+{
+  "id": "682c0426-b8a8-4486-b8ca-04931af517e4",
+  "offsetX": 345,
+  "offsetY": 275,
+  "zoom": 100,
+  "gridSize": 0,
+  "layers": [
+    {
+      "id": "942360d1-098a-4444-aada-75a5808d3d08",
+      "type": "diagram-links",
+      "isSvg": true,
+      "transformed": true,
+      "models": {
+        "4d55a504-8ba9-43c1-a521-33b0daab7df6": {
+          "id": "4d55a504-8ba9-43c1-a521-33b0daab7df6",
+          "type": "default",
+          "selected": false,
+          "source": "a9001c90-0d24-4c61-86e0-9cd542f26b34",
+          "sourcePort": "f6a92f33-4aa6-4005-aaee-2815bbd35d89",
+          "target": "90031318-212a-4595-bf8e-14122a36b7fb",
+          "targetPort": "6d51ffc4-b4e0-41d5-a782-5a0823979b30",
+          "points": [
+            {
+              "id": "79501c40-34e1-49c6-aef5-6cea6a6be81d",
+              "type": "point",
+              "x": 133.296875,
+              "y": 64.5
+            },
+            {
+              "id": "57810cb6-f523-4f08-a4bf-fcd783eeedf6",
+              "type": "point",
+              "x": 169.5,
+              "y": 102.5
+            }
+          ],
+          "labels": [],
+          "width": 3,
+          "color": "gray",
+          "curvyness": 50,
+          "selectedColor": "rgb(0,192,255)"
+        },
+        "db8880c2-766b-4cc6-9ccd-61464aa8126a": {
+          "id": "db8880c2-766b-4cc6-9ccd-61464aa8126a",
+          "type": "default",
+          "selected": false,
+          "source": "90031318-212a-4595-bf8e-14122a36b7fb",
+          "sourcePort": "ce23156b-e4c6-45ab-aaa2-84743d997f8b",
+          "target": "9270c9c0-56d6-4b5c-b9de-d24446f0468d",
+          "targetPort": "d631b5b4-e615-4544-87e2-2a47cb3336c0",
+          "points": [
+            {
+              "id": "1fcefa38-db17-45e4-8ed5-ceeba6f5ced7",
+              "type": "point",
+              "x": 533.96875,
+              "y": 102.5
+            },
+            {
+              "id": "45da53f2-97e3-43ae-a3bf-f0c97b45925a",
+              "type": "point",
+              "x": 164.5,
+              "y": 181.5
+            }
+          ],
+          "labels": [],
+          "width": 3,
+          "color": "gray",
+          "curvyness": 50,
+          "selectedColor": "rgb(0,192,255)"
+        }
+      }
+    },
+    {
+      "id": "1c905b98-25a4-4f4b-b85a-efa83d01647a",
+      "type": "diagram-nodes",
+      "isSvg": false,
+      "transformed": true,
+      "models": {
+        "a9001c90-0d24-4c61-86e0-9cd542f26b34": {
+          "id": "a9001c90-0d24-4c61-86e0-9cd542f26b34",
+          "type": "start",
+          "x": 50,
+          "y": 50,
+          "ports": [
+            {
+              "id": "f6a92f33-4aa6-4005-aaee-2815bbd35d89",
+              "type": "default",
+              "x": 125.796875,
+              "y": 57,
+              "name": "out-1733773269325",
+              "alignment": "right",
+              "parentNode": "a9001c90-0d24-4c61-86e0-9cd542f26b34",
+              "links": [
+                "4d55a504-8ba9-43c1-a521-33b0daab7df6"
+              ],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Start",
+          "color": "#16db26e6",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "f6a92f33-4aa6-4005-aaee-2815bbd35d89"
+          ]
+        },
+        "9270c9c0-56d6-4b5c-b9de-d24446f0468d": {
+          "id": "9270c9c0-56d6-4b5c-b9de-d24446f0468d",
+          "type": "dialogue",
+          "selected": false,
+          "x": 170,
+          "y": 143,
+          "ports": [
+            {
+              "id": "d631b5b4-e615-4544-87e2-2a47cb3336c0",
+              "type": "default",
+              "x": 157,
+              "y": 174,
+              "name": "in-1733773278777 ",
+              "alignment": "left",
+              "parentNode": "9270c9c0-56d6-4b5c-b9de-d24446f0468d",
+              "links": [
+                "db8880c2-766b-4cc6-9ccd-61464aa8126a"
+              ],
+              "in": true,
+              "label": "❯"
+            },
+            {
+              "id": "49e01e58-9679-476a-b4ab-45a1fc5d6128",
+              "type": "default",
+              "x": 486.4375,
+              "y": 174,
+              "name": "out-1733773278777",
+              "alignment": "right",
+              "parentNode": "9270c9c0-56d6-4b5c-b9de-d24446f0468d",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "",
+          "color": "#dd341ee6",
+          "portsInOrder": [
+            "d631b5b4-e615-4544-87e2-2a47cb3336c0"
+          ],
+          "portsOutOrder": [
+            "49e01e58-9679-476a-b4ab-45a1fc5d6128"
+          ],
+          "text": "You climb down through the manhole."
+        },
+        "90031318-212a-4595-bf8e-14122a36b7fb": {
+          "id": "90031318-212a-4595-bf8e-14122a36b7fb",
+          "type": "action",
+          "selected": true,
+          "x": 175,
+          "y": 64,
+          "ports": [
+            {
+              "id": "6d51ffc4-b4e0-41d5-a782-5a0823979b30",
+              "type": "default",
+              "x": 162,
+              "y": 95,
+              "name": "in-1733773282695 ",
+              "alignment": "left",
+              "parentNode": "90031318-212a-4595-bf8e-14122a36b7fb",
+              "links": [
+                "4d55a504-8ba9-43c1-a521-33b0daab7df6"
+              ],
+              "in": true,
+              "label": "❯"
+            },
+            {
+              "id": "ce23156b-e4c6-45ab-aaa2-84743d997f8b",
+              "type": "default",
+              "x": 526.46875,
+              "y": 95,
+              "name": "out-1733773282695",
+              "alignment": "right",
+              "parentNode": "90031318-212a-4595-bf8e-14122a36b7fb",
+              "links": [
+                "db8880c2-766b-4cc6-9ccd-61464aa8126a"
+              ],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Action",
+          "color": "#3e077ee6",
+          "portsInOrder": [
+            "6d51ffc4-b4e0-41d5-a782-5a0823979b30"
+          ],
+          "portsOutOrder": [
+            "ce23156b-e4c6-45ab-aaa2-84743d997f8b"
+          ],
+          "actions": {
+            "actions": [
+              "teleport"
+            ],
+            "args": [
+              [
+                "PLAGUE_CITY_SEWERS_PIPE_EXIT"
+              ]
+            ]
+          }
+        },
+        "b36409dd-cbea-4ba3-a583-89016f233221": {
+          "id": "b36409dd-cbea-4ba3-a583-89016f233221",
+          "type": "note",
+          "selected": false,
+          "x": 171,
+          "y": -6,
+          "ports": [],
+          "title": "Note",
+          "color": "#19e0e7e6",
+          "portsInOrder": [],
+          "portsOutOrder": [],
+          "text": "When interacting with the manhole in the West Ardy plaza"
+        }
+      }
+    }
+  ],
+  "trees": {}
+}
