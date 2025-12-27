@@ -1,0 +1,255 @@
+{
+  "id": "4fa84a1a-68d0-4fcb-b696-93c556704aa9",
+  "offsetX": 30,
+  "offsetY": 106,
+  "zoom": 100,
+  "gridSize": 0,
+  "layers": [
+    {
+      "id": "88f79d4e-4878-46ed-8e89-11c41b2ce241",
+      "type": "diagram-links",
+      "isSvg": true,
+      "transformed": true,
+      "models": {
+        "af14bb18-4c78-43a1-a998-67098d6f70bf": {
+          "id": "af14bb18-4c78-43a1-a998-67098d6f70bf",
+          "type": "default",
+          "selected": false,
+          "source": "4f725bd5-4ac3-403c-9b39-2261a5644700",
+          "sourcePort": "5f28f5c7-2453-4f97-a2f0-dcb9eb0bee25",
+          "target": "87ceba82-87a2-4840-a580-af4550a2a59b",
+          "targetPort": "1004aef5-3991-4748-b49a-e9c89fcae744",
+          "points": [
+            {
+              "id": "3be4e59c-1c41-445e-b49f-aff3cb602d45",
+              "type": "point",
+              "x": 479.3500061035156,
+              "y": 67.70000076293945
+            },
+            {
+              "id": "ef4d929d-681e-4509-be72-40e0c0e07575",
+              "type": "point",
+              "x": 216.70001220703125,
+              "y": 130.48749923706055
+            }
+          ],
+          "labels": [],
+          "width": 3,
+          "color": "gray",
+          "curvyness": 50,
+          "selectedColor": "rgb(0,192,255)"
+        },
+        "6728067d-46c0-4d3a-8623-9872476d4f21": {
+          "id": "6728067d-46c0-4d3a-8623-9872476d4f21",
+          "type": "default",
+          "selected": false,
+          "source": "ee0a716b-2e5b-4e57-af0c-c6583293be9b",
+          "sourcePort": "59287967-24f3-4995-b0d5-6ac46feb1c84",
+          "target": "4f725bd5-4ac3-403c-9b39-2261a5644700",
+          "targetPort": "46495851-cda2-4825-95b8-6f8abbf2d079",
+          "points": [
+            {
+              "id": "de3fbd69-d6e5-4a41-97d6-9426686f40f3",
+              "type": "point",
+              "x": 132.875,
+              "y": 64.60000228881836
+            },
+            {
+              "id": "8d4c4255-5e60-4ef3-ab8e-f5b699cf0ae6",
+              "type": "point",
+              "x": 216.6999969482422,
+              "y": 67.70000076293945
+            }
+          ],
+          "labels": [],
+          "width": 3,
+          "color": "gray",
+          "curvyness": 50,
+          "selectedColor": "rgb(0,192,255)"
+        }
+      }
+    },
+    {
+      "id": "46f01335-3ad4-41f1-899e-2e13e76a87a3",
+      "type": "diagram-nodes",
+      "isSvg": false,
+      "transformed": true,
+      "models": {
+        "ee0a716b-2e5b-4e57-af0c-c6583293be9b": {
+          "id": "ee0a716b-2e5b-4e57-af0c-c6583293be9b",
+          "type": "start",
+          "x": 50,
+          "y": 50,
+          "ports": [
+            {
+              "id": "59287967-24f3-4995-b0d5-6ac46feb1c84",
+              "type": "default",
+              "x": 125.375,
+              "y": 57.10000228881836,
+              "name": "out-1706243052467",
+              "alignment": "right",
+              "parentNode": "ee0a716b-2e5b-4e57-af0c-c6583293be9b",
+              "links": [
+                "6728067d-46c0-4d3a-8623-9872476d4f21"
+              ],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Start",
+          "color": "#16db26e6",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "59287967-24f3-4995-b0d5-6ac46feb1c84"
+          ]
+        },
+        "4f725bd5-4ac3-403c-9b39-2261a5644700": {
+          "id": "4f725bd5-4ac3-403c-9b39-2261a5644700",
+          "type": "dialogue",
+          "selected": false,
+          "x": 223,
+          "y": 29,
+          "ports": [
+            {
+              "id": "46495851-cda2-4825-95b8-6f8abbf2d079",
+              "type": "default",
+              "x": 209.1999969482422,
+              "y": 60.20000076293945,
+              "name": "in-1706243056590 ",
+              "alignment": "left",
+              "parentNode": "4f725bd5-4ac3-403c-9b39-2261a5644700",
+              "links": [
+                "6728067d-46c0-4d3a-8623-9872476d4f21"
+              ],
+              "in": true,
+              "label": "❯"
+            },
+            {
+              "id": "5f28f5c7-2453-4f97-a2f0-dcb9eb0bee25",
+              "type": "default",
+              "x": 471.8500061035156,
+              "y": 60.20000076293945,
+              "name": "out-1706243056590",
+              "alignment": "right",
+              "parentNode": "4f725bd5-4ac3-403c-9b39-2261a5644700",
+              "links": [
+                "af14bb18-4c78-43a1-a998-67098d6f70bf"
+              ],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "<player>",
+          "color": "#dd341ee6",
+          "portsInOrder": [
+            "46495851-cda2-4825-95b8-6f8abbf2d079"
+          ],
+          "portsOutOrder": [
+            "5f28f5c7-2453-4f97-a2f0-dcb9eb0bee25"
+          ],
+          "text": "Hello. What are you up to?"
+        },
+        "87ceba82-87a2-4840-a580-af4550a2a59b": {
+          "id": "87ceba82-87a2-4840-a580-af4550a2a59b",
+          "type": "dialogue",
+          "selected": false,
+          "x": 223,
+          "y": 91.796875,
+          "ports": [
+            {
+              "id": "1004aef5-3991-4748-b49a-e9c89fcae744",
+              "type": "default",
+              "x": 209.20001220703125,
+              "y": 122.98749923706055,
+              "name": "in-1706243060191 ",
+              "alignment": "left",
+              "parentNode": "87ceba82-87a2-4840-a580-af4550a2a59b",
+              "links": [
+                "af14bb18-4c78-43a1-a998-67098d6f70bf"
+              ],
+              "in": true,
+              "label": "❯"
+            },
+            {
+              "id": "45d10889-402f-43e0-97ac-4174f41d30ee",
+              "type": "default",
+              "x": 589.0875244140625,
+              "y": 122.98749923706055,
+              "name": "out-1706243060191",
+              "alignment": "right",
+              "parentNode": "87ceba82-87a2-4840-a580-af4550a2a59b",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Koftik",
+          "color": "#dd341ee6",
+          "portsInOrder": [
+            "1004aef5-3991-4748-b49a-e9c89fcae744"
+          ],
+          "portsOutOrder": [
+            "45d10889-402f-43e0-97ac-4174f41d30ee"
+          ],
+          "text": "Nothing exciting, just keeping an eye out."
+        },
+        "9703afd7-3b5f-4718-b881-627e1988cdda": {
+          "id": "9703afd7-3b5f-4718-b881-627e1988cdda",
+          "type": "dialogue",
+          "selected": false,
+          "x": 152,
+          "y": 285.59375,
+          "ports": [
+            {
+              "id": "a1c92d1e-f625-4045-93da-3ba5e3c60108",
+              "type": "default",
+              "x": 138.20001220703125,
+              "y": 316.7875175476074,
+              "name": "in-1706243072210 ",
+              "alignment": "left",
+              "parentNode": "9703afd7-3b5f-4718-b881-627e1988cdda",
+              "links": [],
+              "in": true,
+              "label": "❯"
+            },
+            {
+              "id": "5416e8f7-fdf1-423a-97b3-22edc5799ad5",
+              "type": "default",
+              "x": 613.3499755859375,
+              "y": 316.7875175476074,
+              "name": "out-1706243072210",
+              "alignment": "right",
+              "parentNode": "9703afd7-3b5f-4718-b881-627e1988cdda",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Koftik",
+          "color": "#dd341ee6",
+          "portsInOrder": [
+            "a1c92d1e-f625-4045-93da-3ba5e3c60108"
+          ],
+          "portsOutOrder": [
+            "5416e8f7-fdf1-423a-97b3-22edc5799ad5"
+          ],
+          "text": "I wouldn't go in there if I were you. Only death awaits\nthose who enter that place."
+        },
+        "c3f53221-848e-43b3-b752-32fa48ecc008": {
+          "id": "c3f53221-848e-43b3-b752-32fa48ecc008",
+          "type": "note",
+          "selected": false,
+          "x": 128,
+          "y": 210.79999923706055,
+          "ports": [],
+          "title": "Note",
+          "color": "#19e0e7e6",
+          "portsInOrder": [],
+          "portsOutOrder": [],
+          "text": "this message is said when trying to enter the cave to the west."
+        }
+      }
+    }
+  ],
+  "trees": {}
+}

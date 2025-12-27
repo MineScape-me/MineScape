@@ -1,0 +1,272 @@
+{
+  "id": "8c4d181f-294d-4175-9951-39668cde5a6e",
+  "offsetX": 14,
+  "offsetY": 75,
+  "zoom": 100,
+  "gridSize": 0,
+  "layers": [
+    {
+      "id": "c0f5df62-1b9f-4e8d-8b6d-0e9a092b046a",
+      "type": "diagram-links",
+      "isSvg": true,
+      "transformed": true,
+      "models": {
+        "e3b490af-79cc-4e7f-9ac5-bd4ec449842a": {
+          "id": "e3b490af-79cc-4e7f-9ac5-bd4ec449842a",
+          "type": "default",
+          "selected": false,
+          "source": "b2dafc7c-c8d1-4598-97c1-f9428e3739fd",
+          "sourcePort": "7e4df54e-2cab-4475-b9d4-4c8b4d62d251",
+          "target": "9b4e0ef3-59f4-4647-ab3a-7a2b50643641",
+          "targetPort": "491aea9d-6c95-4bdf-b974-13c16b6a434e",
+          "points": [
+            {
+              "id": "10473d0b-24c6-4b7e-b0f7-ef614e310933",
+              "type": "point",
+              "x": 132.875,
+              "y": 64.60000228881836
+            },
+            {
+              "id": "be44de47-2626-46d4-9169-aa912026a71c",
+              "type": "point",
+              "x": 202.6999969482422,
+              "y": 108.70000076293945
+            }
+          ],
+          "labels": [],
+          "width": 3,
+          "color": "gray",
+          "curvyness": 50,
+          "selectedColor": "rgb(0,192,255)"
+        },
+        "0cfea3e5-4f1c-4dc0-a877-091d745159c1": {
+          "id": "0cfea3e5-4f1c-4dc0-a877-091d745159c1",
+          "type": "default",
+          "selected": false,
+          "source": "9b4e0ef3-59f4-4647-ab3a-7a2b50643641",
+          "sourcePort": "8c8f57cd-693e-45e8-9b38-daf3a9461f05",
+          "target": "a7e6bbb0-cc93-4b41-beb7-604e2e1aa620",
+          "targetPort": "0bba9187-7696-44c5-b3d2-0b57ee709b3c",
+          "points": [
+            {
+              "id": "7b8d7c9f-2069-43b8-90b7-51ed7b574453",
+              "type": "point",
+              "x": 677.8500366210938,
+              "y": 108.70000076293945
+            },
+            {
+              "id": "c56f11db-bc41-4f03-8f3c-87bd44566099",
+              "type": "point",
+              "x": 202.70001220703125,
+              "y": 202.48749923706055
+            }
+          ],
+          "labels": [],
+          "width": 3,
+          "color": "gray",
+          "curvyness": 50,
+          "selectedColor": "rgb(0,192,255)"
+        },
+        "b1af643f-162a-46d7-9c01-f5189cb7c25a": {
+          "id": "b1af643f-162a-46d7-9c01-f5189cb7c25a",
+          "type": "default",
+          "selected": false,
+          "source": "a7e6bbb0-cc93-4b41-beb7-604e2e1aa620",
+          "sourcePort": "2a5bfda2-7fa8-47a8-b33e-dd333a0c7b76",
+          "target": "67193009-a313-45c6-8b92-5ad788a36675",
+          "targetPort": "7c626d3e-7672-480a-b333-e5b32e75f822",
+          "points": [
+            {
+              "id": "83316352-0582-4c82-a408-bf962e2372de",
+              "type": "point",
+              "x": 450.6875,
+              "y": 202.48749923706055
+            },
+            {
+              "id": "4347726f-cbea-4aad-8a25-c6045f44a951",
+              "type": "point",
+              "x": 202.70001220703125,
+              "y": 265.2875175476074
+            }
+          ],
+          "labels": [],
+          "width": 3,
+          "color": "gray",
+          "curvyness": 50,
+          "selectedColor": "rgb(0,192,255)"
+        }
+      }
+    },
+    {
+      "id": "e94e4c24-d502-4233-a996-8a420a2e959b",
+      "type": "diagram-nodes",
+      "isSvg": false,
+      "transformed": true,
+      "models": {
+        "b2dafc7c-c8d1-4598-97c1-f9428e3739fd": {
+          "id": "b2dafc7c-c8d1-4598-97c1-f9428e3739fd",
+          "type": "start",
+          "x": 50,
+          "y": 50,
+          "ports": [
+            {
+              "id": "7e4df54e-2cab-4475-b9d4-4c8b4d62d251",
+              "type": "default",
+              "x": 125.375,
+              "y": 57.10000228881836,
+              "name": "out-1706242985394",
+              "alignment": "right",
+              "parentNode": "b2dafc7c-c8d1-4598-97c1-f9428e3739fd",
+              "links": [
+                "e3b490af-79cc-4e7f-9ac5-bd4ec449842a"
+              ],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Start",
+          "color": "#16db26e6",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "7e4df54e-2cab-4475-b9d4-4c8b4d62d251"
+          ]
+        },
+        "9b4e0ef3-59f4-4647-ab3a-7a2b50643641": {
+          "id": "9b4e0ef3-59f4-4647-ab3a-7a2b50643641",
+          "type": "dialogue",
+          "selected": false,
+          "x": 209,
+          "y": 70,
+          "ports": [
+            {
+              "id": "491aea9d-6c95-4bdf-b974-13c16b6a434e",
+              "type": "default",
+              "x": 195.1999969482422,
+              "y": 101.20000076293945,
+              "name": "in-1706242990588 ",
+              "alignment": "left",
+              "parentNode": "9b4e0ef3-59f4-4647-ab3a-7a2b50643641",
+              "links": [
+                "e3b490af-79cc-4e7f-9ac5-bd4ec449842a"
+              ],
+              "in": true,
+              "label": "❯"
+            },
+            {
+              "id": "8c8f57cd-693e-45e8-9b38-daf3a9461f05",
+              "type": "default",
+              "x": 670.3500366210938,
+              "y": 101.20000076293945,
+              "name": "out-1706242990588",
+              "alignment": "right",
+              "parentNode": "9b4e0ef3-59f4-4647-ab3a-7a2b50643641",
+              "links": [
+                "0cfea3e5-4f1c-4dc0-a877-091d745159c1"
+              ],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Dark Mage",
+          "color": "#dd341ee6",
+          "portsInOrder": [
+            "491aea9d-6c95-4bdf-b974-13c16b6a434e"
+          ],
+          "portsOutOrder": [
+            "8c8f57cd-693e-45e8-9b38-daf3a9461f05"
+          ],
+          "text": "Why do you interrupt me, traveller? I am\nexperimenting with dark magic; it is a dangerous craft,\nand I prefer not to be disturbed."
+        },
+        "a7e6bbb0-cc93-4b41-beb7-604e2e1aa620": {
+          "id": "a7e6bbb0-cc93-4b41-beb7-604e2e1aa620",
+          "type": "dialogue",
+          "x": 209,
+          "y": 163.796875,
+          "ports": [
+            {
+              "id": "0bba9187-7696-44c5-b3d2-0b57ee709b3c",
+              "type": "default",
+              "x": 195.20001220703125,
+              "y": 194.98749923706055,
+              "name": "in-1706242996009 ",
+              "alignment": "left",
+              "parentNode": "a7e6bbb0-cc93-4b41-beb7-604e2e1aa620",
+              "links": [
+                "0cfea3e5-4f1c-4dc0-a877-091d745159c1"
+              ],
+              "in": true,
+              "label": "❯"
+            },
+            {
+              "id": "2a5bfda2-7fa8-47a8-b33e-dd333a0c7b76",
+              "type": "default",
+              "x": 443.1875,
+              "y": 194.98749923706055,
+              "name": "out-1706242996009",
+              "alignment": "right",
+              "parentNode": "a7e6bbb0-cc93-4b41-beb7-604e2e1aa620",
+              "links": [
+                "b1af643f-162a-46d7-9c01-f5189cb7c25a"
+              ],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "<player>",
+          "color": "#dd341ee6",
+          "portsInOrder": [
+            "0bba9187-7696-44c5-b3d2-0b57ee709b3c"
+          ],
+          "portsOutOrder": [
+            "2a5bfda2-7fa8-47a8-b33e-dd333a0c7b76"
+          ],
+          "text": "I'm just looking around."
+        },
+        "67193009-a313-45c6-8b92-5ad788a36675": {
+          "id": "67193009-a313-45c6-8b92-5ad788a36675",
+          "type": "dialogue",
+          "x": 209,
+          "y": 226.59375,
+          "ports": [
+            {
+              "id": "7c626d3e-7672-480a-b333-e5b32e75f822",
+              "type": "default",
+              "x": 195.20001220703125,
+              "y": 257.7875175476074,
+              "name": "in-1706242997230 ",
+              "alignment": "left",
+              "parentNode": "67193009-a313-45c6-8b92-5ad788a36675",
+              "links": [
+                "b1af643f-162a-46d7-9c01-f5189cb7c25a"
+              ],
+              "in": true,
+              "label": "❯"
+            },
+            {
+              "id": "8b9e3834-82f0-4bda-b0e7-cdbf2bc27766",
+              "type": "default",
+              "x": 648.375,
+              "y": 257.7875175476074,
+              "name": "out-1706242997230",
+              "alignment": "right",
+              "parentNode": "67193009-a313-45c6-8b92-5ad788a36675",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Dark Mage",
+          "color": "#dd341ee6",
+          "portsInOrder": [
+            "7c626d3e-7672-480a-b333-e5b32e75f822"
+          ],
+          "portsOutOrder": [
+            "8b9e3834-82f0-4bda-b0e7-cdbf2bc27766"
+          ],
+          "text": "There's nothing to see here, just despair and death."
+        }
+      }
+    }
+  ],
+  "trees": {}
+}

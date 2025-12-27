@@ -1,0 +1,199 @@
+{
+  "id": "8c48a543-e0e3-4f33-abf1-9f1c9122ec95",
+  "offsetX": 80.11111299641924,
+  "offsetY": 125.88889084879554,
+  "zoom": 111.11111043294272,
+  "gridSize": 0,
+  "layers": [
+    {
+      "id": "5771b343-c938-4f3e-bca3-dbe5b2ffe5f8",
+      "type": "diagram-links",
+      "isSvg": true,
+      "transformed": true,
+      "models": {
+        "43e5a7be-2dda-4cb3-bfee-38c6ff3e0a6f": {
+          "id": "43e5a7be-2dda-4cb3-bfee-38c6ff3e0a6f",
+          "type": "default",
+          "selected": false,
+          "source": "52e5df8b-6043-4ceb-abe1-5b8b682ab63b",
+          "sourcePort": "c3d0f5c5-3ed1-4f1b-af94-794b32bb3fc9",
+          "target": "2d728e28-6679-46e9-9b79-41291508c00e",
+          "targetPort": "0455ce59-7302-48bc-a2c5-37c0f52fa81e",
+          "points": [
+            {
+              "id": "b5a0cfe3-bcbd-41a0-b0f7-5a666c819a56",
+              "type": "point",
+              "x": 133.296875,
+              "y": 64.5
+            },
+            {
+              "id": "2a852e0a-99d4-4122-8759-99e8f2c06b28",
+              "type": "point",
+              "x": 193.5,
+              "y": 110.5
+            }
+          ],
+          "labels": [],
+          "width": 3,
+          "color": "gray",
+          "curvyness": 50,
+          "selectedColor": "rgb(0,192,255)"
+        },
+        "42021ced-40e4-4d08-96da-d87b2f410c6f": {
+          "id": "42021ced-40e4-4d08-96da-d87b2f410c6f",
+          "type": "default",
+          "selected": false,
+          "source": "2d728e28-6679-46e9-9b79-41291508c00e",
+          "sourcePort": "d340d764-54c3-47a0-8b93-3d93d7f7ad1e",
+          "target": "52dd34af-7553-4a68-ae6e-6b85bf182117",
+          "targetPort": "4f8de166-e0cf-49b0-8b95-05107f7b43cb",
+          "points": [
+            {
+              "id": "4fa65eca-9ab1-4e14-a991-9165b14c2917",
+              "type": "point",
+              "x": 354.375,
+              "y": 110.5
+            },
+            {
+              "id": "f73e1811-7b11-4f06-ac88-235f80cb4f30",
+              "type": "point",
+              "x": 193.5,
+              "y": 173.5
+            }
+          ],
+          "labels": [],
+          "width": 3,
+          "color": "gray",
+          "curvyness": 50,
+          "selectedColor": "rgb(0,192,255)"
+        }
+      }
+    },
+    {
+      "id": "4b9020a8-3e89-4080-8265-90cb8e59ff1a",
+      "type": "diagram-nodes",
+      "isSvg": false,
+      "transformed": true,
+      "models": {
+        "52e5df8b-6043-4ceb-abe1-5b8b682ab63b": {
+          "id": "52e5df8b-6043-4ceb-abe1-5b8b682ab63b",
+          "type": "start",
+          "x": 50,
+          "y": 50,
+          "ports": [
+            {
+              "id": "c3d0f5c5-3ed1-4f1b-af94-794b32bb3fc9",
+              "type": "default",
+              "x": 125.796875,
+              "y": 57,
+              "name": "out-1706320688862",
+              "alignment": "right",
+              "parentNode": "52e5df8b-6043-4ceb-abe1-5b8b682ab63b",
+              "links": [
+                "43e5a7be-2dda-4cb3-bfee-38c6ff3e0a6f"
+              ],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Start",
+          "color": "#16db26e6",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "c3d0f5c5-3ed1-4f1b-af94-794b32bb3fc9"
+          ]
+        },
+        "2d728e28-6679-46e9-9b79-41291508c00e": {
+          "id": "2d728e28-6679-46e9-9b79-41291508c00e",
+          "type": "dialogue",
+          "selected": false,
+          "x": 199,
+          "y": 72,
+          "ports": [
+            {
+              "id": "0455ce59-7302-48bc-a2c5-37c0f52fa81e",
+              "type": "default",
+              "x": 186,
+              "y": 103,
+              "name": "in-1706320705281 ",
+              "alignment": "left",
+              "parentNode": "2d728e28-6679-46e9-9b79-41291508c00e",
+              "links": [
+                "43e5a7be-2dda-4cb3-bfee-38c6ff3e0a6f"
+              ],
+              "in": true,
+              "label": "❯"
+            },
+            {
+              "id": "d340d764-54c3-47a0-8b93-3d93d7f7ad1e",
+              "type": "default",
+              "x": 346.875,
+              "y": 103,
+              "name": "out-1706320705282",
+              "alignment": "right",
+              "parentNode": "2d728e28-6679-46e9-9b79-41291508c00e",
+              "links": [
+                "42021ced-40e4-4d08-96da-d87b2f410c6f"
+              ],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "<player>",
+          "color": "#dd341ee6",
+          "portsInOrder": [
+            "0455ce59-7302-48bc-a2c5-37c0f52fa81e"
+          ],
+          "portsOutOrder": [
+            "d340d764-54c3-47a0-8b93-3d93d7f7ad1e"
+          ],
+          "text": "Hello there."
+        },
+        "52dd34af-7553-4a68-ae6e-6b85bf182117": {
+          "id": "52dd34af-7553-4a68-ae6e-6b85bf182117",
+          "type": "dialogue",
+          "x": 199,
+          "y": 135,
+          "ports": [
+            {
+              "id": "4f8de166-e0cf-49b0-8b95-05107f7b43cb",
+              "type": "default",
+              "x": 186,
+              "y": 166,
+              "name": "in-1706320710084 ",
+              "alignment": "left",
+              "parentNode": "52dd34af-7553-4a68-ae6e-6b85bf182117",
+              "links": [
+                "42021ced-40e4-4d08-96da-d87b2f410c6f"
+              ],
+              "in": true,
+              "label": "❯"
+            },
+            {
+              "id": "a8c86846-00b7-4108-8267-78968df76ade",
+              "type": "default",
+              "x": 625.375,
+              "y": 166,
+              "name": "out-1706320710084",
+              "alignment": "right",
+              "parentNode": "52dd34af-7553-4a68-ae6e-6b85bf182117",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Priest",
+          "color": "#dd341ee6",
+          "portsInOrder": [
+            "4f8de166-e0cf-49b0-8b95-05107f7b43cb"
+          ],
+          "portsOutOrder": [
+            "a8c86846-00b7-4108-8267-78968df76ade"
+          ],
+          "text": "I wish there was more I could do for these people."
+        }
+      }
+    }
+  ],
+  "trees": {}
+}
