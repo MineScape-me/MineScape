@@ -1,0 +1,287 @@
+{
+  "id": "b1d6bb19-0911-48b4-8f48-5d1f2be43bd8",
+  "offsetX": 17,
+  "offsetY": 119,
+  "zoom": 100,
+  "gridSize": 0,
+  "layers": [
+    {
+      "id": "7577a68e-4c71-49f0-8715-32ad62ddd426",
+      "type": "diagram-links",
+      "isSvg": true,
+      "transformed": true,
+      "models": {
+        "7c94eda1-9828-4dc3-8a2e-608ac8ead15a": {
+          "id": "7c94eda1-9828-4dc3-8a2e-608ac8ead15a",
+          "type": "default",
+          "selected": false,
+          "source": "8764f6bf-cb37-45bd-9b9c-62abcf6e4acc",
+          "sourcePort": "2294ff2c-c2fc-4517-9abb-1a0d9c17e2c2",
+          "target": "4a1548b6-8053-48be-b27b-162f5625a6c2",
+          "targetPort": "916f95bb-fa04-4ded-94d4-fb0a77782446",
+          "points": [
+            {
+              "id": "3cc5c356-ec94-4462-adc7-38bd1e9eceeb",
+              "type": "point",
+              "x": 335.7749938964844,
+              "y": 112.88749313354492
+            },
+            {
+              "id": "519556e1-8f36-4e73-b0a8-126ca2a91582",
+              "type": "point",
+              "x": 197.70001220703125,
+              "y": 175.6875114440918
+            }
+          ],
+          "labels": [],
+          "width": 3,
+          "color": "gray",
+          "curvyness": 50,
+          "selectedColor": "rgb(0,192,255)"
+        },
+        "022cf991-c8ea-48fb-b34a-d4284ce12501": {
+          "id": "022cf991-c8ea-48fb-b34a-d4284ce12501",
+          "type": "default",
+          "selected": false,
+          "source": "4a1548b6-8053-48be-b27b-162f5625a6c2",
+          "sourcePort": "3c08a05a-4291-4a45-8139-0b5cc50e9b1d",
+          "target": "e53c7d37-422d-4fd0-870b-10530964a21e",
+          "targetPort": "876a2497-79fb-4a12-84ad-1ecfc9b102eb",
+          "points": [
+            {
+              "id": "3162708c-68c8-4531-acfe-c0832f9c8dd1",
+              "type": "point",
+              "x": 636.2125244140625,
+              "y": 175.6875114440918
+            },
+            {
+              "id": "58362066-acbf-4034-aac4-4982c0a5d4e1",
+              "type": "point",
+              "x": 197.70001220703125,
+              "y": 238.47501754760742
+            }
+          ],
+          "labels": [],
+          "width": 3,
+          "color": "gray",
+          "curvyness": 50,
+          "selectedColor": "rgb(0,192,255)"
+        },
+        "c4e7438f-ba19-4da9-9901-87162b0d66af": {
+          "id": "c4e7438f-ba19-4da9-9901-87162b0d66af",
+          "type": "default",
+          "selected": false,
+          "source": "4173992b-cd8f-479a-9114-c67ace5a5a9d",
+          "sourcePort": "33744f07-ca82-43cc-88ea-e7d48b0675d2",
+          "target": "8764f6bf-cb37-45bd-9b9c-62abcf6e4acc",
+          "targetPort": "9eac6bad-9cb7-47a1-ac5c-962fcc099f46",
+          "points": [
+            {
+              "id": "4abf55d8-26a9-419b-8b32-46f4b44f1f44",
+              "type": "point",
+              "x": 132.875,
+              "y": 64.60000228881836
+            },
+            {
+              "id": "2a8dda14-ae89-4d48-9cd3-60981bd02c5b",
+              "type": "point",
+              "x": 197.70001220703125,
+              "y": 112.88749313354492
+            }
+          ],
+          "labels": [],
+          "width": 3,
+          "color": "gray",
+          "curvyness": 50,
+          "selectedColor": "rgb(0,192,255)"
+        }
+      }
+    },
+    {
+      "id": "8283b566-cd28-4039-953b-1e90768b39a8",
+      "type": "diagram-nodes",
+      "isSvg": false,
+      "transformed": true,
+      "models": {
+        "4173992b-cd8f-479a-9114-c67ace5a5a9d": {
+          "id": "4173992b-cd8f-479a-9114-c67ace5a5a9d",
+          "type": "start",
+          "x": 50,
+          "y": 50,
+          "ports": [
+            {
+              "id": "33744f07-ca82-43cc-88ea-e7d48b0675d2",
+              "type": "default",
+              "x": 125.375,
+              "y": 57.10000228881836,
+              "name": "out-1706243181982",
+              "alignment": "right",
+              "parentNode": "4173992b-cd8f-479a-9114-c67ace5a5a9d",
+              "links": [
+                "c4e7438f-ba19-4da9-9901-87162b0d66af"
+              ],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Start",
+          "color": "#16db26e6",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "33744f07-ca82-43cc-88ea-e7d48b0675d2"
+          ]
+        },
+        "8764f6bf-cb37-45bd-9b9c-62abcf6e4acc": {
+          "id": "8764f6bf-cb37-45bd-9b9c-62abcf6e4acc",
+          "type": "dialogue",
+          "selected": false,
+          "x": 204,
+          "y": 74.19062423706055,
+          "ports": [
+            {
+              "id": "9eac6bad-9cb7-47a1-ac5c-962fcc099f46",
+              "type": "default",
+              "x": 190.20001220703125,
+              "y": 105.38749313354492,
+              "name": "in-1706243269049 ",
+              "alignment": "left",
+              "parentNode": "8764f6bf-cb37-45bd-9b9c-62abcf6e4acc",
+              "links": [
+                "c4e7438f-ba19-4da9-9901-87162b0d66af"
+              ],
+              "in": true,
+              "label": "❯"
+            },
+            {
+              "id": "2294ff2c-c2fc-4517-9abb-1a0d9c17e2c2",
+              "type": "default",
+              "x": 328.2749938964844,
+              "y": 105.38749313354492,
+              "name": "out-1706243269049",
+              "alignment": "right",
+              "parentNode": "8764f6bf-cb37-45bd-9b9c-62abcf6e4acc",
+              "links": [
+                "7c94eda1-9828-4dc3-8a2e-608ac8ead15a"
+              ],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "<player>",
+          "color": "#dd341ee6",
+          "portsInOrder": [
+            "9eac6bad-9cb7-47a1-ac5c-962fcc099f46"
+          ],
+          "portsOutOrder": [
+            "2294ff2c-c2fc-4517-9abb-1a0d9c17e2c2"
+          ],
+          "text": "Good day."
+        },
+        "4a1548b6-8053-48be-b27b-162f5625a6c2": {
+          "id": "4a1548b6-8053-48be-b27b-162f5625a6c2",
+          "type": "dialogue",
+          "selected": false,
+          "x": 204,
+          "y": 136.98749923706055,
+          "ports": [
+            {
+              "id": "916f95bb-fa04-4ded-94d4-fb0a77782446",
+              "type": "default",
+              "x": 190.20001220703125,
+              "y": 168.1875114440918,
+              "name": "in-1706243269629 ",
+              "alignment": "left",
+              "parentNode": "4a1548b6-8053-48be-b27b-162f5625a6c2",
+              "links": [
+                "7c94eda1-9828-4dc3-8a2e-608ac8ead15a"
+              ],
+              "in": true,
+              "label": "❯"
+            },
+            {
+              "id": "3c08a05a-4291-4a45-8139-0b5cc50e9b1d",
+              "type": "default",
+              "x": 628.7125244140625,
+              "y": 168.1875114440918,
+              "name": "out-1706243269629",
+              "alignment": "right",
+              "parentNode": "4a1548b6-8053-48be-b27b-162f5625a6c2",
+              "links": [
+                "022cf991-c8ea-48fb-b34a-d4284ce12501"
+              ],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Woman",
+          "color": "#dd341ee6",
+          "portsInOrder": [
+            "916f95bb-fa04-4ded-94d4-fb0a77782446"
+          ],
+          "portsOutOrder": [
+            "3c08a05a-4291-4a45-8139-0b5cc50e9b1d"
+          ],
+          "text": "An outsider! Can you get me out of this hell hole?"
+        },
+        "e53c7d37-422d-4fd0-870b-10530964a21e": {
+          "id": "e53c7d37-422d-4fd0-870b-10530964a21e",
+          "type": "dialogue",
+          "selected": false,
+          "x": 204,
+          "y": 199.78437423706055,
+          "ports": [
+            {
+              "id": "876a2497-79fb-4a12-84ad-1ecfc9b102eb",
+              "type": "default",
+              "x": 190.20001220703125,
+              "y": 230.97501754760742,
+              "name": "in-1706243270829 ",
+              "alignment": "left",
+              "parentNode": "e53c7d37-422d-4fd0-870b-10530964a21e",
+              "links": [
+                "022cf991-c8ea-48fb-b34a-d4284ce12501"
+              ],
+              "in": true,
+              "label": "❯"
+            },
+            {
+              "id": "90a5137c-9cae-46c0-9fdf-42bd7585461d",
+              "type": "default",
+              "x": 540.7750244140625,
+              "y": 230.97501754760742,
+              "name": "out-1706243270829",
+              "alignment": "right",
+              "parentNode": "e53c7d37-422d-4fd0-870b-10530964a21e",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "<player>",
+          "color": "#dd341ee6",
+          "portsInOrder": [
+            "876a2497-79fb-4a12-84ad-1ecfc9b102eb"
+          ],
+          "portsOutOrder": [
+            "90a5137c-9cae-46c0-9fdf-42bd7585461d"
+          ],
+          "text": "Sorry, that's not what I'm here to do."
+        },
+        "bcd1dfca-fbc3-4405-993b-b9bde400ba82": {
+          "id": "bcd1dfca-fbc3-4405-993b-b9bde400ba82",
+          "type": "note",
+          "selected": false,
+          "x": 257,
+          "y": -19.200000762939453,
+          "ports": [],
+          "title": "Note",
+          "color": "#19e0e7e6",
+          "portsInOrder": [],
+          "portsOutOrder": [],
+          "text": "lvl-3 woman in west ardy."
+        }
+      }
+    }
+  ],
+  "trees": {}
+}

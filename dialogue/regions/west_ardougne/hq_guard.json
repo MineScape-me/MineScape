@@ -1,0 +1,139 @@
+{
+  "id": "eba5935e-eb5c-4813-81df-fea4e3c79f88",
+  "offsetX": 83,
+  "offsetY": 105,
+  "zoom": 100,
+  "gridSize": 0,
+  "layers": [
+    {
+      "id": "bac76734-bd16-4484-9528-d7564ffef25e",
+      "type": "diagram-links",
+      "isSvg": true,
+      "transformed": true,
+      "models": {
+        "9de62314-0b52-4e00-b8f7-7bed3dfaca29": {
+          "id": "9de62314-0b52-4e00-b8f7-7bed3dfaca29",
+          "type": "default",
+          "selected": false,
+          "source": "2662f7d9-ac99-43be-8ea4-8e1322bde489",
+          "sourcePort": "226b5a4b-d68f-48e6-a482-a1433924da1a",
+          "target": "cc69fca8-cd13-41fe-9068-273d5ff9489d",
+          "targetPort": "3486a9d6-f6fc-4d21-86fa-4f50f476321b",
+          "points": [
+            {
+              "id": "67edb31a-784e-4d70-9ee7-fa1db30790da",
+              "type": "point",
+              "x": 132.875,
+              "y": 64.60000228881836
+            },
+            {
+              "id": "6b7380cc-73f9-4bb0-9cac-4195e51451ae",
+              "type": "point",
+              "x": 197.6999969482422,
+              "y": 119.70000076293945
+            }
+          ],
+          "labels": [],
+          "width": 3,
+          "color": "gray",
+          "curvyness": 50,
+          "selectedColor": "rgb(0,192,255)"
+        }
+      }
+    },
+    {
+      "id": "e534864c-2085-4427-9da6-55c59bcb394e",
+      "type": "diagram-nodes",
+      "isSvg": false,
+      "transformed": true,
+      "models": {
+        "2662f7d9-ac99-43be-8ea4-8e1322bde489": {
+          "id": "2662f7d9-ac99-43be-8ea4-8e1322bde489",
+          "type": "start",
+          "x": 50,
+          "y": 50,
+          "ports": [
+            {
+              "id": "226b5a4b-d68f-48e6-a482-a1433924da1a",
+              "type": "default",
+              "x": 125.375,
+              "y": 57.10000228881836,
+              "name": "out-1706242530898",
+              "alignment": "right",
+              "parentNode": "2662f7d9-ac99-43be-8ea4-8e1322bde489",
+              "links": [
+                "9de62314-0b52-4e00-b8f7-7bed3dfaca29"
+              ],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Start",
+          "color": "#16db26e6",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "226b5a4b-d68f-48e6-a482-a1433924da1a"
+          ]
+        },
+        "cc69fca8-cd13-41fe-9068-273d5ff9489d": {
+          "id": "cc69fca8-cd13-41fe-9068-273d5ff9489d",
+          "type": "dialogue",
+          "selected": false,
+          "x": 204,
+          "y": 81,
+          "ports": [
+            {
+              "id": "3486a9d6-f6fc-4d21-86fa-4f50f476321b",
+              "type": "default",
+              "x": 190.1999969482422,
+              "y": 112.20000076293945,
+              "name": "in-1706242536949 ",
+              "alignment": "left",
+              "parentNode": "cc69fca8-cd13-41fe-9068-273d5ff9489d",
+              "links": [
+                "9de62314-0b52-4e00-b8f7-7bed3dfaca29"
+              ],
+              "in": true,
+              "label": "❯"
+            },
+            {
+              "id": "c18a3743-5b0d-4a06-acf5-01ea10bd3bd5",
+              "type": "default",
+              "x": 636.0375366210938,
+              "y": 112.20000076293945,
+              "name": "out-1706242536949",
+              "alignment": "right",
+              "parentNode": "cc69fca8-cd13-41fe-9068-273d5ff9489d",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Mourner",
+          "color": "#dd341ee6",
+          "portsInOrder": [
+            "3486a9d6-f6fc-4d21-86fa-4f50f476321b"
+          ],
+          "portsOutOrder": [
+            "c18a3743-5b0d-4a06-acf5-01ea10bd3bd5"
+          ],
+          "text": "Back away citizen. Only mourners are allowed inside\nthe headquarters."
+        },
+        "32554cd3-79cc-44b4-b8be-5c10405539cd": {
+          "id": "32554cd3-79cc-44b4-b8be-5c10405539cd",
+          "type": "note",
+          "selected": false,
+          "x": 196,
+          "y": -27.200000762939453,
+          "ports": [],
+          "title": "Note",
+          "color": "#19e0e7e6",
+          "portsInOrder": [],
+          "portsOutOrder": [],
+          "text": "same message when trying to enter the door or talking to the mourner that\nguards the door."
+        }
+      }
+    }
+  ],
+  "trees": {}
+}

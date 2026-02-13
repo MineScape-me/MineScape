@@ -1,0 +1,212 @@
+{
+  "id": "9c02a9de-cb95-4758-b103-0895fbb2b9ce",
+  "offsetX": 260,
+  "offsetY": 216,
+  "zoom": 100,
+  "gridSize": 0,
+  "layers": [
+    {
+      "id": "f05cb9b7-bba6-491a-8fe1-5176d22bee89",
+      "type": "diagram-links",
+      "isSvg": true,
+      "transformed": true,
+      "models": {
+        "114ba741-4476-40ff-9ec1-6196fcd1222e": {
+          "id": "114ba741-4476-40ff-9ec1-6196fcd1222e",
+          "type": "default",
+          "selected": false,
+          "source": "6016f49a-3907-4f34-b59e-2685d62a22de",
+          "sourcePort": "a9b45839-20a5-45eb-869d-741c37b14808",
+          "target": "2cb55b6b-301b-4097-9ed0-10eee7365617",
+          "targetPort": "54780d53-1512-4d45-9650-d6a188db3a35",
+          "points": [
+            {
+              "id": "4b7f8ddd-50bc-4350-9e73-01fa95209729",
+              "type": "point",
+              "x": 133.296875,
+              "y": 64.5
+            },
+            {
+              "id": "1d3e141e-f24d-4d1c-9e80-0c9a9c9117e3",
+              "type": "point",
+              "x": 261.5,
+              "y": 88.5
+            }
+          ],
+          "labels": [],
+          "width": 3,
+          "color": "gray",
+          "curvyness": 50,
+          "selectedColor": "rgb(0,192,255)"
+        },
+        "b1797292-590b-49fa-b99a-acbe79665559": {
+          "id": "b1797292-590b-49fa-b99a-acbe79665559",
+          "type": "default",
+          "selected": false,
+          "source": "2cb55b6b-301b-4097-9ed0-10eee7365617",
+          "sourcePort": "c3c10f23-76c7-451f-aedb-e039c3278959",
+          "target": "8492c981-2cda-4c1a-8dc5-dd0633818ce2",
+          "targetPort": "a32a2c23-1b78-4f63-86c4-dcbc117cbf59",
+          "points": [
+            {
+              "id": "c2681317-7891-48d4-af7c-613cdaebddd5",
+              "type": "point",
+              "x": 422.375,
+              "y": 88.5
+            },
+            {
+              "id": "449566cc-d590-44d9-a01b-bb58592f82cb",
+              "type": "point",
+              "x": 261.5,
+              "y": 151.5
+            }
+          ],
+          "labels": [],
+          "width": 3,
+          "color": "gray",
+          "curvyness": 50,
+          "selectedColor": "rgb(0,192,255)"
+        }
+      }
+    },
+    {
+      "id": "43eb544f-5e0c-4c78-8c6d-6c6f5350fe34",
+      "type": "diagram-nodes",
+      "isSvg": false,
+      "transformed": true,
+      "models": {
+        "6016f49a-3907-4f34-b59e-2685d62a22de": {
+          "id": "6016f49a-3907-4f34-b59e-2685d62a22de",
+          "type": "start",
+          "x": 50,
+          "y": 50,
+          "ports": [
+            {
+              "id": "a9b45839-20a5-45eb-869d-741c37b14808",
+              "type": "default",
+              "x": 125.796875,
+              "y": 57,
+              "name": "out-1706245003947",
+              "alignment": "right",
+              "parentNode": "6016f49a-3907-4f34-b59e-2685d62a22de",
+              "links": [
+                "114ba741-4476-40ff-9ec1-6196fcd1222e"
+              ],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Start",
+          "color": "#16db26e6",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "a9b45839-20a5-45eb-869d-741c37b14808"
+          ]
+        },
+        "2cb55b6b-301b-4097-9ed0-10eee7365617": {
+          "id": "2cb55b6b-301b-4097-9ed0-10eee7365617",
+          "type": "dialogue",
+          "selected": false,
+          "x": 267,
+          "y": 50,
+          "ports": [
+            {
+              "id": "54780d53-1512-4d45-9650-d6a188db3a35",
+              "type": "default",
+              "x": 254,
+              "y": 81,
+              "name": "in-1706245140508 ",
+              "alignment": "left",
+              "parentNode": "2cb55b6b-301b-4097-9ed0-10eee7365617",
+              "links": [
+                "114ba741-4476-40ff-9ec1-6196fcd1222e"
+              ],
+              "in": true,
+              "label": "❯"
+            },
+            {
+              "id": "c3c10f23-76c7-451f-aedb-e039c3278959",
+              "type": "default",
+              "x": 414.875,
+              "y": 81,
+              "name": "out-1706245140508",
+              "alignment": "right",
+              "parentNode": "2cb55b6b-301b-4097-9ed0-10eee7365617",
+              "links": [
+                "b1797292-590b-49fa-b99a-acbe79665559"
+              ],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "<player>",
+          "color": "#dd341ee6",
+          "portsInOrder": [
+            "54780d53-1512-4d45-9650-d6a188db3a35"
+          ],
+          "portsOutOrder": [
+            "c3c10f23-76c7-451f-aedb-e039c3278959"
+          ],
+          "text": "Hello there."
+        },
+        "8492c981-2cda-4c1a-8dc5-dd0633818ce2": {
+          "id": "8492c981-2cda-4c1a-8dc5-dd0633818ce2",
+          "type": "dialogue",
+          "selected": false,
+          "x": 267,
+          "y": 113,
+          "ports": [
+            {
+              "id": "a32a2c23-1b78-4f63-86c4-dcbc117cbf59",
+              "type": "default",
+              "x": 254,
+              "y": 144,
+              "name": "in-1706245141687 ",
+              "alignment": "left",
+              "parentNode": "8492c981-2cda-4c1a-8dc5-dd0633818ce2",
+              "links": [
+                "b1797292-590b-49fa-b99a-acbe79665559"
+              ],
+              "in": true,
+              "label": "❯"
+            },
+            {
+              "id": "5d4a12a1-af83-46cd-a7de-c86ccd06578e",
+              "type": "default",
+              "x": 678.71875,
+              "y": 144,
+              "name": "out-1706245141687",
+              "alignment": "right",
+              "parentNode": "8492c981-2cda-4c1a-8dc5-dd0633818ce2",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Woman",
+          "color": "#dd341ee6",
+          "portsInOrder": [
+            "a32a2c23-1b78-4f63-86c4-dcbc117cbf59"
+          ],
+          "portsOutOrder": [
+            "5d4a12a1-af83-46cd-a7de-c86ccd06578e"
+          ],
+          "text": "Go away. People from the outside shut us in like\nanimals. I have nothing to say to you."
+        },
+        "70b99792-fafc-470f-8821-bcdb3cc9d4eb": {
+          "id": "70b99792-fafc-470f-8821-bcdb3cc9d4eb",
+          "type": "note",
+          "x": 172,
+          "y": -70,
+          "ports": [],
+          "title": "Note",
+          "color": "#19e0e7e6",
+          "portsInOrder": [],
+          "portsOutOrder": [],
+          "text": "lvl 14 woman, west ardy"
+        }
+      }
+    }
+  ],
+  "trees": {}
+}

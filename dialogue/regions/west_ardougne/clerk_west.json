@@ -1,0 +1,200 @@
+{
+  "id": "5366ac06-f420-4921-b152-9d126d2407f6",
+  "offsetX": 94,
+  "offsetY": 243,
+  "zoom": 100,
+  "gridSize": 0,
+  "layers": [
+    {
+      "id": "7513fb28-70d5-4fae-b06b-2165e7a01caf",
+      "type": "diagram-links",
+      "isSvg": true,
+      "transformed": true,
+      "models": {
+        "a7a2e55a-7e82-471a-a955-a261c8cb2310": {
+          "id": "a7a2e55a-7e82-471a-a955-a261c8cb2310",
+          "type": "default",
+          "selected": false,
+          "source": "587acf78-11b7-4e16-ba5e-0a5832e68c10",
+          "sourcePort": "39e7fbec-d129-47f6-9761-a4fe3490624f",
+          "target": "f94e370a-18ec-4972-98d8-8d74716425ec",
+          "targetPort": "09c510a5-a1b1-47eb-aece-900d022a7c95",
+          "points": [
+            {
+              "id": "c7f02e0d-0a43-49e7-98fc-33557623d8af",
+              "type": "point",
+              "x": 133.296875,
+              "y": 64.5
+            },
+            {
+              "id": "ac796360-3885-40a3-a259-3ae71b86c1a2",
+              "type": "point",
+              "x": 231.5,
+              "y": 48.5
+            }
+          ],
+          "labels": [],
+          "width": 3,
+          "color": "gray",
+          "curvyness": 50,
+          "selectedColor": "rgb(0,192,255)"
+        },
+        "fc6f4d54-1f6f-499e-ab00-ebc8c25d2d23": {
+          "id": "fc6f4d54-1f6f-499e-ab00-ebc8c25d2d23",
+          "type": "default",
+          "selected": false,
+          "source": "f94e370a-18ec-4972-98d8-8d74716425ec",
+          "sourcePort": "bc7960ae-dbd3-4e0c-ac4b-374943801bfc",
+          "target": "f7f1547f-4b16-4875-becb-68452048c229",
+          "targetPort": "9813a136-5bfa-4d91-934e-efc8a2bdf3f5",
+          "points": [
+            {
+              "id": "b41e3c75-51fd-419d-b21a-189f12da0423",
+              "type": "point",
+              "x": 348.40625,
+              "y": 48.5
+            },
+            {
+              "id": "65238938-0a27-4057-9731-713eea8c56a6",
+              "type": "point",
+              "x": 231.5,
+              "y": 111.5
+            }
+          ],
+          "labels": [],
+          "width": 3,
+          "color": "gray",
+          "curvyness": 50,
+          "selectedColor": "rgb(0,192,255)"
+        }
+      }
+    },
+    {
+      "id": "f0847958-222c-4154-b236-d1619c3df4cf",
+      "type": "diagram-nodes",
+      "isSvg": false,
+      "transformed": true,
+      "models": {
+        "587acf78-11b7-4e16-ba5e-0a5832e68c10": {
+          "id": "587acf78-11b7-4e16-ba5e-0a5832e68c10",
+          "type": "start",
+          "x": 50,
+          "y": 50,
+          "ports": [
+            {
+              "id": "39e7fbec-d129-47f6-9761-a4fe3490624f",
+              "type": "default",
+              "x": 125.796875,
+              "y": 57,
+              "name": "out-1706246558440",
+              "alignment": "right",
+              "parentNode": "587acf78-11b7-4e16-ba5e-0a5832e68c10",
+              "links": [
+                "a7a2e55a-7e82-471a-a955-a261c8cb2310"
+              ],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Start",
+          "color": "#16db26e6",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "39e7fbec-d129-47f6-9761-a4fe3490624f"
+          ]
+        },
+        "f94e370a-18ec-4972-98d8-8d74716425ec": {
+          "id": "f94e370a-18ec-4972-98d8-8d74716425ec",
+          "type": "dialogue",
+          "selected": false,
+          "x": 237,
+          "y": 10,
+          "ports": [
+            {
+              "id": "09c510a5-a1b1-47eb-aece-900d022a7c95",
+              "type": "default",
+              "x": 224,
+              "y": 41,
+              "name": "in-1706246610586 ",
+              "alignment": "left",
+              "parentNode": "f94e370a-18ec-4972-98d8-8d74716425ec",
+              "links": [
+                "a7a2e55a-7e82-471a-a955-a261c8cb2310"
+              ],
+              "in": true,
+              "label": "❯"
+            },
+            {
+              "id": "bc7960ae-dbd3-4e0c-ac4b-374943801bfc",
+              "type": "default",
+              "x": 340.90625,
+              "y": 41,
+              "name": "out-1706246610586",
+              "alignment": "right",
+              "parentNode": "f94e370a-18ec-4972-98d8-8d74716425ec",
+              "links": [
+                "fc6f4d54-1f6f-499e-ab00-ebc8c25d2d23"
+              ],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "<player>",
+          "color": "#dd341ee6",
+          "portsInOrder": [
+            "09c510a5-a1b1-47eb-aece-900d022a7c95"
+          ],
+          "portsOutOrder": [
+            "bc7960ae-dbd3-4e0c-ac4b-374943801bfc"
+          ],
+          "text": "Hello."
+        },
+        "f7f1547f-4b16-4875-becb-68452048c229": {
+          "id": "f7f1547f-4b16-4875-becb-68452048c229",
+          "type": "dialogue",
+          "selected": false,
+          "x": 237,
+          "y": 73,
+          "ports": [
+            {
+              "id": "9813a136-5bfa-4d91-934e-efc8a2bdf3f5",
+              "type": "default",
+              "x": 224,
+              "y": 104,
+              "name": "in-1706246611787 ",
+              "alignment": "left",
+              "parentNode": "f7f1547f-4b16-4875-becb-68452048c229",
+              "links": [
+                "fc6f4d54-1f6f-499e-ab00-ebc8c25d2d23"
+              ],
+              "in": true,
+              "label": "❯"
+            },
+            {
+              "id": "7978459d-4a8e-4373-b883-87142196f844",
+              "type": "default",
+              "x": 692.6875,
+              "y": 104,
+              "name": "out-1706246611787",
+              "alignment": "right",
+              "parentNode": "f7f1547f-4b16-4875-becb-68452048c229",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Clerk",
+          "color": "#dd341ee6",
+          "portsInOrder": [
+            "9813a136-5bfa-4d91-934e-efc8a2bdf3f5"
+          ],
+          "portsOutOrder": [
+            "7978459d-4a8e-4373-b883-87142196f844"
+          ],
+          "text": "Sorry, I don't have time to talk. Bravek needs lots of\nhelp running the city."
+        }
+      }
+    }
+  ],
+  "trees": {}
+}
