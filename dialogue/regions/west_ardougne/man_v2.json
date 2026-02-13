@@ -1,0 +1,200 @@
+{
+  "id": "0982fc3d-1011-4149-9c3b-49ff8e94847b",
+  "offsetX": 47,
+  "offsetY": 116,
+  "zoom": 100,
+  "gridSize": 0,
+  "layers": [
+    {
+      "id": "3dd85820-99cb-49b2-94d2-0b6f10450e00",
+      "type": "diagram-links",
+      "isSvg": true,
+      "transformed": true,
+      "models": {
+        "57477fd2-c05a-4e17-b650-f8d51ea5257f": {
+          "id": "57477fd2-c05a-4e17-b650-f8d51ea5257f",
+          "type": "default",
+          "selected": false,
+          "source": "8b209f1e-27d7-4aea-a9c9-5072f70e08fb",
+          "sourcePort": "2acd3ba5-c56b-4dd7-8281-558d17a8b7be",
+          "target": "88adbb3e-dc2e-4df3-976f-a5222cdc886a",
+          "targetPort": "01a8d8de-9948-4aad-b917-fc350c28460c",
+          "points": [
+            {
+              "id": "1dc96266-ae8a-4003-a8a4-7baf4a4e4b91",
+              "type": "point",
+              "x": 133.09658765792847,
+              "y": 64.09090375900269
+            },
+            {
+              "id": "2e4a0179-cf40-40aa-a762-7d5e2feda424",
+              "type": "point",
+              "x": 202.13351392745972,
+              "y": 104.6704478263855
+            }
+          ],
+          "labels": [],
+          "width": 3,
+          "color": "gray",
+          "curvyness": 50,
+          "selectedColor": "rgb(0,192,255)"
+        },
+        "ed382227-a2b4-49f4-8ada-6f4ddce1fa23": {
+          "id": "ed382227-a2b4-49f4-8ada-6f4ddce1fa23",
+          "type": "default",
+          "selected": false,
+          "source": "88adbb3e-dc2e-4df3-976f-a5222cdc886a",
+          "sourcePort": "569a9662-b683-4023-b5ca-0ba0c1838d98",
+          "target": "d79c1d2e-74c4-43b6-8e0f-72615518003d",
+          "targetPort": "f945faef-4a8b-42bb-a3f6-27d345484df5",
+          "points": [
+            {
+              "id": "228155e6-51f9-4630-b97f-017cdd9f7c58",
+              "type": "point",
+              "x": 362.57385206222534,
+              "y": 104.6704478263855
+            },
+            {
+              "id": "5320ccd5-256f-4d07-85cf-16963dd1bea7",
+              "type": "point",
+              "x": 202.1306757926941,
+              "y": 167.15906476974487
+            }
+          ],
+          "labels": [],
+          "width": 3,
+          "color": "gray",
+          "curvyness": 50,
+          "selectedColor": "rgb(0,192,255)"
+        }
+      }
+    },
+    {
+      "id": "1bff7181-8fdd-417b-b931-cb0823a83758",
+      "type": "diagram-nodes",
+      "isSvg": false,
+      "transformed": true,
+      "models": {
+        "8b209f1e-27d7-4aea-a9c9-5072f70e08fb": {
+          "id": "8b209f1e-27d7-4aea-a9c9-5072f70e08fb",
+          "type": "start",
+          "selected": false,
+          "x": 50,
+          "y": 50,
+          "ports": [
+            {
+              "id": "2acd3ba5-c56b-4dd7-8281-558d17a8b7be",
+              "type": "default",
+              "x": 125.59658813476562,
+              "y": 56.590904235839844,
+              "name": "out-1771019134125",
+              "alignment": "right",
+              "parentNode": "8b209f1e-27d7-4aea-a9c9-5072f70e08fb",
+              "links": [
+                "57477fd2-c05a-4e17-b650-f8d51ea5257f"
+              ],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Start",
+          "color": "#16db26e6",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "2acd3ba5-c56b-4dd7-8281-558d17a8b7be"
+          ]
+        },
+        "88adbb3e-dc2e-4df3-976f-a5222cdc886a": {
+          "id": "88adbb3e-dc2e-4df3-976f-a5222cdc886a",
+          "type": "dialogue",
+          "selected": false,
+          "x": 208,
+          "y": 67,
+          "ports": [
+            {
+              "id": "01a8d8de-9948-4aad-b917-fc350c28460c",
+              "type": "default",
+              "x": 194.63351440429688,
+              "y": 97.17044830322266,
+              "name": "in-1771019311016 ",
+              "alignment": "left",
+              "parentNode": "88adbb3e-dc2e-4df3-976f-a5222cdc886a",
+              "links": [
+                "57477fd2-c05a-4e17-b650-f8d51ea5257f"
+              ],
+              "in": true,
+              "label": "❯"
+            },
+            {
+              "id": "569a9662-b683-4023-b5ca-0ba0c1838d98",
+              "type": "default",
+              "x": 355.0738525390625,
+              "y": 97.17044830322266,
+              "name": "out-1771019311016",
+              "alignment": "right",
+              "parentNode": "88adbb3e-dc2e-4df3-976f-a5222cdc886a",
+              "links": [
+                "ed382227-a2b4-49f4-8ada-6f4ddce1fa23"
+              ],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "<player>",
+          "color": "#dd341ee6",
+          "portsInOrder": [
+            "01a8d8de-9948-4aad-b917-fc350c28460c"
+          ],
+          "portsOutOrder": [
+            "569a9662-b683-4023-b5ca-0ba0c1838d98"
+          ],
+          "text": "Hello there."
+        },
+        "d79c1d2e-74c4-43b6-8e0f-72615518003d": {
+          "id": "d79c1d2e-74c4-43b6-8e0f-72615518003d",
+          "type": "dialogue",
+          "x": 208,
+          "y": 129.5,
+          "ports": [
+            {
+              "id": "f945faef-4a8b-42bb-a3f6-27d345484df5",
+              "type": "default",
+              "x": 194.63067626953125,
+              "y": 159.65906524658203,
+              "name": "in-1771019313996 ",
+              "alignment": "left",
+              "parentNode": "d79c1d2e-74c4-43b6-8e0f-72615518003d",
+              "links": [
+                "ed382227-a2b4-49f4-8ada-6f4ddce1fa23"
+              ],
+              "in": true,
+              "label": "❯"
+            },
+            {
+              "id": "f16620ce-da82-4345-a886-b022f863621e",
+              "type": "default",
+              "x": 618.8635864257812,
+              "y": 159.65906524658203,
+              "name": "out-1771019313996",
+              "alignment": "right",
+              "parentNode": "d79c1d2e-74c4-43b6-8e0f-72615518003d",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Man",
+          "color": "#dd341ee6",
+          "portsInOrder": [
+            "f945faef-4a8b-42bb-a3f6-27d345484df5"
+          ],
+          "portsOutOrder": [
+            "f16620ce-da82-4345-a886-b022f863621e"
+          ],
+          "text": "Go away. People from the outside shut us in like\nanimals. I have nothing to say to you."
+        }
+      }
+    }
+  ],
+  "trees": {}
+}
