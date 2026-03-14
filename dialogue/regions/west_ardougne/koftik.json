@@ -23,14 +23,14 @@
             {
               "id": "3be4e59c-1c41-445e-b49f-aff3cb602d45",
               "type": "point",
-              "x": 479.3500061035156,
-              "y": 67.70000076293945
+              "x": 480.984375,
+              "y": 67.5
             },
             {
               "id": "ef4d929d-681e-4509-be72-40e0c0e07575",
               "type": "point",
-              "x": 216.70001220703125,
-              "y": 130.48749923706055
+              "x": 217.5,
+              "y": 130.296875
             }
           ],
           "labels": [],
@@ -51,14 +51,42 @@
             {
               "id": "de3fbd69-d6e5-4a41-97d6-9426686f40f3",
               "type": "point",
-              "x": 132.875,
-              "y": 64.60000228881836
+              "x": 133.296875,
+              "y": 64.5
             },
             {
               "id": "8d4c4255-5e60-4ef3-ab8e-f5b699cf0ae6",
               "type": "point",
-              "x": 216.6999969482422,
-              "y": 67.70000076293945
+              "x": 217.5,
+              "y": 67.5
+            }
+          ],
+          "labels": [],
+          "width": 3,
+          "color": "gray",
+          "curvyness": 50,
+          "selectedColor": "rgb(0,192,255)"
+        },
+        "61390992-ea31-4e0a-9f9c-ebee861627de": {
+          "id": "61390992-ea31-4e0a-9f9c-ebee861627de",
+          "type": "default",
+          "selected": false,
+          "source": "9b35559a-aea6-45b7-8106-9cf4246b1f88",
+          "sourcePort": "918bda85-a01e-472f-b1e6-1bad0c18fbf1",
+          "target": "9703afd7-3b5f-4718-b881-627e1988cdda",
+          "targetPort": "a1c92d1e-f625-4045-93da-3ba5e3c60108",
+          "points": [
+            {
+              "id": "f235b269-37fb-4dc0-9ded-5d95e81694a5",
+              "type": "point",
+              "x": 128.390625,
+              "y": 324.5
+            },
+            {
+              "id": "57a1e649-a192-4ac1-b9b1-a6f8ce670fbf",
+              "type": "point",
+              "x": 146.5,
+              "y": 324.09375
             }
           ],
           "labels": [],
@@ -78,14 +106,15 @@
         "ee0a716b-2e5b-4e57-af0c-c6583293be9b": {
           "id": "ee0a716b-2e5b-4e57-af0c-c6583293be9b",
           "type": "start",
+          "selected": false,
           "x": 50,
           "y": 50,
           "ports": [
             {
               "id": "59287967-24f3-4995-b0d5-6ac46feb1c84",
               "type": "default",
-              "x": 125.375,
-              "y": 57.10000228881836,
+              "x": 125.796875,
+              "y": 57,
               "name": "out-1706243052467",
               "alignment": "right",
               "parentNode": "ee0a716b-2e5b-4e57-af0c-c6583293be9b",
@@ -113,8 +142,8 @@
             {
               "id": "46495851-cda2-4825-95b8-6f8abbf2d079",
               "type": "default",
-              "x": 209.1999969482422,
-              "y": 60.20000076293945,
+              "x": 210,
+              "y": 60,
               "name": "in-1706243056590 ",
               "alignment": "left",
               "parentNode": "4f725bd5-4ac3-403c-9b39-2261a5644700",
@@ -127,8 +156,8 @@
             {
               "id": "5f28f5c7-2453-4f97-a2f0-dcb9eb0bee25",
               "type": "default",
-              "x": 471.8500061035156,
-              "y": 60.20000076293945,
+              "x": 473.484375,
+              "y": 60,
               "name": "out-1706243056590",
               "alignment": "right",
               "parentNode": "4f725bd5-4ac3-403c-9b39-2261a5644700",
@@ -159,8 +188,8 @@
             {
               "id": "1004aef5-3991-4748-b49a-e9c89fcae744",
               "type": "default",
-              "x": 209.20001220703125,
-              "y": 122.98749923706055,
+              "x": 210,
+              "y": 122.796875,
               "name": "in-1706243060191 ",
               "alignment": "left",
               "parentNode": "87ceba82-87a2-4840-a580-af4550a2a59b",
@@ -173,8 +202,8 @@
             {
               "id": "45d10889-402f-43e0-97ac-4174f41d30ee",
               "type": "default",
-              "x": 589.0875244140625,
-              "y": 122.98749923706055,
+              "x": 590.75,
+              "y": 122.796875,
               "name": "out-1706243060191",
               "alignment": "right",
               "parentNode": "87ceba82-87a2-4840-a580-af4550a2a59b",
@@ -203,20 +232,22 @@
             {
               "id": "a1c92d1e-f625-4045-93da-3ba5e3c60108",
               "type": "default",
-              "x": 138.20001220703125,
-              "y": 316.7875175476074,
+              "x": 139,
+              "y": 316.59375,
               "name": "in-1706243072210 ",
               "alignment": "left",
               "parentNode": "9703afd7-3b5f-4718-b881-627e1988cdda",
-              "links": [],
+              "links": [
+                "61390992-ea31-4e0a-9f9c-ebee861627de"
+              ],
               "in": true,
               "label": "❯"
             },
             {
               "id": "5416e8f7-fdf1-423a-97b3-22edc5799ad5",
               "type": "default",
-              "x": 613.3499755859375,
-              "y": 316.7875175476074,
+              "x": 615.015625,
+              "y": 316.59375,
               "name": "out-1706243072210",
               "alignment": "right",
               "parentNode": "9703afd7-3b5f-4718-b881-627e1988cdda",
@@ -247,6 +278,35 @@
           "portsInOrder": [],
           "portsOutOrder": [],
           "text": "this message is said when trying to enter the cave to the west."
+        },
+        "9b35559a-aea6-45b7-8106-9cf4246b1f88": {
+          "id": "9b35559a-aea6-45b7-8106-9cf4246b1f88",
+          "type": "start",
+          "selected": false,
+          "x": 31,
+          "y": 310,
+          "ports": [
+            {
+              "id": "918bda85-a01e-472f-b1e6-1bad0c18fbf1",
+              "type": "default",
+              "x": 120.890625,
+              "y": 317,
+              "name": "out-1773483664879",
+              "alignment": "right",
+              "parentNode": "9b35559a-aea6-45b7-8106-9cf4246b1f88",
+              "links": [
+                "61390992-ea31-4e0a-9f9c-ebee861627de"
+              ],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Start-1",
+          "color": "#16db26e6",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "918bda85-a01e-472f-b1e6-1bad0c18fbf1"
+          ]
         }
       }
     }
