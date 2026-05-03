@@ -1,0 +1,223 @@
+{
+  "id": "7c1be4f1-5a36-4f12-a6cb-8359d8d4fd5c",
+  "offsetX": 459.1218481201529,
+  "offsetY": 445.13707960475455,
+  "zoom": 100.75757587553714,
+  "gridSize": 0,
+  "layers": [
+    {
+      "id": "b808a69e-ce97-48cd-b298-348074f007d1",
+      "type": "diagram-links",
+      "isSvg": true,
+      "transformed": true,
+      "models": {
+        "22405751-332d-44f8-8657-78711572c6f7": {
+          "id": "22405751-332d-44f8-8657-78711572c6f7",
+          "type": "default",
+          "selected": false,
+          "source": "ba71456d-5623-42e6-a92a-456ebd3d2078",
+          "sourcePort": "ce539714-5d20-42eb-b78d-72128bf23b47",
+          "target": "e9a09b30-59c5-4d9f-8c2b-aeb616428280",
+          "targetPort": "3b97a583-f109-4576-b2bf-82ad4e7ae4a1",
+          "points": [
+            {
+              "id": "aaa064a2-c940-484b-818d-7a34cdc54b01",
+              "type": "point",
+              "x": 133.29685489633397,
+              "y": 64.50001625426063
+            },
+            {
+              "id": "b4503605-2ff0-43ac-a7b2-75afcc33e127",
+              "type": "point",
+              "x": 278.6093629866072,
+              "y": -90.43748172870332
+            }
+          ],
+          "labels": [],
+          "width": 3,
+          "color": "gray",
+          "curvyness": 50,
+          "selectedColor": "rgb(0,192,255)"
+        },
+        "4bcf2daa-ae25-4798-b08b-2b89f02c262f": {
+          "id": "4bcf2daa-ae25-4798-b08b-2b89f02c262f",
+          "type": "default",
+          "selected": false,
+          "source": "d03fd57b-cca0-4f81-a9db-e349e7b0ebdd",
+          "sourcePort": "f201b902-436d-4ecf-8b43-9eb078699585",
+          "target": "e9a09b30-59c5-4d9f-8c2b-aeb616428280",
+          "targetPort": "3b97a583-f109-4576-b2bf-82ad4e7ae4a1",
+          "points": [
+            {
+              "id": "12d752ca-7fcf-4788-ad52-72f077e5bc7b",
+              "type": "point",
+              "x": 173.96871516356725,
+              "y": -158.14062821825485
+            },
+            {
+              "id": "4cb50ff3-aeae-499a-a016-3b9053834a22",
+              "type": "point",
+              "x": 278.6093629866072,
+              "y": -90.43748172870332
+            }
+          ],
+          "labels": [],
+          "width": 3,
+          "color": "gray",
+          "curvyness": 50,
+          "selectedColor": "rgb(0,192,255)"
+        }
+      }
+    },
+    {
+      "id": "d72d73f4-6091-4d93-b4f2-2317e9d5522b",
+      "type": "diagram-nodes",
+      "isSvg": false,
+      "transformed": true,
+      "models": {
+        "ba71456d-5623-42e6-a92a-456ebd3d2078": {
+          "id": "ba71456d-5623-42e6-a92a-456ebd3d2078",
+          "type": "start",
+          "x": 50,
+          "y": 50,
+          "ports": [
+            {
+              "id": "ce539714-5d20-42eb-b78d-72128bf23b47",
+              "type": "default",
+              "x": 125.79684939818317,
+              "y": 57.00001075610983,
+              "name": "out-1765184146746",
+              "alignment": "right",
+              "parentNode": "ba71456d-5623-42e6-a92a-456ebd3d2078",
+              "links": [
+                "22405751-332d-44f8-8657-78711572c6f7"
+              ],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Start",
+          "color": "#16db26e6",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "ce539714-5d20-42eb-b78d-72128bf23b47"
+          ]
+        },
+        "e9a09b30-59c5-4d9f-8c2b-aeb616428280": {
+          "id": "e9a09b30-59c5-4d9f-8c2b-aeb616428280",
+          "type": "action",
+          "selected": true,
+          "x": 284.11278243593125,
+          "y": -128.94544352672472,
+          "ports": [
+            {
+              "id": "3b97a583-f109-4576-b2bf-82ad4e7ae4a1",
+              "type": "default",
+              "x": 271.109387776579,
+              "y": -97.93748722685412,
+              "name": "in-1765184253973 ",
+              "alignment": "left",
+              "parentNode": "e9a09b30-59c5-4d9f-8c2b-aeb616428280",
+              "links": [
+                "22405751-332d-44f8-8657-78711572c6f7",
+                "4bcf2daa-ae25-4798-b08b-2b89f02c262f"
+              ],
+              "in": true,
+              "label": "❯"
+            },
+            {
+              "id": "611f209e-3d3e-4304-9cd4-0cb24f4d8bf5",
+              "type": "default",
+              "x": 649.0000582252604,
+              "y": -97.93748722685412,
+              "name": "out-1765184253973",
+              "alignment": "right",
+              "parentNode": "e9a09b30-59c5-4d9f-8c2b-aeb616428280",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Action",
+          "color": "#3e077ee6",
+          "portsInOrder": [
+            "3b97a583-f109-4576-b2bf-82ad4e7ae4a1"
+          ],
+          "portsOutOrder": [
+            "611f209e-3d3e-4304-9cd4-0cb24f4d8bf5"
+          ],
+          "actions": {
+            "actions": [
+              "teleport"
+            ],
+            "args": [
+              [
+                "WATERFALL_QUEST_TREASURE_EXIT"
+              ]
+            ]
+          }
+        },
+        "6198717a-c03b-4827-847e-a13fec1f0e37": {
+          "id": "6198717a-c03b-4827-847e-a13fec1f0e37",
+          "type": "note",
+          "selected": false,
+          "x": 282.04511278892653,
+          "y": -224.32890207806201,
+          "ports": [],
+          "title": "Note",
+          "color": "#19e0e7e6",
+          "portsInOrder": [],
+          "portsOutOrder": [],
+          "text": "teleports player to fire giant room,\nsame destination as the chalice room door\nwhen teleporting south"
+        },
+        "d03fd57b-cca0-4f81-a9db-e349e7b0ebdd": {
+          "id": "d03fd57b-cca0-4f81-a9db-e349e7b0ebdd",
+          "type": "location",
+          "selected": false,
+          "x": -64.63221008869445,
+          "y": -196.6473268962995,
+          "ports": [
+            {
+              "id": "f201b902-436d-4ecf-8b43-9eb078699585",
+              "type": "default",
+              "x": 166.46870966541644,
+              "y": -165.64061857234432,
+              "name": "out-1775463385736",
+              "alignment": "right",
+              "parentNode": "d03fd57b-cca0-4f81-a9db-e349e7b0ebdd",
+              "links": [
+                "4bcf2daa-ae25-4798-b08b-2b89f02c262f"
+              ],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Location",
+          "color": "#3a7bdd",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "f201b902-436d-4ecf-8b43-9eb078699585"
+          ],
+          "locationType": "area",
+          "locations": [
+            "-1543, 58, -604, 0, 0",
+            "-1543, 57, -604, 0, 0"
+          ],
+          "conditions": {
+            "conditions": [
+              ""
+            ],
+            "args": [],
+            "ors": [
+              false
+            ],
+            "negates": [
+              false
+            ]
+          }
+        }
+      }
+    }
+  ],
+  "trees": {}
+}

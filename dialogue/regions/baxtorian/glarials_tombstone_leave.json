@@ -1,0 +1,223 @@
+{
+  "id": "4844aa4e-98a6-4468-abcf-b6ac55eef1aa",
+  "offsetX": 75,
+  "offsetY": 379,
+  "zoom": 100,
+  "gridSize": 0,
+  "layers": [
+    {
+      "id": "82478fc5-c7ff-4c65-b124-3ce2bb1d31b7",
+      "type": "diagram-links",
+      "isSvg": true,
+      "transformed": true,
+      "models": {
+        "ece4f30a-a06a-4057-be39-58406a742cc5": {
+          "id": "ece4f30a-a06a-4057-be39-58406a742cc5",
+          "type": "default",
+          "selected": false,
+          "source": "442fc0b3-430c-4e3b-92f1-2922786d649d",
+          "sourcePort": "74ef1b1a-82c6-46ec-a5c0-ef3d45d26fa6",
+          "target": "5095382e-ac5a-4792-a931-c75b03ac1bb6",
+          "targetPort": "9f260e99-d66f-4f65-a15c-ce909d4d64db",
+          "points": [
+            {
+              "id": "fe0425ef-2ddd-45b7-aed1-96d930ed6c42",
+              "type": "point",
+              "x": 133.296875,
+              "y": 64.5
+            },
+            {
+              "id": "ab62f454-6beb-4e39-a431-cd56a19d6d02",
+              "type": "point",
+              "x": 330.5,
+              "y": 1.5
+            }
+          ],
+          "labels": [],
+          "width": 3,
+          "color": "gray",
+          "curvyness": 50,
+          "selectedColor": "rgb(0,192,255)"
+        },
+        "c4c065cf-e388-4de3-b84a-bd18102cc497": {
+          "id": "c4c065cf-e388-4de3-b84a-bd18102cc497",
+          "type": "default",
+          "selected": false,
+          "source": "2dba8a9b-40e3-4206-979f-3ca8650802fb",
+          "sourcePort": "9f1f30ca-eaf0-4cc2-8d6a-1c41cf7a995d",
+          "target": "5095382e-ac5a-4792-a931-c75b03ac1bb6",
+          "targetPort": "9f260e99-d66f-4f65-a15c-ce909d4d64db",
+          "points": [
+            {
+              "id": "c5e59089-4cf6-4268-83db-f8ec6814d1e1",
+              "type": "point",
+              "x": 204.59375,
+              "y": -120.5
+            },
+            {
+              "id": "febbf991-9609-4fa0-906a-5af284c882bc",
+              "type": "point",
+              "x": 330.5,
+              "y": 1.5
+            }
+          ],
+          "labels": [],
+          "width": 3,
+          "color": "gray",
+          "curvyness": 50,
+          "selectedColor": "rgb(0,192,255)"
+        }
+      }
+    },
+    {
+      "id": "51f5ab44-2b4b-4055-95b7-b50299214143",
+      "type": "diagram-nodes",
+      "isSvg": false,
+      "transformed": true,
+      "models": {
+        "442fc0b3-430c-4e3b-92f1-2922786d649d": {
+          "id": "442fc0b3-430c-4e3b-92f1-2922786d649d",
+          "type": "start",
+          "x": 50,
+          "y": 50,
+          "ports": [
+            {
+              "id": "74ef1b1a-82c6-46ec-a5c0-ef3d45d26fa6",
+              "type": "default",
+              "x": 125.796875,
+              "y": 57,
+              "name": "out-1775461748719",
+              "alignment": "right",
+              "parentNode": "442fc0b3-430c-4e3b-92f1-2922786d649d",
+              "links": [
+                "ece4f30a-a06a-4057-be39-58406a742cc5"
+              ],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Start",
+          "color": "#16db26e6",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "74ef1b1a-82c6-46ec-a5c0-ef3d45d26fa6"
+          ]
+        },
+        "2dba8a9b-40e3-4206-979f-3ca8650802fb": {
+          "id": "2dba8a9b-40e3-4206-979f-3ca8650802fb",
+          "type": "location",
+          "selected": false,
+          "x": -34,
+          "y": -159,
+          "ports": [
+            {
+              "id": "9f1f30ca-eaf0-4cc2-8d6a-1c41cf7a995d",
+              "type": "default",
+              "x": 197.09375,
+              "y": -128,
+              "name": "out-1775461751682",
+              "alignment": "right",
+              "parentNode": "2dba8a9b-40e3-4206-979f-3ca8650802fb",
+              "links": [
+                "c4c065cf-e388-4de3-b84a-bd18102cc497"
+              ],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Location",
+          "color": "#3a7bdd",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "9f1f30ca-eaf0-4cc2-8d6a-1c41cf7a995d"
+          ],
+          "locationType": "area",
+          "locations": [
+            "-1383, 52, -486, 0, 0",
+            "-1383, 54, -486, 0, 0"
+          ],
+          "conditions": {
+            "conditions": [
+              ""
+            ],
+            "args": [],
+            "ors": [
+              false
+            ],
+            "negates": [
+              false
+            ]
+          }
+        },
+        "5095382e-ac5a-4792-a931-c75b03ac1bb6": {
+          "id": "5095382e-ac5a-4792-a931-c75b03ac1bb6",
+          "type": "action",
+          "selected": true,
+          "x": 336,
+          "y": -37,
+          "ports": [
+            {
+              "id": "9f260e99-d66f-4f65-a15c-ce909d4d64db",
+              "type": "default",
+              "x": 323,
+              "y": -6,
+              "name": "in-1775461792790 ",
+              "alignment": "left",
+              "parentNode": "5095382e-ac5a-4792-a931-c75b03ac1bb6",
+              "links": [
+                "ece4f30a-a06a-4057-be39-58406a742cc5",
+                "c4c065cf-e388-4de3-b84a-bd18102cc497"
+              ],
+              "in": true,
+              "label": "❯"
+            },
+            {
+              "id": "4e9aa0a9-fd18-4e55-b65c-54791c28d537",
+              "type": "default",
+              "x": 732.484375,
+              "y": -6,
+              "name": "out-1775461792790",
+              "alignment": "right",
+              "parentNode": "5095382e-ac5a-4792-a931-c75b03ac1bb6",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Action",
+          "color": "#3e077ee6",
+          "portsInOrder": [
+            "9f260e99-d66f-4f65-a15c-ce909d4d64db"
+          ],
+          "portsOutOrder": [
+            "4e9aa0a9-fd18-4e55-b65c-54791c28d537"
+          ],
+          "actions": {
+            "actions": [
+              "teleport"
+            ],
+            "args": [
+              [
+                "WATERFALL_QUEST_GLARIALS_TOMB_EXIT"
+              ]
+            ]
+          }
+        },
+        "1f5ad099-ab17-42d6-a98a-c6d73af26648": {
+          "id": "1f5ad099-ab17-42d6-a98a-c6d73af26648",
+          "type": "note",
+          "selected": false,
+          "x": 338,
+          "y": -109,
+          "ports": [],
+          "title": "Note",
+          "color": "#19e0e7e6",
+          "portsInOrder": [],
+          "portsOutOrder": [],
+          "text": "teleports player out of glarials tomb"
+        }
+      }
+    }
+  ],
+  "trees": {}
+}
