@@ -151,34 +151,6 @@
           "curvyness": 50,
           "selectedColor": "rgb(0,192,255)"
         },
-        "19ae0d90-ffc6-4a8e-84bd-ec716ca87989": {
-          "id": "19ae0d90-ffc6-4a8e-84bd-ec716ca87989",
-          "type": "default",
-          "selected": false,
-          "source": "27906423-5608-4353-8b90-c5a5f846480f",
-          "sourcePort": "3e7c12ad-ac0a-4063-9747-97a34a8676c2",
-          "target": "c00e1b18-a1ca-45a5-89b7-9fb8d03a0640",
-          "targetPort": "26cab532-1ca6-4dfc-98d2-f25a9bfae6ed",
-          "points": [
-            {
-              "id": "05c3b433-a65c-4c15-b553-38a780db3aff",
-              "type": "point",
-              "x": 163.42187159840506,
-              "y": -105.37500382667434
-            },
-            {
-              "id": "0fd85b46-fd67-48c4-97ed-2735d5575f97",
-              "type": "point",
-              "x": 207.01561770201545,
-              "y": -34.43749622574349
-            }
-          ],
-          "labels": [],
-          "width": 3,
-          "color": "gray",
-          "curvyness": 50,
-          "selectedColor": "rgb(0,192,255)"
-        },
         "bbef7d2d-65e6-4903-b049-edbc624a28d7": {
           "id": "bbef7d2d-65e6-4903-b049-edbc624a28d7",
           "type": "default",
@@ -287,8 +259,7 @@
               "alignment": "left",
               "parentNode": "c00e1b18-a1ca-45a5-89b7-9fb8d03a0640",
               "links": [
-                "ad4380cd-dc46-47ef-99f4-ddcd4e83db6f",
-                "19ae0d90-ffc6-4a8e-84bd-ec716ca87989"
+                "ad4380cd-dc46-47ef-99f4-ddcd4e83db6f"
               ],
               "in": true,
               "label": "❯"
@@ -601,7 +572,7 @@
         "145d0bc1-ca73-474a-afcf-07891599d9e1": {
           "id": "145d0bc1-ca73-474a-afcf-07891599d9e1",
           "type": "action",
-          "selected": true,
+          "selected": false,
           "x": 213.76257661092754,
           "y": 193.88933864539905,
           "ports": [
@@ -663,52 +634,6 @@
           "portsInOrder": [],
           "portsOutOrder": [],
           "text": "teleport to rock"
-        },
-        "27906423-5608-4353-8b90-c5a5f846480f": {
-          "id": "27906423-5608-4353-8b90-c5a5f846480f",
-          "type": "location",
-          "selected": false,
-          "x": -75.1872112320302,
-          "y": -143.87874519893438,
-          "ports": [
-            {
-              "id": "3e7c12ad-ac0a-4063-9747-97a34a8676c2",
-              "type": "default",
-              "x": 155.9218689617474,
-              "y": -112.87502455459064,
-              "name": "out-1775412568825",
-              "alignment": "right",
-              "parentNode": "27906423-5608-4353-8b90-c5a5f846480f",
-              "links": [
-                "19ae0d90-ffc6-4a8e-84bd-ec716ca87989"
-              ],
-              "in": false,
-              "label": "❯"
-            }
-          ],
-          "title": "Location",
-          "color": "#3a7bdd",
-          "portsInOrder": [],
-          "portsOutOrder": [
-            "3e7c12ad-ac0a-4063-9747-97a34a8676c2"
-          ],
-          "locationType": "area",
-          "locations": [
-            "-1528, 86, -581, 0, 0",
-            "-1528, 85, -581, 0, 0"
-          ],
-          "conditions": {
-            "conditions": [
-              ""
-            ],
-            "args": [],
-            "ors": [
-              false
-            ],
-            "negates": [
-              false
-            ]
-          }
         },
         "ebadbafe-564b-4871-bc72-8b9b525e2947": {
           "id": "ebadbafe-564b-4871-bc72-8b9b525e2947",
