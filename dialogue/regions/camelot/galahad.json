@@ -1,0 +1,1001 @@
+{
+  "id": "6bef4c0b-297c-4817-adab-3d9c8c0e1016",
+  "offsetX": 289.941355337538,
+  "offsetY": 340.5787676100631,
+  "zoom": 97.22222239176432,
+  "gridSize": 0,
+  "layers": [
+    {
+      "id": "306e7037-6908-4c7b-8f5e-d08c791c3fa1",
+      "type": "diagram-links",
+      "isSvg": true,
+      "transformed": true,
+      "models": {
+        "8ac7ca8f-8a8c-4b39-ac0e-6fc9e5051b51": {
+          "id": "8ac7ca8f-8a8c-4b39-ac0e-6fc9e5051b51",
+          "type": "default",
+          "selected": false,
+          "source": "e77c05f9-5d40-4a74-88bf-f31d1a2746a1",
+          "sourcePort": "94c35d9a-ce99-4b52-ad71-00e6419345f9",
+          "target": "f9210776-cdae-45d6-929c-c22e5e0f89ca",
+          "targetPort": "73b2b330-0040-4e36-8260-7bc46ea86fb6",
+          "points": [
+            {
+              "id": "e6b94b31-c8c6-4b02-8016-53c265b93db9",
+              "type": "point",
+              "x": 133.29688876969703,
+              "y": 64.499992865273
+            },
+            {
+              "id": "e362aa80-2349-4f00-8b63-aa3b1c74eec4",
+              "type": "point",
+              "x": 455.37500274486774,
+              "y": 76.60937481960234
+            }
+          ],
+          "labels": [],
+          "width": 3,
+          "color": "gray",
+          "curvyness": 50,
+          "selectedColor": "rgb(0,192,255)"
+        }
+      }
+    },
+    {
+      "id": "417575de-2789-40af-af1e-baf6b3c9e4d7",
+      "type": "diagram-nodes",
+      "isSvg": false,
+      "transformed": true,
+      "models": {
+        "e77c05f9-5d40-4a74-88bf-f31d1a2746a1": {
+          "id": "e77c05f9-5d40-4a74-88bf-f31d1a2746a1",
+          "type": "start",
+          "selected": false,
+          "x": 50,
+          "y": 50,
+          "ports": [
+            {
+              "id": "94c35d9a-ce99-4b52-ad71-00e6419345f9",
+              "type": "default",
+              "x": 125.79689924594564,
+              "y": 56.99998764676715,
+              "name": "out-1777916331952",
+              "alignment": "right",
+              "parentNode": "e77c05f9-5d40-4a74-88bf-f31d1a2746a1",
+              "links": [
+                "8ac7ca8f-8a8c-4b39-ac0e-6fc9e5051b51"
+              ],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Start",
+          "color": "#16db26e6",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "94c35d9a-ce99-4b52-ad71-00e6419345f9"
+          ]
+        },
+        "f9210776-cdae-45d6-929c-c22e5e0f89ca": {
+          "id": "f9210776-cdae-45d6-929c-c22e5e0f89ca",
+          "type": "tree",
+          "selected": false,
+          "x": 456.8864671975463,
+          "y": 54.61149589372631,
+          "ports": [
+            {
+              "id": "73b2b330-0040-4e36-8260-7bc46ea86fb6",
+              "type": "default",
+              "x": 447.87498183160744,
+              "y": 69.10936960109649,
+              "name": "in-1777916687323 ",
+              "alignment": "left",
+              "parentNode": "f9210776-cdae-45d6-929c-c22e5e0f89ca",
+              "links": [
+                "8ac7ca8f-8a8c-4b39-ac0e-6fc9e5051b51"
+              ],
+              "in": true,
+              "label": "❯"
+            }
+          ],
+          "title": "Tree",
+          "color": "#e02e87e6",
+          "portsInOrder": [
+            "73b2b330-0040-4e36-8260-7bc46ea86fb6"
+          ],
+          "portsOutOrder": [],
+          "tree": "before_quest",
+          "start": "Start"
+        },
+        "292b43b4-5e96-45ea-b279-a95e247b1ab5": {
+          "id": "292b43b4-5e96-45ea-b279-a95e247b1ab5",
+          "type": "note",
+          "selected": false,
+          "x": 164.11409688414525,
+          "y": -117.92462304384891,
+          "ports": [],
+          "title": "Note",
+          "color": "#19e0e7e6",
+          "portsInOrder": [],
+          "portsOutOrder": [],
+          "text": "Holy Grail Quest"
+        }
+      }
+    }
+  ],
+  "trees": {
+    "before_quest": {
+      "id": "6bef4c0b-297c-4817-adab-3d9c8c0e1016",
+      "offsetX": 226.0572278720619,
+      "offsetY": 145.41715919304784,
+      "zoom": 83.33333435058591,
+      "gridSize": 0,
+      "layers": [
+        {
+          "id": "306e7037-6908-4c7b-8f5e-d08c791c3fa1",
+          "type": "diagram-links",
+          "isSvg": true,
+          "transformed": true,
+          "models": {
+            "125b92ec-9c28-4c7a-ad9e-52bffb020f83": {
+              "id": "125b92ec-9c28-4c7a-ad9e-52bffb020f83",
+              "type": "default",
+              "selected": false,
+              "source": "db28c00f-3609-4670-8853-319c2b1a07e8",
+              "sourcePort": "94c35d9a-ce99-4b52-ad71-00e6419345f9",
+              "target": "d4478115-4d19-459a-992c-4011407abbaf",
+              "targetPort": "d19e2a8c-de5b-4489-a19c-7c3ab20a75b0",
+              "points": [
+                {
+                  "id": "1e4cb99e-269b-4e2e-9980-866f4cac15b3",
+                  "type": "point",
+                  "x": 133.29685227011691,
+                  "y": 64.50001853255137
+                },
+                {
+                  "id": "7e1a6a99-5e49-4996-977a-1d422f136af5",
+                  "type": "point",
+                  "x": 177.49997673052798,
+                  "y": 131.4999933006181
+                }
+              ],
+              "labels": [],
+              "width": 3,
+              "color": "gray",
+              "curvyness": 50,
+              "selectedColor": "rgb(0,192,255)"
+            },
+            "ac1d4615-2b8f-456b-bc7b-d6da1cdb9725": {
+              "id": "ac1d4615-2b8f-456b-bc7b-d6da1cdb9725",
+              "type": "default",
+              "selected": false,
+              "source": "d4478115-4d19-459a-992c-4011407abbaf",
+              "sourcePort": "b0fded8d-ea19-4714-a349-a9bce8d7041f",
+              "target": "cce28942-1d9a-4c90-86fa-eb6e5f68c6ed",
+              "targetPort": "3c4ae86f-fea6-4acc-8174-f44ee9339e4a",
+              "points": [
+                {
+                  "id": "ec7d65d9-4bf0-4001-8356-94bafc770e03",
+                  "type": "point",
+                  "x": 668.17194339713,
+                  "y": 131.4999933006181
+                },
+                {
+                  "id": "1e58cc30-b67d-4a5a-b9bf-ee0fafc8ba02",
+                  "type": "point",
+                  "x": 177.49997673052798,
+                  "y": 209.49999234846968
+                }
+              ],
+              "labels": [],
+              "width": 3,
+              "color": "gray",
+              "curvyness": 50,
+              "selectedColor": "rgb(0,192,255)"
+            },
+            "f21d0fcb-b568-4040-a812-df54875385b6": {
+              "id": "f21d0fcb-b568-4040-a812-df54875385b6",
+              "type": "default",
+              "selected": false,
+              "source": "cce28942-1d9a-4c90-86fa-eb6e5f68c6ed",
+              "sourcePort": "b070f298-e017-4ca8-80c6-7e8d8b75f5f9",
+              "target": "b505a717-1664-4ce8-b68c-3a9004c94a99",
+              "targetPort": "0674cafa-3ee0-4e5d-a026-69e70920ec71",
+              "points": [
+                {
+                  "id": "351d0231-367b-4a21-9a80-b0257fa495ff",
+                  "type": "point",
+                  "x": 580.2343712283991,
+                  "y": 209.49999234846968
+                },
+                {
+                  "id": "91225251-29db-4d47-9d19-e27ff6af88b9",
+                  "type": "point",
+                  "x": 177.49997673052798,
+                  "y": 272.4999915794267
+                }
+              ],
+              "labels": [],
+              "width": 3,
+              "color": "gray",
+              "curvyness": 50,
+              "selectedColor": "rgb(0,192,255)"
+            },
+            "8760023c-82b8-4844-ad32-d47afb394914": {
+              "id": "8760023c-82b8-4844-ad32-d47afb394914",
+              "type": "default",
+              "selected": false,
+              "source": "b505a717-1664-4ce8-b68c-3a9004c94a99",
+              "sourcePort": "15a7118c-a73b-4faf-b8e7-05c122f8230b",
+              "target": "f3554d07-912b-4ccd-8af4-ceaedfd7d9f1",
+              "targetPort": "bed8d885-a7ad-43d5-ad16-c62d8a9fa270",
+              "points": [
+                {
+                  "id": "3c70a76e-4ecd-400c-8042-d35178c336ba",
+                  "type": "point",
+                  "x": 575.0781212913416,
+                  "y": 317.4999910301103
+                },
+                {
+                  "id": "0d75066f-c25b-4b41-844c-d8945db57525",
+                  "type": "point",
+                  "x": 177.49997673052798,
+                  "y": 385.5000146140944
+                }
+              ],
+              "labels": [],
+              "width": 3,
+              "color": "gray",
+              "curvyness": 50,
+              "selectedColor": "rgb(0,192,255)"
+            },
+            "7242b540-cd39-4edf-b519-16395ef5ddad": {
+              "id": "7242b540-cd39-4edf-b519-16395ef5ddad",
+              "type": "default",
+              "selected": false,
+              "source": "f3554d07-912b-4ccd-8af4-ceaedfd7d9f1",
+              "sourcePort": "7d5d9a23-9ceb-4026-8fb7-d23a933f4735",
+              "target": "1e618e2b-66d7-4aa5-b1fa-fc693908fed9",
+              "targetPort": "420b7a31-d64f-4c44-b14e-c561aa1f1544",
+              "points": [
+                {
+                  "id": "165efaa3-1955-42fb-885a-e38c39cba19e",
+                  "type": "point",
+                  "x": 536.2656217651272,
+                  "y": 385.5000146140944
+                },
+                {
+                  "id": "054d55e2-1d2c-43a9-9371-e52fbdc68768",
+                  "type": "point",
+                  "x": 177.49997673052798,
+                  "y": 448.5000138450515
+                }
+              ],
+              "labels": [],
+              "width": 3,
+              "color": "gray",
+              "curvyness": 50,
+              "selectedColor": "rgb(0,192,255)"
+            },
+            "927c548f-7ee8-4d33-956d-fc60a719261c": {
+              "id": "927c548f-7ee8-4d33-956d-fc60a719261c",
+              "type": "default",
+              "selected": false,
+              "source": "1e618e2b-66d7-4aa5-b1fa-fc693908fed9",
+              "sourcePort": "395dbe4b-0daa-4b56-800f-8d507531a80b",
+              "target": "be583857-fab7-4791-bf23-80482ed996d7",
+              "targetPort": "f294d072-43e6-490d-9f87-83563ee5aebc",
+              "points": [
+                {
+                  "id": "8682e814-c0f3-4507-9a38-2d414b55c4d8",
+                  "type": "point",
+                  "x": 668.17194339713,
+                  "y": 448.5000138450515
+                },
+                {
+                  "id": "7683d22f-561f-4a6a-bc21-9b76110940eb",
+                  "type": "point",
+                  "x": 177.49997673052798,
+                  "y": 571.5000123435866
+                }
+              ],
+              "labels": [],
+              "width": 3,
+              "color": "gray",
+              "curvyness": 50,
+              "selectedColor": "rgb(0,192,255)"
+            },
+            "bc754c61-e00d-4e20-ab0e-ddfa2c5f5dd6": {
+              "id": "bc754c61-e00d-4e20-ab0e-ddfa2c5f5dd6",
+              "type": "default",
+              "selected": false,
+              "source": "be583857-fab7-4791-bf23-80482ed996d7",
+              "sourcePort": "2be5b4eb-3535-45ea-9b47-cdb0bd00eadd",
+              "target": "10d80892-e8e7-4984-9c52-2b30bf1d93e0",
+              "targetPort": "47bf2df0-9668-40b8-a7c1-d051490d4053",
+              "points": [
+                {
+                  "id": "ce60af36-2a96-401b-a7f5-6bbe9a9ad933",
+                  "type": "point",
+                  "x": 506.93747270907426,
+                  "y": 571.5000123435866
+                },
+                {
+                  "id": "a4528896-c0d5-494f-9013-4819df0a981e",
+                  "type": "point",
+                  "x": 178.50002554644539,
+                  "y": 645.5000358543286
+                }
+              ],
+              "labels": [],
+              "width": 3,
+              "color": "gray",
+              "curvyness": 50,
+              "selectedColor": "rgb(0,192,255)"
+            },
+            "e83dc798-8912-44fb-af24-db5cc29a0b59": {
+              "id": "e83dc798-8912-44fb-af24-db5cc29a0b59",
+              "type": "default",
+              "selected": false,
+              "source": "b505a717-1664-4ce8-b68c-3a9004c94a99",
+              "sourcePort": "650e3810-3332-499a-948c-82b0291c75c6",
+              "target": "0c7eb003-be81-4892-9f88-ee62f7d5dbba",
+              "targetPort": "0794c683-4f79-437a-a59a-7076c8a3b03d",
+              "points": [
+                {
+                  "id": "1c00d9ff-790a-4998-8929-97f194accc91",
+                  "type": "point",
+                  "x": 575.0781212913416,
+                  "y": 281.4999914695635
+                },
+                {
+                  "id": "b0bb893d-b1bf-41f8-9273-06e5b101d0d4",
+                  "type": "point",
+                  "x": 734.1405949355985,
+                  "y": 344.9218656953707
+                }
+              ],
+              "labels": [],
+              "width": 3,
+              "color": "gray",
+              "curvyness": 50,
+              "selectedColor": "rgb(0,192,255)"
+            },
+            "cace0146-1a9e-4a38-aa53-891cadcc9888": {
+              "id": "cace0146-1a9e-4a38-aa53-891cadcc9888",
+              "type": "default",
+              "selected": false,
+              "source": "0c7eb003-be81-4892-9f88-ee62f7d5dbba",
+              "sourcePort": "f7775bc0-53ea-47ff-99c2-a37ce9f7fc41",
+              "target": "01ca082a-1991-465c-999c-436938e8f3b3",
+              "targetPort": "1a5279b8-e3a9-42e3-91f6-695156f810d5",
+              "points": [
+                {
+                  "id": "4162abef-b5e8-4770-919b-9c8f91e6df05",
+                  "type": "point",
+                  "x": 1070.9062646528148,
+                  "y": 344.9218656953707
+                },
+                {
+                  "id": "ace3350d-8964-461f-99ea-c287e10267b5",
+                  "type": "point",
+                  "x": 734.1405949355985,
+                  "y": 407.92186492632777
+                }
+              ],
+              "labels": [],
+              "width": 3,
+              "color": "gray",
+              "curvyness": 50,
+              "selectedColor": "rgb(0,192,255)"
+            },
+            "7bcfca79-82fd-476c-93d8-2736fd0154e9": {
+              "id": "7bcfca79-82fd-476c-93d8-2736fd0154e9",
+              "type": "default",
+              "selected": false,
+              "source": "01ca082a-1991-465c-999c-436938e8f3b3",
+              "sourcePort": "4f4ebaff-8589-410b-91ea-1feae436776b",
+              "target": "c3e2eb94-921d-42ca-a3e4-802b058f3a1f",
+              "targetPort": "f4a0458b-bc90-41fd-8b5a-7dab8257ee89",
+              "points": [
+                {
+                  "id": "79f0e838-e236-4c36-bc4b-ed05b132e940",
+                  "type": "point",
+                  "x": 931.6563151807682,
+                  "y": 407.92186492632777
+                },
+                {
+                  "id": "a0f0a3f2-07ff-4c4e-9262-fdfb2b6ff18f",
+                  "type": "point",
+                  "x": 734.1405949355985,
+                  "y": 470.92186415728474
+                }
+              ],
+              "labels": [],
+              "width": 3,
+              "color": "gray",
+              "curvyness": 50,
+              "selectedColor": "rgb(0,192,255)"
+            },
+            "f5347b11-fbf8-4d24-a505-821bdc531a8c": {
+              "id": "f5347b11-fbf8-4d24-a505-821bdc531a8c",
+              "type": "default",
+              "selected": false,
+              "source": "c3e2eb94-921d-42ca-a3e4-802b058f3a1f",
+              "sourcePort": "374cf385-5da5-422b-a96f-d8636317eef8",
+              "target": "be583857-fab7-4791-bf23-80482ed996d7",
+              "targetPort": "f294d072-43e6-490d-9f87-83563ee5aebc",
+              "points": [
+                {
+                  "id": "47d53f9f-3cff-4eb2-a99e-a1f630dd323e",
+                  "type": "point",
+                  "x": 1202.8281868705647,
+                  "y": 470.92186415728474
+                },
+                {
+                  "id": "36263bde-d13d-496e-b975-0c4153143720",
+                  "type": "point",
+                  "x": 177.49997673052798,
+                  "y": 571.5000123435866
+                }
+              ],
+              "labels": [],
+              "width": 3,
+              "color": "gray",
+              "curvyness": 50,
+              "selectedColor": "rgb(0,192,255)"
+            }
+          }
+        },
+        {
+          "id": "417575de-2789-40af-af1e-baf6b3c9e4d7",
+          "type": "diagram-nodes",
+          "isSvg": false,
+          "transformed": true,
+          "models": {
+            "db28c00f-3609-4670-8853-319c2b1a07e8": {
+              "id": "db28c00f-3609-4670-8853-319c2b1a07e8",
+              "type": "start",
+              "selected": false,
+              "x": 50,
+              "y": 50,
+              "ports": [
+                {
+                  "id": "94c35d9a-ce99-4b52-ad71-00e6419345f9",
+                  "type": "default",
+                  "x": 125.79685236166964,
+                  "y": 57.0000186241041,
+                  "name": "out-1777916331952",
+                  "alignment": "right",
+                  "parentNode": "db28c00f-3609-4670-8853-319c2b1a07e8",
+                  "links": [
+                    "125b92ec-9c28-4c7a-ad9e-52bffb020f83"
+                  ],
+                  "in": false,
+                  "label": "❯"
+                }
+              ],
+              "title": "Start",
+              "color": "#16db26e6",
+              "portsInOrder": [],
+              "portsOutOrder": [
+                "94c35d9a-ce99-4b52-ad71-00e6419345f9"
+              ]
+            },
+            "d4478115-4d19-459a-992c-4011407abbaf": {
+              "id": "d4478115-4d19-459a-992c-4011407abbaf",
+              "type": "dialogue",
+              "selected": false,
+              "x": 183,
+              "y": 93,
+              "ports": [
+                {
+                  "id": "d19e2a8c-de5b-4489-a19c-7c3ab20a75b0",
+                  "type": "default",
+                  "x": 169.99997682208073,
+                  "y": 123.99999339217082,
+                  "name": "in-1777916342272 ",
+                  "alignment": "left",
+                  "parentNode": "d4478115-4d19-459a-992c-4011407abbaf",
+                  "links": [
+                    "125b92ec-9c28-4c7a-ad9e-52bffb020f83"
+                  ],
+                  "in": true,
+                  "label": "❯"
+                },
+                {
+                  "id": "b0fded8d-ea19-4714-a349-a9bce8d7041f",
+                  "type": "default",
+                  "x": 660.6719434886827,
+                  "y": 123.99999339217082,
+                  "name": "out-1777916342272",
+                  "alignment": "right",
+                  "parentNode": "d4478115-4d19-459a-992c-4011407abbaf",
+                  "links": [
+                    "ac1d4615-2b8f-456b-bc7b-d6da1cdb9725"
+                  ],
+                  "in": false,
+                  "label": "❯"
+                }
+              ],
+              "title": "Galahad",
+              "color": "#dd341ee6",
+              "portsInOrder": [
+                "d19e2a8c-de5b-4489-a19c-7c3ab20a75b0"
+              ],
+              "portsOutOrder": [
+                "b0fded8d-ea19-4714-a349-a9bce8d7041f"
+              ],
+              "text": "Welcome to my home. It's rare for me to have guests!\nWould you like a cup of tea? I'll just put the kettle on."
+            },
+            "cce28942-1d9a-4c90-86fa-eb6e5f68c6ed": {
+              "id": "cce28942-1d9a-4c90-86fa-eb6e5f68c6ed",
+              "type": "dialogue",
+              "selected": false,
+              "x": 183,
+              "y": 171,
+              "ports": [
+                {
+                  "id": "3c4ae86f-fea6-4acc-8174-f44ee9339e4a",
+                  "type": "default",
+                  "x": 169.99997682208073,
+                  "y": 201.99999244002242,
+                  "name": "in-1777916348272 ",
+                  "alignment": "left",
+                  "parentNode": "cce28942-1d9a-4c90-86fa-eb6e5f68c6ed",
+                  "links": [
+                    "ac1d4615-2b8f-456b-bc7b-d6da1cdb9725"
+                  ],
+                  "in": true,
+                  "label": "❯"
+                },
+                {
+                  "id": "b070f298-e017-4ca8-80c6-7e8d8b75f5f9",
+                  "type": "default",
+                  "x": 572.734371319952,
+                  "y": 201.99999244002242,
+                  "name": "out-1777916348272",
+                  "alignment": "right",
+                  "parentNode": "cce28942-1d9a-4c90-86fa-eb6e5f68c6ed",
+                  "links": [
+                    "f21d0fcb-b568-4040-a812-df54875385b6"
+                  ],
+                  "in": false,
+                  "label": "❯"
+                }
+              ],
+              "title": "",
+              "color": "#dd341ee6",
+              "portsInOrder": [
+                "3c4ae86f-fea6-4acc-8174-f44ee9339e4a"
+              ],
+              "portsOutOrder": [
+                "b070f298-e017-4ca8-80c6-7e8d8b75f5f9"
+              ],
+              "text": "Brother Galahad hangs a kettle over the fire."
+            },
+            "b505a717-1664-4ce8-b68c-3a9004c94a99": {
+              "id": "b505a717-1664-4ce8-b68c-3a9004c94a99",
+              "type": "option",
+              "selected": false,
+              "x": 183,
+              "y": 234,
+              "ports": [
+                {
+                  "id": "650e3810-3332-499a-948c-82b0291c75c6",
+                  "type": "default",
+                  "x": 567.5781213828944,
+                  "y": 273.9999915611162,
+                  "name": "out-17779163728921",
+                  "alignment": "right",
+                  "parentNode": "b505a717-1664-4ce8-b68c-3a9004c94a99",
+                  "links": [
+                    "e83dc798-8912-44fb-af24-db5cc29a0b59"
+                  ],
+                  "in": false,
+                  "label": "❯"
+                },
+                {
+                  "id": "0674cafa-3ee0-4e5d-a026-69e70920ec71",
+                  "type": "default",
+                  "x": 169.99997682208073,
+                  "y": 264.99999167097945,
+                  "name": "in-1777916372892 ",
+                  "alignment": "left",
+                  "parentNode": "b505a717-1664-4ce8-b68c-3a9004c94a99",
+                  "links": [
+                    "f21d0fcb-b568-4040-a812-df54875385b6"
+                  ],
+                  "in": true,
+                  "label": "❯"
+                },
+                {
+                  "id": "15a7118c-a73b-4faf-b8e7-05c122f8230b",
+                  "type": "default",
+                  "x": 567.5781213828944,
+                  "y": 309.9999911216631,
+                  "name": "out-1777916372892",
+                  "alignment": "right",
+                  "parentNode": "b505a717-1664-4ce8-b68c-3a9004c94a99",
+                  "links": [
+                    "8760023c-82b8-4844-ad32-d47afb394914"
+                  ],
+                  "in": false,
+                  "label": "❯"
+                }
+              ],
+              "title": "Select an option.",
+              "color": "#0756b1e6",
+              "portsInOrder": [
+                "0674cafa-3ee0-4e5d-a026-69e70920ec71"
+              ],
+              "portsOutOrder": [
+                "650e3810-3332-499a-948c-82b0291c75c6",
+                "15a7118c-a73b-4faf-b8e7-05c122f8230b"
+              ],
+              "options": [
+                {
+                  "conditions": [
+                    ""
+                  ],
+                  "args": [],
+                  "ors": [
+                    false
+                  ],
+                  "negates": [
+                    false
+                  ],
+                  "text": "Are you any relation to Sir Galahad?"
+                },
+                {
+                  "conditions": [
+                    ""
+                  ],
+                  "args": [],
+                  "ors": [
+                    false
+                  ],
+                  "negates": [
+                    false
+                  ],
+                  "text": "Do you get lonely here on your own?"
+                }
+              ]
+            },
+            "f3554d07-912b-4ccd-8af4-ceaedfd7d9f1": {
+              "id": "f3554d07-912b-4ccd-8af4-ceaedfd7d9f1",
+              "type": "dialogue",
+              "selected": false,
+              "x": 183,
+              "y": 347,
+              "ports": [
+                {
+                  "id": "bed8d885-a7ad-43d5-ad16-c62d8a9fa270",
+                  "type": "default",
+                  "x": 169.99997682208073,
+                  "y": 378.0000147056472,
+                  "name": "in-1777916380672 ",
+                  "alignment": "left",
+                  "parentNode": "f3554d07-912b-4ccd-8af4-ceaedfd7d9f1",
+                  "links": [
+                    "8760023c-82b8-4844-ad32-d47afb394914"
+                  ],
+                  "in": true,
+                  "label": "❯"
+                },
+                {
+                  "id": "7d5d9a23-9ceb-4026-8fb7-d23a933f4735",
+                  "type": "default",
+                  "x": 528.7656218566799,
+                  "y": 378.0000147056472,
+                  "name": "out-1777916380672",
+                  "alignment": "right",
+                  "parentNode": "f3554d07-912b-4ccd-8af4-ceaedfd7d9f1",
+                  "links": [
+                    "7242b540-cd39-4edf-b519-16395ef5ddad"
+                  ],
+                  "in": false,
+                  "label": "❯"
+                }
+              ],
+              "title": "<player>",
+              "color": "#dd341ee6",
+              "portsInOrder": [
+                "bed8d885-a7ad-43d5-ad16-c62d8a9fa270"
+              ],
+              "portsOutOrder": [
+                "7d5d9a23-9ceb-4026-8fb7-d23a933f4735"
+              ],
+              "text": "Do you get lonely out here on your own?"
+            },
+            "1e618e2b-66d7-4aa5-b1fa-fc693908fed9": {
+              "id": "1e618e2b-66d7-4aa5-b1fa-fc693908fed9",
+              "type": "dialogue",
+              "selected": false,
+              "x": 183,
+              "y": 410,
+              "ports": [
+                {
+                  "id": "420b7a31-d64f-4c44-b14e-c561aa1f1544",
+                  "type": "default",
+                  "x": 169.99997682208073,
+                  "y": 441.00001393660426,
+                  "name": "in-1777916386072 ",
+                  "alignment": "left",
+                  "parentNode": "1e618e2b-66d7-4aa5-b1fa-fc693908fed9",
+                  "links": [
+                    "7242b540-cd39-4edf-b519-16395ef5ddad"
+                  ],
+                  "in": true,
+                  "label": "❯"
+                },
+                {
+                  "id": "395dbe4b-0daa-4b56-800f-8d507531a80b",
+                  "type": "default",
+                  "x": 660.6719434886827,
+                  "y": 441.00001393660426,
+                  "name": "out-1777916386072",
+                  "alignment": "right",
+                  "parentNode": "1e618e2b-66d7-4aa5-b1fa-fc693908fed9",
+                  "links": [
+                    "927c548f-7ee8-4d33-956d-fc60a719261c"
+                  ],
+                  "in": false,
+                  "label": "❯"
+                }
+              ],
+              "title": "Galahad",
+              "color": "#dd341ee6",
+              "portsInOrder": [
+                "420b7a31-d64f-4c44-b14e-c561aa1f1544"
+              ],
+              "portsOutOrder": [
+                "395dbe4b-0daa-4b56-800f-8d507531a80b"
+              ],
+              "text": "Sometimes I do, yes. Still not many people to share my\nsolidarity with, as most of the religious men around here\nare worshippers of Saradomin. Half a moment, your cup\nof tea is ready."
+            },
+            "be583857-fab7-4791-bf23-80482ed996d7": {
+              "id": "be583857-fab7-4791-bf23-80482ed996d7",
+              "type": "dialogue",
+              "selected": false,
+              "x": 183,
+              "y": 533,
+              "ports": [
+                {
+                  "id": "f294d072-43e6-490d-9f87-83563ee5aebc",
+                  "type": "default",
+                  "x": 169.99997682208073,
+                  "y": 564.0000124351394,
+                  "name": "in-1777916390892 ",
+                  "alignment": "left",
+                  "parentNode": "be583857-fab7-4791-bf23-80482ed996d7",
+                  "links": [
+                    "927c548f-7ee8-4d33-956d-fc60a719261c",
+                    "f5347b11-fbf8-4d24-a505-821bdc531a8c"
+                  ],
+                  "in": true,
+                  "label": "❯"
+                },
+                {
+                  "id": "2be5b4eb-3535-45ea-9b47-cdb0bd00eadd",
+                  "type": "default",
+                  "x": 499.437472800627,
+                  "y": 564.0000124351394,
+                  "name": "out-1777916390892",
+                  "alignment": "right",
+                  "parentNode": "be583857-fab7-4791-bf23-80482ed996d7",
+                  "links": [
+                    "bc754c61-e00d-4e20-ab0e-ddfa2c5f5dd6"
+                  ],
+                  "in": false,
+                  "label": "❯"
+                }
+              ],
+              "title": "",
+              "color": "#dd341ee6",
+              "portsInOrder": [
+                "f294d072-43e6-490d-9f87-83563ee5aebc"
+              ],
+              "portsOutOrder": [
+                "2be5b4eb-3535-45ea-9b47-cdb0bd00eadd"
+              ],
+              "text": "Sir Galahad gives you a cup of tea."
+            },
+            "10d80892-e8e7-4984-9c52-2b30bf1d93e0": {
+              "id": "10d80892-e8e7-4984-9c52-2b30bf1d93e0",
+              "type": "action",
+              "selected": false,
+              "x": 184,
+              "y": 607,
+              "ports": [
+                {
+                  "id": "47bf2df0-9668-40b8-a7c1-d051490d4053",
+                  "type": "default",
+                  "x": 171.0000256379981,
+                  "y": 638.0000359458813,
+                  "name": "in-1777916428326 ",
+                  "alignment": "left",
+                  "parentNode": "10d80892-e8e7-4984-9c52-2b30bf1d93e0",
+                  "links": [
+                    "bc754c61-e00d-4e20-ab0e-ddfa2c5f5dd6"
+                  ],
+                  "in": true,
+                  "label": "❯"
+                },
+                {
+                  "id": "383ac344-ca61-4fcc-9971-558f619a2ead",
+                  "type": "default",
+                  "x": 474.71874751643173,
+                  "y": 638.0000359458813,
+                  "name": "out-1777916428326",
+                  "alignment": "right",
+                  "parentNode": "10d80892-e8e7-4984-9c52-2b30bf1d93e0",
+                  "links": [],
+                  "in": false,
+                  "label": "❯"
+                }
+              ],
+              "title": "Action",
+              "color": "#3e077ee6",
+              "portsInOrder": [
+                "47bf2df0-9668-40b8-a7c1-d051490d4053"
+              ],
+              "portsOutOrder": [
+                "383ac344-ca61-4fcc-9971-558f619a2ead"
+              ],
+              "actions": {
+                "actions": [
+                  "giveItem"
+                ],
+                "args": [
+                  [
+                    "CUP_OF_TEA",
+                    "1"
+                  ]
+                ]
+              }
+            },
+            "0c7eb003-be81-4892-9f88-ee62f7d5dbba": {
+              "id": "0c7eb003-be81-4892-9f88-ee62f7d5dbba",
+              "type": "dialogue",
+              "selected": false,
+              "x": 739.6559026980352,
+              "y": 306.43011977868144,
+              "ports": [
+                {
+                  "id": "0794c683-4f79-437a-a59a-7076c8a3b03d",
+                  "type": "default",
+                  "x": 726.6405950271513,
+                  "y": 337.42186578692343,
+                  "name": "in-1777916467092 ",
+                  "alignment": "left",
+                  "parentNode": "0c7eb003-be81-4892-9f88-ee62f7d5dbba",
+                  "links": [
+                    "e83dc798-8912-44fb-af24-db5cc29a0b59"
+                  ],
+                  "in": true,
+                  "label": "❯"
+                },
+                {
+                  "id": "f7775bc0-53ea-47ff-99c2-a37ce9f7fc41",
+                  "type": "default",
+                  "x": 1063.4062647443675,
+                  "y": 337.42186578692343,
+                  "name": "out-1777916467092",
+                  "alignment": "right",
+                  "parentNode": "0c7eb003-be81-4892-9f88-ee62f7d5dbba",
+                  "links": [
+                    "cace0146-1a9e-4a38-aa53-891cadcc9888"
+                  ],
+                  "in": false,
+                  "label": "❯"
+                }
+              ],
+              "title": "<player>",
+              "color": "#dd341ee6",
+              "portsInOrder": [
+                "0794c683-4f79-437a-a59a-7076c8a3b03d"
+              ],
+              "portsOutOrder": [
+                "f7775bc0-53ea-47ff-99c2-a37ce9f7fc41"
+              ],
+              "text": "Are you any relation to Sir Galahad?"
+            },
+            "01ca082a-1991-465c-999c-436938e8f3b3": {
+              "id": "01ca082a-1991-465c-999c-436938e8f3b3",
+              "type": "dialogue",
+              "selected": false,
+              "x": 739.6559026980352,
+              "y": 369.43011977868144,
+              "ports": [
+                {
+                  "id": "1a5279b8-e3a9-42e3-91f6-695156f810d5",
+                  "type": "default",
+                  "x": 726.6405950271513,
+                  "y": 400.42186501788046,
+                  "name": "in-1777916470092 ",
+                  "alignment": "left",
+                  "parentNode": "01ca082a-1991-465c-999c-436938e8f3b3",
+                  "links": [
+                    "cace0146-1a9e-4a38-aa53-891cadcc9888"
+                  ],
+                  "in": true,
+                  "label": "❯"
+                },
+                {
+                  "id": "4f4ebaff-8589-410b-91ea-1feae436776b",
+                  "type": "default",
+                  "x": 924.1563152723209,
+                  "y": 400.42186501788046,
+                  "name": "out-1777916470092",
+                  "alignment": "right",
+                  "parentNode": "01ca082a-1991-465c-999c-436938e8f3b3",
+                  "links": [
+                    "7bcfca79-82fd-476c-93d8-2736fd0154e9"
+                  ],
+                  "in": false,
+                  "label": "❯"
+                }
+              ],
+              "title": "Galahad",
+              "color": "#dd341ee6",
+              "portsInOrder": [
+                "1a5279b8-e3a9-42e3-91f6-695156f810d5"
+              ],
+              "portsOutOrder": [
+                "4f4ebaff-8589-410b-91ea-1feae436776b"
+              ],
+              "text": "I AM Sir Galahad."
+            },
+            "c3e2eb94-921d-42ca-a3e4-802b058f3a1f": {
+              "id": "c3e2eb94-921d-42ca-a3e4-802b058f3a1f",
+              "type": "dialogue",
+              "selected": false,
+              "x": 739.6559026980352,
+              "y": 432.43011977868144,
+              "ports": [
+                {
+                  "id": "f4a0458b-bc90-41fd-8b5a-7dab8257ee89",
+                  "type": "default",
+                  "x": 726.6405950271513,
+                  "y": 463.4218642488375,
+                  "name": "in-1777916474891 ",
+                  "alignment": "left",
+                  "parentNode": "c3e2eb94-921d-42ca-a3e4-802b058f3a1f",
+                  "links": [
+                    "7bcfca79-82fd-476c-93d8-2736fd0154e9"
+                  ],
+                  "in": true,
+                  "label": "❯"
+                },
+                {
+                  "id": "374cf385-5da5-422b-a96f-d8636317eef8",
+                  "type": "default",
+                  "x": 1195.3281869621173,
+                  "y": 463.4218642488375,
+                  "name": "out-1777916474892",
+                  "alignment": "right",
+                  "parentNode": "c3e2eb94-921d-42ca-a3e4-802b058f3a1f",
+                  "links": [
+                    "f5347b11-fbf8-4d24-a505-821bdc531a8c"
+                  ],
+                  "in": false,
+                  "label": "❯"
+                }
+              ],
+              "title": "Galahad",
+              "color": "#dd341ee6",
+              "portsInOrder": [
+                "f4a0458b-bc90-41fd-8b5a-7dab8257ee89"
+              ],
+              "portsOutOrder": [
+                "374cf385-5da5-422b-a96f-d8636317eef8"
+              ],
+              "text": "Although I've retired as a Knight, and now live as a\nsolitary monk. Also, I prefer to be known as brother\nrather than sir now. Half a moment, your cup of tea is\nready."
+            }
+          }
+        }
+      ]
+    }
+  }
+}

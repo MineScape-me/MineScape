@@ -1,0 +1,817 @@
+{
+  "id": "a8d407d9-12c4-4623-a496-e4c138cb83c0",
+  "offsetX": 353.84956298785136,
+  "offsetY": 329.151194995798,
+  "zoom": 105.55555521647136,
+  "gridSize": 0,
+  "layers": [
+    {
+      "id": "a03e8270-9920-4c1a-85fd-dc1f94d3b6d7",
+      "type": "diagram-links",
+      "isSvg": true,
+      "transformed": true,
+      "models": {
+        "f1ae8c24-60e9-48e2-8cf6-42e9575d0594": {
+          "id": "f1ae8c24-60e9-48e2-8cf6-42e9575d0594",
+          "type": "default",
+          "selected": false,
+          "source": "b64dd67b-b45e-43e2-bbf6-50706871fb28",
+          "sourcePort": "0012d7bc-b233-46f6-a5e0-ece912a437e4",
+          "target": "4154b270-a650-453e-83cf-5df4ca252da5",
+          "targetPort": "9b3e4746-c0a5-4e31-aa6c-9b6ca4eb2069",
+          "points": [
+            {
+              "id": "81196234-9744-485e-a805-6f49358e50bd",
+              "type": "point",
+              "x": 133.29687440064652,
+              "y": 64.49998504927531
+            },
+            {
+              "id": "83d6817d-3948-4d40-baaf-bfb3efc59465",
+              "type": "point",
+              "x": 552.8437571731423,
+              "y": 2.9218614576515067
+            }
+          ],
+          "labels": [],
+          "width": 3,
+          "color": "gray",
+          "curvyness": 50,
+          "selectedColor": "rgb(0,192,255)"
+        }
+      }
+    },
+    {
+      "id": "ef253ad4-fcd8-47d1-8530-5e1c6afe724f",
+      "type": "diagram-nodes",
+      "isSvg": false,
+      "transformed": true,
+      "models": {
+        "b64dd67b-b45e-43e2-bbf6-50706871fb28": {
+          "id": "b64dd67b-b45e-43e2-bbf6-50706871fb28",
+          "type": "start",
+          "selected": false,
+          "x": 50,
+          "y": 50,
+          "ports": [
+            {
+              "id": "0012d7bc-b233-46f6-a5e0-ece912a437e4",
+              "type": "default",
+              "x": 125.79685510229375,
+              "y": 56.9999802066175,
+              "name": "out-1777913712331",
+              "alignment": "right",
+              "parentNode": "b64dd67b-b45e-43e2-bbf6-50706871fb28",
+              "links": [
+                "f1ae8c24-60e9-48e2-8cf6-42e9575d0594"
+              ],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Start",
+          "color": "#16db26e6",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "0012d7bc-b233-46f6-a5e0-ece912a437e4"
+          ]
+        },
+        "4154b270-a650-453e-83cf-5df4ca252da5": {
+          "id": "4154b270-a650-453e-83cf-5df4ca252da5",
+          "type": "tree",
+          "selected": false,
+          "x": 554.3530473712474,
+          "y": -19.090605846819052,
+          "ports": [
+            {
+              "id": "9b3e4746-c0a5-4e31-aa6c-9b6ca4eb2069",
+              "type": "default",
+              "x": 545.3437956975694,
+              "y": -4.578128929311353,
+              "name": "in-1777913902018 ",
+              "alignment": "left",
+              "parentNode": "4154b270-a650-453e-83cf-5df4ca252da5",
+              "links": [
+                "f1ae8c24-60e9-48e2-8cf6-42e9575d0594"
+              ],
+              "in": true,
+              "label": "❯"
+            }
+          ],
+          "title": "Tree",
+          "color": "#e02e87e6",
+          "portsInOrder": [
+            "9b3e4746-c0a5-4e31-aa6c-9b6ca4eb2069"
+          ],
+          "portsOutOrder": [],
+          "tree": "before_quest",
+          "start": "Start"
+        },
+        "11039549-59fe-41a2-b1e7-25c2993c0d8a": {
+          "id": "11039549-59fe-41a2-b1e7-25c2993c0d8a",
+          "type": "note",
+          "selected": false,
+          "x": 178.2477830051609,
+          "y": -116.66955352870045,
+          "ports": [],
+          "title": "Note",
+          "color": "#19e0e7e6",
+          "portsInOrder": [],
+          "portsOutOrder": [],
+          "text": "Dwarf Cannon Quest"
+        }
+      }
+    }
+  ],
+  "trees": {
+    "before_quest": {
+      "id": "a8d407d9-12c4-4623-a496-e4c138cb83c0",
+      "offsetX": 462,
+      "offsetY": 142,
+      "zoom": 100,
+      "gridSize": 0,
+      "layers": [
+        {
+          "id": "a03e8270-9920-4c1a-85fd-dc1f94d3b6d7",
+          "type": "diagram-links",
+          "isSvg": true,
+          "transformed": true,
+          "models": {
+            "c2206b40-600d-4a91-8e49-b6a53bc3589e": {
+              "id": "c2206b40-600d-4a91-8e49-b6a53bc3589e",
+              "type": "default",
+              "selected": false,
+              "source": "81e40d66-1363-4541-8ab0-63211c159b57",
+              "sourcePort": "0012d7bc-b233-46f6-a5e0-ece912a437e4",
+              "target": "f7330176-c135-43aa-be83-1dd2cbabd879",
+              "targetPort": "500f963a-37a5-4324-82b9-82efb298492a",
+              "points": [
+                {
+                  "id": "e68090b6-c5fd-4b68-be08-1e91d4e986af",
+                  "type": "point",
+                  "x": 133.296875,
+                  "y": 64.5
+                },
+                {
+                  "id": "8efd2c27-a5cd-4e78-9541-ee45b351fc41",
+                  "type": "point",
+                  "x": 176.5,
+                  "y": 134.5
+                }
+              ],
+              "labels": [],
+              "width": 3,
+              "color": "gray",
+              "curvyness": 50,
+              "selectedColor": "rgb(0,192,255)"
+            },
+            "69acd3ca-39a0-4f04-b62d-2534efc2d48d": {
+              "id": "69acd3ca-39a0-4f04-b62d-2534efc2d48d",
+              "type": "default",
+              "selected": false,
+              "source": "f7330176-c135-43aa-be83-1dd2cbabd879",
+              "sourcePort": "da8308d8-fa47-4f77-9825-da0578909635",
+              "target": "f6fcd7b2-4f7d-41b1-9949-8adc19abb658",
+              "targetPort": "fdf1d18c-c178-4ebf-b072-d3ddf1376860",
+              "points": [
+                {
+                  "id": "b7db4e17-8c41-4fe0-bcb4-c27f5aa2088f",
+                  "type": "point",
+                  "x": 293.40625,
+                  "y": 134.5
+                },
+                {
+                  "id": "1a9a1067-e1b8-4a37-9c2b-0308665118ea",
+                  "type": "point",
+                  "x": 176.5,
+                  "y": 197.5
+                }
+              ],
+              "labels": [],
+              "width": 3,
+              "color": "gray",
+              "curvyness": 50,
+              "selectedColor": "rgb(0,192,255)"
+            },
+            "9ff41a5d-9b1d-4755-b101-d7ca687d5dd3": {
+              "id": "9ff41a5d-9b1d-4755-b101-d7ca687d5dd3",
+              "type": "default",
+              "selected": false,
+              "source": "f6fcd7b2-4f7d-41b1-9949-8adc19abb658",
+              "sourcePort": "a2eba4d8-9c87-4ce3-b6cd-9fd292d8a332",
+              "target": "27a1ab7c-f5be-4f3c-a85f-057dcd114934",
+              "targetPort": "9a2c3790-656b-40f5-8a78-98c806f31cc6",
+              "points": [
+                {
+                  "id": "9abcb277-30b0-4073-95fc-332b34dff0d0",
+                  "type": "point",
+                  "x": 637.859375,
+                  "y": 197.5
+                },
+                {
+                  "id": "9b4bee14-71f9-42a6-8b15-b20f73f65aee",
+                  "type": "point",
+                  "x": 176.5,
+                  "y": 305.5
+                }
+              ],
+              "labels": [],
+              "width": 3,
+              "color": "gray",
+              "curvyness": 50,
+              "selectedColor": "rgb(0,192,255)"
+            },
+            "6c09ada3-c3c7-4ece-8808-75a289b7a81b": {
+              "id": "6c09ada3-c3c7-4ece-8808-75a289b7a81b",
+              "type": "default",
+              "selected": false,
+              "source": "27a1ab7c-f5be-4f3c-a85f-057dcd114934",
+              "sourcePort": "2f98324d-b3f7-4e79-8939-c6d48b93ae62",
+              "target": "ca899385-235f-499b-b79c-4768769d07ed",
+              "targetPort": "f10d2c33-076a-4519-8cd3-15fee151879a",
+              "points": [
+                {
+                  "id": "6af4157b-c9c6-4a8b-9099-3c3654cfbfc6",
+                  "type": "point",
+                  "x": 461.96875,
+                  "y": 305.5
+                },
+                {
+                  "id": "0822854b-5f67-4739-a6fd-9753ec9e8ea2",
+                  "type": "point",
+                  "x": 176.5,
+                  "y": 368.5
+                }
+              ],
+              "labels": [],
+              "width": 3,
+              "color": "gray",
+              "curvyness": 50,
+              "selectedColor": "rgb(0,192,255)"
+            },
+            "a589c858-4bef-498f-9b91-5d7b080ff667": {
+              "id": "a589c858-4bef-498f-9b91-5d7b080ff667",
+              "type": "default",
+              "selected": false,
+              "source": "ca899385-235f-499b-b79c-4768769d07ed",
+              "sourcePort": "95812571-59a2-4c67-89e5-39931dc04620",
+              "target": "9c46b159-c104-4e91-9263-a87809963a5a",
+              "targetPort": "395f8464-7790-4d7f-a0bf-5b608fdfde00",
+              "points": [
+                {
+                  "id": "455e5fca-1419-4586-bb3d-5015805e6a59",
+                  "type": "point",
+                  "x": 645.1875,
+                  "y": 368.5
+                },
+                {
+                  "id": "3ad26620-0a76-40db-a693-d5ef14383a91",
+                  "type": "point",
+                  "x": 176.5,
+                  "y": 506.5
+                }
+              ],
+              "labels": [],
+              "width": 3,
+              "color": "gray",
+              "curvyness": 50,
+              "selectedColor": "rgb(0,192,255)"
+            },
+            "5e872be6-81b9-478c-a403-f2fddbb8e14e": {
+              "id": "5e872be6-81b9-478c-a403-f2fddbb8e14e",
+              "type": "default",
+              "selected": false,
+              "source": "9c46b159-c104-4e91-9263-a87809963a5a",
+              "sourcePort": "7c733dcc-87c4-4b0d-8a90-a29872c843bf",
+              "target": "93bf13d5-1df4-4763-a433-8563e17c1df5",
+              "targetPort": "7d973d49-ac81-4d18-9d18-6aa8230e01ce",
+              "points": [
+                {
+                  "id": "0b0c03a1-d4e1-4d16-91f6-f60eb6576720",
+                  "type": "point",
+                  "x": 637.859375,
+                  "y": 506.5
+                },
+                {
+                  "id": "190757c2-43d2-4ef0-aa33-28a35c550fee",
+                  "type": "point",
+                  "x": 176.5,
+                  "y": 629.5
+                }
+              ],
+              "labels": [],
+              "width": 3,
+              "color": "gray",
+              "curvyness": 50,
+              "selectedColor": "rgb(0,192,255)"
+            },
+            "8400155d-3515-495a-8143-5ec168d4c728": {
+              "id": "8400155d-3515-495a-8143-5ec168d4c728",
+              "type": "default",
+              "selected": false,
+              "source": "93bf13d5-1df4-4763-a433-8563e17c1df5",
+              "sourcePort": "b4789098-7cc5-42e6-9af6-aba10a4a9e63",
+              "target": "e4377e58-dbce-499c-83b4-077f26998aa0",
+              "targetPort": "a4368918-e3c8-4e8b-af41-cc4585065357",
+              "points": [
+                {
+                  "id": "7b0b2c11-3d5c-44bf-9067-40d71a1ca3db",
+                  "type": "point",
+                  "x": 444.84375,
+                  "y": 674.5
+                },
+                {
+                  "id": "c0a375fe-9e2e-43c0-9b44-0ce46c19c3af",
+                  "type": "point",
+                  "x": 176.5,
+                  "y": 742.5
+                }
+              ],
+              "labels": [],
+              "width": 3,
+              "color": "gray",
+              "curvyness": 50,
+              "selectedColor": "rgb(0,192,255)"
+            },
+            "5bbe75d2-47a9-4a42-b86d-2de608d6ce51": {
+              "id": "5bbe75d2-47a9-4a42-b86d-2de608d6ce51",
+              "type": "default",
+              "selected": false,
+              "source": "e4377e58-dbce-499c-83b4-077f26998aa0",
+              "sourcePort": "7e73d977-13b7-4c1b-9461-46fac240a2e8",
+              "target": "db89aa19-c337-40c4-9a2a-3ea4ad443c2f",
+              "targetPort": "b9fbfefd-5588-4b4d-8618-74b9cddb7f4f",
+              "points": [
+                {
+                  "id": "12e9b3b1-0157-48a7-84e8-3861ed1b31ec",
+                  "type": "point",
+                  "x": 476.625,
+                  "y": 742.5
+                },
+                {
+                  "id": "ebec1598-d8fc-4cd6-8660-a815f770d7fc",
+                  "type": "point",
+                  "x": 176.5,
+                  "y": 805.5
+                }
+              ],
+              "labels": [],
+              "width": 3,
+              "color": "gray",
+              "curvyness": 50,
+              "selectedColor": "rgb(0,192,255)"
+            }
+          }
+        },
+        {
+          "id": "ef253ad4-fcd8-47d1-8530-5e1c6afe724f",
+          "type": "diagram-nodes",
+          "isSvg": false,
+          "transformed": true,
+          "models": {
+            "81e40d66-1363-4541-8ab0-63211c159b57": {
+              "id": "81e40d66-1363-4541-8ab0-63211c159b57",
+              "type": "start",
+              "x": 50,
+              "y": 50,
+              "ports": [
+                {
+                  "id": "0012d7bc-b233-46f6-a5e0-ece912a437e4",
+                  "type": "default",
+                  "x": 125.796875,
+                  "y": 57,
+                  "name": "out-1777913712331",
+                  "alignment": "right",
+                  "parentNode": "81e40d66-1363-4541-8ab0-63211c159b57",
+                  "links": [
+                    "c2206b40-600d-4a91-8e49-b6a53bc3589e"
+                  ],
+                  "in": false,
+                  "label": "❯"
+                }
+              ],
+              "title": "Start",
+              "color": "#16db26e6",
+              "portsInOrder": [],
+              "portsOutOrder": [
+                "0012d7bc-b233-46f6-a5e0-ece912a437e4"
+              ]
+            },
+            "f7330176-c135-43aa-be83-1dd2cbabd879": {
+              "id": "f7330176-c135-43aa-be83-1dd2cbabd879",
+              "type": "dialogue",
+              "selected": false,
+              "x": 182,
+              "y": 96,
+              "ports": [
+                {
+                  "id": "500f963a-37a5-4324-82b9-82efb298492a",
+                  "type": "default",
+                  "x": 169,
+                  "y": 127,
+                  "name": "in-1777913719472 ",
+                  "alignment": "left",
+                  "parentNode": "f7330176-c135-43aa-be83-1dd2cbabd879",
+                  "links": [
+                    "c2206b40-600d-4a91-8e49-b6a53bc3589e"
+                  ],
+                  "in": true,
+                  "label": "❯"
+                },
+                {
+                  "id": "da8308d8-fa47-4f77-9825-da0578909635",
+                  "type": "default",
+                  "x": 285.90625,
+                  "y": 127,
+                  "name": "out-1777913719472",
+                  "alignment": "right",
+                  "parentNode": "f7330176-c135-43aa-be83-1dd2cbabd879",
+                  "links": [
+                    "69acd3ca-39a0-4f04-b62d-2534efc2d48d"
+                  ],
+                  "in": false,
+                  "label": "❯"
+                }
+              ],
+              "title": "<player>",
+              "color": "#dd341ee6",
+              "portsInOrder": [
+                "500f963a-37a5-4324-82b9-82efb298492a"
+              ],
+              "portsOutOrder": [
+                "da8308d8-fa47-4f77-9825-da0578909635"
+              ],
+              "text": "Hello."
+            },
+            "f6fcd7b2-4f7d-41b1-9949-8adc19abb658": {
+              "id": "f6fcd7b2-4f7d-41b1-9949-8adc19abb658",
+              "type": "dialogue",
+              "x": 182,
+              "y": 159,
+              "ports": [
+                {
+                  "id": "fdf1d18c-c178-4ebf-b072-d3ddf1376860",
+                  "type": "default",
+                  "x": 169,
+                  "y": 190,
+                  "name": "in-1777913725451 ",
+                  "alignment": "left",
+                  "parentNode": "f6fcd7b2-4f7d-41b1-9949-8adc19abb658",
+                  "links": [
+                    "69acd3ca-39a0-4f04-b62d-2534efc2d48d"
+                  ],
+                  "in": true,
+                  "label": "❯"
+                },
+                {
+                  "id": "a2eba4d8-9c87-4ce3-b6cd-9fd292d8a332",
+                  "type": "default",
+                  "x": 630.359375,
+                  "y": 190,
+                  "name": "out-1777913725451",
+                  "alignment": "right",
+                  "parentNode": "f6fcd7b2-4f7d-41b1-9949-8adc19abb658",
+                  "links": [
+                    "9ff41a5d-9b1d-4755-b101-d7ca687d5dd3"
+                  ],
+                  "in": false,
+                  "label": "❯"
+                }
+              ],
+              "title": "Captain Lawgof",
+              "color": "#dd341ee6",
+              "portsInOrder": [
+                "fdf1d18c-c178-4ebf-b072-d3ddf1376860"
+              ],
+              "portsOutOrder": [
+                "a2eba4d8-9c87-4ce3-b6cd-9fd292d8a332"
+              ],
+              "text": "Guthix be praised, the cavalry has arrived! Hero, how\nwould you like to be made an honorary member of the\nBlack Guard?"
+            },
+            "27a1ab7c-f5be-4f3c-a85f-057dcd114934": {
+              "id": "27a1ab7c-f5be-4f3c-a85f-057dcd114934",
+              "type": "dialogue",
+              "x": 182,
+              "y": 267,
+              "ports": [
+                {
+                  "id": "9a2c3790-656b-40f5-8a78-98c806f31cc6",
+                  "type": "default",
+                  "x": 169,
+                  "y": 298,
+                  "name": "in-1777913729670 ",
+                  "alignment": "left",
+                  "parentNode": "27a1ab7c-f5be-4f3c-a85f-057dcd114934",
+                  "links": [
+                    "9ff41a5d-9b1d-4755-b101-d7ca687d5dd3"
+                  ],
+                  "in": true,
+                  "label": "❯"
+                },
+                {
+                  "id": "2f98324d-b3f7-4e79-8939-c6d48b93ae62",
+                  "type": "default",
+                  "x": 454.46875,
+                  "y": 298,
+                  "name": "out-1777913729670",
+                  "alignment": "right",
+                  "parentNode": "27a1ab7c-f5be-4f3c-a85f-057dcd114934",
+                  "links": [
+                    "6c09ada3-c3c7-4ece-8808-75a289b7a81b"
+                  ],
+                  "in": false,
+                  "label": "❯"
+                }
+              ],
+              "title": "<player>",
+              "color": "#dd341ee6",
+              "portsInOrder": [
+                "9a2c3790-656b-40f5-8a78-98c806f31cc6"
+              ],
+              "portsOutOrder": [
+                "2f98324d-b3f7-4e79-8939-c6d48b93ae62"
+              ],
+              "text": "The Black Guard, what's that?"
+            },
+            "ca899385-235f-499b-b79c-4768769d07ed": {
+              "id": "ca899385-235f-499b-b79c-4768769d07ed",
+              "type": "dialogue",
+              "x": 182,
+              "y": 330,
+              "ports": [
+                {
+                  "id": "f10d2c33-076a-4519-8cd3-15fee151879a",
+                  "type": "default",
+                  "x": 169,
+                  "y": 361,
+                  "name": "in-1777913730872 ",
+                  "alignment": "left",
+                  "parentNode": "ca899385-235f-499b-b79c-4768769d07ed",
+                  "links": [
+                    "6c09ada3-c3c7-4ece-8808-75a289b7a81b"
+                  ],
+                  "in": true,
+                  "label": "❯"
+                },
+                {
+                  "id": "95812571-59a2-4c67-89e5-39931dc04620",
+                  "type": "default",
+                  "x": 637.6875,
+                  "y": 361,
+                  "name": "out-1777913730872",
+                  "alignment": "right",
+                  "parentNode": "ca899385-235f-499b-b79c-4768769d07ed",
+                  "links": [
+                    "a589c858-4bef-498f-9b91-5d7b080ff667"
+                  ],
+                  "in": false,
+                  "label": "❯"
+                }
+              ],
+              "title": "Captain Lawgof",
+              "color": "#dd341ee6",
+              "portsInOrder": [
+                "f10d2c33-076a-4519-8cd3-15fee151879a"
+              ],
+              "portsOutOrder": [
+                "95812571-59a2-4c67-89e5-39931dc04620"
+              ],
+              "text": "Hawhaw! 'What's that' he asks, what a sense of humour!\nThe Black Guard is the finest regiment in the dwarven\narmy. Only the best of the best are allowed to join it\nand then they receive months of rigorous training."
+            },
+            "9c46b159-c104-4e91-9263-a87809963a5a": {
+              "id": "9c46b159-c104-4e91-9263-a87809963a5a",
+              "type": "dialogue",
+              "x": 182,
+              "y": 468,
+              "ports": [
+                {
+                  "id": "395f8464-7790-4d7f-a0bf-5b608fdfde00",
+                  "type": "default",
+                  "x": 169,
+                  "y": 499,
+                  "name": "in-1777913736853 ",
+                  "alignment": "left",
+                  "parentNode": "9c46b159-c104-4e91-9263-a87809963a5a",
+                  "links": [
+                    "a589c858-4bef-498f-9b91-5d7b080ff667"
+                  ],
+                  "in": true,
+                  "label": "❯"
+                },
+                {
+                  "id": "7c733dcc-87c4-4b0d-8a90-a29872c843bf",
+                  "type": "default",
+                  "x": 630.359375,
+                  "y": 499,
+                  "name": "out-1777913736853",
+                  "alignment": "right",
+                  "parentNode": "9c46b159-c104-4e91-9263-a87809963a5a",
+                  "links": [
+                    "5e872be6-81b9-478c-a403-f2fddbb8e14e"
+                  ],
+                  "in": false,
+                  "label": "❯"
+                }
+              ],
+              "title": "Captain Lawgof",
+              "color": "#dd341ee6",
+              "portsInOrder": [
+                "395f8464-7790-4d7f-a0bf-5b608fdfde00"
+              ],
+              "portsOutOrder": [
+                "7c733dcc-87c4-4b0d-8a90-a29872c843bf"
+              ],
+              "text": "However, we are currently in need of a hero, so for a\nlimited time only I'm offering you, a human, a chance\nto join this prestigious regiment. What do you say?"
+            },
+            "93bf13d5-1df4-4763-a433-8563e17c1df5": {
+              "id": "93bf13d5-1df4-4763-a433-8563e17c1df5",
+              "type": "option",
+              "x": 182,
+              "y": 591,
+              "ports": [
+                {
+                  "id": "e1335775-3edc-49e0-91fc-d3524e8d942b",
+                  "type": "default",
+                  "x": 437.34375,
+                  "y": 631,
+                  "name": "out-17779137398711",
+                  "alignment": "right",
+                  "parentNode": "93bf13d5-1df4-4763-a433-8563e17c1df5",
+                  "links": [],
+                  "in": false,
+                  "label": "❯"
+                },
+                {
+                  "id": "7d973d49-ac81-4d18-9d18-6aa8230e01ce",
+                  "type": "default",
+                  "x": 169,
+                  "y": 622,
+                  "name": "in-1777913739871 ",
+                  "alignment": "left",
+                  "parentNode": "93bf13d5-1df4-4763-a433-8563e17c1df5",
+                  "links": [
+                    "5e872be6-81b9-478c-a403-f2fddbb8e14e"
+                  ],
+                  "in": true,
+                  "label": "❯"
+                },
+                {
+                  "id": "b4789098-7cc5-42e6-9af6-aba10a4a9e63",
+                  "type": "default",
+                  "x": 437.34375,
+                  "y": 667,
+                  "name": "out-1777913739871",
+                  "alignment": "right",
+                  "parentNode": "93bf13d5-1df4-4763-a433-8563e17c1df5",
+                  "links": [
+                    "8400155d-3515-495a-8143-5ec168d4c728"
+                  ],
+                  "in": false,
+                  "label": "❯"
+                }
+              ],
+              "title": "Start the Dwarf Cannon quest?",
+              "color": "#0756b1e6",
+              "portsInOrder": [
+                "7d973d49-ac81-4d18-9d18-6aa8230e01ce"
+              ],
+              "portsOutOrder": [
+                "e1335775-3edc-49e0-91fc-d3524e8d942b",
+                "b4789098-7cc5-42e6-9af6-aba10a4a9e63"
+              ],
+              "options": [
+                {
+                  "conditions": [
+                    ""
+                  ],
+                  "args": [],
+                  "ors": [
+                    false
+                  ],
+                  "negates": [
+                    false
+                  ],
+                  "text": "Yes."
+                },
+                {
+                  "conditions": [
+                    ""
+                  ],
+                  "args": [],
+                  "ors": [
+                    false
+                  ],
+                  "negates": [
+                    false
+                  ],
+                  "text": "No."
+                }
+              ]
+            },
+            "e4377e58-dbce-499c-83b4-077f26998aa0": {
+              "id": "e4377e58-dbce-499c-83b4-077f26998aa0",
+              "type": "dialogue",
+              "x": 182,
+              "y": 704,
+              "ports": [
+                {
+                  "id": "a4368918-e3c8-4e8b-af41-cc4585065357",
+                  "type": "default",
+                  "x": 169,
+                  "y": 735,
+                  "name": "in-1777913760872 ",
+                  "alignment": "left",
+                  "parentNode": "e4377e58-dbce-499c-83b4-077f26998aa0",
+                  "links": [
+                    "8400155d-3515-495a-8143-5ec168d4c728"
+                  ],
+                  "in": true,
+                  "label": "❯"
+                },
+                {
+                  "id": "7e73d977-13b7-4c1b-9461-46fac240a2e8",
+                  "type": "default",
+                  "x": 469.125,
+                  "y": 735,
+                  "name": "out-1777913760872",
+                  "alignment": "right",
+                  "parentNode": "e4377e58-dbce-499c-83b4-077f26998aa0",
+                  "links": [
+                    "5bbe75d2-47a9-4a42-b86d-2de608d6ce51"
+                  ],
+                  "in": false,
+                  "label": "❯"
+                }
+              ],
+              "title": "<player>",
+              "color": "#dd341ee6",
+              "portsInOrder": [
+                "a4368918-e3c8-4e8b-af41-cc4585065357"
+              ],
+              "portsOutOrder": [
+                "7e73d977-13b7-4c1b-9461-46fac240a2e8"
+              ],
+              "text": "I'm sorry, I'm too busy mining."
+            },
+            "db89aa19-c337-40c4-9a2a-3ea4ad443c2f": {
+              "id": "db89aa19-c337-40c4-9a2a-3ea4ad443c2f",
+              "type": "dialogue",
+              "x": 182,
+              "y": 767,
+              "ports": [
+                {
+                  "id": "b9fbfefd-5588-4b4d-8618-74b9cddb7f4f",
+                  "type": "default",
+                  "x": 169,
+                  "y": 798,
+                  "name": "in-1777913762073 ",
+                  "alignment": "left",
+                  "parentNode": "db89aa19-c337-40c4-9a2a-3ea4ad443c2f",
+                  "links": [
+                    "5bbe75d2-47a9-4a42-b86d-2de608d6ce51"
+                  ],
+                  "in": true,
+                  "label": "❯"
+                },
+                {
+                  "id": "ec16dab0-5cab-41c2-8b17-d96d286b8f9f",
+                  "type": "default",
+                  "x": 645.015625,
+                  "y": 798,
+                  "name": "out-1777913762073",
+                  "alignment": "right",
+                  "parentNode": "db89aa19-c337-40c4-9a2a-3ea4ad443c2f",
+                  "links": [],
+                  "in": false,
+                  "label": "❯"
+                }
+              ],
+              "title": "Captain Lawgof",
+              "color": "#dd341ee6",
+              "portsInOrder": [
+                "b9fbfefd-5588-4b4d-8618-74b9cddb7f4f"
+              ],
+              "portsOutOrder": [
+                "ec16dab0-5cab-41c2-8b17-d96d286b8f9f"
+              ],
+              "text": "Well best make the most of it while you can, if the\ngoblins over-run us they'll descend on the mines like a\nplague of locusts!"
+            },
+            "ba44e856-80b6-4fa7-aa35-aaae6680e5ba": {
+              "id": "ba44e856-80b6-4fa7-aa35-aaae6680e5ba",
+              "type": "note",
+              "selected": false,
+              "x": -36,
+              "y": 617,
+              "ports": [],
+              "title": "Note",
+              "color": "#19e0e7e6",
+              "portsInOrder": [],
+              "portsOutOrder": [],
+              "text": "Will gather dialogues\nlater -Regorty"
+            }
+          }
+        }
+      ]
+    }
+  }
+}
