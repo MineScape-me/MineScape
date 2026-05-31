@@ -327,6 +327,62 @@
           "portsOutOrder": [],
           "tree": "doric_after",
           "start": "Start"
+        },
+        "f97fae29-a09f-46bf-b657-7945aef1d76e": {
+          "id": "f97fae29-a09f-46bf-b657-7945aef1d76e",
+          "type": "npc",
+          "selected": false,
+          "x": 157.41365131578948,
+          "y": -284.63157894736844,
+          "ports": [
+            {
+              "id": "8022e1d4-5a24-48a6-96dc-76d9a504f0a1",
+              "type": "default",
+              "x": 549.4136513157895,
+              "y": -256.63157894736844,
+              "name": "out-1780218321916-67688",
+              "alignment": "right",
+              "parentNode": "f97fae29-a09f-46bf-b657-7945aef1d76e",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Doric",
+          "color": "#6e4b1e",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "8022e1d4-5a24-48a6-96dc-76d9a504f0a1"
+          ],
+          "locations": [
+            "-206.81, 61.00, -507.04, 86.82, 1.38"
+          ],
+          "traits": [
+            {
+              "trait": "cluescrolltrait",
+              "args": {}
+            },
+            {
+              "trait": "lookclose",
+              "args": {}
+            }
+          ],
+          "conditions": {
+            "conditions": [
+              ""
+            ],
+            "args": [],
+            "ors": [
+              false
+            ],
+            "negates": [
+              false
+            ]
+          },
+          "entityType": "ARMOR_STAND",
+          "equipment": {
+            "HEAD": "STONE_AXE"
+          }
         }
       }
     }

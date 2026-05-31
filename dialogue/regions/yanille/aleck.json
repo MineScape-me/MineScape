@@ -1046,6 +1046,62 @@
               ]
             ]
           }
+        },
+        "51b42075-4d69-4eaf-990c-5a55c48bed16": {
+          "id": "51b42075-4d69-4eaf-990c-5a55c48bed16",
+          "type": "npc",
+          "selected": false,
+          "x": 242,
+          "y": -200,
+          "ports": [
+            {
+              "id": "c9c286b7-2e35-4d1d-8e0a-7f4cb036e164",
+              "type": "default",
+              "x": 634,
+              "y": -172,
+              "name": "out-1780218322767-940",
+              "alignment": "right",
+              "parentNode": "51b42075-4d69-4eaf-990c-5a55c48bed16",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Aleck",
+          "color": "#6e4b1e",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "c9c286b7-2e35-4d1d-8e0a-7f4cb036e164"
+          ],
+          "locations": [
+            "-1354.94, 67.00, 609.38, 216.87, 0.00"
+          ],
+          "traits": [
+            {
+              "trait": "randomwalk",
+              "args": {}
+            },
+            {
+              "trait": "skintrait",
+              "args": {
+                "skin": "ALECK"
+              }
+            }
+          ],
+          "conditions": {
+            "conditions": [
+              ""
+            ],
+            "args": [],
+            "ors": [
+              false
+            ],
+            "negates": [
+              false
+            ]
+          },
+          "entityType": "PLAYER",
+          "equipment": {}
         }
       }
     }

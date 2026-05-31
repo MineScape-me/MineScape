@@ -751,6 +751,62 @@
             "eb5542bd-719c-4aa0-a1e3-d9bdcb249bdd"
           ],
           "text": "Errr, I was...I was clearing my throat."
+        },
+        "ecabc28d-a295-43d4-ac86-c18bef78ab21": {
+          "id": "ecabc28d-a295-43d4-ac86-c18bef78ab21",
+          "type": "npc",
+          "selected": false,
+          "x": 177,
+          "y": -314,
+          "ports": [
+            {
+              "id": "f4594568-133b-436f-b9f3-14bde113a017",
+              "type": "default",
+              "x": 569,
+              "y": -286,
+              "name": "out-1780218321897-24822",
+              "alignment": "right",
+              "parentNode": "ecabc28d-a295-43d4-ac86-c18bef78ab21",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Davon",
+          "color": "#6e4b1e",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "f4594568-133b-436f-b9f3-14bde113a017"
+          ],
+          "locations": [
+            "-648.35, 67.00, 394.29, 216.74, -74.15"
+          ],
+          "traits": [
+            {
+              "trait": "lookclose",
+              "args": {}
+            },
+            {
+              "trait": "skintrait",
+              "args": {
+                "skin": "DAVON"
+              }
+            }
+          ],
+          "conditions": {
+            "conditions": [
+              ""
+            ],
+            "args": [],
+            "ors": [
+              false
+            ],
+            "negates": [
+              false
+            ]
+          },
+          "entityType": "PLAYER",
+          "equipment": {}
         }
       }
     }

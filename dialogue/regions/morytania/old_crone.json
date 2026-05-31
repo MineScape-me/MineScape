@@ -1517,6 +1517,51 @@
             "7d7cfd33-a569-48a9-9416-d478fabaac84"
           ],
           "switch": "characterStat[ANIMAL_MAGNETISM_ALICES_HUSBAND]"
+        },
+        "f6e6aa26-c080-4867-9c95-7e13c93652f4": {
+          "id": "f6e6aa26-c080-4867-9c95-7e13c93652f4",
+          "type": "npc",
+          "selected": false,
+          "x": 10,
+          "y": -210,
+          "ports": [
+            {
+              "id": "40fe15b5-31b3-4783-acdc-5d6cae4cba31",
+              "type": "default",
+              "x": 402,
+              "y": -182,
+              "name": "out-1780218322399-44478",
+              "alignment": "right",
+              "parentNode": "f6e6aa26-c080-4867-9c95-7e13c93652f4",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Old Crone",
+          "color": "#6e4b1e",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "40fe15b5-31b3-4783-acdc-5d6cae4cba31"
+          ],
+          "locations": [
+            "1338.53, 67.00, -828.50, -101.40, 24.60"
+          ],
+          "traits": [],
+          "conditions": {
+            "conditions": [
+              ""
+            ],
+            "args": [],
+            "ors": [
+              false
+            ],
+            "negates": [
+              false
+            ]
+          },
+          "entityType": "PLAYER",
+          "equipment": {}
         }
       }
     }

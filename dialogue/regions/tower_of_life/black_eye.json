@@ -1460,6 +1460,60 @@
               false
             ]
           }
+        },
+        "59a686cc-46a2-48b0-b97f-b732e472f46a": {
+          "id": "59a686cc-46a2-48b0-b97f-b732e472f46a",
+          "type": "npc",
+          "selected": false,
+          "x": -163,
+          "y": -288,
+          "ports": [
+            {
+              "id": "31c853d7-4eb0-4807-bf9e-58d4c6fb92ff",
+              "type": "default",
+              "x": 229,
+              "y": -260,
+              "name": "out-1780218321566-36588",
+              "alignment": "right",
+              "parentNode": "59a686cc-46a2-48b0-b97f-b732e472f46a",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "'Black-eye'",
+          "color": "#6e4b1e",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "31c853d7-4eb0-4807-bf9e-58d4c6fb92ff"
+          ],
+          "locations": [
+            "-1127.75, 68.00, 163.60, -178.69, 3.75"
+          ],
+          "traits": [
+            {
+              "trait": "skintrait",
+              "args": {
+                "skin": "BLACK_EYE"
+              }
+            }
+          ],
+          "conditions": {
+            "conditions": [
+              ""
+            ],
+            "args": [],
+            "ors": [
+              false
+            ],
+            "negates": [
+              false
+            ]
+          },
+          "entityType": "PLAYER",
+          "equipment": {
+            "HEAD": "HARD_HAT"
+          }
         }
       }
     }

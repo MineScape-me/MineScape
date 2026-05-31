@@ -642,6 +642,66 @@
           "portsInOrder": [],
           "portsOutOrder": [],
           "text": "Missing drunk text"
+        },
+        "bc2aa13c-12ef-4ec6-8cd5-4a7f92595759": {
+          "id": "bc2aa13c-12ef-4ec6-8cd5-4a7f92595759",
+          "type": "npc",
+          "selected": false,
+          "x": 116,
+          "y": -252,
+          "ports": [
+            {
+              "id": "52a146e1-5496-4c2f-9381-7af8bc5a5531",
+              "type": "default",
+              "x": 508,
+              "y": -224,
+              "name": "out-1780218322210-23978",
+              "alignment": "right",
+              "parentNode": "bc2aa13c-12ef-4ec6-8cd5-4a7f92595759",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Joe",
+          "color": "#6e4b1e",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "52a146e1-5496-4c2f-9381-7af8bc5a5531"
+          ],
+          "locations": [
+            "311.42, 63.00, 131.00, 45.00, 0.00"
+          ],
+          "traits": [
+            {
+              "trait": "cluescrolltrait",
+              "args": {}
+            },
+            {
+              "trait": "skintrait",
+              "args": {
+                "skin": "GUARD"
+              }
+            },
+            {
+              "trait": "randomwalk",
+              "args": {}
+            }
+          ],
+          "conditions": {
+            "conditions": [
+              ""
+            ],
+            "args": [],
+            "ors": [
+              false
+            ],
+            "negates": [
+              false
+            ]
+          },
+          "entityType": "PLAYER",
+          "equipment": {}
         }
       }
     }

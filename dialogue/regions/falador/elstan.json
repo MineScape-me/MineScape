@@ -128,6 +128,64 @@
               ]
             ]
           }
+        },
+        "18818907-8b33-4ac1-8390-98522395ff33": {
+          "id": "18818907-8b33-4ac1-8390-98522395ff33",
+          "type": "npc",
+          "selected": false,
+          "x": 66,
+          "y": -286,
+          "ports": [
+            {
+              "id": "d28ed9e9-edf3-4b58-a0e5-c335546b2257",
+              "type": "default",
+              "x": 458,
+              "y": -258,
+              "name": "out-1780218321994-94562",
+              "alignment": "right",
+              "parentNode": "18818907-8b33-4ac1-8390-98522395ff33",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Elstan",
+          "color": "#6e4b1e",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "d28ed9e9-edf3-4b58-a0e5-c335546b2257"
+          ],
+          "locations": [
+            "119.62, 65.00, -95.01, -53.13, 0.00"
+          ],
+          "traits": [
+            {
+              "trait": "randomwalk",
+              "args": {}
+            },
+            {
+              "trait": "skintrait",
+              "args": {
+                "skin": "ELSTAN"
+              }
+            }
+          ],
+          "conditions": {
+            "conditions": [
+              ""
+            ],
+            "args": [],
+            "ors": [
+              false
+            ],
+            "negates": [
+              false
+            ]
+          },
+          "entityType": "PLAYER",
+          "equipment": {
+            "HAND": "SPADE"
+          }
         }
       }
     }

@@ -712,6 +712,62 @@
           "portsOutOrder": [],
           "tree": "sword_pie",
           "start": "Given"
+        },
+        "1a1de8d7-ba22-492d-a058-1d7dfcaee7d4": {
+          "id": "1a1de8d7-ba22-492d-a058-1d7dfcaee7d4",
+          "type": "npc",
+          "selected": false,
+          "x": 10,
+          "y": -288,
+          "ports": [
+            {
+              "id": "1372c1c2-22f7-4079-b348-c7c40feb6dfa",
+              "type": "default",
+              "x": 402,
+              "y": -260,
+              "name": "out-1780218322619-31690",
+              "alignment": "right",
+              "parentNode": "1a1de8d7-ba22-492d-a058-1d7dfcaee7d4",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Thurgo",
+          "color": "#6e4b1e",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "1372c1c2-22f7-4079-b348-c7c40feb6dfa"
+          ],
+          "locations": [
+            "-86.31, 65.00, 409.39, 158.80, 0.00"
+          ],
+          "traits": [
+            {
+              "trait": "cluescrolltrait",
+              "args": {}
+            },
+            {
+              "trait": "lookclose",
+              "args": {}
+            }
+          ],
+          "conditions": {
+            "conditions": [
+              ""
+            ],
+            "args": [],
+            "ors": [
+              false
+            ],
+            "negates": [
+              false
+            ]
+          },
+          "entityType": "ARMOR_STAND",
+          "equipment": {
+            "HEAD": "STONE_AXE"
+          }
         }
       }
     }

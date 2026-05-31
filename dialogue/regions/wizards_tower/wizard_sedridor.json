@@ -519,6 +519,66 @@
           "portsOutOrder": [],
           "tree": "rune_after",
           "start": "Start"
+        },
+        "e19d86ec-198e-4f27-a94d-11112dc001c4": {
+          "id": "e19d86ec-198e-4f27-a94d-11112dc001c4",
+          "type": "npc",
+          "selected": false,
+          "x": 10,
+          "y": -288,
+          "ports": [
+            {
+              "id": "17ce472a-d884-498e-aa05-ce5dc973104b",
+              "type": "default",
+              "x": 402,
+              "y": -260,
+              "name": "out-1780218322511-27796",
+              "alignment": "right",
+              "parentNode": "e19d86ec-198e-4f27-a94d-11112dc001c4",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Sedridor",
+          "color": "#6e4b1e",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "17ce472a-d884-498e-aa05-ce5dc973104b"
+          ],
+          "locations": [
+            "281.99, 49.06, 375.87, -59.04, 0.00"
+          ],
+          "traits": [
+            {
+              "trait": "cluescrolltrait",
+              "args": {}
+            },
+            {
+              "trait": "skintrait",
+              "args": {
+                "skin": "WIZARD"
+              }
+            },
+            {
+              "trait": "randomwalk",
+              "args": {}
+            }
+          ],
+          "conditions": {
+            "conditions": [
+              ""
+            ],
+            "args": [],
+            "ors": [
+              false
+            ],
+            "negates": [
+              false
+            ]
+          },
+          "entityType": "PLAYER",
+          "equipment": {}
         }
       }
     }

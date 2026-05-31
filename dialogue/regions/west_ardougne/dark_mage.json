@@ -264,6 +264,62 @@
             "8b9e3834-82f0-4bda-b0e7-cdbf2bc27766"
           ],
           "text": "There's nothing to see here, just despair and death."
+        },
+        "5a9cec2a-ea7f-4adc-9c5d-f4f0002a70dd": {
+          "id": "5a9cec2a-ea7f-4adc-9c5d-f4f0002a70dd",
+          "type": "npc",
+          "selected": false,
+          "x": 10,
+          "y": -262,
+          "ports": [
+            {
+              "id": "22a1070f-6964-47c7-9999-3494bf79d90a",
+              "type": "default",
+              "x": 402,
+              "y": -234,
+              "name": "out-1780218321894-54558",
+              "alignment": "right",
+              "parentNode": "5a9cec2a-ea7f-4adc-9c5d-f4f0002a70dd",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Dark Mage",
+          "color": "#6e4b1e",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "22a1070f-6964-47c7-9999-3494bf79d90a"
+          ],
+          "locations": [
+            "-1690.47, 68.00, -78.50, 36.87, 0.00"
+          ],
+          "traits": [
+            {
+              "trait": "randomwalk",
+              "args": {}
+            },
+            {
+              "trait": "skintrait",
+              "args": {
+                "skin": "DARK_MAGE"
+              }
+            }
+          ],
+          "conditions": {
+            "conditions": [
+              ""
+            ],
+            "args": [],
+            "ors": [
+              false
+            ],
+            "negates": [
+              false
+            ]
+          },
+          "entityType": "PLAYER",
+          "equipment": {}
         }
       }
     }

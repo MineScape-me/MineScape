@@ -844,6 +844,62 @@
             "528e7147-2a30-4661-8902-0c9d63abbaf5"
           ],
           "text": "Do not try and deceive us again. Come back when you\nhave laid down your Zamorakian instruments of death."
+        },
+        "3fd4bf87-b4e3-4cd4-ac51-c318b63b5e14": {
+          "id": "3fd4bf87-b4e3-4cd4-ac51-c318b63b5e14",
+          "type": "npc",
+          "selected": false,
+          "x": 59,
+          "y": -266,
+          "ports": [
+            {
+              "id": "3bba4b2a-4198-418f-8cec-af63779a319f",
+              "type": "default",
+              "x": 451,
+              "y": -238,
+              "name": "out-1780218322356-80446",
+              "alignment": "right",
+              "parentNode": "3fd4bf87-b4e3-4cd4-ac51-c318b63b5e14",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Monk of Entrana",
+          "color": "#6e4b1e",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "3bba4b2a-4198-418f-8cec-af63779a319f"
+          ],
+          "locations": [
+            "75.28, 66.00, 146.03, -36.87, 0.00"
+          ],
+          "traits": [
+            {
+              "trait": "randomwalk",
+              "args": {}
+            },
+            {
+              "trait": "skintrait",
+              "args": {
+                "skin": "MONK"
+              }
+            }
+          ],
+          "conditions": {
+            "conditions": [
+              ""
+            ],
+            "args": [],
+            "ors": [
+              false
+            ],
+            "negates": [
+              false
+            ]
+          },
+          "entityType": "PLAYER",
+          "equipment": {}
         }
       }
     }

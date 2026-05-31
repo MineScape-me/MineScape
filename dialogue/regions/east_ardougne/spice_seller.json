@@ -531,6 +531,62 @@
             "297562da-95ba-4634-b6dd-68edb536962f"
           ],
           "text": "No thanks."
+        },
+        "57c57676-53e2-4caf-ab8e-cc286233f8a2": {
+          "id": "57c57676-53e2-4caf-ab8e-cc286233f8a2",
+          "type": "npc",
+          "selected": false,
+          "x": 94,
+          "y": -289,
+          "ports": [
+            {
+              "id": "c05e9949-b4c5-43a0-8b8e-d2cf36b28a95",
+              "type": "default",
+              "x": 486,
+              "y": -261,
+              "name": "out-1780218322586-58829",
+              "alignment": "right",
+              "parentNode": "57c57676-53e2-4caf-ab8e-cc286233f8a2",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Spice Seller",
+          "color": "#6e4b1e",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "c05e9949-b4c5-43a0-8b8e-d2cf36b28a95"
+          ],
+          "locations": [
+            "-1085.52, 68.00, -42.43, -50.10, 0.00"
+          ],
+          "traits": [
+            {
+              "trait": "skintrait",
+              "args": {
+                "skin": "SPICE_SELLER"
+              }
+            },
+            {
+              "trait": "lookclose",
+              "args": {}
+            }
+          ],
+          "conditions": {
+            "conditions": [
+              ""
+            ],
+            "args": [],
+            "ors": [
+              false
+            ],
+            "negates": [
+              false
+            ]
+          },
+          "entityType": "PLAYER",
+          "equipment": {}
         }
       }
     }

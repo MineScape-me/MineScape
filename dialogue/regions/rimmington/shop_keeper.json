@@ -508,6 +508,62 @@
             "529aa3aa-302e-4f73-a891-b91f7d9567ed"
           ],
           "text": "No thanks."
+        },
+        "3c2940ab-6070-47c1-8582-b8ec108a00b2": {
+          "id": "3c2940ab-6070-47c1-8582-b8ec108a00b2",
+          "type": "npc",
+          "selected": false,
+          "x": 179,
+          "y": -1,
+          "ports": [
+            {
+              "id": "b5539f59-0052-4324-b482-06b0f0e1dbdb",
+              "type": "default",
+              "x": 571,
+              "y": 27,
+              "name": "out-1780218322537-44897",
+              "alignment": "right",
+              "parentNode": "3c2940ab-6070-47c1-8582-b8ec108a00b2",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Shopkeeper",
+          "color": "#6e4b1e",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "b5539f59-0052-4324-b482-06b0f0e1dbdb"
+          ],
+          "locations": [
+            "-224.65, 63.00, 205.88, -49.32, 0.00"
+          ],
+          "traits": [
+            {
+              "trait": "skintrait",
+              "args": {
+                "skin": "SHOPKEEPER"
+              }
+            },
+            {
+              "trait": "lookclose",
+              "args": {}
+            }
+          ],
+          "conditions": {
+            "conditions": [
+              ""
+            ],
+            "args": [],
+            "ors": [
+              false
+            ],
+            "negates": [
+              false
+            ]
+          },
+          "entityType": "PLAYER",
+          "equipment": {}
         }
       }
     }

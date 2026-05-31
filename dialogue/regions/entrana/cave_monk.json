@@ -599,6 +599,62 @@
               ]
             ]
           }
+        },
+        "68fb2b5c-14c2-4c3f-a3e6-ef7365b80baf": {
+          "id": "68fb2b5c-14c2-4c3f-a3e6-ef7365b80baf",
+          "type": "npc",
+          "selected": false,
+          "x": 10,
+          "y": -262,
+          "ports": [
+            {
+              "id": "62c2c087-5cd7-4da3-a73f-61acdfd3c57c",
+              "type": "default",
+              "x": 402,
+              "y": -234,
+              "name": "out-1780218321824-83928",
+              "alignment": "right",
+              "parentNode": "68fb2b5c-14c2-4c3f-a3e6-ef7365b80baf",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Cave Monk",
+          "color": "#6e4b1e",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "62c2c087-5cd7-4da3-a73f-61acdfd3c57c"
+          ],
+          "locations": [
+            "-591.44, 66.00, -271.52, 124.29, -56.98"
+          ],
+          "traits": [
+            {
+              "trait": "skintrait",
+              "args": {
+                "skin": "CAVE_MONK"
+              }
+            },
+            {
+              "trait": "lookclose",
+              "args": {}
+            }
+          ],
+          "conditions": {
+            "conditions": [
+              ""
+            ],
+            "args": [],
+            "ors": [
+              false
+            ],
+            "negates": [
+              false
+            ]
+          },
+          "entityType": "PLAYER",
+          "equipment": {}
         }
       }
     }

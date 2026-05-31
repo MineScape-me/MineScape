@@ -799,6 +799,51 @@
             "6a50dbd9-f7c2-4e70-818d-4a91536b1677"
           ],
           "switch": "quest[WATERFALL_QUEST]"
+        },
+        "0a021ae1-a53b-44e4-9a38-59599421e768": {
+          "id": "0a021ae1-a53b-44e4-9a38-59599421e768",
+          "type": "npc",
+          "selected": false,
+          "x": 10,
+          "y": -210,
+          "ports": [
+            {
+              "id": "07d4b996-f35c-48b2-bca1-eeff5f444cc1",
+              "type": "default",
+              "x": 402,
+              "y": -182,
+              "name": "out-1780263662415-39519",
+              "alignment": "right",
+              "parentNode": "0a021ae1-a53b-44e4-9a38-59599421e768",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Talk to",
+          "color": "#6e4b1e",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "07d4b996-f35c-48b2-bca1-eeff5f444cc1"
+          ],
+          "locations": [
+            "-1528.70, 87.00, -598.70, 150.43, 5.10"
+          ],
+          "traits": [],
+          "conditions": {
+            "conditions": [
+              ""
+            ],
+            "args": [],
+            "ors": [
+              false
+            ],
+            "negates": [
+              false
+            ]
+          },
+          "entityType": "ARMOR_STAND",
+          "equipment": {}
         }
       }
     }

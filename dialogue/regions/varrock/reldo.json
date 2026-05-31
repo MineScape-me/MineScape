@@ -1694,6 +1694,66 @@
             "5e36b61d-6bf4-4d64-be17-292b5791791c"
           ],
           "text": "Ah well."
+        },
+        "09920807-7f73-4506-a403-bd83d30de212": {
+          "id": "09920807-7f73-4506-a403-bd83d30de212",
+          "type": "npc",
+          "selected": false,
+          "x": 10,
+          "y": -288,
+          "ports": [
+            {
+              "id": "5eccfe04-53a4-487d-88da-cd63b78a684b",
+              "type": "default",
+              "x": 402,
+              "y": -260,
+              "name": "out-1780218322442-66928",
+              "alignment": "right",
+              "parentNode": "09920807-7f73-4506-a403-bd83d30de212",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Reldo",
+          "color": "#6e4b1e",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "5eccfe04-53a4-487d-88da-cd63b78a684b"
+          ],
+          "locations": [
+            "571.73, 62.06, -637.85, 135.00, 0.00"
+          ],
+          "traits": [
+            {
+              "trait": "cluescrolltrait",
+              "args": {}
+            },
+            {
+              "trait": "skintrait",
+              "args": {
+                "skin": "DEFAULT_MALE_TAN"
+              }
+            },
+            {
+              "trait": "randomwalk",
+              "args": {}
+            }
+          ],
+          "conditions": {
+            "conditions": [
+              ""
+            ],
+            "args": [],
+            "ors": [
+              false
+            ],
+            "negates": [
+              false
+            ]
+          },
+          "entityType": "PLAYER",
+          "equipment": {}
         }
       }
     }

@@ -401,6 +401,66 @@
           "portsOutOrder": [],
           "tree": "witchs_after",
           "start": "Start"
+        },
+        "826cf2a7-2fac-426d-a22b-d3c88d7213b5": {
+          "id": "826cf2a7-2fac-426d-a22b-d3c88d7213b5",
+          "type": "npc",
+          "selected": false,
+          "x": 10,
+          "y": -288,
+          "ports": [
+            {
+              "id": "02a30fa0-e7e2-40ca-80c1-b2d7a40e3c11",
+              "type": "default",
+              "x": 402,
+              "y": -260,
+              "name": "out-1780218322162-90361",
+              "alignment": "right",
+              "parentNode": "826cf2a7-2fac-426d-a22b-d3c88d7213b5",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Hetty",
+          "color": "#6e4b1e",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "02a30fa0-e7e2-40ca-80c1-b2d7a40e3c11"
+          ],
+          "locations": [
+            "-161.34, 63.00, 239.27, 57.53, 0.00"
+          ],
+          "traits": [
+            {
+              "trait": "cluescrolltrait",
+              "args": {}
+            },
+            {
+              "trait": "lookclose",
+              "args": {}
+            },
+            {
+              "trait": "skintrait",
+              "args": {
+                "skin": "DEFAULT_FEMALE_WHITE"
+              }
+            }
+          ],
+          "conditions": {
+            "conditions": [
+              ""
+            ],
+            "args": [],
+            "ors": [
+              false
+            ],
+            "negates": [
+              false
+            ]
+          },
+          "entityType": "PLAYER",
+          "equipment": {}
         }
       }
     }

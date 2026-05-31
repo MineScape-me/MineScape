@@ -119,6 +119,62 @@
             "fc47b136-f6a0-46f0-a8f6-e032deddee70"
           ],
           "text": "Oh dear! Oh dear! I don't have time to chat!"
+        },
+        "34657d9f-6df8-4bf5-9126-78d65db868ba": {
+          "id": "34657d9f-6df8-4bf5-9126-78d65db868ba",
+          "type": "npc",
+          "selected": false,
+          "x": 141,
+          "y": -225,
+          "ports": [
+            {
+              "id": "3b5be7a8-b6ed-46eb-8d37-2a960ce71fdf",
+              "type": "default",
+              "x": 533,
+              "y": -197,
+              "name": "out-1780218322218-20642",
+              "alignment": "right",
+              "parentNode": "34657d9f-6df8-4bf5-9126-78d65db868ba",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Julie",
+          "color": "#6e4b1e",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "3b5be7a8-b6ed-46eb-8d37-2a960ce71fdf"
+          ],
+          "locations": [
+            "791.70, 63.50, -306.05, 210.96, 0.00"
+          ],
+          "traits": [
+            {
+              "trait": "skintrait",
+              "args": {
+                "skin": "JULIE"
+              }
+            },
+            {
+              "trait": "randomwalk",
+              "args": {}
+            }
+          ],
+          "conditions": {
+            "conditions": [
+              ""
+            ],
+            "args": [],
+            "ors": [
+              false
+            ],
+            "negates": [
+              false
+            ]
+          },
+          "entityType": "PLAYER",
+          "equipment": {}
         }
       }
     }

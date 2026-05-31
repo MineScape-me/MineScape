@@ -910,6 +910,62 @@
               ]
             ]
           }
+        },
+        "4706e913-e971-4788-846a-c03968bfc401": {
+          "id": "4706e913-e971-4788-846a-c03968bfc401",
+          "type": "npc",
+          "selected": false,
+          "x": 10,
+          "y": -262,
+          "ports": [
+            {
+              "id": "bb375dee-0edb-4499-8456-2390bcc79ba3",
+              "type": "default",
+              "x": 402,
+              "y": -234,
+              "name": "out-1780218322347-50318",
+              "alignment": "right",
+              "parentNode": "4706e913-e971-4788-846a-c03968bfc401",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "MineScape Guide",
+          "color": "#6e4b1e",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "bb375dee-0edb-4499-8456-2390bcc79ba3"
+          ],
+          "locations": [
+            "222.52, 74.00, 651.40, 221.07, 0.00"
+          ],
+          "traits": [
+            {
+              "trait": "lookclose",
+              "args": {}
+            },
+            {
+              "trait": "skintrait",
+              "args": {
+                "skin": "MAN"
+              }
+            }
+          ],
+          "conditions": {
+            "conditions": [
+              ""
+            ],
+            "args": [],
+            "ors": [
+              false
+            ],
+            "negates": [
+              false
+            ]
+          },
+          "entityType": "PLAYER",
+          "equipment": {}
         }
       }
     }

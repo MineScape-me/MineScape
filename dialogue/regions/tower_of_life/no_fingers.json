@@ -1813,6 +1813,60 @@
               false
             ]
           }
+        },
+        "87832c6d-0b51-44aa-86f3-85d3063dfaba": {
+          "id": "87832c6d-0b51-44aa-86f3-85d3063dfaba",
+          "type": "npc",
+          "selected": false,
+          "x": -177,
+          "y": -290,
+          "ports": [
+            {
+              "id": "bb8cd230-4182-4c1f-83e4-e049362f38a8",
+              "type": "default",
+              "x": 215,
+              "y": -262,
+              "name": "out-1780218321585-61699",
+              "alignment": "right",
+              "parentNode": "87832c6d-0b51-44aa-86f3-85d3063dfaba",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "'No fingers'",
+          "color": "#6e4b1e",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "bb8cd230-4182-4c1f-83e4-e049362f38a8"
+          ],
+          "locations": [
+            "-1125.59, 67.00, 180.38, 0.00, 1.80"
+          ],
+          "traits": [
+            {
+              "trait": "skintrait",
+              "args": {
+                "skin": "NO_FINGERS"
+              }
+            }
+          ],
+          "conditions": {
+            "conditions": [
+              ""
+            ],
+            "args": [],
+            "ors": [
+              false
+            ],
+            "negates": [
+              false
+            ]
+          },
+          "entityType": "PLAYER",
+          "equipment": {
+            "HEAD": "HARD_HAT"
+          }
         }
       }
     }

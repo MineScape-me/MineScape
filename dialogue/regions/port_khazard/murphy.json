@@ -3058,6 +3058,62 @@
             "2b1a775b-d54e-4b55-9774-1cc61450e3a4"
           ],
           "text": "Aye aye! Meet me on board the trawler. I just need to\nget a few things together."
+        },
+        "57dd3651-fd90-4268-8004-3e3b0fe2ab8d": {
+          "id": "57dd3651-fd90-4268-8004-3e3b0fe2ab8d",
+          "type": "npc",
+          "selected": false,
+          "x": 12.553191489361701,
+          "y": -262,
+          "ports": [
+            {
+              "id": "06f921cf-5fbd-4682-85a5-b347554afac7",
+              "type": "default",
+              "x": 404.5531914893617,
+              "y": -234,
+              "name": "out-1780218322376-53385",
+              "alignment": "right",
+              "parentNode": "57dd3651-fd90-4268-8004-3e3b0fe2ab8d",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Murphy",
+          "color": "#6e4b1e",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "06f921cf-5fbd-4682-85a5-b347554afac7"
+          ],
+          "locations": [
+            "-1053.71, 67.00, 370.80, -30.96, 0.00"
+          ],
+          "traits": [
+            {
+              "trait": "skintrait",
+              "args": {
+                "skin": "MURHPY"
+              }
+            },
+            {
+              "trait": "randomwalk",
+              "args": {}
+            }
+          ],
+          "conditions": {
+            "conditions": [
+              ""
+            ],
+            "args": [],
+            "ors": [
+              false
+            ],
+            "negates": [
+              false
+            ]
+          },
+          "entityType": "PLAYER",
+          "equipment": {}
         }
       }
     }

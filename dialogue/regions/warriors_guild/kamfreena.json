@@ -1876,6 +1876,65 @@
             "f6b72854-43f6-407a-a959-38d9bdcb7da1"
           ],
           "text": "Right, I'd better go play some games then!"
+        },
+        "4baa42b3-445d-41b3-90a2-44f62ce89c73": {
+          "id": "4baa42b3-445d-41b3-90a2-44f62ce89c73",
+          "type": "npc",
+          "selected": false,
+          "x": 199,
+          "y": -252,
+          "ports": [
+            {
+              "id": "04db5dd5-b647-404b-86c7-64a6c57fe1ff",
+              "type": "default",
+              "x": 591,
+              "y": -224,
+              "name": "out-1780218322226-48957",
+              "alignment": "right",
+              "parentNode": "4baa42b3-445d-41b3-90a2-44f62ce89c73",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Kamfreena",
+          "color": "#6e4b1e",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "04db5dd5-b647-404b-86c7-64a6c57fe1ff"
+          ],
+          "locations": [
+            "-522.14, 90.00, -774.40, -51.34, 0.00"
+          ],
+          "traits": [
+            {
+              "trait": "skintrait",
+              "args": {
+                "skin": "KAMFREENA"
+              }
+            },
+            {
+              "trait": "randomwalk",
+              "args": {}
+            }
+          ],
+          "conditions": {
+            "conditions": [
+              ""
+            ],
+            "args": [],
+            "ors": [
+              false
+            ],
+            "negates": [
+              false
+            ]
+          },
+          "entityType": "PLAYER",
+          "equipment": {
+            "HAND": "STEEL_2H_SWORD",
+            "OFF_HAND": "STEEL_DEFENDER"
+          }
         }
       }
     }

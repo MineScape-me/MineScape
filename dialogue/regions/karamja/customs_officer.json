@@ -2182,6 +2182,66 @@
           "portsInOrder": [],
           "portsOutOrder": [],
           "text": "If doesn't have 30 coins?"
+        },
+        "fad699b1-23f9-44f3-a3f2-c164163c3bb1": {
+          "id": "fad699b1-23f9-44f3-a3f2-c164163c3bb1",
+          "type": "npc",
+          "selected": false,
+          "x": 85,
+          "y": -281,
+          "ports": [
+            {
+              "id": "374d5a85-e422-4edd-a019-e5bb3f3bcfc7",
+              "type": "default",
+              "x": 477,
+              "y": -253,
+              "name": "out-1780218321879-55054",
+              "alignment": "right",
+              "parentNode": "fad699b1-23f9-44f3-a3f2-c164163c3bb1",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Customs Officer",
+          "color": "#6e4b1e",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "374d5a85-e422-4edd-a019-e5bb3f3bcfc7"
+          ],
+          "locations": [
+            "-202.64, 65.00, 415.48, 92.13, -2.98"
+          ],
+          "traits": [
+            {
+              "trait": "cluescrolltrait",
+              "args": {}
+            },
+            {
+              "trait": "lookclose",
+              "args": {}
+            },
+            {
+              "trait": "skintrait",
+              "args": {
+                "skin": "WOMAN"
+              }
+            }
+          ],
+          "conditions": {
+            "conditions": [
+              ""
+            ],
+            "args": [],
+            "ors": [
+              false
+            ],
+            "negates": [
+              false
+            ]
+          },
+          "entityType": "PLAYER",
+          "equipment": {}
         }
       }
     }

@@ -128,6 +128,64 @@
               ]
             ]
           }
+        },
+        "d03b4dea-d5c3-4693-aa99-4774defbe7db": {
+          "id": "d03b4dea-d5c3-4693-aa99-4774defbe7db",
+          "type": "npc",
+          "selected": false,
+          "x": 83,
+          "y": -286,
+          "ports": [
+            {
+              "id": "371452db-6d1c-48c6-996e-c39c3859d782",
+              "type": "default",
+              "x": 475,
+              "y": -258,
+              "name": "out-1780218322663-13029",
+              "alignment": "right",
+              "parentNode": "d03b4dea-d5c3-4693-aa99-4774defbe7db",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Treznor",
+          "color": "#6e4b1e",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "371452db-6d1c-48c6-996e-c39c3859d782"
+          ],
+          "locations": [
+            "636.83, 63.00, -537.79, 135.00, 0.00"
+          ],
+          "traits": [
+            {
+              "trait": "skintrait",
+              "args": {
+                "skin": "TREZNOR"
+              }
+            },
+            {
+              "trait": "randomwalk",
+              "args": {}
+            }
+          ],
+          "conditions": {
+            "conditions": [
+              ""
+            ],
+            "args": [],
+            "ors": [
+              false
+            ],
+            "negates": [
+              false
+            ]
+          },
+          "entityType": "PLAYER",
+          "equipment": {
+            "HAND": "WATERING_CAN"
+          }
         }
       }
     }

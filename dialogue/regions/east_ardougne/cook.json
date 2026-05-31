@@ -1729,6 +1729,62 @@
             "287df7f9-657c-4cc0-a21b-9089667cde2d"
           ],
           "text": "But then someone found a rule that said that only one\nfamily could hold that post."
+        },
+        "69d0d4c4-cd56-499c-8834-4cf48acfef0c": {
+          "id": "69d0d4c4-cd56-499c-8834-4cf48acfef0c",
+          "type": "npc",
+          "selected": false,
+          "x": 10,
+          "y": -262,
+          "ports": [
+            {
+              "id": "4e6416fb-5e19-48ec-9d24-c0e14bed1c49",
+              "type": "default",
+              "x": 402,
+              "y": -234,
+              "name": "out-1780218321870-58471",
+              "alignment": "right",
+              "parentNode": "69d0d4c4-cd56-499c-8834-4cf48acfef0c",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Cook",
+          "color": "#6e4b1e",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "4e6416fb-5e19-48ec-9d24-c0e14bed1c49"
+          ],
+          "locations": [
+            "-1055.32, 69.00, -144.14, 135.00, 0.00"
+          ],
+          "traits": [
+            {
+              "trait": "randomwalk",
+              "args": {}
+            },
+            {
+              "trait": "skintrait",
+              "args": {
+                "skin": "SERVANT_COOK"
+              }
+            }
+          ],
+          "conditions": {
+            "conditions": [
+              ""
+            ],
+            "args": [],
+            "ors": [
+              false
+            ],
+            "negates": [
+              false
+            ]
+          },
+          "entityType": "PLAYER",
+          "equipment": {}
         }
       }
     }

@@ -976,6 +976,51 @@
               ]
             ]
           }
+        },
+        "5bb46e07-58e6-4e17-9997-5fd1d9468c74": {
+          "id": "5bb46e07-58e6-4e17-9997-5fd1d9468c74",
+          "type": "npc",
+          "selected": false,
+          "x": -575,
+          "y": -211,
+          "ports": [
+            {
+              "id": "a56c80d6-5c6d-427d-b7de-ea95eda541e6",
+              "type": "default",
+              "x": -183,
+              "y": -183,
+              "name": "out-1780218322827-10352",
+              "alignment": "right",
+              "parentNode": "5bb46e07-58e6-4e17-9997-5fd1d9468c74",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Listen",
+          "color": "#6e4b1e",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "a56c80d6-5c6d-427d-b7de-ea95eda541e6"
+          ],
+          "locations": [
+            "32.70, 71.00, -699.47, -90.29, 12.45"
+          ],
+          "traits": [],
+          "conditions": {
+            "conditions": [
+              ""
+            ],
+            "args": [],
+            "ors": [
+              false
+            ],
+            "negates": [
+              false
+            ]
+          },
+          "entityType": "ARMOR_STAND",
+          "equipment": {}
         }
       }
     }

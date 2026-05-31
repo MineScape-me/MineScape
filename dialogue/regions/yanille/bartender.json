@@ -1786,6 +1786,62 @@
               ]
             ]
           }
+        },
+        "5a57fcd9-92f4-4dbf-90c7-9db885140dc2": {
+          "id": "5a57fcd9-92f4-4dbf-90c7-9db885140dc2",
+          "type": "npc",
+          "selected": false,
+          "x": 150,
+          "y": -275,
+          "ports": [
+            {
+              "id": "526a533b-d43b-4fd7-b478-b37df9fe31c3",
+              "type": "default",
+              "x": 542,
+              "y": -247,
+              "name": "out-1780218321696-6939",
+              "alignment": "right",
+              "parentNode": "5a57fcd9-92f4-4dbf-90c7-9db885140dc2",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Bartender",
+          "color": "#6e4b1e",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "526a533b-d43b-4fd7-b478-b37df9fe31c3"
+          ],
+          "locations": [
+            "-1402.19, 67.00, 621.30, 157.47, -20.13"
+          ],
+          "traits": [
+            {
+              "trait": "lookclose",
+              "args": {}
+            },
+            {
+              "trait": "skintrait",
+              "args": {
+                "skin": "BARTENDER_BMI"
+              }
+            }
+          ],
+          "conditions": {
+            "conditions": [
+              ""
+            ],
+            "args": [],
+            "ors": [
+              false
+            ],
+            "negates": [
+              false
+            ]
+          },
+          "entityType": "PLAYER",
+          "equipment": {}
         }
       }
     }

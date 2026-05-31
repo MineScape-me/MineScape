@@ -1153,6 +1153,65 @@
           "portsInOrder": [],
           "portsOutOrder": [],
           "text": "Probably missing dialogue for both MINING & SMITHING"
+        },
+        "bf3221f8-6a0c-458d-85a9-e58ac53db76a": {
+          "id": "bf3221f8-6a0c-458d-85a9-e58ac53db76a",
+          "type": "npc",
+          "selected": false,
+          "x": 10,
+          "y": -314,
+          "ports": [
+            {
+              "id": "0070d17d-477f-49c9-b47a-9e3582f1e669",
+              "type": "default",
+              "x": 402,
+              "y": -286,
+              "name": "out-1780218322350-89272",
+              "alignment": "right",
+              "parentNode": "bf3221f8-6a0c-458d-85a9-e58ac53db76a",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Mining Instructor",
+          "color": "#6e4b1e",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "0070d17d-477f-49c9-b47a-9e3582f1e669"
+          ],
+          "locations": [
+            "253.49, 47.00, 668.49, 139.73, 0.00"
+          ],
+          "traits": [
+            {
+              "trait": "skintrait",
+              "args": {
+                "skin": "BLACKSMITH"
+              }
+            },
+            {
+              "trait": "lookclose",
+              "args": {}
+            }
+          ],
+          "conditions": {
+            "conditions": [
+              ""
+            ],
+            "args": [],
+            "ors": [
+              false
+            ],
+            "negates": [
+              false
+            ]
+          },
+          "entityType": "PLAYER",
+          "equipment": {
+            "HAND": "HAMMER",
+            "OFF_HAND": "RUNE_PICKAXE"
+          }
         }
       }
     }

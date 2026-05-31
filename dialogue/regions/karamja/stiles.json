@@ -472,6 +472,62 @@
               ]
             ]
           }
+        },
+        "0093e5c8-6890-4470-82bc-2e82c017721c": {
+          "id": "0093e5c8-6890-4470-82bc-2e82c017721c",
+          "type": "npc",
+          "selected": false,
+          "x": 36,
+          "y": -274,
+          "ports": [
+            {
+              "id": "e37e3743-e37f-4f0c-93fd-4d01a8d3cdd6",
+              "type": "default",
+              "x": 428,
+              "y": -246,
+              "name": "out-1780218322594-3764",
+              "alignment": "right",
+              "parentNode": "0093e5c8-6890-4470-82bc-2e82c017721c",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Stiles",
+          "color": "#6e4b1e",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "e37e3743-e37f-4f0c-93fd-4d01a8d3cdd6"
+          ],
+          "locations": [
+            "-421.59, 65.00, 432.49, 268.29, 0.00"
+          ],
+          "traits": [
+            {
+              "trait": "lookclose",
+              "args": {}
+            },
+            {
+              "trait": "skintrait",
+              "args": {
+                "skin": "MAN"
+              }
+            }
+          ],
+          "conditions": {
+            "conditions": [
+              ""
+            ],
+            "args": [],
+            "ors": [
+              false
+            ],
+            "negates": [
+              false
+            ]
+          },
+          "entityType": "PLAYER",
+          "equipment": {}
         }
       }
     }

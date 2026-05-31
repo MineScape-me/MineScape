@@ -531,6 +531,62 @@
             "297562da-95ba-4634-b6dd-68edb536962f"
           ],
           "text": "No thank you."
+        },
+        "81096cd4-fbaa-415c-8f70-4abd5d2e7aa7": {
+          "id": "81096cd4-fbaa-415c-8f70-4abd5d2e7aa7",
+          "type": "npc",
+          "selected": false,
+          "x": 94,
+          "y": -289,
+          "ports": [
+            {
+              "id": "a01bc162-56a6-41b9-860f-6207b7c01e70",
+              "type": "default",
+              "x": 486,
+              "y": -261,
+              "name": "out-1780218322542-84806",
+              "alignment": "right",
+              "parentNode": "81096cd4-fbaa-415c-8f70-4abd5d2e7aa7",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Silver Merchant",
+          "color": "#6e4b1e",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "a01bc162-56a6-41b9-860f-6207b7c01e70"
+          ],
+          "locations": [
+            "-1087.45, 68.00, -97.12, -28.89, 0.00"
+          ],
+          "traits": [
+            {
+              "trait": "skintrait",
+              "args": {
+                "skin": "SILVER_MERCHANT"
+              }
+            },
+            {
+              "trait": "lookclose",
+              "args": {}
+            }
+          ],
+          "conditions": {
+            "conditions": [
+              ""
+            ],
+            "args": [],
+            "ors": [
+              false
+            ],
+            "negates": [
+              false
+            ]
+          },
+          "entityType": "PLAYER",
+          "equipment": {}
         }
       }
     }

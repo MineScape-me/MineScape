@@ -599,6 +599,58 @@
             "2076ef6c-43bc-4827-bda2-b56ad242361c"
           ],
           "text": "As you wish."
+        },
+        "1e0dcc42-dd11-4d61-aaaa-22d7637d60d3": {
+          "id": "1e0dcc42-dd11-4d61-aaaa-22d7637d60d3",
+          "type": "npc",
+          "selected": false,
+          "x": 10,
+          "y": -262,
+          "ports": [
+            {
+              "id": "5a5062fe-0210-4d78-8389-1385c7490143",
+              "type": "default",
+              "x": 402,
+              "y": -234,
+              "name": "out-1780218322022-44362",
+              "alignment": "right",
+              "parentNode": "1e0dcc42-dd11-4d61-aaaa-22d7637d60d3",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Fairy",
+          "color": "#6e4b1e",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "5a5062fe-0210-4d78-8389-1385c7490143"
+          ],
+          "locations": [
+            "-2651.63, 12.00, 1040.55, 19.38, 0.00"
+          ],
+          "traits": [
+            {
+              "trait": "lookclose",
+              "args": {}
+            }
+          ],
+          "conditions": {
+            "conditions": [
+              ""
+            ],
+            "args": [],
+            "ors": [
+              false
+            ],
+            "negates": [
+              false
+            ]
+          },
+          "entityType": "ARMOR_STAND",
+          "equipment": {
+            "HEAD": "IRON_AXE"
+          }
         }
       }
     }

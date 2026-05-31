@@ -1572,6 +1572,67 @@
             "3cf5cfd6-e113-4271-97d7-44603184472a"
           ],
           "text": "Maybe..."
+        },
+        "cdf31bdc-761c-44c0-b5d2-8f60c2753459": {
+          "id": "cdf31bdc-761c-44c0-b5d2-8f60c2753459",
+          "type": "npc",
+          "selected": false,
+          "x": 119,
+          "y": -322,
+          "ports": [
+            {
+              "id": "0dc52dbe-c3d0-443f-babd-c3047d46dde4",
+              "type": "default",
+              "x": 511,
+              "y": -294,
+              "name": "out-1780218322366-34100",
+              "alignment": "right",
+              "parentNode": "cdf31bdc-761c-44c0-b5d2-8f60c2753459",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Mourner",
+          "color": "#6e4b1e",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "0dc52dbe-c3d0-443f-babd-c3047d46dde4"
+          ],
+          "locations": [
+            "-1375.64, 67.00, -34.54, 210.96, 0.00",
+            "-1381.74, 73.50, -61.66, -45.00, 0.00",
+            "-1379.48, 73.50, -64.09, 239.04, 0.00",
+            "-1379.15, 73.50, -58.30, 149.04, 0.00"
+          ],
+          "traits": [
+            {
+              "trait": "skintrait",
+              "args": {
+                "skin": "MOURNER"
+              }
+            },
+            {
+              "trait": "randomwalk",
+              "args": {}
+            }
+          ],
+          "conditions": {
+            "conditions": [
+              ""
+            ],
+            "args": [],
+            "ors": [
+              false
+            ],
+            "negates": [
+              false
+            ]
+          },
+          "entityType": "PLAYER",
+          "equipment": {
+            "HEAD": "GAS_MASK"
+          }
         }
       }
     }

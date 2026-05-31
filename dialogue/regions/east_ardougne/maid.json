@@ -1803,6 +1803,62 @@
             "bfdda71d-a066-4870-ab1d-99f58a94907f"
           ],
           "text": "went all over the place, gravy and potatoes and bits of\nfine porcelain and I'm so sorry. It won't happen again,\nI promise."
+        },
+        "94d161e3-a1e3-4038-94bf-b75f39c2b539": {
+          "id": "94d161e3-a1e3-4038-94bf-b75f39c2b539",
+          "type": "npc",
+          "selected": false,
+          "x": 10,
+          "y": -262,
+          "ports": [
+            {
+              "id": "5e79c1ee-75d9-44f1-ae74-6bcc46dafe48",
+              "type": "default",
+              "x": 402,
+              "y": -234,
+              "name": "out-1780218322318-89366",
+              "alignment": "right",
+              "parentNode": "94d161e3-a1e3-4038-94bf-b75f39c2b539",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Maid",
+          "color": "#6e4b1e",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "5e79c1ee-75d9-44f1-ae74-6bcc46dafe48"
+          ],
+          "locations": [
+            "-1060.86, 69.00, -133.54, 225.00, 0.00"
+          ],
+          "traits": [
+            {
+              "trait": "randomwalk",
+              "args": {}
+            },
+            {
+              "trait": "skintrait",
+              "args": {
+                "skin": "SERVANT_MAID"
+              }
+            }
+          ],
+          "conditions": {
+            "conditions": [
+              ""
+            ],
+            "args": [],
+            "ors": [
+              false
+            ],
+            "negates": [
+              false
+            ]
+          },
+          "entityType": "PLAYER",
+          "equipment": {}
         }
       }
     }

@@ -1432,6 +1432,62 @@
           "portsOutOrder": [],
           "tree": "alice_during",
           "start": "Start"
+        },
+        "f638a1c9-4deb-4599-b1eb-ac3294828823": {
+          "id": "f638a1c9-4deb-4599-b1eb-ac3294828823",
+          "type": "npc",
+          "selected": false,
+          "x": 10,
+          "y": -262,
+          "ports": [
+            {
+              "id": "68e7abab-3573-4e2e-a0ec-4df1473bbaf4",
+              "type": "default",
+              "x": 402,
+              "y": -234,
+              "name": "out-1780218321630-97532",
+              "alignment": "right",
+              "parentNode": "f638a1c9-4deb-4599-b1eb-ac3294828823",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Alice",
+          "color": "#6e4b1e",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "68e7abab-3573-4e2e-a0ec-4df1473bbaf4"
+          ],
+          "locations": [
+            "1839.30, 68.00, -730.70, 120.07, -85.06"
+          ],
+          "traits": [
+            {
+              "trait": "lookclose",
+              "args": {}
+            },
+            {
+              "trait": "skintrait",
+              "args": {
+                "skin": "ALICE"
+              }
+            }
+          ],
+          "conditions": {
+            "conditions": [
+              ""
+            ],
+            "args": [],
+            "ors": [
+              false
+            ],
+            "negates": [
+              false
+            ]
+          },
+          "entityType": "PLAYER",
+          "equipment": {}
         }
       }
     }

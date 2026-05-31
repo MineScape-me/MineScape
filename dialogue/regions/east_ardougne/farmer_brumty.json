@@ -266,6 +266,62 @@
             "bcc486bc-0a32-46dc-aa97-221fc76a4e03"
           ],
           "text": "Well, I hope things start to look up for you."
+        },
+        "6dc3b2f1-29ac-4009-929d-84030344f93e": {
+          "id": "6dc3b2f1-29ac-4009-929d-84030344f93e",
+          "type": "npc",
+          "selected": false,
+          "x": 90,
+          "y": -283,
+          "ports": [
+            {
+              "id": "bcb7201d-96c2-4db5-97a9-b3b59bf341b1",
+              "type": "default",
+              "x": 482,
+              "y": -255,
+              "name": "out-1780218322031-95981",
+              "alignment": "right",
+              "parentNode": "6dc3b2f1-29ac-4009-929d-84030344f93e",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Farmer Brumpty",
+          "color": "#6e4b1e",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "bcb7201d-96c2-4db5-97a9-b3b59bf341b1"
+          ],
+          "locations": [
+            "-1284.11, 67.00, -236.45, 120.96, 0.00"
+          ],
+          "traits": [
+            {
+              "trait": "skintrait",
+              "args": {
+                "skin": "FARMER"
+              }
+            },
+            {
+              "trait": "randomwalk",
+              "args": {}
+            }
+          ],
+          "conditions": {
+            "conditions": [
+              ""
+            ],
+            "args": [],
+            "ors": [
+              false
+            ],
+            "negates": [
+              false
+            ]
+          },
+          "entityType": "PLAYER",
+          "equipment": {}
         }
       }
     }

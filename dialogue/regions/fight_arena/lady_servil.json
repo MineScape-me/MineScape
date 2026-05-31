@@ -366,6 +366,62 @@
             "5ccf3f8d-1650-4c39-8da1-f6c17c66b232"
           ],
           "text": "Well I hope it works out. Good luck."
+        },
+        "30e2e3e6-971d-48df-adbe-9fd513121d11": {
+          "id": "30e2e3e6-971d-48df-adbe-9fd513121d11",
+          "type": "npc",
+          "selected": false,
+          "x": 10,
+          "y": -262,
+          "ports": [
+            {
+              "id": "312ba098-ffc5-4260-8d84-4e03fd89603c",
+              "type": "default",
+              "x": 402,
+              "y": -234,
+              "name": "out-1780218322278-54018",
+              "alignment": "right",
+              "parentNode": "30e2e3e6-971d-48df-adbe-9fd513121d11",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Lady Servil",
+          "color": "#6e4b1e",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "312ba098-ffc5-4260-8d84-4e03fd89603c"
+          ],
+          "locations": [
+            "-1361.17, 66.00, 264.04, 147.09, 9.11"
+          ],
+          "traits": [
+            {
+              "trait": "skintrait",
+              "args": {
+                "skin": "LADY_SERVIL"
+              }
+            },
+            {
+              "trait": "lookclose",
+              "args": {}
+            }
+          ],
+          "conditions": {
+            "conditions": [
+              ""
+            ],
+            "args": [],
+            "ors": [
+              false
+            ],
+            "negates": [
+              false
+            ]
+          },
+          "entityType": "PLAYER",
+          "equipment": {}
         }
       }
     }

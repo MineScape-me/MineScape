@@ -128,6 +128,64 @@
               ]
             ]
           }
+        },
+        "1916cbab-33ef-444f-b24b-eb33e303b94a": {
+          "id": "1916cbab-33ef-444f-b24b-eb33e303b94a",
+          "type": "npc",
+          "selected": false,
+          "x": 83,
+          "y": -286,
+          "ports": [
+            {
+              "id": "49d4ac4e-438d-41e6-98d3-c84f6406f228",
+              "type": "default",
+              "x": 475,
+              "y": -258,
+              "name": "out-1780218321990-3709",
+              "alignment": "right",
+              "parentNode": "1916cbab-33ef-444f-b24b-eb33e303b94a",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Ellena",
+          "color": "#6e4b1e",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "49d4ac4e-438d-41e6-98d3-c84f6406f228"
+          ],
+          "locations": [
+            "-469.38, 64.00, -451.53, 120.96, 0.00"
+          ],
+          "traits": [
+            {
+              "trait": "skintrait",
+              "args": {
+                "skin": "ELLENA"
+              }
+            },
+            {
+              "trait": "randomwalk",
+              "args": {}
+            }
+          ],
+          "conditions": {
+            "conditions": [
+              ""
+            ],
+            "args": [],
+            "ors": [
+              false
+            ],
+            "negates": [
+              false
+            ]
+          },
+          "entityType": "PLAYER",
+          "equipment": {
+            "HAND": "WATERING_CAN"
+          }
         }
       }
     }

@@ -1775,6 +1775,58 @@
             "1c6b7c5b-4fcd-4e40-b1a8-1dfca3ee70e8"
           ],
           "text": "Ye must be dafter than ye look if ye likes luggin' yer\ntools everywhere ye goes!"
+        },
+        "46be68b9-9892-408a-90bb-2b31a62e8673": {
+          "id": "46be68b9-9892-408a-90bb-2b31a62e8673",
+          "type": "npc",
+          "selected": false,
+          "x": 111,
+          "y": -242,
+          "ports": [
+            {
+              "id": "1269e86e-c338-469f-9570-b1e538b939af",
+              "type": "default",
+              "x": 503,
+              "y": -214,
+              "name": "out-1780218322629-42078",
+              "alignment": "right",
+              "parentNode": "46be68b9-9892-408a-90bb-2b31a62e8673",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Tool Leprechaun",
+          "color": "#6e4b1e",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "1269e86e-c338-469f-9570-b1e538b939af"
+          ],
+          "locations": [
+            "500.58, 65.00, -218.60, 155.70, -1.43"
+          ],
+          "traits": [
+            {
+              "trait": "lookclose",
+              "args": {}
+            }
+          ],
+          "conditions": {
+            "conditions": [
+              ""
+            ],
+            "args": [],
+            "ors": [
+              false
+            ],
+            "negates": [
+              false
+            ]
+          },
+          "entityType": "ARMOR_STAND",
+          "equipment": {
+            "HEAD": "IRON_AXE"
+          }
         }
       }
     }

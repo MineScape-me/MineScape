@@ -427,6 +427,67 @@
           "portsInOrder": [],
           "portsOutOrder": [],
           "text": "a tomato appears on the ground at the Recruiters feet, yes\nyou can pick it up."
+        },
+        "1fd1c9f9-98cd-46a2-a967-56c35a8d9cef": {
+          "id": "1fd1c9f9-98cd-46a2-a967-56c35a8d9cef",
+          "type": "npc",
+          "selected": false,
+          "x": 10,
+          "y": -366,
+          "ports": [
+            {
+              "id": "f9aaa9a1-ecbc-4e6f-9b27-799f4b0a4b29",
+              "type": "default",
+              "x": 402,
+              "y": -338,
+              "name": "out-1780218322440-33450",
+              "alignment": "right",
+              "parentNode": "1fd1c9f9-98cd-46a2-a967-56c35a8d9cef",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Recruiter",
+          "color": "#6e4b1e",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "f9aaa9a1-ecbc-4e6f-9b27-799f4b0a4b29"
+          ],
+          "locations": [
+            "-1434.57, 68.00, -66.72, 128.66, 0.00"
+          ],
+          "traits": [
+            {
+              "trait": "randomwalk",
+              "args": {}
+            },
+            {
+              "trait": "skintrait",
+              "args": {
+                "skin": "RECRUITER"
+              }
+            }
+          ],
+          "conditions": {
+            "conditions": [
+              ""
+            ],
+            "args": [],
+            "ors": [
+              false
+            ],
+            "negates": [
+              false
+            ]
+          },
+          "entityType": "PLAYER",
+          "equipment": {
+            "HAND": "BATTLESTAFF",
+            "FEET": "LEATHER_BOOTS",
+            "LEGS": "STEEL_PLATELEGS",
+            "CHEST": "STEEL_PLATEBODY"
+          }
         }
       }
     }

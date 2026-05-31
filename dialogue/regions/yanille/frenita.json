@@ -508,6 +508,62 @@
               ]
             ]
           }
+        },
+        "84d8da8f-8a7e-4d7a-951c-ff6c572a0be3": {
+          "id": "84d8da8f-8a7e-4d7a-951c-ff6c572a0be3",
+          "type": "npc",
+          "selected": false,
+          "x": 140,
+          "y": -266,
+          "ports": [
+            {
+              "id": "c568f575-6a57-4e90-872c-6a0b040fb05e",
+              "type": "default",
+              "x": 532,
+              "y": -238,
+              "name": "out-1780218322076-11005",
+              "alignment": "right",
+              "parentNode": "84d8da8f-8a7e-4d7a-951c-ff6c572a0be3",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Frenita",
+          "color": "#6e4b1e",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "c568f575-6a57-4e90-872c-6a0b040fb05e"
+          ],
+          "locations": [
+            "-1364.77, 67.00, 561.68, -30.96, 0.00"
+          ],
+          "traits": [
+            {
+              "trait": "randomwalk",
+              "args": {}
+            },
+            {
+              "trait": "skintrait",
+              "args": {
+                "skin": "FRENITA"
+              }
+            }
+          ],
+          "conditions": {
+            "conditions": [
+              ""
+            ],
+            "args": [],
+            "ors": [
+              false
+            ],
+            "negates": [
+              false
+            ]
+          },
+          "entityType": "PLAYER",
+          "equipment": {}
         }
       }
     }

@@ -340,6 +340,62 @@
             "2402b362-1303-480d-a176-fb2dc3fb9401"
           ],
           "text": "Fine and dandy."
+        },
+        "e76471a8-0326-49f4-a044-81249276382b": {
+          "id": "e76471a8-0326-49f4-a044-81249276382b",
+          "type": "npc",
+          "selected": false,
+          "x": 135,
+          "y": -284,
+          "ports": [
+            {
+              "id": "c1c5a50c-9e3f-4eed-8590-53b92d16e062",
+              "type": "default",
+              "x": 527,
+              "y": -256,
+              "name": "out-1780218321778-76653",
+              "alignment": "right",
+              "parentNode": "e76471a8-0326-49f4-a044-81249276382b",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Butler Jones",
+          "color": "#6e4b1e",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "c1c5a50c-9e3f-4eed-8590-53b92d16e062"
+          ],
+          "locations": [
+            "-1355.82, 69.06, 35.28, 59.04, 0.00"
+          ],
+          "traits": [
+            {
+              "trait": "skintrait",
+              "args": {
+                "skin": "BUTLER_JONES"
+              }
+            },
+            {
+              "trait": "randomwalk",
+              "args": {}
+            }
+          ],
+          "conditions": {
+            "conditions": [
+              ""
+            ],
+            "args": [],
+            "ors": [
+              false
+            ],
+            "negates": [
+              false
+            ]
+          },
+          "entityType": "PLAYER",
+          "equipment": {}
         }
       }
     }

@@ -2177,6 +2177,68 @@
             "f5426939-7159-4e5b-8ffa-cfe1a28a0acb"
           ],
           "text": "Be well, warrior."
+        },
+        "cc8c71da-2761-47bb-ba24-ea73c123f4a2": {
+          "id": "cc8c71da-2761-47bb-ba24-ea73c123f4a2",
+          "type": "npc",
+          "selected": false,
+          "x": 10,
+          "y": -314,
+          "ports": [
+            {
+              "id": "efb19977-0981-48ee-a205-a99cdfef0904",
+              "type": "default",
+              "x": 402,
+              "y": -286,
+              "name": "out-1780218322578-5713",
+              "alignment": "right",
+              "parentNode": "cc8c71da-2761-47bb-ba24-ea73c123f4a2",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Sloane",
+          "color": "#6e4b1e",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "efb19977-0981-48ee-a205-a99cdfef0904"
+          ],
+          "locations": [
+            "-488.98, 81.00, -808.78, 225.00, 0.00"
+          ],
+          "traits": [
+            {
+              "trait": "capetrait",
+              "args": {}
+            },
+            {
+              "trait": "skintrait",
+              "args": {
+                "skin": "SLOANE"
+              }
+            },
+            {
+              "trait": "randomwalk",
+              "args": {}
+            }
+          ],
+          "conditions": {
+            "conditions": [
+              ""
+            ],
+            "args": [],
+            "ors": [
+              false
+            ],
+            "negates": [
+              false
+            ]
+          },
+          "entityType": "PLAYER",
+          "equipment": {
+            "HAND": "STEEL_BATTLEAXE"
+          }
         }
       }
     }

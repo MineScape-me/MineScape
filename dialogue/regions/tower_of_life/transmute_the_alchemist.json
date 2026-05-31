@@ -1147,6 +1147,84 @@
           "portsOutOrder": [],
           "tree": "return_to_effigy",
           "start": "Start"
+        },
+        "bebfed4b-429b-4451-9118-7f8dc7eb8f8c": {
+          "id": "bebfed4b-429b-4451-9118-7f8dc7eb8f8c",
+          "type": "npc",
+          "selected": false,
+          "x": -172,
+          "y": -347,
+          "ports": [
+            {
+              "id": "a1e13c8f-536a-441b-8a21-0461cac471db",
+              "type": "default",
+              "x": 220,
+              "y": -319,
+              "name": "out-1780218321594-73229",
+              "alignment": "right",
+              "parentNode": "bebfed4b-429b-4451-9118-7f8dc7eb8f8c",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "'Transmute' The Alchemist",
+          "color": "#6e4b1e",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "a1e13c8f-536a-441b-8a21-0461cac471db"
+          ],
+          "locations": [
+            "-1143.59, 66.00, 204.40, 135.00, 0.00"
+          ],
+          "traits": [
+            {
+              "trait": "skintrait",
+              "args": {
+                "skin": "TRANSMUTE_THE_ALCHEMIST"
+              }
+            },
+            {
+              "trait": "randomwalk",
+              "args": {}
+            }
+          ],
+          "conditions": {
+            "conditions": [
+              "questStage",
+              "questStage",
+              "questStage"
+            ],
+            "args": [
+              [
+                "TOWER_OF_LIFE",
+                "!=",
+                "6"
+              ],
+              [
+                "TOWER_OF_LIFE",
+                "<",
+                "10"
+              ],
+              [
+                "TOWER_OF_LIFE",
+                ">",
+                "11"
+              ]
+            ],
+            "ors": [
+              false,
+              false,
+              true
+            ],
+            "negates": [
+              false,
+              false,
+              false
+            ]
+          },
+          "entityType": "PLAYER",
+          "equipment": {}
         }
       }
     }

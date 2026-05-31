@@ -900,6 +900,65 @@
           "portsOutOrder": [],
           "tree": "hand_in_the_sand_before",
           "start": "Start"
+        },
+        "b742c7cd-2c62-4805-9f1c-6010efdded6c": {
+          "id": "b742c7cd-2c62-4805-9f1c-6010efdded6c",
+          "type": "npc",
+          "selected": false,
+          "x": 66,
+          "y": 197,
+          "ports": [
+            {
+              "id": "5c113049-a791-4e0e-ad9e-48c963351b28",
+              "type": "default",
+              "x": 458,
+              "y": 225,
+              "name": "out-1780218322130-36669",
+              "alignment": "right",
+              "parentNode": "b742c7cd-2c62-4805-9f1c-6010efdded6c",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Guard Captian",
+          "color": "#6e4b1e",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "5c113049-a791-4e0e-ad9e-48c963351b28"
+          ],
+          "locations": [
+            "-1407.65, 67.06, 614.28, 38.66, 0.00"
+          ],
+          "traits": [
+            {
+              "trait": "skintrait",
+              "args": {
+                "skin": "GUARD_CAPTAIN"
+              }
+            },
+            {
+              "trait": "randomwalk",
+              "args": {}
+            }
+          ],
+          "conditions": {
+            "conditions": [
+              ""
+            ],
+            "args": [],
+            "ors": [
+              false
+            ],
+            "negates": [
+              false
+            ]
+          },
+          "entityType": "PLAYER",
+          "equipment": {
+            "HAND": "BEER",
+            "HEAD": "STEEL_MED_HELM"
+          }
         }
       }
     }

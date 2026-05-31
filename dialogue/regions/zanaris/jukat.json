@@ -606,6 +606,58 @@
             "3a6c9a91-c76b-4eeb-aeec-f5cde9938e27"
           ],
           "text": "No thanks, I'm just browsing."
+        },
+        "b7af9579-1726-457f-bf55-d1bbd95144bf": {
+          "id": "b7af9579-1726-457f-bf55-d1bbd95144bf",
+          "type": "npc",
+          "selected": false,
+          "x": 247,
+          "y": -238,
+          "ports": [
+            {
+              "id": "c6804219-f567-470d-a13a-ac53f8416611",
+              "type": "default",
+              "x": 639,
+              "y": -210,
+              "name": "out-1780218322217-66770",
+              "alignment": "right",
+              "parentNode": "b7af9579-1726-457f-bf55-d1bbd95144bf",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Jukat",
+          "color": "#6e4b1e",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "c6804219-f567-470d-a13a-ac53f8416611"
+          ],
+          "locations": [
+            "-2648.68, 11.00, 1106.43, 231.34, 0.00"
+          ],
+          "traits": [
+            {
+              "trait": "randomwalk",
+              "args": {}
+            }
+          ],
+          "conditions": {
+            "conditions": [
+              ""
+            ],
+            "args": [],
+            "ors": [
+              false
+            ],
+            "negates": [
+              false
+            ]
+          },
+          "entityType": "ARMOR_STAND",
+          "equipment": {
+            "HEAD": "IRON_AXE"
+          }
         }
       }
     }

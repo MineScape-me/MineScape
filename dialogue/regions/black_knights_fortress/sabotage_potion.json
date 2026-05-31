@@ -855,6 +855,51 @@
               ]
             ]
           }
+        },
+        "583c9602-8878-406c-b8f4-beaaa6318097": {
+          "id": "583c9602-8878-406c-b8f4-beaaa6318097",
+          "type": "npc",
+          "selected": false,
+          "x": -510.1016949152542,
+          "y": -207,
+          "ports": [
+            {
+              "id": "5551dbde-22c6-45fa-88f8-24968f5e0d17",
+              "type": "default",
+              "x": -118.1016949152542,
+              "y": -179,
+              "name": "out-1780218322813-62026",
+              "alignment": "right",
+              "parentNode": "583c9602-8878-406c-b8f4-beaaa6318097",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Interact",
+          "color": "#6e4b1e",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "5551dbde-22c6-45fa-88f8-24968f5e0d17"
+          ],
+          "locations": [
+            "48.53, 77.00, -699.51, 89.92, 88.95"
+          ],
+          "traits": [],
+          "conditions": {
+            "conditions": [
+              ""
+            ],
+            "args": [],
+            "ors": [
+              false
+            ],
+            "negates": [
+              false
+            ]
+          },
+          "entityType": "ARMOR_STAND",
+          "equipment": {}
         }
       }
     }

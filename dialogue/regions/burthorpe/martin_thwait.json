@@ -1212,6 +1212,66 @@
             "2f288988-c057-4435-b991-1df4ae7ccf82"
           ],
           "text": "No thank you."
+        },
+        "f55626c8-51ea-4916-b779-532cf870e4c2": {
+          "id": "f55626c8-51ea-4916-b779-532cf870e4c2",
+          "type": "npc",
+          "selected": false,
+          "x": 136,
+          "y": -281,
+          "ports": [
+            {
+              "id": "122e6618-ead4-444b-91be-a767e788e2e8",
+              "type": "default",
+              "x": 528,
+              "y": -253,
+              "name": "out-1780218322327-67913",
+              "alignment": "right",
+              "parentNode": "f55626c8-51ea-4916-b779-532cf870e4c2",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Martin Thwait",
+          "color": "#6e4b1e",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "122e6618-ead4-444b-91be-a767e788e2e8"
+          ],
+          "locations": [
+            "-371.40, 48.00, -692.81, 54.02, -28.21"
+          ],
+          "traits": [
+            {
+              "trait": "lookclose",
+              "args": {}
+            },
+            {
+              "trait": "skintrait",
+              "args": {
+                "skin": "DEFAULT_MALE_TAN"
+              }
+            },
+            {
+              "trait": "capetrait",
+              "args": {}
+            }
+          ],
+          "conditions": {
+            "conditions": [
+              ""
+            ],
+            "args": [],
+            "ors": [
+              false
+            ],
+            "negates": [
+              false
+            ]
+          },
+          "entityType": "PLAYER",
+          "equipment": {}
         }
       }
     }

@@ -1202,6 +1202,70 @@
             "db72526f-2998-4f01-b656-64358a4c913a"
           ],
           "text": "Ok. My work here is done. 'Bye!"
+        },
+        "b5acf82a-7492-46a3-a8ce-e30556f417d6": {
+          "id": "b5acf82a-7492-46a3-a8ce-e30556f417d6",
+          "type": "npc",
+          "selected": false,
+          "x": 90,
+          "y": -381,
+          "ports": [
+            {
+              "id": "c0b74942-2502-47b2-9a1d-b7905b7dd3d3",
+              "type": "default",
+              "x": 482,
+              "y": -353,
+              "name": "out-1780218322574-61985",
+              "alignment": "right",
+              "parentNode": "b5acf82a-7492-46a3-a8ce-e30556f417d6",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Sir Vyvin",
+          "color": "#6e4b1e",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "c0b74942-2502-47b2-9a1d-b7905b7dd3d3"
+          ],
+          "locations": [
+            "-111.00, 79.06, -173.15, -36.87, 0.00"
+          ],
+          "traits": [
+            {
+              "trait": "cluescrolltrait",
+              "args": {}
+            },
+            {
+              "trait": "skintrait",
+              "args": {
+                "skin": "SIR_VYVIN"
+              }
+            },
+            {
+              "trait": "randomwalk",
+              "args": {}
+            }
+          ],
+          "conditions": {
+            "conditions": [
+              ""
+            ],
+            "args": [],
+            "ors": [
+              false
+            ],
+            "negates": [
+              false
+            ]
+          },
+          "entityType": "PLAYER",
+          "equipment": {
+            "FEET": "LEATHER_BOOTS",
+            "LEGS": "WHITE_PLATELEGS",
+            "CHEST": "WHITE_PLATEBODY"
+          }
         }
       }
     }

@@ -2900,6 +2900,62 @@
             "94d68899-e115-4888-8f21-6f46e0f4be08"
           ],
           "text": "Don't be ridiculous! That is far too much. You insult\nme with that price."
+        },
+        "ae8fd378-416a-4bb5-bb66-6da773a8be65": {
+          "id": "ae8fd378-416a-4bb5-bb66-6da773a8be65",
+          "type": "npc",
+          "selected": false,
+          "x": 10,
+          "y": -262,
+          "ports": [
+            {
+              "id": "4f5edce2-4e3d-48ae-9076-abf080bdbf58",
+              "type": "default",
+              "x": 402,
+              "y": -234,
+              "name": "out-1780218322539-45106",
+              "alignment": "right",
+              "parentNode": "ae8fd378-416a-4bb5-bb66-6da773a8be65",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Silk Merchant",
+          "color": "#6e4b1e",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "4f5edce2-4e3d-48ae-9076-abf080bdbf58"
+          ],
+          "locations": [
+            "-1090.53, 68.00, -54.93, 127.35, -2.90"
+          ],
+          "traits": [
+            {
+              "trait": "lookclose",
+              "args": {}
+            },
+            {
+              "trait": "skintrait",
+              "args": {
+                "skin": "SILK_MERCHANT"
+              }
+            }
+          ],
+          "conditions": {
+            "conditions": [
+              ""
+            ],
+            "args": [],
+            "ors": [
+              false
+            ],
+            "negates": [
+              false
+            ]
+          },
+          "entityType": "PLAYER",
+          "equipment": {}
         }
       }
     }

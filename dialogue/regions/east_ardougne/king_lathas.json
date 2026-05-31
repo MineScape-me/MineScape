@@ -119,6 +119,62 @@
             "f8f3686f-f4d2-4cac-b4d6-1c241a9f78bb"
           ],
           "text": "Leave me citizen. I'm far too busy to talk."
+        },
+        "bf1f4595-e736-4510-91f4-015045143f25": {
+          "id": "bf1f4595-e736-4510-91f4-015045143f25",
+          "type": "npc",
+          "selected": false,
+          "x": 91,
+          "y": -277,
+          "ports": [
+            {
+              "id": "d92b04d8-59e4-4bb4-ac20-a1572ffa0a54",
+              "type": "default",
+              "x": 483,
+              "y": -249,
+              "name": "out-1780218322253-10945",
+              "alignment": "right",
+              "parentNode": "bf1f4595-e736-4510-91f4-015045143f25",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "King Lathas",
+          "color": "#6e4b1e",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "d92b04d8-59e4-4bb4-ac20-a1572ffa0a54"
+          ],
+          "locations": [
+            "-1325.25, 81.06, -29.42, 239.04, 0.00"
+          ],
+          "traits": [
+            {
+              "trait": "skintrait",
+              "args": {
+                "skin": "KING_LATHAS"
+              }
+            },
+            {
+              "trait": "randomwalk",
+              "args": {}
+            }
+          ],
+          "conditions": {
+            "conditions": [
+              ""
+            ],
+            "args": [],
+            "ors": [
+              false
+            ],
+            "negates": [
+              false
+            ]
+          },
+          "entityType": "PLAYER",
+          "equipment": {}
         }
       }
     }

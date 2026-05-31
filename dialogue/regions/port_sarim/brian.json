@@ -657,6 +657,64 @@
             "7ea43489-4b64-4c2e-863d-9dae8a70c21d"
           ],
           "text": "Yep, take a look at these great axes!"
+        },
+        "3dd5dc47-2534-4df9-9b90-f769c26e8c00": {
+          "id": "3dd5dc47-2534-4df9-9b90-f769c26e8c00",
+          "type": "npc",
+          "selected": false,
+          "x": 293,
+          "y": -42,
+          "ports": [
+            {
+              "id": "3fd3cd0b-0845-4421-a975-3b5dd43657e9",
+              "type": "default",
+              "x": 685,
+              "y": -14,
+              "name": "out-1780218321749-82225",
+              "alignment": "right",
+              "parentNode": "3dd5dc47-2534-4df9-9b90-f769c26e8c00",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Brian",
+          "color": "#6e4b1e",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "3fd3cd0b-0845-4421-a975-3b5dd43657e9"
+          ],
+          "locations": [
+            "20.00, 66.06, 109.02, 5.48, 0.18"
+          ],
+          "traits": [
+            {
+              "trait": "lookclose",
+              "args": {}
+            },
+            {
+              "trait": "skintrait",
+              "args": {
+                "skin": "BLACKSMITH"
+              }
+            }
+          ],
+          "conditions": {
+            "conditions": [
+              ""
+            ],
+            "args": [],
+            "ors": [
+              false
+            ],
+            "negates": [
+              false
+            ]
+          },
+          "entityType": "PLAYER",
+          "equipment": {
+            "HAND": "RUNE_BATTLEAXE"
+          }
         }
       }
     }

@@ -1110,6 +1110,64 @@
           "portsOutOrder": [],
           "tree": "tutorial_after",
           "start": "Start"
+        },
+        "f66e1832-83ee-4ec7-9074-42506903cf14": {
+          "id": "f66e1832-83ee-4ec7-9074-42506903cf14",
+          "type": "npc",
+          "selected": false,
+          "x": 10,
+          "y": -288,
+          "ports": [
+            {
+              "id": "76fa9f18-eeac-404e-af7f-20114e431c13",
+              "type": "default",
+              "x": 402,
+              "y": -260,
+              "name": "out-1780218322436-38379",
+              "alignment": "right",
+              "parentNode": "f66e1832-83ee-4ec7-9074-42506903cf14",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Quest Guide",
+          "color": "#6e4b1e",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "76fa9f18-eeac-404e-af7f-20114e431c13"
+          ],
+          "locations": [
+            "193.57, 68.00, 659.67, 265.35, -0.45"
+          ],
+          "traits": [
+            {
+              "trait": "skintrait",
+              "args": {
+                "skin": "DEFAULT_FEMALE_TAN"
+              }
+            },
+            {
+              "trait": "lookclose",
+              "args": {}
+            }
+          ],
+          "conditions": {
+            "conditions": [
+              ""
+            ],
+            "args": [],
+            "ors": [
+              false
+            ],
+            "negates": [
+              false
+            ]
+          },
+          "entityType": "PLAYER",
+          "equipment": {
+            "HAND": "BOOK"
+          }
         }
       }
     }

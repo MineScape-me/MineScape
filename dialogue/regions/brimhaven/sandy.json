@@ -1482,6 +1482,62 @@
             "58c5c41e-961e-43cd-b822-463d888fd5bb"
           ],
           "text": "You rummage around in Sandy's pockets..."
+        },
+        "a48150f8-7e40-45d5-9fe1-5dc08c9d2ab4": {
+          "id": "a48150f8-7e40-45d5-9fe1-5dc08c9d2ab4",
+          "type": "npc",
+          "selected": false,
+          "x": 239,
+          "y": -226,
+          "ports": [
+            {
+              "id": "1fa94cd4-21a2-486b-890f-c709a8cadc1d",
+              "type": "default",
+              "x": 631,
+              "y": -198,
+              "name": "out-1780218322482-34071",
+              "alignment": "right",
+              "parentNode": "a48150f8-7e40-45d5-9fe1-5dc08c9d2ab4",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Sandy",
+          "color": "#6e4b1e",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "1fa94cd4-21a2-486b-890f-c709a8cadc1d"
+          ],
+          "locations": [
+            "-693.56, 69.00, 325.48, 110.79, 5.74"
+          ],
+          "traits": [
+            {
+              "trait": "skintrait",
+              "args": {
+                "skin": "SANDY"
+              }
+            },
+            {
+              "trait": "lookclose",
+              "args": {}
+            }
+          ],
+          "conditions": {
+            "conditions": [
+              ""
+            ],
+            "args": [],
+            "ors": [
+              false
+            ],
+            "negates": [
+              false
+            ]
+          },
+          "entityType": "PLAYER",
+          "equipment": {}
         }
       }
     }

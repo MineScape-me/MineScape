@@ -1708,6 +1708,71 @@
           "portsInOrder": [],
           "portsOutOrder": [],
           "text": "Claim tokens"
+        },
+        "fa83b9cb-af3b-4ca6-bf96-9276f85ef8cf": {
+          "id": "fa83b9cb-af3b-4ca6-bf96-9276f85ef8cf",
+          "type": "npc",
+          "selected": false,
+          "x": 10,
+          "y": -392,
+          "ports": [
+            {
+              "id": "5c1551dd-f90d-4294-869f-ddf087a72284",
+              "type": "default",
+              "x": 402,
+              "y": -364,
+              "name": "out-1780218321620-26834",
+              "alignment": "right",
+              "parentNode": "fa83b9cb-af3b-4ca6-bf96-9276f85ef8cf",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Ajjat",
+          "color": "#6e4b1e",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "5c1551dd-f90d-4294-869f-ddf087a72284"
+          ],
+          "locations": [
+            "-499.10, 71.00, -815.98, 135.00, 0.00"
+          ],
+          "traits": [
+            {
+              "trait": "skintrait",
+              "args": {
+                "skin": "AJJAT"
+              }
+            },
+            {
+              "trait": "capetrait",
+              "args": {}
+            },
+            {
+              "trait": "randomwalk",
+              "args": {}
+            }
+          ],
+          "conditions": {
+            "conditions": [
+              ""
+            ],
+            "args": [],
+            "ors": [
+              false
+            ],
+            "negates": [
+              false
+            ]
+          },
+          "entityType": "PLAYER",
+          "equipment": {
+            "HAND": "BLACK_2H_SWORD",
+            "FEET": "BLACK_BOOTS",
+            "LEGS": "BLACK_PLATELEGS",
+            "CHEST": "BLACK_PLATEBODY"
+          }
         }
       }
     }

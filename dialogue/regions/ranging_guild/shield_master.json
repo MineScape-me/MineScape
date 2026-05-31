@@ -2766,6 +2766,67 @@
             "ccd0b529-a6ab-427f-94b3-37e7d2a84dc6"
           ],
           "text": "Stay protected adventurer, for it's dangerous out there."
+        },
+        "04a29a69-e67d-4849-89c6-80febdc23704": {
+          "id": "04a29a69-e67d-4849-89c6-80febdc23704",
+          "type": "npc",
+          "selected": false,
+          "x": -166.84210526315792,
+          "y": -395.47368421052636,
+          "ports": [
+            {
+              "id": "ac239ac1-d54c-415f-97bd-ff96e0c95949",
+              "type": "default",
+              "x": 225.15789473684208,
+              "y": -367.47368421052636,
+              "name": "out-1780218322856-20203",
+              "alignment": "right",
+              "parentNode": "04a29a69-e67d-4849-89c6-80febdc23704",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Shield Master",
+          "color": "#6e4b1e",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "ac239ac1-d54c-415f-97bd-ff96e0c95949"
+          ],
+          "locations": [
+            "-1091.37, 67.00, -426.19, 128.66, 0.00"
+          ],
+          "traits": [
+            {
+              "trait": "randomwalk",
+              "args": {}
+            },
+            {
+              "trait": "skintrait",
+              "args": {
+                "skin": "SHIELD_MASTER"
+              }
+            }
+          ],
+          "conditions": {
+            "conditions": [
+              ""
+            ],
+            "args": [],
+            "ors": [
+              false
+            ],
+            "negates": [
+              false
+            ]
+          },
+          "entityType": "PLAYER",
+          "equipment": {
+            "HAND": "BRONZE_CROSSBOW",
+            "OFF_HAND": "SNAKESKIN_SHIELD",
+            "FEET": "LEATHER_BOOTS",
+            "HEAD": "SLAYER_HOOD"
+          }
         }
       }
     }

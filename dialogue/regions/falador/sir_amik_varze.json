@@ -519,6 +519,68 @@
           "portsOutOrder": [],
           "tree": "black_after",
           "start": "Start"
+        },
+        "05185d74-4fc2-47cb-ba52-841ed95a6ece": {
+          "id": "05185d74-4fc2-47cb-ba52-841ed95a6ece",
+          "type": "npc",
+          "selected": false,
+          "x": -143.41469764448837,
+          "y": -213.43831808111557,
+          "ports": [
+            {
+              "id": "528055c4-1504-4e63-8657-7068a19dbc20",
+              "type": "default",
+              "x": 248.58530235551163,
+              "y": -185.43831808111557,
+              "name": "out-1780218322548-11217",
+              "alignment": "right",
+              "parentNode": "05185d74-4fc2-47cb-ba52-841ed95a6ece",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Sir Amik Varze",
+          "color": "#6e4b1e",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "528055c4-1504-4e63-8657-7068a19dbc20"
+          ],
+          "locations": [
+            "-186.26, 78.00, -163.40, 135.00, 0.00"
+          ],
+          "traits": [
+            {
+              "trait": "randomwalk",
+              "args": {}
+            },
+            {
+              "trait": "skintrait",
+              "args": {
+                "skin": "DEFAULT_MALE_TAN"
+              }
+            }
+          ],
+          "conditions": {
+            "conditions": [
+              ""
+            ],
+            "args": [],
+            "ors": [
+              false
+            ],
+            "negates": [
+              false
+            ]
+          },
+          "entityType": "PLAYER",
+          "equipment": {
+            "HAND": "STEEL_SWORD",
+            "OFF_HAND": "WHITE_KITESHIELD",
+            "FEET": "WHITE_BOOTS",
+            "LEGS": "WHITE_PLATELEGS",
+            "CHEST": "WHITE_PLATEBODY"
+          }
         }
       }
     }

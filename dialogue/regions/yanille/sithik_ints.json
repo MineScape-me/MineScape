@@ -191,6 +191,51 @@
             "ed727e84-9088-4533-91ac-8275a6d13297"
           ],
           "text": "Alright, alright...keep your night cap on."
+        },
+        "beb81b87-4c02-4967-8f6d-b17494b4c001": {
+          "id": "beb81b87-4c02-4967-8f6d-b17494b4c001",
+          "type": "npc",
+          "selected": false,
+          "x": 10,
+          "y": -210,
+          "ports": [
+            {
+              "id": "c95cf785-402a-4fde-b00e-14373093e4dd",
+              "type": "default",
+              "x": 402,
+              "y": -182,
+              "name": "out-1780218322576-5455",
+              "alignment": "right",
+              "parentNode": "beb81b87-4c02-4967-8f6d-b17494b4c001",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Sithik Ints",
+          "color": "#6e4b1e",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "c95cf785-402a-4fde-b00e-14373093e4dd"
+          ],
+          "locations": [
+            "-1286.70, 76.00, 544.55, 179.87, 1.20"
+          ],
+          "traits": [],
+          "conditions": {
+            "conditions": [
+              ""
+            ],
+            "args": [],
+            "ors": [
+              false
+            ],
+            "negates": [
+              false
+            ]
+          },
+          "entityType": "PLAYER",
+          "equipment": {}
         }
       }
     }

@@ -128,6 +128,64 @@
               ]
             ]
           }
+        },
+        "b001426c-3799-4ea8-8540-a782fd534512": {
+          "id": "b001426c-3799-4ea8-8540-a782fd534512",
+          "type": "npc",
+          "selected": false,
+          "x": 83,
+          "y": -286,
+          "ports": [
+            {
+              "id": "205040b3-d0ef-48dd-8cf6-3d16aa0117e9",
+              "type": "default",
+              "x": 475,
+              "y": -258,
+              "name": "out-1780218322642-79596",
+              "alignment": "right",
+              "parentNode": "b001426c-3799-4ea8-8540-a782fd534512",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Torrell",
+          "color": "#6e4b1e",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "205040b3-d0ef-48dd-8cf6-3d16aa0117e9"
+          ],
+          "locations": [
+            "-1216.49, 67.00, 178.55, 30.96, 0.00"
+          ],
+          "traits": [
+            {
+              "trait": "skintrait",
+              "args": {
+                "skin": "CAVE_MONK"
+              }
+            },
+            {
+              "trait": "randomwalk",
+              "args": {}
+            }
+          ],
+          "conditions": {
+            "conditions": [
+              ""
+            ],
+            "args": [],
+            "ors": [
+              false
+            ],
+            "negates": [
+              false
+            ]
+          },
+          "entityType": "PLAYER",
+          "equipment": {
+            "HAND": "WATERING_CAN"
+          }
         }
       }
     }

@@ -677,6 +677,62 @@
             "5d0f3a95-dbed-4610-97ce-31ff52c2bbde"
           ],
           "text": "The Master Farmers usually carry a few rare seeds\naround with them, although I don't know if they'd want\nto part with them for any price to be honest."
+        },
+        "2ebab088-c51d-4d4f-af55-e6980db3a80e": {
+          "id": "2ebab088-c51d-4d4f-af55-e6980db3a80e",
+          "type": "npc",
+          "selected": false,
+          "x": 108,
+          "y": -301,
+          "ports": [
+            {
+              "id": "12a70a6c-c615-4784-b660-4a9ac0a290bf",
+              "type": "default",
+              "x": 500,
+              "y": -273,
+              "name": "out-1780218322403-36850",
+              "alignment": "right",
+              "parentNode": "2ebab088-c51d-4d4f-af55-e6980db3a80e",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Olivia",
+          "color": "#6e4b1e",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "12a70a6c-c615-4784-b660-4a9ac0a290bf"
+          ],
+          "locations": [
+            "180.63, 63.00, 96.48, 53.13, 0.00"
+          ],
+          "traits": [
+            {
+              "trait": "skintrait",
+              "args": {
+                "skin": "TARIA"
+              }
+            },
+            {
+              "trait": "randomwalk",
+              "args": {}
+            }
+          ],
+          "conditions": {
+            "conditions": [
+              ""
+            ],
+            "args": [],
+            "ors": [
+              false
+            ],
+            "negates": [
+              false
+            ]
+          },
+          "entityType": "PLAYER",
+          "equipment": {}
         }
       }
     }

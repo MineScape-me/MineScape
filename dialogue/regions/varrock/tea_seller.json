@@ -724,6 +724,62 @@
             "cec3c96e-6185-41e3-bf52-90bbad021e11"
           ],
           "text": "Only the most delicious infusion of the leaves of the tea plant.\nGrown in the exotic regions of this world. Buy yourself a cup!"
+        },
+        "63cfce6b-164d-4273-a79f-de6d993f8865": {
+          "id": "63cfce6b-164d-4273-a79f-de6d993f8865",
+          "type": "npc",
+          "selected": false,
+          "x": 92,
+          "y": -233,
+          "ports": [
+            {
+              "id": "c5d0080f-6a8c-4aa5-ae88-a9a01aa99756",
+              "type": "default",
+              "x": 484,
+              "y": -205,
+              "name": "out-1780218322607-26283",
+              "alignment": "right",
+              "parentNode": "63cfce6b-164d-4273-a79f-de6d993f8865",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Tea Seller",
+          "color": "#6e4b1e",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "c5d0080f-6a8c-4aa5-ae88-a9a01aa99756"
+          ],
+          "locations": [
+            "761.21, 63.00, -389.32, 22.25, 23.88"
+          ],
+          "traits": [
+            {
+              "trait": "lookclose",
+              "args": {}
+            },
+            {
+              "trait": "skintrait",
+              "args": {
+                "skin": "DEFAULT_MALE_TAN"
+              }
+            }
+          ],
+          "conditions": {
+            "conditions": [
+              ""
+            ],
+            "args": [],
+            "ors": [
+              false
+            ],
+            "negates": [
+              false
+            ]
+          },
+          "entityType": "PLAYER",
+          "equipment": {}
         }
       }
     }

@@ -656,6 +656,62 @@
               ]
             ]
           }
+        },
+        "f8914da8-8f10-4969-8cdb-dce07c6e7db7": {
+          "id": "f8914da8-8f10-4969-8cdb-dce07c6e7db7",
+          "type": "npc",
+          "selected": false,
+          "x": 369.9729723710923,
+          "y": -75.9729731134118,
+          "ports": [
+            {
+              "id": "128097cc-55c1-4530-acbd-812029a8b944",
+              "type": "default",
+              "x": 761.9729723710923,
+              "y": -47.9729731134118,
+              "name": "out-1780218322158-74620",
+              "alignment": "right",
+              "parentNode": "f8914da8-8f10-4969-8cdb-dce07c6e7db7",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Herquin",
+          "color": "#6e4b1e",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "128097cc-55c1-4530-acbd-812029a8b944"
+          ],
+          "locations": [
+            "-224.32, 63.06, -148.51, 191.36, 0.18"
+          ],
+          "traits": [
+            {
+              "trait": "skintrait",
+              "args": {
+                "skin": "DEFAULT_MALE_TAN"
+              }
+            },
+            {
+              "trait": "lookclose",
+              "args": {}
+            }
+          ],
+          "conditions": {
+            "conditions": [
+              ""
+            ],
+            "args": [],
+            "ors": [
+              false
+            ],
+            "negates": [
+              false
+            ]
+          },
+          "entityType": "PLAYER",
+          "equipment": {}
         }
       }
     }

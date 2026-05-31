@@ -278,6 +278,62 @@
             "39f79326-8840-4b62-b092-4fee90db7dc6"
           ],
           "text": "Greetin's <player>, fine day today!"
+        },
+        "557034a9-1d32-4c7a-8407-50f869255d12": {
+          "id": "557034a9-1d32-4c7a-8407-50f869255d12",
+          "type": "npc",
+          "selected": false,
+          "x": 203,
+          "y": -252,
+          "ports": [
+            {
+              "id": "39b91e04-dee5-4f66-ab5e-b76edcda9378",
+              "type": "default",
+              "x": 595,
+              "y": -224,
+              "name": "out-1780218321728-97791",
+              "alignment": "right",
+              "parentNode": "557034a9-1d32-4c7a-8407-50f869255d12",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Blaec",
+          "color": "#6e4b1e",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "39b91e04-dee5-4f66-ab5e-b76edcda9378"
+          ],
+          "locations": [
+            "-2786.57, 12.00, 1135.45, -45.00, 0.00"
+          ],
+          "traits": [
+            {
+              "trait": "randomwalk",
+              "args": {}
+            },
+            {
+              "trait": "skintrait",
+              "args": {
+                "skin": "FARMER"
+              }
+            }
+          ],
+          "conditions": {
+            "conditions": [
+              ""
+            ],
+            "args": [],
+            "ors": [
+              false
+            ],
+            "negates": [
+              false
+            ]
+          },
+          "entityType": "PLAYER",
+          "equipment": {}
         }
       }
     }

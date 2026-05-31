@@ -341,6 +341,60 @@
             "d270262e-646e-4d17-8092-b0c9ddf7908c"
           ],
           "text": "No, fortunately for me I inherited my good looks from\nmy mother."
+        },
+        "1d1b2457-2402-4d9d-a6ad-8bc04bb0559b": {
+          "id": "1d1b2457-2402-4d9d-a6ad-8bc04bb0559b",
+          "type": "npc",
+          "selected": false,
+          "x": 156,
+          "y": -272,
+          "ports": [
+            {
+              "id": "956eed9e-54f2-4066-a593-aabc6ad3d0f9",
+              "type": "default",
+              "x": 548,
+              "y": -244,
+              "name": "out-1780218322093-45466",
+              "alignment": "right",
+              "parentNode": "1d1b2457-2402-4d9d-a6ad-8bc04bb0559b",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Gatekeeper",
+          "color": "#6e4b1e",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "956eed9e-54f2-4066-a593-aabc6ad3d0f9"
+          ],
+          "locations": [
+            "-2687.52, 12.00, 1148.55, 143.13, 0.00",
+            "-2702.64, 12.00, 1152.55, 233.13, 0.00",
+            "-2698.59, 12.00, 1145.70, 135.00, 0.00"
+          ],
+          "traits": [
+            {
+              "trait": "randomwalk",
+              "args": {}
+            }
+          ],
+          "conditions": {
+            "conditions": [
+              ""
+            ],
+            "args": [],
+            "ors": [
+              false
+            ],
+            "negates": [
+              false
+            ]
+          },
+          "entityType": "ARMOR_STAND",
+          "equipment": {
+            "HEAD": "IRON_AXE"
+          }
         }
       }
     }

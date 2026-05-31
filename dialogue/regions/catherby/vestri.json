@@ -128,6 +128,58 @@
               ]
             ]
           }
+        },
+        "4c839f77-97a5-4fc5-a015-a208e01f78d2": {
+          "id": "4c839f77-97a5-4fc5-a015-a208e01f78d2",
+          "type": "npc",
+          "selected": false,
+          "x": 76,
+          "y": -272,
+          "ports": [
+            {
+              "id": "b9c13d61-6233-4e1a-97e6-99d2b10cf4e3",
+              "type": "default",
+              "x": 468,
+              "y": -244,
+              "name": "out-1780218322687-5895",
+              "alignment": "right",
+              "parentNode": "4c839f77-97a5-4fc5-a015-a208e01f78d2",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Vestri",
+          "color": "#6e4b1e",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "b9c13d61-6233-4e1a-97e6-99d2b10cf4e3"
+          ],
+          "locations": [
+            "-587.02, 67.00, -605.80, 45.00, 0.00"
+          ],
+          "traits": [
+            {
+              "trait": "randomwalk",
+              "args": {}
+            }
+          ],
+          "conditions": {
+            "conditions": [
+              ""
+            ],
+            "args": [],
+            "ors": [
+              false
+            ],
+            "negates": [
+              false
+            ]
+          },
+          "entityType": "ARMOR_STAND",
+          "equipment": {
+            "HEAD": "IRON_AXE"
+          }
         }
       }
     }

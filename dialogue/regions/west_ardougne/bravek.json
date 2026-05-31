@@ -1144,6 +1144,62 @@
             "f13d1e97-7cd6-4b4d-af3a-7ad39aa53c5d"
           ],
           "switch": "quest[PLAGUE_CITY]"
+        },
+        "f57eaae2-5626-4401-9b17-1d65855b26a5": {
+          "id": "f57eaae2-5626-4401-9b17-1d65855b26a5",
+          "type": "npc",
+          "selected": false,
+          "x": 10,
+          "y": -262,
+          "ports": [
+            {
+              "id": "d399a9ee-d21c-4742-9579-65dceb420c21",
+              "type": "default",
+              "x": 402,
+              "y": -234,
+              "name": "out-1780218321743-56500",
+              "alignment": "right",
+              "parentNode": "f57eaae2-5626-4401-9b17-1d65855b26a5",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Bravek",
+          "color": "#6e4b1e",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "d399a9ee-d21c-4742-9579-65dceb420c21"
+          ],
+          "locations": [
+            "-1466.72, 68.00, -90.61, -53.13, 0.00"
+          ],
+          "traits": [
+            {
+              "trait": "skintrait",
+              "args": {
+                "skin": "BRAVEK"
+              }
+            },
+            {
+              "trait": "randomwalk",
+              "args": {}
+            }
+          ],
+          "conditions": {
+            "conditions": [
+              ""
+            ],
+            "args": [],
+            "ors": [
+              false
+            ],
+            "negates": [
+              false
+            ]
+          },
+          "entityType": "PLAYER",
+          "equipment": {}
         }
       }
     }

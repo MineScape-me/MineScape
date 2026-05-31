@@ -1747,6 +1747,69 @@
               ]
             ]
           }
+        },
+        "d0dbd6b6-4d54-4d37-9850-632b5707699b": {
+          "id": "d0dbd6b6-4d54-4d37-9850-632b5707699b",
+          "type": "npc",
+          "selected": false,
+          "x": 71,
+          "y": -415,
+          "ports": [
+            {
+              "id": "808c1e16-cc97-4c1f-adda-b66bcf50a65d",
+              "type": "default",
+              "x": 463,
+              "y": -387,
+              "name": "out-1780218322570-58928",
+              "alignment": "right",
+              "parentNode": "d0dbd6b6-4d54-4d37-9850-632b5707699b",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Sir Pugger",
+          "color": "#6e4b1e",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "808c1e16-cc97-4c1f-adda-b66bcf50a65d"
+          ],
+          "locations": [
+            "204.00, 36.00, -465.50, -89.35, -6.86"
+          ],
+          "traits": [
+            {
+              "trait": "skintrait",
+              "args": {
+                "skin": "SIRPUGGER"
+              }
+            },
+            {
+              "trait": "lookclose",
+              "args": {}
+            }
+          ],
+          "conditions": {
+            "conditions": [
+              ""
+            ],
+            "args": [],
+            "ors": [
+              false
+            ],
+            "negates": [
+              false
+            ]
+          },
+          "entityType": "PLAYER",
+          "equipment": {
+            "HAND": "ABYSSAL_WHIP",
+            "OFF_HAND": "ZAMORAK_KITESHIELD",
+            "FEET": "RUNE_BOOTS",
+            "LEGS": "RUNE_PLATELEGS",
+            "CHEST": "RUNE_PLATEBODY",
+            "HEAD": "RUNE_MED_HELM"
+          }
         }
       }
     }

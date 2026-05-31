@@ -1088,6 +1088,68 @@
           "portsOutOrder": [],
           "tree": "after_plague_city",
           "start": "Start"
+        },
+        "e207fce3-d267-4a96-8811-58b27f560f3e": {
+          "id": "e207fce3-d267-4a96-8811-58b27f560f3e",
+          "type": "npc",
+          "selected": false,
+          "x": 10,
+          "y": -262,
+          "ports": [
+            {
+              "id": "a2fa89dd-038b-4daf-b74c-7f8642ea2e75",
+              "type": "default",
+              "x": 402,
+              "y": -234,
+              "name": "out-1780218321975-65922",
+              "alignment": "right",
+              "parentNode": "e207fce3-d267-4a96-8811-58b27f560f3e",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Elena",
+          "color": "#6e4b1e",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "a2fa89dd-038b-4daf-b74c-7f8642ea2e75"
+          ],
+          "locations": [
+            "-1439.52, 61.00, 46.76, 36.87, 0.00"
+          ],
+          "traits": [
+            {
+              "trait": "randomwalk",
+              "args": {}
+            },
+            {
+              "trait": "skintrait",
+              "args": {
+                "skin": "ELENA_KIDNAPPED"
+              }
+            }
+          ],
+          "conditions": {
+            "conditions": [
+              "questStage"
+            ],
+            "args": [
+              [
+                "PLAGUE_CITY",
+                "<",
+                "17"
+              ]
+            ],
+            "ors": [
+              false
+            ],
+            "negates": [
+              false
+            ]
+          },
+          "entityType": "PLAYER",
+          "equipment": {}
         }
       }
     }

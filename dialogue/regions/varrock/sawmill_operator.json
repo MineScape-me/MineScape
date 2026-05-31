@@ -1123,6 +1123,62 @@
             "d8f84bb9-33c4-4e0c-a3d7-12566f6ff899"
           ],
           "text": "Wood and oak are all over the place, but teak and\nmahogany can only be found in a few places like\nKaramja and Etceteria."
+        },
+        "923b1580-0c36-46b0-bb09-e83aed5012ea": {
+          "id": "923b1580-0c36-46b0-bb09-e83aed5012ea",
+          "type": "npc",
+          "selected": false,
+          "x": 69,
+          "y": -248,
+          "ports": [
+            {
+              "id": "9b374909-73c7-4937-916a-0ab28677c2cc",
+              "type": "default",
+              "x": 461,
+              "y": -220,
+              "name": "out-1780218322499-43232",
+              "alignment": "right",
+              "parentNode": "923b1580-0c36-46b0-bb09-e83aed5012ea",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Sawmill Operator",
+          "color": "#6e4b1e",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "9b374909-73c7-4937-916a-0ab28677c2cc"
+          ],
+          "locations": [
+            "857.44, 67.00, -627.37, NaN, NaN"
+          ],
+          "traits": [
+            {
+              "trait": "skintrait",
+              "args": {
+                "skin": "SAWMILL_OPERATOR"
+              }
+            },
+            {
+              "trait": "lookclose",
+              "args": {}
+            }
+          ],
+          "conditions": {
+            "conditions": [
+              ""
+            ],
+            "args": [],
+            "ors": [
+              false
+            ],
+            "negates": [
+              false
+            ]
+          },
+          "entityType": "PLAYER",
+          "equipment": {}
         }
       }
     }

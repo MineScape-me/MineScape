@@ -220,6 +220,58 @@
               false
             ]
           }
+        },
+        "f209fb18-a5da-48a8-b646-f1c962f18c78": {
+          "id": "f209fb18-a5da-48a8-b646-f1c962f18c78",
+          "type": "npc",
+          "selected": false,
+          "x": 10,
+          "y": -236,
+          "ports": [
+            {
+              "id": "0972e69c-4615-4366-92ed-cd792a12beed",
+              "type": "default",
+              "x": 402,
+              "y": -208,
+              "name": "out-1780218322831-35937",
+              "alignment": "right",
+              "parentNode": "f209fb18-a5da-48a8-b646-f1c962f18c78",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Madame Caldarium",
+          "color": "#6e4b1e",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "0972e69c-4615-4366-92ed-cd792a12beed"
+          ],
+          "locations": [
+            "-1401.61, 66.00, 1252.42, 90.48, -1.35"
+          ],
+          "traits": [
+            {
+              "trait": "skintrait",
+              "args": {
+                "skin": "MADAME_CALDARIUM"
+              }
+            }
+          ],
+          "conditions": {
+            "conditions": [
+              ""
+            ],
+            "args": [],
+            "ors": [
+              false
+            ],
+            "negates": [
+              false
+            ]
+          },
+          "entityType": "PLAYER",
+          "equipment": {}
         }
       }
     }

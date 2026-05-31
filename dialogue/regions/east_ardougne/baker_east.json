@@ -508,6 +508,64 @@
             "8faa1f93-8407-4b32-b027-b03435763c89"
           ],
           "text": "No thank you."
+        },
+        "38f5fe6c-03cc-46de-95c0-cfff1f4aa971": {
+          "id": "38f5fe6c-03cc-46de-95c0-cfff1f4aa971",
+          "type": "npc",
+          "selected": false,
+          "x": 101,
+          "y": -293,
+          "ports": [
+            {
+              "id": "2063ffe9-3b34-4178-82a8-f815e0e5a199",
+              "type": "default",
+              "x": 493,
+              "y": -265,
+              "name": "out-1780263661819-85085",
+              "alignment": "right",
+              "parentNode": "38f5fe6c-03cc-46de-95c0-cfff1f4aa971",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Baker",
+          "color": "#6e4b1e",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "2063ffe9-3b34-4178-82a8-f815e0e5a199"
+          ],
+          "locations": [
+            "-1053.37, 68.00, -80.51, 104.22, -14.82"
+          ],
+          "traits": [
+            {
+              "trait": "skintrait",
+              "args": {
+                "skin": "BAKER"
+              }
+            },
+            {
+              "trait": "lookclose",
+              "args": {}
+            }
+          ],
+          "conditions": {
+            "conditions": [
+              ""
+            ],
+            "args": [],
+            "ors": [
+              false
+            ],
+            "negates": [
+              false
+            ]
+          },
+          "entityType": "PLAYER",
+          "equipment": {
+            "HEAD": "CHEFS_HAT"
+          }
         }
       }
     }

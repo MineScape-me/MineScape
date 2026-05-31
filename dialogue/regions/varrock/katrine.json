@@ -590,6 +590,60 @@
             "26154ef1-07cd-4cff-b66d-3e6561d959c7"
           ],
           "text": "And you expect to find it up the back streets of\nVarrock?"
+        },
+        "c098d809-1796-4d86-80b5-269512f4b360": {
+          "id": "c098d809-1796-4d86-80b5-269512f4b360",
+          "type": "npc",
+          "selected": false,
+          "x": 147,
+          "y": -258,
+          "ports": [
+            {
+              "id": "e0e0eb4f-19a3-4ddf-9127-05c719296c1d",
+              "type": "default",
+              "x": 539,
+              "y": -230,
+              "name": "out-1780218322236-18616",
+              "alignment": "right",
+              "parentNode": "c098d809-1796-4d86-80b5-269512f4b360",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Katrine",
+          "color": "#6e4b1e",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "e0e0eb4f-19a3-4ddf-9127-05c719296c1d"
+          ],
+          "locations": [
+            "516.47, 63.00, -303.96, 180.55, 31.13"
+          ],
+          "traits": [
+            {
+              "trait": "skintrait",
+              "args": {}
+            },
+            {
+              "trait": "lookclose",
+              "args": {}
+            }
+          ],
+          "conditions": {
+            "conditions": [
+              ""
+            ],
+            "args": [],
+            "ors": [
+              false
+            ],
+            "negates": [
+              false
+            ]
+          },
+          "entityType": "PLAYER",
+          "equipment": {}
         }
       }
     }

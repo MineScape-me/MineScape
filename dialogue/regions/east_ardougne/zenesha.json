@@ -531,6 +531,66 @@
             "297562da-95ba-4634-b6dd-68edb536962f"
           ],
           "text": "Sorry, I'm not interested."
+        },
+        "018c530c-607a-4439-88ec-38ca8f39658c": {
+          "id": "018c530c-607a-4439-88ec-38ca8f39658c",
+          "type": "npc",
+          "selected": false,
+          "x": 94,
+          "y": -367,
+          "ports": [
+            {
+              "id": "97fd35d1-90cd-42aa-8809-f45101e3f923",
+              "type": "default",
+              "x": 486,
+              "y": -339,
+              "name": "out-1780218322753-38741",
+              "alignment": "right",
+              "parentNode": "018c530c-607a-4439-88ec-38ca8f39658c",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Zenesha",
+          "color": "#6e4b1e",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "97fd35d1-90cd-42aa-8809-f45101e3f923"
+          ],
+          "locations": [
+            "-1101.56, 68.00, -33.63, -51.34, 0.00"
+          ],
+          "traits": [
+            {
+              "trait": "randomwalk",
+              "args": {}
+            },
+            {
+              "trait": "skintrait",
+              "args": {
+                "skin": "ZENESHA"
+              }
+            }
+          ],
+          "conditions": {
+            "conditions": [
+              ""
+            ],
+            "args": [],
+            "ors": [
+              false
+            ],
+            "negates": [
+              false
+            ]
+          },
+          "entityType": "PLAYER",
+          "equipment": {
+            "FEET": "STEEL_BOOTS",
+            "LEGS": "STEEL_PLATELEGS",
+            "CHEST": "STEEL_PLATEBODY"
+          }
         }
       }
     }

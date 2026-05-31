@@ -1111,6 +1111,65 @@
               ]
             ]
           }
+        },
+        "2d092e4c-3599-4ccb-aea2-387e15bfd821": {
+          "id": "2d092e4c-3599-4ccb-aea2-387e15bfd821",
+          "type": "npc",
+          "selected": false,
+          "x": 144,
+          "y": -309,
+          "ports": [
+            {
+              "id": "c6ff1b37-3152-41f0-bf39-3c98ca4d13d5",
+              "type": "default",
+              "x": 536,
+              "y": -281,
+              "name": "out-1780218321753-44638",
+              "alignment": "right",
+              "parentNode": "2d092e4c-3599-4ccb-aea2-387e15bfd821",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Brother Brace",
+          "color": "#6e4b1e",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "c6ff1b37-3152-41f0-bf39-3c98ca4d13d5"
+          ],
+          "locations": [
+            "245.38, 68.00, 565.44, 234.07, -1.22"
+          ],
+          "traits": [
+            {
+              "trait": "skintrait",
+              "args": {
+                "skin": "DEFAULT_MALE_BLACK"
+              }
+            },
+            {
+              "trait": "lookclose",
+              "args": {}
+            }
+          ],
+          "conditions": {
+            "conditions": [
+              ""
+            ],
+            "args": [],
+            "ors": [
+              false
+            ],
+            "negates": [
+              false
+            ]
+          },
+          "entityType": "PLAYER",
+          "equipment": {
+            "CHEST": "AIR",
+            "HEAD": "AIR"
+          }
         }
       }
     }

@@ -459,6 +459,66 @@
           "portsOutOrder": [],
           "tree": "rune_after",
           "start": "Start"
+        },
+        "a81ed590-e6aa-4cd4-b603-0fe11fee246a": {
+          "id": "a81ed590-e6aa-4cd4-b603-0fe11fee246a",
+          "type": "npc",
+          "selected": false,
+          "x": 45,
+          "y": -300,
+          "ports": [
+            {
+              "id": "91c85861-a68d-43ab-9367-f46d7d4591fe",
+              "type": "default",
+              "x": 437,
+              "y": -272,
+              "name": "out-1780218321942-20940",
+              "alignment": "right",
+              "parentNode": "a81ed590-e6aa-4cd4-b603-0fe11fee246a",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Duke Horacio",
+          "color": "#6e4b1e",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "91c85861-a68d-43ab-9367-f46d7d4591fe"
+          ],
+          "locations": [
+            "578.45, 71.06, 186.82, 51.34, 0.00"
+          ],
+          "traits": [
+            {
+              "trait": "cluescrolltrait",
+              "args": {}
+            },
+            {
+              "trait": "skintrait",
+              "args": {
+                "skin": "DEFAULT_MALE_TAN"
+              }
+            },
+            {
+              "trait": "randomwalk",
+              "args": {}
+            }
+          ],
+          "conditions": {
+            "conditions": [
+              ""
+            ],
+            "args": [],
+            "ors": [
+              false
+            ],
+            "negates": [
+              false
+            ]
+          },
+          "entityType": "PLAYER",
+          "equipment": {}
         }
       }
     }

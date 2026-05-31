@@ -1643,6 +1643,66 @@
             "a15199e5-b217-4906-a0d1-1d279b462910"
           ],
           "text": "See you later."
+        },
+        "62f00094-d675-4fc4-b9c0-f8f7e9a565bc": {
+          "id": "62f00094-d675-4fc4-b9c0-f8f7e9a565bc",
+          "type": "npc",
+          "selected": false,
+          "x": 182,
+          "y": -283,
+          "ports": [
+            {
+              "id": "d2b46308-efe1-4884-acac-767df7211e30",
+              "type": "default",
+              "x": 574,
+              "y": -255,
+              "name": "out-1780218321762-15417",
+              "alignment": "right",
+              "parentNode": "62f00094-d675-4fc4-b9c0-f8f7e9a565bc",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Brother Jered",
+          "color": "#6e4b1e",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "d2b46308-efe1-4884-acac-767df7211e30"
+          ],
+          "locations": [
+            "78.64, 71.00, -601.80, 210.96, 0.00"
+          ],
+          "traits": [
+            {
+              "trait": "randomwalk",
+              "args": {}
+            },
+            {
+              "trait": "skintrait",
+              "args": {
+                "skin": "MONK"
+              }
+            },
+            {
+              "trait": "capetrait",
+              "args": {}
+            }
+          ],
+          "conditions": {
+            "conditions": [
+              ""
+            ],
+            "args": [],
+            "ors": [
+              false
+            ],
+            "negates": [
+              false
+            ]
+          },
+          "entityType": "PLAYER",
+          "equipment": {}
         }
       }
     }

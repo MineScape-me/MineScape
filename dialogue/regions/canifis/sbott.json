@@ -1079,6 +1079,62 @@
               ]
             ]
           }
+        },
+        "0c7f4200-bc4a-42a9-9e34-45697d5c0d93": {
+          "id": "0c7f4200-bc4a-42a9-9e34-45697d5c0d93",
+          "type": "npc",
+          "selected": false,
+          "x": 69,
+          "y": -242,
+          "ports": [
+            {
+              "id": "5664ff0e-1541-43dd-94bc-96fd005a706e",
+              "type": "default",
+              "x": 461,
+              "y": -214,
+              "name": "out-1780218322501-41496",
+              "alignment": "right",
+              "parentNode": "0c7f4200-bc4a-42a9-9e34-45697d5c0d93",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Sbott",
+          "color": "#6e4b1e",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "5664ff0e-1541-43dd-94bc-96fd005a706e"
+          ],
+          "locations": [
+            "1424.23, 70.06, -651.70, 126.87, 0.00"
+          ],
+          "traits": [
+            {
+              "trait": "randomwalk",
+              "args": {}
+            },
+            {
+              "trait": "skintrait",
+              "args": {
+                "skin": "SBOTT"
+              }
+            }
+          ],
+          "conditions": {
+            "conditions": [
+              ""
+            ],
+            "args": [],
+            "ors": [
+              false
+            ],
+            "negates": [
+              false
+            ]
+          },
+          "entityType": "PLAYER",
+          "equipment": {}
         }
       }
     }

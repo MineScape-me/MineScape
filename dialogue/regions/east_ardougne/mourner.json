@@ -488,6 +488,64 @@
             "023db804-ab5b-422b-97f7-f4ffa1f7711b"
           ],
           "text": "Protection from what?"
+        },
+        "d96f8694-b462-4c56-a5db-6e9812df8a40": {
+          "id": "d96f8694-b462-4c56-a5db-6e9812df8a40",
+          "type": "npc",
+          "selected": false,
+          "x": 119,
+          "y": -244,
+          "ports": [
+            {
+              "id": "80b975c5-d433-4805-9e00-2a201699c447",
+              "type": "default",
+              "x": 511,
+              "y": -216,
+              "name": "out-1780218322368-25837",
+              "alignment": "right",
+              "parentNode": "d96f8694-b462-4c56-a5db-6e9812df8a40",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Mourner",
+          "color": "#6e4b1e",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "80b975c5-d433-4805-9e00-2a201699c447"
+          ],
+          "locations": [
+            "-1308.68, 69.00, -111.60, 30.96, 0.00"
+          ],
+          "traits": [
+            {
+              "trait": "skintrait",
+              "args": {
+                "skin": "MOURNER"
+              }
+            },
+            {
+              "trait": "randomwalk",
+              "args": {}
+            }
+          ],
+          "conditions": {
+            "conditions": [
+              ""
+            ],
+            "args": [],
+            "ors": [
+              false
+            ],
+            "negates": [
+              false
+            ]
+          },
+          "entityType": "PLAYER",
+          "equipment": {
+            "HEAD": "GAS_MASK"
+          }
         }
       }
     }

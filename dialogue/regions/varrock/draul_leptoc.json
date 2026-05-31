@@ -756,6 +756,62 @@
           "portsOutOrder": [],
           "tree": "romeo_after",
           "start": "Start"
+        },
+        "24ed057e-ada3-4db9-8af3-eb287c4fd3ec": {
+          "id": "24ed057e-ada3-4db9-8af3-eb287c4fd3ec",
+          "type": "npc",
+          "selected": false,
+          "x": 30,
+          "y": -236,
+          "ports": [
+            {
+              "id": "9a1a790c-5388-44b3-9b3c-9119035fb3ab",
+              "type": "default",
+              "x": 422,
+              "y": -208,
+              "name": "out-1780218321924-83346",
+              "alignment": "right",
+              "parentNode": "24ed057e-ada3-4db9-8af3-eb287c4fd3ec",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Draul Leptoc",
+          "color": "#6e4b1e",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "9a1a790c-5388-44b3-9b3c-9119035fb3ab"
+          ],
+          "locations": [
+            "428.77, 63.00, -457.64, 99.48, 15.52"
+          ],
+          "traits": [
+            {
+              "trait": "lookclose",
+              "args": {}
+            },
+            {
+              "trait": "skintrait",
+              "args": {
+                "skin": "DRAUL_LEPTOC"
+              }
+            }
+          ],
+          "conditions": {
+            "conditions": [
+              ""
+            ],
+            "args": [],
+            "ors": [
+              false
+            ],
+            "negates": [
+              false
+            ]
+          },
+          "entityType": "PLAYER",
+          "equipment": {}
         }
       }
     }

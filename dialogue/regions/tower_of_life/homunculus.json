@@ -518,6 +518,72 @@
           "portsOutOrder": [],
           "tree": "after",
           "start": "Start"
+        },
+        "e2a95f51-218a-4467-a2b0-1b021115f04b": {
+          "id": "e2a95f51-218a-4467-a2b0-1b021115f04b",
+          "type": "npc",
+          "selected": false,
+          "x": 10,
+          "y": -288,
+          "ports": [
+            {
+              "id": "a9d22aef-0690-48d2-aa83-632b43695d48",
+              "type": "default",
+              "x": 402,
+              "y": -260,
+              "name": "out-1780218322175-21872",
+              "alignment": "right",
+              "parentNode": "e2a95f51-218a-4467-a2b0-1b021115f04b",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Homunculus",
+          "color": "#6e4b1e",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "a9d22aef-0690-48d2-aa83-632b43695d48"
+          ],
+          "locations": [
+            "-1113.50, 85.00, 198.50, 32.59, -43.81"
+          ],
+          "traits": [
+            {
+              "trait": "lookclose",
+              "args": {}
+            }
+          ],
+          "conditions": {
+            "conditions": [
+              "questStage",
+              "questStage"
+            ],
+            "args": [
+              [
+                "TOWER_OF_LIFE",
+                ">=",
+                "6"
+              ],
+              [
+                "TOWER_OF_LIFE",
+                "<=",
+                "9"
+              ]
+            ],
+            "ors": [
+              false,
+              false
+            ],
+            "negates": [
+              false,
+              false
+            ]
+          },
+          "entityType": "ARMOR_STAND",
+          "equipment": {
+            "HEAD": "APPLE"
+          }
         }
       }
     }

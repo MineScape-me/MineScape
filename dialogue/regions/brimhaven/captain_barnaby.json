@@ -948,6 +948,62 @@
           "portsInOrder": [],
           "portsOutOrder": [],
           "text": "Rimmington teleport"
+        },
+        "60cdf2ba-54e0-44cc-b445-5afd51748f96": {
+          "id": "60cdf2ba-54e0-44cc-b445-5afd51748f96",
+          "type": "npc",
+          "selected": false,
+          "x": 10,
+          "y": -262,
+          "ports": [
+            {
+              "id": "635379eb-bd45-458f-afba-134c2783a48b",
+              "type": "default",
+              "x": 402,
+              "y": -234,
+              "name": "out-1780218321812-1640",
+              "alignment": "right",
+              "parentNode": "60cdf2ba-54e0-44cc-b445-5afd51748f96",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Captain Barnaby",
+          "color": "#6e4b1e",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "635379eb-bd45-458f-afba-134c2783a48b"
+          ],
+          "locations": [
+            "-742.26, 67.00, 159.12, 59.04, 0.00"
+          ],
+          "traits": [
+            {
+              "trait": "skintrait",
+              "args": {
+                "skin": "CHARTER_CREWMEMBER_3"
+              }
+            },
+            {
+              "trait": "randomwalk",
+              "args": {}
+            }
+          ],
+          "conditions": {
+            "conditions": [
+              ""
+            ],
+            "args": [],
+            "ors": [
+              false
+            ],
+            "negates": [
+              false
+            ]
+          },
+          "entityType": "PLAYER",
+          "equipment": {}
         }
       }
     }

@@ -7559,6 +7559,66 @@
               ]
             ]
           }
+        },
+        "b8aa3d39-5360-4c24-95f0-eda37137006c": {
+          "id": "b8aa3d39-5360-4c24-95f0-eda37137006c",
+          "type": "npc",
+          "selected": false,
+          "x": 93,
+          "y": -280,
+          "ports": [
+            {
+              "id": "98965ca2-62d1-473f-9d2c-2c697a3db7b0",
+              "type": "default",
+              "x": 485,
+              "y": -252,
+              "name": "out-1780218321616-10192",
+              "alignment": "right",
+              "parentNode": "b8aa3d39-5360-4c24-95f0-eda37137006c",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Aggie",
+          "color": "#6e4b1e",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "98965ca2-62d1-473f-9d2c-2c697a3db7b0"
+          ],
+          "locations": [
+            "196.65, 63.00, 65.44, -69.55, -0.29"
+          ],
+          "traits": [
+            {
+              "trait": "skintrait",
+              "args": {
+                "skin": "DEFAULT_FEMALE_WHITE"
+              }
+            },
+            {
+              "trait": "lookclose",
+              "args": {}
+            },
+            {
+              "trait": "cluescrolltrait",
+              "args": {}
+            }
+          ],
+          "conditions": {
+            "conditions": [
+              ""
+            ],
+            "args": [],
+            "ors": [
+              false
+            ],
+            "negates": [
+              false
+            ]
+          },
+          "entityType": "PLAYER",
+          "equipment": {}
         }
       }
     }

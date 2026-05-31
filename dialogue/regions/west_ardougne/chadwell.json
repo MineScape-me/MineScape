@@ -689,6 +689,62 @@
           "portsInOrder": [],
           "portsOutOrder": [],
           "text": "West Ardougne General Store"
+        },
+        "14add565-d67e-4375-8b2e-7cbfb5a39a41": {
+          "id": "14add565-d67e-4375-8b2e-7cbfb5a39a41",
+          "type": "npc",
+          "selected": false,
+          "x": -1.4893618662511656,
+          "y": -287.27659610575256,
+          "ports": [
+            {
+              "id": "61374fb4-f7b2-44da-9cff-37bc1ee53a72",
+              "type": "default",
+              "x": 390.51063813374884,
+              "y": -259.27659610575256,
+              "name": "out-1780218321829-90770",
+              "alignment": "right",
+              "parentNode": "14add565-d67e-4375-8b2e-7cbfb5a39a41",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Chadwell",
+          "color": "#6e4b1e",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "61374fb4-f7b2-44da-9cff-37bc1ee53a72"
+          ],
+          "locations": [
+            "-1667.53, 67.00, -12.67, 216.87, 0.00"
+          ],
+          "traits": [
+            {
+              "trait": "randomwalk",
+              "args": {}
+            },
+            {
+              "trait": "skintrait",
+              "args": {
+                "skin": "CHADWELL"
+              }
+            }
+          ],
+          "conditions": {
+            "conditions": [
+              ""
+            ],
+            "args": [],
+            "ors": [
+              false
+            ],
+            "negates": [
+              false
+            ]
+          },
+          "entityType": "PLAYER",
+          "equipment": {}
         }
       }
     }

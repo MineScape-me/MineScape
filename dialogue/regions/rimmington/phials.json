@@ -960,6 +960,62 @@
             "6de3c071-e982-4941-b8f4-c410d21f5272"
           ],
           "text": "No thanks."
+        },
+        "ad23e72e-e71e-49e5-8c92-064cfa5074bc": {
+          "id": "ad23e72e-e71e-49e5-8c92-064cfa5074bc",
+          "type": "npc",
+          "selected": false,
+          "x": 259.13513517526053,
+          "y": -29.3783782680336,
+          "ports": [
+            {
+              "id": "80d43830-bc2c-4b49-a440-b8ae96a17f7c",
+              "type": "default",
+              "x": 651.1351351752605,
+              "y": -1.3783782680336003,
+              "name": "out-1780218322419-72279",
+              "alignment": "right",
+              "parentNode": "ad23e72e-e71e-49e5-8c92-064cfa5074bc",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Phials",
+          "color": "#6e4b1e",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "80d43830-bc2c-4b49-a440-b8ae96a17f7c"
+          ],
+          "locations": [
+            "-225.48, 63.00, 220.48, 107.45, -3.59"
+          ],
+          "traits": [
+            {
+              "trait": "skintrait",
+              "args": {
+                "skin": "PHIALS"
+              }
+            },
+            {
+              "trait": "lookclose",
+              "args": {}
+            }
+          ],
+          "conditions": {
+            "conditions": [
+              ""
+            ],
+            "args": [],
+            "ors": [
+              false
+            ],
+            "negates": [
+              false
+            ]
+          },
+          "entityType": "PLAYER",
+          "equipment": {}
         }
       }
     }

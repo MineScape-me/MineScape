@@ -192,6 +192,62 @@
             "4b1b1cf4-5964-4b2d-8cdf-afe5e200f161"
           ],
           "text": "Umm.. thank you, I think."
+        },
+        "6de47740-18ae-4bdc-8451-a5933db93d0b": {
+          "id": "6de47740-18ae-4bdc-8451-a5933db93d0b",
+          "type": "npc",
+          "selected": false,
+          "x": 10,
+          "y": -262,
+          "ports": [
+            {
+              "id": "e8272985-6bdf-4396-9b0d-3e9e4b88e336",
+              "type": "default",
+              "x": 402,
+              "y": -234,
+              "name": "out-1780218322110-86299",
+              "alignment": "right",
+              "parentNode": "6de47740-18ae-4bdc-8451-a5933db93d0b",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Ghommal",
+          "color": "#6e4b1e",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "e8272985-6bdf-4396-9b0d-3e9e4b88e336"
+          ],
+          "locations": [
+            "-422.91, 71.00, -789.12, 90.16, -3.78"
+          ],
+          "traits": [
+            {
+              "trait": "lookclose",
+              "args": {}
+            },
+            {
+              "trait": "skintrait",
+              "args": {
+                "skin": "GHOMMAL"
+              }
+            }
+          ],
+          "conditions": {
+            "conditions": [
+              ""
+            ],
+            "args": [],
+            "ors": [
+              false
+            ],
+            "negates": [
+              false
+            ]
+          },
+          "entityType": "PLAYER",
+          "equipment": {}
         }
       }
     }

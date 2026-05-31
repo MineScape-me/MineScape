@@ -411,6 +411,62 @@
             "f26876fb-9622-45a8-b5b8-40a6343a3376"
           ],
           "text": "You too."
+        },
+        "53d26d0a-2495-4653-b9bd-af164ee9330b": {
+          "id": "53d26d0a-2495-4653-b9bd-af164ee9330b",
+          "type": "npc",
+          "selected": false,
+          "x": 10,
+          "y": -262,
+          "ports": [
+            {
+              "id": "3f0b35a8-761f-4091-bb9a-da2436224fb6",
+              "type": "default",
+              "x": 402,
+              "y": -234,
+              "name": "out-1780218322394-52696",
+              "alignment": "right",
+              "parentNode": "53d26d0a-2495-4653-b9bd-af164ee9330b",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Nurse Sarah",
+          "color": "#6e4b1e",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "3f0b35a8-761f-4091-bb9a-da2436224fb6"
+          ],
+          "locations": [
+            "-1513.49, 67.00, 29.33, -53.13, 0.00"
+          ],
+          "traits": [
+            {
+              "trait": "randomwalk",
+              "args": {}
+            },
+            {
+              "trait": "skintrait",
+              "args": {
+                "skin": "NURSE_SARAH"
+              }
+            }
+          ],
+          "conditions": {
+            "conditions": [
+              ""
+            ],
+            "args": [],
+            "ors": [
+              false
+            ],
+            "negates": [
+              false
+            ]
+          },
+          "entityType": "PLAYER",
+          "equipment": {}
         }
       }
     }

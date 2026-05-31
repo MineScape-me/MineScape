@@ -1117,6 +1117,62 @@
           "portsOutOrder": [],
           "tree": "return_to_edmond",
           "start": "Start"
+        },
+        "fb177138-f74c-43f7-88e5-d38f6bbb6129": {
+          "id": "fb177138-f74c-43f7-88e5-d38f6bbb6129",
+          "type": "npc",
+          "selected": false,
+          "x": 10,
+          "y": -262,
+          "ports": [
+            {
+              "id": "1b29d8d6-6b31-4000-8ff8-2e10cd436f36",
+              "type": "default",
+              "x": 402,
+              "y": -234,
+              "name": "out-1780218322324-64552",
+              "alignment": "right",
+              "parentNode": "fb177138-f74c-43f7-88e5-d38f6bbb6129",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Martha Rehnison",
+          "color": "#6e4b1e",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "1b29d8d6-6b31-4000-8ff8-2e10cd436f36"
+          ],
+          "locations": [
+            "-1465.59, 68.00, -147.30, 233.13, 0.00"
+          ],
+          "traits": [
+            {
+              "trait": "randomwalk",
+              "args": {}
+            },
+            {
+              "trait": "skintrait",
+              "args": {
+                "skin": "MARTHA_REHNISON"
+              }
+            }
+          ],
+          "conditions": {
+            "conditions": [
+              ""
+            ],
+            "args": [],
+            "ors": [
+              false
+            ],
+            "negates": [
+              false
+            ]
+          },
+          "entityType": "PLAYER",
+          "equipment": {}
         }
       }
     }

@@ -1742,6 +1742,64 @@
           "portsInOrder": [],
           "portsOutOrder": [],
           "text": "Missing end to this dialogue"
+        },
+        "9a1cfab3-3e44-487a-a33c-16d4d6b8ec33": {
+          "id": "9a1cfab3-3e44-487a-a33c-16d4d6b8ec33",
+          "type": "npc",
+          "selected": false,
+          "x": 10,
+          "y": -288,
+          "ports": [
+            {
+              "id": "1ac4b830-3222-462a-a505-30de5f9f1d1d",
+              "type": "default",
+              "x": 402,
+              "y": -260,
+              "name": "out-1780218321900-97910",
+              "alignment": "right",
+              "parentNode": "9a1cfab3-3e44-487a-a33c-16d4d6b8ec33",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Demon Butler",
+          "color": "#6e4b1e",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "1ac4b830-3222-462a-a505-30de5f9f1d1d"
+          ],
+          "locations": [
+            "-1056.44, 69.00, -143.31, 135.00, 0.00"
+          ],
+          "traits": [
+            {
+              "trait": "skintrait",
+              "args": {
+                "skin": "SERVANT_DEMON_BUTLER"
+              }
+            },
+            {
+              "trait": "randomwalk",
+              "args": {}
+            }
+          ],
+          "conditions": {
+            "conditions": [
+              ""
+            ],
+            "args": [],
+            "ors": [
+              false
+            ],
+            "negates": [
+              false
+            ]
+          },
+          "entityType": "PLAYER",
+          "equipment": {
+            "HEAD": "DIAMOND_HOE"
+          }
         }
       }
     }

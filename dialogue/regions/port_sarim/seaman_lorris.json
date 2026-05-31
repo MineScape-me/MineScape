@@ -964,6 +964,66 @@
               ]
             ]
           }
+        },
+        "54b3584e-535b-41c1-aa0d-9d9f09fd0da7": {
+          "id": "54b3584e-535b-41c1-aa0d-9d9f09fd0da7",
+          "type": "npc",
+          "selected": false,
+          "x": 14,
+          "y": -128,
+          "ports": [
+            {
+              "id": "520306b0-8b34-4fc6-b4e8-33724ce93c82",
+              "type": "default",
+              "x": 406,
+              "y": -100,
+              "name": "out-1780218322506-90063",
+              "alignment": "right",
+              "parentNode": "54b3584e-535b-41c1-aa0d-9d9f09fd0da7",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Seaman Lorris",
+          "color": "#6e4b1e",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "520306b0-8b34-4fc6-b4e8-33724ce93c82"
+          ],
+          "locations": [
+            "46.14, 66.00, 248.74, -45.00, 0.00"
+          ],
+          "traits": [
+            {
+              "trait": "cluescrolltrait",
+              "args": {}
+            },
+            {
+              "trait": "skintrait",
+              "args": {
+                "skin": "MAN"
+              }
+            },
+            {
+              "trait": "randomwalk",
+              "args": {}
+            }
+          ],
+          "conditions": {
+            "conditions": [
+              ""
+            ],
+            "args": [],
+            "ors": [
+              false
+            ],
+            "negates": [
+              false
+            ]
+          },
+          "entityType": "PLAYER",
+          "equipment": {}
         }
       }
     }

@@ -2901,6 +2901,58 @@
             "83883a93-6149-455f-a6cc-c86d9a572f30"
           ],
           "text": "Fair enough. I'll  be here if you change your mind."
+        },
+        "8d32bfca-1e97-4d1c-9c77-15ef80936098": {
+          "id": "8d32bfca-1e97-4d1c-9c77-15ef80936098",
+          "type": "npc",
+          "selected": false,
+          "x": 73,
+          "y": -373,
+          "ports": [
+            {
+              "id": "46df8c53-0f79-4253-8641-903305385c6d",
+              "type": "default",
+              "x": 465,
+              "y": -345,
+              "name": "out-1780218321702-42903",
+              "alignment": "right",
+              "parentNode": "8d32bfca-1e97-4d1c-9c77-15ef80936098",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Belona",
+          "color": "#6e4b1e",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "46df8c53-0f79-4253-8641-903305385c6d"
+          ],
+          "locations": [
+            "9.68, 43.00, -138.39, -47.58, -2.31"
+          ],
+          "traits": [
+            {
+              "trait": "lookclose",
+              "args": {}
+            }
+          ],
+          "conditions": {
+            "conditions": [
+              ""
+            ],
+            "args": [],
+            "ors": [
+              false
+            ],
+            "negates": [
+              false
+            ]
+          },
+          "entityType": "ARMOR_STAND",
+          "equipment": {
+            "HEAD": "IRON_AXE"
+          }
         }
       }
     }

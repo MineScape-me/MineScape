@@ -812,6 +812,62 @@
           "portsInOrder": [],
           "portsOutOrder": [],
           "text": "Missing dialogue"
+        },
+        "0e18155c-83ab-4ad4-9fdc-74cdf8818f72": {
+          "id": "0e18155c-83ab-4ad4-9fdc-74cdf8818f72",
+          "type": "npc",
+          "selected": false,
+          "x": 10,
+          "y": -262,
+          "ports": [
+            {
+              "id": "8e5a31b4-1434-40b7-aba6-c9e3d3ca7609",
+              "type": "default",
+              "x": 402,
+              "y": -234,
+              "name": "out-1780218322260-21",
+              "alignment": "right",
+              "parentNode": "0e18155c-83ab-4ad4-9fdc-74cdf8818f72",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "King Roald",
+          "color": "#6e4b1e",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "8e5a31b4-1434-40b7-aba6-c9e3d3ca7609"
+          ],
+          "locations": [
+            "610.24, 62.00, -587.03, -45.00, 0.00"
+          ],
+          "traits": [
+            {
+              "trait": "skintrait",
+              "args": {
+                "skin": "KING_ROALD"
+              }
+            },
+            {
+              "trait": "randomwalk",
+              "args": {}
+            }
+          ],
+          "conditions": {
+            "conditions": [
+              ""
+            ],
+            "args": [],
+            "ors": [
+              false
+            ],
+            "negates": [
+              false
+            ]
+          },
+          "entityType": "PLAYER",
+          "equipment": {}
         }
       }
     }

@@ -857,6 +857,58 @@
             "d9b9f599-c729-46f7-b5a8-30d43a7149f1"
           ],
           "switch": "quest[TREE_GNOME_VILLAGE]"
+        },
+        "f1faaa09-d779-4c91-8102-0638f0143ba4": {
+          "id": "f1faaa09-d779-4c91-8102-0638f0143ba4",
+          "type": "npc",
+          "selected": false,
+          "x": 108.74051806567121,
+          "y": -189.40048957430318,
+          "ports": [
+            {
+              "id": "2c8ea14c-78d2-4e71-a790-0f0c052d4c91",
+              "type": "default",
+              "x": 500.7405180656712,
+              "y": -161.40048957430318,
+              "name": "out-1780218322249-9513",
+              "alignment": "right",
+              "parentNode": "f1faaa09-d779-4c91-8102-0638f0143ba4",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "King Bolren",
+          "color": "#6e4b1e",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "2c8ea14c-78d2-4e71-a790-0f0c052d4c91"
+          ],
+          "locations": [
+            "-1434.91, 67.00, 345.05, 210.96, 0.00"
+          ],
+          "traits": [
+            {
+              "trait": "randomwalk",
+              "args": {}
+            }
+          ],
+          "conditions": {
+            "conditions": [
+              ""
+            ],
+            "args": [],
+            "ors": [
+              false
+            ],
+            "negates": [
+              false
+            ]
+          },
+          "entityType": "ARMOR_STAND",
+          "equipment": {
+            "HEAD": "IRON_AXE"
+          }
         }
       }
     }

@@ -220,6 +220,51 @@
               false
             ]
           }
+        },
+        "d1bbd796-ee90-44c5-a5c3-fd1ab735cd43": {
+          "id": "d1bbd796-ee90-44c5-a5c3-fd1ab735cd43",
+          "type": "npc",
+          "selected": false,
+          "x": 10,
+          "y": -210,
+          "ports": [
+            {
+              "id": "0488e8dd-59a5-485a-9e49-ac5be5bfa354",
+              "type": "default",
+              "x": 402,
+              "y": -182,
+              "name": "out-1780218322807-49946",
+              "alignment": "right",
+              "parentNode": "d1bbd796-ee90-44c5-a5c3-fd1ab735cd43",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Gnocci the Cook",
+          "color": "#6e4b1e",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "0488e8dd-59a5-485a-9e49-ac5be5bfa354"
+          ],
+          "locations": [
+            "-1428.62, 72.00, 1272.91, -88.92, 1.35"
+          ],
+          "traits": [],
+          "conditions": {
+            "conditions": [
+              ""
+            ],
+            "args": [],
+            "ors": [
+              false
+            ],
+            "negates": [
+              false
+            ]
+          },
+          "entityType": "PLAYER",
+          "equipment": {}
         }
       }
     }

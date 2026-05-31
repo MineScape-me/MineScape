@@ -337,6 +337,56 @@
             "c1d89c83-993b-477c-a188-054cbb5cab19"
           ],
           "text": "Hee hee, lardi da, lardi dee. The gnome appears to be\nsinging."
+        },
+        "0c29e9f5-0e5b-45ef-b8b2-cfca5d5ae0df": {
+          "id": "0c29e9f5-0e5b-45ef-b8b2-cfca5d5ae0df",
+          "type": "npc",
+          "selected": false,
+          "x": 10,
+          "y": -314,
+          "ports": [
+            {
+              "id": "1751bcbc-5613-4355-b4ed-9757edc920bb",
+              "type": "default",
+              "x": 402,
+              "y": -286,
+              "name": "out-1780218322288-7761",
+              "alignment": "right",
+              "parentNode": "0c29e9f5-0e5b-45ef-b8b2-cfca5d5ae0df",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Local Gnome",
+          "color": "#6e4b1e",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "1751bcbc-5613-4355-b4ed-9757edc920bb"
+          ],
+          "locations": [
+            "-1436.70, 67.00, 352.14, -137.69, -0.90",
+            "-1438.81, 67.00, 349.37, -119.88, -1.35",
+            "-1437.07, 67.00, 338.71, -46.13, 0.45",
+            "-1438.99, 67.00, 341.58, -56.18, -1.50"
+          ],
+          "traits": [],
+          "conditions": {
+            "conditions": [
+              ""
+            ],
+            "args": [],
+            "ors": [
+              false
+            ],
+            "negates": [
+              false
+            ]
+          },
+          "entityType": "ARMOR_STAND",
+          "equipment": {
+            "HEAD": "IRON_AXE"
+          }
         }
       }
     }

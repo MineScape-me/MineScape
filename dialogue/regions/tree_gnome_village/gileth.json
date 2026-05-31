@@ -128,6 +128,64 @@
               ]
             ]
           }
+        },
+        "9643c170-86d6-492d-a8cc-4442e6e98fcb": {
+          "id": "9643c170-86d6-492d-a8cc-4442e6e98fcb",
+          "type": "npc",
+          "selected": false,
+          "x": 83,
+          "y": -286,
+          "ports": [
+            {
+              "id": "ac69dc8c-71e1-4f32-81f4-a3e0832f9982",
+              "type": "default",
+              "x": 475,
+              "y": -258,
+              "name": "out-1780218322114-24278",
+              "alignment": "right",
+              "parentNode": "9643c170-86d6-492d-a8cc-4442e6e98fcb",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Gileth",
+          "color": "#6e4b1e",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "ac69dc8c-71e1-4f32-81f4-a3e0832f9982"
+          ],
+          "locations": [
+            "-1596.44, 68.00, 323.48, -38.66, 0.00"
+          ],
+          "traits": [
+            {
+              "trait": "randomwalk",
+              "args": {}
+            },
+            {
+              "trait": "skintrait",
+              "args": {
+                "skin": "GILETH"
+              }
+            }
+          ],
+          "conditions": {
+            "conditions": [
+              ""
+            ],
+            "args": [],
+            "ors": [
+              false
+            ],
+            "negates": [
+              false
+            ]
+          },
+          "entityType": "PLAYER",
+          "equipment": {
+            "HAND": "WATERING_CAN"
+          }
         }
       }
     }

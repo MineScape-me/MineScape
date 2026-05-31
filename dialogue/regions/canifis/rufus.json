@@ -1206,6 +1206,62 @@
               ]
             ]
           }
+        },
+        "d801a2d0-9457-48f2-b9a9-985f608ef0a4": {
+          "id": "d801a2d0-9457-48f2-b9a9-985f608ef0a4",
+          "type": "npc",
+          "selected": false,
+          "x": 77,
+          "y": -287,
+          "ports": [
+            {
+              "id": "7d4855a1-3221-481a-98c1-431aea9aa8db",
+              "type": "default",
+              "x": 469,
+              "y": -259,
+              "name": "out-1780218322479-51283",
+              "alignment": "right",
+              "parentNode": "d801a2d0-9457-48f2-b9a9-985f608ef0a4",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Rufus",
+          "color": "#6e4b1e",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "7d4855a1-3221-481a-98c1-431aea9aa8db"
+          ],
+          "locations": [
+            "1476.33, 70.06, -634.76, 135.00, 0.00"
+          ],
+          "traits": [
+            {
+              "trait": "randomwalk",
+              "args": {}
+            },
+            {
+              "trait": "skintrait",
+              "args": {
+                "skin": "RUFUS"
+              }
+            }
+          ],
+          "conditions": {
+            "conditions": [
+              ""
+            ],
+            "args": [],
+            "ors": [
+              false
+            ],
+            "negates": [
+              false
+            ]
+          },
+          "entityType": "PLAYER",
+          "equipment": {}
         }
       }
     }

@@ -1114,6 +1114,62 @@
             "eddd5084-84c5-46f4-bad9-fbaad0d57030"
           ],
           "text": "No thanks."
+        },
+        "db560921-d8d2-4422-9911-e993be0060bf": {
+          "id": "db560921-d8d2-4422-9911-e993be0060bf",
+          "type": "npc",
+          "selected": false,
+          "x": 80,
+          "y": -245,
+          "ports": [
+            {
+              "id": "d889608a-e168-442e-892c-eb1a70b36f32",
+              "type": "default",
+              "x": 472,
+              "y": -217,
+              "name": "out-1780218321972-72853",
+              "alignment": "right",
+              "parentNode": "db560921-d8d2-4422-9911-e993be0060bf",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Elder Chaos Druid",
+          "color": "#6e4b1e",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "d889608a-e168-442e-892c-eb1a70b36f32"
+          ],
+          "locations": [
+            "-185.59, 79.00, -1609.71, -30.96, 0.00"
+          ],
+          "traits": [
+            {
+              "trait": "skintrait",
+              "args": {
+                "skin": "ELDER_CHAOS_DRUID"
+              }
+            },
+            {
+              "trait": "randomwalk",
+              "args": {}
+            }
+          ],
+          "conditions": {
+            "conditions": [
+              ""
+            ],
+            "args": [],
+            "ors": [
+              false
+            ],
+            "negates": [
+              false
+            ]
+          },
+          "entityType": "PLAYER",
+          "equipment": {}
         }
       }
     }

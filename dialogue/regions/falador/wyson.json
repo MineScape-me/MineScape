@@ -3461,6 +3461,62 @@
             "c148cabd-c26f-49cc-b47a-5bac74cecaf5"
           ],
           "text": "Right, I'll bear it in mind."
+        },
+        "ecb0c66c-0ba6-4340-9ddf-9b74e53b8282": {
+          "id": "ecb0c66c-0ba6-4340-9ddf-9b74e53b8282",
+          "type": "npc",
+          "selected": false,
+          "x": 57,
+          "y": -251,
+          "ports": [
+            {
+              "id": "5f03e174-6651-4d0c-807f-f86fc7a238ec",
+              "type": "default",
+              "x": 449,
+              "y": -223,
+              "name": "out-1780218322736-52987",
+              "alignment": "right",
+              "parentNode": "ecb0c66c-0ba6-4340-9ddf-9b74e53b8282",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Wyson the Gardener",
+          "color": "#6e4b1e",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "5f03e174-6651-4d0c-807f-f86fc7a238ec"
+          ],
+          "locations": [
+            "28.12, 65.00, -291.88, 36.67, -8.00"
+          ],
+          "traits": [
+            {
+              "trait": "skintrait",
+              "args": {
+                "skin": "WYSON_THE_GARDENER"
+              }
+            },
+            {
+              "trait": "lookclose",
+              "args": {}
+            }
+          ],
+          "conditions": {
+            "conditions": [
+              ""
+            ],
+            "args": [],
+            "ors": [
+              false
+            ],
+            "negates": [
+              false
+            ]
+          },
+          "entityType": "PLAYER",
+          "equipment": {}
         }
       }
     }

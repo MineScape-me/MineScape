@@ -508,6 +508,58 @@
             "ee50ca55-963f-48b2-bb81-7740fb39488f"
           ],
           "text": "No thanks."
+        },
+        "0550db48-4ff2-493f-bdf1-0324b130f9b0": {
+          "id": "0550db48-4ff2-493f-bdf1-0324b130f9b0",
+          "type": "npc",
+          "selected": false,
+          "x": 247,
+          "y": -238,
+          "ports": [
+            {
+              "id": "6e2233fb-7216-437c-8325-4914db132799",
+              "type": "default",
+              "x": 639,
+              "y": -210,
+              "name": "out-1780218322028-78663",
+              "alignment": "right",
+              "parentNode": "0550db48-4ff2-493f-bdf1-0324b130f9b0",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Fairy shop assistant",
+          "color": "#6e4b1e",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "6e2233fb-7216-437c-8325-4914db132799"
+          ],
+          "locations": [
+            "-2979.02, 12.00, 1108.31, 143.13, 0.00"
+          ],
+          "traits": [
+            {
+              "trait": "randomwalk",
+              "args": {}
+            }
+          ],
+          "conditions": {
+            "conditions": [
+              ""
+            ],
+            "args": [],
+            "ors": [
+              false
+            ],
+            "negates": [
+              false
+            ]
+          },
+          "entityType": "ARMOR_STAND",
+          "equipment": {
+            "HEAD": "IRON_AXE"
+          }
         }
       }
     }

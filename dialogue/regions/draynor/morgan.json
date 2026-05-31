@@ -460,6 +460,66 @@
           "portsOutOrder": [],
           "tree": "vampyre_after",
           "start": "Start"
+        },
+        "01e798b9-085d-4641-8082-c9897d389464": {
+          "id": "01e798b9-085d-4641-8082-c9897d389464",
+          "type": "npc",
+          "selected": false,
+          "x": -275.7077732320279,
+          "y": -266.1548801870251,
+          "ports": [
+            {
+              "id": "ccddc8e4-5928-4f41-b2c5-d2a88cb39020",
+              "type": "default",
+              "x": 116.29222676797212,
+              "y": -238.15488018702513,
+              "name": "out-1780218322361-5122",
+              "alignment": "right",
+              "parentNode": "01e798b9-085d-4641-8082-c9897d389464",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Morgan",
+          "color": "#6e4b1e",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "ccddc8e4-5928-4f41-b2c5-d2a88cb39020"
+          ],
+          "locations": [
+            "241.33, 63.00, 43.56, 126.87, 0.00"
+          ],
+          "traits": [
+            {
+              "trait": "randomwalk",
+              "args": {}
+            },
+            {
+              "trait": "skintrait",
+              "args": {
+                "skin": "MORGAN"
+              }
+            },
+            {
+              "trait": "capetrait",
+              "args": {}
+            }
+          ],
+          "conditions": {
+            "conditions": [
+              ""
+            ],
+            "args": [],
+            "ors": [
+              false
+            ],
+            "negates": [
+              false
+            ]
+          },
+          "entityType": "PLAYER",
+          "equipment": {}
         }
       }
     }

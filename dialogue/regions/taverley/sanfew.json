@@ -648,6 +648,62 @@
           "portsInOrder": [],
           "portsOutOrder": [],
           "text": "Missing talking to after giving meats"
+        },
+        "af931613-cf54-4233-b555-bb6f5b4d7d9a": {
+          "id": "af931613-cf54-4233-b555-bb6f5b4d7d9a",
+          "type": "npc",
+          "selected": false,
+          "x": 10,
+          "y": -255,
+          "ports": [
+            {
+              "id": "650ebeea-b877-4329-88a5-a455beea2ee1",
+              "type": "default",
+              "x": 402,
+              "y": -227,
+              "name": "out-1780218322488-59031",
+              "alignment": "right",
+              "parentNode": "af931613-cf54-4233-b555-bb6f5b4d7d9a",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Sanfew",
+          "color": "#6e4b1e",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "650ebeea-b877-4329-88a5-a455beea2ee1"
+          ],
+          "locations": [
+            "-361.56, 73.00, -441.22, 225.00, 0.00"
+          ],
+          "traits": [
+            {
+              "trait": "skintrait",
+              "args": {
+                "skin": "DRUID"
+              }
+            },
+            {
+              "trait": "randomwalk",
+              "args": {}
+            }
+          ],
+          "conditions": {
+            "conditions": [
+              ""
+            ],
+            "args": [],
+            "ors": [
+              false
+            ],
+            "negates": [
+              false
+            ]
+          },
+          "entityType": "PLAYER",
+          "equipment": {}
         }
       }
     }

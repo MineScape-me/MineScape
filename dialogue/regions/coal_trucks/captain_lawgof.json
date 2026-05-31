@@ -119,6 +119,58 @@
           "portsInOrder": [],
           "portsOutOrder": [],
           "text": "Dwarf Cannon Quest"
+        },
+        "436e27ab-c66a-4d41-a516-fc350fdd62c4": {
+          "id": "436e27ab-c66a-4d41-a516-fc350fdd62c4",
+          "type": "npc",
+          "selected": false,
+          "x": 10,
+          "y": -262,
+          "ports": [
+            {
+              "id": "29abdef7-c2f6-408b-b4fb-cb6fbb8a0180",
+              "type": "default",
+              "x": 402,
+              "y": -234,
+              "name": "out-1780263662326-28215",
+              "alignment": "right",
+              "parentNode": "436e27ab-c66a-4d41-a516-fc350fdd62c4",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Captain Lawgof",
+          "color": "#6e4b1e",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "29abdef7-c2f6-408b-b4fb-cb6fbb8a0180"
+          ],
+          "locations": [
+            "-1361.24, 69.00, -532.50, 218.66, 0.00"
+          ],
+          "traits": [
+            {
+              "trait": "randomwalk",
+              "args": {}
+            }
+          ],
+          "conditions": {
+            "conditions": [
+              ""
+            ],
+            "args": [],
+            "ors": [
+              false
+            ],
+            "negates": [
+              false
+            ]
+          },
+          "entityType": "ARMOR_STAND",
+          "equipment": {
+            "HEAD": "APPLE"
+          }
         }
       }
     }

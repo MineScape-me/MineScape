@@ -128,6 +128,64 @@
               ]
             ]
           }
+        },
+        "d21d6f22-5a3e-4faf-ad9d-7b26420a96ec": {
+          "id": "d21d6f22-5a3e-4faf-ad9d-7b26420a96ec",
+          "type": "npc",
+          "selected": false,
+          "x": 66,
+          "y": -286,
+          "ports": [
+            {
+              "id": "67987222-23e0-44cd-817c-6d12bbf148d9",
+              "type": "default",
+              "x": 458,
+              "y": -258,
+              "name": "out-1780218322160-53122",
+              "alignment": "right",
+              "parentNode": "d21d6f22-5a3e-4faf-ad9d-7b26420a96ec",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Heskel",
+          "color": "#6e4b1e",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "67987222-23e0-44cd-817c-6d12bbf148d9"
+          ],
+          "locations": [
+            "-63.11, 64.00, -275.32, 53.13, 0.00"
+          ],
+          "traits": [
+            {
+              "trait": "randomwalk",
+              "args": {}
+            },
+            {
+              "trait": "skintrait",
+              "args": {
+                "skin": "HEKSEL"
+              }
+            }
+          ],
+          "conditions": {
+            "conditions": [
+              ""
+            ],
+            "args": [],
+            "ors": [
+              false
+            ],
+            "negates": [
+              false
+            ]
+          },
+          "entityType": "PLAYER",
+          "equipment": {
+            "HAND": "WATERING_CAN"
+          }
         }
       }
     }

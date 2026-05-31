@@ -503,6 +503,64 @@
           "portsOutOrder": [],
           "tree": "lost_shed",
           "start": "Start"
+        },
+        "ff54c858-5b32-487e-97f3-8ac6c64c853d": {
+          "id": "ff54c858-5b32-487e-97f3-8ac6c64c853d",
+          "type": "npc",
+          "selected": false,
+          "x": 10,
+          "y": -288,
+          "ports": [
+            {
+              "id": "3bad9bc6-60a1-4bd9-a8a5-4b08884ff253",
+              "type": "default",
+              "x": 402,
+              "y": -260,
+              "name": "out-1780218322706-5327",
+              "alignment": "right",
+              "parentNode": "ff54c858-5b32-487e-97f3-8ac6c64c853d",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Wizard",
+          "color": "#6e4b1e",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "3bad9bc6-60a1-4bd9-a8a5-4b08884ff253"
+          ],
+          "locations": [
+            "408.46, 63.00, 240.76, 233.13, 0.00"
+          ],
+          "traits": [
+            {
+              "trait": "skintrait",
+              "args": {
+                "skin": "WIZARD"
+              }
+            },
+            {
+              "trait": "randomwalk",
+              "args": {}
+            }
+          ],
+          "conditions": {
+            "conditions": [
+              ""
+            ],
+            "args": [],
+            "ors": [
+              false
+            ],
+            "negates": [
+              false
+            ]
+          },
+          "entityType": "PLAYER",
+          "equipment": {
+            "HAND": "STAFF"
+          }
         }
       }
     }

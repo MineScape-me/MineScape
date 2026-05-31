@@ -1491,6 +1491,62 @@
               ]
             ]
           }
+        },
+        "5463634e-5906-456d-89b7-658cf8dd5a01": {
+          "id": "5463634e-5906-456d-89b7-658cf8dd5a01",
+          "type": "npc",
+          "selected": false,
+          "x": 10,
+          "y": -262,
+          "ports": [
+            {
+              "id": "56d6b423-bf9d-4165-9ac3-7f183df0aafb",
+              "type": "default",
+              "x": 402,
+              "y": -234,
+              "name": "out-1780218322610-55962",
+              "alignment": "right",
+              "parentNode": "5463634e-5906-456d-89b7-658cf8dd5a01",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Ted Rehnison",
+          "color": "#6e4b1e",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "56d6b423-bf9d-4165-9ac3-7f183df0aafb"
+          ],
+          "locations": [
+            "-1471.38, 68.00, -142.47, 120.96, 0.00"
+          ],
+          "traits": [
+            {
+              "trait": "randomwalk",
+              "args": {}
+            },
+            {
+              "trait": "skintrait",
+              "args": {
+                "skin": "TED_REHNISON"
+              }
+            }
+          ],
+          "conditions": {
+            "conditions": [
+              ""
+            ],
+            "args": [],
+            "ors": [
+              false
+            ],
+            "negates": [
+              false
+            ]
+          },
+          "entityType": "PLAYER",
+          "equipment": {}
         }
       }
     }

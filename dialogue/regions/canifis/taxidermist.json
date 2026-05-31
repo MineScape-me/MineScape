@@ -771,6 +771,64 @@
             "bcd455a1-43ff-4a40-b084-25cf4789ed25"
           ],
           "text": "I hear there are all sorts of exotic creatures in the\nSlayer Tower -- I'd like a chance to stuff one of them!"
+        },
+        "918550da-44e8-4ff4-94cd-f705f47268aa": {
+          "id": "918550da-44e8-4ff4-94cd-f705f47268aa",
+          "type": "npc",
+          "selected": false,
+          "x": 70,
+          "y": -276,
+          "ports": [
+            {
+              "id": "fa53cd3b-276d-4bb1-83d2-e4f45dfd2fb5",
+              "type": "default",
+              "x": 462,
+              "y": -248,
+              "name": "out-1780218322605-27044",
+              "alignment": "right",
+              "parentNode": "918550da-44e8-4ff4-94cd-f705f47268aa",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Taxidermist",
+          "color": "#6e4b1e",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "fa53cd3b-276d-4bb1-83d2-e4f45dfd2fb5"
+          ],
+          "locations": [
+            "1391.84, 70.00, -605.32, 231.34, 0.00"
+          ],
+          "traits": [
+            {
+              "trait": "randomwalk",
+              "args": {}
+            },
+            {
+              "trait": "skintrait",
+              "args": {
+                "skin": "TAXIDERMIST"
+              }
+            }
+          ],
+          "conditions": {
+            "conditions": [
+              ""
+            ],
+            "args": [],
+            "ors": [
+              false
+            ],
+            "negates": [
+              false
+            ]
+          },
+          "entityType": "PLAYER",
+          "equipment": {
+            "HEAD": "PINK_BOATER"
+          }
         }
       }
     }

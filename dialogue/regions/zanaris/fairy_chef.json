@@ -118,6 +118,58 @@
             "7eb93b19-84bb-48c6-8a88-ac196f4d25dc"
           ],
           "text": "'Ello, sugar. I'm afraid I can't gossip right now, I've got\na cake in the oven."
+        },
+        "20921563-8f3b-4528-bd90-84bbee06b18d": {
+          "id": "20921563-8f3b-4528-bd90-84bbee06b18d",
+          "type": "npc",
+          "selected": false,
+          "x": 90,
+          "y": -263,
+          "ports": [
+            {
+              "id": "7bf0b45f-af22-4e64-bbee-877ef051f6a0",
+              "type": "default",
+              "x": 482,
+              "y": -235,
+              "name": "out-1780218322026-4495",
+              "alignment": "right",
+              "parentNode": "20921563-8f3b-4528-bd90-84bbee06b18d",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Fairy chef",
+          "color": "#6e4b1e",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "7bf0b45f-af22-4e64-bbee-877ef051f6a0"
+          ],
+          "locations": [
+            "-2957.57, 12.00, 1142.65, 143.13, 0.00"
+          ],
+          "traits": [
+            {
+              "trait": "randomwalk",
+              "args": {}
+            }
+          ],
+          "conditions": {
+            "conditions": [
+              ""
+            ],
+            "args": [],
+            "ors": [
+              false
+            ],
+            "negates": [
+              false
+            ]
+          },
+          "entityType": "ARMOR_STAND",
+          "equipment": {
+            "HEAD": "IRON_AXE"
+          }
         }
       }
     }

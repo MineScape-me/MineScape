@@ -615,6 +615,64 @@
           "portsInOrder": [],
           "portsOutOrder": [],
           "text": "Rasolo the Wandering Merchant\nShop"
+        },
+        "47a639bc-8f45-4d36-aae7-f6986af5c935": {
+          "id": "47a639bc-8f45-4d36-aae7-f6986af5c935",
+          "type": "npc",
+          "selected": false,
+          "x": 10,
+          "y": -288,
+          "ports": [
+            {
+              "id": "9981af7a-ee6c-4791-872a-b5f69e2cd474",
+              "type": "default",
+              "x": 402,
+              "y": -260,
+              "name": "out-1780263662392-14213",
+              "alignment": "right",
+              "parentNode": "47a639bc-8f45-4d36-aae7-f6986af5c935",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Rasolo",
+          "color": "#6e4b1e",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "9981af7a-ee6c-4791-872a-b5f69e2cd474"
+          ],
+          "locations": [
+            "-1454.44, 66.00, -445.74, -45.00, 0.00"
+          ],
+          "traits": [
+            {
+              "trait": "skintrait",
+              "args": {
+                "skin": "RASOLO"
+              }
+            },
+            {
+              "trait": "randomwalk",
+              "args": {}
+            }
+          ],
+          "conditions": {
+            "conditions": [
+              ""
+            ],
+            "args": [],
+            "ors": [
+              false
+            ],
+            "negates": [
+              false
+            ]
+          },
+          "entityType": "PLAYER",
+          "equipment": {
+            "HEAD": "DARK_CAVALIER"
+          }
         }
       }
     }

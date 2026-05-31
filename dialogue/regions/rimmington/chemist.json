@@ -2847,6 +2847,62 @@
               ]
             ]
           }
+        },
+        "30f2f5b5-91df-47fe-8564-dff983640695": {
+          "id": "30f2f5b5-91df-47fe-8564-dff983640695",
+          "type": "npc",
+          "selected": false,
+          "x": 216,
+          "y": -215,
+          "ports": [
+            {
+              "id": "58e563b1-6e9a-4780-a8e2-105ad11f1314",
+              "type": "default",
+              "x": 608,
+              "y": -187,
+              "name": "out-1780218322791-50866",
+              "alignment": "right",
+              "parentNode": "30f2f5b5-91df-47fe-8564-dff983640695",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Chemist",
+          "color": "#6e4b1e",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "58e563b1-6e9a-4780-a8e2-105ad11f1314"
+          ],
+          "locations": [
+            "-279.36, 63.00, 223.55, 225.00, 0.00"
+          ],
+          "traits": [
+            {
+              "trait": "randomwalk",
+              "args": {}
+            },
+            {
+              "trait": "skintrait",
+              "args": {
+                "skin": "CHEMIST"
+              }
+            }
+          ],
+          "conditions": {
+            "conditions": [
+              ""
+            ],
+            "args": [],
+            "ors": [
+              false
+            ],
+            "negates": [
+              false
+            ]
+          },
+          "entityType": "PLAYER",
+          "equipment": {}
         }
       }
     }

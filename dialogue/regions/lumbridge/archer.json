@@ -533,6 +533,64 @@
           "portsOutOrder": [],
           "tree": "lost_after",
           "start": "Start"
+        },
+        "849c00c5-df07-4513-807a-96c1e3a95878": {
+          "id": "849c00c5-df07-4513-807a-96c1e3a95878",
+          "type": "npc",
+          "selected": false,
+          "x": 10,
+          "y": -288,
+          "ports": [
+            {
+              "id": "543c32d0-4538-4f4f-8595-0fca1260819e",
+              "type": "default",
+              "x": 402,
+              "y": -260,
+              "name": "out-1780218321660-28639",
+              "alignment": "right",
+              "parentNode": "849c00c5-df07-4513-807a-96c1e3a95878",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Archer",
+          "color": "#6e4b1e",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "543c32d0-4538-4f4f-8595-0fca1260819e"
+          ],
+          "locations": [
+            "413.65, 63.00, 239.44, 225.00, 0.00"
+          ],
+          "traits": [
+            {
+              "trait": "randomwalk",
+              "args": {}
+            },
+            {
+              "trait": "skintrait",
+              "args": {
+                "skin": "LOST_CITY_ARCHER"
+              }
+            }
+          ],
+          "conditions": {
+            "conditions": [
+              ""
+            ],
+            "args": [],
+            "ors": [
+              false
+            ],
+            "negates": [
+              false
+            ]
+          },
+          "entityType": "PLAYER",
+          "equipment": {
+            "HAND": "LONGBOW"
+          }
         }
       }
     }

@@ -2484,6 +2484,62 @@
           "portsInOrder": [],
           "portsOutOrder": [],
           "text": "Quest Progress"
+        },
+        "88cb5738-8d0f-4f59-bf64-3b0e752c4b0d": {
+          "id": "88cb5738-8d0f-4f59-bf64-3b0e752c4b0d",
+          "type": "npc",
+          "selected": false,
+          "x": -113,
+          "y": -291,
+          "ports": [
+            {
+              "id": "40a3f911-0105-4d11-9545-9a10a9ba7951",
+              "type": "default",
+              "x": 279,
+              "y": -263,
+              "name": "out-1780218322733-52511",
+              "alignment": "right",
+              "parentNode": "88cb5738-8d0f-4f59-bf64-3b0e752c4b0d",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Wydin",
+          "color": "#6e4b1e",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "40a3f911-0105-4d11-9545-9a10a9ba7951"
+          ],
+          "locations": [
+            "-26.93, 66.06, 235.94, 42.16, -10.48"
+          ],
+          "traits": [
+            {
+              "trait": "lookclose",
+              "args": {}
+            },
+            {
+              "trait": "skintrait",
+              "args": {
+                "skin": "CHEF"
+              }
+            }
+          ],
+          "conditions": {
+            "conditions": [
+              ""
+            ],
+            "args": [],
+            "ors": [
+              false
+            ],
+            "negates": [
+              false
+            ]
+          },
+          "entityType": "PLAYER",
+          "equipment": {}
         }
       }
     }

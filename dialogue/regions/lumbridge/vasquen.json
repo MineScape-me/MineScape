@@ -128,6 +128,64 @@
               ]
             ]
           }
+        },
+        "4120cf95-c09c-4e4c-9a87-a5178c7997a9": {
+          "id": "4120cf95-c09c-4e4c-9a87-a5178c7997a9",
+          "type": "npc",
+          "selected": false,
+          "x": 83,
+          "y": -286,
+          "ports": [
+            {
+              "id": "3afaf7cd-464e-4a4c-a314-c40d5c0c5b0b",
+              "type": "default",
+              "x": 475,
+              "y": -258,
+              "name": "out-1780218322683-64694",
+              "alignment": "right",
+              "parentNode": "4120cf95-c09c-4e4c-9a87-a5178c7997a9",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Vasquen",
+          "color": "#6e4b1e",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "3afaf7cd-464e-4a4c-a314-c40d5c0c5b0b"
+          ],
+          "locations": [
+            "628.91, 65.00, -107.16, 149.04, 0.00"
+          ],
+          "traits": [
+            {
+              "trait": "skintrait",
+              "args": {
+                "skin": "VASQUEN"
+              }
+            },
+            {
+              "trait": "randomwalk",
+              "args": {}
+            }
+          ],
+          "conditions": {
+            "conditions": [
+              ""
+            ],
+            "args": [],
+            "ors": [
+              false
+            ],
+            "negates": [
+              false
+            ]
+          },
+          "entityType": "PLAYER",
+          "equipment": {
+            "HAND": "SPADE"
+          }
         }
       }
     }

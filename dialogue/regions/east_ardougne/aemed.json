@@ -582,6 +582,62 @@
             "55f6550e-b6e5-449d-859e-dd64419c291b"
           ],
           "text": "Hmph. Well, perhaps next time you'll need something\nfrom me?"
+        },
+        "b2902881-29dd-4d1b-8a95-7017087f3cdb": {
+          "id": "b2902881-29dd-4d1b-8a95-7017087f3cdb",
+          "type": "npc",
+          "selected": false,
+          "x": 204,
+          "y": -278,
+          "ports": [
+            {
+              "id": "bddbe488-d90b-4f3f-ae22-f9054a8bb183",
+              "type": "default",
+              "x": 596,
+              "y": -250,
+              "name": "out-1780218321609-59556",
+              "alignment": "right",
+              "parentNode": "b2902881-29dd-4d1b-8a95-7017087f3cdb",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Aemad",
+          "color": "#6e4b1e",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "bddbe488-d90b-4f3f-ae22-f9054a8bb183"
+          ],
+          "locations": [
+            "-1218.52, 69.00, -39.51, 135.00, 0.00"
+          ],
+          "traits": [
+            {
+              "trait": "skintrait",
+              "args": {
+                "skin": "AEMAD"
+              }
+            },
+            {
+              "trait": "randomwalk",
+              "args": {}
+            }
+          ],
+          "conditions": {
+            "conditions": [
+              ""
+            ],
+            "args": [],
+            "ors": [
+              false
+            ],
+            "negates": [
+              false
+            ]
+          },
+          "entityType": "PLAYER",
+          "equipment": {}
         }
       }
     }

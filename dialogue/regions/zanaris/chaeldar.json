@@ -1831,6 +1831,58 @@
               ]
             ]
           }
+        },
+        "bb79fdc6-7a48-4d89-90ef-04f1c6f3f447": {
+          "id": "bb79fdc6-7a48-4d89-90ef-04f1c6f3f447",
+          "type": "npc",
+          "selected": false,
+          "x": 159,
+          "y": -212,
+          "ports": [
+            {
+              "id": "9b2d134d-bc8a-4e9d-bef3-35cf37393864",
+              "type": "default",
+              "x": 551,
+              "y": -184,
+              "name": "out-1780218321832-29805",
+              "alignment": "right",
+              "parentNode": "bb79fdc6-7a48-4d89-90ef-04f1c6f3f447",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Chaeldar",
+          "color": "#6e4b1e",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "9b2d134d-bc8a-4e9d-bef3-35cf37393864"
+          ],
+          "locations": [
+            "-2766.41, 12.00, 1165.45, 51.34, 0.00"
+          ],
+          "traits": [
+            {
+              "trait": "randomwalk",
+              "args": {}
+            }
+          ],
+          "conditions": {
+            "conditions": [
+              ""
+            ],
+            "args": [],
+            "ors": [
+              false
+            ],
+            "negates": [
+              false
+            ]
+          },
+          "entityType": "ARMOR_STAND",
+          "equipment": {
+            "HEAD": "IRON_AXE"
+          }
         }
       }
     }

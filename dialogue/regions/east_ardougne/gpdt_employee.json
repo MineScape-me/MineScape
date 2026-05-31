@@ -191,6 +191,64 @@
             "07c8c9ae-d5ed-4f1c-96cd-1b2e6745390b"
           ],
           "text": "Thank you very much."
+        },
+        "57519b34-88f7-4404-b8c7-abb13afa93da": {
+          "id": "57519b34-88f7-4404-b8c7-abb13afa93da",
+          "type": "npc",
+          "selected": false,
+          "x": 10,
+          "y": -314,
+          "ports": [
+            {
+              "id": "a5456ea6-d776-4165-84fd-cef6be90cdb1",
+              "type": "default",
+              "x": 402,
+              "y": -286,
+              "name": "out-1780218322079-67251",
+              "alignment": "right",
+              "parentNode": "57519b34-88f7-4404-b8c7-abb13afa93da",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "GPDT Employee",
+          "color": "#6e4b1e",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "a5456ea6-d776-4165-84fd-cef6be90cdb1"
+          ],
+          "locations": [
+            "-1116.63, 68.00, 24.94, -36.87, 0.00",
+            "-1116.95, 68.00, 34.01, 225.00, 0.00",
+            "-1130.92, 68.00, 36.39, -53.13, 0.00"
+          ],
+          "traits": [
+            {
+              "trait": "skintrait",
+              "args": {
+                "skin": "CHARTER_CREWMEMBER_3"
+              }
+            },
+            {
+              "trait": "randomwalk",
+              "args": {}
+            }
+          ],
+          "conditions": {
+            "conditions": [
+              ""
+            ],
+            "args": [],
+            "ors": [
+              false
+            ],
+            "negates": [
+              false
+            ]
+          },
+          "entityType": "PLAYER",
+          "equipment": {}
         }
       }
     }

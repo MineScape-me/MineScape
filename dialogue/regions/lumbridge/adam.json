@@ -1645,6 +1645,62 @@
               ]
             ]
           }
+        },
+        "60cf2dc5-5bc2-498a-9fc0-183d64a5823d": {
+          "id": "60cf2dc5-5bc2-498a-9fc0-183d64a5823d",
+          "type": "npc",
+          "selected": false,
+          "x": 58,
+          "y": -224,
+          "ports": [
+            {
+              "id": "325ce5df-fd3f-4aa3-b09b-e17445d36c8c",
+              "type": "default",
+              "x": 450,
+              "y": -196,
+              "name": "out-1780218321603-88361",
+              "alignment": "right",
+              "parentNode": "60cf2dc5-5bc2-498a-9fc0-183d64a5823d",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Adam",
+          "color": "#6e4b1e",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "325ce5df-fd3f-4aa3-b09b-e17445d36c8c"
+          ],
+          "locations": [
+            "634.78, 63.00, 160.52, 147.31, 0.00"
+          ],
+          "traits": [
+            {
+              "trait": "skintrait",
+              "args": {
+                "skin": "DEFAULT_MALE_TAN"
+              }
+            },
+            {
+              "trait": "lookclose",
+              "args": {}
+            }
+          ],
+          "conditions": {
+            "conditions": [
+              ""
+            ],
+            "args": [],
+            "ors": [
+              false
+            ],
+            "negates": [
+              false
+            ]
+          },
+          "entityType": "PLAYER",
+          "equipment": {}
         }
       }
     }

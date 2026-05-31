@@ -821,6 +821,68 @@
               ]
             ]
           }
+        },
+        "c7dca6f4-608c-4066-a11f-8a2f448d597a": {
+          "id": "c7dca6f4-608c-4066-a11f-8a2f448d597a",
+          "type": "npc",
+          "selected": false,
+          "x": 10,
+          "y": -314,
+          "ports": [
+            {
+              "id": "c0e86044-f46d-4385-a3ac-8ae47fb8fb16",
+              "type": "default",
+              "x": 402,
+              "y": -286,
+              "name": "out-1780218322866-1650",
+              "alignment": "right",
+              "parentNode": "c7dca6f4-608c-4066-a11f-8a2f448d597a",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Tribal Weapon Salesman",
+          "color": "#6e4b1e",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "c0e86044-f46d-4385-a3ac-8ae47fb8fb16"
+          ],
+          "locations": [
+            "-1071.38, 67.06, -410.48, 210.96, 0.00"
+          ],
+          "traits": [
+            {
+              "trait": "capetrait",
+              "args": {}
+            },
+            {
+              "trait": "randomwalk",
+              "args": {}
+            },
+            {
+              "trait": "skintrait",
+              "args": {
+                "skin": "TRIBAL_WEAPON_SALESMAN"
+              }
+            }
+          ],
+          "conditions": {
+            "conditions": [
+              ""
+            ],
+            "args": [],
+            "ors": [
+              false
+            ],
+            "negates": [
+              false
+            ]
+          },
+          "entityType": "PLAYER",
+          "equipment": {
+            "FEET": "LEATHER_BOOTS"
+          }
         }
       }
     }

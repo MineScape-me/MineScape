@@ -1404,6 +1404,62 @@
             "a52c9437-26ff-4362-bcd6-3dac5ef7878f"
           ],
           "text": "No wonder I'm the one with the big house, and you're\nthe one on the streets."
+        },
+        "9d324ecb-f3ed-4eaa-8c0b-56ba054228cb": {
+          "id": "9d324ecb-f3ed-4eaa-8c0b-56ba054228cb",
+          "type": "npc",
+          "selected": false,
+          "x": 10,
+          "y": -262,
+          "ports": [
+            {
+              "id": "af5796d4-34f5-4415-9ca5-b7289cdcaa53",
+              "type": "default",
+              "x": 402,
+              "y": -234,
+              "name": "out-1780218321827-80135",
+              "alignment": "right",
+              "parentNode": "9d324ecb-f3ed-4eaa-8c0b-56ba054228cb",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Ceril Carnillean",
+          "color": "#6e4b1e",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "af5796d4-34f5-4415-9ca5-b7289cdcaa53"
+          ],
+          "locations": [
+            "-1356.10, 69.06, 41.60, 45.00, 0.00"
+          ],
+          "traits": [
+            {
+              "trait": "skintrait",
+              "args": {
+                "skin": "SIR_CERIL_CARNILLEAN"
+              }
+            },
+            {
+              "trait": "randomwalk",
+              "args": {}
+            }
+          ],
+          "conditions": {
+            "conditions": [
+              ""
+            ],
+            "args": [],
+            "ors": [
+              false
+            ],
+            "negates": [
+              false
+            ]
+          },
+          "entityType": "PLAYER",
+          "equipment": {}
         }
       }
     }

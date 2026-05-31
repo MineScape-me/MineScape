@@ -1831,6 +1831,62 @@
               ]
             ]
           }
+        },
+        "26ecd218-c555-4e4c-8109-a476584ea49e": {
+          "id": "26ecd218-c555-4e4c-8109-a476584ea49e",
+          "type": "npc",
+          "selected": false,
+          "x": 159,
+          "y": -212,
+          "ports": [
+            {
+              "id": "c11bf47e-936b-4346-9e54-4c8b8b95c9bb",
+              "type": "default",
+              "x": 551,
+              "y": -184,
+              "name": "out-1780218322338-70218",
+              "alignment": "right",
+              "parentNode": "26ecd218-c555-4e4c-8109-a476584ea49e",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Mazchna",
+          "color": "#6e4b1e",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "c11bf47e-936b-4346-9e54-4c8b8b95c9bb"
+          ],
+          "locations": [
+            "1488.37, 66.00, -683.58, 225.00, 0.00"
+          ],
+          "traits": [
+            {
+              "trait": "randomwalk",
+              "args": {}
+            },
+            {
+              "trait": "skintrait",
+              "args": {
+                "skin": "MAZCHNA"
+              }
+            }
+          ],
+          "conditions": {
+            "conditions": [
+              ""
+            ],
+            "args": [],
+            "ors": [
+              false
+            ],
+            "negates": [
+              false
+            ]
+          },
+          "entityType": "PLAYER",
+          "equipment": {}
         }
       }
     }

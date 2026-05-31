@@ -1970,6 +1970,65 @@
           "portsOutOrder": [],
           "tree": "hand_in_the_sand_after",
           "start": "Start"
+        },
+        "0ba74e68-778b-4696-af14-373fd1f17904": {
+          "id": "0ba74e68-778b-4696-af14-373fd1f17904",
+          "type": "npc",
+          "selected": false,
+          "x": -454.70588235294144,
+          "y": -328.11764705882354,
+          "ports": [
+            {
+              "id": "8e50fc4b-62cd-4bb1-ba5e-780492251be8",
+              "type": "default",
+              "x": -62.705882352941444,
+              "y": -300.11764705882354,
+              "name": "out-1780218322746-90500",
+              "alignment": "right",
+              "parentNode": "0ba74e68-778b-4696-af14-373fd1f17904",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Zavistic Rarve",
+          "color": "#6e4b1e",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "8e50fc4b-62cd-4bb1-ba5e-780492251be8"
+          ],
+          "locations": [
+            "-1302.14, 67.00, 597.02, 45.00, 0.00"
+          ],
+          "traits": [
+            {
+              "trait": "skintrait",
+              "args": {
+                "skin": "ZAVISTIC_RARVE"
+              }
+            },
+            {
+              "trait": "randomwalk",
+              "args": {}
+            }
+          ],
+          "conditions": {
+            "conditions": [
+              ""
+            ],
+            "args": [],
+            "ors": [
+              false
+            ],
+            "negates": [
+              false
+            ]
+          },
+          "entityType": "PLAYER",
+          "equipment": {
+            "HAND": "BATTLESTAFF",
+            "HEAD": "BLUE_WIZARD_HAT"
+          }
         }
       }
     }

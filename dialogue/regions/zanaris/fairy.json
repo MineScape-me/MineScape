@@ -1231,6 +1231,60 @@
             "bcd41cbe-3f3d-4c6c-aefe-d9652be0d4fe"
           ],
           "text": "Oh, ok then. If you do find out please let me know.\nThe co-ordinator has sent me to find him."
+        },
+        "8384b61d-3310-47e9-a308-523871339e95": {
+          "id": "8384b61d-3310-47e9-a308-523871339e95",
+          "type": "npc",
+          "selected": false,
+          "x": 131,
+          "y": -298,
+          "ports": [
+            {
+              "id": "d3cf5e82-8c70-49f4-a8de-600a8c8887e1",
+              "type": "default",
+              "x": 523,
+              "y": -270,
+              "name": "out-1780218322019-20802",
+              "alignment": "right",
+              "parentNode": "8384b61d-3310-47e9-a308-523871339e95",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Fairy",
+          "color": "#6e4b1e",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "d3cf5e82-8c70-49f4-a8de-600a8c8887e1"
+          ],
+          "locations": [
+            "-2961.23, 11.00, 1180.02, 45.00, 0.00",
+            "-2936.40, 12.00, 1186.39, 216.87, 0.00",
+            "-2947.78, 11.00, 1171.76, 128.66, 0.00"
+          ],
+          "traits": [
+            {
+              "trait": "randomwalk",
+              "args": {}
+            }
+          ],
+          "conditions": {
+            "conditions": [
+              ""
+            ],
+            "args": [],
+            "ors": [
+              false
+            ],
+            "negates": [
+              false
+            ]
+          },
+          "entityType": "ARMOR_STAND",
+          "equipment": {
+            "HEAD": "IRON_AXE"
+          }
         }
       }
     }

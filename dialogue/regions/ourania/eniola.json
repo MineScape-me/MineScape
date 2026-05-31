@@ -2717,6 +2717,58 @@
               ]
             ]
           }
+        },
+        "38416c68-ccf9-44d9-9b8f-49455950682b": {
+          "id": "38416c68-ccf9-44d9-9b8f-49455950682b",
+          "type": "npc",
+          "selected": false,
+          "x": -6.470588235294116,
+          "y": -417.29411764705884,
+          "ports": [
+            {
+              "id": "e2bb7753-930f-4098-b202-b7659cc1ecf1",
+              "type": "default",
+              "x": 385.52941176470586,
+              "y": -389.29411764705884,
+              "name": "out-1780218322006-61318",
+              "alignment": "right",
+              "parentNode": "38416c68-ccf9-44d9-9b8f-49455950682b",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Eniola",
+          "color": "#6e4b1e",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "e2bb7753-930f-4098-b202-b7659cc1ecf1"
+          ],
+          "locations": [
+            "-1723.53, 25.00, 172.60, -8.69, 0.00"
+          ],
+          "traits": [
+            {
+              "trait": "lookclose",
+              "args": {}
+            }
+          ],
+          "conditions": {
+            "conditions": [
+              ""
+            ],
+            "args": [],
+            "ors": [
+              false
+            ],
+            "negates": [
+              false
+            ]
+          },
+          "entityType": "ARMOR_STAND",
+          "equipment": {
+            "HEAD": "IRON_AXE"
+          }
         }
       }
     }

@@ -1170,6 +1170,65 @@
           "portsOutOrder": [],
           "tree": "tutorial_after",
           "start": "Start"
+        },
+        "6398eaf2-898c-42c1-a1e4-3d1e8e705d5e": {
+          "id": "6398eaf2-898c-42c1-a1e4-3d1e8e705d5e",
+          "type": "npc",
+          "selected": false,
+          "x": 10,
+          "y": -314,
+          "ports": [
+            {
+              "id": "ebf83ecb-458a-42d5-82b4-4477fc701bda",
+              "type": "default",
+              "x": 402,
+              "y": -286,
+              "name": "out-1780218322599-88888",
+              "alignment": "right",
+              "parentNode": "6398eaf2-898c-42c1-a1e4-3d1e8e705d5e",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Survival Expert",
+          "color": "#6e4b1e",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "ebf83ecb-458a-42d5-82b4-4477fc701bda"
+          ],
+          "locations": [
+            "275.54, 69.06, 605.15, 110.71, 3.10"
+          ],
+          "traits": [
+            {
+              "trait": "skintrait",
+              "args": {
+                "skin": "DEFAULT_MALE_TAN"
+              }
+            },
+            {
+              "trait": "lookclose",
+              "args": {}
+            }
+          ],
+          "conditions": {
+            "conditions": [
+              ""
+            ],
+            "args": [],
+            "ors": [
+              false
+            ],
+            "negates": [
+              false
+            ]
+          },
+          "entityType": "PLAYER",
+          "equipment": {
+            "HAND": "SMALL_FISHING_NET",
+            "OFF_HAND": "TINDERBOX"
+          }
         }
       }
     }

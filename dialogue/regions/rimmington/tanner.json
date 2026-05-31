@@ -1225,6 +1225,62 @@
               ]
             ]
           }
+        },
+        "e9b35dbd-b74b-478f-972e-c00b1730d772": {
+          "id": "e9b35dbd-b74b-478f-972e-c00b1730d772",
+          "type": "npc",
+          "selected": false,
+          "x": -190,
+          "y": -281,
+          "ports": [
+            {
+              "id": "e5465e4a-755b-44a8-9c01-40a8046e21f6",
+              "type": "default",
+              "x": 202,
+              "y": -253,
+              "name": "out-1780218322601-6529",
+              "alignment": "right",
+              "parentNode": "e9b35dbd-b74b-478f-972e-c00b1730d772",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Tanner",
+          "color": "#6e4b1e",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "e5465e4a-755b-44a8-9c01-40a8046e21f6"
+          ],
+          "locations": [
+            "-255.17, 69.06, -2.93, 170.30, 15.46"
+          ],
+          "traits": [
+            {
+              "trait": "lookclose",
+              "args": {}
+            },
+            {
+              "trait": "skintrait",
+              "args": {
+                "skin": "MEDIUM_BROTHER"
+              }
+            }
+          ],
+          "conditions": {
+            "conditions": [
+              ""
+            ],
+            "args": [],
+            "ors": [
+              false
+            ],
+            "negates": [
+              false
+            ]
+          },
+          "entityType": "PLAYER",
+          "equipment": {}
         }
       }
     }

@@ -371,6 +371,62 @@
           "portsOutOrder": [],
           "tree": "imp_after",
           "start": "Start"
+        },
+        "6c653300-c8f6-4097-82fe-262fa193ca36": {
+          "id": "6c653300-c8f6-4097-82fe-262fa193ca36",
+          "type": "npc",
+          "selected": false,
+          "x": 10,
+          "y": -262,
+          "ports": [
+            {
+              "id": "b5c3090c-789d-4222-a7d1-d961764e223f",
+              "type": "default",
+              "x": 402,
+              "y": -234,
+              "name": "out-1780218322718-78342",
+              "alignment": "right",
+              "parentNode": "6c653300-c8f6-4097-82fe-262fa193ca36",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Wizard Mizgog",
+          "color": "#6e4b1e",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "b5c3090c-789d-4222-a7d1-d961764e223f"
+          ],
+          "locations": [
+            "281.96, 90.00, 360.51, 59.04, 0.00"
+          ],
+          "traits": [
+            {
+              "trait": "skintrait",
+              "args": {
+                "skin": "WIZARD"
+              }
+            },
+            {
+              "trait": "randomwalk",
+              "args": {}
+            }
+          ],
+          "conditions": {
+            "conditions": [
+              ""
+            ],
+            "args": [],
+            "ors": [
+              false
+            ],
+            "negates": [
+              false
+            ]
+          },
+          "entityType": "PLAYER",
+          "equipment": {}
         }
       }
     }

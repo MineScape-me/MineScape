@@ -1110,6 +1110,66 @@
               ]
             ]
           }
+        },
+        "078f6123-5071-490f-b6d9-65a32ac6d6b0": {
+          "id": "078f6123-5071-490f-b6d9-65a32ac6d6b0",
+          "type": "npc",
+          "selected": false,
+          "x": 10,
+          "y": -340,
+          "ports": [
+            {
+              "id": "07f1f0f5-aa68-49d8-875a-293fc7f71a61",
+              "type": "default",
+              "x": 402,
+              "y": -312,
+              "name": "out-1780218322329-19672",
+              "alignment": "right",
+              "parentNode": "078f6123-5071-490f-b6d9-65a32ac6d6b0",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Master Chef",
+          "color": "#6e4b1e",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "07f1f0f5-aa68-49d8-875a-293fc7f71a61"
+          ],
+          "locations": [
+            "309.66, 68.00, 694.68, 77.44, -3.58"
+          ],
+          "traits": [
+            {
+              "trait": "skintrait",
+              "args": {
+                "skin": "CHEF"
+              }
+            },
+            {
+              "trait": "lookclose",
+              "args": {}
+            }
+          ],
+          "conditions": {
+            "conditions": [
+              ""
+            ],
+            "args": [],
+            "ors": [
+              false
+            ],
+            "negates": [
+              false
+            ]
+          },
+          "entityType": "PLAYER",
+          "equipment": {
+            "HAND": "BREAD_DOUGH",
+            "OFF_HAND": "BREAD",
+            "HEAD": "CHEFS_HAT"
+          }
         }
       }
     }

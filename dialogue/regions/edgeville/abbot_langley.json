@@ -1427,6 +1427,62 @@
               ]
             ]
           }
+        },
+        "c4e877c0-c7bc-495b-8fe1-71dc3af0664e": {
+          "id": "c4e877c0-c7bc-495b-8fe1-71dc3af0664e",
+          "type": "npc",
+          "selected": false,
+          "x": 93,
+          "y": -278,
+          "ports": [
+            {
+              "id": "54773eb1-2b01-464e-a0ba-8c4d14829033",
+              "type": "default",
+              "x": 485,
+              "y": -250,
+              "name": "out-1780218321600-55189",
+              "alignment": "right",
+              "parentNode": "c4e877c0-c7bc-495b-8fe1-71dc3af0664e",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Abbot Langley",
+          "color": "#6e4b1e",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "54773eb1-2b01-464e-a0ba-8c4d14829033"
+          ],
+          "locations": [
+            "117.91, 65.06, -602.12, -53.13, 0.00"
+          ],
+          "traits": [
+            {
+              "trait": "skintrait",
+              "args": {
+                "skin": "MONK"
+              }
+            },
+            {
+              "trait": "randomwalk",
+              "args": {}
+            }
+          ],
+          "conditions": {
+            "conditions": [
+              ""
+            ],
+            "args": [],
+            "ors": [
+              false
+            ],
+            "negates": [
+              false
+            ]
+          },
+          "entityType": "PLAYER",
+          "equipment": {}
         }
       }
     }

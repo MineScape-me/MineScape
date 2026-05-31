@@ -2438,6 +2438,64 @@
             "7b471e49-6ccd-4d3b-a199-564b541b9928"
           ],
           "text": "Health be with you travelling."
+        },
+        "6d149bb0-6119-493f-988e-f5727447efac": {
+          "id": "6d149bb0-6119-493f-988e-f5727447efac",
+          "type": "npc",
+          "selected": false,
+          "x": 10,
+          "y": -288,
+          "ports": [
+            {
+              "id": "ae86dbe9-2041-4962-8b14-902a5840d95c",
+              "type": "default",
+              "x": 402,
+              "y": -260,
+              "name": "out-1780218322519-76000",
+              "alignment": "right",
+              "parentNode": "6d149bb0-6119-493f-988e-f5727447efac",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Shanomi",
+          "color": "#6e4b1e",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "ae86dbe9-2041-4962-8b14-902a5840d95c"
+          ],
+          "locations": [
+            "-495.09, 71.00, -773.71, 135.00, 0.00"
+          ],
+          "traits": [
+            {
+              "trait": "skintrait",
+              "args": {
+                "skin": "SHANOMI"
+              }
+            },
+            {
+              "trait": "randomwalk",
+              "args": {}
+            }
+          ],
+          "conditions": {
+            "conditions": [
+              ""
+            ],
+            "args": [],
+            "ors": [
+              false
+            ],
+            "negates": [
+              false
+            ]
+          },
+          "entityType": "PLAYER",
+          "equipment": {
+            "HAND": "STEEL_2H_SWORD"
+          }
         }
       }
     }

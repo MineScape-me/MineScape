@@ -2394,6 +2394,64 @@
           "portsOutOrder": [],
           "tree": "demon_invade",
           "start": "Start"
+        },
+        "5caf96f2-9785-4619-8a02-4fcd32ba0339": {
+          "id": "5caf96f2-9785-4619-8a02-4fcd32ba0339",
+          "type": "npc",
+          "selected": false,
+          "x": 10,
+          "y": -288,
+          "ports": [
+            {
+              "id": "25e1f2a1-4e22-405a-a88d-c4acafbf2bd1",
+              "type": "default",
+              "x": 402,
+              "y": -260,
+              "name": "out-1780218321815-40352",
+              "alignment": "right",
+              "parentNode": "5caf96f2-9785-4619-8a02-4fcd32ba0339",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Captain Rovin",
+          "color": "#6e4b1e",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "25e1f2a1-4e22-405a-a88d-c4acafbf2bd1"
+          ],
+          "locations": [
+            "554.47, 77.00, -634.63, -82.72, 27.57"
+          ],
+          "traits": [
+            {
+              "trait": "lookclose",
+              "args": {}
+            },
+            {
+              "trait": "skintrait",
+              "args": {
+                "skin": "CAPTAIN_ROVIN"
+              }
+            }
+          ],
+          "conditions": {
+            "conditions": [
+              ""
+            ],
+            "args": [],
+            "ors": [
+              false
+            ],
+            "negates": [
+              false
+            ]
+          },
+          "entityType": "PLAYER",
+          "equipment": {
+            "HAND": "STEEL_SWORD"
+          }
         }
       }
     }

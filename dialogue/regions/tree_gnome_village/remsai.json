@@ -827,6 +827,58 @@
             "a0c439ae-1079-41d1-be6a-2e7e8048c54b"
           ],
           "switch": "quest[TREE_GNOME_VILLAGE]"
+        },
+        "703d71ff-96b6-4c87-8116-19b55dac20f6": {
+          "id": "703d71ff-96b6-4c87-8116-19b55dac20f6",
+          "type": "npc",
+          "selected": false,
+          "x": 42.30769245937732,
+          "y": -221.38461519392564,
+          "ports": [
+            {
+              "id": "72e00cbd-49a0-439e-8cbb-d8674abf678e",
+              "type": "default",
+              "x": 434.30769245937734,
+              "y": -193.38461519392564,
+              "name": "out-1780218322444-40239",
+              "alignment": "right",
+              "parentNode": "703d71ff-96b6-4c87-8116-19b55dac20f6",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Remsai",
+          "color": "#6e4b1e",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "72e00cbd-49a0-439e-8cbb-d8674abf678e"
+          ],
+          "locations": [
+            "-1495.95, 67.00, 345.36, 45.00, 0.00"
+          ],
+          "traits": [
+            {
+              "trait": "randomwalk",
+              "args": {}
+            }
+          ],
+          "conditions": {
+            "conditions": [
+              ""
+            ],
+            "args": [],
+            "ors": [
+              false
+            ],
+            "negates": [
+              false
+            ]
+          },
+          "entityType": "ARMOR_STAND",
+          "equipment": {
+            "HEAD": "IRON_AXE"
+          }
         }
       }
     }

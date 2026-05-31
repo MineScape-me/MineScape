@@ -192,6 +192,62 @@
             "8e32cd19-82f4-434f-8df6-fde0b7dd6b0b"
           ],
           "text": "Oh, hello. If you wish to look around the Carnillean\nfamily home please refrain from touching anything with\nthose grubby hands of yours."
+        },
+        "e1fc4831-4f10-4b09-9bf4-fa93c2253ff5": {
+          "id": "e1fc4831-4f10-4b09-9bf4-fa93c2253ff5",
+          "type": "npc",
+          "selected": false,
+          "x": 131,
+          "y": -268,
+          "ports": [
+            {
+              "id": "d40d4cba-3b49-4aae-843a-e7bd86580d02",
+              "type": "default",
+              "x": 523,
+              "y": -240,
+              "name": "out-1780218322156-91537",
+              "alignment": "right",
+              "parentNode": "e1fc4831-4f10-4b09-9bf4-fa93c2253ff5",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Henryeta Carnillean",
+          "color": "#6e4b1e",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "d40d4cba-3b49-4aae-843a-e7bd86580d02"
+          ],
+          "locations": [
+            "-1346.59, 69.00, 43.41, 30.96, 0.00"
+          ],
+          "traits": [
+            {
+              "trait": "skintrait",
+              "args": {
+                "skin": "CEOLBURG"
+              }
+            },
+            {
+              "trait": "randomwalk",
+              "args": {}
+            }
+          ],
+          "conditions": {
+            "conditions": [
+              ""
+            ],
+            "args": [],
+            "ors": [
+              false
+            ],
+            "negates": [
+              false
+            ]
+          },
+          "entityType": "PLAYER",
+          "equipment": {}
         }
       }
     }

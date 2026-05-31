@@ -118,6 +118,58 @@
             "43c87f4b-1b76-4e94-9092-5ee911789829"
           ],
           "text": "Away from me, dog.\nI have business to discuss with the barkeep."
+        },
+        "f0a6a49c-a220-4e7b-a83f-9e3d34cadf0c": {
+          "id": "f0a6a49c-a220-4e7b-a83f-9e3d34cadf0c",
+          "type": "npc",
+          "selected": false,
+          "x": 40,
+          "y": -248,
+          "ports": [
+            {
+              "id": "f860cb87-ec80-4fbd-b4b2-b96f84f70c9e",
+              "type": "default",
+              "x": 432,
+              "y": -220,
+              "name": "out-1780218322320-8946",
+              "alignment": "right",
+              "parentNode": "f0a6a49c-a220-4e7b-a83f-9e3d34cadf0c",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Malak",
+          "color": "#6e4b1e",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "f860cb87-ec80-4fbd-b4b2-b96f84f70c9e"
+          ],
+          "locations": [
+            "1450.45, 67.00, -581.31, 23.30, 2.10"
+          ],
+          "traits": [
+            {
+              "trait": "skintrait",
+              "args": {
+                "skin": "MALAK"
+              }
+            }
+          ],
+          "conditions": {
+            "conditions": [
+              ""
+            ],
+            "args": [],
+            "ors": [
+              false
+            ],
+            "negates": [
+              false
+            ]
+          },
+          "entityType": "PLAYER",
+          "equipment": {}
         }
       }
     }

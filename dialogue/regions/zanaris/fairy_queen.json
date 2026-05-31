@@ -442,6 +442,58 @@
             "d33503ad-b1e3-4de9-82a6-7437e991c256"
           ],
           "text": "Zanaris is a meeting point of cultures. Those from\nmany worlds converge here to exchange knowledge and\ngoods."
+        },
+        "c58cca69-040c-4cff-b114-1cd09c061a06": {
+          "id": "c58cca69-040c-4cff-b114-1cd09c061a06",
+          "type": "npc",
+          "selected": false,
+          "x": 61,
+          "y": -259,
+          "ports": [
+            {
+              "id": "f6fca9a7-e9b0-4c4c-aafe-7225358c02e8",
+              "type": "default",
+              "x": 453,
+              "y": -231,
+              "name": "out-1780218322024-90478",
+              "alignment": "right",
+              "parentNode": "c58cca69-040c-4cff-b114-1cd09c061a06",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Fairy Queen",
+          "color": "#6e4b1e",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "f6fca9a7-e9b0-4c4c-aafe-7225358c02e8"
+          ],
+          "locations": [
+            "-2765.57, 12.00, 1184.21, 149.04, 0.00"
+          ],
+          "traits": [
+            {
+              "trait": "randomwalk",
+              "args": {}
+            }
+          ],
+          "conditions": {
+            "conditions": [
+              ""
+            ],
+            "args": [],
+            "ors": [
+              false
+            ],
+            "negates": [
+              false
+            ]
+          },
+          "entityType": "ARMOR_STAND",
+          "equipment": {
+            "HEAD": "IRON_AXE"
+          }
         }
       }
     }

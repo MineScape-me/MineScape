@@ -3790,6 +3790,62 @@
           "portsInOrder": [],
           "portsOutOrder": [],
           "text": "Open option for dream"
+        },
+        "25a29cba-f229-4f5e-85f8-4cc5e3f0fcc0": {
+          "id": "25a29cba-f229-4f5e-85f8-4cc5e3f0fcc0",
+          "type": "npc",
+          "selected": false,
+          "x": 10,
+          "y": -262,
+          "ports": [
+            {
+              "id": "843d3c2c-2efc-4c64-8c6a-d5391ca5f61c",
+              "type": "default",
+              "x": 402,
+              "y": -234,
+              "name": "out-1780218321907-29579",
+              "alignment": "right",
+              "parentNode": "25a29cba-f229-4f5e-85f8-4cc5e3f0fcc0",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Dominic Onion",
+          "color": "#6e4b1e",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "843d3c2c-2efc-4c64-8c6a-d5391ca5f61c"
+          ],
+          "locations": [
+            "-1236.92, 67.00, 506.05, -54.13, -6.28"
+          ],
+          "traits": [
+            {
+              "trait": "skintrait",
+              "args": {
+                "skin": "DOMINIC_ONION"
+              }
+            },
+            {
+              "trait": "lookclose",
+              "args": {}
+            }
+          ],
+          "conditions": {
+            "conditions": [
+              ""
+            ],
+            "args": [],
+            "ors": [
+              false
+            ],
+            "negates": [
+              false
+            ]
+          },
+          "entityType": "PLAYER",
+          "equipment": {}
         }
       }
     }

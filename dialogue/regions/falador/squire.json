@@ -711,6 +711,72 @@
           "portsOutOrder": [],
           "tree": "knight_after",
           "start": "Start"
+        },
+        "619a3c0a-00d2-4da4-84ac-26bee3b86ad7": {
+          "id": "619a3c0a-00d2-4da4-84ac-26bee3b86ad7",
+          "type": "npc",
+          "selected": false,
+          "x": 55,
+          "y": -334,
+          "ports": [
+            {
+              "id": "b33ba63c-bcb3-476e-a7e6-dc67a6f81a89",
+              "type": "default",
+              "x": 447,
+              "y": -306,
+              "name": "out-1780218322589-79146",
+              "alignment": "right",
+              "parentNode": "619a3c0a-00d2-4da4-84ac-26bee3b86ad7",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Squire",
+          "color": "#6e4b1e",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "b33ba63c-bcb3-476e-a7e6-dc67a6f81a89"
+          ],
+          "locations": [
+            "-134.45, 68.00, -178.09, -45.00, 0.00"
+          ],
+          "traits": [
+            {
+              "trait": "cluescrolltrait",
+              "args": {}
+            },
+            {
+              "trait": "skintrait",
+              "args": {
+                "skin": "SQUIRE"
+              }
+            },
+            {
+              "trait": "capetrait",
+              "args": {}
+            },
+            {
+              "trait": "randomwalk",
+              "args": {}
+            }
+          ],
+          "conditions": {
+            "conditions": [
+              ""
+            ],
+            "args": [],
+            "ors": [
+              false
+            ],
+            "negates": [
+              false
+            ]
+          },
+          "entityType": "PLAYER",
+          "equipment": {
+            "HEAD": "SQUIRES_HELMET"
+          }
         }
       }
     }

@@ -702,6 +702,58 @@
             "cbf3b595-53d1-457f-a836-c88c8fffbf6d"
           ],
           "text": "Oh. Okay then."
+        },
+        "ac731876-2d57-4094-975b-505e709975a1": {
+          "id": "ac731876-2d57-4094-975b-505e709975a1",
+          "type": "npc",
+          "selected": false,
+          "x": 10,
+          "y": -236,
+          "ports": [
+            {
+              "id": "7773201f-c34c-46f8-af7a-9765bee309f3",
+              "type": "default",
+              "x": 402,
+              "y": -208,
+              "name": "out-1780218322829-71717",
+              "alignment": "right",
+              "parentNode": "ac731876-2d57-4094-975b-505e709975a1",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Lord Marshal Brogan",
+          "color": "#6e4b1e",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "7773201f-c34c-46f8-af7a-9765bee309f3"
+          ],
+          "locations": [
+            "-1592.92, 69.00, 1310.19, 1.99, -2.70"
+          ],
+          "traits": [
+            {
+              "trait": "skintrait",
+              "args": {
+                "skin": "LORD_MARSHAL_BROGAN"
+              }
+            }
+          ],
+          "conditions": {
+            "conditions": [
+              ""
+            ],
+            "args": [],
+            "ors": [
+              false
+            ],
+            "negates": [
+              false
+            ]
+          },
+          "entityType": "PLAYER",
+          "equipment": {}
         }
       }
     }

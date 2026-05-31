@@ -191,6 +191,62 @@
             "5e64fd7b-e3c2-4f05-bac4-489b2b2e21e7"
           ],
           "text": "Hello, stranger. Are you here for the fight arena?\nApparently, there're some rich folk fighting tomorrow.\nShould be entertaining."
+        },
+        "e3902384-fdde-4bf7-a6bc-a9546b9c0d32": {
+          "id": "e3902384-fdde-4bf7-a6bc-a9546b9c0d32",
+          "type": "npc",
+          "selected": false,
+          "x": 10,
+          "y": -262,
+          "ports": [
+            {
+              "id": "b3294204-c773-47fb-9779-2338a347173e",
+              "type": "default",
+              "x": 402,
+              "y": -234,
+              "name": "out-1780218322584-28137",
+              "alignment": "right",
+              "parentNode": "e3902384-fdde-4bf7-a6bc-a9546b9c0d32",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Spectator",
+          "color": "#6e4b1e",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "b3294204-c773-47fb-9779-2338a347173e"
+          ],
+          "locations": [
+            "-1322.46, 67.00, 343.37, 135.00, 0.00"
+          ],
+          "traits": [
+            {
+              "trait": "randomwalk",
+              "args": {}
+            },
+            {
+              "trait": "skintrait",
+              "args": {
+                "skin": "SPECTATOR"
+              }
+            }
+          ],
+          "conditions": {
+            "conditions": [
+              ""
+            ],
+            "args": [],
+            "ors": [
+              false
+            ],
+            "negates": [
+              false
+            ]
+          },
+          "entityType": "PLAYER",
+          "equipment": {}
         }
       }
     }

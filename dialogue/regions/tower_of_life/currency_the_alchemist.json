@@ -856,6 +856,84 @@
           "portsOutOrder": [],
           "tree": "return_to_effigy",
           "start": "Start"
+        },
+        "74bb20ad-09c3-4895-852b-e19b51af05a9": {
+          "id": "74bb20ad-09c3-4895-852b-e19b51af05a9",
+          "type": "npc",
+          "selected": false,
+          "x": -173,
+          "y": -340,
+          "ports": [
+            {
+              "id": "39ab2b4c-9c88-4e14-8035-d05c31bb8034",
+              "type": "default",
+              "x": 219,
+              "y": -312,
+              "name": "out-1780218321573-19434",
+              "alignment": "right",
+              "parentNode": "74bb20ad-09c3-4895-852b-e19b51af05a9",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "'Currency' The Alchemist",
+          "color": "#6e4b1e",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "39ab2b4c-9c88-4e14-8035-d05c31bb8034"
+          ],
+          "locations": [
+            "-1142.44, 66.00, 199.44, 135.00, 0.00"
+          ],
+          "traits": [
+            {
+              "trait": "skintrait",
+              "args": {
+                "skin": "CURRENCY_THE_ALCHEMIST"
+              }
+            },
+            {
+              "trait": "randomwalk",
+              "args": {}
+            }
+          ],
+          "conditions": {
+            "conditions": [
+              "questStage",
+              "questStage",
+              "questStage"
+            ],
+            "args": [
+              [
+                "TOWER_OF_LIFE",
+                "!=",
+                "6"
+              ],
+              [
+                "TOWER_OF_LIFE",
+                "<",
+                "10"
+              ],
+              [
+                "TOWER_OF_LIFE",
+                ">",
+                "11"
+              ]
+            ],
+            "ors": [
+              false,
+              false,
+              true
+            ],
+            "negates": [
+              false,
+              false,
+              false
+            ]
+          },
+          "entityType": "PLAYER",
+          "equipment": {}
         }
       }
     }

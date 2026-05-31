@@ -118,6 +118,62 @@
             "6c755c2c-eb4b-4979-bec0-192f1ea44004"
           ],
           "text": "Please don't disturb me, I've got to keep any eye out\nfor suspicious individuals."
+        },
+        "b0e82e6f-72bb-477b-b347-91884b2fca98": {
+          "id": "b0e82e6f-72bb-477b-b347-91884b2fca98",
+          "type": "npc",
+          "selected": false,
+          "x": 85,
+          "y": -237,
+          "ports": [
+            {
+              "id": "71cbfc65-ae0b-4a65-8304-5558a311b537",
+              "type": "default",
+              "x": 477,
+              "y": -209,
+              "name": "out-1780218322126-42251",
+              "alignment": "right",
+              "parentNode": "b0e82e6f-72bb-477b-b347-91884b2fca98",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Guard",
+          "color": "#6e4b1e",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "71cbfc65-ae0b-4a65-8304-5558a311b537"
+          ],
+          "locations": [
+            "736.56, 63.00, -375.13, 57.33, -2.31"
+          ],
+          "traits": [
+            {
+              "trait": "lookclose",
+              "args": {}
+            },
+            {
+              "trait": "skintrait",
+              "args": {
+                "skin": "GUARD_BT"
+              }
+            }
+          ],
+          "conditions": {
+            "conditions": [
+              ""
+            ],
+            "args": [],
+            "ors": [
+              false
+            ],
+            "negates": [
+              false
+            ]
+          },
+          "entityType": "PLAYER",
+          "equipment": {}
         }
       }
     }

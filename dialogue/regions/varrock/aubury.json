@@ -703,6 +703,73 @@
           "portsOutOrder": [],
           "tree": "rune_after",
           "start": "Start"
+        },
+        "fd2cf744-d6e4-44c7-8484-2b3a1fd806e1": {
+          "id": "fd2cf744-d6e4-44c7-8484-2b3a1fd806e1",
+          "type": "npc",
+          "selected": false,
+          "x": 247,
+          "y": -342,
+          "ports": [
+            {
+              "id": "193ef651-100b-47d1-9d7f-e02fedad0a37",
+              "type": "default",
+              "x": 639,
+              "y": -314,
+              "name": "out-1780218321670-76701",
+              "alignment": "right",
+              "parentNode": "fd2cf744-d6e4-44c7-8484-2b3a1fd806e1",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Aubury",
+          "color": "#6e4b1e",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "193ef651-100b-47d1-9d7f-e02fedad0a37"
+          ],
+          "locations": [
+            "711.44, 63.00, -356.64, 233.13, 0.00"
+          ],
+          "traits": [
+            {
+              "trait": "cluescrolltrait",
+              "args": {}
+            },
+            {
+              "trait": "skintrait",
+              "args": {
+                "skin": "WIZARD"
+              }
+            },
+            {
+              "trait": "capetrait",
+              "args": {}
+            },
+            {
+              "trait": "randomwalk",
+              "args": {}
+            }
+          ],
+          "conditions": {
+            "conditions": [
+              ""
+            ],
+            "args": [],
+            "ors": [
+              false
+            ],
+            "negates": [
+              false
+            ]
+          },
+          "entityType": "PLAYER",
+          "equipment": {
+            "HAND": "STAFF_OF_AIR",
+            "HEAD": "BLUE_WIZARD_HAT"
+          }
         }
       }
     }

@@ -1090,6 +1090,69 @@
           "portsInOrder": [],
           "portsOutOrder": [],
           "text": "'Ahhrs Oooohh arhhhhAHhhh.'\nWas copied from Filliman Tarlock and may be incorrect"
+        },
+        "b390e210-3146-4124-bcba-3d9b02532c62": {
+          "id": "b390e210-3146-4124-bcba-3d9b02532c62",
+          "type": "npc",
+          "selected": false,
+          "x": 10,
+          "y": -288,
+          "ports": [
+            {
+              "id": "99ad5c86-c284-463b-825d-be42a6b13b46",
+              "type": "default",
+              "x": 402,
+              "y": -260,
+              "name": "out-1780218322380-88010",
+              "alignment": "right",
+              "parentNode": "b390e210-3146-4124-bcba-3d9b02532c62",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Nature Spirit",
+          "color": "#6e4b1e",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "99ad5c86-c284-463b-825d-be42a6b13b46"
+          ],
+          "locations": [
+            "1280.86, 34.00, -174.30, 41.05, -16.08",
+            "1281.67, 52.00, -174.60, 123.42, -35.24"
+          ],
+          "traits": [
+            {
+              "trait": "lookclose",
+              "args": {}
+            },
+            {
+              "trait": "skintrait",
+              "args": {
+                "skin": "NATURE_SPIRIT"
+              }
+            }
+          ],
+          "conditions": {
+            "conditions": [
+              "questStage"
+            ],
+            "args": [
+              [
+                "NATURE_SPIRIT",
+                ">=",
+                "15"
+              ]
+            ],
+            "ors": [
+              false
+            ],
+            "negates": [
+              false
+            ]
+          },
+          "entityType": "PLAYER",
+          "equipment": {}
         }
       }
     }

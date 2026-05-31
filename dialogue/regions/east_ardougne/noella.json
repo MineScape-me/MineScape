@@ -118,6 +118,62 @@
             "1a265a41-c820-4937-9339-7c65d2ba2830"
           ],
           "text": "Please excuse me, I'm rather busy."
+        },
+        "0b61c0a1-bc62-417b-9c40-0402b578657f": {
+          "id": "0b61c0a1-bc62-417b-9c40-0402b578657f",
+          "type": "npc",
+          "selected": false,
+          "x": 130,
+          "y": -180,
+          "ports": [
+            {
+              "id": "a0c31cf0-7f54-4439-9eb1-71a44e04060c",
+              "type": "default",
+              "x": 522,
+              "y": -152,
+              "name": "out-1780218322389-82873",
+              "alignment": "right",
+              "parentNode": "0b61c0a1-bc62-417b-9c40-0402b578657f",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Noella",
+          "color": "#6e4b1e",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "a0c31cf0-7f54-4439-9eb1-71a44e04060c"
+          ],
+          "locations": [
+            "-1098.33, 68.00, -112.38, 53.13, 0.00"
+          ],
+          "traits": [
+            {
+              "trait": "randomwalk",
+              "args": {}
+            },
+            {
+              "trait": "skintrait",
+              "args": {
+                "skin": "GALINA"
+              }
+            }
+          ],
+          "conditions": {
+            "conditions": [
+              ""
+            ],
+            "args": [],
+            "ors": [
+              false
+            ],
+            "negates": [
+              false
+            ]
+          },
+          "entityType": "PLAYER",
+          "equipment": {}
         }
       }
     }

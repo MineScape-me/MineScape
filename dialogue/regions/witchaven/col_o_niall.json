@@ -1376,6 +1376,62 @@
             "2dd2b79c-621f-4dee-92c0-0c18702fe373"
           ],
           "text": "Goodbye and good luck."
+        },
+        "705d8a78-7313-49d5-ba3b-9112c295ffbb": {
+          "id": "705d8a78-7313-49d5-ba3b-9112c295ffbb",
+          "type": "npc",
+          "selected": false,
+          "x": 199,
+          "y": -246,
+          "ports": [
+            {
+              "id": "ea29b089-7bfc-4de2-ae7f-f2a949d1f12f",
+              "type": "default",
+              "x": 591,
+              "y": -218,
+              "name": "out-1780218321854-60906",
+              "alignment": "right",
+              "parentNode": "705d8a78-7313-49d5-ba3b-9112c295ffbb",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Col. O'Niall",
+          "color": "#6e4b1e",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "ea29b089-7bfc-4de2-ae7f-f2a949d1f12f"
+          ],
+          "locations": [
+            "-838.49, 64.00, -79.38, 231.49, -0.48"
+          ],
+          "traits": [
+            {
+              "trait": "lookclose",
+              "args": {}
+            },
+            {
+              "trait": "skintrait",
+              "args": {
+                "skin": "COL_O_NIALL"
+              }
+            }
+          ],
+          "conditions": {
+            "conditions": [
+              ""
+            ],
+            "args": [],
+            "ors": [
+              false
+            ],
+            "negates": [
+              false
+            ]
+          },
+          "entityType": "PLAYER",
+          "equipment": {}
         }
       }
     }

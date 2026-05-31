@@ -933,6 +933,62 @@
             "1b24f223-4e92-47c8-9b4a-6ee3c9f0348f"
           ],
           "text": "Thanks."
+        },
+        "e796880a-f1ad-461a-898f-1abe3b5c9469": {
+          "id": "e796880a-f1ad-461a-898f-1abe3b5c9469",
+          "type": "npc",
+          "selected": false,
+          "x": 51.379310344827644,
+          "y": -247.51724137931032,
+          "ports": [
+            {
+              "id": "1f4e2d05-0bba-43e7-a104-b7e73892c735",
+              "type": "default",
+              "x": 443.3793103448277,
+              "y": -219.51724137931032,
+              "name": "out-1780218322316-48321",
+              "alignment": "right",
+              "parentNode": "e796880a-f1ad-461a-898f-1abe3b5c9469",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Mage of Zamorak",
+          "color": "#6e4b1e",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "1f4e2d05-0bba-43e7-a104-b7e73892c735"
+          ],
+          "locations": [
+            "-1700.63, 79.00, 162.70, 38.66, 0.00"
+          ],
+          "traits": [
+            {
+              "trait": "randomwalk",
+              "args": {}
+            },
+            {
+              "trait": "skintrait",
+              "args": {
+                "skin": "MAGE_OF_ZAMORAK_OURANIA"
+              }
+            }
+          ],
+          "conditions": {
+            "conditions": [
+              ""
+            ],
+            "args": [],
+            "ors": [
+              false
+            ],
+            "negates": [
+              false
+            ]
+          },
+          "entityType": "PLAYER",
+          "equipment": {}
         }
       }
     }

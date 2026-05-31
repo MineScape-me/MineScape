@@ -852,6 +852,62 @@
             "56616554-0616-4647-ae77-9597c146598d"
           ],
           "text": "I'll not have anything then."
+        },
+        "aae2d065-b445-488b-b559-bb576919a994": {
+          "id": "aae2d065-b445-488b-b559-bb576919a994",
+          "type": "npc",
+          "selected": false,
+          "x": 188,
+          "y": -265,
+          "ports": [
+            {
+              "id": "8ce71321-9f98-4883-a7e1-8f4233725aac",
+              "type": "default",
+              "x": 580,
+              "y": -237,
+              "name": "out-1780218321698-36851",
+              "alignment": "right",
+              "parentNode": "aae2d065-b445-488b-b559-bb576919a994",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Bartender",
+          "color": "#6e4b1e",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "8ce71321-9f98-4883-a7e1-8f4233725aac"
+          ],
+          "locations": [
+            "-1341.16, 69.06, -110.17, 128.66, 0.00"
+          ],
+          "traits": [
+            {
+              "trait": "skintrait",
+              "args": {
+                "skin": "ARDOUGNE_BARTENDER"
+              }
+            },
+            {
+              "trait": "randomwalk",
+              "args": {}
+            }
+          ],
+          "conditions": {
+            "conditions": [
+              ""
+            ],
+            "args": [],
+            "ors": [
+              false
+            ],
+            "negates": [
+              false
+            ]
+          },
+          "entityType": "PLAYER",
+          "equipment": {}
         }
       }
     }

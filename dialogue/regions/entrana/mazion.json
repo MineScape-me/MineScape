@@ -869,6 +869,62 @@
             "8acc0c96-e7d6-40fc-b550-b58249c5ffa9"
           ],
           "switch": "quest[THE_HAND_IN_THE_SAND]"
+        },
+        "f8143bb0-6c1b-4812-b0bc-1fc9d953bd92": {
+          "id": "f8143bb0-6c1b-4812-b0bc-1fc9d953bd92",
+          "type": "npc",
+          "selected": false,
+          "x": 10,
+          "y": -262,
+          "ports": [
+            {
+              "id": "b410729a-7736-455c-8831-315ac3256ae1",
+              "type": "default",
+              "x": 402,
+              "y": -234,
+              "name": "out-1780218322341-57262",
+              "alignment": "right",
+              "parentNode": "f8143bb0-6c1b-4812-b0bc-1fc9d953bd92",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Mazion",
+          "color": "#6e4b1e",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "b410729a-7736-455c-8831-315ac3256ae1"
+          ],
+          "locations": [
+            "-602.58, 67.00, -174.53, 126.87, 0.00"
+          ],
+          "traits": [
+            {
+              "trait": "skintrait",
+              "args": {
+                "skin": "MAZION"
+              }
+            },
+            {
+              "trait": "randomwalk",
+              "args": {}
+            }
+          ],
+          "conditions": {
+            "conditions": [
+              ""
+            ],
+            "args": [],
+            "ors": [
+              false
+            ],
+            "negates": [
+              false
+            ]
+          },
+          "entityType": "PLAYER",
+          "equipment": {}
         }
       }
     }

@@ -582,6 +582,62 @@
             "8ff714ce-8886-48c7-86ca-023192966d9f"
           ],
           "text": "Okay. Fare well on your travels."
+        },
+        "40550a1d-b65b-4f64-9673-756490a7f3a0": {
+          "id": "40550a1d-b65b-4f64-9673-756490a7f3a0",
+          "type": "npc",
+          "selected": false,
+          "x": 179,
+          "y": -1,
+          "ports": [
+            {
+              "id": "2a714829-ac90-4797-ba20-d1aee9e6c448",
+              "type": "default",
+              "x": 571,
+              "y": 27,
+              "name": "out-1780218322477-19592",
+              "alignment": "right",
+              "parentNode": "40550a1d-b65b-4f64-9673-756490a7f3a0",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Rommik",
+          "color": "#6e4b1e",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "2a714829-ac90-4797-ba20-d1aee9e6c448"
+          ],
+          "locations": [
+            "-222.75, 63.00, 247.69, 159.59, 0.00"
+          ],
+          "traits": [
+            {
+              "trait": "lookclose",
+              "args": {}
+            },
+            {
+              "trait": "skintrait",
+              "args": {
+                "skin": "MAN"
+              }
+            }
+          ],
+          "conditions": {
+            "conditions": [
+              ""
+            ],
+            "args": [],
+            "ors": [
+              false
+            ],
+            "negates": [
+              false
+            ]
+          },
+          "entityType": "PLAYER",
+          "equipment": {}
         }
       }
     }

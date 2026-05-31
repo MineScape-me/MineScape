@@ -1075,6 +1075,64 @@
           "portsOutOrder": [],
           "tree": "return_to_edmond",
           "start": "Start"
+        },
+        "38fc2703-ba51-4850-b7dc-1f3363c8457b": {
+          "id": "38fc2703-ba51-4850-b7dc-1f3363c8457b",
+          "type": "npc",
+          "selected": false,
+          "x": 10,
+          "y": -288,
+          "ports": [
+            {
+              "id": "eb338dbd-1737-4871-86f8-d6550a824664",
+              "type": "default",
+              "x": 402,
+              "y": -260,
+              "name": "out-1780218322153-83768",
+              "alignment": "right",
+              "parentNode": "38fc2703-ba51-4850-b7dc-1f3363c8457b",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Head Mourner",
+          "color": "#6e4b1e",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "eb338dbd-1737-4871-86f8-d6550a824664"
+          ],
+          "locations": [
+            "-1440.55, 68.00, -8.44, 216.87, 0.00"
+          ],
+          "traits": [
+            {
+              "trait": "skintrait",
+              "args": {
+                "skin": "HEAD_MOURNER"
+              }
+            },
+            {
+              "trait": "randomwalk",
+              "args": {}
+            }
+          ],
+          "conditions": {
+            "conditions": [
+              ""
+            ],
+            "args": [],
+            "ors": [
+              false
+            ],
+            "negates": [
+              false
+            ]
+          },
+          "entityType": "PLAYER",
+          "equipment": {
+            "HEAD": "GAS_MASK"
+          }
         }
       }
     }

@@ -633,6 +633,68 @@
           "portsOutOrder": [],
           "tree": "romeo_death",
           "start": "Start"
+        },
+        "637d3dad-2ae7-494d-9966-2dea74006be8": {
+          "id": "637d3dad-2ae7-494d-9966-2dea74006be8",
+          "type": "npc",
+          "selected": false,
+          "x": 10,
+          "y": -262,
+          "ports": [
+            {
+              "id": "37ff92a5-2bca-49a9-a7c8-69509f1c459b",
+              "type": "default",
+              "x": 402,
+              "y": -234,
+              "name": "out-1780218322221-74104",
+              "alignment": "right",
+              "parentNode": "637d3dad-2ae7-494d-9966-2dea74006be8",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Juliet",
+          "color": "#6e4b1e",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "37ff92a5-2bca-49a9-a7c8-69509f1c459b"
+          ],
+          "locations": [
+            "420.06, 69.00, -430.30, 81.24, -71.59"
+          ],
+          "traits": [
+            {
+              "trait": "lookclose",
+              "args": {}
+            },
+            {
+              "trait": "skintrait",
+              "args": {
+                "skin": "JULIET"
+              }
+            }
+          ],
+          "conditions": {
+            "conditions": [
+              "questStage"
+            ],
+            "args": [
+              [
+                "ROMEO_AND_JULIET",
+                "<",
+                "7"
+              ]
+            ],
+            "ors": [
+              false
+            ],
+            "negates": [
+              false
+            ]
+          },
+          "entityType": "PLAYER",
+          "equipment": {}
         }
       }
     }

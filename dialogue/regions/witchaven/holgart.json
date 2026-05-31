@@ -414,6 +414,62 @@
             "a4e494b9-c772-452e-be47-17ab8a80fd3e"
           ],
           "text": "Hmm... lovely..."
+        },
+        "98b7a2a6-f07c-4ff0-ac07-2d86421e5b44": {
+          "id": "98b7a2a6-f07c-4ff0-ac07-2d86421e5b44",
+          "type": "npc",
+          "selected": false,
+          "x": 152,
+          "y": -263,
+          "ports": [
+            {
+              "id": "0c2ce1cf-09ea-4aaf-bcc1-a0496f13fd7d",
+              "type": "default",
+              "x": 544,
+              "y": -235,
+              "name": "out-1780218322170-34934",
+              "alignment": "right",
+              "parentNode": "98b7a2a6-f07c-4ff0-ac07-2d86421e5b44",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Holgart",
+          "color": "#6e4b1e",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "0c2ce1cf-09ea-4aaf-bcc1-a0496f13fd7d"
+          ],
+          "locations": [
+            "-906.15, 65.00, -67.34, 45.00, 0.00"
+          ],
+          "traits": [
+            {
+              "trait": "skintrait",
+              "args": {
+                "skin": "HOLGART"
+              }
+            },
+            {
+              "trait": "randomwalk",
+              "args": {}
+            }
+          ],
+          "conditions": {
+            "conditions": [
+              ""
+            ],
+            "args": [],
+            "ors": [
+              false
+            ],
+            "negates": [
+              false
+            ]
+          },
+          "entityType": "PLAYER",
+          "equipment": {}
         }
       }
     }

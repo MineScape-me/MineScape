@@ -2509,6 +2509,68 @@
               false
             ]
           }
+        },
+        "190e8c22-0b98-4571-9aab-ec63fc8f1c1e": {
+          "id": "190e8c22-0b98-4571-9aab-ec63fc8f1c1e",
+          "type": "npc",
+          "selected": false,
+          "x": 63.599999999999966,
+          "y": -374.20000000000005,
+          "ports": [
+            {
+              "id": "bfe88ee8-b1cf-41e9-b12a-72af89f702b7",
+              "type": "default",
+              "x": 455.59999999999997,
+              "y": -346.20000000000005,
+              "name": "out-1780218322653-31366",
+              "alignment": "right",
+              "parentNode": "190e8c22-0b98-4571-9aab-ec63fc8f1c1e",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Trader Crewmember",
+          "color": "#6e4b1e",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "bfe88ee8-b1cf-41e9-b12a-72af89f702b7"
+          ],
+          "locations": [
+            "-1038.16, 67.00, 420.54, -59.04, 0.00"
+          ],
+          "traits": [
+            {
+              "trait": "skintrait",
+              "args": {
+                "skin": "CHARTER_CREWMEMBER_4"
+              }
+            },
+            {
+              "trait": "chartershiptrait",
+              "args": {
+                "ship": "PORT_KHAZARD"
+              }
+            },
+            {
+              "trait": "randomwalk",
+              "args": {}
+            }
+          ],
+          "conditions": {
+            "conditions": [
+              ""
+            ],
+            "args": [],
+            "ors": [
+              false
+            ],
+            "negates": [
+              false
+            ]
+          },
+          "entityType": "PLAYER",
+          "equipment": {}
         }
       }
     }

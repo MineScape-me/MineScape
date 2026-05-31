@@ -1620,6 +1620,62 @@
             "41b96b32-aa11-441f-ab04-dc2306109004"
           ],
           "text": "No thanks."
+        },
+        "abecc922-439e-44c7-a13d-270f5dcb0316": {
+          "id": "abecc922-439e-44c7-a13d-270f5dcb0316",
+          "type": "npc",
+          "selected": false,
+          "x": 48,
+          "y": -294,
+          "ports": [
+            {
+              "id": "f4ac5cea-4b71-42c9-877c-3780146b7d68",
+              "type": "default",
+              "x": 440,
+              "y": -266,
+              "name": "out-1780218321663-22137",
+              "alignment": "right",
+              "parentNode": "abecc922-439e-44c7-a13d-270f5dcb0316",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Arhein",
+          "color": "#6e4b1e",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "f4ac5cea-4b71-42c9-877c-3780146b7d68"
+          ],
+          "locations": [
+            "-647.27, 67.00, -438.35, 200.69, 0.00"
+          ],
+          "traits": [
+            {
+              "trait": "skintrait",
+              "args": {
+                "skin": "AHREIN"
+              }
+            },
+            {
+              "trait": "lookclose",
+              "args": {}
+            }
+          ],
+          "conditions": {
+            "conditions": [
+              ""
+            ],
+            "args": [],
+            "ors": [
+              false
+            ],
+            "negates": [
+              false
+            ]
+          },
+          "entityType": "PLAYER",
+          "equipment": {}
         }
       }
     }

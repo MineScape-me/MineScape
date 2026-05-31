@@ -1740,6 +1740,62 @@
             "f8ecc86f-9e23-4fdd-9f14-3aabcf9cd27a"
           ],
           "text": "No thanks, got things to do, people to see, tokens to\nearn..."
+        },
+        "bcb3c20a-4b63-4cff-9ae1-f32acb873e64": {
+          "id": "bcb3c20a-4b63-4cff-9ae1-f32acb873e64",
+          "type": "npc",
+          "selected": false,
+          "x": 10,
+          "y": -262,
+          "ports": [
+            {
+              "id": "82936d15-8f2b-4cef-8b9e-88cd23123d40",
+              "type": "default",
+              "x": 402,
+              "y": -234,
+              "name": "out-1780218322207-79864",
+              "alignment": "right",
+              "parentNode": "bcb3c20a-4b63-4cff-9ae1-f32acb873e64",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Jimmy",
+          "color": "#6e4b1e",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "82936d15-8f2b-4cef-8b9e-88cd23123d40"
+          ],
+          "locations": [
+            "-447.81, 81.00, -775.83, 45.00, 0.00"
+          ],
+          "traits": [
+            {
+              "trait": "skintrait",
+              "args": {
+                "skin": "JIMMY"
+              }
+            },
+            {
+              "trait": "randomwalk",
+              "args": {}
+            }
+          ],
+          "conditions": {
+            "conditions": [
+              ""
+            ],
+            "args": [],
+            "ors": [
+              false
+            ],
+            "negates": [
+              false
+            ]
+          },
+          "entityType": "PLAYER",
+          "equipment": {}
         }
       }
     }

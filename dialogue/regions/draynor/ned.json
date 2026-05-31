@@ -4569,6 +4569,66 @@
               "text": "No thanks Ned, I don't need any."
             }
           ]
+        },
+        "4735561d-5b72-451a-b2d5-a743008a3dc5": {
+          "id": "4735561d-5b72-451a-b2d5-a743008a3dc5",
+          "type": "npc",
+          "selected": false,
+          "x": 135,
+          "y": -284,
+          "ports": [
+            {
+              "id": "25fc7e7e-1394-4197-aab4-e8165d3b0c31",
+              "type": "default",
+              "x": 527,
+              "y": -256,
+              "name": "out-1780218322385-13049",
+              "alignment": "right",
+              "parentNode": "4735561d-5b72-451a-b2d5-a743008a3dc5",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Ned",
+          "color": "#6e4b1e",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "25fc7e7e-1394-4197-aab4-e8165d3b0c31"
+          ],
+          "locations": [
+            "237.95, 63.00, 78.47, 251.54, 0.00"
+          ],
+          "traits": [
+            {
+              "trait": "cluescrolltrait",
+              "args": {}
+            },
+            {
+              "trait": "skintrait",
+              "args": {
+                "skin": "SHOPKEEPER"
+              }
+            },
+            {
+              "trait": "lookclose",
+              "args": {}
+            }
+          ],
+          "conditions": {
+            "conditions": [
+              ""
+            ],
+            "args": [],
+            "ors": [
+              false
+            ],
+            "negates": [
+              false
+            ]
+          },
+          "entityType": "PLAYER",
+          "equipment": {}
         }
       }
     }

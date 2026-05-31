@@ -2079,6 +2079,51 @@
             "eaf82e76-91b2-4c70-9921-a6ab3f2f44f1"
           ],
           "switch": "quest[TREE_GNOME_VILLAGE]"
+        },
+        "f031da08-33d7-47b4-8547-25dc7341b1a1": {
+          "id": "f031da08-33d7-47b4-8547-25dc7341b1a1",
+          "type": "npc",
+          "selected": false,
+          "x": 10,
+          "y": -210,
+          "ports": [
+            {
+              "id": "35ce5003-126c-4218-9f3b-676dbf6f1171",
+              "type": "default",
+              "x": 402,
+              "y": -182,
+              "name": "out-1780218322804-66840",
+              "alignment": "right",
+              "parentNode": "f031da08-33d7-47b4-8547-25dc7341b1a1",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Fire",
+          "color": "#6e4b1e",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "35ce5003-126c-4218-9f3b-676dbf6f1171"
+          ],
+          "locations": [
+            "-1534.49, 68.00, 219.30, -0.82, -1.20"
+          ],
+          "traits": [],
+          "conditions": {
+            "conditions": [
+              ""
+            ],
+            "args": [],
+            "ors": [
+              false
+            ],
+            "negates": [
+              false
+            ]
+          },
+          "entityType": "ARMOR_STAND",
+          "equipment": {}
         }
       }
     }

@@ -127,6 +127,58 @@
               ]
             ]
           }
+        },
+        "23365cc2-7f8b-4ef0-9581-9a98f2b830df": {
+          "id": "23365cc2-7f8b-4ef0-9581-9a98f2b830df",
+          "type": "npc",
+          "selected": false,
+          "x": 10,
+          "y": -262,
+          "ports": [
+            {
+              "id": "d459cce1-ef83-4209-a35a-fcacb43c0f23",
+              "type": "default",
+              "x": 402,
+              "y": -234,
+              "name": "out-1780218322121-75865",
+              "alignment": "right",
+              "parentNode": "23365cc2-7f8b-4ef0-9581-9a98f2b830df",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Grew",
+          "color": "#6e4b1e",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "d459cce1-ef83-4209-a35a-fcacb43c0f23"
+          ],
+          "locations": [
+            "-1523.91, 67.00, 602.45, -45.00, 0.00"
+          ],
+          "traits": [
+            {
+              "trait": "randomwalk",
+              "args": {}
+            }
+          ],
+          "conditions": {
+            "conditions": [
+              ""
+            ],
+            "args": [],
+            "ors": [
+              false
+            ],
+            "negates": [
+              false
+            ]
+          },
+          "entityType": "ARMOR_STAND",
+          "equipment": {
+            "HEAD": "APPLE"
+          }
         }
       }
     }

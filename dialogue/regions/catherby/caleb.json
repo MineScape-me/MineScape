@@ -442,6 +442,64 @@
             "65eb31b5-b785-48c0-b575-f1a50c1b90bc"
           ],
           "text": "Nothing, I will be on my way."
+        },
+        "5cfff53f-df55-420e-b29b-31dd91803b1a": {
+          "id": "5cfff53f-df55-420e-b29b-31dd91803b1a",
+          "type": "npc",
+          "selected": false,
+          "x": 77,
+          "y": -252,
+          "ports": [
+            {
+              "id": "288d0e11-8a13-4395-9276-9942a72712ac",
+              "type": "default",
+              "x": 469,
+              "y": -224,
+              "name": "out-1780218321780-77412",
+              "alignment": "right",
+              "parentNode": "5cfff53f-df55-420e-b29b-31dd91803b1a",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Caleb",
+          "color": "#6e4b1e",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "288d0e11-8a13-4395-9276-9942a72712ac"
+          ],
+          "locations": [
+            "-601.44, 67.00, -503.45, 0.54, 0.00"
+          ],
+          "traits": [
+            {
+              "trait": "lookclose",
+              "args": {}
+            },
+            {
+              "trait": "skintrait",
+              "args": {
+                "skin": "CALEB"
+              }
+            }
+          ],
+          "conditions": {
+            "conditions": [
+              ""
+            ],
+            "args": [],
+            "ors": [
+              false
+            ],
+            "negates": [
+              false
+            ]
+          },
+          "entityType": "PLAYER",
+          "equipment": {
+            "HEAD": "CHEFS_HAT"
+          }
         }
       }
     }

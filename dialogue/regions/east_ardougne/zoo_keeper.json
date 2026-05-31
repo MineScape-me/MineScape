@@ -886,6 +886,62 @@
             "055f3fa4-a372-43b2-aae7-06083333d5c3"
           ],
           "text": "He's from a very far away land, we couldn't find out\nmore as the explorer who brought him back died shortly\nafterwards!"
+        },
+        "d952dc5c-a155-4ade-964a-db0b5cc7ae79": {
+          "id": "d952dc5c-a155-4ade-964a-db0b5cc7ae79",
+          "type": "npc",
+          "selected": false,
+          "x": 135,
+          "y": -245,
+          "ports": [
+            {
+              "id": "bd696da6-788f-4240-ba68-6c9ddc2fee95",
+              "type": "default",
+              "x": 527,
+              "y": -217,
+              "name": "out-1780218322755-45858",
+              "alignment": "right",
+              "parentNode": "d952dc5c-a155-4ade-964a-db0b5cc7ae79",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Zoo Keeper",
+          "color": "#6e4b1e",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "bd696da6-788f-4240-ba68-6c9ddc2fee95"
+          ],
+          "locations": [
+            "-1223.02, 68.00, 44.34, 135.00, 0.00"
+          ],
+          "traits": [
+            {
+              "trait": "skintrait",
+              "args": {
+                "skin": "ZOO_KEEPER"
+              }
+            },
+            {
+              "trait": "randomwalk",
+              "args": {}
+            }
+          ],
+          "conditions": {
+            "conditions": [
+              ""
+            ],
+            "args": [],
+            "ors": [
+              false
+            ],
+            "negates": [
+              false
+            ]
+          },
+          "entityType": "PLAYER",
+          "equipment": {}
         }
       }
     }

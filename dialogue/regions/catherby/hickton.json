@@ -994,6 +994,66 @@
             "672ae810-dd7f-4a99-b096-7cc15f938e54"
           ],
           "text": "No thank you."
+        },
+        "546383af-629f-4f2b-8b44-c79b2363bc45": {
+          "id": "546383af-629f-4f2b-8b44-c79b2363bc45",
+          "type": "npc",
+          "selected": false,
+          "x": 85,
+          "y": -293,
+          "ports": [
+            {
+              "id": "2f33a194-2f8e-4edd-888c-2009b20c5d0b",
+              "type": "default",
+              "x": 477,
+              "y": -265,
+              "name": "out-1780218322166-69067",
+              "alignment": "right",
+              "parentNode": "546383af-629f-4f2b-8b44-c79b2363bc45",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Hickton",
+          "color": "#6e4b1e",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "2f33a194-2f8e-4edd-888c-2009b20c5d0b"
+          ],
+          "locations": [
+            "-585.59, 67.00, -477.36, 143.13, 0.00"
+          ],
+          "traits": [
+            {
+              "trait": "randomwalk",
+              "args": {}
+            },
+            {
+              "trait": "skintrait",
+              "args": {
+                "skin": "HICKTON"
+              }
+            },
+            {
+              "trait": "capetrait",
+              "args": {}
+            }
+          ],
+          "conditions": {
+            "conditions": [
+              ""
+            ],
+            "args": [],
+            "ors": [
+              false
+            ],
+            "negates": [
+              false
+            ]
+          },
+          "entityType": "PLAYER",
+          "equipment": {}
         }
       }
     }

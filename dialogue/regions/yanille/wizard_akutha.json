@@ -787,6 +787,65 @@
               ]
             ]
           }
+        },
+        "28b04e9b-8fb0-4f2e-8b7e-6e08cbfa896e": {
+          "id": "28b04e9b-8fb0-4f2e-8b7e-6e08cbfa896e",
+          "type": "npc",
+          "selected": false,
+          "x": 210,
+          "y": -318,
+          "ports": [
+            {
+              "id": "17e471b3-b1cd-4992-9e19-d6008e7d062d",
+              "type": "default",
+              "x": 602,
+              "y": -290,
+              "name": "out-1780218322708-64944",
+              "alignment": "right",
+              "parentNode": "28b04e9b-8fb0-4f2e-8b7e-6e08cbfa896e",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Wizard Akutha",
+          "color": "#6e4b1e",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "17e471b3-b1cd-4992-9e19-d6008e7d062d"
+          ],
+          "locations": [
+            "-1276.81, 75.00, 599.09, 149.04, 0.00"
+          ],
+          "traits": [
+            {
+              "trait": "skintrait",
+              "args": {
+                "skin": "WIZARD_AKUTHA"
+              }
+            },
+            {
+              "trait": "randomwalk",
+              "args": {}
+            }
+          ],
+          "conditions": {
+            "conditions": [
+              ""
+            ],
+            "args": [],
+            "ors": [
+              false
+            ],
+            "negates": [
+              false
+            ]
+          },
+          "entityType": "PLAYER",
+          "equipment": {
+            "HAND": "BATTLESTAFF",
+            "HEAD": "BLUE_WIZARD_HAT"
+          }
         }
       }
     }

@@ -1220,6 +1220,65 @@
               ]
             ]
           }
+        },
+        "7827ef83-f531-4de6-a761-1b46c27028de": {
+          "id": "7827ef83-f531-4de6-a761-1b46c27028de",
+          "type": "npc",
+          "selected": false,
+          "x": 77,
+          "y": -315,
+          "ports": [
+            {
+              "id": "0d8c02ef-8ba6-4e5f-a027-181a48fa4e86",
+              "type": "default",
+              "x": 469,
+              "y": -287,
+              "name": "out-1780218322713-82007",
+              "alignment": "right",
+              "parentNode": "7827ef83-f531-4de6-a761-1b46c27028de",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Wizard Distentor",
+          "color": "#6e4b1e",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "0d8c02ef-8ba6-4e5f-a027-181a48fa4e86"
+          ],
+          "locations": [
+            "-1282.79, 67.00, 587.45, 135.00, 0.00"
+          ],
+          "traits": [
+            {
+              "trait": "skintrait",
+              "args": {
+                "skin": "WIZARD_DISTENTOR"
+              }
+            },
+            {
+              "trait": "randomwalk",
+              "args": {}
+            }
+          ],
+          "conditions": {
+            "conditions": [
+              ""
+            ],
+            "args": [],
+            "ors": [
+              false
+            ],
+            "negates": [
+              false
+            ]
+          },
+          "entityType": "PLAYER",
+          "equipment": {
+            "HAND": "BATTLESTAFF",
+            "HEAD": "BLUE_WIZARD_HAT"
+          }
         }
       }
     }

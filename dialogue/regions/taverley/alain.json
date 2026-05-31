@@ -128,6 +128,64 @@
               ]
             ]
           }
+        },
+        "00a13c86-d426-4606-bd63-c8497a8facf8": {
+          "id": "00a13c86-d426-4606-bd63-c8497a8facf8",
+          "type": "npc",
+          "selected": false,
+          "x": 83,
+          "y": -286,
+          "ports": [
+            {
+              "id": "3828cf3a-ca63-41c3-bd08-6c31ce86faf5",
+              "type": "default",
+              "x": 475,
+              "y": -258,
+              "name": "out-1780218321623-65861",
+              "alignment": "right",
+              "parentNode": "00a13c86-d426-4606-bd63-c8497a8facf8",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Alain",
+          "color": "#6e4b1e",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "3828cf3a-ca63-41c3-bd08-6c31ce86faf5"
+          ],
+          "locations": [
+            "-242.42, 67.00, -464.49, -36.87, 0.00"
+          ],
+          "traits": [
+            {
+              "trait": "skintrait",
+              "args": {
+                "skin": "ALAIN"
+              }
+            },
+            {
+              "trait": "randomwalk",
+              "args": {}
+            }
+          ],
+          "conditions": {
+            "conditions": [
+              ""
+            ],
+            "args": [],
+            "ors": [
+              false
+            ],
+            "negates": [
+              false
+            ]
+          },
+          "entityType": "PLAYER",
+          "equipment": {
+            "HAND": "SPADE"
+          }
         }
       }
     }

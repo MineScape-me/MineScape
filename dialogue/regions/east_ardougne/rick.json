@@ -1655,6 +1655,62 @@
             "0e120263-3ea0-4c95-bfac-7bc9bd9fb6b8"
           ],
           "text": "I'm a great cook, me! I used to work with a rat-catcher,\nI used to cook for him. There's a dozen different ways\nyou can cook rat!"
+        },
+        "fb0c0ece-c0c8-4860-ac0b-60c0d28072e3": {
+          "id": "fb0c0ece-c0c8-4860-ac0b-60c0d28072e3",
+          "type": "npc",
+          "selected": false,
+          "x": 10,
+          "y": -262,
+          "ports": [
+            {
+              "id": "c17fe127-48d3-416f-8ec4-cd8a77f9a6b7",
+              "type": "default",
+              "x": 402,
+              "y": -234,
+              "name": "out-1780218322453-25425",
+              "alignment": "right",
+              "parentNode": "fb0c0ece-c0c8-4860-ac0b-60c0d28072e3",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Rick",
+          "color": "#6e4b1e",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "c17fe127-48d3-416f-8ec4-cd8a77f9a6b7"
+          ],
+          "locations": [
+            "-1067.53, 69.00, -151.50, -30.96, 0.00"
+          ],
+          "traits": [
+            {
+              "trait": "randomwalk",
+              "args": {}
+            },
+            {
+              "trait": "skintrait",
+              "args": {
+                "skin": "SERVANT_RICK"
+              }
+            }
+          ],
+          "conditions": {
+            "conditions": [
+              ""
+            ],
+            "args": [],
+            "ors": [
+              false
+            ],
+            "negates": [
+              false
+            ]
+          },
+          "entityType": "PLAYER",
+          "equipment": {}
         }
       }
     }

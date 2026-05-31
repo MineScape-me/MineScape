@@ -630,6 +630,66 @@
               ]
             ]
           }
+        },
+        "3b45ef13-0760-424b-b1b6-85b039821f54": {
+          "id": "3b45ef13-0760-424b-b1b6-85b039821f54",
+          "type": "npc",
+          "selected": false,
+          "x": 132,
+          "y": -294,
+          "ports": [
+            {
+              "id": "f8d4f497-97c1-42dd-8c4d-5fb9085e1e87",
+              "type": "default",
+              "x": 524,
+              "y": -266,
+              "name": "out-1780218322234-15726",
+              "alignment": "right",
+              "parentNode": "3b45ef13-0760-424b-b1b6-85b039821f54",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Karim",
+          "color": "#6e4b1e",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "f8d4f497-97c1-42dd-8c4d-5fb9085e1e87"
+          ],
+          "locations": [
+            "751.44, 66.00, 291.86, 16.20, -3.38"
+          ],
+          "traits": [
+            {
+              "trait": "cluescrolltrait",
+              "args": {}
+            },
+            {
+              "trait": "skintrait",
+              "args": {
+                "skin": "DEFAULT_MALE_TAN"
+              }
+            },
+            {
+              "trait": "lookclose",
+              "args": {}
+            }
+          ],
+          "conditions": {
+            "conditions": [
+              ""
+            ],
+            "args": [],
+            "ors": [
+              false
+            ],
+            "negates": [
+              false
+            ]
+          },
+          "entityType": "PLAYER",
+          "equipment": {}
         }
       }
     }

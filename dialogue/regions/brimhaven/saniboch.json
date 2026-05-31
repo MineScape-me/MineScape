@@ -4083,6 +4083,62 @@
             "8508bbc9-6c05-488f-997d-b80c1a91bc59"
           ],
           "text": "Never mind."
+        },
+        "780d95e8-cca8-44e9-ab74-6d8d8707727c": {
+          "id": "780d95e8-cca8-44e9-ab74-6d8d8707727c",
+          "type": "npc",
+          "selected": false,
+          "x": 10,
+          "y": -262,
+          "ports": [
+            {
+              "id": "4ee054bb-b94b-4df9-9142-83fe39db9118",
+              "type": "default",
+              "x": 402,
+              "y": -234,
+              "name": "out-1780218322494-60608",
+              "alignment": "right",
+              "parentNode": "780d95e8-cca8-44e9-ab74-6d8d8707727c",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Saniboch",
+          "color": "#6e4b1e",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "4ee054bb-b94b-4df9-9142-83fe39db9118"
+          ],
+          "locations": [
+            "-823.30, 68.00, 401.35, 149.04, 0.00"
+          ],
+          "traits": [
+            {
+              "trait": "randomwalk",
+              "args": {}
+            },
+            {
+              "trait": "skintrait",
+              "args": {
+                "skin": "SANIBOCH"
+              }
+            }
+          ],
+          "conditions": {
+            "conditions": [
+              ""
+            ],
+            "args": [],
+            "ors": [
+              false
+            ],
+            "negates": [
+              false
+            ]
+          },
+          "entityType": "PLAYER",
+          "equipment": {}
         }
       }
     }

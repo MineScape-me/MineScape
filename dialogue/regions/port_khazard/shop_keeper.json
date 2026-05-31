@@ -654,6 +654,62 @@
               ]
             ]
           }
+        },
+        "09b19661-317c-45cd-bc6a-cb5b7a964db6": {
+          "id": "09b19661-317c-45cd-bc6a-cb5b7a964db6",
+          "type": "npc",
+          "selected": false,
+          "x": 10,
+          "y": -262,
+          "ports": [
+            {
+              "id": "dfc7b3f3-ce1d-46a5-90e3-ce2069210c60",
+              "type": "default",
+              "x": 402,
+              "y": -234,
+              "name": "out-1780218322526-85398",
+              "alignment": "right",
+              "parentNode": "09b19661-317c-45cd-bc6a-cb5b7a964db6",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Shop Keeper",
+          "color": "#6e4b1e",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "dfc7b3f3-ce1d-46a5-90e3-ce2069210c60"
+          ],
+          "locations": [
+            "-1092.99, 68.00, 395.37, 143.13, 0.00"
+          ],
+          "traits": [
+            {
+              "trait": "randomwalk",
+              "args": {}
+            },
+            {
+              "trait": "skintrait",
+              "args": {
+                "skin": "SHOP_KEEPER"
+              }
+            }
+          ],
+          "conditions": {
+            "conditions": [
+              ""
+            ],
+            "args": [],
+            "ors": [
+              false
+            ],
+            "negates": [
+              false
+            ]
+          },
+          "entityType": "PLAYER",
+          "equipment": {}
         }
       }
     }

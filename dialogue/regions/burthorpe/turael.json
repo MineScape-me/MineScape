@@ -2724,6 +2724,62 @@
               ]
             ]
           }
+        },
+        "777f3538-e8ff-4880-a2b9-709d3b1734c0": {
+          "id": "777f3538-e8ff-4880-a2b9-709d3b1734c0",
+          "type": "npc",
+          "selected": false,
+          "x": -380.86792452830207,
+          "y": -279.8301886792453,
+          "ports": [
+            {
+              "id": "8964176d-2668-484b-8e01-779fd0fbce4d",
+              "type": "default",
+              "x": 11.13207547169793,
+              "y": -251.83018867924528,
+              "name": "out-1780218322666-65981",
+              "alignment": "right",
+              "parentNode": "777f3538-e8ff-4880-a2b9-709d3b1734c0",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Turael",
+          "color": "#6e4b1e",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "8964176d-2668-484b-8e01-779fd0fbce4d"
+          ],
+          "locations": [
+            "-261.54, 66.00, -759.89, 82.75, -8.40"
+          ],
+          "traits": [
+            {
+              "trait": "skintrait",
+              "args": {
+                "skin": "TURAEL"
+              }
+            },
+            {
+              "trait": "lookclose",
+              "args": {}
+            }
+          ],
+          "conditions": {
+            "conditions": [
+              ""
+            ],
+            "args": [],
+            "ors": [
+              false
+            ],
+            "negates": [
+              false
+            ]
+          },
+          "entityType": "PLAYER",
+          "equipment": {}
         }
       }
     }

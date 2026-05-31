@@ -264,6 +264,58 @@
             "290a5554-6c0c-4b83-8c3a-65e5c93a8e0e"
           ],
           "text": "...I'll leave you to it."
+        },
+        "27dc78ef-a740-4fa1-842a-f7fcf08bcc0a": {
+          "id": "27dc78ef-a740-4fa1-842a-f7fcf08bcc0a",
+          "type": "npc",
+          "selected": false,
+          "x": 10,
+          "y": -236,
+          "ports": [
+            {
+              "id": "37db409b-df03-4453-a181-573ac84ca942",
+              "type": "default",
+              "x": 402,
+              "y": -208,
+              "name": "out-1780218322770-22341",
+              "alignment": "right",
+              "parentNode": "27dc78ef-a740-4fa1-842a-f7fcf08bcc0a",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Altarkiz",
+          "color": "#6e4b1e",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "37db409b-df03-4453-a181-573ac84ca942"
+          ],
+          "locations": [
+            "-1588.10, 69.00, 1315.01, 91.54, -0.45"
+          ],
+          "traits": [
+            {
+              "trait": "skintrait",
+              "args": {
+                "skin": "ALTARKIZ"
+              }
+            }
+          ],
+          "conditions": {
+            "conditions": [
+              ""
+            ],
+            "args": [],
+            "ors": [
+              false
+            ],
+            "negates": [
+              false
+            ]
+          },
+          "entityType": "PLAYER",
+          "equipment": {}
         }
       }
     }

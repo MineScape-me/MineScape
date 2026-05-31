@@ -220,6 +220,58 @@
               false
             ]
           }
+        },
+        "53e1da91-91c4-4d3d-be2d-536586c11312": {
+          "id": "53e1da91-91c4-4d3d-be2d-536586c11312",
+          "type": "npc",
+          "selected": false,
+          "x": 10,
+          "y": -236,
+          "ports": [
+            {
+              "id": "90932407-6a7e-4fdd-b094-88173a67a0a0",
+              "type": "default",
+              "x": 402,
+              "y": -208,
+              "name": "out-1780218322789-20788",
+              "alignment": "right",
+              "parentNode": "53e1da91-91c4-4d3d-be2d-536586c11312",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Cabin Boy Colin",
+          "color": "#6e4b1e",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "90932407-6a7e-4fdd-b094-88173a67a0a0"
+          ],
+          "locations": [
+            "-1386.48, 71.00, 1283.55, 0.32, 0.45"
+          ],
+          "traits": [
+            {
+              "trait": "skintrait",
+              "args": {
+                "skin": "CABIN_BOY_COLIN"
+              }
+            }
+          ],
+          "conditions": {
+            "conditions": [
+              ""
+            ],
+            "args": [],
+            "ors": [
+              false
+            ],
+            "negates": [
+              false
+            ]
+          },
+          "entityType": "PLAYER",
+          "equipment": {}
         }
       }
     }

@@ -1047,6 +1047,64 @@
           "portsOutOrder": [],
           "tree": "animal_after",
           "start": "Start"
+        },
+        "224f23f4-91b1-4b70-83ea-9c033e077fda": {
+          "id": "224f23f4-91b1-4b70-83ea-9c033e077fda",
+          "type": "npc",
+          "selected": false,
+          "x": 10,
+          "y": -288,
+          "ports": [
+            {
+              "id": "17a1f004-6d9a-4d1b-b040-fb9b1e76c004",
+              "type": "default",
+              "x": 402,
+              "y": -260,
+              "name": "out-1780218322700-73094",
+              "alignment": "right",
+              "parentNode": "224f23f4-91b1-4b70-83ea-9c033e077fda",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Witch",
+          "color": "#6e4b1e",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "17a1f004-6d9a-4d1b-b040-fb9b1e76c004"
+          ],
+          "locations": [
+            "252.40, 63.00, -249.40, -53.13, 0.00"
+          ],
+          "traits": [
+            {
+              "trait": "randomwalk",
+              "args": {}
+            },
+            {
+              "trait": "skintrait",
+              "args": {
+                "skin": "WITCH"
+              }
+            }
+          ],
+          "conditions": {
+            "conditions": [
+              ""
+            ],
+            "args": [],
+            "ors": [
+              false
+            ],
+            "negates": [
+              false
+            ]
+          },
+          "entityType": "PLAYER",
+          "equipment": {
+            "HEAD": "GREY_HAT"
+          }
         }
       }
     }

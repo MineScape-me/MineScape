@@ -327,6 +327,64 @@
           "portsOutOrder": [],
           "tree": "cooks_after",
           "start": "Start"
+        },
+        "cddc91ec-fc2f-4683-84f1-44eb65552aa9": {
+          "id": "cddc91ec-fc2f-4683-84f1-44eb65552aa9",
+          "type": "npc",
+          "selected": false,
+          "x": 50,
+          "y": -287,
+          "ports": [
+            {
+              "id": "a05db6e6-3106-44c8-8bda-9ef5029930a6",
+              "type": "default",
+              "x": 442,
+              "y": -259,
+              "name": "out-1780218321874-97638",
+              "alignment": "right",
+              "parentNode": "cddc91ec-fc2f-4683-84f1-44eb65552aa9",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Cook",
+          "color": "#6e4b1e",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "a05db6e6-3106-44c8-8bda-9ef5029930a6"
+          ],
+          "locations": [
+            "580.30, 65.00, 211.47, 51.34, 0.00"
+          ],
+          "traits": [
+            {
+              "trait": "randomwalk",
+              "args": {}
+            },
+            {
+              "trait": "skintrait",
+              "args": {
+                "skin": "CHEF"
+              }
+            }
+          ],
+          "conditions": {
+            "conditions": [
+              ""
+            ],
+            "args": [],
+            "ors": [
+              false
+            ],
+            "negates": [
+              false
+            ]
+          },
+          "entityType": "PLAYER",
+          "equipment": {
+            "HEAD": "CHEFS_HAT"
+          }
         }
       }
     }

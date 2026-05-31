@@ -754,6 +754,58 @@
             "ecbe263b-f7c6-4f4c-899e-d260ac852d18"
           ],
           "switch": "quest[TREE_GNOME_VILLAGE]"
+        },
+        "9c073e3e-cb32-48d1-a76a-5f8e7083ed72": {
+          "id": "9c073e3e-cb32-48d1-a76a-5f8e7083ed72",
+          "type": "npc",
+          "selected": false,
+          "x": 46,
+          "y": -184.00000000000003,
+          "ports": [
+            {
+              "id": "b1f45b8f-67c0-4b73-8dba-1d297131aced",
+              "type": "default",
+              "x": 438,
+              "y": -156.00000000000003,
+              "name": "out-1780218322648-79888",
+              "alignment": "right",
+              "parentNode": "9c073e3e-cb32-48d1-a76a-5f8e7083ed72",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Tracker Gnome",
+          "color": "#6e4b1e",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "b1f45b8f-67c0-4b73-8dba-1d297131aced"
+          ],
+          "locations": [
+            "-1587.43, 68.00, 165.42, -38.66, 0.00"
+          ],
+          "traits": [
+            {
+              "trait": "randomwalk",
+              "args": {}
+            }
+          ],
+          "conditions": {
+            "conditions": [
+              ""
+            ],
+            "args": [],
+            "ors": [
+              false
+            ],
+            "negates": [
+              false
+            ]
+          },
+          "entityType": "ARMOR_STAND",
+          "equipment": {
+            "HEAD": "IRON_AXE"
+          }
         }
       }
     }

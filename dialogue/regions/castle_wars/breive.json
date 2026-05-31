@@ -1018,6 +1018,62 @@
             "fc89c383-d445-4eab-9643-85b1bc4766b8"
           ],
           "text": "&9*cough cough cough ghhuk*"
+        },
+        "9cfedaf2-cccc-4f0c-a7ce-96c2f0e5554c": {
+          "id": "9cfedaf2-cccc-4f0c-a7ce-96c2f0e5554c",
+          "type": "npc",
+          "selected": false,
+          "x": -175.37313432835816,
+          "y": -291.55223880597015,
+          "ports": [
+            {
+              "id": "baa0ad91-0982-4b94-9324-20edcfadf71d",
+              "type": "default",
+              "x": 216.62686567164184,
+              "y": -263.55223880597015,
+              "name": "out-1780218321747-97230",
+              "alignment": "right",
+              "parentNode": "9cfedaf2-cccc-4f0c-a7ce-96c2f0e5554c",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Breive",
+          "color": "#6e4b1e",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "baa0ad91-0982-4b94-9324-20edcfadf71d"
+          ],
+          "locations": [
+            "-1832.83, 67.00, 676.50, 180.29, 36.30"
+          ],
+          "traits": [
+            {
+              "trait": "lookclose",
+              "args": {}
+            },
+            {
+              "trait": "skintrait",
+              "args": {
+                "skin": "BREIVE"
+              }
+            }
+          ],
+          "conditions": {
+            "conditions": [
+              ""
+            ],
+            "args": [],
+            "ors": [
+              false
+            ],
+            "negates": [
+              false
+            ]
+          },
+          "entityType": "PLAYER",
+          "equipment": {}
         }
       }
     }

@@ -737,6 +737,72 @@
             "9cfeda09-ec05-402e-b2da-ea6396a7fbe4"
           ],
           "switch": "quest[TREE_GNOME_VILLAGE]"
+        },
+        "b2b854e4-8aa7-40b6-b214-bdbc0d386287": {
+          "id": "b2b854e4-8aa7-40b6-b214-bdbc0d386287",
+          "type": "npc",
+          "selected": false,
+          "x": 10,
+          "y": -418,
+          "ports": [
+            {
+              "id": "7bad847d-ca53-4b92-b403-f86e3c8543a9",
+              "type": "default",
+              "x": 402,
+              "y": -390,
+              "name": "out-1780218322244-57677",
+              "alignment": "right",
+              "parentNode": "b2b854e4-8aa7-40b6-b214-bdbc0d386287",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Khazard Warlord",
+          "color": "#6e4b1e",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "7bad847d-ca53-4b92-b403-f86e3c8543a9"
+          ],
+          "locations": [
+            "-1699.39, 68.00, -51.34, 59.04, 0.00"
+          ],
+          "traits": [
+            {
+              "trait": "randomwalk",
+              "args": {}
+            },
+            {
+              "trait": "skintrait",
+              "args": {
+                "skin": "KHAZARD_WARLORD"
+              }
+            },
+            {
+              "trait": "capetrait",
+              "args": {}
+            }
+          ],
+          "conditions": {
+            "conditions": [
+              ""
+            ],
+            "args": [],
+            "ors": [
+              false
+            ],
+            "negates": [
+              false
+            ]
+          },
+          "entityType": "PLAYER",
+          "equipment": {
+            "HAND": "IRON_WARHAMMER",
+            "OFF_HAND": "IRON_KITESHIELD",
+            "FEET": "LEATHER_BOOTS",
+            "LEGS": "IRON_PLATELEGS",
+            "CHEST": "IRON_PLATEBODY"
+          }
         }
       }
     }

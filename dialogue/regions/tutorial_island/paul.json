@@ -1502,6 +1502,62 @@
               ]
             ]
           }
+        },
+        "4fe88fdc-e3fc-4240-9240-4d64fbdaaa96": {
+          "id": "4fe88fdc-e3fc-4240-9240-4d64fbdaaa96",
+          "type": "npc",
+          "selected": false,
+          "x": -416.6666666666671,
+          "y": -224,
+          "ports": [
+            {
+              "id": "94744e75-9327-4e43-b13a-be80aa1136f1",
+              "type": "default",
+              "x": -24.666666666667084,
+              "y": -196,
+              "name": "out-1780218322414-23852",
+              "alignment": "right",
+              "parentNode": "4fe88fdc-e3fc-4240-9240-4d64fbdaaa96",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Paul",
+          "color": "#6e4b1e",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "94744e75-9327-4e43-b13a-be80aa1136f1"
+          ],
+          "locations": [
+            "306.13, 71.00, 524.05, 159.48, -2.87"
+          ],
+          "traits": [
+            {
+              "trait": "skintrait",
+              "args": {
+                "skin": "DEFAULT_MALE_TAN"
+              }
+            },
+            {
+              "trait": "lookclose",
+              "args": {}
+            }
+          ],
+          "conditions": {
+            "conditions": [
+              ""
+            ],
+            "args": [],
+            "ors": [
+              false
+            ],
+            "negates": [
+              false
+            ]
+          },
+          "entityType": "PLAYER",
+          "equipment": {}
         }
       }
     }

@@ -128,6 +128,62 @@
               ]
             ]
           }
+        },
+        "c4121716-5ce0-4ac6-9b31-9e01670618f9": {
+          "id": "c4121716-5ce0-4ac6-9b31-9e01670618f9",
+          "type": "npc",
+          "selected": false,
+          "x": 0,
+          "y": -263,
+          "ports": [
+            {
+              "id": "01fba29d-162d-40ac-a5c4-060db087239b",
+              "type": "default",
+              "x": 392,
+              "y": -235,
+              "name": "out-1780218322004-73150",
+              "alignment": "right",
+              "parentNode": "c4121716-5ce0-4ac6-9b31-9e01670618f9",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Emily",
+          "color": "#6e4b1e",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "01fba29d-162d-40ac-a5c4-060db087239b"
+          ],
+          "locations": [
+            "-204.63, 65.00, -270.47, 45.00, 0.00"
+          ],
+          "traits": [
+            {
+              "trait": "randomwalk",
+              "args": {}
+            },
+            {
+              "trait": "skintrait",
+              "args": {
+                "skin": "DEFAULT_FEMALE_TAN"
+              }
+            }
+          ],
+          "conditions": {
+            "conditions": [
+              ""
+            ],
+            "args": [],
+            "ors": [
+              false
+            ],
+            "negates": [
+              false
+            ]
+          },
+          "entityType": "PLAYER",
+          "equipment": {}
         }
       }
     }

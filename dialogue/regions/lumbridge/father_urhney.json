@@ -459,6 +459,62 @@
           "portsOutOrder": [],
           "tree": "restless_after",
           "start": "Start"
+        },
+        "408df357-a11c-4daf-90dc-7cdf02410d6e": {
+          "id": "408df357-a11c-4daf-90dc-7cdf02410d6e",
+          "type": "npc",
+          "selected": false,
+          "x": 49,
+          "y": -254,
+          "ports": [
+            {
+              "id": "d4160510-fddd-4431-9ce4-4e7f47135e99",
+              "type": "default",
+              "x": 441,
+              "y": -226,
+              "name": "out-1780218322046-98810",
+              "alignment": "right",
+              "parentNode": "408df357-a11c-4daf-90dc-7cdf02410d6e",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Father Urhney",
+          "color": "#6e4b1e",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "d4160510-fddd-4431-9ce4-4e7f47135e99"
+          ],
+          "locations": [
+            "419.23, 63.00, 324.59, 210.96, 0.00"
+          ],
+          "traits": [
+            {
+              "trait": "skintrait",
+              "args": {
+                "skin": "FATHER_URHNEY"
+              }
+            },
+            {
+              "trait": "randomwalk",
+              "args": {}
+            }
+          ],
+          "conditions": {
+            "conditions": [
+              ""
+            ],
+            "args": [],
+            "ors": [
+              false
+            ],
+            "negates": [
+              false
+            ]
+          },
+          "entityType": "PLAYER",
+          "equipment": {}
         }
       }
     }

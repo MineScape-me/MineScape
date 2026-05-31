@@ -662,6 +662,62 @@
             "87a2b458-cebe-4beb-b35e-57cbee5ead64"
           ],
           "switch": "quest[WATERFALL_QUEST]"
+        },
+        "52e40759-360a-44ad-89a7-3eac92fca061": {
+          "id": "52e40759-360a-44ad-89a7-3eac92fca061",
+          "type": "npc",
+          "selected": false,
+          "x": 10,
+          "y": -262,
+          "ports": [
+            {
+              "id": "2748f031-0f35-4585-9640-56333910db17",
+              "type": "default",
+              "x": 402,
+              "y": -234,
+              "name": "out-1780263662345-7373",
+              "alignment": "right",
+              "parentNode": "52e40759-360a-44ad-89a7-3eac92fca061",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Hadley",
+          "color": "#6e4b1e",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "2748f031-0f35-4585-9640-56333910db17"
+          ],
+          "locations": [
+            "-1522.64, 68.06, -438.66, 135.00, 0.00"
+          ],
+          "traits": [
+            {
+              "trait": "randomwalk",
+              "args": {}
+            },
+            {
+              "trait": "skintrait",
+              "args": {
+                "skin": "HADLEY"
+              }
+            }
+          ],
+          "conditions": {
+            "conditions": [
+              ""
+            ],
+            "args": [],
+            "ors": [
+              false
+            ],
+            "negates": [
+              false
+            ]
+          },
+          "entityType": "PLAYER",
+          "equipment": {}
         }
       }
     }

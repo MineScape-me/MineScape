@@ -118,6 +118,62 @@
             "2aca37dd-ed36-4c0c-aa81-a58a04f8538a"
           ],
           "text": "The blessings of Saradomin be with you child."
+        },
+        "023a6ad0-70ca-459a-b318-2256806b6972": {
+          "id": "023a6ad0-70ca-459a-b318-2256806b6972",
+          "type": "npc",
+          "selected": false,
+          "x": 158,
+          "y": -263,
+          "ports": [
+            {
+              "id": "4f87ff7c-6dd4-47d8-af0e-c6df1208a64b",
+              "type": "default",
+              "x": 550,
+              "y": -235,
+              "name": "out-1780218321766-92731",
+              "alignment": "right",
+              "parentNode": "023a6ad0-70ca-459a-b318-2256806b6972",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Brother Maledict",
+          "color": "#6e4b1e",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "4f87ff7c-6dd4-47d8-af0e-c6df1208a64b"
+          ],
+          "locations": [
+            "-887.01, 67.00, 2.11, -38.66, 0.00"
+          ],
+          "traits": [
+            {
+              "trait": "skintrait",
+              "args": {
+                "skin": "BROTHER_MALEDICT"
+              }
+            },
+            {
+              "trait": "randomwalk",
+              "args": {}
+            }
+          ],
+          "conditions": {
+            "conditions": [
+              ""
+            ],
+            "args": [],
+            "ors": [
+              false
+            ],
+            "negates": [
+              false
+            ]
+          },
+          "entityType": "PLAYER",
+          "equipment": {}
         }
       }
     }

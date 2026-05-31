@@ -262,6 +262,62 @@
           "portsOutOrder": [],
           "tree": "estate_buy",
           "start": "Start"
+        },
+        "fb87a83c-a23d-4d84-93ed-391098222d6d": {
+          "id": "fb87a83c-a23d-4d84-93ed-391098222d6d",
+          "type": "npc",
+          "selected": false,
+          "x": 63,
+          "y": -209,
+          "ports": [
+            {
+              "id": "ad629b92-475b-4cc2-a0f5-9104f639bf0d",
+              "type": "default",
+              "x": 455,
+              "y": -181,
+              "name": "out-1780218322012-83319",
+              "alignment": "right",
+              "parentNode": "fb87a83c-a23d-4d84-93ed-391098222d6d",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Estate Agent",
+          "color": "#6e4b1e",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "ad629b92-475b-4cc2-a0f5-9104f639bf0d"
+          ],
+          "locations": [
+            "-1141.49, 69.06, -28.51, 135.00, 0.00"
+          ],
+          "traits": [
+            {
+              "trait": "randomwalk",
+              "args": {}
+            },
+            {
+              "trait": "skintrait",
+              "args": {
+                "skin": "ESTATE_AGENT"
+              }
+            }
+          ],
+          "conditions": {
+            "conditions": [
+              ""
+            ],
+            "args": [],
+            "ors": [
+              false
+            ],
+            "negates": [
+              false
+            ]
+          },
+          "entityType": "PLAYER",
+          "equipment": {}
         }
       }
     }

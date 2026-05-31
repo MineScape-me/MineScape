@@ -657,6 +657,62 @@
               ]
             ]
           }
+        },
+        "d35ae2f1-ada5-45da-9090-d1008f1eea06": {
+          "id": "d35ae2f1-ada5-45da-9090-d1008f1eea06",
+          "type": "npc",
+          "selected": false,
+          "x": 90,
+          "y": -275,
+          "ports": [
+            {
+              "id": "d0b2488c-49a3-47a5-965b-8af8bb948c95",
+              "type": "default",
+              "x": 482,
+              "y": -247,
+              "name": "out-1780218321692-70802",
+              "alignment": "right",
+              "parentNode": "d35ae2f1-ada5-45da-9090-d1008f1eea06",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Barker",
+          "color": "#6e4b1e",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "d0b2488c-49a3-47a5-965b-8af8bb948c95"
+          ],
+          "locations": [
+            "1457.60, 70.06, -666.51, -38.66, 0.00"
+          ],
+          "traits": [
+            {
+              "trait": "randomwalk",
+              "args": {}
+            },
+            {
+              "trait": "skintrait",
+              "args": {
+                "skin": "BARKER"
+              }
+            }
+          ],
+          "conditions": {
+            "conditions": [
+              ""
+            ],
+            "args": [],
+            "ors": [
+              false
+            ],
+            "negates": [
+              false
+            ]
+          },
+          "entityType": "PLAYER",
+          "equipment": {}
         }
       }
     }

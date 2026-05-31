@@ -678,6 +678,51 @@
             "074023fd-0a8e-4367-91a1-8f32a2fe66af"
           ],
           "text": "I should be safe if I can reach this."
+        },
+        "b0fd528b-f70b-434d-8992-507a20bad36a": {
+          "id": "b0fd528b-f70b-434d-8992-507a20bad36a",
+          "type": "npc",
+          "selected": false,
+          "x": 10,
+          "y": -210,
+          "ports": [
+            {
+              "id": "69a524a5-331b-4ab7-82f1-a48a3addd8e2",
+              "type": "default",
+              "x": 402,
+              "y": -182,
+              "name": "out-1780263662402-32118",
+              "alignment": "right",
+              "parentNode": "b0fd528b-f70b-434d-8992-507a20bad36a",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Rock",
+          "color": "#6e4b1e",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "69a524a5-331b-4ab7-82f1-a48a3addd8e2"
+          ],
+          "locations": [
+            "-1525.56, 83.95, -577.36, -15.67, 46.05"
+          ],
+          "traits": [],
+          "conditions": {
+            "conditions": [
+              ""
+            ],
+            "args": [],
+            "ors": [
+              false
+            ],
+            "negates": [
+              false
+            ]
+          },
+          "entityType": "ARMOR_STAND",
+          "equipment": {}
         }
       }
     }

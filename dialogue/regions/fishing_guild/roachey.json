@@ -434,6 +434,64 @@
               "text": "No."
             }
           ]
+        },
+        "d8d92467-b27f-4d85-a94b-a95d9354bf0c": {
+          "id": "d8d92467-b27f-4d85-a94b-a95d9354bf0c",
+          "type": "npc",
+          "selected": false,
+          "x": 181,
+          "y": -259,
+          "ports": [
+            {
+              "id": "e8472eb3-4067-4ffd-b3a9-3164b3421c89",
+              "type": "default",
+              "x": 573,
+              "y": -231,
+              "name": "out-1780218322455-48397",
+              "alignment": "right",
+              "parentNode": "d8d92467-b27f-4d85-a94b-a95d9354bf0c",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Roachey",
+          "color": "#6e4b1e",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "e8472eb3-4067-4ffd-b3a9-3164b3421c89"
+          ],
+          "locations": [
+            "-1269.60, 66.00, -351.09, 233.13, 0.00"
+          ],
+          "traits": [
+            {
+              "trait": "randomwalk",
+              "args": {}
+            },
+            {
+              "trait": "skintrait",
+              "args": {
+                "skin": "DEFAULT_MALE_TAN"
+              }
+            }
+          ],
+          "conditions": {
+            "conditions": [
+              ""
+            ],
+            "args": [],
+            "ors": [
+              false
+            ],
+            "negates": [
+              false
+            ]
+          },
+          "entityType": "PLAYER",
+          "equipment": {
+            "HAND": "FISHING_ROD"
+          }
         }
       }
     }

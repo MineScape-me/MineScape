@@ -128,6 +128,64 @@
               ]
             ]
           }
+        },
+        "9196d4c1-ab10-42e7-8925-9198cca932e2": {
+          "id": "9196d4c1-ab10-42e7-8925-9198cca932e2",
+          "type": "npc",
+          "selected": false,
+          "x": 83,
+          "y": -286,
+          "ports": [
+            {
+              "id": "2b503e46-010b-413c-93a8-b6004b41ec60",
+              "type": "default",
+              "x": 475,
+              "y": -258,
+              "name": "out-1780218321928-69450",
+              "alignment": "right",
+              "parentNode": "9196d4c1-ab10-42e7-8925-9198cca932e2",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Dreven",
+          "color": "#6e4b1e",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "2b503e46-010b-413c-93a8-b6004b41ec60"
+          ],
+          "locations": [
+            "500.95, 65.00, -236.17, 225.00, 0.00"
+          ],
+          "traits": [
+            {
+              "trait": "skintrait",
+              "args": {
+                "skin": "DREVEN"
+              }
+            },
+            {
+              "trait": "randomwalk",
+              "args": {}
+            }
+          ],
+          "conditions": {
+            "conditions": [
+              ""
+            ],
+            "args": [],
+            "ors": [
+              false
+            ],
+            "negates": [
+              false
+            ]
+          },
+          "entityType": "PLAYER",
+          "equipment": {
+            "HAND": "SPADE"
+          }
         }
       }
     }

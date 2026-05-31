@@ -766,6 +766,62 @@
           "portsInOrder": [],
           "portsOutOrder": [],
           "text": "Not sure if TALK_TO_OSMAN should go to during."
+        },
+        "02afc20c-9edc-40b3-9a3f-55ae29592914": {
+          "id": "02afc20c-9edc-40b3-9a3f-55ae29592914",
+          "type": "npc",
+          "selected": false,
+          "x": 128,
+          "y": -238,
+          "ports": [
+            {
+              "id": "efc1d9fc-5df8-47b4-9629-c853421898d3",
+              "type": "default",
+              "x": 520,
+              "y": -210,
+              "name": "out-1780218322149-65228",
+              "alignment": "right",
+              "parentNode": "02afc20c-9edc-40b3-9a3f-55ae29592914",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Hassan",
+          "color": "#6e4b1e",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "efc1d9fc-5df8-47b4-9629-c853421898d3"
+          ],
+          "locations": [
+            "812.57, 78.00, 383.74, 179.02, 1.48"
+          ],
+          "traits": [
+            {
+              "trait": "skintrait",
+              "args": {
+                "skin": "DEFAULT_MALE_TAN"
+              }
+            },
+            {
+              "trait": "lookclose",
+              "args": {}
+            }
+          ],
+          "conditions": {
+            "conditions": [
+              ""
+            ],
+            "args": [],
+            "ors": [
+              false
+            ],
+            "negates": [
+              false
+            ]
+          },
+          "entityType": "PLAYER",
+          "equipment": {}
         }
       }
     }

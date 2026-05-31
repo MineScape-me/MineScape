@@ -582,6 +582,62 @@
             "86f6e8a3-c7c5-4ff7-a869-6d0103b227fd"
           ],
           "text": "Well, come and see me if you're ever in need of\narmour!"
+        },
+        "a3e1f22d-98f8-4ba2-84a3-08131b4720ae": {
+          "id": "a3e1f22d-98f8-4ba2-84a3-08131b4720ae",
+          "type": "npc",
+          "selected": false,
+          "x": 177,
+          "y": -266,
+          "ports": [
+            {
+              "id": "51ba7f33-6868-4290-917b-d77a33ca84a5",
+              "type": "default",
+              "x": 569,
+              "y": -238,
+              "name": "out-1780218322189-26497",
+              "alignment": "right",
+              "parentNode": "a3e1f22d-98f8-4ba2-84a3-08131b4720ae",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Horvik",
+          "color": "#6e4b1e",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "51ba7f33-6868-4290-917b-d77a33ca84a5"
+          ],
+          "locations": [
+            "630.19, 63.00, -469.14, 263.88, 0.00"
+          ],
+          "traits": [
+            {
+              "trait": "lookclose",
+              "args": {}
+            },
+            {
+              "trait": "skintrait",
+              "args": {
+                "skin": "SHOPKEEPER"
+              }
+            }
+          ],
+          "conditions": {
+            "conditions": [
+              ""
+            ],
+            "args": [],
+            "ors": [
+              false
+            ],
+            "negates": [
+              false
+            ]
+          },
+          "entityType": "PLAYER",
+          "equipment": {}
         }
       }
     }

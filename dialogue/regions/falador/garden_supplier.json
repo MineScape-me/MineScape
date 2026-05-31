@@ -1092,6 +1092,62 @@
               ]
             ]
           }
+        },
+        "8c5aea0b-f183-49f3-8ae1-81ea8908eb55": {
+          "id": "8c5aea0b-f183-49f3-8ae1-81ea8908eb55",
+          "type": "npc",
+          "selected": false,
+          "x": 33,
+          "y": -263,
+          "ports": [
+            {
+              "id": "35c8e67b-3a5e-4b46-9f03-0d9f97c4666c",
+              "type": "default",
+              "x": 425,
+              "y": -235,
+              "name": "out-1780218322087-41946",
+              "alignment": "right",
+              "parentNode": "8c5aea0b-f183-49f3-8ae1-81ea8908eb55",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Garden Supplier",
+          "color": "#6e4b1e",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "35c8e67b-3a5e-4b46-9f03-0d9f97c4666c"
+          ],
+          "locations": [
+            "-14.30, 64.00, -264.39, -30.96, 0.00"
+          ],
+          "traits": [
+            {
+              "trait": "randomwalk",
+              "args": {}
+            },
+            {
+              "trait": "skintrait",
+              "args": {
+                "skin": "GARDEN_SUPPLIER"
+              }
+            }
+          ],
+          "conditions": {
+            "conditions": [
+              ""
+            ],
+            "args": [],
+            "ors": [
+              false
+            ],
+            "negates": [
+              false
+            ]
+          },
+          "entityType": "PLAYER",
+          "equipment": {}
         }
       }
     }

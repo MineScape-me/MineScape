@@ -1382,6 +1382,60 @@
             "d5ab5d22-8617-4f47-814c-6afe8c5fdeda"
           ],
           "text": "Best of a hundred and one."
+        },
+        "2108074e-9ca9-4c8d-8627-832c68c4297a": {
+          "id": "2108074e-9ca9-4c8d-8627-832c68c4297a",
+          "type": "npc",
+          "selected": false,
+          "x": -164,
+          "y": -288,
+          "ports": [
+            {
+              "id": "c7575acc-1012-4890-906a-a1de095246b4",
+              "type": "default",
+              "x": 228,
+              "y": -260,
+              "name": "out-1780218321581-88793",
+              "alignment": "right",
+              "parentNode": "2108074e-9ca9-4c8d-8627-832c68c4297a",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "'Gummy'",
+          "color": "#6e4b1e",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "c7575acc-1012-4890-906a-a1de095246b4"
+          ],
+          "locations": [
+            "-1127.72, 68.00, 162.05, -1.07, 2.70"
+          ],
+          "traits": [
+            {
+              "trait": "skintrait",
+              "args": {
+                "skin": "GUMMY"
+              }
+            }
+          ],
+          "conditions": {
+            "conditions": [
+              ""
+            ],
+            "args": [],
+            "ors": [
+              false
+            ],
+            "negates": [
+              false
+            ]
+          },
+          "entityType": "PLAYER",
+          "equipment": {
+            "HEAD": "HARD_HAT"
+          }
         }
       }
     }

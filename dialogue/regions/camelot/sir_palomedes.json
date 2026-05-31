@@ -266,6 +266,68 @@
             "a29f5aaf-cce9-493a-a865-f3cf4a5cdb39"
           ],
           "text": "I do not know of any myself... but it would perhaps be\nworth your while asking the King if he has any tasks\nfor you."
+        },
+        "e147fdd4-3b22-43df-b981-6e2e927642aa": {
+          "id": "e147fdd4-3b22-43df-b981-6e2e927642aa",
+          "type": "npc",
+          "selected": false,
+          "x": 57,
+          "y": -324,
+          "ports": [
+            {
+              "id": "c82d8801-b8a0-422f-9095-365df40a0350",
+              "type": "default",
+              "x": 449,
+              "y": -296,
+              "name": "out-1780218322559-22332",
+              "alignment": "right",
+              "parentNode": "e147fdd4-3b22-43df-b981-6e2e927642aa",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Sir Palomedes",
+          "color": "#6e4b1e",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "c82d8801-b8a0-422f-9095-365df40a0350"
+          ],
+          "locations": [
+            "-805.25, 66.00, -676.08, 45.00, 0.00"
+          ],
+          "traits": [
+            {
+              "trait": "skintrait",
+              "args": {
+                "skin": "SIR_PALOMEDES"
+              }
+            },
+            {
+              "trait": "capetrait",
+              "args": {}
+            },
+            {
+              "trait": "randomwalk",
+              "args": {}
+            }
+          ],
+          "conditions": {
+            "conditions": [
+              ""
+            ],
+            "args": [],
+            "ors": [
+              false
+            ],
+            "negates": [
+              false
+            ]
+          },
+          "entityType": "PLAYER",
+          "equipment": {
+            "HAND": "STEEL_SWORD"
+          }
         }
       }
     }

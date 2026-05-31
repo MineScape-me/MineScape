@@ -462,6 +462,64 @@
           "portsInOrder": [],
           "portsOutOrder": [],
           "text": "Missing dialogue after quest?"
+        },
+        "6728e3e9-6b7b-4f8b-8c5d-0b22903437ba": {
+          "id": "6728e3e9-6b7b-4f8b-8c5d-0b22903437ba",
+          "type": "npc",
+          "selected": false,
+          "x": 10,
+          "y": -262,
+          "ports": [
+            {
+              "id": "c40bc0a3-e8f3-459e-8568-cec56fc600f0",
+              "type": "default",
+              "x": 402,
+              "y": -234,
+              "name": "out-1780218322009-45543",
+              "alignment": "right",
+              "parentNode": "6728e3e9-6b7b-4f8b-8c5d-0b22903437ba",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Ernest",
+          "color": "#6e4b1e",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "c40bc0a3-e8f3-459e-8568-cec56fc600f0"
+          ],
+          "locations": [
+            "275.38, 84.00, -237.90, -36.87, 0.00"
+          ],
+          "traits": [
+            {
+              "trait": "randomwalk",
+              "args": {}
+            }
+          ],
+          "conditions": {
+            "conditions": [
+              "questStage"
+            ],
+            "args": [
+              [
+                "ERNEST_THE_CHICKEN",
+                "<",
+                "3"
+              ]
+            ],
+            "ors": [
+              false
+            ],
+            "negates": [
+              false
+            ]
+          },
+          "entityType": "ARMOR_STAND",
+          "equipment": {
+            "HEAD": "STONE_AXE"
+          }
         }
       }
     }

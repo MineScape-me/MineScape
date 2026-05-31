@@ -754,6 +754,61 @@
             "bdc2ddfe-a9bd-46ae-906b-1ab5538f7985"
           ],
           "text": "Fair enough."
+        },
+        "e1a22386-1751-42f3-827a-905ce44e9e92": {
+          "id": "e1a22386-1751-42f3-827a-905ce44e9e92",
+          "type": "npc",
+          "selected": false,
+          "x": 247,
+          "y": -316,
+          "ports": [
+            {
+              "id": "dfbf866d-4d1e-44e3-a63b-750f1b828802",
+              "type": "default",
+              "x": 639,
+              "y": -288,
+              "name": "out-1780218322192-89917",
+              "alignment": "right",
+              "parentNode": "e1a22386-1751-42f3-827a-905ce44e9e92",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Irksol",
+          "color": "#6e4b1e",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "dfbf866d-4d1e-44e3-a63b-750f1b828802"
+          ],
+          "locations": [
+            "-2664.42, 12.00, 1050.54, 45.00, 0.00"
+          ],
+          "traits": [
+            {
+              "trait": "randomwalk",
+              "args": {}
+            }
+          ],
+          "conditions": {
+            "conditions": [
+              ""
+            ],
+            "args": [],
+            "ors": [
+              false
+            ],
+            "negates": [
+              false
+            ]
+          },
+          "entityType": "ARMOR_STAND",
+          "equipment": {
+            "FEET": "LEATHER_BOOTS",
+            "LEGS": "BLACK_SKIRT",
+            "CHEST": "RED_ROBE_TOP",
+            "HEAD": "BLACK_WIZARD_HAT"
+          }
         }
       }
     }

@@ -516,6 +516,64 @@
             "aaa086c8-d004-4624-b6db-3423d174e410"
           ],
           "text": "Days like these make me glad to be alive!"
+        },
+        "8a4041ae-0cb5-432d-bb1a-accdc17aef9d": {
+          "id": "8a4041ae-0cb5-432d-bb1a-accdc17aef9d",
+          "type": "npc",
+          "selected": false,
+          "x": 131,
+          "y": -294,
+          "ports": [
+            {
+              "id": "cc527d1f-4bfd-4293-99aa-2b4a507959d1",
+              "type": "default",
+              "x": 523,
+              "y": -266,
+              "name": "out-1780218322187-95398",
+              "alignment": "right",
+              "parentNode": "8a4041ae-0cb5-432d-bb1a-accdc17aef9d",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Horacio",
+          "color": "#6e4b1e",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "cc527d1f-4bfd-4293-99aa-2b4a507959d1"
+          ],
+          "locations": [
+            "-1164.34, 69.00, -87.07, 135.00, 0.00"
+          ],
+          "traits": [
+            {
+              "trait": "skintrait",
+              "args": {
+                "skin": "HORACIO"
+              }
+            },
+            {
+              "trait": "randomwalk",
+              "args": {}
+            }
+          ],
+          "conditions": {
+            "conditions": [
+              ""
+            ],
+            "args": [],
+            "ors": [
+              false
+            ],
+            "negates": [
+              false
+            ]
+          },
+          "entityType": "PLAYER",
+          "equipment": {
+            "HAND": "RAKE"
+          }
         }
       }
     }

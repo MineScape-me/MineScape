@@ -989,6 +989,62 @@
             "eae4b0ad-da18-4130-90e4-6e34f50df953"
           ],
           "text": "N-not at all! They are v-valuable human artefacts\nsmuggled here at g-great personal risk!"
+        },
+        "796d58f4-900e-428f-8c3f-1f930aa70801": {
+          "id": "796d58f4-900e-428f-8c3f-1f930aa70801",
+          "type": "npc",
+          "selected": false,
+          "x": 110,
+          "y": -259,
+          "ports": [
+            {
+              "id": "70bbd38d-9c1b-4f49-b393-e26c590f7805",
+              "type": "default",
+              "x": 502,
+              "y": -231,
+              "name": "out-1780218322052-49652",
+              "alignment": "right",
+              "parentNode": "796d58f4-900e-428f-8c3f-1f930aa70801",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Fidelio",
+          "color": "#6e4b1e",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "70bbd38d-9c1b-4f49-b393-e26c590f7805"
+          ],
+          "locations": [
+            "1383.75, 67.00, -639.55, 45.00, 0.00"
+          ],
+          "traits": [
+            {
+              "trait": "skintrait",
+              "args": {
+                "skin": "FIDELIO"
+              }
+            },
+            {
+              "trait": "randomwalk",
+              "args": {}
+            }
+          ],
+          "conditions": {
+            "conditions": [
+              ""
+            ],
+            "args": [],
+            "ors": [
+              false
+            ],
+            "negates": [
+              false
+            ]
+          },
+          "entityType": "PLAYER",
+          "equipment": {}
         }
       }
     }

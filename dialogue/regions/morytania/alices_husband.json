@@ -1188,6 +1188,62 @@
           "portsOutOrder": [],
           "tree": "animal_buy",
           "start": "Start"
+        },
+        "de712754-0d7e-41de-b443-8806b57d2ebe": {
+          "id": "de712754-0d7e-41de-b443-8806b57d2ebe",
+          "type": "npc",
+          "selected": false,
+          "x": 10,
+          "y": -262,
+          "ports": [
+            {
+              "id": "ca3f7b3c-f37a-4f6f-8296-4d20d8b757a9",
+              "type": "default",
+              "x": 402,
+              "y": -234,
+              "name": "out-1780218321638-44948",
+              "alignment": "right",
+              "parentNode": "de712754-0d7e-41de-b443-8806b57d2ebe",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Alice's Husband",
+          "color": "#6e4b1e",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "ca3f7b3c-f37a-4f6f-8296-4d20d8b757a9"
+          ],
+          "locations": [
+            "1790.47, 68.00, -732.88, 59.04, 0.00"
+          ],
+          "traits": [
+            {
+              "trait": "randomwalk",
+              "args": {}
+            },
+            {
+              "trait": "skintrait",
+              "args": {
+                "skin": "ALICE_HUSBAND"
+              }
+            }
+          ],
+          "conditions": {
+            "conditions": [
+              ""
+            ],
+            "args": [],
+            "ors": [
+              false
+            ],
+            "negates": [
+              false
+            ]
+          },
+          "entityType": "PLAYER",
+          "equipment": {}
         }
       }
     }

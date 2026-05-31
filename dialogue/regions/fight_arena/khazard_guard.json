@@ -337,6 +337,68 @@
             "bb46ee18-5738-4d42-b6a7-eff30aad60fb"
           ],
           "text": "Well I'm off-duty right now, so why don't you go and\nbother someone else."
+        },
+        "ac6523e6-d8a0-4c26-8715-6abbc49b3214": {
+          "id": "ac6523e6-d8a0-4c26-8715-6abbc49b3214",
+          "type": "npc",
+          "selected": false,
+          "x": 10,
+          "y": -392,
+          "ports": [
+            {
+              "id": "8224c73f-1ac5-4fa4-bef4-b7e203d20cd7",
+              "type": "default",
+              "x": 402,
+              "y": -364,
+              "name": "out-1780218322242-56466",
+              "alignment": "right",
+              "parentNode": "ac6523e6-d8a0-4c26-8715-6abbc49b3214",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Khazard Guard",
+          "color": "#6e4b1e",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "8224c73f-1ac5-4fa4-bef4-b7e203d20cd7"
+          ],
+          "locations": [
+            "-1231.49, 66.00, 274.87, 210.96, 0.00"
+          ],
+          "traits": [
+            {
+              "trait": "skintrait",
+              "args": {
+                "skin": "KHAZARD_GUARD"
+              }
+            },
+            {
+              "trait": "randomwalk",
+              "args": {}
+            }
+          ],
+          "conditions": {
+            "conditions": [
+              ""
+            ],
+            "args": [],
+            "ors": [
+              false
+            ],
+            "negates": [
+              false
+            ]
+          },
+          "entityType": "PLAYER",
+          "equipment": {
+            "HAND": "AIR",
+            "FEET": "AIR",
+            "LEGS": "AIR",
+            "CHEST": "AIR",
+            "HEAD": "AIR"
+          }
         }
       }
     }

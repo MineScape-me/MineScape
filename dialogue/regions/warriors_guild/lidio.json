@@ -406,6 +406,64 @@
             "aade0909-86a0-4280-bc20-67f4f755bd12"
           ],
           "text": "With food preferably."
+        },
+        "f3bdc36a-5122-408b-a664-bbe14452125d": {
+          "id": "f3bdc36a-5122-408b-a664-bbe14452125d",
+          "type": "npc",
+          "selected": false,
+          "x": 137,
+          "y": -253,
+          "ports": [
+            {
+              "id": "2db4d904-3687-49b9-8f86-c09a931caace",
+              "type": "default",
+              "x": 529,
+              "y": -225,
+              "name": "out-1780218322284-43211",
+              "alignment": "right",
+              "parentNode": "f3bdc36a-5122-408b-a664-bbe14452125d",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Lidio",
+          "color": "#6e4b1e",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "2db4d904-3687-49b9-8f86-c09a931caace"
+          ],
+          "locations": [
+            "-530.74, 71.00, -806.27, 38.66, 0.00"
+          ],
+          "traits": [
+            {
+              "trait": "skintrait",
+              "args": {
+                "skin": "LIDIO"
+              }
+            },
+            {
+              "trait": "randomwalk",
+              "args": {}
+            }
+          ],
+          "conditions": {
+            "conditions": [
+              ""
+            ],
+            "args": [],
+            "ors": [
+              false
+            ],
+            "negates": [
+              false
+            ]
+          },
+          "entityType": "PLAYER",
+          "equipment": {
+            "HEAD": "CHEFS_HAT"
+          }
         }
       }
     }

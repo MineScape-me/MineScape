@@ -583,6 +583,64 @@
               ]
             ]
           }
+        },
+        "602cedd9-7a33-4f05-a7ca-8f92dbdf27b3": {
+          "id": "602cedd9-7a33-4f05-a7ca-8f92dbdf27b3",
+          "type": "npc",
+          "selected": false,
+          "x": 223,
+          "y": -133,
+          "ports": [
+            {
+              "id": "752d0273-e46d-481c-9476-f1e26c8ef38f",
+              "type": "default",
+              "x": 615,
+              "y": -105,
+              "name": "out-1780218322108-35115",
+              "alignment": "right",
+              "parentNode": "602cedd9-7a33-4f05-a7ca-8f92dbdf27b3",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Gerrant",
+          "color": "#6e4b1e",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "752d0273-e46d-481c-9476-f1e26c8ef38f"
+          ],
+          "locations": [
+            "-23.39, 66.06, 180.31, -45.00, 0.00"
+          ],
+          "traits": [
+            {
+              "trait": "skintrait",
+              "args": {
+                "skin": "FARMER"
+              }
+            },
+            {
+              "trait": "randomwalk",
+              "args": {}
+            }
+          ],
+          "conditions": {
+            "conditions": [
+              ""
+            ],
+            "args": [],
+            "ors": [
+              false
+            ],
+            "negates": [
+              false
+            ]
+          },
+          "entityType": "PLAYER",
+          "equipment": {
+            "HAND": "FISHING_ROD"
+          }
         }
       }
     }

@@ -7593,6 +7593,62 @@
             "49410a39-8000-4f93-8e94-302c31e01e23"
           ],
           "text": "...I don't know why you talked to me if you don't want\nanything then..."
+        },
+        "bf0b7bfd-22f4-478d-a98c-e691db12aee9": {
+          "id": "bf0b7bfd-22f4-478d-a98c-e691db12aee9",
+          "type": "npc",
+          "selected": false,
+          "x": 30,
+          "y": -279,
+          "ports": [
+            {
+              "id": "fc4db20b-e7a5-4c0c-9488-d1551f3901d8",
+              "type": "default",
+              "x": 422,
+              "y": -251,
+              "name": "out-1780218322460-89191",
+              "alignment": "right",
+              "parentNode": "bf0b7bfd-22f4-478d-a98c-e691db12aee9",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Roavar",
+          "color": "#6e4b1e",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "fc4db20b-e7a5-4c0c-9488-d1551f3901d8"
+          ],
+          "locations": [
+            "1432.48, 67.00, -562.69, 239.98, -40.84"
+          ],
+          "traits": [
+            {
+              "trait": "skintrait",
+              "args": {
+                "skin": "ROAVAR"
+              }
+            },
+            {
+              "trait": "lookclose",
+              "args": {}
+            }
+          ],
+          "conditions": {
+            "conditions": [
+              ""
+            ],
+            "args": [],
+            "ors": [
+              false
+            ],
+            "negates": [
+              false
+            ]
+          },
+          "entityType": "PLAYER",
+          "equipment": {}
         }
       }
     }

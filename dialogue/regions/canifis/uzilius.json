@@ -1030,6 +1030,62 @@
             "b511ad87-a5e2-45eb-9c57-87064c73b7ac"
           ],
           "text": "Oh, he's in the temple, just go back over the bridge,\ndown the ladder and along the hallway, you can't miss\nhim."
+        },
+        "faae097b-6ea1-491c-84fa-f44a146f93bb": {
+          "id": "faae097b-6ea1-491c-84fa-f44a146f93bb",
+          "type": "npc",
+          "selected": false,
+          "x": 110,
+          "y": -272,
+          "ports": [
+            {
+              "id": "1862cb00-5b2a-4522-9c99-7572cb4aa5b0",
+              "type": "default",
+              "x": 502,
+              "y": -244,
+              "name": "out-1780218322670-68985",
+              "alignment": "right",
+              "parentNode": "faae097b-6ea1-491c-84fa-f44a146f93bb",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Ulizius",
+          "color": "#6e4b1e",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "1862cb00-5b2a-4522-9c99-7572cb4aa5b0"
+          ],
+          "locations": [
+            "1287.17, 67.00, -534.40, 135.00, 0.00"
+          ],
+          "traits": [
+            {
+              "trait": "skintrait",
+              "args": {
+                "skin": "ULIZIUS"
+              }
+            },
+            {
+              "trait": "randomwalk",
+              "args": {}
+            }
+          ],
+          "conditions": {
+            "conditions": [
+              ""
+            ],
+            "args": [],
+            "ors": [
+              false
+            ],
+            "negates": [
+              false
+            ]
+          },
+          "entityType": "PLAYER",
+          "equipment": {}
         }
       }
     }

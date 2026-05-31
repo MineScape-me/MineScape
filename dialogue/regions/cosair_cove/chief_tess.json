@@ -220,6 +220,58 @@
               false
             ]
           }
+        },
+        "8f4d1627-0c17-4540-8129-7079bc596a2f": {
+          "id": "8f4d1627-0c17-4540-8129-7079bc596a2f",
+          "type": "npc",
+          "selected": false,
+          "x": 10,
+          "y": -262,
+          "ports": [
+            {
+              "id": "7ab5e483-865e-48bc-a6aa-66e42e4d9987",
+              "type": "default",
+              "x": 402,
+              "y": -234,
+              "name": "out-1780218322794-15864",
+              "alignment": "right",
+              "parentNode": "8f4d1627-0c17-4540-8129-7079bc596a2f",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Chief Tess",
+          "color": "#6e4b1e",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "7ab5e483-865e-48bc-a6aa-66e42e4d9987"
+          ],
+          "locations": [
+            "-1486.97, 34.00, 1274.43, 225.00, 0.00"
+          ],
+          "traits": [
+            {
+              "trait": "randomwalk",
+              "args": {}
+            }
+          ],
+          "conditions": {
+            "conditions": [
+              ""
+            ],
+            "args": [],
+            "ors": [
+              false
+            ],
+            "negates": [
+              false
+            ]
+          },
+          "entityType": "ARMOR_STAND",
+          "equipment": {
+            "HEAD": "APPLE"
+          }
         }
       }
     }

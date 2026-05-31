@@ -583,6 +583,62 @@
             "f67f6196-00c3-46f2-8c53-ac5066b2f94c"
           ],
           "text": "No, I've come to the wrong place."
+        },
+        "bd968a8e-5c84-4f46-a8f3-8ad36145e61c": {
+          "id": "bd968a8e-5c84-4f46-a8f3-8ad36145e61c",
+          "type": "npc",
+          "selected": false,
+          "x": 91,
+          "y": -277,
+          "ports": [
+            {
+              "id": "e87ea361-2357-447a-9e53-6a5945ede2ce",
+              "type": "default",
+              "x": 483,
+              "y": -249,
+              "name": "out-1780218322265-30807",
+              "alignment": "right",
+              "parentNode": "bd968a8e-5c84-4f46-a8f3-8ad36145e61c",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Kortan",
+          "color": "#6e4b1e",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "e87ea361-2357-447a-9e53-6a5945ede2ce"
+          ],
+          "locations": [
+            "-1216.70, 69.00, -27.19, 45.00, 0.00"
+          ],
+          "traits": [
+            {
+              "trait": "skintrait",
+              "args": {
+                "skin": "KORTAN"
+              }
+            },
+            {
+              "trait": "randomwalk",
+              "args": {}
+            }
+          ],
+          "conditions": {
+            "conditions": [
+              ""
+            ],
+            "args": [],
+            "ors": [
+              false
+            ],
+            "negates": [
+              false
+            ]
+          },
+          "entityType": "PLAYER",
+          "equipment": {}
         }
       }
     }

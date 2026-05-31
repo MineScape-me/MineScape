@@ -683,6 +683,62 @@
             "42af5ca4-8e1b-4aea-bf71-26f4439dd101"
           ],
           "text": "Well, fruit and grain mostly. I try to give them a\nbalanced diet, but their favourite treat is pineapple\nchunks."
+        },
+        "50827979-e364-4509-9a77-ba87b80bcaee": {
+          "id": "50827979-e364-4509-9a77-ba87b80bcaee",
+          "type": "npc",
+          "selected": false,
+          "x": 130,
+          "y": -180,
+          "ports": [
+            {
+              "id": "01c55cdd-3945-44c1-a713-fdbc1d737151",
+              "type": "default",
+              "x": 522,
+              "y": -152,
+              "name": "out-1780218322412-19246",
+              "alignment": "right",
+              "parentNode": "50827979-e364-4509-9a77-ba87b80bcaee",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Parroty Pete",
+          "color": "#6e4b1e",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "01c55cdd-3945-44c1-a713-fdbc1d737151"
+          ],
+          "locations": [
+            "-1223.37, 69.00, -2.57, 135.00, 0.00"
+          ],
+          "traits": [
+            {
+              "trait": "skintrait",
+              "args": {
+                "skin": "ZOO_KEEPER"
+              }
+            },
+            {
+              "trait": "randomwalk",
+              "args": {}
+            }
+          ],
+          "conditions": {
+            "conditions": [
+              ""
+            ],
+            "args": [],
+            "ors": [
+              false
+            ],
+            "negates": [
+              false
+            ]
+          },
+          "entityType": "PLAYER",
+          "equipment": {}
         }
       }
     }

@@ -1576,6 +1576,62 @@
               false
             ]
           }
+        },
+        "29be79ce-0c15-496a-ad55-6597d4636fa3": {
+          "id": "29be79ce-0c15-496a-ad55-6597d4636fa3",
+          "type": "npc",
+          "selected": false,
+          "x": 10,
+          "y": -262,
+          "ports": [
+            {
+              "id": "fb05beec-0153-4144-bb57-518710a52854",
+              "type": "default",
+              "x": 402,
+              "y": -234,
+              "name": "out-1780218322784-72124",
+              "alignment": "right",
+              "parentNode": "29be79ce-0c15-496a-ad55-6597d4636fa3",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Bob Barter",
+          "color": "#6e4b1e",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "fb05beec-0153-4144-bb57-518710a52854"
+          ],
+          "locations": [
+            "454.42, 63.00, -594.75, 112.50, -1.43"
+          ],
+          "traits": [
+            {
+              "trait": "lookclose",
+              "args": {}
+            },
+            {
+              "trait": "skintrait",
+              "args": {
+                "skin": "BOB_BARTER"
+              }
+            }
+          ],
+          "conditions": {
+            "conditions": [
+              ""
+            ],
+            "args": [],
+            "ors": [
+              false
+            ],
+            "negates": [
+              false
+            ]
+          },
+          "entityType": "PLAYER",
+          "equipment": {}
         }
       }
     }

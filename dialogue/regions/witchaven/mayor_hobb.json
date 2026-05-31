@@ -118,6 +118,62 @@
             "91e41ef8-494d-4b42-bdd2-72011ab848b5"
           ],
           "text": "Well hello there; welcome to our little village. Pray, stay\nawhile."
+        },
+        "75e07846-a862-40d4-a078-c14b7527bc5b": {
+          "id": "75e07846-a862-40d4-a078-c14b7527bc5b",
+          "type": "npc",
+          "selected": false,
+          "x": 169,
+          "y": -264,
+          "ports": [
+            {
+              "id": "ad0070d6-0618-401c-964f-0a69b4805854",
+              "type": "default",
+              "x": 561,
+              "y": -236,
+              "name": "out-1780218322336-72150",
+              "alignment": "right",
+              "parentNode": "75e07846-a862-40d4-a078-c14b7527bc5b",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Mayor Hobb",
+          "color": "#6e4b1e",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "ad0070d6-0618-401c-964f-0a69b4805854"
+          ],
+          "locations": [
+            "-935.45, 67.06, -23.19, 45.00, 0.00"
+          ],
+          "traits": [
+            {
+              "trait": "skintrait",
+              "args": {
+                "skin": "MAYOR_HOBB"
+              }
+            },
+            {
+              "trait": "randomwalk",
+              "args": {}
+            }
+          ],
+          "conditions": {
+            "conditions": [
+              ""
+            ],
+            "args": [],
+            "ors": [
+              false
+            ],
+            "negates": [
+              false
+            ]
+          },
+          "entityType": "PLAYER",
+          "equipment": {}
         }
       }
     }

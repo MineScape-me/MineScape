@@ -549,6 +549,66 @@
           "portsOutOrder": [],
           "tree": "restless_after",
           "start": "Start"
+        },
+        "6b481cbe-e471-4ad9-ba12-0219b3eb061a": {
+          "id": "6b481cbe-e471-4ad9-ba12-0219b3eb061a",
+          "type": "npc",
+          "selected": false,
+          "x": -403.5995736666198,
+          "y": -461.5644387581802,
+          "ports": [
+            {
+              "id": "760c8ed1-fbb6-4969-9def-c10d551963e0",
+              "type": "default",
+              "x": -11.59957366661979,
+              "y": -433.5644387581802,
+              "name": "out-1780218322036-12961",
+              "alignment": "right",
+              "parentNode": "6b481cbe-e471-4ad9-ba12-0219b3eb061a",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Father Aereck",
+          "color": "#6e4b1e",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "760c8ed1-fbb6-4969-9def-c10d551963e0"
+          ],
+          "locations": [
+            "684.03, 63.00, 221.82, 51.34, 0.00"
+          ],
+          "traits": [
+            {
+              "trait": "cluescrolltrait",
+              "args": {}
+            },
+            {
+              "trait": "skintrait",
+              "args": {
+                "skin": "FATHER_AERECK"
+              }
+            },
+            {
+              "trait": "randomwalk",
+              "args": {}
+            }
+          ],
+          "conditions": {
+            "conditions": [
+              ""
+            ],
+            "args": [],
+            "ors": [
+              false
+            ],
+            "negates": [
+              false
+            ]
+          },
+          "entityType": "PLAYER",
+          "equipment": {}
         }
       }
     }

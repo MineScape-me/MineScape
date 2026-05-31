@@ -3076,6 +3076,58 @@
               ]
             ]
           }
+        },
+        "64e130da-c334-444f-aa13-0d74d21189bf": {
+          "id": "64e130da-c334-444f-aa13-0d74d21189bf",
+          "type": "npc",
+          "selected": false,
+          "x": 10,
+          "y": -262,
+          "ports": [
+            {
+              "id": "e84ba71d-7541-4965-aaae-2364d3abdb78",
+              "type": "default",
+              "x": 402,
+              "y": -234,
+              "name": "out-1780218322083-12964",
+              "alignment": "right",
+              "parentNode": "64e130da-c334-444f-aa13-0d74d21189bf",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Gamefred",
+          "color": "#6e4b1e",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "e84ba71d-7541-4965-aaae-2364d3abdb78"
+          ],
+          "locations": [
+            "-537.59, 81.00, -778.98, -38.66, 0.00"
+          ],
+          "traits": [
+            {
+              "trait": "randomwalk",
+              "args": {}
+            }
+          ],
+          "conditions": {
+            "conditions": [
+              ""
+            ],
+            "args": [],
+            "ors": [
+              false
+            ],
+            "negates": [
+              false
+            ]
+          },
+          "entityType": "ARMOR_STAND",
+          "equipment": {
+            "HEAD": "IRON_AXE"
+          }
         }
       }
     }

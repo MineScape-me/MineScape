@@ -1242,6 +1242,62 @@
             "e021e29a-2215-4f47-8ee9-9470fd4143dc"
           ],
           "text": "Thanks."
+        },
+        "4d1cc393-2e07-42c8-89c4-1b2453692f3c": {
+          "id": "4d1cc393-2e07-42c8-89c4-1b2453692f3c",
+          "type": "npc",
+          "selected": false,
+          "x": 119,
+          "y": -256,
+          "ports": [
+            {
+              "id": "e2576afd-347b-4cbc-a9e3-33003b8995ec",
+              "type": "default",
+              "x": 511,
+              "y": -228,
+              "name": "out-1780218321626-42732",
+              "alignment": "right",
+              "parentNode": "4d1cc393-2e07-42c8-89c4-1b2453692f3c",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Alfonse the waiter",
+          "color": "#6e4b1e",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "e2576afd-347b-4cbc-a9e3-33003b8995ec"
+          ],
+          "locations": [
+            "-677.29, 70.00, 289.23, -45.00, 0.00"
+          ],
+          "traits": [
+            {
+              "trait": "randomwalk",
+              "args": {}
+            },
+            {
+              "trait": "skintrait",
+              "args": {
+                "skin": "BARTENDER_BMI"
+              }
+            }
+          ],
+          "conditions": {
+            "conditions": [
+              ""
+            ],
+            "args": [],
+            "ors": [
+              false
+            ],
+            "negates": [
+              false
+            ]
+          },
+          "entityType": "PLAYER",
+          "equipment": {}
         }
       }
     }

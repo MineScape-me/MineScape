@@ -220,6 +220,58 @@
               false
             ]
           }
+        },
+        "40579e99-68d7-4932-9ab8-3fa137eb48e9": {
+          "id": "40579e99-68d7-4932-9ab8-3fa137eb48e9",
+          "type": "npc",
+          "selected": false,
+          "x": 10,
+          "y": -262,
+          "ports": [
+            {
+              "id": "0db8f4d4-7f8b-4ada-aca1-40a4a768b077",
+              "type": "default",
+              "x": 402,
+              "y": -234,
+              "name": "out-1780218322836-72867",
+              "alignment": "right",
+              "parentNode": "40579e99-68d7-4932-9ab8-3fa137eb48e9",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Ponts the Bridgemaster",
+          "color": "#6e4b1e",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "0db8f4d4-7f8b-4ada-aca1-40a4a768b077"
+          ],
+          "locations": [
+            "-1618.49, 34.00, 1330.52, 135.00, 0.00"
+          ],
+          "traits": [
+            {
+              "trait": "randomwalk",
+              "args": {}
+            }
+          ],
+          "conditions": {
+            "conditions": [
+              ""
+            ],
+            "args": [],
+            "ors": [
+              false
+            ],
+            "negates": [
+              false
+            ]
+          },
+          "entityType": "PLAYER",
+          "equipment": {
+            "HAND": "BATTLESTAFF"
+          }
         }
       }
     }

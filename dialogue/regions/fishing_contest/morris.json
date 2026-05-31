@@ -873,6 +873,62 @@
               ]
             ]
           }
+        },
+        "a54b8f97-a0c3-4f7f-a3f0-3158cef16013": {
+          "id": "a54b8f97-a0c3-4f7f-a3f0-3158cef16013",
+          "type": "npc",
+          "selected": false,
+          "x": -66.99999999999997,
+          "y": -345.3636363636364,
+          "ports": [
+            {
+              "id": "ba9d4d88-4862-409d-b4cd-bfa5371b75a4",
+              "type": "default",
+              "x": 325,
+              "y": -317.3636363636364,
+              "name": "out-1780218322363-81977",
+              "alignment": "right",
+              "parentNode": "a54b8f97-a0c3-4f7f-a3f0-3158cef16013",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Morris",
+          "color": "#6e4b1e",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "ba9d4d88-4862-409d-b4cd-bfa5371b75a4"
+          ],
+          "locations": [
+            "-1132.40, 65.00, -471.25, 259.69, -22.44"
+          ],
+          "traits": [
+            {
+              "trait": "skintrait",
+              "args": {
+                "skin": "MORRIS"
+              }
+            },
+            {
+              "trait": "lookclose",
+              "args": {}
+            }
+          ],
+          "conditions": {
+            "conditions": [
+              ""
+            ],
+            "args": [],
+            "ors": [
+              false
+            ],
+            "negates": [
+              false
+            ]
+          },
+          "entityType": "PLAYER",
+          "equipment": {}
         }
       }
     }

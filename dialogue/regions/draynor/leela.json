@@ -710,6 +710,66 @@
           "portsInOrder": [],
           "portsOutOrder": [],
           "text": "Missing after quests"
+        },
+        "86b39b5e-f91e-4527-a241-46f2a93ec1b2": {
+          "id": "86b39b5e-f91e-4527-a241-46f2a93ec1b2",
+          "type": "npc",
+          "selected": false,
+          "x": 119,
+          "y": -289,
+          "ports": [
+            {
+              "id": "84b397f1-de8d-4107-a030-2862320a3ebf",
+              "type": "default",
+              "x": 511,
+              "y": -261,
+              "name": "out-1780218322281-24995",
+              "alignment": "right",
+              "parentNode": "86b39b5e-f91e-4527-a241-46f2a93ec1b2",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Leela",
+          "color": "#6e4b1e",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "84b397f1-de8d-4107-a030-2862320a3ebf"
+          ],
+          "locations": [
+            "296.59, 65.00, 63.89, 92.43, -2.17"
+          ],
+          "traits": [
+            {
+              "trait": "cluescrolltrait",
+              "args": {}
+            },
+            {
+              "trait": "skintrait",
+              "args": {
+                "skin": "DEFAULT_FEMALE_TAN"
+              }
+            },
+            {
+              "trait": "lookclose",
+              "args": {}
+            }
+          ],
+          "conditions": {
+            "conditions": [
+              ""
+            ],
+            "args": [],
+            "ors": [
+              false
+            ],
+            "negates": [
+              false
+            ]
+          },
+          "entityType": "PLAYER",
+          "equipment": {}
         }
       }
     }

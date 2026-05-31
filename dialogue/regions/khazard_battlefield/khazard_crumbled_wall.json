@@ -833,6 +833,51 @@
             "c3c6abbd-ec84-4ced-b797-7c8a66c31373"
           ],
           "switch": "quest[TREE_GNOME_VILLAGE]"
+        },
+        "1fd23ab2-f87b-410f-894e-d611b681eab4": {
+          "id": "1fd23ab2-f87b-410f-894e-d611b681eab4",
+          "type": "npc",
+          "selected": false,
+          "x": -333.253916767005,
+          "y": -206.64963747864635,
+          "ports": [
+            {
+              "id": "a8575c5c-ab8c-4112-919b-e031d8525e4c",
+              "type": "default",
+              "x": 58.74608323299498,
+              "y": -178.64963747864635,
+              "name": "out-1780218322796-4246",
+              "alignment": "right",
+              "parentNode": "1fd23ab2-f87b-410f-894e-d611b681eab4",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Climb Over",
+          "color": "#6e4b1e",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "a8575c5c-ab8c-4112-919b-e031d8525e4c"
+          ],
+          "locations": [
+            "-1535.50, 73.00, 92.50, 0.00, 0.00"
+          ],
+          "traits": [],
+          "conditions": {
+            "conditions": [
+              ""
+            ],
+            "args": [],
+            "ors": [
+              false
+            ],
+            "negates": [
+              false
+            ]
+          },
+          "entityType": "ARMOR_STAND",
+          "equipment": {}
         }
       }
     }

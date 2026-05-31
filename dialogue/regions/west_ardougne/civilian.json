@@ -1452,6 +1452,73 @@
           "portsInOrder": [],
           "portsOutOrder": [],
           "text": "bald, green shirt, soft leather body, brown shorts, male "
+        },
+        "68643d14-2451-46ae-96ff-acc65b89f58a": {
+          "id": "68643d14-2451-46ae-96ff-acc65b89f58a",
+          "type": "npc",
+          "selected": false,
+          "x": 10,
+          "y": -548,
+          "ports": [
+            {
+              "id": "61cca5e8-b279-4432-919e-c65ced7128f2",
+              "type": "default",
+              "x": 402,
+              "y": -520,
+              "name": "out-1780218321840-48682",
+              "alignment": "right",
+              "parentNode": "68643d14-2451-46ae-96ff-acc65b89f58a",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Civilian",
+          "color": "#6e4b1e",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "61cca5e8-b279-4432-919e-c65ced7128f2"
+          ],
+          "locations": [
+            "-1621.55, 68.00, -17.50, 45.00, 0.00",
+            "-1629.43, 68.00, -26.76, 53.13, 0.00",
+            "-1594.40, 66.00, -16.84, 210.96, 0.00",
+            "-1586.52, 68.00, -52.54, -30.96, 0.00",
+            "-1635.42, 67.00, -42.66, 225.00, 0.00",
+            "-1603.42, 67.00, -79.59, 59.04, 0.00",
+            "-1581.52, 67.00, -87.58, 51.34, 0.00",
+            "-1591.48, 67.00, -93.54, -30.96, 0.00",
+            "-1632.44, 65.00, -88.74, 141.34, 0.00",
+            "-1652.50, 66.00, -83.66, -53.13, 0.00",
+            "-1658.42, 67.00, -67.56, 141.34, 0.00",
+            "-1637.54, 68.00, -98.40, 233.13, 0.00"
+          ],
+          "traits": [
+            {
+              "trait": "randomwalk",
+              "args": {}
+            },
+            {
+              "trait": "skintrait",
+              "args": {
+                "skin": "CIVILIAN_WEST_ARDOUGNE_VARIANT_1"
+              }
+            }
+          ],
+          "conditions": {
+            "conditions": [
+              ""
+            ],
+            "args": [],
+            "ors": [
+              false
+            ],
+            "negates": [
+              false
+            ]
+          },
+          "entityType": "PLAYER",
+          "equipment": {}
         }
       }
     }

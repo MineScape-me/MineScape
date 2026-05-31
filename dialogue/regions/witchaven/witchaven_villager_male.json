@@ -340,6 +340,66 @@
             "87db2336-a015-44b5-89af-f60c6cb8cc14"
           ],
           "text": "It's nothing stranger. No need to concern yourself."
+        },
+        "6e0bfdb4-840d-4217-8f7f-eed8f2ab102c": {
+          "id": "6e0bfdb4-840d-4217-8f7f-eed8f2ab102c",
+          "type": "npc",
+          "selected": false,
+          "x": 10,
+          "y": -366,
+          "ports": [
+            {
+              "id": "a1eec137-6fdd-4bc1-ae76-7290990c66e9",
+              "type": "default",
+              "x": 402,
+              "y": -338,
+              "name": "out-1780218322704-31661",
+              "alignment": "right",
+              "parentNode": "6e0bfdb4-840d-4217-8f7f-eed8f2ab102c",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Witchaven Villager",
+          "color": "#6e4b1e",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "a1eec137-6fdd-4bc1-ae76-7290990c66e9"
+          ],
+          "locations": [
+            "-886.46, 66.00, -25.26, 225.00, 0.00",
+            "-859.81, 66.00, 0.34, 210.96, 0.00",
+            "-852.43, 65.00, -50.43, 126.87, 0.00",
+            "-911.32, 67.00, -7.57, 239.04, 0.00",
+            "-904.61, 66.00, 16.30, -38.66, 0.00"
+          ],
+          "traits": [
+            {
+              "trait": "skintrait",
+              "args": {
+                "skin": "WITCHAVEN_VILLAGER_MALE"
+              }
+            },
+            {
+              "trait": "randomwalk",
+              "args": {}
+            }
+          ],
+          "conditions": {
+            "conditions": [
+              ""
+            ],
+            "args": [],
+            "ors": [
+              false
+            ],
+            "negates": [
+              false
+            ]
+          },
+          "entityType": "PLAYER",
+          "equipment": {}
         }
       }
     }

@@ -6065,6 +6065,66 @@
           "portsInOrder": [],
           "portsOutOrder": [],
           "text": "Missing After"
+        },
+        "d26783b2-66df-44ea-8947-b6c077640bf9": {
+          "id": "d26783b2-66df-44ea-8947-b6c077640bf9",
+          "type": "npc",
+          "selected": false,
+          "x": 22,
+          "y": -283,
+          "ports": [
+            {
+              "id": "c3c2c82c-fadd-445c-9ec6-34f8375073a5",
+              "type": "default",
+              "x": 414,
+              "y": -255,
+              "name": "out-1780218322274-16758",
+              "alignment": "right",
+              "parentNode": "d26783b2-66df-44ea-8947-b6c077640bf9",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Lady Keli",
+          "color": "#6e4b1e",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "c3c2c82c-fadd-445c-9ec6-34f8375073a5"
+          ],
+          "locations": [
+            "323.98, 64.00, 133.93, 128.66, 0.00"
+          ],
+          "traits": [
+            {
+              "trait": "cluescrolltrait",
+              "args": {}
+            },
+            {
+              "trait": "skintrait",
+              "args": {
+                "skin": "WOMAN"
+              }
+            },
+            {
+              "trait": "randomwalk",
+              "args": {}
+            }
+          ],
+          "conditions": {
+            "conditions": [
+              ""
+            ],
+            "args": [],
+            "ors": [
+              false
+            ],
+            "negates": [
+              false
+            ]
+          },
+          "entityType": "PLAYER",
+          "equipment": {}
         }
       }
     }

@@ -488,6 +488,58 @@
             "01c1acad-923e-412e-8c35-730da280f440"
           ],
           "text": "I think that says more about you than cats."
+        },
+        "69d0ded2-b1ef-4b39-b5aa-ed6713f5e393": {
+          "id": "69d0ded2-b1ef-4b39-b5aa-ed6713f5e393",
+          "type": "npc",
+          "selected": false,
+          "x": 184,
+          "y": -228,
+          "ports": [
+            {
+              "id": "e9ab1d8e-c591-4ff8-aac9-ef9d928d6581",
+              "type": "default",
+              "x": 576,
+              "y": -200,
+              "name": "out-1780218322430-47027",
+              "alignment": "right",
+              "parentNode": "69d0ded2-b1ef-4b39-b5aa-ed6713f5e393",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Professor Imblewyn",
+          "color": "#6e4b1e",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "e9ab1d8e-c591-4ff8-aac9-ef9d928d6581"
+          ],
+          "locations": [
+            "-1297.58, 67.00, 587.92, 128.66, 0.00"
+          ],
+          "traits": [
+            {
+              "trait": "randomwalk",
+              "args": {}
+            }
+          ],
+          "conditions": {
+            "conditions": [
+              ""
+            ],
+            "args": [],
+            "ors": [
+              false
+            ],
+            "negates": [
+              false
+            ]
+          },
+          "entityType": "ARMOR_STAND",
+          "equipment": {
+            "HEAD": "IRON_AXE"
+          }
         }
       }
     }

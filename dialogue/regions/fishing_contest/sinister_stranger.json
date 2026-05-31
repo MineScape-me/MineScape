@@ -2019,6 +2019,62 @@
             "06171106-06f9-479c-8d55-2bf95aa846ec"
           ],
           "text": "Luck haz notsing to do vith it it is all in ze technique."
+        },
+        "9c3db2f9-906d-4ec4-a570-c413492d1f97": {
+          "id": "9c3db2f9-906d-4ec4-a570-c413492d1f97",
+          "type": "npc",
+          "selected": false,
+          "x": 103,
+          "y": -249,
+          "ports": [
+            {
+              "id": "3c50433d-81f2-45ad-b918-cc8fdb53b2f4",
+              "type": "default",
+              "x": 495,
+              "y": -221,
+              "name": "out-1780218322544-68631",
+              "alignment": "right",
+              "parentNode": "9c3db2f9-906d-4ec4-a570-c413492d1f97",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Sinister Stranger",
+          "color": "#6e4b1e",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "3c50433d-81f2-45ad-b918-cc8fdb53b2f4"
+          ],
+          "locations": [
+            "-1144.01, 63.00, -481.09, 42.46, -17.43"
+          ],
+          "traits": [
+            {
+              "trait": "skintrait",
+              "args": {
+                "skin": "SINISTER_STRANGER"
+              }
+            },
+            {
+              "trait": "lookclose",
+              "args": {}
+            }
+          ],
+          "conditions": {
+            "conditions": [
+              ""
+            ],
+            "args": [],
+            "ors": [
+              false
+            ],
+            "negates": [
+              false
+            ]
+          },
+          "entityType": "PLAYER",
+          "equipment": {}
         }
       }
     }

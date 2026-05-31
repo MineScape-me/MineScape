@@ -1784,6 +1784,62 @@
             "3bf2066d-b098-419a-b198-f2006ad01e1a"
           ],
           "text": "Remember, you'll need to keep paying your servant.\nYou pay them once when you hire them, and then\nthey'll periodically ask for wages. You can dismiss your\nservant at any time."
+        },
+        "7ce0965e-e3aa-4ef3-b319-777455bd4ba9": {
+          "id": "7ce0965e-e3aa-4ef3-b319-777455bd4ba9",
+          "type": "npc",
+          "selected": false,
+          "x": 10,
+          "y": -262,
+          "ports": [
+            {
+              "id": "ea8a1301-ff0a-43f1-a63a-a4239132d332",
+              "type": "default",
+              "x": 402,
+              "y": -234,
+              "name": "out-1780218321834-21285",
+              "alignment": "right",
+              "parentNode": "7ce0965e-e3aa-4ef3-b319-777455bd4ba9",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Chief Servant",
+          "color": "#6e4b1e",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "ea8a1301-ff0a-43f1-a63a-a4239132d332"
+          ],
+          "locations": [
+            "-1067.52, 69.06, -141.28, 218.66, 0.00"
+          ],
+          "traits": [
+            {
+              "trait": "randomwalk",
+              "args": {}
+            },
+            {
+              "trait": "skintrait",
+              "args": {
+                "skin": "CHIEF_SERVANT"
+              }
+            }
+          ],
+          "conditions": {
+            "conditions": [
+              ""
+            ],
+            "args": [],
+            "ors": [
+              false
+            ],
+            "negates": [
+              false
+            ]
+          },
+          "entityType": "PLAYER",
+          "equipment": {}
         }
       }
     }

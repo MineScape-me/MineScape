@@ -3143,6 +3143,53 @@
             "25f092a6-3d36-4a00-a6e7-f068b013308c"
           ],
           "text": "I'm off."
+        },
+        "adb4c41c-f8c8-422e-bd17-1379a31a9075": {
+          "id": "adb4c41c-f8c8-422e-bd17-1379a31a9075",
+          "type": "npc",
+          "selected": false,
+          "x": 280,
+          "y": -193,
+          "ports": [
+            {
+              "id": "02746bc1-94da-45b9-9970-8efa7993bcea",
+              "type": "default",
+              "x": 672,
+              "y": -165,
+              "name": "out-1780218321947-51100",
+              "alignment": "right",
+              "parentNode": "adb4c41c-f8c8-422e-bd17-1379a31a9075",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Dusuri",
+          "color": "#6e4b1e",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "02746bc1-94da-45b9-9970-8efa7993bcea"
+          ],
+          "locations": [
+            "17.56, 63.00, -164.24, -0.22, 0.75"
+          ],
+          "traits": [],
+          "conditions": {
+            "conditions": [
+              ""
+            ],
+            "args": [],
+            "ors": [
+              false
+            ],
+            "negates": [
+              false
+            ]
+          },
+          "entityType": "ARMOR_STAND",
+          "equipment": {
+            "HEAD": "APPLE"
+          }
         }
       }
     }

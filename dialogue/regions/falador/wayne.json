@@ -508,6 +508,66 @@
             "3a8f80f1-96ea-4be2-840d-6f34ddd17fc5"
           ],
           "text": "No thanks."
+        },
+        "0c503294-a1e5-44a1-a2d3-73f94d906f37": {
+          "id": "0c503294-a1e5-44a1-a2d3-73f94d906f37",
+          "type": "npc",
+          "selected": false,
+          "x": 298,
+          "y": -143,
+          "ports": [
+            {
+              "id": "3b7f205f-023d-40a6-a852-f79dede5dc65",
+              "type": "default",
+              "x": 690,
+              "y": -115,
+              "name": "out-1780218322694-55147",
+              "alignment": "right",
+              "parentNode": "0c503294-a1e5-44a1-a2d3-73f94d906f37",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Wayne",
+          "color": "#6e4b1e",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "3b7f205f-023d-40a6-a852-f79dede5dc65"
+          ],
+          "locations": [
+            "-121.47, 63.00, -87.33, -84.87, -35.58"
+          ],
+          "traits": [
+            {
+              "trait": "lookclose",
+              "args": {}
+            },
+            {
+              "trait": "skintrait",
+              "args": {
+                "skin": "BLACKSMITH"
+              }
+            }
+          ],
+          "conditions": {
+            "conditions": [
+              ""
+            ],
+            "args": [],
+            "ors": [
+              false
+            ],
+            "negates": [
+              false
+            ]
+          },
+          "entityType": "PLAYER",
+          "equipment": {
+            "FEET": "RUNE_BOOTS",
+            "LEGS": "RUNE_PLATELEGS",
+            "CHEST": "RUNE_PLATEBODY"
+          }
         }
       }
     }

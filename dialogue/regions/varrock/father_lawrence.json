@@ -695,6 +695,62 @@
           "portsOutOrder": [],
           "tree": "romeo_death",
           "start": "Start"
+        },
+        "fc9f8d7f-9770-4f9c-85cf-a7633111afb5": {
+          "id": "fc9f8d7f-9770-4f9c-85cf-a7633111afb5",
+          "type": "npc",
+          "selected": false,
+          "x": 10,
+          "y": -262,
+          "ports": [
+            {
+              "id": "b417e0d1-d0d7-4e47-8ced-441f7bf9b10d",
+              "type": "default",
+              "x": 402,
+              "y": -234,
+              "name": "out-1780218322040-86516",
+              "alignment": "right",
+              "parentNode": "fc9f8d7f-9770-4f9c-85cf-a7633111afb5",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Father Lawrence",
+          "color": "#6e4b1e",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "b417e0d1-d0d7-4e47-8ced-441f7bf9b10d"
+          ],
+          "locations": [
+            "708.88, 64.50, -615.67, -18.26, -36.16"
+          ],
+          "traits": [
+            {
+              "trait": "skintrait",
+              "args": {
+                "skin": "FATHER_LAWRENCE"
+              }
+            },
+            {
+              "trait": "lookclose",
+              "args": {}
+            }
+          ],
+          "conditions": {
+            "conditions": [
+              ""
+            ],
+            "args": [],
+            "ors": [
+              false
+            ],
+            "negates": [
+              false
+            ]
+          },
+          "entityType": "PLAYER",
+          "equipment": {}
         }
       }
     }

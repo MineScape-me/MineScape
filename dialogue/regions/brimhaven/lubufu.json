@@ -832,6 +832,62 @@
             "aef84698-0dd2-4424-9d4e-b0269671310a"
           ],
           "text": "\"What a foolish question! Now leave!"
+        },
+        "04046309-b3fe-4d43-b6fe-2badce47b16f": {
+          "id": "04046309-b3fe-4d43-b6fe-2badce47b16f",
+          "type": "npc",
+          "selected": false,
+          "x": 220,
+          "y": -210,
+          "ports": [
+            {
+              "id": "5cd6dcc5-904f-4271-a159-7291f5522bda",
+              "type": "default",
+              "x": 612,
+              "y": -182,
+              "name": "out-1780218322296-37034",
+              "alignment": "right",
+              "parentNode": "04046309-b3fe-4d43-b6fe-2badce47b16f",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Lubufu",
+          "color": "#6e4b1e",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "5cd6dcc5-904f-4271-a159-7291f5522bda"
+          ],
+          "locations": [
+            "-755.68, 64.00, 343.82, 59.04, 0.00"
+          ],
+          "traits": [
+            {
+              "trait": "randomwalk",
+              "args": {}
+            },
+            {
+              "trait": "skintrait",
+              "args": {
+                "skin": "LUBUFU"
+              }
+            }
+          ],
+          "conditions": {
+            "conditions": [
+              ""
+            ],
+            "args": [],
+            "ors": [
+              false
+            ],
+            "negates": [
+              false
+            ]
+          },
+          "entityType": "PLAYER",
+          "equipment": {}
         }
       }
     }

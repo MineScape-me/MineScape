@@ -489,6 +489,62 @@
           "portsOutOrder": [],
           "tree": "ernest_after",
           "start": "Start"
+        },
+        "c7442d01-c8cb-44c0-820e-1b124e93d438": {
+          "id": "c7442d01-c8cb-44c0-820e-1b124e93d438",
+          "type": "npc",
+          "selected": false,
+          "x": 10,
+          "y": -262,
+          "ports": [
+            {
+              "id": "6409809b-23d9-4d8c-8d5b-f35b05f6f113",
+              "type": "default",
+              "x": 402,
+              "y": -234,
+              "name": "out-1780218322685-99385",
+              "alignment": "right",
+              "parentNode": "c7442d01-c8cb-44c0-820e-1b124e93d438",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Veronica",
+          "color": "#6e4b1e",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "6409809b-23d9-4d8c-8d5b-f35b05f6f113"
+          ],
+          "locations": [
+            "272.34, 63.00, -142.49, 210.96, 0.00"
+          ],
+          "traits": [
+            {
+              "trait": "skintrait",
+              "args": {
+                "skin": "WOMAN"
+              }
+            },
+            {
+              "trait": "randomwalk",
+              "args": {}
+            }
+          ],
+          "conditions": {
+            "conditions": [
+              ""
+            ],
+            "args": [],
+            "ors": [
+              false
+            ],
+            "negates": [
+              false
+            ]
+          },
+          "entityType": "PLAYER",
+          "equipment": {}
         }
       }
     }

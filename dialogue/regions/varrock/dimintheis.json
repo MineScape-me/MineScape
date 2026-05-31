@@ -2110,6 +2110,62 @@
             "6b499f0b-7b9d-4abb-a365-d10edb27b712"
           ],
           "text": "Why would he do that?"
+        },
+        "e0a0e14e-d73d-4b95-8ad1-62bd9563907d": {
+          "id": "e0a0e14e-d73d-4b95-8ad1-62bd9563907d",
+          "type": "npc",
+          "selected": false,
+          "x": 117,
+          "y": -250,
+          "ports": [
+            {
+              "id": "cff82d52-3322-4b1f-8ae8-e8f3a364d85b",
+              "type": "default",
+              "x": 509,
+              "y": -222,
+              "name": "out-1780218321903-92675",
+              "alignment": "right",
+              "parentNode": "e0a0e14e-d73d-4b95-8ad1-62bd9563907d",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Dimintheis",
+          "color": "#6e4b1e",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "cff82d52-3322-4b1f-8ae8-e8f3a364d85b"
+          ],
+          "locations": [
+            "780.10, 64.38, -357.20, -45.00, 0.00"
+          ],
+          "traits": [
+            {
+              "trait": "skintrait",
+              "args": {
+                "skin": "DIMINTHEIS"
+              }
+            },
+            {
+              "trait": "randomwalk",
+              "args": {}
+            }
+          ],
+          "conditions": {
+            "conditions": [
+              ""
+            ],
+            "args": [],
+            "ors": [
+              false
+            ],
+            "negates": [
+              false
+            ]
+          },
+          "entityType": "PLAYER",
+          "equipment": {}
         }
       }
     }

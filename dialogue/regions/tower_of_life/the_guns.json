@@ -1533,6 +1533,60 @@
               false
             ]
           }
+        },
+        "876d150d-8e99-4a20-9ecb-9f5f4e7b31e9": {
+          "id": "876d150d-8e99-4a20-9ecb-9f5f4e7b31e9",
+          "type": "npc",
+          "selected": false,
+          "x": -166,
+          "y": -292,
+          "ports": [
+            {
+              "id": "09faf8b3-a093-4bec-a115-a43575009c82",
+              "type": "default",
+              "x": 226,
+              "y": -264,
+              "name": "out-1780218321589-81479",
+              "alignment": "right",
+              "parentNode": "876d150d-8e99-4a20-9ecb-9f5f4e7b31e9",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "'The Guns'",
+          "color": "#6e4b1e",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "09faf8b3-a093-4bec-a115-a43575009c82"
+          ],
+          "locations": [
+            "-1131.45, 67.00, 173.64, -0.29, 0.30"
+          ],
+          "traits": [
+            {
+              "trait": "skintrait",
+              "args": {
+                "skin": "THE_GUNS"
+              }
+            }
+          ],
+          "conditions": {
+            "conditions": [
+              ""
+            ],
+            "args": [],
+            "ors": [
+              false
+            ],
+            "negates": [
+              false
+            ]
+          },
+          "entityType": "PLAYER",
+          "equipment": {
+            "HEAD": "HARD_HAT"
+          }
         }
       }
     }

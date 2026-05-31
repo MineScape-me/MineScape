@@ -1001,6 +1001,64 @@
               ]
             ]
           }
+        },
+        "0aaa45cf-c2ed-4507-afc1-715609bfda93": {
+          "id": "0aaa45cf-c2ed-4507-afc1-715609bfda93",
+          "type": "npc",
+          "selected": false,
+          "x": 84,
+          "y": -318,
+          "ports": [
+            {
+              "id": "a1397be4-d614-43c0-89fc-625b79d8055f",
+              "type": "default",
+              "x": 476,
+              "y": -290,
+              "name": "out-1780218322721-46017",
+              "alignment": "right",
+              "parentNode": "0aaa45cf-c2ed-4507-afc1-715609bfda93",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Wizard Sinina",
+          "color": "#6e4b1e",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "a1397be4-d614-43c0-89fc-625b79d8055f"
+          ],
+          "locations": [
+            "-1276.25, 75.00, 590.05, 135.00, 0.00"
+          ],
+          "traits": [
+            {
+              "trait": "skintrait",
+              "args": {
+                "skin": "WIZARD_SININA"
+              }
+            },
+            {
+              "trait": "randomwalk",
+              "args": {}
+            }
+          ],
+          "conditions": {
+            "conditions": [
+              ""
+            ],
+            "args": [],
+            "ors": [
+              false
+            ],
+            "negates": [
+              false
+            ]
+          },
+          "entityType": "PLAYER",
+          "equipment": {
+            "HEAD": "MYSTIC_HAT_BLUE"
+          }
         }
       }
     }

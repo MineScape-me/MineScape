@@ -128,6 +128,64 @@
               ]
             ]
           }
+        },
+        "ae46cf38-31fe-4b60-ad8d-fc27c590fe28": {
+          "id": "ae46cf38-31fe-4b60-ad8d-fc27c590fe28",
+          "type": "npc",
+          "selected": false,
+          "x": 83,
+          "y": -286,
+          "ports": [
+            {
+              "id": "edd94b74-8ca2-4b09-8f70-19b52b82165a",
+              "type": "default",
+              "x": 475,
+              "y": -258,
+              "name": "out-1780218322266-85172",
+              "alignment": "right",
+              "parentNode": "ae46cf38-31fe-4b60-ad8d-fc27c590fe28",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Kragen",
+          "color": "#6e4b1e",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "edd94b74-8ca2-4b09-8f70-19b52b82165a"
+          ],
+          "locations": [
+            "-1054.52, 67.00, -274.17, 126.87, 0.00"
+          ],
+          "traits": [
+            {
+              "trait": "skintrait",
+              "args": {
+                "skin": "FARMER"
+              }
+            },
+            {
+              "trait": "randomwalk",
+              "args": {}
+            }
+          ],
+          "conditions": {
+            "conditions": [
+              ""
+            ],
+            "args": [],
+            "ors": [
+              false
+            ],
+            "negates": [
+              false
+            ]
+          },
+          "entityType": "PLAYER",
+          "equipment": {
+            "HAND": "SPADE"
+          }
         }
       }
     }

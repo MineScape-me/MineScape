@@ -679,6 +679,58 @@
             "cef83786-4a56-4926-8f33-14df710063e1"
           ],
           "switch": "quest[WATERFALL_QUEST]"
+        },
+        "8ff5ce54-b893-4ee9-91db-449c51880d40": {
+          "id": "8ff5ce54-b893-4ee9-91db-449c51880d40",
+          "type": "npc",
+          "selected": false,
+          "x": 10,
+          "y": -262,
+          "ports": [
+            {
+              "id": "7a0c0f61-ffdf-4853-bc7d-bcbb8300a1df",
+              "type": "default",
+              "x": 402,
+              "y": -234,
+              "name": "out-1780263662006-68165",
+              "alignment": "right",
+              "parentNode": "8ff5ce54-b893-4ee9-91db-449c51880d40",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Golrie",
+          "color": "#6e4b1e",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "7a0c0f61-ffdf-4853-bc7d-bcbb8300a1df"
+          ],
+          "locations": [
+            "-1517.42, 55.00, 307.12, 128.66, 0.00"
+          ],
+          "traits": [
+            {
+              "trait": "randomwalk",
+              "args": {}
+            }
+          ],
+          "conditions": {
+            "conditions": [
+              ""
+            ],
+            "args": [],
+            "ors": [
+              false
+            ],
+            "negates": [
+              false
+            ]
+          },
+          "entityType": "ARMOR_STAND",
+          "equipment": {
+            "HEAD": "IRON_AXE"
+          }
         }
       }
     }

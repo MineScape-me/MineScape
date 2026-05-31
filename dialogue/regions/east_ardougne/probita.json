@@ -1015,6 +1015,62 @@
             "75ac19b0-c237-4a51-a494-2312a4b6bb1a"
           ],
           "text": "The insurance fee is a one-off charge; once you've\ninsured a pet, it stays insured no matter how many\ntimes you lose it and reclaim it. You just have to pay\nthe reclamation fee each time."
+        },
+        "5b036513-f89d-4a1e-af29-ab84a48aac6b": {
+          "id": "5b036513-f89d-4a1e-af29-ab84a48aac6b",
+          "type": "npc",
+          "selected": false,
+          "x": 10,
+          "y": -262,
+          "ports": [
+            {
+              "id": "21eeef66-327e-4117-ac30-f7972b22e265",
+              "type": "default",
+              "x": 402,
+              "y": -234,
+              "name": "out-1780218322428-49414",
+              "alignment": "right",
+              "parentNode": "5b036513-f89d-4a1e-af29-ab84a48aac6b",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Probita",
+          "color": "#6e4b1e",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "21eeef66-327e-4117-ac30-f7972b22e265"
+          ],
+          "locations": [
+            "-1196.63, 69.00, -27.51, 141.34, 0.00"
+          ],
+          "traits": [
+            {
+              "trait": "skintrait",
+              "args": {
+                "skin": "PROBITA"
+              }
+            },
+            {
+              "trait": "randomwalk",
+              "args": {}
+            }
+          ],
+          "conditions": {
+            "conditions": [
+              ""
+            ],
+            "args": [],
+            "ors": [
+              false
+            ],
+            "negates": [
+              false
+            ]
+          },
+          "entityType": "PLAYER",
+          "equipment": {}
         }
       }
     }

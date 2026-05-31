@@ -563,6 +563,62 @@
           "portsOutOrder": [],
           "tree": "abyss_finish",
           "start": "Start"
+        },
+        "2379536a-5725-4f4e-92f9-ba491bf9a59d": {
+          "id": "2379536a-5725-4f4e-92f9-ba491bf9a59d",
+          "type": "npc",
+          "selected": false,
+          "x": 10,
+          "y": -262,
+          "ports": [
+            {
+              "id": "1150767b-8e18-4921-9aff-c85adda355a2",
+              "type": "default",
+              "x": 402,
+              "y": -234,
+              "name": "out-1780218322312-45867",
+              "alignment": "right",
+              "parentNode": "2379536a-5725-4f4e-92f9-ba491bf9a59d",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Mage of Zamorak",
+          "color": "#6e4b1e",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "1150767b-8e18-4921-9aff-c85adda355a2"
+          ],
+          "locations": [
+            "726.43, 63.06, -304.40, 225.00, 0.00"
+          ],
+          "traits": [
+            {
+              "trait": "randomwalk",
+              "args": {}
+            },
+            {
+              "trait": "skintrait",
+              "args": {
+                "skin": "MAGE_OF_ZAMORAK"
+              }
+            }
+          ],
+          "conditions": {
+            "conditions": [
+              ""
+            ],
+            "args": [],
+            "ors": [
+              false
+            ],
+            "negates": [
+              false
+            ]
+          },
+          "entityType": "PLAYER",
+          "equipment": {}
         }
       }
     }

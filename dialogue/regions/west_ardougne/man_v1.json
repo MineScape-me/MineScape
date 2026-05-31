@@ -264,6 +264,63 @@
             "33a5f9f5-4248-488e-849e-0e53c49cd5ef"
           ],
           "text": "Sorry, that's not what I'm here to do."
+        },
+        "c5a0ddab-adf3-418a-9adb-fa39f3ce6d76": {
+          "id": "c5a0ddab-adf3-418a-9adb-fa39f3ce6d76",
+          "type": "npc",
+          "selected": false,
+          "x": 10,
+          "y": -288,
+          "ports": [
+            {
+              "id": "acc16653-119c-4a68-957b-08f0db062d0a",
+              "type": "default",
+              "x": 402,
+              "y": -260,
+              "name": "out-1780218322322-64806",
+              "alignment": "right",
+              "parentNode": "c5a0ddab-adf3-418a-9adb-fa39f3ce6d76",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Man",
+          "color": "#6e4b1e",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "acc16653-119c-4a68-957b-08f0db062d0a"
+          ],
+          "locations": [
+            "-1441.42, 68.00, -71.73, -45.00, 0.00",
+            "-1454.37, 68.00, -72.59, 141.34, 0.00"
+          ],
+          "traits": [
+            {
+              "trait": "randomwalk",
+              "args": {}
+            },
+            {
+              "trait": "skintrait",
+              "args": {
+                "skin": "MAN_WEST_ARDOUGNE_VARIANT_1"
+              }
+            }
+          ],
+          "conditions": {
+            "conditions": [
+              ""
+            ],
+            "args": [],
+            "ors": [
+              false
+            ],
+            "negates": [
+              false
+            ]
+          },
+          "entityType": "PLAYER",
+          "equipment": {}
         }
       }
     }

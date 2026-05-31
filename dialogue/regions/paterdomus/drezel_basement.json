@@ -1924,6 +1924,62 @@
           "portsOutOrder": [],
           "tree": "lost_wolfbane",
           "start": "Start"
+        },
+        "b255bbc1-54b8-4894-a042-ced77ff9c037": {
+          "id": "b255bbc1-54b8-4894-a042-ced77ff9c037",
+          "type": "npc",
+          "selected": false,
+          "x": -599,
+          "y": -259,
+          "ports": [
+            {
+              "id": "efd19c9b-b748-46ce-a53a-1872f74c26bb",
+              "type": "default",
+              "x": -207,
+              "y": -231,
+              "name": "out-1780218321933-61197",
+              "alignment": "right",
+              "parentNode": "b255bbc1-54b8-4894-a042-ced77ff9c037",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Drezel",
+          "color": "#6e4b1e",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "efd19c9b-b748-46ce-a53a-1872f74c26bb"
+          ],
+          "locations": [
+            "1223.33, 46.00, -629.19, 239.04, 0.00"
+          ],
+          "traits": [
+            {
+              "trait": "skintrait",
+              "args": {
+                "skin": "DREZEL"
+              }
+            },
+            {
+              "trait": "randomwalk",
+              "args": {}
+            }
+          ],
+          "conditions": {
+            "conditions": [
+              ""
+            ],
+            "args": [],
+            "ors": [
+              false
+            ],
+            "negates": [
+              false
+            ]
+          },
+          "entityType": "PLAYER",
+          "equipment": {}
         }
       }
     }

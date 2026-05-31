@@ -128,6 +128,65 @@
               ]
             ]
           }
+        },
+        "e59dd5b5-c8e7-43c1-bf81-95faebf50e10": {
+          "id": "e59dd5b5-c8e7-43c1-bf81-95faebf50e10",
+          "type": "npc",
+          "selected": false,
+          "x": 83,
+          "y": -312,
+          "ports": [
+            {
+              "id": "4ee2bacc-e02f-4374-939d-3d88e1eecc5a",
+              "type": "default",
+              "x": 475,
+              "y": -284,
+              "name": "out-1780218322515-99627",
+              "alignment": "right",
+              "parentNode": "e59dd5b5-c8e7-43c1-bf81-95faebf50e10",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Selena",
+          "color": "#6e4b1e",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "4ee2bacc-e02f-4374-939d-3d88e1eecc5a"
+          ],
+          "locations": [
+            "-1325.68, 67.00, 545.80, 210.96, 0.00"
+          ],
+          "traits": [
+            {
+              "trait": "randomwalk",
+              "args": {}
+            },
+            {
+              "trait": "skintrait",
+              "args": {
+                "skin": "SELENA"
+              }
+            }
+          ],
+          "conditions": {
+            "conditions": [
+              ""
+            ],
+            "args": [],
+            "ors": [
+              false
+            ],
+            "negates": [
+              false
+            ]
+          },
+          "entityType": "PLAYER",
+          "equipment": {
+            "HAND": "WATERING_CAN",
+            "HEAD": "TEAL_HAT"
+          }
         }
       }
     }

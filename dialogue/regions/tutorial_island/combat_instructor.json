@@ -1184,6 +1184,68 @@
               ]
             ]
           }
+        },
+        "1747fe22-a515-48d5-bef5-c3e158487a76": {
+          "id": "1747fe22-a515-48d5-bef5-c3e158487a76",
+          "type": "npc",
+          "selected": false,
+          "x": 3,
+          "y": -412,
+          "ports": [
+            {
+              "id": "234d655a-97aa-4ce8-bed7-c1ff952a6a9f",
+              "type": "default",
+              "x": 395,
+              "y": -384,
+              "name": "out-1780218321858-95234",
+              "alignment": "right",
+              "parentNode": "1747fe22-a515-48d5-bef5-c3e158487a76",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Combat Instructor",
+          "color": "#6e4b1e",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "234d655a-97aa-4ce8-bed7-c1ff952a6a9f"
+          ],
+          "locations": [
+            "210.57, 44.00, 605.58, 103.52, -5.76"
+          ],
+          "traits": [
+            {
+              "trait": "lookclose",
+              "args": {}
+            },
+            {
+              "trait": "skintrait",
+              "args": {
+                "skin": "VANNAKA"
+              }
+            }
+          ],
+          "conditions": {
+            "conditions": [
+              ""
+            ],
+            "args": [],
+            "ors": [
+              false
+            ],
+            "negates": [
+              false
+            ]
+          },
+          "entityType": "PLAYER",
+          "equipment": {
+            "HAND": "STEEL_2H_SWORD",
+            "OFF_HAND": "AIR",
+            "FEET": "AIR",
+            "LEGS": "AIR",
+            "CHEST": "AIR"
+          }
         }
       }
     }

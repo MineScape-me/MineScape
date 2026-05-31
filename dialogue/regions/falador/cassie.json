@@ -507,6 +507,64 @@
               ]
             ]
           }
+        },
+        "e9289fe0-37af-406f-9e95-df0d8e8917ad": {
+          "id": "e9289fe0-37af-406f-9e95-df0d8e8917ad",
+          "type": "npc",
+          "selected": false,
+          "x": 243,
+          "y": -48,
+          "ports": [
+            {
+              "id": "0a778363-734c-4495-91ac-fae6b9bde45b",
+              "type": "default",
+              "x": 635,
+              "y": -20,
+              "name": "out-1780218321820-45805",
+              "alignment": "right",
+              "parentNode": "e9289fe0-37af-406f-9e95-df0d8e8917ad",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Cassie",
+          "color": "#6e4b1e",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "0a778363-734c-4495-91ac-fae6b9bde45b"
+          ],
+          "locations": [
+            "-131.61, 65.00, -299.89, 28.39, 2.17"
+          ],
+          "traits": [
+            {
+              "trait": "lookclose",
+              "args": {}
+            },
+            {
+              "trait": "skintrait",
+              "args": {
+                "skin": "DEFAULT_FEMALE_TAN"
+              }
+            }
+          ],
+          "conditions": {
+            "conditions": [
+              ""
+            ],
+            "args": [],
+            "ors": [
+              false
+            ],
+            "negates": [
+              false
+            ]
+          },
+          "entityType": "PLAYER",
+          "equipment": {
+            "OFF_HAND": "RUNE_KITESHIELD"
+          }
         }
       }
     }

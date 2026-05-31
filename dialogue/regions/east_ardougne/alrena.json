@@ -1208,6 +1208,62 @@
             "9897a42f-0e7b-47a6-9534-c70fc59803d3"
           ],
           "switch": "quest[PLAGUE_CITY]"
+        },
+        "c7518f41-ad1c-46ba-820f-f52b5cccbd70": {
+          "id": "c7518f41-ad1c-46ba-820f-f52b5cccbd70",
+          "type": "npc",
+          "selected": false,
+          "x": 10,
+          "y": -262,
+          "ports": [
+            {
+              "id": "2f2816a0-e04d-4f7c-b683-ea381262af5a",
+              "type": "default",
+              "x": 402,
+              "y": -234,
+              "name": "out-1780218321645-19375",
+              "alignment": "right",
+              "parentNode": "c7518f41-ad1c-46ba-820f-f52b5cccbd70",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Alrena",
+          "color": "#6e4b1e",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "2f2816a0-e04d-4f7c-b683-ea381262af5a"
+          ],
+          "locations": [
+            "-1345.54, 69.00, -148.50, 45.00, 0.00"
+          ],
+          "traits": [
+            {
+              "trait": "skintrait",
+              "args": {
+                "skin": "ALRENA"
+              }
+            },
+            {
+              "trait": "randomwalk",
+              "args": {}
+            }
+          ],
+          "conditions": {
+            "conditions": [
+              ""
+            ],
+            "args": [],
+            "ors": [
+              false
+            ],
+            "negates": [
+              false
+            ]
+          },
+          "entityType": "PLAYER",
+          "equipment": {}
         }
       }
     }

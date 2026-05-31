@@ -508,6 +508,58 @@
             "ee50ca55-963f-48b2-bb81-7740fb39488f"
           ],
           "text": "No thanks."
+        },
+        "ad9603bf-a1ce-420c-bc45-2b5e04faef7f": {
+          "id": "ad9603bf-a1ce-420c-bc45-2b5e04faef7f",
+          "type": "npc",
+          "selected": false,
+          "x": 247,
+          "y": -238,
+          "ports": [
+            {
+              "id": "d6afcf5c-6df9-437d-a73f-e56b92640d6f",
+              "type": "default",
+              "x": 639,
+              "y": -210,
+              "name": "out-1780218322030-65681",
+              "alignment": "right",
+              "parentNode": "ad9603bf-a1ce-420c-bc45-2b5e04faef7f",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Fairy shop keeper",
+          "color": "#6e4b1e",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "d6afcf5c-6df9-437d-a73f-e56b92640d6f"
+          ],
+          "locations": [
+            "-2981.68, 12.00, 1117.36, -45.00, 0.00"
+          ],
+          "traits": [
+            {
+              "trait": "randomwalk",
+              "args": {}
+            }
+          ],
+          "conditions": {
+            "conditions": [
+              ""
+            ],
+            "args": [],
+            "ors": [
+              false
+            ],
+            "negates": [
+              false
+            ]
+          },
+          "entityType": "ARMOR_STAND",
+          "equipment": {
+            "HEAD": "IRON_AXE"
+          }
         }
       }
     }

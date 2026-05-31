@@ -726,6 +726,62 @@
             "53c5151c-6a7c-4b74-ad8d-cf644c5dff62"
           ],
           "switch": "quest[MONKS_FRIEND]"
+        },
+        "dc1c5694-5db7-4b55-a7a3-b2a763eb712d": {
+          "id": "dc1c5694-5db7-4b55-a7a3-b2a763eb712d",
+          "type": "npc",
+          "selected": false,
+          "x": 73,
+          "y": -287,
+          "ports": [
+            {
+              "id": "cd267936-6597-4729-be86-e7e1b2c4ff38",
+              "type": "default",
+              "x": 465,
+              "y": -259,
+              "name": "out-1780218321758-76583",
+              "alignment": "right",
+              "parentNode": "dc1c5694-5db7-4b55-a7a3-b2a763eb712d",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Brother Cedric",
+          "color": "#6e4b1e",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "cd267936-6597-4729-be86-e7e1b2c4ff38"
+          ],
+          "locations": [
+            "-1223.53, 66.00, 78.36, 143.13, 0.00"
+          ],
+          "traits": [
+            {
+              "trait": "randomwalk",
+              "args": {}
+            },
+            {
+              "trait": "skintrait",
+              "args": {
+                "skin": "BROTHER_CEDRIC"
+              }
+            }
+          ],
+          "conditions": {
+            "conditions": [
+              ""
+            ],
+            "args": [],
+            "ors": [
+              false
+            ],
+            "negates": [
+              false
+            ]
+          },
+          "entityType": "PLAYER",
+          "equipment": {}
         }
       }
     }

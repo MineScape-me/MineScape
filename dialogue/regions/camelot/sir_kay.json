@@ -266,6 +266,64 @@
             "9434d58a-d6d2-4225-8e5b-85ece28bad3f"
           ],
           "text": "An adventurer eh? There is no service finer than\nserving the bountiful King Arthur, and I happen to\nknow there's an important quest to fulfill."
+        },
+        "e1b03c0c-e809-4dc6-9b50-8b8502c8aa9f": {
+          "id": "e1b03c0c-e809-4dc6-9b50-8b8502c8aa9f",
+          "type": "npc",
+          "selected": false,
+          "x": 47,
+          "y": -302,
+          "ports": [
+            {
+              "id": "4ffee4f9-3717-4fc1-a07c-bce301d004db",
+              "type": "default",
+              "x": 439,
+              "y": -274,
+              "name": "out-1780218322553-91278",
+              "alignment": "right",
+              "parentNode": "e1b03c0c-e809-4dc6-9b50-8b8502c8aa9f",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Sir Kay",
+          "color": "#6e4b1e",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "4ffee4f9-3717-4fc1-a07c-bce301d004db"
+          ],
+          "locations": [
+            "-775.81, 66.00, -634.74, 126.87, 0.00"
+          ],
+          "traits": [
+            {
+              "trait": "skintrait",
+              "args": {
+                "skin": "SIR_KAY"
+              }
+            },
+            {
+              "trait": "randomwalk",
+              "args": {}
+            }
+          ],
+          "conditions": {
+            "conditions": [
+              ""
+            ],
+            "args": [],
+            "ors": [
+              false
+            ],
+            "negates": [
+              false
+            ]
+          },
+          "entityType": "PLAYER",
+          "equipment": {
+            "HAND": "STEEL_MACE"
+          }
         }
       }
     }

@@ -582,6 +582,62 @@
             "4a069040-1379-4eb9-ab52-20f06f32ac61"
           ],
           "text": "No thank you."
+        },
+        "6cb77ddd-4403-4303-9a90-1e21025a1031": {
+          "id": "6cb77ddd-4403-4303-9a90-1e21025a1031",
+          "type": "npc",
+          "selected": false,
+          "x": 85,
+          "y": -267,
+          "ports": [
+            {
+              "id": "d5c8fb10-8da2-4ed2-b5df-a67ed98c9743",
+              "type": "default",
+              "x": 477,
+              "y": -239,
+              "name": "out-1780218321805-22335",
+              "alignment": "right",
+              "parentNode": "6cb77ddd-4403-4303-9a90-1e21025a1031",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Candle maker",
+          "color": "#6e4b1e",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "d5c8fb10-8da2-4ed2-b5df-a67ed98c9743"
+          ],
+          "locations": [
+            "-658.73, 67.00, -466.47, -58.91, 0.00"
+          ],
+          "traits": [
+            {
+              "trait": "lookclose",
+              "args": {}
+            },
+            {
+              "trait": "skintrait",
+              "args": {
+                "skin": "CANDLE_MAKER"
+              }
+            }
+          ],
+          "conditions": {
+            "conditions": [
+              ""
+            ],
+            "args": [],
+            "ors": [
+              false
+            ],
+            "negates": [
+              false
+            ]
+          },
+          "entityType": "PLAYER",
+          "equipment": {}
         }
       }
     }

@@ -827,6 +827,51 @@
             "078623cd-bb40-4f96-b8fd-dbd894f0a29e"
           ],
           "switch": "quest[TREE_GNOME_VILLAGE]"
+        },
+        "832a814c-6bc9-432f-9f30-19fd36c72ee5": {
+          "id": "832a814c-6bc9-432f-9f30-19fd36c72ee5",
+          "type": "npc",
+          "selected": false,
+          "x": 10,
+          "y": -210,
+          "ports": [
+            {
+              "id": "9e6f3c75-b1b5-4caa-867a-407049dfc233",
+              "type": "default",
+              "x": 402,
+              "y": -182,
+              "name": "out-1780218322863-51833",
+              "alignment": "right",
+              "parentNode": "832a814c-6bc9-432f-9f30-19fd36c72ee5",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Talk",
+          "color": "#6e4b1e",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "9e6f3c75-b1b5-4caa-867a-407049dfc233"
+          ],
+          "locations": [
+            "-1490.50, 73.00, 83.50, 0.00, 0.00"
+          ],
+          "traits": [],
+          "conditions": {
+            "conditions": [
+              ""
+            ],
+            "args": [],
+            "ors": [
+              false
+            ],
+            "negates": [
+              false
+            ]
+          },
+          "entityType": "ARMOR_STAND",
+          "equipment": {}
         }
       }
     }

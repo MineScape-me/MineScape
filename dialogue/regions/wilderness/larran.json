@@ -1602,6 +1602,58 @@
             "b407cb2c-fe22-4eac-bf69-4d958c68c9f7"
           ],
           "text": "You cannot understand the ghost."
+        },
+        "d8496a54-d924-43b8-b917-13b26c26c161": {
+          "id": "d8496a54-d924-43b8-b917-13b26c26c161",
+          "type": "npc",
+          "selected": false,
+          "x": 0.742857159000323,
+          "y": -360.7428569706633,
+          "ports": [
+            {
+              "id": "f0235dec-3179-43f9-afc4-4da385d5459d",
+              "type": "default",
+              "x": 392.7428571590003,
+              "y": -332.7428569706633,
+              "name": "out-1780263662364-74457",
+              "alignment": "right",
+              "parentNode": "d8496a54-d924-43b8-b917-13b26c26c161",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Larran",
+          "color": "#6e4b1e",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "f0235dec-3179-43f9-afc4-4da385d5459d"
+          ],
+          "locations": [
+            "786.49, 73.00, -1134.58, -59.04, 0.00"
+          ],
+          "traits": [
+            {
+              "trait": "randomwalk",
+              "args": {}
+            }
+          ],
+          "conditions": {
+            "conditions": [
+              ""
+            ],
+            "args": [],
+            "ors": [
+              false
+            ],
+            "negates": [
+              false
+            ]
+          },
+          "entityType": "ARMOR_STAND",
+          "equipment": {
+            "HEAD": "APPLE"
+          }
         }
       }
     }

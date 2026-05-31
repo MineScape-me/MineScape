@@ -1884,6 +1884,58 @@
             "6e03c188-238f-45cb-8453-e5cdfdd67114"
           ],
           "switch": "quest[TREE_GNOME_VILLAGE]"
+        },
+        "18389e01-3e10-4fbb-bb40-bfe4da693f40": {
+          "id": "18389e01-3e10-4fbb-bb40-bfe4da693f40",
+          "type": "npc",
+          "selected": false,
+          "x": -181,
+          "y": -289,
+          "ports": [
+            {
+              "id": "2caf1a8e-45b7-4a20-ab4e-15d33ce3c38d",
+              "type": "default",
+              "x": 211,
+              "y": -261,
+              "name": "out-1780218321986-71388",
+              "alignment": "right",
+              "parentNode": "18389e01-3e10-4fbb-bb40-bfe4da693f40",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Elkoy",
+          "color": "#6e4b1e",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "2caf1a8e-45b7-4a20-ab4e-15d33ce3c38d"
+          ],
+          "locations": [
+            "-1518.41, 67.00, 375.37, -30.96, 0.00"
+          ],
+          "traits": [
+            {
+              "trait": "randomwalk",
+              "args": {}
+            }
+          ],
+          "conditions": {
+            "conditions": [
+              ""
+            ],
+            "args": [],
+            "ors": [
+              false
+            ],
+            "negates": [
+              false
+            ]
+          },
+          "entityType": "ARMOR_STAND",
+          "equipment": {
+            "HEAD": "IRON_AXE"
+          }
         }
       }
     }

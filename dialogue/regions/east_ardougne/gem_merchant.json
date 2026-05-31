@@ -356,6 +356,64 @@
               ]
             ]
           }
+        },
+        "c744d2c3-aa5a-43dd-8062-c168177816bd": {
+          "id": "c744d2c3-aa5a-43dd-8062-c168177816bd",
+          "type": "npc",
+          "selected": false,
+          "x": 94,
+          "y": -315,
+          "ports": [
+            {
+              "id": "dbb3d2e3-033d-4d97-8fe3-7864e995e643",
+              "type": "default",
+              "x": 486,
+              "y": -287,
+              "name": "out-1780218322095-37801",
+              "alignment": "right",
+              "parentNode": "c744d2c3-aa5a-43dd-8062-c168177816bd",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Gem Merchant",
+          "color": "#6e4b1e",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "dbb3d2e3-033d-4d97-8fe3-7864e995e643"
+          ],
+          "locations": [
+            "-1054.61, 68.00, -59.55, 180.85, 0.00"
+          ],
+          "traits": [
+            {
+              "trait": "skintrait",
+              "args": {
+                "skin": "GEM_MERCHANT"
+              }
+            },
+            {
+              "trait": "lookclose",
+              "args": {}
+            }
+          ],
+          "conditions": {
+            "conditions": [
+              ""
+            ],
+            "args": [],
+            "ors": [
+              false
+            ],
+            "negates": [
+              false
+            ]
+          },
+          "entityType": "PLAYER",
+          "equipment": {
+            "HEAD": "LEDERHOSEN_HAT"
+          }
         }
       }
     }

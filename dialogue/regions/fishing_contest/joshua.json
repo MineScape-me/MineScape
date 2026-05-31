@@ -832,6 +832,62 @@
             "bc19176f-6e15-49dd-aadc-4fdc6376196f"
           ],
           "text": "Who's Grampa Jack she says! He won this competition\nfour years in a row! He lives in the house just outside\nthe gate."
+        },
+        "4247445f-5b7d-479c-a9f0-7d2e222f2863": {
+          "id": "4247445f-5b7d-479c-a9f0-7d2e222f2863",
+          "type": "npc",
+          "selected": false,
+          "x": 94,
+          "y": -261,
+          "ports": [
+            {
+              "id": "d1044bcf-93f8-4e7d-aff2-fdf418b573ee",
+              "type": "default",
+              "x": 486,
+              "y": -233,
+              "name": "out-1780218322214-11327",
+              "alignment": "right",
+              "parentNode": "4247445f-5b7d-479c-a9f0-7d2e222f2863",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Joshua",
+          "color": "#6e4b1e",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "d1044bcf-93f8-4e7d-aff2-fdf418b573ee"
+          ],
+          "locations": [
+            "-1174.04, 63.00, -395.91, 213.14, -35.25"
+          ],
+          "traits": [
+            {
+              "trait": "lookclose",
+              "args": {}
+            },
+            {
+              "trait": "skintrait",
+              "args": {
+                "skin": "JOSHUA"
+              }
+            }
+          ],
+          "conditions": {
+            "conditions": [
+              ""
+            ],
+            "args": [],
+            "ors": [
+              false
+            ],
+            "negates": [
+              false
+            ]
+          },
+          "entityType": "PLAYER",
+          "equipment": {}
         }
       }
     }

@@ -118,6 +118,62 @@
             "7ec0a4ba-96ab-4c79-a9f8-c476ad10ddf8"
           ],
           "text": "Billy isn't interested in talking."
+        },
+        "727a3034-ce52-4b88-b181-e46247f2eae8": {
+          "id": "727a3034-ce52-4b88-b181-e46247f2eae8",
+          "type": "npc",
+          "selected": false,
+          "x": 10,
+          "y": -262,
+          "ports": [
+            {
+              "id": "5207ea9d-1714-4473-9dac-ff642486df45",
+              "type": "default",
+              "x": 402,
+              "y": -234,
+              "name": "out-1780218321723-33718",
+              "alignment": "right",
+              "parentNode": "727a3034-ce52-4b88-b181-e46247f2eae8",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Billy Rehnison",
+          "color": "#6e4b1e",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "5207ea9d-1714-4473-9dac-ff642486df45"
+          ],
+          "locations": [
+            "-1476.51, 68.00, -142.62, -45.00, 0.00"
+          ],
+          "traits": [
+            {
+              "trait": "skintrait",
+              "args": {
+                "skin": "BILLY_REHNISON"
+              }
+            },
+            {
+              "trait": "randomwalk",
+              "args": {}
+            }
+          ],
+          "conditions": {
+            "conditions": [
+              ""
+            ],
+            "args": [],
+            "ors": [
+              false
+            ],
+            "negates": [
+              false
+            ]
+          },
+          "entityType": "PLAYER",
+          "equipment": {}
         }
       }
     }

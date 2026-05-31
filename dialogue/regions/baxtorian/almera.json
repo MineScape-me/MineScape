@@ -739,6 +739,62 @@
             "90615d07-278e-4ca3-879d-dab6b4a93443"
           ],
           "switch": "quest[WATERFALL_QUEST]"
+        },
+        "7a7dccde-093e-4ef8-b05e-33caf31d07cc": {
+          "id": "7a7dccde-093e-4ef8-b05e-33caf31d07cc",
+          "type": "npc",
+          "selected": false,
+          "x": 10,
+          "y": -262,
+          "ports": [
+            {
+              "id": "f8ececf3-056b-4e0a-8b83-7fa6eeaf8048",
+              "type": "default",
+              "x": 402,
+              "y": -234,
+              "name": "out-1780263662309-22556",
+              "alignment": "right",
+              "parentNode": "7a7dccde-093e-4ef8-b05e-33caf31d07cc",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Almera",
+          "color": "#6e4b1e",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "f8ececf3-056b-4e0a-8b83-7fa6eeaf8048"
+          ],
+          "locations": [
+            "-1499.58, 91.00, -646.55, 53.13, 0.00"
+          ],
+          "traits": [
+            {
+              "trait": "randomwalk",
+              "args": {}
+            },
+            {
+              "trait": "skintrait",
+              "args": {
+                "skin": "ALMERA"
+              }
+            }
+          ],
+          "conditions": {
+            "conditions": [
+              ""
+            ],
+            "args": [],
+            "ors": [
+              false
+            ],
+            "negates": [
+              false
+            ]
+          },
+          "entityType": "PLAYER",
+          "equipment": {}
         }
       }
     }

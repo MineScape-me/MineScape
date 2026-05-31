@@ -676,6 +676,64 @@
             "948a2900-afec-456a-a686-e95b7ad1ecf6"
           ],
           "text": "Yes - ask a gardener."
+        },
+        "480401f2-0d95-4ecc-9895-a096214a725d": {
+          "id": "480401f2-0d95-4ecc-9895-a096214a725d",
+          "type": "npc",
+          "selected": false,
+          "x": 188,
+          "y": -285,
+          "ports": [
+            {
+              "id": "e8947fb2-325a-45c4-960d-3a7afa6ad61a",
+              "type": "default",
+              "x": 580,
+              "y": -257,
+              "name": "out-1780218322676-2746",
+              "alignment": "right",
+              "parentNode": "480401f2-0d95-4ecc-9895-a096214a725d",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Vanessa",
+          "color": "#6e4b1e",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "e8947fb2-325a-45c4-960d-3a7afa6ad61a"
+          ],
+          "locations": [
+            "-604.33, 66.00, -538.81, 45.00, 0.00"
+          ],
+          "traits": [
+            {
+              "trait": "randomwalk",
+              "args": {}
+            },
+            {
+              "trait": "skintrait",
+              "args": {
+                "skin": "VANESSA"
+              }
+            }
+          ],
+          "conditions": {
+            "conditions": [
+              ""
+            ],
+            "args": [],
+            "ors": [
+              false
+            ],
+            "negates": [
+              false
+            ]
+          },
+          "entityType": "PLAYER",
+          "equipment": {
+            "HAND": "SPADE"
+          }
         }
       }
     }

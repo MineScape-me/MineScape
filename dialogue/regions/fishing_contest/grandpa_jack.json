@@ -3890,6 +3890,62 @@
             "f0af06d7-3c8a-493c-84c6-0c01ab56f63b"
           ],
           "text": "You're right! Thanks Jack!"
+        },
+        "735c61d0-a8ca-48d3-a6af-22e7065b2192": {
+          "id": "735c61d0-a8ca-48d3-a6af-22e7065b2192",
+          "type": "npc",
+          "selected": false,
+          "x": 165,
+          "y": -262,
+          "ports": [
+            {
+              "id": "daef4db4-85ca-4fa3-a600-9c77f7fbd348",
+              "type": "default",
+              "x": 557,
+              "y": -234,
+              "name": "out-1780218322117-84476",
+              "alignment": "right",
+              "parentNode": "735c61d0-a8ca-48d3-a6af-22e7065b2192",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Grandpa Jack",
+          "color": "#6e4b1e",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "daef4db4-85ca-4fa3-a600-9c77f7fbd348"
+          ],
+          "locations": [
+            "-1112.33, 64.00, -503.44, 39.45, -36.26"
+          ],
+          "traits": [
+            {
+              "trait": "lookclose",
+              "args": {}
+            },
+            {
+              "trait": "skintrait",
+              "args": {
+                "skin": "GRANDPA_JACK"
+              }
+            }
+          ],
+          "conditions": {
+            "conditions": [
+              ""
+            ],
+            "args": [],
+            "ors": [
+              false
+            ],
+            "negates": [
+              false
+            ]
+          },
+          "entityType": "PLAYER",
+          "equipment": {}
         }
       }
     }

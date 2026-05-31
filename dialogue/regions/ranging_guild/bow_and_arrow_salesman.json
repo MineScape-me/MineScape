@@ -1133,6 +1133,67 @@
               ]
             ]
           }
+        },
+        "d3d8731a-f97c-49aa-807d-6297b14f9639": {
+          "id": "d3d8731a-f97c-49aa-807d-6297b14f9639",
+          "type": "npc",
+          "selected": false,
+          "x": -237,
+          "y": -430,
+          "ports": [
+            {
+              "id": "b9d643bd-8c95-40c5-9320-d80c2027fe29",
+              "type": "default",
+              "x": 155,
+              "y": -402,
+              "name": "out-1780218322787-77551",
+              "alignment": "right",
+              "parentNode": "d3d8731a-f97c-49aa-807d-6297b14f9639",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Bow and Arrow salesman",
+          "color": "#6e4b1e",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "b9d643bd-8c95-40c5-9320-d80c2027fe29"
+          ],
+          "locations": [
+            "-1041.79, 67.00, -452.37, 225.00, 0.00"
+          ],
+          "traits": [
+            {
+              "trait": "randomwalk",
+              "args": {}
+            },
+            {
+              "trait": "skintrait",
+              "args": {
+                "skin": "BOW_AND_ARROW_SALESMAN"
+              }
+            }
+          ],
+          "conditions": {
+            "conditions": [
+              ""
+            ],
+            "args": [],
+            "ors": [
+              false
+            ],
+            "negates": [
+              false
+            ]
+          },
+          "entityType": "PLAYER",
+          "equipment": {
+            "FEET": "LEATHER_BOOTS",
+            "LEGS": "AIR",
+            "CHEST": "AIR",
+            "HEAD": "COIF"
+          }
         }
       }
     }

@@ -191,6 +191,68 @@
             "84133515-53a8-4d08-9b61-b4dd3d608727"
           ],
           "text": "Greetings. If you are an experienced archer, you may\nwant to visit the guild here..."
+        },
+        "20fe4bf9-aa37-4129-94b0-d0ec2d13b406": {
+          "id": "20fe4bf9-aa37-4129-94b0-d0ec2d13b406",
+          "type": "npc",
+          "selected": false,
+          "x": 10,
+          "y": -392,
+          "ports": [
+            {
+              "id": "8ed0dca4-b3ee-438b-9eb4-488c0f4f796b",
+              "type": "default",
+              "x": 402,
+              "y": -364,
+              "name": "out-1780218322840-89569",
+              "alignment": "right",
+              "parentNode": "20fe4bf9-aa37-4129-94b0-d0ec2d13b406",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Ranging Guild Doorman",
+          "color": "#6e4b1e",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "8ed0dca4-b3ee-438b-9eb4-488c0f4f796b"
+          ],
+          "locations": [
+            "-1086.41, 67.00, -466.37, 225.00, 0.00"
+          ],
+          "traits": [
+            {
+              "trait": "randomwalk",
+              "args": {}
+            },
+            {
+              "trait": "skintrait",
+              "args": {
+                "skin": "GUARD"
+              }
+            }
+          ],
+          "conditions": {
+            "conditions": [
+              ""
+            ],
+            "args": [],
+            "ors": [
+              false
+            ],
+            "negates": [
+              false
+            ]
+          },
+          "entityType": "PLAYER",
+          "equipment": {
+            "HAND": "OAK_LONGBOW",
+            "FEET": "LEATHER_BOOTS",
+            "LEGS": "LEATHER_CHAPS",
+            "CHEST": "LEATHER_BODY",
+            "HEAD": "COIF"
+          }
         }
       }
     }

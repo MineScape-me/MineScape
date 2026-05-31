@@ -588,6 +588,64 @@
               ]
             ]
           }
+        },
+        "c8f110c8-270d-4c56-8554-8d5bfe9faf3d": {
+          "id": "c8f110c8-270d-4c56-8554-8d5bfe9faf3d",
+          "type": "npc",
+          "selected": false,
+          "x": 10,
+          "y": -288,
+          "ports": [
+            {
+              "id": "cf281887-63d0-4635-bc65-164d4f692dc3",
+              "type": "default",
+              "x": 402,
+              "y": -260,
+              "name": "out-1780218321920-48053",
+              "alignment": "right",
+              "parentNode": "c8f110c8-270d-4c56-8554-8d5bfe9faf3d",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Dr Harlow",
+          "color": "#6e4b1e",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "cf281887-63d0-4635-bc65-164d4f692dc3"
+          ],
+          "locations": [
+            "606.58, 63.00, -363.63, 208.81, -3.62"
+          ],
+          "traits": [
+            {
+              "trait": "lookclose",
+              "args": {}
+            },
+            {
+              "trait": "skintrait",
+              "args": {
+                "skin": "DR_HARLOW"
+              }
+            }
+          ],
+          "conditions": {
+            "conditions": [
+              ""
+            ],
+            "args": [],
+            "ors": [
+              false
+            ],
+            "negates": [
+              false
+            ]
+          },
+          "entityType": "PLAYER",
+          "equipment": {
+            "HAND": "BEER_GLASS"
+          }
         }
       }
     }

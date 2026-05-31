@@ -127,6 +127,62 @@
               ]
             ]
           }
+        },
+        "6c92ca6c-a1c8-4972-815a-9c50e69c55b7": {
+          "id": "6c92ca6c-a1c8-4972-815a-9c50e69c55b7",
+          "type": "npc",
+          "selected": false,
+          "x": 10,
+          "y": -262,
+          "ports": [
+            {
+              "id": "b2a20600-c9ee-4fce-bfdb-37063b28aaf3",
+              "type": "default",
+              "x": 402,
+              "y": -234,
+              "name": "out-1780218322300-66481",
+              "alignment": "right",
+              "parentNode": "6c92ca6c-a1c8-4972-815a-9c50e69c55b7",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Mac",
+          "color": "#6e4b1e",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "b2a20600-c9ee-4fce-bfdb-37063b28aaf3"
+          ],
+          "locations": [
+            "432.42, 63.00, -594.59, 208.70, 0.19"
+          ],
+          "traits": [
+            {
+              "trait": "skintrait",
+              "args": {
+                "skin": "BARBARIAN"
+              }
+            },
+            {
+              "trait": "lookclose",
+              "args": {}
+            }
+          ],
+          "conditions": {
+            "conditions": [
+              ""
+            ],
+            "args": [],
+            "ors": [
+              false
+            ],
+            "negates": [
+              false
+            ]
+          },
+          "entityType": "PLAYER",
+          "equipment": {}
         }
       }
     }

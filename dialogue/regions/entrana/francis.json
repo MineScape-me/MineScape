@@ -128,6 +128,62 @@
               ]
             ]
           }
+        },
+        "1426387c-1c62-470a-9c74-d0afec25ece9": {
+          "id": "1426387c-1c62-470a-9c74-d0afec25ece9",
+          "type": "npc",
+          "selected": false,
+          "x": 40,
+          "y": -228,
+          "ports": [
+            {
+              "id": "95d3f3b5-0fca-4211-8827-9e8eb9e01bbe",
+              "type": "default",
+              "x": 432,
+              "y": -200,
+              "name": "out-1780218322067-42227",
+              "alignment": "right",
+              "parentNode": "1426387c-1c62-470a-9c74-d0afec25ece9",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Francis",
+          "color": "#6e4b1e",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "95d3f3b5-0fca-4211-8827-9e8eb9e01bbe"
+          ],
+          "locations": [
+            "-614.35, 68.00, -150.74, 231.34, 0.00"
+          ],
+          "traits": [
+            {
+              "trait": "skintrait",
+              "args": {
+                "skin": "FRANCIS"
+              }
+            },
+            {
+              "trait": "randomwalk",
+              "args": {}
+            }
+          ],
+          "conditions": {
+            "conditions": [
+              ""
+            ],
+            "args": [],
+            "ors": [
+              false
+            ],
+            "negates": [
+              false
+            ]
+          },
+          "entityType": "PLAYER",
+          "equipment": {}
         }
       }
     }

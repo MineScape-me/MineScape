@@ -442,6 +442,66 @@
             "e0e13dd3-e0fb-48c1-8be2-d1a44eabd93e"
           ],
           "text": "The king is the man to talk to if you want a quest."
+        },
+        "fa854ca9-1749-4495-9fb9-12e0de4e24ac": {
+          "id": "fa854ca9-1749-4495-9fb9-12e0de4e24ac",
+          "type": "npc",
+          "selected": false,
+          "x": 62,
+          "y": -296,
+          "ports": [
+            {
+              "id": "d70598f0-bc03-4c1f-a7bf-5b518d3af20b",
+              "type": "default",
+              "x": 454,
+              "y": -268,
+              "name": "out-1780218322552-82358",
+              "alignment": "right",
+              "parentNode": "fa854ca9-1749-4495-9fb9-12e0de4e24ac",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Sir Gawain",
+          "color": "#6e4b1e",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "d70598f0-bc03-4c1f-a7bf-5b518d3af20b"
+          ],
+          "locations": [
+            "-762.71, 66.00, -674.22, -30.96, 0.00"
+          ],
+          "traits": [
+            {
+              "trait": "skintrait",
+              "args": {
+                "skin": "SIR_GAWAIN"
+              }
+            },
+            {
+              "trait": "capetrait",
+              "args": {}
+            },
+            {
+              "trait": "randomwalk",
+              "args": {}
+            }
+          ],
+          "conditions": {
+            "conditions": [
+              ""
+            ],
+            "args": [],
+            "ors": [
+              false
+            ],
+            "negates": [
+              false
+            ]
+          },
+          "entityType": "PLAYER",
+          "equipment": {}
         }
       }
     }

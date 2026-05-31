@@ -1678,6 +1678,61 @@
             "be84e2ee-9c81-4155-9486-66fbf502d0f6"
           ],
           "text": "Farewell, Effendi!"
+        },
+        "257f5b12-c003-4286-82eb-48cb1ae9f14c": {
+          "id": "257f5b12-c003-4286-82eb-48cb1ae9f14c",
+          "type": "npc",
+          "selected": false,
+          "x": 10,
+          "y": -288,
+          "ports": [
+            {
+              "id": "75233e20-f8a0-47f7-b99a-6328d5ea33ae",
+              "type": "default",
+              "x": 402,
+              "y": -260,
+              "name": "out-1780218322811-53268",
+              "alignment": "right",
+              "parentNode": "257f5b12-c003-4286-82eb-48cb1ae9f14c",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Haris",
+          "color": "#6e4b1e",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "75233e20-f8a0-47f7-b99a-6328d5ea33ae"
+          ],
+          "locations": [
+            "-1623.35, 73.00, 1234.54, 6.03, 5.70"
+          ],
+          "traits": [
+            {
+              "trait": "skintrait",
+              "args": {
+                "skin": "HARIS"
+              }
+            }
+          ],
+          "conditions": {
+            "conditions": [
+              ""
+            ],
+            "args": [],
+            "ors": [
+              false
+            ],
+            "negates": [
+              false
+            ]
+          },
+          "entityType": "PLAYER",
+          "equipment": {
+            "HAND": "DRAGON_SCIMITAR",
+            "OFF_HAND": "DRAGON_DEFENDER"
+          }
         }
       }
     }

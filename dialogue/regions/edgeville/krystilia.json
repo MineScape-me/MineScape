@@ -5215,6 +5215,71 @@
               ]
             ]
           }
+        },
+        "7106fab0-2cb2-4f34-93fe-20825c969fc9": {
+          "id": "7106fab0-2cb2-4f34-93fe-20825c969fc9",
+          "type": "npc",
+          "selected": false,
+          "x": 247,
+          "y": -368,
+          "ports": [
+            {
+              "id": "46738dd0-4a8f-4cd4-993e-9d0fac2809c8",
+              "type": "default",
+              "x": 639,
+              "y": -340,
+              "name": "out-1780218322270-80960",
+              "alignment": "right",
+              "parentNode": "7106fab0-2cb2-4f34-93fe-20825c969fc9",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Krystilia",
+          "color": "#6e4b1e",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "46738dd0-4a8f-4cd4-993e-9d0fac2809c8"
+          ],
+          "locations": [
+            "263.64, 63.00, -695.58, 171.67, -3.37"
+          ],
+          "traits": [
+            {
+              "trait": "skintrait",
+              "args": {
+                "skin": "DEFAULT_FEMALE_TAN"
+              }
+            },
+            {
+              "trait": "lookclose",
+              "args": {}
+            },
+            {
+              "trait": "cluescrolltrait",
+              "args": {}
+            }
+          ],
+          "conditions": {
+            "conditions": [
+              ""
+            ],
+            "args": [],
+            "ors": [
+              false
+            ],
+            "negates": [
+              false
+            ]
+          },
+          "entityType": "PLAYER",
+          "equipment": {
+            "HAND": "STAFF_OF_AIR",
+            "LEGS": "BLACK_PLATELEGS",
+            "CHEST": "BLACK_PLATEBODY",
+            "HEAD": "BLACK_WIZARD_HAT"
+          }
         }
       }
     }

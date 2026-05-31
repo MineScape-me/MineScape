@@ -533,6 +533,68 @@
           "portsOutOrder": [],
           "tree": "lost_after",
           "start": "Start"
+        },
+        "635a8d2c-a265-4bea-9efb-4d6c2419a313": {
+          "id": "635a8d2c-a265-4bea-9efb-4d6c2419a313",
+          "type": "npc",
+          "selected": false,
+          "x": 10,
+          "y": -392,
+          "ports": [
+            {
+              "id": "3d172dc6-92dc-4ee4-9e51-ef9f9057290e",
+              "type": "default",
+              "x": 402,
+              "y": -364,
+              "name": "out-1780218322691-35357",
+              "alignment": "right",
+              "parentNode": "635a8d2c-a265-4bea-9efb-4d6c2419a313",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Warrior",
+          "color": "#6e4b1e",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "3d172dc6-92dc-4ee4-9e51-ef9f9057290e"
+          ],
+          "locations": [
+            "408.49, 63.00, 231.48, 225.00, 0.00"
+          ],
+          "traits": [
+            {
+              "trait": "skintrait",
+              "args": {
+                "skin": "LOST_CITY_WARRIOR"
+              }
+            },
+            {
+              "trait": "randomwalk",
+              "args": {}
+            }
+          ],
+          "conditions": {
+            "conditions": [
+              ""
+            ],
+            "args": [],
+            "ors": [
+              false
+            ],
+            "negates": [
+              false
+            ]
+          },
+          "entityType": "PLAYER",
+          "equipment": {
+            "HAND": "STEEL_BATTLEAXE",
+            "OFF_HAND": "IRON_KITESHIELD",
+            "FEET": "STEEL_BOOTS",
+            "LEGS": "STEEL_PLATELEGS",
+            "CHEST": "STEEL_PLATEBODY"
+          }
         }
       }
     }

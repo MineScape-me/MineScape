@@ -1032,6 +1032,62 @@
             "08b21b19-2fe7-4059-a965-ff06c8f3a8f8"
           ],
           "text": "Thanks, mate!"
+        },
+        "068fc03b-5195-4263-97cc-24478bce8a19": {
+          "id": "068fc03b-5195-4263-97cc-24478bce8a19",
+          "type": "npc",
+          "selected": false,
+          "x": -134,
+          "y": -265,
+          "ports": [
+            {
+              "id": "61534d32-dbff-4b75-8c88-f8bed6298161",
+              "type": "default",
+              "x": 258,
+              "y": -237,
+              "name": "out-1780218322661-34",
+              "alignment": "right",
+              "parentNode": "068fc03b-5195-4263-97cc-24478bce8a19",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Tramp",
+          "color": "#6e4b1e",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "61534d32-dbff-4b75-8c88-f8bed6298161"
+          ],
+          "locations": [
+            "709.52, 63.00, -369.59, 8.22, 0.00"
+          ],
+          "traits": [
+            {
+              "trait": "lookclose",
+              "args": {}
+            },
+            {
+              "trait": "skintrait",
+              "args": {
+                "skin": "TRAMP"
+              }
+            }
+          ],
+          "conditions": {
+            "conditions": [
+              ""
+            ],
+            "args": [],
+            "ors": [
+              false
+            ],
+            "negates": [
+              false
+            ]
+          },
+          "entityType": "PLAYER",
+          "equipment": {}
         }
       }
     }

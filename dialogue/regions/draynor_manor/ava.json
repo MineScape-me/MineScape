@@ -1731,6 +1731,62 @@
               ]
             ]
           }
+        },
+        "0db86939-228b-4c68-8f3b-9c7279701f83": {
+          "id": "0db86939-228b-4c68-8f3b-9c7279701f83",
+          "type": "npc",
+          "selected": false,
+          "x": -481.3793103448277,
+          "y": -370.62068965517244,
+          "ports": [
+            {
+              "id": "f4d582f7-196c-4fea-a53a-ce7798f3c1f2",
+              "type": "default",
+              "x": -89.37931034482767,
+              "y": -342.62068965517244,
+              "name": "out-1780218321681-8382",
+              "alignment": "right",
+              "parentNode": "0db86939-228b-4c68-8f3b-9c7279701f83",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Ava",
+          "color": "#6e4b1e",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "f4d582f7-196c-4fea-a53a-ce7798f3c1f2"
+          ],
+          "locations": [
+            "242.08, 63.00, -224.58, 269.12, -0.22"
+          ],
+          "traits": [
+            {
+              "trait": "skintrait",
+              "args": {
+                "skin": "AVA"
+              }
+            },
+            {
+              "trait": "lookclose",
+              "args": {}
+            }
+          ],
+          "conditions": {
+            "conditions": [
+              ""
+            ],
+            "args": [],
+            "ors": [
+              false
+            ],
+            "negates": [
+              false
+            ]
+          },
+          "entityType": "PLAYER",
+          "equipment": {}
         }
       }
     }

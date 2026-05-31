@@ -2055,6 +2055,64 @@
             "9a7188a1-1ded-4f98-879d-581216fa4f08"
           ],
           "text": "Thanks for dropping by! Stop again anytime!"
+        },
+        "37bf5ef9-7340-4709-b04d-000b7b8e9fbf": {
+          "id": "37bf5ef9-7340-4709-b04d-000b7b8e9fbf",
+          "type": "npc",
+          "selected": false,
+          "x": 10,
+          "y": -288,
+          "ports": [
+            {
+              "id": "58f749bf-c435-468f-a071-934798cd59f5",
+              "type": "default",
+              "x": 402,
+              "y": -260,
+              "name": "out-1780218322711-96380",
+              "alignment": "right",
+              "parentNode": "37bf5ef9-7340-4709-b04d-000b7b8e9fbf",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Wizard Cromperty",
+          "color": "#6e4b1e",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "58f749bf-c435-468f-a071-934798cd59f5"
+          ],
+          "locations": [
+            "-1010.65, 71.00, -127.46, 26.67, 22.81"
+          ],
+          "traits": [
+            {
+              "trait": "lookclose",
+              "args": {}
+            },
+            {
+              "trait": "skintrait",
+              "args": {
+                "skin": "WIZARD_CROMPERTY"
+              }
+            }
+          ],
+          "conditions": {
+            "conditions": [
+              ""
+            ],
+            "args": [],
+            "ors": [
+              false
+            ],
+            "negates": [
+              false
+            ]
+          },
+          "entityType": "PLAYER",
+          "equipment": {
+            "HEAD": "BLUE_WIZARD_HAT"
+          }
         }
       }
     }

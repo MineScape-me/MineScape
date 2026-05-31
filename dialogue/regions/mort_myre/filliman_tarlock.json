@@ -1318,6 +1318,76 @@
           "portsOutOrder": [],
           "tree": "nature_grotto",
           "start": "Start"
+        },
+        "bc069841-3af2-48cb-90c1-2ff6693d644a": {
+          "id": "bc069841-3af2-48cb-90c1-2ff6693d644a",
+          "type": "npc",
+          "selected": false,
+          "x": 10,
+          "y": -288,
+          "ports": [
+            {
+              "id": "a0d05ba8-9f1d-4f45-956c-1826da541a83",
+              "type": "default",
+              "x": 402,
+              "y": -260,
+              "name": "out-1780218322057-65949",
+              "alignment": "right",
+              "parentNode": "bc069841-3af2-48cb-90c1-2ff6693d644a",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Filliman Tarlock",
+          "color": "#6e4b1e",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "a0d05ba8-9f1d-4f45-956c-1826da541a83"
+          ],
+          "locations": [
+            "1275.53, 64.00, -156.47, 85.25, -35.20"
+          ],
+          "traits": [
+            {
+              "trait": "lookclose",
+              "args": {}
+            },
+            {
+              "trait": "skintrait",
+              "args": {
+                "skin": "FILIMAN_TARLOCK"
+              }
+            }
+          ],
+          "conditions": {
+            "conditions": [
+              "questStage",
+              "questStage"
+            ],
+            "args": [
+              [
+                "NATURE_SPIRIT",
+                ">=",
+                "2"
+              ],
+              [
+                "NATURE_SPIRIT",
+                "<",
+                "13"
+              ]
+            ],
+            "ors": [
+              false,
+              false
+            ],
+            "negates": [
+              false,
+              false
+            ]
+          },
+          "entityType": "PLAYER",
+          "equipment": {}
         }
       }
     }

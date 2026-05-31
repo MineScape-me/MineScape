@@ -635,6 +635,62 @@
           "portsOutOrder": [],
           "tree": "romeo_after",
           "start": "Start"
+        },
+        "b00d97b2-9956-4537-8723-59de74ae19fe": {
+          "id": "b00d97b2-9956-4537-8723-59de74ae19fe",
+          "type": "npc",
+          "selected": false,
+          "x": 10,
+          "y": -262,
+          "ports": [
+            {
+              "id": "1f03c557-b5f1-4738-b091-a201124fc4db",
+              "type": "default",
+              "x": 402,
+              "y": -234,
+              "name": "out-1780218321655-26085",
+              "alignment": "right",
+              "parentNode": "b00d97b2-9956-4537-8723-59de74ae19fe",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Apothecary",
+          "color": "#6e4b1e",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "1f03c557-b5f1-4738-b091-a201124fc4db"
+          ],
+          "locations": [
+            "532.74, 63.06, -367.46, 227.05, 21.06"
+          ],
+          "traits": [
+            {
+              "trait": "skintrait",
+              "args": {
+                "skin": "APOTHECARY"
+              }
+            },
+            {
+              "trait": "lookclose",
+              "args": {}
+            }
+          ],
+          "conditions": {
+            "conditions": [
+              ""
+            ],
+            "args": [],
+            "ors": [
+              false
+            ],
+            "negates": [
+              false
+            ]
+          },
+          "entityType": "PLAYER",
+          "equipment": {}
         }
       }
     }

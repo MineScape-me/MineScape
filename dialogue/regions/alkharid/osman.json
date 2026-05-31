@@ -783,6 +783,62 @@
           "portsOutOrder": [],
           "tree": "before_quest",
           "start": "Start"
+        },
+        "ae1305c5-d22b-42a1-8efd-1692070cd10b": {
+          "id": "ae1305c5-d22b-42a1-8efd-1692070cd10b",
+          "type": "npc",
+          "selected": false,
+          "x": 151,
+          "y": -182,
+          "ports": [
+            {
+              "id": "4fdac9fe-44ef-41a8-a339-e76997627861",
+              "type": "default",
+              "x": 543,
+              "y": -154,
+              "name": "out-1780218322407-5591",
+              "alignment": "right",
+              "parentNode": "ae1305c5-d22b-42a1-8efd-1692070cd10b",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Osman",
+          "color": "#6e4b1e",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "4fdac9fe-44ef-41a8-a339-e76997627861"
+          ],
+          "locations": [
+            "795.53, 68.00, 308.43, 93.61, 2.87"
+          ],
+          "traits": [
+            {
+              "trait": "skintrait",
+              "args": {
+                "skin": "HIGHWAYMAN"
+              }
+            },
+            {
+              "trait": "lookclose",
+              "args": {}
+            }
+          ],
+          "conditions": {
+            "conditions": [
+              ""
+            ],
+            "args": [],
+            "ors": [
+              false
+            ],
+            "negates": [
+              false
+            ]
+          },
+          "entityType": "PLAYER",
+          "equipment": {}
         }
       }
     }

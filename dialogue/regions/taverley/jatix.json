@@ -602,6 +602,62 @@
             "43b05fc0-f510-40fb-9215-29d8702497b2"
           ],
           "text": "I'm okay, thank you."
+        },
+        "e66f7064-b248-4a9e-b22f-9c18f9baed9d": {
+          "id": "e66f7064-b248-4a9e-b22f-9c18f9baed9d",
+          "type": "npc",
+          "selected": false,
+          "x": 146,
+          "y": -236,
+          "ports": [
+            {
+              "id": "f8b71a75-27d2-4566-9bfc-6d58ef7b97fe",
+              "type": "default",
+              "x": 538,
+              "y": -208,
+              "name": "out-1780218322196-49871",
+              "alignment": "right",
+              "parentNode": "e66f7064-b248-4a9e-b22f-9c18f9baed9d",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Jatix",
+          "color": "#6e4b1e",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "f8b71a75-27d2-4566-9bfc-6d58ef7b97fe"
+          ],
+          "locations": [
+            "-357.21, 69.00, -426.19, 149.04, 0.00"
+          ],
+          "traits": [
+            {
+              "trait": "skintrait",
+              "args": {
+                "skin": "JATIX"
+              }
+            },
+            {
+              "trait": "randomwalk",
+              "args": {}
+            }
+          ],
+          "conditions": {
+            "conditions": [
+              ""
+            ],
+            "args": [],
+            "ors": [
+              false
+            ],
+            "negates": [
+              false
+            ]
+          },
+          "entityType": "PLAYER",
+          "equipment": {}
         }
       }
     }

@@ -1012,6 +1012,62 @@
               ]
             ]
           }
+        },
+        "9e74c67c-24d0-4372-b6dc-96614bf76b8f": {
+          "id": "9e74c67c-24d0-4372-b6dc-96614bf76b8f",
+          "type": "npc",
+          "selected": false,
+          "x": 99,
+          "y": -341,
+          "ports": [
+            {
+              "id": "04965556-6106-456e-acfa-47a69599fdcd",
+              "type": "default",
+              "x": 491,
+              "y": -313,
+              "name": "out-1780218321553-14507",
+              "alignment": "right",
+              "parentNode": "9e74c67c-24d0-4372-b6dc-96614bf76b8f",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Rendi",
+          "color": "#6e4b1e",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "04965556-6106-456e-acfa-47a69599fdcd"
+          ],
+          "locations": [
+            "305.34, 72.00, 496.91, 85.95, 0.00"
+          ],
+          "traits": [
+            {
+              "trait": "lookclose",
+              "args": {}
+            },
+            {
+              "trait": "skintrait",
+              "args": {
+                "skin": "RENDI"
+              }
+            }
+          ],
+          "conditions": {
+            "conditions": [
+              ""
+            ],
+            "args": [],
+            "ors": [
+              false
+            ],
+            "negates": [
+              false
+            ]
+          },
+          "entityType": "PLAYER",
+          "equipment": {}
         }
       }
     }

@@ -874,6 +874,58 @@
             "314b2519-1b3e-4c4f-b168-edb30b4cde39"
           ],
           "switch": "quest[TREE_GNOME_VILLAGE]"
+        },
+        "54c246c8-915a-4aaa-86c8-5095a05c9d66": {
+          "id": "54c246c8-915a-4aaa-86c8-5095a05c9d66",
+          "type": "npc",
+          "selected": false,
+          "x": 10,
+          "y": -262,
+          "ports": [
+            {
+              "id": "f4ae6a62-8e40-4470-8daa-77382ccc6b67",
+              "type": "default",
+              "x": 402,
+              "y": -234,
+              "name": "out-1780218321864-24317",
+              "alignment": "right",
+              "parentNode": "54c246c8-915a-4aaa-86c8-5095a05c9d66",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Commander Montai",
+          "color": "#6e4b1e",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "f4ae6a62-8e40-4470-8daa-77382ccc6b67"
+          ],
+          "locations": [
+            "-1525.65, 66.00, 221.22, -51.34, 0.00"
+          ],
+          "traits": [
+            {
+              "trait": "randomwalk",
+              "args": {}
+            }
+          ],
+          "conditions": {
+            "conditions": [
+              ""
+            ],
+            "args": [],
+            "ors": [
+              false
+            ],
+            "negates": [
+              false
+            ]
+          },
+          "entityType": "ARMOR_STAND",
+          "equipment": {
+            "HEAD": "IRON_AXE"
+          }
         }
       }
     }

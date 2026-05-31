@@ -191,6 +191,62 @@
             "a8c86846-00b7-4108-8267-78968df76ade"
           ],
           "text": "I wish there was more I could do for these people."
+        },
+        "0d09d776-c756-4e03-8ce5-06b67e1a3fa0": {
+          "id": "0d09d776-c756-4e03-8ce5-06b67e1a3fa0",
+          "type": "npc",
+          "selected": false,
+          "x": 10,
+          "y": -262,
+          "ports": [
+            {
+              "id": "6ac5d68b-1e77-465e-a524-f4818a1abdaa",
+              "type": "default",
+              "x": 402,
+              "y": -234,
+              "name": "out-1780218322424-59282",
+              "alignment": "right",
+              "parentNode": "0d09d776-c756-4e03-8ce5-06b67e1a3fa0",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Priest",
+          "color": "#6e4b1e",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "6ac5d68b-1e77-465e-a524-f4818a1abdaa"
+          ],
+          "locations": [
+            "-1473.50, 69.00, -11.76, 59.04, 0.00"
+          ],
+          "traits": [
+            {
+              "trait": "randomwalk",
+              "args": {}
+            },
+            {
+              "trait": "skintrait",
+              "args": {
+                "skin": "PRIEST_WEST_ARDOUGNE"
+              }
+            }
+          ],
+          "conditions": {
+            "conditions": [
+              ""
+            ],
+            "args": [],
+            "ors": [
+              false
+            ],
+            "negates": [
+              false
+            ]
+          },
+          "entityType": "PLAYER",
+          "equipment": {}
         }
       }
     }

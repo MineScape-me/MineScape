@@ -119,6 +119,62 @@
           "portsInOrder": [],
           "portsOutOrder": [],
           "text": "Holy Grail Quest"
+        },
+        "5407cb07-4039-447f-a010-3d5b75b8b100": {
+          "id": "5407cb07-4039-447f-a010-3d5b75b8b100",
+          "type": "npc",
+          "selected": false,
+          "x": 10,
+          "y": -262,
+          "ports": [
+            {
+              "id": "9364e769-ca2e-444d-8b33-29764402eb29",
+              "type": "default",
+              "x": 402,
+              "y": -234,
+              "name": "out-1780263661989-10508",
+              "alignment": "right",
+              "parentNode": "5407cb07-4039-447f-a010-3d5b75b8b100",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Galahad",
+          "color": "#6e4b1e",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "9364e769-ca2e-444d-8b33-29764402eb29"
+          ],
+          "locations": [
+            "-1222.50, 67.00, -576.50, -42.66, -50.13"
+          ],
+          "traits": [
+            {
+              "trait": "lookclose",
+              "args": {}
+            },
+            {
+              "trait": "skintrait",
+              "args": {
+                "skin": "GALAHAD"
+              }
+            }
+          ],
+          "conditions": {
+            "conditions": [
+              ""
+            ],
+            "args": [],
+            "ors": [
+              false
+            ],
+            "negates": [
+              false
+            ]
+          },
+          "entityType": "PLAYER",
+          "equipment": {}
         }
       }
     }

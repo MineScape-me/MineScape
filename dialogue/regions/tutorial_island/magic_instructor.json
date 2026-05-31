@@ -1141,6 +1141,65 @@
               ]
             ]
           }
+        },
+        "913c0bdc-0737-49da-94e6-f31803c851b0": {
+          "id": "913c0bdc-0737-49da-94e6-f31803c851b0",
+          "type": "npc",
+          "selected": false,
+          "x": 32,
+          "y": -324,
+          "ports": [
+            {
+              "id": "33a4e5f1-4fb7-4078-99c6-a621c957d8c5",
+              "type": "default",
+              "x": 424,
+              "y": -296,
+              "name": "out-1780218321649-69654",
+              "alignment": "right",
+              "parentNode": "913c0bdc-0737-49da-94e6-f31803c851b0",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Anonymous Wizard",
+          "color": "#6e4b1e",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "33a4e5f1-4fb7-4078-99c6-a621c957d8c5"
+          ],
+          "locations": [
+            "293.29, 72.00, 496.92, 0.91, 0.00"
+          ],
+          "traits": [
+            {
+              "trait": "lookclose",
+              "args": {}
+            },
+            {
+              "trait": "skintrait",
+              "args": {
+                "skin": "WIZARD"
+              }
+            }
+          ],
+          "conditions": {
+            "conditions": [
+              ""
+            ],
+            "args": [],
+            "ors": [
+              false
+            ],
+            "negates": [
+              false
+            ]
+          },
+          "entityType": "PLAYER",
+          "equipment": {
+            "HAND": "STAFF_OF_AIR",
+            "HEAD": "BLUE_WIZARD_HAT"
+          }
         }
       }
     }

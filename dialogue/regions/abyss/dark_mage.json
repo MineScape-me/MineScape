@@ -3161,6 +3161,62 @@
               ]
             ]
           }
+        },
+        "14ba8b41-3ebf-4165-b7e6-5fe3ad7f9d47": {
+          "id": "14ba8b41-3ebf-4165-b7e6-5fe3ad7f9d47",
+          "type": "npc",
+          "selected": false,
+          "x": -22.81818176773959,
+          "y": -333.3636342450608,
+          "ports": [
+            {
+              "id": "ea4fc478-c22d-4977-93c0-7884700e4041",
+              "type": "default",
+              "x": 369.1818182322604,
+              "y": -305.3636342450608,
+              "name": "out-1780218321892-34798",
+              "alignment": "right",
+              "parentNode": "14ba8b41-3ebf-4165-b7e6-5fe3ad7f9d47",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Dark Mage",
+          "color": "#6e4b1e",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "ea4fc478-c22d-4977-93c0-7884700e4041"
+          ],
+          "locations": [
+            "657.81, 14.00, -542.35, 239.04, 0.00"
+          ],
+          "traits": [
+            {
+              "trait": "randomwalk",
+              "args": {}
+            },
+            {
+              "trait": "skintrait",
+              "args": {
+                "skin": "DARK_WIZARD"
+              }
+            }
+          ],
+          "conditions": {
+            "conditions": [
+              ""
+            ],
+            "args": [],
+            "ors": [
+              false
+            ],
+            "negates": [
+              false
+            ]
+          },
+          "entityType": "PLAYER",
+          "equipment": {}
         }
       }
     }

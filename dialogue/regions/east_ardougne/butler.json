@@ -1805,6 +1805,62 @@
               ]
             ]
           }
+        },
+        "465d5989-f622-4b4e-bef0-5717db1efd93": {
+          "id": "465d5989-f622-4b4e-bef0-5717db1efd93",
+          "type": "npc",
+          "selected": false,
+          "x": 10,
+          "y": -262,
+          "ports": [
+            {
+              "id": "61e649aa-8d3b-486b-ad51-8cc82daa4e75",
+              "type": "default",
+              "x": 402,
+              "y": -234,
+              "name": "out-1780218321775-65689",
+              "alignment": "right",
+              "parentNode": "465d5989-f622-4b4e-bef0-5717db1efd93",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Butler",
+          "color": "#6e4b1e",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "61e649aa-8d3b-486b-ad51-8cc82daa4e75"
+          ],
+          "locations": [
+            "-1045.44, 69.00, -139.51, -51.34, 0.00"
+          ],
+          "traits": [
+            {
+              "trait": "skintrait",
+              "args": {
+                "skin": "SERVANT_BUTLER"
+              }
+            },
+            {
+              "trait": "randomwalk",
+              "args": {}
+            }
+          ],
+          "conditions": {
+            "conditions": [
+              ""
+            ],
+            "args": [],
+            "ors": [
+              false
+            ],
+            "negates": [
+              false
+            ]
+          },
+          "entityType": "PLAYER",
+          "equipment": {}
         }
       }
     }

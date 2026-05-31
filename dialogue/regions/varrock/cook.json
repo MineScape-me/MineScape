@@ -1714,6 +1714,56 @@
             "02b0f286-f5c4-4c28-af07-4d813bd31880"
           ],
           "text": "Oh dear. I don't seem to have enough money."
+        },
+        "5b26088c-f3b8-4d90-a93e-297b4988b153": {
+          "id": "5b26088c-f3b8-4d90-a93e-297b4988b153",
+          "type": "npc",
+          "selected": false,
+          "x": 260,
+          "y": -213,
+          "ports": [
+            {
+              "id": "7096eb50-43cb-48d8-8007-4b3eac9cb910",
+              "type": "default",
+              "x": 652,
+              "y": -185,
+              "name": "out-1780218321869-74503",
+              "alignment": "right",
+              "parentNode": "5b26088c-f3b8-4d90-a93e-297b4988b153",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Cook",
+          "color": "#6e4b1e",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "7096eb50-43cb-48d8-8007-4b3eac9cb910"
+          ],
+          "locations": [
+            "631.64, 63.00, -354.55, 256.52, -1.44"
+          ],
+          "traits": [
+            {
+              "trait": "lookclose",
+              "args": {}
+            }
+          ],
+          "conditions": {
+            "conditions": [
+              ""
+            ],
+            "args": [],
+            "ors": [
+              false
+            ],
+            "negates": [
+              false
+            ]
+          },
+          "entityType": "PLAYER",
+          "equipment": {}
         }
       }
     }

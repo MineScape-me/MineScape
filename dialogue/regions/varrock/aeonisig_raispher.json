@@ -1674,6 +1674,62 @@
             "3af9aa12-bb5a-4636-b55a-4a64db6482f3"
           ],
           "text": "My duty is to ensure that Saradominist ideals are not\nstomped underfoot."
+        },
+        "f2f98b9f-660e-4de6-9093-6a278b7673fe": {
+          "id": "f2f98b9f-660e-4de6-9093-6a278b7673fe",
+          "type": "npc",
+          "selected": false,
+          "x": 82,
+          "y": -278,
+          "ports": [
+            {
+              "id": "7ac25e89-4f83-436e-b824-e07531c0439c",
+              "type": "default",
+              "x": 474,
+              "y": -250,
+              "name": "out-1780218321612-54792",
+              "alignment": "right",
+              "parentNode": "f2f98b9f-660e-4de6-9093-6a278b7673fe",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Aeonisig Raispher",
+          "color": "#6e4b1e",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "7ac25e89-4f83-436e-b824-e07531c0439c"
+          ],
+          "locations": [
+            "609.79, 62.06, -590.97, 210.96, 0.00"
+          ],
+          "traits": [
+            {
+              "trait": "skintrait",
+              "args": {
+                "skin": "AEONISIG_RAISPHER"
+              }
+            },
+            {
+              "trait": "randomwalk",
+              "args": {}
+            }
+          ],
+          "conditions": {
+            "conditions": [
+              ""
+            ],
+            "args": [],
+            "ors": [
+              false
+            ],
+            "negates": [
+              false
+            ]
+          },
+          "entityType": "PLAYER",
+          "equipment": {}
         }
       }
     }

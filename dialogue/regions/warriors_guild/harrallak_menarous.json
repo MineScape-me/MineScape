@@ -4511,6 +4511,62 @@
             "d68909fd-9667-4228-a85d-f951408e093d"
           ],
           "text": "Sounds easy enough."
+        },
+        "8393e7a7-57e3-4095-9689-f5bece62d9e4": {
+          "id": "8393e7a7-57e3-4095-9689-f5bece62d9e4",
+          "type": "npc",
+          "selected": false,
+          "x": 288,
+          "y": -248,
+          "ports": [
+            {
+              "id": "d4bc072d-dd6b-4fe1-93d3-843dd4d6a44f",
+              "type": "default",
+              "x": 680,
+              "y": -220,
+              "name": "out-1780218322144-29458",
+              "alignment": "right",
+              "parentNode": "8393e7a7-57e3-4095-9689-f5bece62d9e4",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Harralak Menarous",
+          "color": "#6e4b1e",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "d4bc072d-dd6b-4fe1-93d3-843dd4d6a44f"
+          ],
+          "locations": [
+            "-452.95, 71.00, -786.58, 143.13, 0.00"
+          ],
+          "traits": [
+            {
+              "trait": "skintrait",
+              "args": {
+                "skin": "HARRALLAK_MENAROUS"
+              }
+            },
+            {
+              "trait": "randomwalk",
+              "args": {}
+            }
+          ],
+          "conditions": {
+            "conditions": [
+              ""
+            ],
+            "args": [],
+            "ors": [
+              false
+            ],
+            "negates": [
+              false
+            ]
+          },
+          "entityType": "PLAYER",
+          "equipment": {}
         }
       }
     }

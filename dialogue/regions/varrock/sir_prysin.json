@@ -519,6 +519,62 @@
           "portsOutOrder": [],
           "tree": "demon_finished",
           "start": "Start"
+        },
+        "291c50c8-a4b3-46b0-9e92-e3b1d1486cb8": {
+          "id": "291c50c8-a4b3-46b0-9e92-e3b1d1486cb8",
+          "type": "npc",
+          "selected": false,
+          "x": 10,
+          "y": -262,
+          "ports": [
+            {
+              "id": "536b2cb5-88d3-4f09-b8e4-2286001aaee1",
+              "type": "default",
+              "x": 402,
+              "y": -234,
+              "name": "out-1780218322565-12200",
+              "alignment": "right",
+              "parentNode": "291c50c8-a4b3-46b0-9e92-e3b1d1486cb8",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Sir Prysin",
+          "color": "#6e4b1e",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "536b2cb5-88d3-4f09-b8e4-2286001aaee1"
+          ],
+          "locations": [
+            "559.90, 62.06, -581.60, 143.13, 0.00"
+          ],
+          "traits": [
+            {
+              "trait": "skintrait",
+              "args": {
+                "skin": "SIR_PRYSIN"
+              }
+            },
+            {
+              "trait": "randomwalk",
+              "args": {}
+            }
+          ],
+          "conditions": {
+            "conditions": [
+              ""
+            ],
+            "args": [],
+            "ors": [
+              false
+            ],
+            "negates": [
+              false
+            ]
+          },
+          "entityType": "PLAYER",
+          "equipment": {}
         }
       }
     }

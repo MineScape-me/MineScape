@@ -1564,6 +1564,62 @@
             "afdb689e-b096-474c-a5dc-c882f85bcf4b"
           ],
           "text": "Can I buy some fishing supplies please?"
+        },
+        "5351b4b5-aff2-492e-956b-d55ad5cfecd3": {
+          "id": "5351b4b5-aff2-492e-956b-d55ad5cfecd3",
+          "type": "npc",
+          "selected": false,
+          "x": 123.84615384615381,
+          "y": -230.6153846153846,
+          "ports": [
+            {
+              "id": "1b0f087f-ab7b-40ff-b4c8-509c821b2703",
+              "type": "default",
+              "x": 515.8461538461538,
+              "y": -202.6153846153846,
+              "name": "out-1780218322017-35729",
+              "alignment": "right",
+              "parentNode": "5351b4b5-aff2-492e-956b-d55ad5cfecd3",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Ezekial Lovecraft",
+          "color": "#6e4b1e",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "1b0f087f-ab7b-40ff-b4c8-509c821b2703"
+          ],
+          "locations": [
+            "-862.22, 67.06, -26.30, 45.00, 0.00"
+          ],
+          "traits": [
+            {
+              "trait": "randomwalk",
+              "args": {}
+            },
+            {
+              "trait": "skintrait",
+              "args": {
+                "skin": "EZEKIAL_LOVECRAFT"
+              }
+            }
+          ],
+          "conditions": {
+            "conditions": [
+              ""
+            ],
+            "args": [],
+            "ors": [
+              false
+            ],
+            "negates": [
+              false
+            ]
+          },
+          "entityType": "PLAYER",
+          "equipment": {}
         }
       }
     }

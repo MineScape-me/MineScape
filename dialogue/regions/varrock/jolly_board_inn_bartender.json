@@ -1199,6 +1199,62 @@
             "f0ec91ce-f354-48ae-ae61-3e490b0713f3"
           ],
           "text": "Cheers!"
+        },
+        "8e17c423-174b-4a7c-996f-27a9696856a5": {
+          "id": "8e17c423-174b-4a7c-996f-27a9696856a5",
+          "type": "npc",
+          "selected": false,
+          "x": 122,
+          "y": -286,
+          "ports": [
+            {
+              "id": "22e059d9-f311-4fa9-b12c-0ff8d8abbc1a",
+              "type": "default",
+              "x": 514,
+              "y": -258,
+              "name": "out-1780218321697-28992",
+              "alignment": "right",
+              "parentNode": "8e17c423-174b-4a7c-996f-27a9696856a5",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Bartender",
+          "color": "#6e4b1e",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "22e059d9-f311-4fa9-b12c-0ff8d8abbc1a"
+          ],
+          "locations": [
+            "756.76, 63.00, -328.96, 38.66, 0.00"
+          ],
+          "traits": [
+            {
+              "trait": "skintrait",
+              "args": {
+                "skin": "BARTENDER_BMI"
+              }
+            },
+            {
+              "trait": "randomwalk",
+              "args": {}
+            }
+          ],
+          "conditions": {
+            "conditions": [
+              ""
+            ],
+            "args": [],
+            "ors": [
+              false
+            ],
+            "negates": [
+              false
+            ]
+          },
+          "entityType": "PLAYER",
+          "equipment": {}
         }
       }
     }

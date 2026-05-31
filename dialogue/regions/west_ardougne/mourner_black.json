@@ -1029,6 +1029,69 @@
           "portsInOrder": [],
           "portsOutOrder": [],
           "text": "head_mourner shares same dialogue generic tree"
+        },
+        "cb428b06-9c5a-412c-8359-a789f505193b": {
+          "id": "cb428b06-9c5a-412c-8359-a789f505193b",
+          "type": "npc",
+          "selected": false,
+          "x": 10,
+          "y": -340,
+          "ports": [
+            {
+              "id": "94a8a04c-0a0d-47f7-8802-7783966f5a20",
+              "type": "default",
+              "x": 402,
+              "y": -312,
+              "name": "out-1780218322373-96181",
+              "alignment": "right",
+              "parentNode": "cb428b06-9c5a-412c-8359-a789f505193b",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Mourner",
+          "color": "#6e4b1e",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "94a8a04c-0a0d-47f7-8802-7783966f5a20"
+          ],
+          "locations": [
+            "-1443.48, 67.00, 30.48, 192.41, -2.88",
+            "-1460.69, 67.00, 30.47, 33.49, -76.22"
+          ],
+          "traits": [
+            {
+              "trait": "lookclose",
+              "args": {}
+            },
+            {
+              "trait": "skintrait",
+              "args": {
+                "skin": "MOURNER_BLACK"
+              }
+            },
+            {
+              "trait": "capetrait",
+              "args": {}
+            }
+          ],
+          "conditions": {
+            "conditions": [
+              ""
+            ],
+            "args": [],
+            "ors": [
+              false
+            ],
+            "negates": [
+              false
+            ]
+          },
+          "entityType": "PLAYER",
+          "equipment": {
+            "HEAD": "FLINT"
+          }
         }
       }
     }

@@ -2235,6 +2235,62 @@
             "323b2cda-d09d-4385-ac69-37ec7f53a01e"
           ],
           "text": "You hand Tindel 100 coins plus the rusty scimitar."
+        },
+        "2b75f24f-4564-455f-803e-98bca7a03b2a": {
+          "id": "2b75f24f-4564-455f-803e-98bca7a03b2a",
+          "type": "npc",
+          "selected": false,
+          "x": -16.53846153846155,
+          "y": -365.8461538461539,
+          "ports": [
+            {
+              "id": "59cf9e16-856c-4fc7-81e1-2332c005967d",
+              "type": "default",
+              "x": 375.46153846153845,
+              "y": -337.8461538461539,
+              "name": "out-1780218322626-9358",
+              "alignment": "right",
+              "parentNode": "2b75f24f-4564-455f-803e-98bca7a03b2a",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Tindel Marchant",
+          "color": "#6e4b1e",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "59cf9e16-856c-4fc7-81e1-2332c005967d"
+          ],
+          "locations": [
+            "-1024.76, 67.00, 391.55, 30.96, 0.00"
+          ],
+          "traits": [
+            {
+              "trait": "randomwalk",
+              "args": {}
+            },
+            {
+              "trait": "skintrait",
+              "args": {
+                "skin": "TINDEL_MARCHANT"
+              }
+            }
+          ],
+          "conditions": {
+            "conditions": [
+              ""
+            ],
+            "args": [],
+            "ors": [
+              false
+            ],
+            "negates": [
+              false
+            ]
+          },
+          "entityType": "PLAYER",
+          "equipment": {}
         }
       }
     }

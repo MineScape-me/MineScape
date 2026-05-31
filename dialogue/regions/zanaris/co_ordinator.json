@@ -192,6 +192,58 @@
             "374db8a3-38fc-4b6b-9c1f-75bfadedcdbc"
           ],
           "text": "Sorry, I don't have time for idle chit-chat, I need to\nsend a fairy to get little Freddies tooth!"
+        },
+        "ce7c4645-2865-4213-b5db-2ab5dbfddfd5": {
+          "id": "ce7c4645-2865-4213-b5db-2ab5dbfddfd5",
+          "type": "npc",
+          "selected": false,
+          "x": 92,
+          "y": -216,
+          "ports": [
+            {
+              "id": "5a3cb980-de11-460e-9c3b-f20695db2417",
+              "type": "default",
+              "x": 484,
+              "y": -188,
+              "name": "out-1780218321852-99675",
+              "alignment": "right",
+              "parentNode": "ce7c4645-2865-4213-b5db-2ab5dbfddfd5",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Co-ordinator",
+          "color": "#6e4b1e",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "5a3cb980-de11-460e-9c3b-f20695db2417"
+          ],
+          "locations": [
+            "-2741.14, 12.00, 1099.71, -51.34, 0.00"
+          ],
+          "traits": [
+            {
+              "trait": "randomwalk",
+              "args": {}
+            }
+          ],
+          "conditions": {
+            "conditions": [
+              ""
+            ],
+            "args": [],
+            "ors": [
+              false
+            ],
+            "negates": [
+              false
+            ]
+          },
+          "entityType": "ARMOR_STAND",
+          "equipment": {
+            "HEAD": "IRON_AXE"
+          }
         }
       }
     }

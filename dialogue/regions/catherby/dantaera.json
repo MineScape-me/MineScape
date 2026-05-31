@@ -128,6 +128,64 @@
               ]
             ]
           }
+        },
+        "9b9d6c66-6a50-4adb-a74c-64eacdd64160": {
+          "id": "9b9d6c66-6a50-4adb-a74c-64eacdd64160",
+          "type": "npc",
+          "selected": false,
+          "x": 83,
+          "y": -286,
+          "ports": [
+            {
+              "id": "e9d5d691-b8c4-43fb-8308-fc19a38a96f2",
+              "type": "default",
+              "x": 475,
+              "y": -258,
+              "name": "out-1780218321890-9384",
+              "alignment": "right",
+              "parentNode": "9b9d6c66-6a50-4adb-a74c-64eacdd64160",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Dantaera",
+          "color": "#6e4b1e",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "e9d5d691-b8c4-43fb-8308-fc19a38a96f2"
+          ],
+          "locations": [
+            "-637.64, 66.00, -542.52, 239.04, 0.00"
+          ],
+          "traits": [
+            {
+              "trait": "skintrait",
+              "args": {
+                "skin": "DANTAERA"
+              }
+            },
+            {
+              "trait": "randomwalk",
+              "args": {}
+            }
+          ],
+          "conditions": {
+            "conditions": [
+              ""
+            ],
+            "args": [],
+            "ors": [
+              false
+            ],
+            "negates": [
+              false
+            ]
+          },
+          "entityType": "PLAYER",
+          "equipment": {
+            "HAND": "WATERING_CAN"
+          }
         }
       }
     }

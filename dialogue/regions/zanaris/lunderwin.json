@@ -981,6 +981,59 @@
             "4e181a28-5798-48d3-8244-7437f56df73a"
           ],
           "text": "Business good doing with you! Please, again come,\nbuying always."
+        },
+        "25b1c43a-30a5-49fc-990b-027f26a8814b": {
+          "id": "25b1c43a-30a5-49fc-990b-027f26a8814b",
+          "type": "npc",
+          "selected": false,
+          "x": 10,
+          "y": -288,
+          "ports": [
+            {
+              "id": "fcafc1ff-bb63-4ae1-b495-815960ccc0df",
+              "type": "default",
+              "x": 402,
+              "y": -260,
+              "name": "out-1780218322298-18013",
+              "alignment": "right",
+              "parentNode": "25b1c43a-30a5-49fc-990b-027f26a8814b",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Lunderwin",
+          "color": "#6e4b1e",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "fcafc1ff-bb63-4ae1-b495-815960ccc0df"
+          ],
+          "locations": [
+            "-2669.60, 12.00, 1060.39, -38.66, 0.00"
+          ],
+          "traits": [
+            {
+              "trait": "randomwalk",
+              "args": {}
+            }
+          ],
+          "conditions": {
+            "conditions": [
+              ""
+            ],
+            "args": [],
+            "ors": [
+              false
+            ],
+            "negates": [
+              false
+            ]
+          },
+          "entityType": "ARMOR_STAND",
+          "equipment": {
+            "CHEST": "AIR",
+            "HEAD": "IRON_AXE"
+          }
         }
       }
     }

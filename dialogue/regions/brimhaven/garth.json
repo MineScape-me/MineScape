@@ -128,6 +128,65 @@
               ]
             ]
           }
+        },
+        "570f8100-0b68-40bf-8892-aa2eeab9ab88": {
+          "id": "570f8100-0b68-40bf-8892-aa2eeab9ab88",
+          "type": "npc",
+          "selected": false,
+          "x": 83,
+          "y": -312,
+          "ports": [
+            {
+              "id": "91996ce0-ac62-4c25-9d63-eb9184f76497",
+              "type": "default",
+              "x": 475,
+              "y": -284,
+              "name": "out-1780218322089-98938",
+              "alignment": "right",
+              "parentNode": "570f8100-0b68-40bf-8892-aa2eeab9ab88",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Garth",
+          "color": "#6e4b1e",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "91996ce0-ac62-4c25-9d63-eb9184f76497"
+          ],
+          "locations": [
+            "-764.80, 66.00, 222.33, 30.96, 0.00"
+          ],
+          "traits": [
+            {
+              "trait": "skintrait",
+              "args": {
+                "skin": "GARTH"
+              }
+            },
+            {
+              "trait": "randomwalk",
+              "args": {}
+            }
+          ],
+          "conditions": {
+            "conditions": [
+              ""
+            ],
+            "args": [],
+            "ors": [
+              false
+            ],
+            "negates": [
+              false
+            ]
+          },
+          "entityType": "PLAYER",
+          "equipment": {
+            "HAND": "SPADE",
+            "HEAD": "LEDERHOSEN_HAT"
+          }
         }
       }
     }

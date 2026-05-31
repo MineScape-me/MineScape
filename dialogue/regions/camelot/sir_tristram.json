@@ -488,6 +488,68 @@
             "c307eee4-1996-4325-990a-9eadf32f57d0"
           ],
           "text": "I thought you just had a weird way of saying hello is\nall."
+        },
+        "91684b98-012a-4669-ac62-bedab0a8e5ca": {
+          "id": "91684b98-012a-4669-ac62-bedab0a8e5ca",
+          "type": "npc",
+          "selected": false,
+          "x": 57,
+          "y": -324,
+          "ports": [
+            {
+              "id": "d08fd8fb-d902-42ae-aa58-1909b1978938",
+              "type": "default",
+              "x": 449,
+              "y": -296,
+              "name": "out-1780218322572-57080",
+              "alignment": "right",
+              "parentNode": "91684b98-012a-4669-ac62-bedab0a8e5ca",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Sir Tristram",
+          "color": "#6e4b1e",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "d08fd8fb-d902-42ae-aa58-1909b1978938"
+          ],
+          "locations": [
+            "-793.42, 73.06, -698.35, 53.13, 0.00"
+          ],
+          "traits": [
+            {
+              "trait": "capetrait",
+              "args": {}
+            },
+            {
+              "trait": "skintrait",
+              "args": {
+                "skin": "SIR_TRISTRAM"
+              }
+            },
+            {
+              "trait": "randomwalk",
+              "args": {}
+            }
+          ],
+          "conditions": {
+            "conditions": [
+              ""
+            ],
+            "args": [],
+            "ors": [
+              false
+            ],
+            "negates": [
+              false
+            ]
+          },
+          "entityType": "PLAYER",
+          "equipment": {
+            "HAND": "STEEL_SWORD"
+          }
         }
       }
     }

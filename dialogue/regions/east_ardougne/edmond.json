@@ -1294,6 +1294,76 @@
             "83853284-c1a3-43f5-a319-07f46add07fd"
           ],
           "switch": "quest[PLAGUE_CITY]"
+        },
+        "69eb5ce3-aa9c-47ec-8023-02631373918b": {
+          "id": "69eb5ce3-aa9c-47ec-8023-02631373918b",
+          "type": "npc",
+          "selected": false,
+          "x": 10,
+          "y": -288,
+          "ports": [
+            {
+              "id": "c2fe1452-9281-494f-9dec-6de0e7451518",
+              "type": "default",
+              "x": 402,
+              "y": -260,
+              "name": "out-1780218321951-97021",
+              "alignment": "right",
+              "parentNode": "69eb5ce3-aa9c-47ec-8023-02631373918b",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Edmond",
+          "color": "#6e4b1e",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "c2fe1452-9281-494f-9dec-6de0e7451518"
+          ],
+          "locations": [
+            "-1362.30, 68.00, -149.44, -38.66, 0.00"
+          ],
+          "traits": [
+            {
+              "trait": "skintrait",
+              "args": {
+                "skin": "EDMOND"
+              }
+            },
+            {
+              "trait": "randomwalk",
+              "args": {}
+            }
+          ],
+          "conditions": {
+            "conditions": [
+              "questStage",
+              "questStage"
+            ],
+            "args": [
+              [
+                "PLAGUE_CITY",
+                "<",
+                "4"
+              ],
+              [
+                "PLAGUE_CITY",
+                ">",
+                "16"
+              ]
+            ],
+            "ors": [
+              false,
+              true
+            ],
+            "negates": [
+              false,
+              false
+            ]
+          },
+          "entityType": "PLAYER",
+          "equipment": {}
         }
       }
     }

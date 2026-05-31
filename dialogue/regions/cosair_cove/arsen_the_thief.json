@@ -220,6 +220,58 @@
               false
             ]
           }
+        },
+        "3b71147f-b3aa-49d5-9dcf-cc61d057d542": {
+          "id": "3b71147f-b3aa-49d5-9dcf-cc61d057d542",
+          "type": "npc",
+          "selected": false,
+          "x": 10,
+          "y": -236,
+          "ports": [
+            {
+              "id": "88544d93-12f3-464f-878c-4c33f80dd441",
+              "type": "default",
+              "x": 402,
+              "y": -208,
+              "name": "out-1780218322776-3652",
+              "alignment": "right",
+              "parentNode": "3b71147f-b3aa-49d5-9dcf-cc61d057d542",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Arsen the Thief",
+          "color": "#6e4b1e",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "88544d93-12f3-464f-878c-4c33f80dd441"
+          ],
+          "locations": [
+            "-1401.57, 71.00, 1283.51, -0.87, 1.20"
+          ],
+          "traits": [
+            {
+              "trait": "skintrait",
+              "args": {
+                "skin": "ARSEN_THE_THIEF"
+              }
+            }
+          ],
+          "conditions": {
+            "conditions": [
+              ""
+            ],
+            "args": [],
+            "ors": [
+              false
+            ],
+            "negates": [
+              false
+            ]
+          },
+          "entityType": "PLAYER",
+          "equipment": {}
         }
       }
     }

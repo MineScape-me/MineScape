@@ -128,6 +128,62 @@
               ]
             ]
           }
+        },
+        "e02bec38-cdac-441f-bc8e-7082444ab569": {
+          "id": "e02bec38-cdac-441f-bc8e-7082444ab569",
+          "type": "npc",
+          "selected": false,
+          "x": 0,
+          "y": -263,
+          "ports": [
+            {
+              "id": "f7c9ba8e-4170-4813-9418-569630610e87",
+              "type": "default",
+              "x": 392,
+              "y": -235,
+              "name": "out-1780218322623-13676",
+              "alignment": "right",
+              "parentNode": "e02bec38-cdac-441f-bc8e-7082444ab569",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Tina",
+          "color": "#6e4b1e",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "f7c9ba8e-4170-4813-9418-569630610e87"
+          ],
+          "locations": [
+            "-198.37, 70.00, -260.91, 225.00, 0.00"
+          ],
+          "traits": [
+            {
+              "trait": "randomwalk",
+              "args": {}
+            },
+            {
+              "trait": "skintrait",
+              "args": {
+                "skin": "DEFAULT_FEMALE_WHITE"
+              }
+            }
+          ],
+          "conditions": {
+            "conditions": [
+              ""
+            ],
+            "args": [],
+            "ors": [
+              false
+            ],
+            "negates": [
+              false
+            ]
+          },
+          "entityType": "PLAYER",
+          "equipment": {}
         }
       }
     }

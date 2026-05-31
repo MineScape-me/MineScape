@@ -1843,6 +1843,65 @@
               ]
             ]
           }
+        },
+        "84bf3091-6478-4056-a0c8-8e251b46edd1": {
+          "id": "84bf3091-6478-4056-a0c8-8e251b46edd1",
+          "type": "npc",
+          "selected": false,
+          "x": 142,
+          "y": -295,
+          "ports": [
+            {
+              "id": "06e80875-ced5-42a0-8e76-17c840b74a6b",
+              "type": "default",
+              "x": 534,
+              "y": -267,
+              "name": "out-1780218322679-45546",
+              "alignment": "right",
+              "parentNode": "84bf3091-6478-4056-a0c8-8e251b46edd1",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Vannaka",
+          "color": "#6e4b1e",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "06e80875-ced5-42a0-8e76-17c840b74a6b"
+          ],
+          "locations": [
+            "384.59, 37.00, -704.43, 96.87, -3.62"
+          ],
+          "traits": [
+            {
+              "trait": "skintrait",
+              "args": {
+                "skin": "VANNAKA"
+              }
+            },
+            {
+              "trait": "lookclose",
+              "args": {}
+            }
+          ],
+          "conditions": {
+            "conditions": [
+              ""
+            ],
+            "args": [],
+            "ors": [
+              false
+            ],
+            "negates": [
+              false
+            ]
+          },
+          "entityType": "PLAYER",
+          "equipment": {
+            "HAND": "STEEL_2H_SWORD",
+            "OFF_HAND": "ANTIDRAGON_SHIELD"
+          }
         }
       }
     }

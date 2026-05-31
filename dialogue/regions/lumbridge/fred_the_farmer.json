@@ -279,6 +279,62 @@
           "portsOutOrder": [],
           "tree": "sheep_during",
           "start": "Start"
+        },
+        "3a617200-a3f0-4f92-ad78-8d4e770fb0ad": {
+          "id": "3a617200-a3f0-4f92-ad78-8d4e770fb0ad",
+          "type": "npc",
+          "selected": false,
+          "x": 78,
+          "y": -244,
+          "ports": [
+            {
+              "id": "59b842a5-9242-4f9d-adb8-2914c22983c1",
+              "type": "default",
+              "x": 470,
+              "y": -216,
+              "name": "out-1780218322070-47236",
+              "alignment": "right",
+              "parentNode": "3a617200-a3f0-4f92-ad78-8d4e770fb0ad",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Fred",
+          "color": "#6e4b1e",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "59b842a5-9242-4f9d-adb8-2914c22983c1"
+          ],
+          "locations": [
+            "511.90, 63.00, 30.96, 181.83, 0.00"
+          ],
+          "traits": [
+            {
+              "trait": "lookclose",
+              "args": {}
+            },
+            {
+              "trait": "skintrait",
+              "args": {
+                "skin": "FARMER"
+              }
+            }
+          ],
+          "conditions": {
+            "conditions": [
+              ""
+            ],
+            "args": [],
+            "ors": [
+              false
+            ],
+            "negates": [
+              false
+            ]
+          },
+          "entityType": "PLAYER",
+          "equipment": {}
         }
       }
     }

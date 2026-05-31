@@ -1660,6 +1660,62 @@
             "d337c1c3-515f-49c3-9a8a-121bc966d232"
           ],
           "text": "Well, there's the sword shop across the road, or there's\nalso all sorts of shops up around the market."
+        },
+        "9dbbf790-80ca-4d50-9ca6-15a88822a7d5": {
+          "id": "9dbbf790-80ca-4d50-9ca6-15a88822a7d5",
+          "type": "npc",
+          "selected": false,
+          "x": 133,
+          "y": -225,
+          "ports": [
+            {
+              "id": "5316b459-12b6-43f3-9ccb-ac46ad6a7c80",
+              "type": "default",
+              "x": 525,
+              "y": -197,
+              "name": "out-1780218321694-39930",
+              "alignment": "right",
+              "parentNode": "9dbbf790-80ca-4d50-9ca6-15a88822a7d5",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Bartender",
+          "color": "#6e4b1e",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "5316b459-12b6-43f3-9ccb-ac46ad6a7c80"
+          ],
+          "locations": [
+            "622.53, 63.00, -355.60, 260.23, 0.58"
+          ],
+          "traits": [
+            {
+              "trait": "skintrait",
+              "args": {
+                "skin": "BARTENDER_BMI"
+              }
+            },
+            {
+              "trait": "lookclose",
+              "args": {}
+            }
+          ],
+          "conditions": {
+            "conditions": [
+              ""
+            ],
+            "args": [],
+            "ors": [
+              false
+            ],
+            "negates": [
+              false
+            ]
+          },
+          "entityType": "PLAYER",
+          "equipment": {}
         }
       }
     }

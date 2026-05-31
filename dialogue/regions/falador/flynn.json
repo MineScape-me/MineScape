@@ -509,6 +509,64 @@
             "e0d7cfc6-d94c-4081-b8bf-c2c9c04152c2"
           ],
           "text": "No thanks."
+        },
+        "67f7c0de-272a-4267-bcb2-c405c9dc85fb": {
+          "id": "67f7c0de-272a-4267-bcb2-c405c9dc85fb",
+          "type": "npc",
+          "selected": false,
+          "x": 276,
+          "y": -139,
+          "ports": [
+            {
+              "id": "48814d13-7f38-4492-ba2c-a7821dd492d6",
+              "type": "default",
+              "x": 668,
+              "y": -111,
+              "name": "out-1780218322065-98598",
+              "alignment": "right",
+              "parentNode": "67f7c0de-272a-4267-bcb2-c405c9dc85fb",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Flynn",
+          "color": "#6e4b1e",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "48814d13-7f38-4492-ba2c-a7821dd492d6"
+          ],
+          "locations": [
+            "-204.42, 65.00, -316.59, -54.37, -2.46"
+          ],
+          "traits": [
+            {
+              "trait": "lookclose",
+              "args": {}
+            },
+            {
+              "trait": "skintrait",
+              "args": {
+                "skin": "MAN"
+              }
+            }
+          ],
+          "conditions": {
+            "conditions": [
+              ""
+            ],
+            "args": [],
+            "ors": [
+              false
+            ],
+            "negates": [
+              false
+            ]
+          },
+          "entityType": "PLAYER",
+          "equipment": {
+            "HAND": "RUNE_MACE"
+          }
         }
       }
     }

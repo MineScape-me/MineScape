@@ -903,6 +903,62 @@
               false
             ]
           }
+        },
+        "a89ed8fb-1231-492b-ad5b-7c12a6d28724": {
+          "id": "a89ed8fb-1231-492b-ad5b-7c12a6d28724",
+          "type": "npc",
+          "selected": false,
+          "x": -180,
+          "y": -292,
+          "ports": [
+            {
+              "id": "a2677b4b-8bcc-473a-ab8d-d28223160fc4",
+              "type": "default",
+              "x": 212,
+              "y": -264,
+              "name": "out-1780218322802-97195",
+              "alignment": "right",
+              "parentNode": "a89ed8fb-1231-492b-ad5b-7c12a6d28724",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Diango",
+          "color": "#6e4b1e",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "a2677b4b-8bcc-473a-ab8d-d28223160fc4"
+          ],
+          "locations": [
+            "190.63, 63.00, 107.31, 143.13, 0.00"
+          ],
+          "traits": [
+            {
+              "trait": "randomwalk",
+              "args": {}
+            },
+            {
+              "trait": "skintrait",
+              "args": {
+                "skin": "DIANGO"
+              }
+            }
+          ],
+          "conditions": {
+            "conditions": [
+              ""
+            ],
+            "args": [],
+            "ors": [
+              false
+            ],
+            "negates": [
+              false
+            ]
+          },
+          "entityType": "PLAYER",
+          "equipment": {}
         }
       }
     }

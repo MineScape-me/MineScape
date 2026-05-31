@@ -503,6 +503,62 @@
           "portsOutOrder": [],
           "tree": "lost_shed",
           "start": "Start"
+        },
+        "db5c387a-1fab-4122-b552-5bf9632aa0c0": {
+          "id": "db5c387a-1fab-4122-b552-5bf9632aa0c0",
+          "type": "npc",
+          "selected": false,
+          "x": 10,
+          "y": -262,
+          "ports": [
+            {
+              "id": "229b1eaf-2f0f-4325-8749-eeb957e4827d",
+              "type": "default",
+              "x": 402,
+              "y": -234,
+              "name": "out-1780218322353-48982",
+              "alignment": "right",
+              "parentNode": "db5c387a-1fab-4122-b552-5bf9632aa0c0",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Monk",
+          "color": "#6e4b1e",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "229b1eaf-2f0f-4325-8749-eeb957e4827d"
+          ],
+          "locations": [
+            "403.46, 63.00, 240.39, 233.13, 0.00"
+          ],
+          "traits": [
+            {
+              "trait": "randomwalk",
+              "args": {}
+            },
+            {
+              "trait": "skintrait",
+              "args": {
+                "skin": "MONK"
+              }
+            }
+          ],
+          "conditions": {
+            "conditions": [
+              ""
+            ],
+            "args": [],
+            "ors": [
+              false
+            ],
+            "negates": [
+              false
+            ]
+          },
+          "entityType": "PLAYER",
+          "equipment": {}
         }
       }
     }

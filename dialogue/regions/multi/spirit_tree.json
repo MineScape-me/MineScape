@@ -3726,6 +3726,64 @@
               ]
             ]
           }
+        },
+        "d0db4d6a-f7f6-4b46-938b-ac8a454f35b2": {
+          "id": "d0db4d6a-f7f6-4b46-938b-ac8a454f35b2",
+          "type": "npc",
+          "selected": false,
+          "x": -154.249998746872,
+          "y": -322.49999914169314,
+          "ports": [
+            {
+              "id": "803e2bd7-5265-474a-b8d7-0fde114f2eff",
+              "type": "default",
+              "x": 237.750001253128,
+              "y": -294.49999914169314,
+              "name": "out-1780218322815-80852",
+              "alignment": "right",
+              "parentNode": "d0db4d6a-f7f6-4b46-938b-ac8a454f35b2",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Interact",
+          "color": "#6e4b1e",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "803e2bd7-5265-474a-b8d7-0fde114f2eff"
+          ],
+          "locations": [
+            "511.50, 63.00, -671.50, 0.00, 0.00"
+          ],
+          "traits": [],
+          "conditions": {
+            "conditions": [
+              ""
+            ],
+            "args": [],
+            "ors": [
+              false
+            ],
+            "negates": [
+              false
+            ]
+          },
+          "entityType": "ARMOR_STAND",
+          "equipment": {}
+        },
+        "e79cfcb9-7a91-49f1-a393-c8e87d608d3a": {
+          "id": "e79cfcb9-7a91-49f1-a393-c8e87d608d3a",
+          "type": "note",
+          "selected": false,
+          "x": 305.750001253128,
+          "y": -322.49999914169314,
+          "ports": [],
+          "title": "Note",
+          "color": "#19e0e7e6",
+          "portsInOrder": [],
+          "portsOutOrder": [],
+          "text": "NPC IDs: 21268\nUnknown trait not in schema: spirittreetrait (info: Grand Exchange)"
         }
       }
     }

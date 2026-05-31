@@ -1074,6 +1074,62 @@
           "portsOutOrder": [],
           "tree": "talk_to_bravek",
           "start": "Start"
+        },
+        "3408fe30-2c29-4721-80d8-627dcceed4ad": {
+          "id": "3408fe30-2c29-4721-80d8-627dcceed4ad",
+          "type": "npc",
+          "selected": false,
+          "x": 10,
+          "y": -262,
+          "ports": [
+            {
+              "id": "1c89bf59-5d5c-4f04-9277-d02b78f0a370",
+              "type": "default",
+              "x": 402,
+              "y": -234,
+              "name": "out-1780218321843-90984",
+              "alignment": "right",
+              "parentNode": "3408fe30-2c29-4721-80d8-627dcceed4ad",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Clerk",
+          "color": "#6e4b1e",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "1c89bf59-5d5c-4f04-9277-d02b78f0a370"
+          ],
+          "locations": [
+            "-1476.42, 68.00, -100.46, 218.66, 0.00"
+          ],
+          "traits": [
+            {
+              "trait": "skintrait",
+              "args": {
+                "skin": "CLERK_MAIN_ROOM"
+              }
+            },
+            {
+              "trait": "randomwalk",
+              "args": {}
+            }
+          ],
+          "conditions": {
+            "conditions": [
+              ""
+            ],
+            "args": [],
+            "ors": [
+              false
+            ],
+            "negates": [
+              false
+            ]
+          },
+          "entityType": "PLAYER",
+          "equipment": {}
         }
       }
     }

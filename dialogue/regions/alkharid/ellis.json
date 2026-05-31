@@ -1225,6 +1225,62 @@
               ]
             ]
           }
+        },
+        "a56aed3e-5fff-473f-b96a-59e62337ba3a": {
+          "id": "a56aed3e-5fff-473f-b96a-59e62337ba3a",
+          "type": "npc",
+          "selected": false,
+          "x": -175.90322580645162,
+          "y": -350.64516129032256,
+          "ports": [
+            {
+              "id": "46d1b0cb-e464-4fe1-99f4-e8ec5bbba503",
+              "type": "default",
+              "x": 216.09677419354838,
+              "y": -322.64516129032256,
+              "name": "out-1780218321992-33579",
+              "alignment": "right",
+              "parentNode": "a56aed3e-5fff-473f-b96a-59e62337ba3a",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Ellis",
+          "color": "#6e4b1e",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "46d1b0cb-e464-4fe1-99f4-e8ec5bbba503"
+          ],
+          "locations": [
+            "757.45, 66.00, 261.89, 256.28, 0.00"
+          ],
+          "traits": [
+            {
+              "trait": "skintrait",
+              "args": {
+                "skin": "DEFAULT_MALE_TAN"
+              }
+            },
+            {
+              "trait": "lookclose",
+              "args": {}
+            }
+          ],
+          "conditions": {
+            "conditions": [
+              ""
+            ],
+            "args": [],
+            "ors": [
+              false
+            ],
+            "negates": [
+              false
+            ]
+          },
+          "entityType": "PLAYER",
+          "equipment": {}
         }
       }
     }

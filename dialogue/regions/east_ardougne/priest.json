@@ -192,6 +192,62 @@
             "4374c326-8ecb-4525-89f1-d68607eb3bd9"
           ],
           "text": "Peace be with you, friend."
+        },
+        "c7ee5f07-8ed4-4945-9cb9-6ccd74422bc5": {
+          "id": "c7ee5f07-8ed4-4945-9cb9-6ccd74422bc5",
+          "type": "npc",
+          "selected": false,
+          "x": 110,
+          "y": -240,
+          "ports": [
+            {
+              "id": "24c7640e-f1a0-49c2-95c7-e89cd92aec87",
+              "type": "default",
+              "x": 502,
+              "y": -212,
+              "name": "out-1780218322423-23909",
+              "alignment": "right",
+              "parentNode": "c7ee5f07-8ed4-4945-9cb9-6ccd74422bc5",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Priest",
+          "color": "#6e4b1e",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "24c7640e-f1a0-49c2-95c7-e89cd92aec87"
+          ],
+          "locations": [
+            "-1202.76, 70.00, -74.54, 120.96, 0.00"
+          ],
+          "traits": [
+            {
+              "trait": "skintrait",
+              "args": {
+                "skin": "PRIEST"
+              }
+            },
+            {
+              "trait": "randomwalk",
+              "args": {}
+            }
+          ],
+          "conditions": {
+            "conditions": [
+              ""
+            ],
+            "args": [],
+            "ors": [
+              false
+            ],
+            "negates": [
+              false
+            ]
+          },
+          "entityType": "PLAYER",
+          "equipment": {}
         }
       }
     }

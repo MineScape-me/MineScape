@@ -2264,6 +2264,64 @@
           "portsOutOrder": [
             "7d3d03ed-626e-420e-9d9b-6957df04c6fd"
           ]
+        },
+        "78245c48-931d-4eed-8d0a-851af0f882c0": {
+          "id": "78245c48-931d-4eed-8d0a-851af0f882c0",
+          "type": "npc",
+          "selected": false,
+          "x": -3.18181818181818,
+          "y": -308.72727272727275,
+          "ports": [
+            {
+              "id": "19d4c537-e3f1-41bb-8aa2-436355f09f29",
+              "type": "default",
+              "x": 388.8181818181818,
+              "y": -280.72727272727275,
+              "name": "out-1780218322726-98829",
+              "alignment": "right",
+              "parentNode": "78245c48-931d-4eed-8d0a-851af0f882c0",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Wizard Traiborn",
+          "color": "#6e4b1e",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "19d4c537-e3f1-41bb-8aa2-436355f09f29"
+          ],
+          "locations": [
+            "316.95, 77.00, 361.49, -38.66, 0.00"
+          ],
+          "traits": [
+            {
+              "trait": "skintrait",
+              "args": {
+                "skin": "WIZARD"
+              }
+            },
+            {
+              "trait": "randomwalk",
+              "args": {}
+            }
+          ],
+          "conditions": {
+            "conditions": [
+              ""
+            ],
+            "args": [],
+            "ors": [
+              false
+            ],
+            "negates": [
+              false
+            ]
+          },
+          "entityType": "PLAYER",
+          "equipment": {
+            "HEAD": "BLUE_WIZARD_HAT"
+          }
         }
       }
     }

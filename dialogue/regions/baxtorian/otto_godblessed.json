@@ -548,6 +548,62 @@
             "35b60c93-286f-4128-8d44-106b6816f409"
           ],
           "switch": "quest[BARBARIAN_TRAINING]"
+        },
+        "893d7bc1-fc7e-42f0-a381-2041e5157830": {
+          "id": "893d7bc1-fc7e-42f0-a381-2041e5157830",
+          "type": "npc",
+          "selected": false,
+          "x": 10,
+          "y": -262,
+          "ports": [
+            {
+              "id": "1f06f02c-792d-4c61-8224-14da3a124a0c",
+              "type": "default",
+              "x": 402,
+              "y": -234,
+              "name": "out-1780263662379-31443",
+              "alignment": "right",
+              "parentNode": "893d7bc1-fc7e-42f0-a381-2041e5157830",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Otto Godblessed",
+          "color": "#6e4b1e",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "1f06f02c-792d-4c61-8224-14da3a124a0c"
+          ],
+          "locations": [
+            "-1561.56, 90.00, -618.55, 38.66, 0.00"
+          ],
+          "traits": [
+            {
+              "trait": "skintrait",
+              "args": {
+                "skin": "OTTO_GODBLESSED"
+              }
+            },
+            {
+              "trait": "randomwalk",
+              "args": {}
+            }
+          ],
+          "conditions": {
+            "conditions": [
+              ""
+            ],
+            "args": [],
+            "ors": [
+              false
+            ],
+            "negates": [
+              false
+            ]
+          },
+          "entityType": "PLAYER",
+          "equipment": {}
         }
       }
     }

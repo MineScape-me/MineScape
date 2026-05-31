@@ -709,6 +709,62 @@
             "aa09463d-5c09-43a0-9254-980551e19122"
           ],
           "switch": "quest[WATERFALL_QUEST]"
+        },
+        "e1982f19-e72c-447f-b591-87c7e0199d92": {
+          "id": "e1982f19-e72c-447f-b591-87c7e0199d92",
+          "type": "npc",
+          "selected": false,
+          "x": 10,
+          "y": -262,
+          "ports": [
+            {
+              "id": "406898e9-7dfa-46ca-aea7-4474bfceade8",
+              "type": "default",
+              "x": 402,
+              "y": -234,
+              "name": "out-1780263662338-86360",
+              "alignment": "right",
+              "parentNode": "e1982f19-e72c-447f-b591-87c7e0199d92",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Gerald",
+          "color": "#6e4b1e",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "406898e9-7dfa-46ca-aea7-4474bfceade8"
+          ],
+          "locations": [
+            "-1479.57, 66.00, -393.55, 45.00, 0.00"
+          ],
+          "traits": [
+            {
+              "trait": "skintrait",
+              "args": {
+                "skin": "GERALD"
+              }
+            },
+            {
+              "trait": "randomwalk",
+              "args": {}
+            }
+          ],
+          "conditions": {
+            "conditions": [
+              ""
+            ],
+            "args": [],
+            "ors": [
+              false
+            ],
+            "negates": [
+              false
+            ]
+          },
+          "entityType": "PLAYER",
+          "equipment": {}
         }
       }
     }

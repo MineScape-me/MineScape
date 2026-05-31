@@ -118,6 +118,62 @@
             "91e41ef8-494d-4b42-bdd2-72011ab848b5"
           ],
           "text": "Hello there."
+        },
+        "c50040ec-2010-42a1-a076-e5afacd35bfd": {
+          "id": "c50040ec-2010-42a1-a076-e5afacd35bfd",
+          "type": "npc",
+          "selected": false,
+          "x": 169,
+          "y": -264,
+          "ports": [
+            {
+              "id": "3a0b4828-ed5b-4cfd-93f5-3f6431e371a9",
+              "type": "default",
+              "x": 561,
+              "y": -236,
+              "name": "out-1780218321499-70593",
+              "alignment": "right",
+              "parentNode": "c50040ec-2010-42a1-a076-e5afacd35bfd",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Jeb",
+          "color": "#6e4b1e",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "3a0b4828-ed5b-4cfd-93f5-3f6431e371a9"
+          ],
+          "locations": [
+            "-897.44, 64.00, -62.70, 45.00, 0.00"
+          ],
+          "traits": [
+            {
+              "trait": "skintrait",
+              "args": {
+                "skin": "JEB"
+              }
+            },
+            {
+              "trait": "randomwalk",
+              "args": {}
+            }
+          ],
+          "conditions": {
+            "conditions": [
+              ""
+            ],
+            "args": [],
+            "ors": [
+              false
+            ],
+            "negates": [
+              false
+            ]
+          },
+          "entityType": "PLAYER",
+          "equipment": {}
         }
       }
     }

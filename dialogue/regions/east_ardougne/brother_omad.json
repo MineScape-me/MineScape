@@ -842,6 +842,62 @@
             "d881c9fa-b8b7-4e2f-9ee4-67277b7f6d83"
           ],
           "switch": "quest[MONKS_FRIEND]"
+        },
+        "a89555bd-566e-472e-a713-b213b8af9e85": {
+          "id": "a89555bd-566e-472e-a713-b213b8af9e85",
+          "type": "npc",
+          "selected": false,
+          "x": -263.3207360569008,
+          "y": -306.6382905538603,
+          "ports": [
+            {
+              "id": "2274c877-9ed8-4e22-83cb-ae9fb0a622d6",
+              "type": "default",
+              "x": 128.67926394309922,
+              "y": -278.6382905538603,
+              "name": "out-1780218321770-22570",
+              "alignment": "right",
+              "parentNode": "a89555bd-566e-472e-a713-b213b8af9e85",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Brother Omad",
+          "color": "#6e4b1e",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "2274c877-9ed8-4e22-83cb-ae9fb0a622d6"
+          ],
+          "locations": [
+            "-1242.39, 72.00, 225.16, 135.00, 0.00"
+          ],
+          "traits": [
+            {
+              "trait": "randomwalk",
+              "args": {}
+            },
+            {
+              "trait": "skintrait",
+              "args": {
+                "skin": "BROTHER_OMAD"
+              }
+            }
+          ],
+          "conditions": {
+            "conditions": [
+              ""
+            ],
+            "args": [],
+            "ors": [
+              false
+            ],
+            "negates": [
+              false
+            ]
+          },
+          "entityType": "PLAYER",
+          "equipment": {}
         }
       }
     }

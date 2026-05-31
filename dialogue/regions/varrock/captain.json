@@ -1993,6 +1993,66 @@
             "08cb9590-993d-4028-8c55-7e7be0256347"
           ],
           "text": "Go away, coward."
+        },
+        "ab107149-332b-446c-8ca8-517d91ec19ad": {
+          "id": "ab107149-332b-446c-8ca8-517d91ec19ad",
+          "type": "npc",
+          "selected": false,
+          "x": 10,
+          "y": -340,
+          "ports": [
+            {
+              "id": "baaf4dd9-7473-4f79-9ab5-4e04a6e606a5",
+              "type": "default",
+              "x": 402,
+              "y": -312,
+              "name": "out-1780218321807-23689",
+              "alignment": "right",
+              "parentNode": "ab107149-332b-446c-8ca8-517d91ec19ad",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Captain",
+          "color": "#6e4b1e",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "baaf4dd9-7473-4f79-9ab5-4e04a6e606a5"
+          ],
+          "locations": [
+            "570.47, 77.00, -628.47, -0.88, 46.49"
+          ],
+          "traits": [
+            {
+              "trait": "lookclose",
+              "args": {}
+            },
+            {
+              "trait": "skintrait",
+              "args": {
+                "skin": "GUARD"
+              }
+            }
+          ],
+          "conditions": {
+            "conditions": [
+              ""
+            ],
+            "args": [],
+            "ors": [
+              false
+            ],
+            "negates": [
+              false
+            ]
+          },
+          "entityType": "PLAYER",
+          "equipment": {
+            "HAND": "BRONZE_SWORD",
+            "OFF_HAND": "IRON_SQ_SHIELD",
+            "HEAD": "BRONZE_MED_HELM"
+          }
         }
       }
     }

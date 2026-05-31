@@ -127,6 +127,51 @@
               ]
             ]
           }
+        },
+        "2f57bb47-5320-4891-8c0b-0b5ce5d805a9": {
+          "id": "2f57bb47-5320-4891-8c0b-0b5ce5d805a9",
+          "type": "npc",
+          "selected": false,
+          "x": 10,
+          "y": -210,
+          "ports": [
+            {
+              "id": "b807b7a0-b5be-4863-900c-2267bfb4f524",
+              "type": "default",
+              "x": 402,
+              "y": -182,
+              "name": "out-1780218322825-45746",
+              "alignment": "right",
+              "parentNode": "2f57bb47-5320-4891-8c0b-0b5ce5d805a9",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Leave",
+          "color": "#6e4b1e",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "b807b7a0-b5be-4863-900c-2267bfb4f524"
+          ],
+          "locations": [
+            "-1556.50, 72.55, 100.50, 178.20, 89.10"
+          ],
+          "traits": [],
+          "conditions": {
+            "conditions": [
+              ""
+            ],
+            "args": [],
+            "ors": [
+              false
+            ],
+            "negates": [
+              false
+            ]
+          },
+          "entityType": "ARMOR_STAND",
+          "equipment": {}
         }
       }
     }

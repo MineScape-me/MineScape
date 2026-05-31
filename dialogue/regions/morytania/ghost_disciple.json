@@ -690,6 +690,64 @@
               ]
             ]
           }
+        },
+        "be030aa1-71a8-4eb1-9113-ca4b4a5a8d2c": {
+          "id": "be030aa1-71a8-4eb1-9113-ca4b4a5a8d2c",
+          "type": "npc",
+          "selected": false,
+          "x": 10,
+          "y": -314,
+          "ports": [
+            {
+              "id": "e60760cd-2290-4c97-ba22-8255dc2710f2",
+              "type": "default",
+              "x": 402,
+              "y": -286,
+              "name": "out-1780218322112-58127",
+              "alignment": "right",
+              "parentNode": "be030aa1-71a8-4eb1-9113-ca4b4a5a8d2c",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Ghost disciple",
+          "color": "#6e4b1e",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "e60760cd-2290-4c97-ba22-8255dc2710f2"
+          ],
+          "locations": [
+            "1920.48, 78.00, -703.62, 51.34, 0.00",
+            "1949.44, 70.00, -704.84, 128.66, 0.00",
+            "1923.80, 70.00, -706.44, 51.34, 0.00"
+          ],
+          "traits": [
+            {
+              "trait": "randomwalk",
+              "args": {}
+            },
+            {
+              "trait": "skintrait",
+              "args": {
+                "skin": "GHOST_DECIPLE"
+              }
+            }
+          ],
+          "conditions": {
+            "conditions": [
+              ""
+            ],
+            "args": [],
+            "ors": [
+              false
+            ],
+            "negates": [
+              false
+            ]
+          },
+          "entityType": "PLAYER",
+          "equipment": {}
         }
       }
     }

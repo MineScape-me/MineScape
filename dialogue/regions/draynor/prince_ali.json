@@ -1018,6 +1018,68 @@
           "portsInOrder": [],
           "portsOutOrder": [],
           "text": "Missing not having correct items"
+        },
+        "2c066a5b-fa46-428a-aa08-8fb639717079": {
+          "id": "2c066a5b-fa46-428a-aa08-8fb639717079",
+          "type": "npc",
+          "selected": false,
+          "x": -369.06896551724134,
+          "y": -467.9310344827586,
+          "ports": [
+            {
+              "id": "cbed2be3-9225-4219-8576-e9089f5b26ab",
+              "type": "default",
+              "x": 22.931034482758662,
+              "y": -439.9310344827586,
+              "name": "out-1780218322426-17869",
+              "alignment": "right",
+              "parentNode": "2c066a5b-fa46-428a-aa08-8fb639717079",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Prince Ali",
+          "color": "#6e4b1e",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "cbed2be3-9225-4219-8576-e9089f5b26ab"
+          ],
+          "locations": [
+            "311.52, 63.00, 139.60, 140.08, -19.16"
+          ],
+          "traits": [
+            {
+              "trait": "skintrait",
+              "args": {
+                "skin": "MAN"
+              }
+            },
+            {
+              "trait": "lookclose",
+              "args": {}
+            }
+          ],
+          "conditions": {
+            "conditions": [
+              "questStage"
+            ],
+            "args": [
+              [
+                "PRINCEALIRESCUE",
+                "<",
+                "9"
+              ]
+            ],
+            "ors": [
+              false
+            ],
+            "negates": [
+              false
+            ]
+          },
+          "entityType": "PLAYER",
+          "equipment": {}
         }
       }
     }

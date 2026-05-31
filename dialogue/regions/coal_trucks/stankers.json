@@ -1386,6 +1386,58 @@
           "portsInOrder": [],
           "portsOutOrder": [],
           "text": "poison_chalice\nit has varing stuff buffs,\nmuch like a Kebab"
+        },
+        "e9b3ee79-1ff5-4c74-9c29-b9c8cea72145": {
+          "id": "e9b3ee79-1ff5-4c74-9c29-b9c8cea72145",
+          "type": "npc",
+          "selected": false,
+          "x": 10,
+          "y": -262,
+          "ports": [
+            {
+              "id": "ab4d37c4-eea6-445f-8e8f-8ee18371dfd2",
+              "type": "default",
+              "x": 402,
+              "y": -234,
+              "name": "out-1780263662408-38703",
+              "alignment": "right",
+              "parentNode": "e9b3ee79-1ff5-4c74-9c29-b9c8cea72145",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Stankers",
+          "color": "#6e4b1e",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "ab4d37c4-eea6-445f-8e8f-8ee18371dfd2"
+          ],
+          "locations": [
+            "-1317.39, 63.00, -607.55, -53.13, 0.00"
+          ],
+          "traits": [
+            {
+              "trait": "randomwalk",
+              "args": {}
+            }
+          ],
+          "conditions": {
+            "conditions": [
+              ""
+            ],
+            "args": [],
+            "ors": [
+              false
+            ],
+            "negates": [
+              false
+            ]
+          },
+          "entityType": "ARMOR_STAND",
+          "equipment": {
+            "HEAD": "STONE_AXE"
+          }
         }
       }
     }

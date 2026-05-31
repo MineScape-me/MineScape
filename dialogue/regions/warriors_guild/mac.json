@@ -7436,6 +7436,66 @@
               ]
             ]
           }
+        },
+        "95655d84-85d7-4a12-abe8-89e18d5f97a7": {
+          "id": "95655d84-85d7-4a12-abe8-89e18d5f97a7",
+          "type": "npc",
+          "selected": false,
+          "x": -463.0381890400903,
+          "y": -782.167137904534,
+          "ports": [
+            {
+              "id": "b34d636b-9ade-4108-a902-9a308db0d584",
+              "type": "default",
+              "x": -71.03818904009029,
+              "y": -754.167137904534,
+              "name": "out-1780218322303-17972",
+              "alignment": "right",
+              "parentNode": "95655d84-85d7-4a12-abe8-89e18d5f97a7",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Mac",
+          "color": "#6e4b1e",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "b34d636b-9ade-4108-a902-9a308db0d584"
+          ],
+          "locations": [
+            "-681.49, 64.00, -775.56, 45.00, 0.00"
+          ],
+          "traits": [
+            {
+              "trait": "capetrait",
+              "args": {}
+            },
+            {
+              "trait": "skintrait",
+              "args": {
+                "skin": "MAC"
+              }
+            },
+            {
+              "trait": "randomwalk",
+              "args": {}
+            }
+          ],
+          "conditions": {
+            "conditions": [
+              ""
+            ],
+            "args": [],
+            "ors": [
+              false
+            ],
+            "negates": [
+              false
+            ]
+          },
+          "entityType": "PLAYER",
+          "equipment": {}
         }
       }
     }

@@ -3663,6 +3663,71 @@
               false
             ]
           }
+        },
+        "2e007ec5-5809-4d12-8b14-364c910960dd": {
+          "id": "2e007ec5-5809-4d12-8b14-364c910960dd",
+          "type": "npc",
+          "selected": false,
+          "x": -47.81818181818185,
+          "y": -522.909090909091,
+          "ports": [
+            {
+              "id": "995fe245-100f-44d7-a0dd-8d14651b4b39",
+              "type": "default",
+              "x": 344.18181818181813,
+              "y": -494.909090909091,
+              "name": "out-1780218322773-96594",
+              "alignment": "right",
+              "parentNode": "2e007ec5-5809-4d12-8b14-364c910960dd",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Armour salesman",
+          "color": "#6e4b1e",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "995fe245-100f-44d7-a0dd-8d14651b4b39"
+          ],
+          "locations": [
+            "-1061.54, 67.00, -461.58, 51.34, 0.00"
+          ],
+          "traits": [
+            {
+              "trait": "randomwalk",
+              "args": {}
+            },
+            {
+              "trait": "capetrait",
+              "args": {}
+            },
+            {
+              "trait": "skintrait",
+              "args": {
+                "skin": "ARMOUR_SALESMAN"
+              }
+            }
+          ],
+          "conditions": {
+            "conditions": [
+              ""
+            ],
+            "args": [],
+            "ors": [
+              false
+            ],
+            "negates": [
+              false
+            ]
+          },
+          "entityType": "PLAYER",
+          "equipment": {
+            "HAND": "OAK_LONGBOW",
+            "OFF_HAND": "STEEL_KITESHIELD",
+            "FEET": "LEATHER_BOOTS",
+            "HEAD": "RANGING_HOOD"
+          }
         }
       }
     }

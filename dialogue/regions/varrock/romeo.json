@@ -785,6 +785,62 @@
           "portsOutOrder": [],
           "tree": "romeo_after",
           "start": "Start"
+        },
+        "f6ed7da1-f4f6-42a9-a955-7bb8d9ef5d12": {
+          "id": "f6ed7da1-f4f6-42a9-a955-7bb8d9ef5d12",
+          "type": "npc",
+          "selected": false,
+          "x": 10,
+          "y": -262,
+          "ports": [
+            {
+              "id": "fce06954-f7ca-49f2-941b-1c855e041bd6",
+              "type": "default",
+              "x": 402,
+              "y": -234,
+              "name": "out-1780218322468-28517",
+              "alignment": "right",
+              "parentNode": "f6ed7da1-f4f6-42a9-a955-7bb8d9ef5d12",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Romeo",
+          "color": "#6e4b1e",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "fce06954-f7ca-49f2-941b-1c855e041bd6"
+          ],
+          "locations": [
+            "566.46, 63.00, -434.57, 59.04, 0.00"
+          ],
+          "traits": [
+            {
+              "trait": "randomwalk",
+              "args": {}
+            },
+            {
+              "trait": "skintrait",
+              "args": {
+                "skin": "ROMEO"
+              }
+            }
+          ],
+          "conditions": {
+            "conditions": [
+              ""
+            ],
+            "args": [],
+            "ors": [
+              false
+            ],
+            "negates": [
+              false
+            ]
+          },
+          "entityType": "PLAYER",
+          "equipment": {}
         }
       }
     }

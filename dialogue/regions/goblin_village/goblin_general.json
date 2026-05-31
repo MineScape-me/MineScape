@@ -9476,6 +9476,58 @@
           "portsInOrder": [],
           "portsOutOrder": [],
           "text": "Missing dialogue if not returning with correct mail"
+        },
+        "bb104b05-bb90-4cb5-8fc8-0d123a125a5d": {
+          "id": "bb104b05-bb90-4cb5-8fc8-0d123a125a5d",
+          "type": "npc",
+          "selected": false,
+          "x": -454.8000000000004,
+          "y": -324.80000000000007,
+          "ports": [
+            {
+              "id": "a2d3929b-f7a2-4b86-b2f1-cb7bad362895",
+              "type": "default",
+              "x": -62.80000000000041,
+              "y": -296.80000000000007,
+              "name": "out-1780218322101-58273",
+              "alignment": "right",
+              "parentNode": "bb104b05-bb90-4cb5-8fc8-0d123a125a5d",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "General Bentnoze",
+          "color": "#6e4b1e",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "a2d3929b-f7a2-4b86-b2f1-cb7bad362895"
+          ],
+          "locations": [
+            "-189.62, 55.00, -688.71, 237.43, 0.00"
+          ],
+          "traits": [
+            {
+              "trait": "lookclose",
+              "args": {}
+            }
+          ],
+          "conditions": {
+            "conditions": [
+              ""
+            ],
+            "args": [],
+            "ors": [
+              false
+            ],
+            "negates": [
+              false
+            ]
+          },
+          "entityType": "ARMOR_STAND",
+          "equipment": {
+            "HEAD": "STONE_AXE"
+          }
         }
       }
     }

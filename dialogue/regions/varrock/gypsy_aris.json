@@ -520,6 +520,62 @@
           "portsOutOrder": [],
           "tree": "demon_complete",
           "start": "Start"
+        },
+        "e9df49ab-276d-4463-8974-0cae5fb4d307": {
+          "id": "e9df49ab-276d-4463-8974-0cae5fb4d307",
+          "type": "npc",
+          "selected": false,
+          "x": 10,
+          "y": -262,
+          "ports": [
+            {
+              "id": "ba294621-c833-4534-9135-2ce30f31dca2",
+              "type": "default",
+              "x": 402,
+              "y": -234,
+              "name": "out-1780218322138-43531",
+              "alignment": "right",
+              "parentNode": "e9df49ab-276d-4463-8974-0cae5fb4d307",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Gypsy Aris",
+          "color": "#6e4b1e",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "ba294621-c833-4534-9135-2ce30f31dca2"
+          ],
+          "locations": [
+            "545.60, 63.00, -430.54, 126.87, 0.00"
+          ],
+          "traits": [
+            {
+              "trait": "skintrait",
+              "args": {
+                "skin": "GYPSY_ARIS"
+              }
+            },
+            {
+              "trait": "randomwalk",
+              "args": {}
+            }
+          ],
+          "conditions": {
+            "conditions": [
+              ""
+            ],
+            "args": [],
+            "ors": [
+              false
+            ],
+            "negates": [
+              false
+            ]
+          },
+          "entityType": "PLAYER",
+          "equipment": {}
         }
       }
     }

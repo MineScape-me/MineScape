@@ -843,6 +843,62 @@
             "9fe6add8-a104-43ae-a307-af61e2e9f67e"
           ],
           "text": "Ok, thanks."
+        },
+        "d3662510-1ae5-4571-b00f-8a8b47571b60": {
+          "id": "d3662510-1ae5-4571-b00f-8a8b47571b60",
+          "type": "npc",
+          "selected": false,
+          "x": 33,
+          "y": -290,
+          "ports": [
+            {
+              "id": "24557612-cd9d-4ade-aeda-0c11a1f1c9ca",
+              "type": "default",
+              "x": 425,
+              "y": -262,
+              "name": "out-1780218322168-8700",
+              "alignment": "right",
+              "parentNode": "d3662510-1ae5-4571-b00f-8a8b47571b60",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Hiylik Myna",
+          "color": "#6e4b1e",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "24557612-cd9d-4ade-aeda-0c11a1f1c9ca"
+          ],
+          "locations": [
+            "1256.33, 66.00, -609.52, 51.34, 0.00"
+          ],
+          "traits": [
+            {
+              "trait": "skintrait",
+              "args": {
+                "skin": "MONK"
+              }
+            },
+            {
+              "trait": "randomwalk",
+              "args": {}
+            }
+          ],
+          "conditions": {
+            "conditions": [
+              ""
+            ],
+            "args": [],
+            "ors": [
+              false
+            ],
+            "negates": [
+              false
+            ]
+          },
+          "entityType": "PLAYER",
+          "equipment": {}
         }
       }
     }

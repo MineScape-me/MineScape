@@ -1252,6 +1252,62 @@
               ]
             ]
           }
+        },
+        "5a71e145-871c-4481-b5e1-7fc534ece4c3": {
+          "id": "5a71e145-871c-4481-b5e1-7fc534ece4c3",
+          "type": "npc",
+          "selected": false,
+          "x": 10,
+          "y": -262,
+          "ports": [
+            {
+              "id": "1802219f-dffb-405d-b1e9-b0878cad886a",
+              "type": "default",
+              "x": 402,
+              "y": -234,
+              "name": "out-1780218322240-39726",
+              "alignment": "right",
+              "parentNode": "5a71e145-871c-4481-b5e1-7fc534ece4c3",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Khazard Barman",
+          "color": "#6e4b1e",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "1802219f-dffb-405d-b1e9-b0878cad886a"
+          ],
+          "locations": [
+            "-1362.96, 66.06, 433.38, 161.26, -10.07"
+          ],
+          "traits": [
+            {
+              "trait": "skintrait",
+              "args": {
+                "skin": "KHAZARD_BARMAN"
+              }
+            },
+            {
+              "trait": "lookclose",
+              "args": {}
+            }
+          ],
+          "conditions": {
+            "conditions": [
+              ""
+            ],
+            "args": [],
+            "ors": [
+              false
+            ],
+            "negates": [
+              false
+            ]
+          },
+          "entityType": "PLAYER",
+          "equipment": {}
         }
       }
     }

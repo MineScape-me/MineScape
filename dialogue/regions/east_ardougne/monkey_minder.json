@@ -1182,6 +1182,64 @@
             "7bdc0a9d-70b3-4c88-970a-6490e59c507f"
           ],
           "text": "Stranger things have happened in Ardougne."
+        },
+        "e1d248fe-e0ab-4c90-a4e5-38e5a7bf7f37": {
+          "id": "e1d248fe-e0ab-4c90-a4e5-38e5a7bf7f37",
+          "type": "npc",
+          "selected": false,
+          "x": 79,
+          "y": -332,
+          "ports": [
+            {
+              "id": "687a201f-408b-4787-b889-a7372a1c9709",
+              "type": "default",
+              "x": 471,
+              "y": -304,
+              "name": "out-1780218322358-35070",
+              "alignment": "right",
+              "parentNode": "e1d248fe-e0ab-4c90-a4e5-38e5a7bf7f37",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Monkey Minder",
+          "color": "#6e4b1e",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "687a201f-408b-4787-b889-a7372a1c9709"
+          ],
+          "locations": [
+            "-1269.43, 68.00, 15.05, 30.96, 0.00",
+            "-1257.56, 68.00, 29.73, 149.04, 0.00",
+            "-1238.52, 68.00, 12.94, 36.87, 0.00"
+          ],
+          "traits": [
+            {
+              "trait": "skintrait",
+              "args": {
+                "skin": "ZOO_KEEPER"
+              }
+            },
+            {
+              "trait": "randomwalk",
+              "args": {}
+            }
+          ],
+          "conditions": {
+            "conditions": [
+              ""
+            ],
+            "args": [],
+            "ors": [
+              false
+            ],
+            "negates": [
+              false
+            ]
+          },
+          "entityType": "PLAYER",
+          "equipment": {}
         }
       }
     }

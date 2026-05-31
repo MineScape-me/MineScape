@@ -118,6 +118,64 @@
             "31d90252-8d2d-4df8-be02-30b3c823ca07"
           ],
           "text": "Do you like my magic Zombies? Feel free to kill them,\nthere's plenty more where these came from!"
+        },
+        "4d0a19f8-a518-46ef-a2c2-b521ff5c4f0a": {
+          "id": "4d0a19f8-a518-46ef-a2c2-b521ff5c4f0a",
+          "type": "npc",
+          "selected": false,
+          "x": 10,
+          "y": -288,
+          "ports": [
+            {
+              "id": "6675647b-c825-497a-b0e5-0c2a60d5daf4",
+              "type": "default",
+              "x": 402,
+              "y": -260,
+              "name": "out-1780218322715-65911",
+              "alignment": "right",
+              "parentNode": "4d0a19f8-a518-46ef-a2c2-b521ff5c4f0a",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Wizard Frumscone",
+          "color": "#6e4b1e",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "6675647b-c825-497a-b0e5-0c2a60d5daf4"
+          ],
+          "locations": [
+            "-1304.29, 59.00, 590.16, 135.00, 0.00"
+          ],
+          "traits": [
+            {
+              "trait": "randomwalk",
+              "args": {}
+            },
+            {
+              "trait": "skintrait",
+              "args": {
+                "skin": "WIZARD_FRUMSCONE"
+              }
+            }
+          ],
+          "conditions": {
+            "conditions": [
+              ""
+            ],
+            "args": [],
+            "ors": [
+              false
+            ],
+            "negates": [
+              false
+            ]
+          },
+          "entityType": "PLAYER",
+          "equipment": {
+            "HEAD": "BLUE_WIZARD_HAT"
+          }
         }
       }
     }

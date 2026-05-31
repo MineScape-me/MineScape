@@ -266,6 +266,68 @@
             "a29f5aaf-cce9-493a-a865-f3cf4a5cdb39"
           ],
           "text": "King Arthur will let you know. I believe he has a quest\nat the moment."
+        },
+        "ba686bac-e564-46d0-a9a2-262b23b7959f": {
+          "id": "ba686bac-e564-46d0-a9a2-262b23b7959f",
+          "type": "npc",
+          "selected": false,
+          "x": 57,
+          "y": -324,
+          "ports": [
+            {
+              "id": "149e3719-fc0e-4f33-9f9c-c34b0e0646fb",
+              "type": "default",
+              "x": 449,
+              "y": -296,
+              "name": "out-1780218322561-68093",
+              "alignment": "right",
+              "parentNode": "ba686bac-e564-46d0-a9a2-262b23b7959f",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Sir Pelleas",
+          "color": "#6e4b1e",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "149e3719-fc0e-4f33-9f9c-c34b0e0646fb"
+          ],
+          "locations": [
+            "-772.40, 73.00, -663.02, 30.96, 0.00"
+          ],
+          "traits": [
+            {
+              "trait": "skintrait",
+              "args": {
+                "skin": "SIR_PELLEAS"
+              }
+            },
+            {
+              "trait": "capetrait",
+              "args": {}
+            },
+            {
+              "trait": "randomwalk",
+              "args": {}
+            }
+          ],
+          "conditions": {
+            "conditions": [
+              ""
+            ],
+            "args": [],
+            "ors": [
+              false
+            ],
+            "negates": [
+              false
+            ]
+          },
+          "entityType": "PLAYER",
+          "equipment": {
+            "HAND": "STEEL_MACE"
+          }
         }
       }
     }

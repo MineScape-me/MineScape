@@ -518,6 +518,62 @@
           "portsInOrder": [],
           "portsOutOrder": [],
           "text": "Missing ability to join competition before sabotaging"
+        },
+        "9a38f2d3-b085-4907-943e-cbbfeb6bbbba": {
+          "id": "9a38f2d3-b085-4907-943e-cbbfeb6bbbba",
+          "type": "npc",
+          "selected": false,
+          "x": 132,
+          "y": -261,
+          "ports": [
+            {
+              "id": "df889bd0-2187-481c-964e-1b46f5b19c74",
+              "type": "default",
+              "x": 524,
+              "y": -233,
+              "name": "out-1780218321736-81292",
+              "alignment": "right",
+              "parentNode": "9a38f2d3-b085-4907-943e-cbbfeb6bbbba",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Bonzo",
+          "color": "#6e4b1e",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "df889bd0-2187-481c-964e-1b46f5b19c74"
+          ],
+          "locations": [
+            "-1135.53, 65.00, -459.55, 135.76, -11.79"
+          ],
+          "traits": [
+            {
+              "trait": "skintrait",
+              "args": {
+                "skin": "BONZO"
+              }
+            },
+            {
+              "trait": "lookclose",
+              "args": {}
+            }
+          ],
+          "conditions": {
+            "conditions": [
+              ""
+            ],
+            "args": [],
+            "ors": [
+              false
+            ],
+            "negates": [
+              false
+            ]
+          },
+          "entityType": "PLAYER",
+          "equipment": {}
         }
       }
     }

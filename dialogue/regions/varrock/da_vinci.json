@@ -118,6 +118,62 @@
             "240bd5cc-e5a2-468f-a578-45aec2a11357"
           ],
           "text": "Bah! A great artist such as myself should not have to\nsuffer the HUMILIATION of spending time where the\nlikes of you wander everywhere!"
+        },
+        "08f281fd-3e03-4355-817d-8238c5c8b139": {
+          "id": "08f281fd-3e03-4355-817d-8238c5c8b139",
+          "type": "npc",
+          "selected": false,
+          "x": 151,
+          "y": -246,
+          "ports": [
+            {
+              "id": "ee361d93-4e2d-4ad8-aec1-f005ca47754e",
+              "type": "default",
+              "x": 543,
+              "y": -218,
+              "name": "out-1780218321881-55258",
+              "alignment": "right",
+              "parentNode": "08f281fd-3e03-4355-817d-8238c5c8b139",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Da Vinci",
+          "color": "#6e4b1e",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "ee361d93-4e2d-4ad8-aec1-f005ca47754e"
+          ],
+          "locations": [
+            "766.30, 63.00, -320.70, 130.12, -0.43"
+          ],
+          "traits": [
+            {
+              "trait": "skintrait",
+              "args": {
+                "skin": "DA_VINCY"
+              }
+            },
+            {
+              "trait": "lookclose",
+              "args": {}
+            }
+          ],
+          "conditions": {
+            "conditions": [
+              ""
+            ],
+            "args": [],
+            "ors": [
+              false
+            ],
+            "negates": [
+              false
+            ]
+          },
+          "entityType": "PLAYER",
+          "equipment": {}
         }
       }
     }

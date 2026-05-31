@@ -267,6 +267,62 @@
             "da0e3e32-dbcb-4fa4-8407-0008b7986a0f"
           ],
           "text": "Actually I've got no time for this. I don't want to talk\nto you."
+        },
+        "2b172d97-1e01-4332-9ca8-f6716de7771d": {
+          "id": "2b172d97-1e01-4332-9ca8-f6716de7771d",
+          "type": "npc",
+          "selected": false,
+          "x": 144,
+          "y": -253,
+          "ports": [
+            {
+              "id": "ffcec2bb-98e9-4cc8-8511-5a4a8c1a46b7",
+              "type": "default",
+              "x": 536,
+              "y": -225,
+              "name": "out-1780218322182-52511",
+              "alignment": "right",
+              "parentNode": "2b172d97-1e01-4332-9ca8-f6716de7771d",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Hooknoosed Jack",
+          "color": "#6e4b1e",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "ffcec2bb-98e9-4cc8-8511-5a4a8c1a46b7"
+          ],
+          "locations": [
+            "747.32, 63.00, -360.44, 116.63, 0.00"
+          ],
+          "traits": [
+            {
+              "trait": "skintrait",
+              "args": {
+                "skin": "HOOKNOSED_JACK"
+              }
+            },
+            {
+              "trait": "lookclose",
+              "args": {}
+            }
+          ],
+          "conditions": {
+            "conditions": [
+              ""
+            ],
+            "args": [],
+            "ors": [
+              false
+            ],
+            "negates": [
+              false
+            ]
+          },
+          "entityType": "PLAYER",
+          "equipment": {}
         }
       }
     }

@@ -869,6 +869,58 @@
               ]
             ]
           }
+        },
+        "4cbcf18e-d830-4f8f-99a3-945bdea987a9": {
+          "id": "4cbcf18e-d830-4f8f-99a3-945bdea987a9",
+          "type": "npc",
+          "selected": false,
+          "x": -171,
+          "y": -285,
+          "ports": [
+            {
+              "id": "ae8419a2-a5d3-42e3-8a5c-4bc84c1f0a3c",
+              "type": "default",
+              "x": 221,
+              "y": -257,
+              "name": "out-1780218321731-5622",
+              "alignment": "right",
+              "parentNode": "4cbcf18e-d830-4f8f-99a3-945bdea987a9",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Bolkoy",
+          "color": "#6e4b1e",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "ae8419a2-a5d3-42e3-8a5c-4bc84c1f0a3c"
+          ],
+          "locations": [
+            "-1481.17, 73.00, 367.48, 135.00, 0.00"
+          ],
+          "traits": [
+            {
+              "trait": "randomwalk",
+              "args": {}
+            }
+          ],
+          "conditions": {
+            "conditions": [
+              ""
+            ],
+            "args": [],
+            "ors": [
+              false
+            ],
+            "negates": [
+              false
+            ]
+          },
+          "entityType": "ARMOR_STAND",
+          "equipment": {
+            "HEAD": "IRON_AXE"
+          }
         }
       }
     }

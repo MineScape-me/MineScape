@@ -711,6 +711,62 @@
           "portsInOrder": [],
           "portsOutOrder": [],
           "text": "Missing losing the skull"
+        },
+        "c975f769-5846-4392-b234-1fef0ceddd14": {
+          "id": "c975f769-5846-4392-b234-1fef0ceddd14",
+          "type": "npc",
+          "selected": false,
+          "x": 34,
+          "y": -259,
+          "ports": [
+            {
+              "id": "86d5f748-f394-4e20-85ee-1ea9e81b4405",
+              "type": "default",
+              "x": 426,
+              "y": -231,
+              "name": "out-1780218322449-91110",
+              "alignment": "right",
+              "parentNode": "c975f769-5846-4392-b234-1fef0ceddd14",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Restless Ghost",
+          "color": "#6e4b1e",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "86d5f748-f394-4e20-85ee-1ea9e81b4405"
+          ],
+          "locations": [
+            "698.54, 63.00, 253.88, 38.66, 0.00"
+          ],
+          "traits": [
+            {
+              "trait": "randomwalk",
+              "args": {}
+            },
+            {
+              "trait": "skintrait",
+              "args": {
+                "skin": "RESTLESS_GHOST"
+              }
+            }
+          ],
+          "conditions": {
+            "conditions": [
+              ""
+            ],
+            "args": [],
+            "ors": [
+              false
+            ],
+            "negates": [
+              false
+            ]
+          },
+          "entityType": "PLAYER",
+          "equipment": {}
         }
       }
     }

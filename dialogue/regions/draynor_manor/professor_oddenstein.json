@@ -428,6 +428,62 @@
           "portsOutOrder": [],
           "tree": "normal",
           "start": "Start"
+        },
+        "974192a0-9ca0-42ad-b78f-ce5022b6609d": {
+          "id": "974192a0-9ca0-42ad-b78f-ce5022b6609d",
+          "type": "npc",
+          "selected": false,
+          "x": 10,
+          "y": -262,
+          "ports": [
+            {
+              "id": "1c430b37-efa9-4ebb-a471-acee11808f97",
+              "type": "default",
+              "x": 402,
+              "y": -234,
+              "name": "out-1780218322433-63262",
+              "alignment": "right",
+              "parentNode": "974192a0-9ca0-42ad-b78f-ce5022b6609d",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Professor Oddenstein",
+          "color": "#6e4b1e",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "1c430b37-efa9-4ebb-a471-acee11808f97"
+          ],
+          "locations": [
+            "274.97, 84.00, -241.22, 45.00, 0.00"
+          ],
+          "traits": [
+            {
+              "trait": "skintrait",
+              "args": {
+                "skin": "ALAIN"
+              }
+            },
+            {
+              "trait": "randomwalk",
+              "args": {}
+            }
+          ],
+          "conditions": {
+            "conditions": [
+              ""
+            ],
+            "args": [],
+            "ors": [
+              false
+            ],
+            "negates": [
+              false
+            ]
+          },
+          "entityType": "PLAYER",
+          "equipment": {}
         }
       }
     }

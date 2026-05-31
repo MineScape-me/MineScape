@@ -1033,6 +1033,62 @@
             "65ea1dfd-71f0-4df5-9803-ace6fe66abe9"
           ],
           "switch": "quest[PLAGUE_CITY]"
+        },
+        "1c29ccc7-aa22-4e71-8bb0-236cb56e5fd6": {
+          "id": "1c29ccc7-aa22-4e71-8bb0-236cb56e5fd6",
+          "type": "npc",
+          "selected": false,
+          "x": 23.106796019420457,
+          "y": 261.39805437552377,
+          "ports": [
+            {
+              "id": "72f91540-5f39-472c-be05-d9b39c0971b1",
+              "type": "default",
+              "x": 415.10679601942047,
+              "y": 289.39805437552377,
+              "name": "out-1780218322203-46723",
+              "alignment": "right",
+              "parentNode": "1c29ccc7-aa22-4e71-8bb0-236cb56e5fd6",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Jethick",
+          "color": "#6e4b1e",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "72f91540-5f39-472c-be05-d9b39c0971b1"
+          ],
+          "locations": [
+            "-1449.72, 68.00, -67.07, -45.00, 0.00"
+          ],
+          "traits": [
+            {
+              "trait": "randomwalk",
+              "args": {}
+            },
+            {
+              "trait": "skintrait",
+              "args": {
+                "skin": "JETHICK"
+              }
+            }
+          ],
+          "conditions": {
+            "conditions": [
+              ""
+            ],
+            "args": [],
+            "ors": [
+              false
+            ],
+            "negates": [
+              false
+            ]
+          },
+          "entityType": "PLAYER",
+          "equipment": {}
         }
       }
     }

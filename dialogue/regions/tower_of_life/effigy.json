@@ -2859,6 +2859,84 @@
           "portsOutOrder": [],
           "tree": "return_to_effigy",
           "start": "Start"
+        },
+        "346e9d1b-f5b7-4f56-8e32-c0af4471c6c3": {
+          "id": "346e9d1b-f5b7-4f56-8e32-c0af4471c6c3",
+          "type": "npc",
+          "selected": false,
+          "x": -164,
+          "y": -340,
+          "ports": [
+            {
+              "id": "73b55491-7582-4d19-94a6-0f67b762e2b5",
+              "type": "default",
+              "x": 228,
+              "y": -312,
+              "name": "out-1780218321963-30320",
+              "alignment": "right",
+              "parentNode": "346e9d1b-f5b7-4f56-8e32-c0af4471c6c3",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Effigy",
+          "color": "#6e4b1e",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "73b55491-7582-4d19-94a6-0f67b762e2b5"
+          ],
+          "locations": [
+            "-1141.44, 67.00, 195.55, -38.66, 0.00"
+          ],
+          "traits": [
+            {
+              "trait": "skintrait",
+              "args": {
+                "skin": "EFFIGY"
+              }
+            },
+            {
+              "trait": "randomwalk",
+              "args": {}
+            }
+          ],
+          "conditions": {
+            "conditions": [
+              "questStage",
+              "questStage",
+              "questStage"
+            ],
+            "args": [
+              [
+                "TOWER_OF_LIFE",
+                "!=",
+                "6"
+              ],
+              [
+                "TOWER_OF_LIFE",
+                "<",
+                "10"
+              ],
+              [
+                "TOWER_OF_LIFE",
+                ">",
+                "11"
+              ]
+            ],
+            "ors": [
+              false,
+              false,
+              true
+            ],
+            "negates": [
+              false,
+              false,
+              false
+            ]
+          },
+          "entityType": "PLAYER",
+          "equipment": {}
         }
       }
     }

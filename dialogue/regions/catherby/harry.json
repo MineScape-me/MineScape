@@ -532,6 +532,62 @@
             "4a069040-1379-4eb9-ab52-20f06f32ac61"
           ],
           "text": "Sorry, I'm not interested."
+        },
+        "fe1ec26b-1305-4dd8-9c88-a8687053edde": {
+          "id": "fe1ec26b-1305-4dd8-9c88-a8687053edde",
+          "type": "npc",
+          "selected": false,
+          "x": 85,
+          "y": -267,
+          "ports": [
+            {
+              "id": "92bc9080-05ba-4994-86f3-b2f8e6a21089",
+              "type": "default",
+              "x": 477,
+              "y": -239,
+              "name": "out-1780218322147-24090",
+              "alignment": "right",
+              "parentNode": "fe1ec26b-1305-4dd8-9c88-a8687053edde",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Harry",
+          "color": "#6e4b1e",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "92bc9080-05ba-4994-86f3-b2f8e6a21089"
+          ],
+          "locations": [
+            "-550.83, 67.00, -493.77, 59.04, 0.00"
+          ],
+          "traits": [
+            {
+              "trait": "skintrait",
+              "args": {
+                "skin": "HARRY"
+              }
+            },
+            {
+              "trait": "randomwalk",
+              "args": {}
+            }
+          ],
+          "conditions": {
+            "conditions": [
+              ""
+            ],
+            "args": [],
+            "ors": [
+              false
+            ],
+            "negates": [
+              false
+            ]
+          },
+          "entityType": "PLAYER",
+          "equipment": {}
         }
       }
     }

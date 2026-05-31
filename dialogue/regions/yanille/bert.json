@@ -1050,6 +1050,62 @@
           "portsOutOrder": [],
           "tree": "hand_in_the_sand_after",
           "start": "Start"
+        },
+        "b6ec8ba0-ee60-4e54-a6b5-858a5df8db15": {
+          "id": "b6ec8ba0-ee60-4e54-a6b5-858a5df8db15",
+          "type": "npc",
+          "selected": false,
+          "x": 9,
+          "y": 56,
+          "ports": [
+            {
+              "id": "a92984a7-0709-498c-8226-75f82db83865",
+              "type": "default",
+              "x": 401,
+              "y": 84,
+              "name": "out-1780218321707-99187",
+              "alignment": "right",
+              "parentNode": "b6ec8ba0-ee60-4e54-a6b5-858a5df8db15",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Bert",
+          "color": "#6e4b1e",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "a92984a7-0709-498c-8226-75f82db83865"
+          ],
+          "locations": [
+            "-1412.09, 67.06, 554.41, 141.34, 0.00"
+          ],
+          "traits": [
+            {
+              "trait": "randomwalk",
+              "args": {}
+            },
+            {
+              "trait": "skintrait",
+              "args": {
+                "skin": "BERT"
+              }
+            }
+          ],
+          "conditions": {
+            "conditions": [
+              ""
+            ],
+            "args": [],
+            "ors": [
+              false
+            ],
+            "negates": [
+              false
+            ]
+          },
+          "entityType": "PLAYER",
+          "equipment": {}
         }
       }
     }

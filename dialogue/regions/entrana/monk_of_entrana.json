@@ -599,6 +599,62 @@
               ]
             ]
           }
+        },
+        "c539626b-e744-4ec2-a161-997199f15c6a": {
+          "id": "c539626b-e744-4ec2-a161-997199f15c6a",
+          "type": "npc",
+          "selected": false,
+          "x": 99,
+          "y": -214,
+          "ports": [
+            {
+              "id": "e664b8ba-c97a-4469-b6f2-6a393d82232c",
+              "type": "default",
+              "x": 491,
+              "y": -186,
+              "name": "out-1780218322355-64191",
+              "alignment": "right",
+              "parentNode": "c539626b-e744-4ec2-a161-997199f15c6a",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Monk of Entrana",
+          "color": "#6e4b1e",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "e664b8ba-c97a-4469-b6f2-6a393d82232c"
+          ],
+          "locations": [
+            "-554.42, 67.00, -154.68, 138.41, -25.94"
+          ],
+          "traits": [
+            {
+              "trait": "skintrait",
+              "args": {
+                "skin": "MONK"
+              }
+            },
+            {
+              "trait": "lookclose",
+              "args": {}
+            }
+          ],
+          "conditions": {
+            "conditions": [
+              ""
+            ],
+            "args": [],
+            "ors": [
+              false
+            ],
+            "negates": [
+              false
+            ]
+          },
+          "entityType": "PLAYER",
+          "equipment": {}
         }
       }
     }

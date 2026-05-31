@@ -1705,6 +1705,63 @@
             "4fe9bd29-cd9f-4462-a77f-2a15c095b3f5"
           ],
           "text": "Safe travels adventurer, come back soon."
+        },
+        "3bddcc52-c42e-4639-8da6-51796fdc2538": {
+          "id": "3bddcc52-c42e-4639-8da6-51796fdc2538",
+          "type": "npc",
+          "selected": false,
+          "x": -240,
+          "y": -330,
+          "ports": [
+            {
+              "id": "2599c85a-d9fc-4257-8a9a-fcc1a9739ede",
+              "type": "default",
+              "x": 152,
+              "y": -302,
+              "name": "out-1780218321606-50813",
+              "alignment": "right",
+              "parentNode": "3bddcc52-c42e-4639-8da6-51796fdc2538",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Adventurer Jon",
+          "color": "#6e4b1e",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "2599c85a-d9fc-4257-8a9a-fcc1a9739ede"
+          ],
+          "locations": [
+            "652.51, 61.00, 188.99, 89.99, -1.65"
+          ],
+          "traits": [
+            {
+              "trait": "skintrait",
+              "args": {
+                "skin": "ADVENTURER_JON"
+              }
+            }
+          ],
+          "conditions": {
+            "conditions": [
+              ""
+            ],
+            "args": [],
+            "ors": [
+              false
+            ],
+            "negates": [
+              false
+            ]
+          },
+          "entityType": "PLAYER",
+          "equipment": {
+            "HAND": "JON_2H_SWORD",
+            "FEET": "RUNE_BOOTS",
+            "LEGS": "RUNE_PLATELEGS",
+            "CHEST": "RUNE_PLATEBODY"
+          }
         }
       }
     }

@@ -662,6 +662,58 @@
           "portsOutOrder": [],
           "tree": "witchs_after",
           "start": "Start"
+        },
+        "4cb476a0-99dc-4083-864e-4b5f6de6bb78": {
+          "id": "4cb476a0-99dc-4083-864e-4b5f6de6bb78",
+          "type": "npc",
+          "selected": false,
+          "x": 98,
+          "y": -241,
+          "ports": [
+            {
+              "id": "c38c18f1-882f-4c0a-81d7-ef44b615f76d",
+              "type": "default",
+              "x": 490,
+              "y": -213,
+              "name": "out-1780218321739-59643",
+              "alignment": "right",
+              "parentNode": "4cb476a0-99dc-4083-864e-4b5f6de6bb78",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Boy",
+          "color": "#6e4b1e",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "c38c18f1-882f-4c0a-81d7-ef44b615f76d"
+          ],
+          "locations": [
+            "-269.61, 68.00, -516.57, -45.00, 0.00"
+          ],
+          "traits": [
+            {
+              "trait": "randomwalk",
+              "args": {}
+            }
+          ],
+          "conditions": {
+            "conditions": [
+              ""
+            ],
+            "args": [],
+            "ors": [
+              false
+            ],
+            "negates": [
+              false
+            ]
+          },
+          "entityType": "ARMOR_STAND",
+          "equipment": {
+            "HEAD": "IRON_AXE"
+          }
         }
       }
     }

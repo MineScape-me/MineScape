@@ -1079,6 +1079,64 @@
               ]
             ]
           }
+        },
+        "85c88d9b-d2bf-446c-abac-607eb6a8ec6a": {
+          "id": "85c88d9b-d2bf-446c-abac-607eb6a8ec6a",
+          "type": "npc",
+          "selected": false,
+          "x": 64,
+          "y": -290,
+          "ports": [
+            {
+              "id": "d7672ae5-6112-4354-94aa-abb06827c927",
+              "type": "default",
+              "x": 456,
+              "y": -262,
+              "name": "out-1780218322062-43738",
+              "alignment": "right",
+              "parentNode": "85c88d9b-d2bf-446c-abac-607eb6a8ec6a",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Financial Advisor",
+          "color": "#6e4b1e",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "d7672ae5-6112-4354-94aa-abb06827c927"
+          ],
+          "locations": [
+            "183.30, 71.00, 541.61, 197.45, 5.05"
+          ],
+          "traits": [
+            {
+              "trait": "lookclose",
+              "args": {}
+            },
+            {
+              "trait": "skintrait",
+              "args": {
+                "skin": "MALE_BANKER"
+              }
+            }
+          ],
+          "conditions": {
+            "conditions": [
+              ""
+            ],
+            "args": [],
+            "ors": [
+              false
+            ],
+            "negates": [
+              false
+            ]
+          },
+          "entityType": "PLAYER",
+          "equipment": {
+            "OFF_HAND": "FLIER"
+          }
         }
       }
     }

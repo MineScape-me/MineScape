@@ -131,6 +131,64 @@
           "portsInOrder": [],
           "portsOutOrder": [],
           "text": "same message when trying to enter the door or talking to the mourner that\nguards the door."
+        },
+        "116d512e-6364-4cc0-a5ca-ef761633e12e": {
+          "id": "116d512e-6364-4cc0-a5ca-ef761633e12e",
+          "type": "npc",
+          "selected": false,
+          "x": 10,
+          "y": -288,
+          "ports": [
+            {
+              "id": "a8de26da-534e-4b66-899d-641441b7ccd9",
+              "type": "default",
+              "x": 402,
+              "y": -260,
+              "name": "out-1780218322371-34119",
+              "alignment": "right",
+              "parentNode": "116d512e-6364-4cc0-a5ca-ef761633e12e",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Mourner",
+          "color": "#6e4b1e",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "a8de26da-534e-4b66-899d-641441b7ccd9"
+          ],
+          "locations": [
+            "-1407.51, 68.00, -108.57, -27.71, -44.73"
+          ],
+          "traits": [
+            {
+              "trait": "lookclose",
+              "args": {}
+            },
+            {
+              "trait": "skintrait",
+              "args": {
+                "skin": "MOURNER_BROWN"
+              }
+            }
+          ],
+          "conditions": {
+            "conditions": [
+              ""
+            ],
+            "args": [],
+            "ors": [
+              false
+            ],
+            "negates": [
+              false
+            ]
+          },
+          "entityType": "PLAYER",
+          "equipment": {
+            "HEAD": "FLINT"
+          }
         }
       }
     }

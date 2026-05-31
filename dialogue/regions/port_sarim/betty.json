@@ -2932,6 +2932,65 @@
             "c7ce7a6f-f6e8-4b3b-ab5b-6bd94d43e372"
           ],
           "text": "You don't have enough money at the moment, come back later."
+        },
+        "6cf71d04-f618-4e0f-8054-ebdfb5c67ae5": {
+          "id": "6cf71d04-f618-4e0f-8054-ebdfb5c67ae5",
+          "type": "npc",
+          "selected": false,
+          "x": 293,
+          "y": -78.80000000000001,
+          "ports": [
+            {
+              "id": "7393d6d2-da2e-4dfd-bf52-134d3be762c1",
+              "type": "default",
+              "x": 685,
+              "y": -50.80000000000001,
+              "name": "out-1780218321715-52078",
+              "alignment": "right",
+              "parentNode": "6cf71d04-f618-4e0f-8054-ebdfb5c67ae5",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Betty",
+          "color": "#6e4b1e",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "7393d6d2-da2e-4dfd-bf52-134d3be762c1"
+          ],
+          "locations": [
+            "-21.16, 66.06, 78.79, 216.87, 0.00"
+          ],
+          "traits": [
+            {
+              "trait": "skintrait",
+              "args": {
+                "skin": "WOMAN"
+              }
+            },
+            {
+              "trait": "randomwalk",
+              "args": {}
+            }
+          ],
+          "conditions": {
+            "conditions": [
+              ""
+            ],
+            "args": [],
+            "ors": [
+              false
+            ],
+            "negates": [
+              false
+            ]
+          },
+          "entityType": "PLAYER",
+          "equipment": {
+            "HAND": "STAFF",
+            "HEAD": "BLUE_WIZARD_HAT"
+          }
         }
       }
     }

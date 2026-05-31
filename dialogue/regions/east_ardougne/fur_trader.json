@@ -508,6 +508,62 @@
             "732287a0-d9d5-444d-bf63-71a10fdbf7a8"
           ],
           "text": "No thanks."
+        },
+        "ff6c46c5-568c-4011-8d75-68868dd12399": {
+          "id": "ff6c46c5-568c-4011-8d75-68868dd12399",
+          "type": "npc",
+          "selected": false,
+          "x": 94,
+          "y": -289,
+          "ports": [
+            {
+              "id": "52cad869-91ec-4da6-bb26-fbe50ee3c44b",
+              "type": "default",
+              "x": 486,
+              "y": -261,
+              "name": "out-1780218322078-59876",
+              "alignment": "right",
+              "parentNode": "ff6c46c5-568c-4011-8d75-68868dd12399",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Fur Trader",
+          "color": "#6e4b1e",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "52cad869-91ec-4da6-bb26-fbe50ee3c44b"
+          ],
+          "locations": [
+            "-1062.71, 68.00, -38.40, 27.24, -2.96"
+          ],
+          "traits": [
+            {
+              "trait": "lookclose",
+              "args": {}
+            },
+            {
+              "trait": "skintrait",
+              "args": {
+                "skin": "FUR_TRADER"
+              }
+            }
+          ],
+          "conditions": {
+            "conditions": [
+              ""
+            ],
+            "args": [],
+            "ors": [
+              false
+            ],
+            "negates": [
+              false
+            ]
+          },
+          "entityType": "PLAYER",
+          "equipment": {}
         }
       }
     }

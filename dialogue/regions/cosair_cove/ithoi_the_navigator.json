@@ -191,6 +191,58 @@
             "51a1f30a-deb6-42e5-8c43-e80baf227a29"
           ],
           "text": "He looks too sick to chat."
+        },
+        "93f0c856-a76a-4552-b0c9-1403dbc46b15": {
+          "id": "93f0c856-a76a-4552-b0c9-1403dbc46b15",
+          "type": "npc",
+          "selected": false,
+          "x": 10,
+          "y": -236,
+          "ports": [
+            {
+              "id": "54cda824-a6de-4a5f-bd28-007215428093",
+              "type": "default",
+              "x": 402,
+              "y": -208,
+              "name": "out-1780218322823-260",
+              "alignment": "right",
+              "parentNode": "93f0c856-a76a-4552-b0c9-1403dbc46b15",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Ithoi the Navigator",
+          "color": "#6e4b1e",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "54cda824-a6de-4a5f-bd28-007215428093"
+          ],
+          "locations": [
+            "-1473.01, 70.00, 1342.25, 1.10, 3.60"
+          ],
+          "traits": [
+            {
+              "trait": "skintrait",
+              "args": {
+                "skin": "ITHOI_THE_NAVIGATOR"
+              }
+            }
+          ],
+          "conditions": {
+            "conditions": [
+              ""
+            ],
+            "args": [],
+            "ors": [
+              false
+            ],
+            "negates": [
+              false
+            ]
+          },
+          "entityType": "PLAYER",
+          "equipment": {}
         }
       }
     }

@@ -665,6 +665,62 @@
           "portsOutOrder": [],
           "tree": "romeo_after",
           "start": "Start"
+        },
+        "16c82464-4d1a-4b9f-a13a-87e1f5d67920": {
+          "id": "16c82464-4d1a-4b9f-a13a-87e1f5d67920",
+          "type": "npc",
+          "selected": false,
+          "x": 10,
+          "y": -262,
+          "ports": [
+            {
+              "id": "0b0bb505-507a-4474-9f12-d83195fd39f7",
+              "type": "default",
+              "x": 402,
+              "y": -234,
+              "name": "out-1780218322421-90690",
+              "alignment": "right",
+              "parentNode": "16c82464-4d1a-4b9f-a13a-87e1f5d67920",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Phillipa",
+          "color": "#6e4b1e",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "0b0bb505-507a-4474-9f12-d83195fd39f7"
+          ],
+          "locations": [
+            "435.78, 69.00, -449.19, 122.02, 31.36"
+          ],
+          "traits": [
+            {
+              "trait": "skintrait",
+              "args": {
+                "skin": "PHILLIPA"
+              }
+            },
+            {
+              "trait": "lookclose",
+              "args": {}
+            }
+          ],
+          "conditions": {
+            "conditions": [
+              ""
+            ],
+            "args": [],
+            "ors": [
+              false
+            ],
+            "negates": [
+              false
+            ]
+          },
+          "entityType": "PLAYER",
+          "equipment": {}
         }
       }
     }

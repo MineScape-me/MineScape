@@ -480,6 +480,64 @@
             "cd37261c-ca64-4f48-8c01-d599483e1a2d"
           ],
           "text": "Indeed so, specially imported from the finest smiths\naround the lands, take a look at my wares."
+        },
+        "c61e36f1-f857-4738-87e9-72f83e11a108": {
+          "id": "c61e36f1-f857-4738-87e9-72f83e11a108",
+          "type": "npc",
+          "selected": false,
+          "x": 181,
+          "y": -259,
+          "ports": [
+            {
+              "id": "1cbe9a3a-8810-4924-aa13-07faf554dd07",
+              "type": "default",
+              "x": 573,
+              "y": -231,
+              "name": "out-1780218321651-21608",
+              "alignment": "right",
+              "parentNode": "c61e36f1-f857-4738-87e9-72f83e11a108",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Anton",
+          "color": "#6e4b1e",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "1cbe9a3a-8810-4924-aa13-07faf554dd07"
+          ],
+          "locations": [
+            "-486.26, 81.00, -766.25, -30.96, 0.00"
+          ],
+          "traits": [
+            {
+              "trait": "skintrait",
+              "args": {
+                "skin": "ANTON"
+              }
+            },
+            {
+              "trait": "randomwalk",
+              "args": {}
+            }
+          ],
+          "conditions": {
+            "conditions": [
+              ""
+            ],
+            "args": [],
+            "ors": [
+              false
+            ],
+            "negates": [
+              false
+            ]
+          },
+          "entityType": "PLAYER",
+          "equipment": {
+            "HAND": "HAMMER"
+          }
         }
       }
     }

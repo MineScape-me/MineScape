@@ -337,6 +337,68 @@
             "01ff9c43-0e3c-45ca-9596-a0df19fe79a4"
           ],
           "text": "Of course not! You have to be one of us, and you're\nclearly not. Now get out of here."
+        },
+        "37dddb5f-1d01-47b9-8bff-a527b1f769ed": {
+          "id": "37dddb5f-1d01-47b9-8bff-a527b1f769ed",
+          "type": "npc",
+          "selected": false,
+          "x": 10,
+          "y": -392,
+          "ports": [
+            {
+              "id": "ef475da3-6c99-4910-aa22-5bfe9fc5ba5b",
+              "type": "default",
+              "x": 402,
+              "y": -364,
+              "name": "out-1780218321912-94368",
+              "alignment": "right",
+              "parentNode": "37dddb5f-1d01-47b9-8bff-a527b1f769ed",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Door Guard",
+          "color": "#6e4b1e",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "ef475da3-6c99-4910-aa22-5bfe9fc5ba5b"
+          ],
+          "locations": [
+            "-1207.79, 66.00, 337.26, -83.03, -49.56"
+          ],
+          "traits": [
+            {
+              "trait": "skintrait",
+              "args": {
+                "skin": "KHAZARD_GUARD"
+              }
+            },
+            {
+              "trait": "lookclose",
+              "args": {}
+            }
+          ],
+          "conditions": {
+            "conditions": [
+              ""
+            ],
+            "args": [],
+            "ors": [
+              false
+            ],
+            "negates": [
+              false
+            ]
+          },
+          "entityType": "PLAYER",
+          "equipment": {
+            "HAND": "IRON_BATTLEAXE",
+            "FEET": "LEATHER_BOOTS",
+            "LEGS": "BRONZE_PLATELEGS",
+            "CHEST": "IRON_PLATEBODY",
+            "HEAD": "IRON_MED_HELM"
+          }
         }
       }
     }

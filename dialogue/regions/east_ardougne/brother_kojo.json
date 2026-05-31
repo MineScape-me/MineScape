@@ -658,6 +658,62 @@
             "47b31114-1945-4321-8982-5f50f01291c3"
           ],
           "text": "OK then. Come back and let me know if you change\nyour mind."
+        },
+        "0795da00-afa4-4fcd-869e-6ce08b40fd23": {
+          "id": "0795da00-afa4-4fcd-869e-6ce08b40fd23",
+          "type": "npc",
+          "selected": false,
+          "x": 10,
+          "y": -262,
+          "ports": [
+            {
+              "id": "2f421fa9-9a3d-4573-9535-7dd354b9944e",
+              "type": "default",
+              "x": 402,
+              "y": -234,
+              "name": "out-1780218321764-23184",
+              "alignment": "right",
+              "parentNode": "0795da00-afa4-4fcd-869e-6ce08b40fd23",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Brother Kojo",
+          "color": "#6e4b1e",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "2f421fa9-9a3d-4573-9535-7dd354b9944e"
+          ],
+          "locations": [
+            "-1357.40, 68.00, 105.44, -45.00, 0.00"
+          ],
+          "traits": [
+            {
+              "trait": "randomwalk",
+              "args": {}
+            },
+            {
+              "trait": "skintrait",
+              "args": {
+                "skin": "BROTHER_KOJO"
+              }
+            }
+          ],
+          "conditions": {
+            "conditions": [
+              ""
+            ],
+            "args": [],
+            "ors": [
+              false
+            ],
+            "negates": [
+              false
+            ]
+          },
+          "entityType": "PLAYER",
+          "equipment": {}
         }
       }
     }

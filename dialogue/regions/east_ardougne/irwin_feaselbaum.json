@@ -932,6 +932,56 @@
             "8e0961cb-b4a8-458f-86b1-bf7ffa8c7128"
           ],
           "text": "You'd think he'd do better things with a gift like that,\nbut all he tends to do is get angry at people who come\ninto his house without being invited and then he's off\nagain 'raising the dead'."
+        },
+        "987d847e-0018-440c-81b9-7ca0efee489b": {
+          "id": "987d847e-0018-440c-81b9-7ca0efee489b",
+          "type": "npc",
+          "selected": false,
+          "x": 130,
+          "y": -256,
+          "ports": [
+            {
+              "id": "531091e7-7732-4379-82bb-2da1ab78b81a",
+              "type": "default",
+              "x": 522,
+              "y": -228,
+              "name": "out-1780218322194-63179",
+              "alignment": "right",
+              "parentNode": "987d847e-0018-440c-81b9-7ca0efee489b",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Irwin Feaselbaum",
+          "color": "#6e4b1e",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "531091e7-7732-4379-82bb-2da1ab78b81a"
+          ],
+          "locations": [
+            "-1057.23, 67.00, 121.52, -59.04, 0.00"
+          ],
+          "traits": [
+            {
+              "trait": "randomwalk",
+              "args": {}
+            }
+          ],
+          "conditions": {
+            "conditions": [
+              ""
+            ],
+            "args": [],
+            "ors": [
+              false
+            ],
+            "negates": [
+              false
+            ]
+          },
+          "entityType": "PLAYER",
+          "equipment": {}
         }
       }
     }

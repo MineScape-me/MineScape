@@ -1333,6 +1333,62 @@
             "b152d7c5-c3db-4b6a-9170-adbafb065d60"
           ],
           "text": "I think I might just leave the perusing for now, thanks."
+        },
+        "49f6873b-8e92-4138-8d77-b2caf0fa7956": {
+          "id": "49f6873b-8e92-4138-8d77-b2caf0fa7956",
+          "type": "npc",
+          "selected": false,
+          "x": 36,
+          "y": -314,
+          "ports": [
+            {
+              "id": "d3ad7f92-1c38-431e-a372-8f8eacedf444",
+              "type": "default",
+              "x": 428,
+              "y": -286,
+              "name": "out-1780218321667-14090",
+              "alignment": "right",
+              "parentNode": "49f6873b-8e92-4138-8d77-b2caf0fa7956",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Asyff",
+          "color": "#6e4b1e",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "d3ad7f92-1c38-431e-a372-8f8eacedf444"
+          ],
+          "locations": [
+            "796.77, 63.00, -347.33, 135.00, 0.00"
+          ],
+          "traits": [
+            {
+              "trait": "skintrait",
+              "args": {
+                "skin": "ASYFF"
+              }
+            },
+            {
+              "trait": "randomwalk",
+              "args": {}
+            }
+          ],
+          "conditions": {
+            "conditions": [
+              ""
+            ],
+            "args": [],
+            "ors": [
+              false
+            ],
+            "negates": [
+              false
+            ]
+          },
+          "entityType": "PLAYER",
+          "equipment": {}
         }
       }
     }

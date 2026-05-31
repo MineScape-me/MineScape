@@ -1205,6 +1205,62 @@
             "c4e2020a-cf0e-49bb-a51c-6413b0330969"
           ],
           "text": "Milli ignores you."
+        },
+        "418f2021-cbd8-4d50-9b8b-5a26dea76761": {
+          "id": "418f2021-cbd8-4d50-9b8b-5a26dea76761",
+          "type": "npc",
+          "selected": false,
+          "x": 10,
+          "y": -262,
+          "ports": [
+            {
+              "id": "b06065a1-34fa-4b25-a221-12b40cb1f30c",
+              "type": "default",
+              "x": 402,
+              "y": -234,
+              "name": "out-1780218322345-65528",
+              "alignment": "right",
+              "parentNode": "418f2021-cbd8-4d50-9b8b-5a26dea76761",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Milli Rehnison",
+          "color": "#6e4b1e",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "b06065a1-34fa-4b25-a221-12b40cb1f30c"
+          ],
+          "locations": [
+            "-1470.52, 74.00, -143.49, -45.00, 0.00"
+          ],
+          "traits": [
+            {
+              "trait": "randomwalk",
+              "args": {}
+            },
+            {
+              "trait": "skintrait",
+              "args": {
+                "skin": "MILLI_REHNISON"
+              }
+            }
+          ],
+          "conditions": {
+            "conditions": [
+              ""
+            ],
+            "args": [],
+            "ors": [
+              false
+            ],
+            "negates": [
+              false
+            ]
+          },
+          "entityType": "PLAYER",
+          "equipment": {}
         }
       }
     }

@@ -582,6 +582,62 @@
             "8ff714ce-8886-48c7-86ca-023192966d9f"
           ],
           "text": "Okay. Fare well on your travels."
+        },
+        "7165b09a-f71a-4557-b7b0-7a727a853261": {
+          "id": "7165b09a-f71a-4557-b7b0-7a727a853261",
+          "type": "npc",
+          "selected": false,
+          "x": 179,
+          "y": -1,
+          "ports": [
+            {
+              "id": "12994aa0-05d5-4da7-9db2-8c9ecbcbc1b9",
+              "type": "default",
+              "x": 571,
+              "y": 27,
+              "name": "out-1780218321750-55712",
+              "alignment": "right",
+              "parentNode": "7165b09a-f71a-4557-b7b0-7a727a853261",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Brian",
+          "color": "#6e4b1e",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "12994aa0-05d5-4da7-9db2-8c9ecbcbc1b9"
+          ],
+          "locations": [
+            "-200.46, 63.00, 250.52, 134.10, 0.00"
+          ],
+          "traits": [
+            {
+              "trait": "lookclose",
+              "args": {}
+            },
+            {
+              "trait": "skintrait",
+              "args": {
+                "skin": "SHOPKEEPER"
+              }
+            }
+          ],
+          "conditions": {
+            "conditions": [
+              ""
+            ],
+            "args": [],
+            "ors": [
+              false
+            ],
+            "negates": [
+              false
+            ]
+          },
+          "entityType": "PLAYER",
+          "equipment": {}
         }
       }
     }

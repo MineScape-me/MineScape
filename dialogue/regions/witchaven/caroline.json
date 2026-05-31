@@ -1047,6 +1047,62 @@
             "abcfcd17-2c22-4734-97f1-97de0ee6354d"
           ],
           "text": "Bye."
+        },
+        "18a8315d-d00c-420b-8938-91ae90a86123": {
+          "id": "18a8315d-d00c-420b-8938-91ae90a86123",
+          "type": "npc",
+          "selected": false,
+          "x": 10,
+          "y": -262,
+          "ports": [
+            {
+              "id": "fd74f75d-f87a-42d2-bfeb-32725ceff7e4",
+              "type": "default",
+              "x": 402,
+              "y": -234,
+              "name": "out-1780218321818-28057",
+              "alignment": "right",
+              "parentNode": "18a8315d-d00c-420b-8938-91ae90a86123",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Caroline",
+          "color": "#6e4b1e",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "fd74f75d-f87a-42d2-bfeb-32725ceff7e4"
+          ],
+          "locations": [
+            "-906.15, 65.00, -58.04, 126.87, 0.00"
+          ],
+          "traits": [
+            {
+              "trait": "skintrait",
+              "args": {
+                "skin": "CAROLINE"
+              }
+            },
+            {
+              "trait": "randomwalk",
+              "args": {}
+            }
+          ],
+          "conditions": {
+            "conditions": [
+              ""
+            ],
+            "args": [],
+            "ors": [
+              false
+            ],
+            "negates": [
+              false
+            ]
+          },
+          "entityType": "PLAYER",
+          "equipment": {}
         }
       }
     }

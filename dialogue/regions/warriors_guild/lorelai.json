@@ -1895,6 +1895,62 @@
               ]
             ]
           }
+        },
+        "d90103b9-f404-48d2-a586-d81861755689": {
+          "id": "d90103b9-f404-48d2-a586-d81861755689",
+          "type": "npc",
+          "selected": false,
+          "x": 186,
+          "y": -215,
+          "ports": [
+            {
+              "id": "21aba5a4-3303-4f6f-a104-7d25f5c24ef0",
+              "type": "default",
+              "x": 578,
+              "y": -187,
+              "name": "out-1780218322290-48498",
+              "alignment": "right",
+              "parentNode": "d90103b9-f404-48d2-a586-d81861755689",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Lorelai",
+          "color": "#6e4b1e",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "21aba5a4-3303-4f6f-a104-7d25f5c24ef0"
+          ],
+          "locations": [
+            "-550.64, 45.00, -786.48, 42.86, -49.10"
+          ],
+          "traits": [
+            {
+              "trait": "lookclose",
+              "args": {}
+            },
+            {
+              "trait": "skintrait",
+              "args": {
+                "skin": "LORELAI"
+              }
+            }
+          ],
+          "conditions": {
+            "conditions": [
+              ""
+            ],
+            "args": [],
+            "ors": [
+              false
+            ],
+            "negates": [
+              false
+            ]
+          },
+          "entityType": "PLAYER",
+          "equipment": {}
         }
       }
     }

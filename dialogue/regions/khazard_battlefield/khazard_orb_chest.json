@@ -1265,6 +1265,51 @@
             "046b0b92-4afe-4953-8e96-78b45a5914bd"
           ],
           "switch": "quest[TREE_GNOME_VILLAGE]"
+        },
+        "ddb135d8-08ff-44a5-8f4a-d762d26975e3": {
+          "id": "ddb135d8-08ff-44a5-8f4a-d762d26975e3",
+          "type": "npc",
+          "selected": false,
+          "x": -405.51428592773436,
+          "y": -110.71428408203124,
+          "ports": [
+            {
+              "id": "c6e7f09c-02b9-42d6-a2f0-6f99f0c08217",
+              "type": "default",
+              "x": -13.514285927734363,
+              "y": -82.71428408203124,
+              "name": "out-1780218322833-76485",
+              "alignment": "right",
+              "parentNode": "ddb135d8-08ff-44a5-8f4a-d762d26975e3",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Open",
+          "color": "#6e4b1e",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "c6e7f09c-02b9-42d6-a2f0-6f99f0c08217"
+          ],
+          "locations": [
+            "-1543.51, 79.00, 74.24, 23.40, 4.50"
+          ],
+          "traits": [],
+          "conditions": {
+            "conditions": [
+              ""
+            ],
+            "args": [],
+            "ors": [
+              false
+            ],
+            "negates": [
+              false
+            ]
+          },
+          "entityType": "ARMOR_STAND",
+          "equipment": {}
         }
       }
     }

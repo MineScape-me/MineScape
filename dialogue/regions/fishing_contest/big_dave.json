@@ -832,6 +832,62 @@
             "4291fd17-9dd7-40d3-a117-dafdf11c5f5d"
           ],
           "text": "You really have no clue do you! He won this\ncompetition four years in a row! He lives in the house\njust outside the gate."
+        },
+        "9fd5219b-b3cf-4e84-8392-3932fca642bb": {
+          "id": "9fd5219b-b3cf-4e84-8392-3932fca642bb",
+          "type": "npc",
+          "selected": false,
+          "x": 87,
+          "y": -280,
+          "ports": [
+            {
+              "id": "ea6c0a07-9bc5-4732-bbe2-a9688a720c12",
+              "type": "default",
+              "x": 479,
+              "y": -252,
+              "name": "out-1780218321721-15217",
+              "alignment": "right",
+              "parentNode": "9fd5219b-b3cf-4e84-8392-3932fca642bb",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Big Dave",
+          "color": "#6e4b1e",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "ea6c0a07-9bc5-4732-bbe2-a9688a720c12"
+          ],
+          "locations": [
+            "-1157.35, 64.00, -425.27, 28.28, -13.85"
+          ],
+          "traits": [
+            {
+              "trait": "lookclose",
+              "args": {}
+            },
+            {
+              "trait": "skintrait",
+              "args": {
+                "skin": "BIG_DAVE"
+              }
+            }
+          ],
+          "conditions": {
+            "conditions": [
+              ""
+            ],
+            "args": [],
+            "ors": [
+              false
+            ],
+            "negates": [
+              false
+            ]
+          },
+          "entityType": "PLAYER",
+          "equipment": {}
         }
       }
     }

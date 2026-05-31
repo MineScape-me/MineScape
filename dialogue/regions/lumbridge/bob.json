@@ -1004,6 +1004,62 @@
             "45a2b747-4afe-433d-89ed-f889438148be"
           ],
           "text": "Of course I'll repair it, though the materials may cost\nyou. Just hand me the item and I'll have a look."
+        },
+        "f2900192-c67b-4ccb-b2bd-781e97e5a5f2": {
+          "id": "f2900192-c67b-4ccb-b2bd-781e97e5a5f2",
+          "type": "npc",
+          "selected": false,
+          "x": 95,
+          "y": -237,
+          "ports": [
+            {
+              "id": "c8f2eb30-d97f-4e8f-b2cb-edbeb49b5efd",
+              "type": "default",
+              "x": 487,
+              "y": -209,
+              "name": "out-1780218321730-63261",
+              "alignment": "right",
+              "parentNode": "f2900192-c67b-4ccb-b2bd-781e97e5a5f2",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Bob",
+          "color": "#6e4b1e",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "c8f2eb30-d97f-4e8f-b2cb-edbeb49b5efd"
+          ],
+          "locations": [
+            "632.66, 63.00, 241.74, -50.12, -0.18"
+          ],
+          "traits": [
+            {
+              "trait": "lookclose",
+              "args": {}
+            },
+            {
+              "trait": "skintrait",
+              "args": {
+                "skin": "SHOPKEEPER"
+              }
+            }
+          ],
+          "conditions": {
+            "conditions": [
+              ""
+            ],
+            "args": [],
+            "ors": [
+              false
+            ],
+            "negates": [
+              false
+            ]
+          },
+          "entityType": "PLAYER",
+          "equipment": {}
         }
       }
     }

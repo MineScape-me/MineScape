@@ -1659,6 +1659,62 @@
               ]
             ]
           }
+        },
+        "50631fd3-0959-4f2c-909a-a037b69f117f": {
+          "id": "50631fd3-0959-4f2c-909a-a037b69f117f",
+          "type": "npc",
+          "selected": false,
+          "x": 10,
+          "y": -262,
+          "ports": [
+            {
+              "id": "f1df1c22-0cbc-4636-89aa-271fef4839d8",
+              "type": "default",
+              "x": 402,
+              "y": -234,
+              "name": "out-1780218322307-86986",
+              "alignment": "right",
+              "parentNode": "50631fd3-0959-4f2c-909a-a037b69f117f",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Mage of Zamorak",
+          "color": "#6e4b1e",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "f1df1c22-0cbc-4636-89aa-271fef4839d8"
+          ],
+          "locations": [
+            "263.42, 66.00, -823.44, -53.13, 0.00"
+          ],
+          "traits": [
+            {
+              "trait": "randomwalk",
+              "args": {}
+            },
+            {
+              "trait": "skintrait",
+              "args": {
+                "skin": "MAGE_OF_ZAMORAK"
+              }
+            }
+          ],
+          "conditions": {
+            "conditions": [
+              ""
+            ],
+            "args": [],
+            "ors": [
+              false
+            ],
+            "negates": [
+              false
+            ]
+          },
+          "entityType": "PLAYER",
+          "equipment": {}
         }
       }
     }
