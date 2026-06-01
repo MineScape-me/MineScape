@@ -1,7 +1,7 @@
 {
   "id": "ba6411ea-38ae-412c-9d71-55c4769e1d61",
-  "offsetX": 0,
-  "offsetY": 0,
+  "offsetX": 253,
+  "offsetY": 533,
   "zoom": 100,
   "gridSize": 0,
   "layers": [
@@ -23,14 +23,14 @@
             {
               "id": "53909eae-4be9-4123-ae83-36dc3e66ac4a",
               "type": "point",
-              "x": 180.296875,
-              "y": 54.5
+              "x": 153.078125,
+              "y": 53
             },
             {
               "id": "908eedd7-845a-42f1-ac9a-6642302c825f",
               "type": "point",
               "x": 256.5,
-              "y": 53.5
+              "y": 50.5
             }
           ],
           "labels": [],
@@ -51,14 +51,14 @@
             {
               "id": "8110d898-dd15-4e4f-8054-a457e0792bfb",
               "type": "point",
-              "x": 498,
-              "y": 53.5
+              "x": 463.71875,
+              "y": 50.5
             },
             {
               "id": "0ef9f07b-b518-418c-865f-245c95fc1415",
               "type": "point",
               "x": 259.5,
-              "y": 131.5
+              "y": 128.5
             }
           ],
           "labels": [],
@@ -79,14 +79,14 @@
             {
               "id": "559a32bb-b061-47c7-a430-1db52d1d6196",
               "type": "point",
-              "x": 522.984375,
-              "y": 131.5
+              "x": 485.0625,
+              "y": 128.5
             },
             {
               "id": "6259260c-c33c-478e-adbb-4f6cdbd5d4a3",
               "type": "point",
               "x": 256.5,
-              "y": 204.5
+              "y": 201.5
             }
           ],
           "labels": [],
@@ -112,8 +112,8 @@
             {
               "id": "5b82c403-6bf0-4256-b606-473eadd9fd36",
               "type": "default",
-              "x": 172.796875,
-              "y": 47,
+              "x": 145.578125,
+              "y": 45.5,
               "name": "out-1654535856171",
               "alignment": "right",
               "parentNode": "f5d01aea-91ee-4a6c-9104-b2d6ea72cde3",
@@ -125,7 +125,7 @@
             }
           ],
           "title": "Start",
-          "color": "#16db26",
+          "color": "#16db26e6",
           "portsInOrder": [],
           "portsOutOrder": [
             "5b82c403-6bf0-4256-b606-473eadd9fd36"
@@ -142,7 +142,7 @@
               "id": "eb039f2e-8386-47ec-b6dc-7b116b6d65a0",
               "type": "default",
               "x": 249,
-              "y": 46,
+              "y": 43,
               "name": "in-1654535856935 ",
               "alignment": "left",
               "parentNode": "092b1d51-4221-4a10-b6ab-42aa90235654",
@@ -155,8 +155,8 @@
             {
               "id": "1aa18dcf-f88e-4494-83c9-bedcb0bc0c6a",
               "type": "default",
-              "x": 490.5,
-              "y": 46,
+              "x": 456.21875,
+              "y": 43,
               "name": "out-1654535856936",
               "alignment": "right",
               "parentNode": "092b1d51-4221-4a10-b6ab-42aa90235654",
@@ -168,7 +168,7 @@
             }
           ],
           "title": "Sir Lucan",
-          "color": "#dd341e",
+          "color": "#dd341ee6",
           "portsInOrder": [
             "eb039f2e-8386-47ec-b6dc-7b116b6d65a0"
           ],
@@ -188,7 +188,7 @@
               "id": "86378837-2d2f-4d85-a0c7-b48c5910acaa",
               "type": "default",
               "x": 252,
-              "y": 124,
+              "y": 121,
               "name": "in-1654535867993 ",
               "alignment": "left",
               "parentNode": "a3875957-06f7-4afb-8d2d-a930f26105cb",
@@ -201,8 +201,8 @@
             {
               "id": "a582b8a9-41c2-45c7-aba3-a47822afb141",
               "type": "default",
-              "x": 515.484375,
-              "y": 124,
+              "x": 477.5625,
+              "y": 121,
               "name": "out-1654535867993",
               "alignment": "right",
               "parentNode": "a3875957-06f7-4afb-8d2d-a930f26105cb",
@@ -214,7 +214,7 @@
             }
           ],
           "title": "<player>",
-          "color": "#dd341e",
+          "color": "#dd341ee6",
           "portsInOrder": [
             "86378837-2d2f-4d85-a0c7-b48c5910acaa"
           ],
@@ -226,7 +226,7 @@
         "8153541a-d7d2-41d9-a1f0-913a10aa2ec2": {
           "id": "8153541a-d7d2-41d9-a1f0-913a10aa2ec2",
           "type": "dialogue",
-          "selected": true,
+          "selected": false,
           "x": 262,
           "y": 166,
           "ports": [
@@ -234,7 +234,7 @@
               "id": "a09a2ced-739c-4a29-9a8c-6abb617ec694",
               "type": "default",
               "x": 249,
-              "y": 197,
+              "y": 194,
               "name": "in-1654535856935 ",
               "alignment": "left",
               "parentNode": "8153541a-d7d2-41d9-a1f0-913a10aa2ec2",
@@ -247,8 +247,8 @@
             {
               "id": "a29f5aaf-cce9-493a-a865-f3cf4a5cdb39",
               "type": "default",
-              "x": 717.6875,
-              "y": 197,
+              "x": 645.859375,
+              "y": 194,
               "name": "out-1654535856936",
               "alignment": "right",
               "parentNode": "8153541a-d7d2-41d9-a1f0-913a10aa2ec2",
@@ -258,7 +258,7 @@
             }
           ],
           "title": "Sir Lucan",
-          "color": "#dd341e",
+          "color": "#dd341ee6",
           "portsInOrder": [
             "a09a2ced-739c-4a29-9a8c-6abb617ec694"
           ],
@@ -270,15 +270,15 @@
         "a25368d6-5739-406c-8460-38ccc2501d04": {
           "id": "a25368d6-5739-406c-8460-38ccc2501d04",
           "type": "npc",
-          "selected": false,
-          "x": 57,
-          "y": -324,
+          "selected": true,
+          "x": -110,
+          "y": -346,
           "ports": [
             {
               "id": "270d2761-12d2-491a-8f9a-f59ed8f2ef7c",
               "type": "default",
-              "x": 449,
-              "y": -296,
+              "x": 202,
+              "y": -318,
               "name": "out-1780218322557-66117",
               "alignment": "right",
               "parentNode": "a25368d6-5739-406c-8460-38ccc2501d04",
@@ -305,7 +305,9 @@
             },
             {
               "trait": "capetrait",
-              "args": {}
+              "args": {
+                "itemStack": "RED_CAPE"
+              }
             },
             {
               "trait": "randomwalk",
@@ -331,5 +333,6 @@
         }
       }
     }
-  ]
+  ],
+  "trees": {}
 }

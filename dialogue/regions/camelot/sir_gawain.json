@@ -1,7 +1,7 @@
 {
   "id": "6c35b406-3747-442d-a926-ec75fda05837",
-  "offsetX": 0,
-  "offsetY": 0,
+  "offsetX": 396,
+  "offsetY": 543,
   "zoom": 100,
   "gridSize": 0,
   "layers": [
@@ -23,14 +23,14 @@
             {
               "id": "a7f55f6f-05c8-4830-85aa-cb592c795f5a",
               "type": "point",
-              "x": 185.296875,
-              "y": 56.5
+              "x": 158.078125,
+              "y": 55
             },
             {
               "id": "f1279a4b-9975-4022-9d69-1f56629c93bf",
               "type": "point",
               "x": 265.5,
-              "y": 56.5
+              "y": 53.5
             }
           ],
           "labels": [],
@@ -51,14 +51,14 @@
             {
               "id": "2ba9fcfa-1631-4535-a909-a16821323b99",
               "type": "point",
-              "x": 455.6875,
-              "y": 56.5
+              "x": 429.890625,
+              "y": 53.5
             },
             {
               "id": "05ee4d9d-3189-422f-b684-22f637277da4",
               "type": "point",
               "x": 264.5,
-              "y": 132.5
+              "y": 129.5
             }
           ],
           "labels": [],
@@ -79,14 +79,14 @@
             {
               "id": "a490d82e-15a1-4cf8-a398-bc629ae9ff3d",
               "type": "point",
-              "x": 745.609375,
-              "y": 276.5
+              "x": 698.015625,
+              "y": 273.5
             },
             {
               "id": "d8ceaf4a-f45d-49db-a6dd-38d326350000",
               "type": "point",
               "x": 414.5,
-              "y": 344.5
+              "y": 341.5
             }
           ],
           "labels": [],
@@ -107,14 +107,14 @@
             {
               "id": "7fdac951-b8c7-4357-ab19-6e6a442f302a",
               "type": "point",
-              "x": 641.125,
-              "y": 177.5
+              "x": 600.609375,
+              "y": 173
             },
             {
               "id": "470776a2-1998-4d5a-9e5c-8ae531eb38b6",
               "type": "point",
               "x": 423.5,
-              "y": 276.5
+              "y": 273.5
             }
           ],
           "labels": [],
@@ -135,14 +135,14 @@
             {
               "id": "97a15c2e-64fe-4e1e-aebc-e34aa941622a",
               "type": "point",
-              "x": 641.109375,
-              "y": 141.5
+              "x": 600.609375,
+              "y": 138
             },
             {
               "id": "32d3840c-a90a-4d46-b225-80b054b823ca",
               "type": "point",
               "x": 218.5,
-              "y": 266.5
+              "y": 263.5
             }
           ],
           "labels": [],
@@ -168,8 +168,8 @@
             {
               "id": "cb6b91dc-c629-4105-b8e7-ee00fd214726",
               "type": "default",
-              "x": 177.796875,
-              "y": 49,
+              "x": 150.578125,
+              "y": 47.5,
               "name": "out-1654535597953",
               "alignment": "right",
               "parentNode": "5a373860-e91c-465a-8fe2-0a49ed16f6ea",
@@ -181,7 +181,7 @@
             }
           ],
           "title": "Start",
-          "color": "#16db26",
+          "color": "#16db26e6",
           "portsInOrder": [],
           "portsOutOrder": [
             "cb6b91dc-c629-4105-b8e7-ee00fd214726"
@@ -198,7 +198,7 @@
               "id": "357505ca-1312-433c-acf1-4b995166bab8",
               "type": "default",
               "x": 258,
-              "y": 49,
+              "y": 46,
               "name": "in-1654535599205 ",
               "alignment": "left",
               "parentNode": "7b19a4d0-9328-44af-bdca-d3b762646f15",
@@ -211,8 +211,8 @@
             {
               "id": "6ccf7c78-2789-4496-bf68-054f05cbecee",
               "type": "default",
-              "x": 448.1875,
-              "y": 49,
+              "x": 422.390625,
+              "y": 46,
               "name": "out-1654535599205",
               "alignment": "right",
               "parentNode": "7b19a4d0-9328-44af-bdca-d3b762646f15",
@@ -224,7 +224,7 @@
             }
           ],
           "title": "Sir Gawain",
-          "color": "#dd341e",
+          "color": "#dd341ee6",
           "portsInOrder": [
             "357505ca-1312-433c-acf1-4b995166bab8"
           ],
@@ -244,7 +244,7 @@
               "id": "6595ef9e-59ad-4e85-afb6-d0b6f5a2169e",
               "type": "default",
               "x": 416,
-              "y": 269,
+              "y": 266,
               "name": "in-1654535606829 ",
               "alignment": "left",
               "parentNode": "a36463ef-c3f8-4e8f-9c21-552bf269f238",
@@ -257,8 +257,8 @@
             {
               "id": "8359ad5f-daf4-474c-97e6-b52752af6063",
               "type": "default",
-              "x": 738.109375,
-              "y": 269,
+              "x": 690.515625,
+              "y": 266,
               "name": "out-1654535606829",
               "alignment": "right",
               "parentNode": "a36463ef-c3f8-4e8f-9c21-552bf269f238",
@@ -270,7 +270,7 @@
             }
           ],
           "title": "<player>",
-          "color": "#dd341e",
+          "color": "#dd341ee6",
           "portsInOrder": [
             "6595ef9e-59ad-4e85-afb6-d0b6f5a2169e"
           ],
@@ -290,7 +290,7 @@
               "id": "c59c5771-81aa-42f4-aeab-3f3f68b40eb7",
               "type": "default",
               "x": 257,
-              "y": 125,
+              "y": 122,
               "name": "in-1654535613341 ",
               "alignment": "left",
               "parentNode": "639331a9-7403-467a-b8d9-8b089474f1fc",
@@ -303,8 +303,8 @@
             {
               "id": "5f57f0fa-4dd2-4f82-aff6-35de4c177a84",
               "type": "default",
-              "x": 633.609375,
-              "y": 134,
+              "x": 593.109375,
+              "y": 130.5,
               "name": "out-1654535613341",
               "alignment": "right",
               "parentNode": "639331a9-7403-467a-b8d9-8b089474f1fc",
@@ -317,8 +317,8 @@
             {
               "id": "8ef4c3c3-1314-4f7a-8c66-b7a63346066e",
               "type": "default",
-              "x": 633.625,
-              "y": 170,
+              "x": 593.109375,
+              "y": 165.5,
               "name": "out-1654535617283",
               "alignment": "right",
               "parentNode": "639331a9-7403-467a-b8d9-8b089474f1fc",
@@ -330,7 +330,7 @@
             }
           ],
           "title": "Select an option.",
-          "color": "#0756b1",
+          "color": "#0756b1e6",
           "portsInOrder": [
             "c59c5771-81aa-42f4-aeab-3f3f68b40eb7"
           ],
@@ -344,6 +344,12 @@
                 ""
               ],
               "args": [],
+              "ors": [
+                false
+              ],
+              "negates": [
+                false
+              ],
               "text": "Good day."
             },
             {
@@ -351,6 +357,12 @@
                 ""
               ],
               "args": [],
+              "ors": [
+                false
+              ],
+              "negates": [
+                false
+              ],
               "text": "Know you of any quests sir knight?"
             }
           ]
@@ -358,7 +370,7 @@
         "a7c56d87-d901-4a6e-8729-d096bfb81b57": {
           "id": "a7c56d87-d901-4a6e-8729-d096bfb81b57",
           "type": "dialogue",
-          "selected": true,
+          "selected": false,
           "x": 224,
           "y": 228,
           "ports": [
@@ -366,7 +378,7 @@
               "id": "aa5f4d29-3890-45b2-9b7e-41965f9c2c40",
               "type": "default",
               "x": 211,
-              "y": 259,
+              "y": 256,
               "name": "in-1654535606829 ",
               "alignment": "left",
               "parentNode": "a7c56d87-d901-4a6e-8729-d096bfb81b57",
@@ -379,8 +391,8 @@
             {
               "id": "b385b5de-8057-4bdc-9114-3ca0653e51a7",
               "type": "default",
-              "x": 349.890625,
-              "y": 259,
+              "x": 332.5625,
+              "y": 256,
               "name": "out-1654535606829",
               "alignment": "right",
               "parentNode": "a7c56d87-d901-4a6e-8729-d096bfb81b57",
@@ -390,7 +402,7 @@
             }
           ],
           "title": "<player>",
-          "color": "#dd341e",
+          "color": "#dd341ee6",
           "portsInOrder": [
             "aa5f4d29-3890-45b2-9b7e-41965f9c2c40"
           ],
@@ -410,7 +422,7 @@
               "id": "94f85162-45ec-4c99-931f-55b62039d762",
               "type": "default",
               "x": 407,
-              "y": 337,
+              "y": 334,
               "name": "in-1654535599205 ",
               "alignment": "left",
               "parentNode": "28923064-cdf9-4f23-9e95-28234a53c668",
@@ -423,8 +435,8 @@
             {
               "id": "e0e13dd3-e0fb-48c1-8be2-d1a44eabd93e",
               "type": "default",
-              "x": 853.703125,
-              "y": 337,
+              "x": 785.515625,
+              "y": 334,
               "name": "out-1654535599205",
               "alignment": "right",
               "parentNode": "28923064-cdf9-4f23-9e95-28234a53c668",
@@ -434,7 +446,7 @@
             }
           ],
           "title": "Sir Gawain",
-          "color": "#dd341e",
+          "color": "#dd341ee6",
           "portsInOrder": [
             "94f85162-45ec-4c99-931f-55b62039d762"
           ],
@@ -446,15 +458,15 @@
         "fa854ca9-1749-4495-9fb9-12e0de4e24ac": {
           "id": "fa854ca9-1749-4495-9fb9-12e0de4e24ac",
           "type": "npc",
-          "selected": false,
-          "x": 62,
-          "y": -296,
+          "selected": true,
+          "x": -117,
+          "y": -317,
           "ports": [
             {
               "id": "d70598f0-bc03-4c1f-a7bf-5b518d3af20b",
               "type": "default",
-              "x": 454,
-              "y": -268,
+              "x": 180.109375,
+              "y": -289,
               "name": "out-1780218322552-82358",
               "alignment": "right",
               "parentNode": "fa854ca9-1749-4495-9fb9-12e0de4e24ac",
@@ -481,7 +493,9 @@
             },
             {
               "trait": "capetrait",
-              "args": {}
+              "args": {
+                "itemStack": "RED_CAPE"
+              }
             },
             {
               "trait": "randomwalk",
@@ -505,5 +519,6 @@
         }
       }
     }
-  ]
+  ],
+  "trees": {}
 }
