@@ -1,7 +1,7 @@
 {
   "id": "0d241240-b16d-452f-bc3e-f69113a9fc32",
-  "offsetX": 904,
-  "offsetY": 632,
+  "offsetX": 854,
+  "offsetY": 889,
   "zoom": 100,
   "gridSize": 0,
   "layers": [
@@ -1148,31 +1148,93 @@
           "tree": "return_to_effigy",
           "start": "Start"
         },
-        "bebfed4b-429b-4451-9118-7f8dc7eb8f8c": {
-          "id": "bebfed4b-429b-4451-9118-7f8dc7eb8f8c",
+        "e5b46906-744e-45bb-8534-82d8e8806823": {
+          "id": "e5b46906-744e-45bb-8534-82d8e8806823",
           "type": "npc",
-          "selected": true,
-          "x": -464,
-          "y": -466,
+          "selected": false,
+          "x": -647,
+          "y": -96,
           "ports": [
             {
-              "id": "a1e13c8f-536a-441b-8a21-0461cac471db",
+              "id": "525bf338-a398-45dd-b528-69ec585eaaf8",
               "type": "default",
-              "x": -44.421875,
-              "y": -438,
-              "name": "out-1780218321594-73229",
+              "x": -240.03125,
+              "y": -68,
+              "name": "out-1780097745447-16449",
               "alignment": "right",
-              "parentNode": "bebfed4b-429b-4451-9118-7f8dc7eb8f8c",
+              "parentNode": "e5b46906-744e-45bb-8534-82d8e8806823",
               "links": [],
               "in": false,
               "label": "❯"
             }
           ],
-          "title": "'Transmute' The Alchemist",
+          "title": "§a'Transmute' The Alchemist",
           "color": "#6e4b1e",
           "portsInOrder": [],
           "portsOutOrder": [
-            "a1e13c8f-536a-441b-8a21-0461cac471db"
+            "525bf338-a398-45dd-b528-69ec585eaaf8"
+          ],
+          "locations": [
+            "-1120.49, 85.00, 198.41, -45.00, 0.00"
+          ],
+          "traits": [
+            {
+              "trait": "skintrait",
+              "args": {
+                "skin": "TRANSMUTE_THE_ALCHEMIST"
+              }
+            },
+            {
+              "trait": "randomwalk",
+              "args": {}
+            }
+          ],
+          "conditions": {
+            "conditions": [
+              "questStage"
+            ],
+            "args": [
+              [
+                "TOWER_OF_LIFE",
+                "==",
+                "MEET_AT_TOP"
+              ]
+            ],
+            "ors": [
+              false
+            ],
+            "negates": [
+              false
+            ]
+          },
+          "entityType": "PLAYER",
+          "equipment": {}
+        },
+        "1ad027c1-ae33-475c-a1c5-a7852f2b8597": {
+          "id": "1ad027c1-ae33-475c-a1c5-a7852f2b8597",
+          "type": "npc",
+          "selected": true,
+          "x": -183,
+          "y": -796,
+          "ports": [
+            {
+              "id": "118fbde8-9196-4e9a-aae1-2acc8bf5cbad",
+              "type": "default",
+              "x": 288.375,
+              "y": -768,
+              "name": "out-1780218321573-19434",
+              "alignment": "right",
+              "parentNode": "1ad027c1-ae33-475c-a1c5-a7852f2b8597",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "&a'Transmute' The Alchemist",
+          "color": "#6e4b1e",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "118fbde8-9196-4e9a-aae1-2acc8bf5cbad"
           ],
           "locations": [
             "-1143.59, 66.00, 204.40, 135.00, 0.00"
@@ -1202,13 +1264,13 @@
               ],
               [
                 "TOWER_OF_LIFE",
-                ">",
+                ">=",
                 "MEET_BASEMENT"
               ]
             ],
             "ors": [
               false,
-              true
+              false
             ],
             "negates": [
               false,

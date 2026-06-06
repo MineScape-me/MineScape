@@ -860,15 +860,15 @@
         "74bb20ad-09c3-4895-852b-e19b51af05a9": {
           "id": "74bb20ad-09c3-4895-852b-e19b51af05a9",
           "type": "npc",
-          "selected": false,
+          "selected": true,
           "x": -407,
-          "y": -418,
+          "y": -419,
           "ports": [
             {
               "id": "39ab2b4c-9c88-4e14-8035-d05c31bb8034",
               "type": "default",
-              "x": 12.578125,
-              "y": -390,
+              "x": 64.375,
+              "y": -391,
               "name": "out-1780218321573-19434",
               "alignment": "right",
               "parentNode": "74bb20ad-09c3-4895-852b-e19b51af05a9",
@@ -877,7 +877,7 @@
               "label": "❯"
             }
           ],
-          "title": "'Currency' The Alchemist",
+          "title": "&a'Currency' The Alchemist",
           "color": "#6e4b1e",
           "portsInOrder": [],
           "portsOutOrder": [
@@ -911,16 +911,78 @@
               ],
               [
                 "TOWER_OF_LIFE",
-                ">",
+                ">=",
                 "MEET_BASEMENT"
               ]
             ],
             "ors": [
               false,
-              true
+              false
             ],
             "negates": [
               false,
+              false
+            ]
+          },
+          "entityType": "PLAYER",
+          "equipment": {}
+        },
+        "1f7d3f14-4a0c-4f8c-a9b6-c4a730bc9e88": {
+          "id": "1f7d3f14-4a0c-4f8c-a9b6-c4a730bc9e88",
+          "type": "npc",
+          "selected": false,
+          "x": -568,
+          "y": -59,
+          "ports": [
+            {
+              "id": "dc94a7b2-49c3-4ab3-81c1-f04e0a6c931f",
+              "type": "default",
+              "x": -161.03125,
+              "y": -31,
+              "name": "out-1780097745444-406",
+              "alignment": "right",
+              "parentNode": "1f7d3f14-4a0c-4f8c-a9b6-c4a730bc9e88",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "§a'Currency' The Alchemist",
+          "color": "#6e4b1e",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "dc94a7b2-49c3-4ab3-81c1-f04e0a6c931f"
+          ],
+          "locations": [
+            "-1107.46, 85.00, 198.60, -38.66, 0.00"
+          ],
+          "traits": [
+            {
+              "trait": "randomwalk",
+              "args": {}
+            },
+            {
+              "trait": "skintrait",
+              "args": {
+                "skin": "CURRENCY_THE_ALCHEMIST"
+              }
+            }
+          ],
+          "conditions": {
+            "conditions": [
+              "questStage"
+            ],
+            "args": [
+              [
+                "TOWER_OF_LIFE",
+                "==",
+                "MEET_AT_TOP"
+              ]
+            ],
+            "ors": [
+              false
+            ],
+            "negates": [
               false
             ]
           },
