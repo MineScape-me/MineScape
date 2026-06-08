@@ -1,0 +1,109 @@
+{
+  "id": "e00d9b02-31ca-464c-afb5-a693469f4108",
+  "offsetX": 0,
+  "offsetY": 0,
+  "zoom": 100,
+  "gridSize": 0,
+  "layers": [
+    {
+      "id": "be4359d9-1511-490b-a101-7ab2fa59e7b0",
+      "type": "diagram-links",
+      "isSvg": true,
+      "transformed": true,
+      "models": {}
+    },
+    {
+      "id": "eed35bf7-43f2-4914-ba0c-8005d361c4e3",
+      "type": "diagram-nodes",
+      "isSvg": false,
+      "transformed": true,
+      "models": {
+        "4ae563af-8869-4e0b-8119-6b0a9e92fa89": {
+          "id": "4ae563af-8869-4e0b-8119-6b0a9e92fa89",
+          "type": "start",
+          "x": 50,
+          "y": 50,
+          "ports": [
+            {
+              "id": "1c62d41a-3471-4e72-8589-e89bcd0addc7",
+              "type": "default",
+              "x": 98.578125,
+              "y": 55.5,
+              "name": "out-1780814894800",
+              "alignment": "right",
+              "parentNode": "4ae563af-8869-4e0b-8119-6b0a9e92fa89",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Start",
+          "color": "#16db26e6",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "1c62d41a-3471-4e72-8589-e89bcd0addc7"
+          ]
+        },
+        "bed12c50-3dec-4575-901e-64eeaf7ea603": {
+          "id": "bed12c50-3dec-4575-901e-64eeaf7ea603",
+          "type": "npc",
+          "selected": false,
+          "x": 139,
+          "y": 44,
+          "ports": [
+            {
+              "id": "dd976045-b6c1-4555-b376-79b8ac0555c0",
+              "type": "default",
+              "x": 464.34375,
+              "y": 72,
+              "name": "out-1780263707719-16270",
+              "alignment": "right",
+              "parentNode": "bed12c50-3dec-4575-901e-64eeaf7ea603",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Nurmof",
+          "color": "#6e4b1e",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "dd976045-b6c1-4555-b376-79b8ac0555c0"
+          ],
+          "locations": [
+            "-54.34, 42.94, -457.91, 65.55, -8.81"
+          ],
+          "traits": [
+            {
+              "trait": "lookclose",
+              "args": {}
+            },
+            {
+              "trait": "shoptrait",
+              "args": {
+                "shopID": "NurmofsPickaxeShop"
+              }
+            }
+          ],
+          "conditions": {
+            "conditions": [
+              ""
+            ],
+            "args": [],
+            "ors": [
+              false
+            ],
+            "negates": [
+              false
+            ]
+          },
+          "entityType": "ARMOR_STAND",
+          "equipment": {
+            "HEAD": "STONE_AXE:70"
+          }
+        }
+      }
+    }
+  ],
+  "trees": {}
+}

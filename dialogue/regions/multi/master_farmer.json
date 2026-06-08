@@ -1,0 +1,121 @@
+{
+  "id": "05137fdd-de86-4bd7-b347-a80dcd3a054c",
+  "offsetX": 69,
+  "offsetY": 133,
+  "zoom": 100,
+  "gridSize": 0,
+  "layers": [
+    {
+      "id": "58289bb5-4986-4d60-a9a3-3f5754bb3683",
+      "type": "diagram-links",
+      "isSvg": true,
+      "transformed": true,
+      "models": {}
+    },
+    {
+      "id": "a16cbedd-1889-4e75-b265-589aa3a8cb90",
+      "type": "diagram-nodes",
+      "isSvg": false,
+      "transformed": true,
+      "models": {
+        "b09f7274-7e98-490f-a7fa-4aa501aa8337": {
+          "id": "b09f7274-7e98-490f-a7fa-4aa501aa8337",
+          "type": "start",
+          "x": 50,
+          "y": 50,
+          "ports": [
+            {
+              "id": "e1aeb2f7-b331-4fd1-905a-4361167d4c8a",
+              "type": "default",
+              "x": 98.578125,
+              "y": 55.5,
+              "name": "out-1780814631601",
+              "alignment": "right",
+              "parentNode": "b09f7274-7e98-490f-a7fa-4aa501aa8337",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Start",
+          "color": "#16db26e6",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "e1aeb2f7-b331-4fd1-905a-4361167d4c8a"
+          ]
+        },
+        "3aafc380-2322-4435-b742-997b09cdbde8": {
+          "id": "3aafc380-2322-4435-b742-997b09cdbde8",
+          "type": "npc",
+          "selected": false,
+          "x": 137,
+          "y": 25,
+          "ports": [
+            {
+              "id": "d1bf2fbf-5d6d-4955-84fc-9e1f5f06ec5f",
+              "type": "default",
+              "x": 440.234375,
+              "y": 53,
+              "name": "out-1780263707686-338",
+              "alignment": "right",
+              "parentNode": "3aafc380-2322-4435-b742-997b09cdbde8",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "&aMaster Farmer",
+          "color": "#6e4b1e",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "d1bf2fbf-5d6d-4955-84fc-9e1f5f06ec5f"
+          ],
+          "locations": [
+            "-1145.35, 66.00, -236.84, -45.00, 0.00",
+            "675.60, 65.00, -202.01, 135.00, 0.00",
+            "180.75, 63.00, 91.05, 53.13, 0.00"
+          ],
+          "traits": [
+            {
+              "trait": "skintrait",
+              "args": {
+                "skin": "FARMER"
+              }
+            },
+            {
+              "trait": "capetrait",
+              "args": {
+                "itemStack": "FARMING_CAPE"
+              }
+            },
+            {
+              "trait": "randomwalk",
+              "args": {}
+            },
+            {
+              "trait": "thievingtrait",
+              "args": {
+                "thievingTableID": "MASTER_FARMER"
+              }
+            }
+          ],
+          "conditions": {
+            "conditions": [
+              ""
+            ],
+            "args": [],
+            "ors": [
+              false
+            ],
+            "negates": [
+              false
+            ]
+          },
+          "entityType": "PLAYER",
+          "equipment": {}
+        }
+      }
+    }
+  ],
+  "trees": {}
+}

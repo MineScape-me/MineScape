@@ -1,0 +1,116 @@
+{
+  "id": "7bc2b614-a61f-446f-a739-7a279ce3f5a9",
+  "offsetX": 0,
+  "offsetY": 1,
+  "zoom": 100,
+  "gridSize": 0,
+  "layers": [
+    {
+      "id": "0f12a9d2-d6e7-4a53-bc3e-015590129e0c",
+      "type": "diagram-links",
+      "isSvg": true,
+      "transformed": true,
+      "models": {}
+    },
+    {
+      "id": "d675c983-e32a-46c4-8d8f-379e82cc8038",
+      "type": "diagram-nodes",
+      "isSvg": false,
+      "transformed": true,
+      "models": {
+        "feb54956-70c3-4ead-b781-7aa86ef3c3b8": {
+          "id": "feb54956-70c3-4ead-b781-7aa86ef3c3b8",
+          "type": "start",
+          "x": 50,
+          "y": 50,
+          "ports": [
+            {
+              "id": "ffb56eaa-8288-4595-96f7-b2c61712a0b8",
+              "type": "default",
+              "x": 98.578125,
+              "y": 55.5,
+              "name": "out-1780876012008",
+              "alignment": "right",
+              "parentNode": "feb54956-70c3-4ead-b781-7aa86ef3c3b8",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Start",
+          "color": "#16db26e6",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "ffb56eaa-8288-4595-96f7-b2c61712a0b8"
+          ]
+        },
+        "b0dece10-75af-4f00-a9ae-be092fa88365": {
+          "id": "b0dece10-75af-4f00-a9ae-be092fa88365",
+          "type": "npc",
+          "selected": false,
+          "x": 157,
+          "y": 30,
+          "ports": [
+            {
+              "id": "80f680f4-9fa6-4bae-8913-237fd9d9689f",
+              "type": "default",
+              "x": 482.34375,
+              "y": 58,
+              "name": "out-1780263708007-26484",
+              "alignment": "right",
+              "parentNode": "b0dece10-75af-4f00-a9ae-be092fa88365",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "&aSwamp lizard",
+          "color": "#6e4b1e",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "80f680f4-9fa6-4bae-8913-237fd9d9689f"
+          ],
+          "locations": [
+            "1604.40, 65.00, -463.56, -179.70, 81.90",
+            "1620.50, 64.00, -508.50, -2.70, 90.00",
+            "1614.50, 65.00, -499.50, -176.40, 21.00",
+            "1605.49, 64.00, -498.96, 175.80, 79.80",
+            "1633.50, 64.00, -484.76, 179.85, 78.15",
+            "1641.46, 65.00, -455.23, 86.10, 78.45",
+            "1626.50, 65.00, -463.50, -91.50, 90.00",
+            "1617.47, 64.00, -474.56, 178.65, 73.20",
+            "1599.50, 65.00, -475.50, 173.25, 90.00",
+            "1604.40, 65.00, -463.56, -179.70, 81.90",
+            "1568.50, 67.00, -502.50, 108.90, 33.90",
+            "1553.50, 64.00, -487.50, 178.20, 28.20"
+          ],
+          "traits": [
+            {
+              "trait": "hunterrandomwalk",
+              "args": {
+                "trapType": "NET_TRAP"
+              }
+            }
+          ],
+          "conditions": {
+            "conditions": [
+              ""
+            ],
+            "args": [],
+            "ors": [
+              false
+            ],
+            "negates": [
+              false
+            ]
+          },
+          "entityType": "ARMOR_STAND",
+          "equipment": {
+            "HEAD": "APPLE"
+          }
+        }
+      }
+    }
+  ],
+  "trees": {}
+}

@@ -1,0 +1,113 @@
+{
+  "id": "092ac781-900e-449a-9ae7-30a969cbba55",
+  "offsetX": 0,
+  "offsetY": 0,
+  "zoom": 100,
+  "gridSize": 0,
+  "layers": [
+    {
+      "id": "cb99c0ee-fd05-48c4-9aaa-5bd505d30225",
+      "type": "diagram-links",
+      "isSvg": true,
+      "transformed": true,
+      "models": {}
+    },
+    {
+      "id": "a45aadce-deaf-4917-83f9-9b62289bbb67",
+      "type": "diagram-nodes",
+      "isSvg": false,
+      "transformed": true,
+      "models": {
+        "f0549770-4d27-48cc-b9aa-bae3a339e445": {
+          "id": "f0549770-4d27-48cc-b9aa-bae3a339e445",
+          "type": "start",
+          "x": 50,
+          "y": 50,
+          "ports": [
+            {
+              "id": "d308d2f6-3a73-4122-8690-15639fac0ad5",
+              "type": "default",
+              "x": 98.578125,
+              "y": 55.5,
+              "name": "out-1780813714547",
+              "alignment": "right",
+              "parentNode": "f0549770-4d27-48cc-b9aa-bae3a339e445",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Start",
+          "color": "#16db26e6",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "d308d2f6-3a73-4122-8690-15639fac0ad5"
+          ]
+        },
+        "c6c48273-b74c-42c6-9c91-544f5cb828b9": {
+          "id": "c6c48273-b74c-42c6-9c91-544f5cb828b9",
+          "type": "npc",
+          "selected": false,
+          "x": 147,
+          "y": 35,
+          "ports": [
+            {
+              "id": "54884fad-bd82-428a-ad8e-7c99c486de0a",
+              "type": "default",
+              "x": 466.234375,
+              "y": 63,
+              "name": "out-1780263707574-53254",
+              "alignment": "right",
+              "parentNode": "c6c48273-b74c-42c6-9c91-544f5cb828b9",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "&eGrum",
+          "color": "#6e4b1e",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "54884fad-bd82-428a-ad8e-7c99c486de0a"
+          ],
+          "locations": [
+            "-28.00, 66.06, 113.00, 52.70, 29.07"
+          ],
+          "traits": [
+            {
+              "trait": "shoptrait",
+              "args": {
+                "shopID": "GrumsGoldExchange"
+              }
+            },
+            {
+              "trait": "lookclose",
+              "args": {}
+            },
+            {
+              "trait": "skintrait",
+              "args": {
+                "skin": "WIZARD"
+              }
+            }
+          ],
+          "conditions": {
+            "conditions": [
+              ""
+            ],
+            "args": [],
+            "ors": [
+              false
+            ],
+            "negates": [
+              false
+            ]
+          },
+          "entityType": "PLAYER",
+          "equipment": {}
+        }
+      }
+    }
+  ],
+  "trees": {}
+}

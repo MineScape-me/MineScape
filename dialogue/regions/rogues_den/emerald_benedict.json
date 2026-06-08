@@ -1,0 +1,111 @@
+{
+  "id": "e3cb69cf-a7c1-462e-a4fa-72c5f3ea585d",
+  "offsetX": 153,
+  "offsetY": 135,
+  "zoom": 100,
+  "gridSize": 0,
+  "layers": [
+    {
+      "id": "4eb1a7ff-852c-4411-9170-bfc082ec2f25",
+      "type": "diagram-links",
+      "isSvg": true,
+      "transformed": true,
+      "models": {}
+    },
+    {
+      "id": "17a5f18a-dfe7-4740-a538-90a78e05307f",
+      "type": "diagram-nodes",
+      "isSvg": false,
+      "transformed": true,
+      "models": {
+        "b28dfc2f-454e-4d59-a38e-5f13fe8a5ed6": {
+          "id": "b28dfc2f-454e-4d59-a38e-5f13fe8a5ed6",
+          "type": "start",
+          "x": 50,
+          "y": 50,
+          "ports": [
+            {
+              "id": "41577f30-9616-46e9-82a0-3225aa47aad8",
+              "type": "default",
+              "x": 98.578125,
+              "y": 55.5,
+              "name": "out-1780812852410",
+              "alignment": "right",
+              "parentNode": "b28dfc2f-454e-4d59-a38e-5f13fe8a5ed6",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Start",
+          "color": "#16db26e6",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "41577f30-9616-46e9-82a0-3225aa47aad8"
+          ]
+        },
+        "20671e73-5c7d-4aea-b04e-56681ca3b135": {
+          "id": "20671e73-5c7d-4aea-b04e-56681ca3b135",
+          "type": "npc",
+          "selected": false,
+          "x": 152,
+          "y": 8,
+          "ports": [
+            {
+              "id": "a90d5e8c-3472-4651-bace-7b2980bc8154",
+              "type": "default",
+              "x": 473.6875,
+              "y": 36,
+              "name": "out-1780263707502-63409",
+              "alignment": "right",
+              "parentNode": "20671e73-5c7d-4aea-b04e-56681ca3b135",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "&6Emerald Benedict",
+          "color": "#6e4b1e",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "a90d5e8c-3472-4651-bace-7b2980bc8154"
+          ],
+          "locations": [
+            "-393.37, 48.00, -722.81, 193.79, -20.02"
+          ],
+          "traits": [
+            {
+              "trait": "banktrait",
+              "args": {}
+            },
+            {
+              "trait": "lookclose",
+              "args": {}
+            },
+            {
+              "trait": "skintrait",
+              "args": {
+                "skin": "EMERALD_BENEDICT"
+              }
+            }
+          ],
+          "conditions": {
+            "conditions": [
+              ""
+            ],
+            "args": [],
+            "ors": [
+              false
+            ],
+            "negates": [
+              false
+            ]
+          },
+          "entityType": "PLAYER",
+          "equipment": {}
+        }
+      }
+    }
+  ],
+  "trees": {}
+}

@@ -122,7 +122,7 @@
         "39b3c99e-ade3-486a-8716-3255b96c617a": {
           "id": "39b3c99e-ade3-486a-8716-3255b96c617a",
           "type": "npc",
-          "selected": true,
+          "selected": false,
           "x": 10,
           "y": -730,
           "ports": [
@@ -139,7 +139,7 @@
               "label": "❯"
             }
           ],
-          "title": "Mourner",
+          "title": "&aMourner",
           "color": "#6e4b1e",
           "portsInOrder": [],
           "portsOutOrder": [
@@ -196,6 +196,69 @@
           "entityType": "PLAYER",
           "equipment": {
             "HAND": "BATTLESTAFF",
+            "HEAD": "GAS_MASK"
+          }
+        },
+        "bea08c3e-1e6b-4d08-9728-4d5916b066ff": {
+          "id": "bea08c3e-1e6b-4d08-9728-4d5916b066ff",
+          "type": "npc",
+          "selected": false,
+          "x": -337.4999974250794,
+          "y": -723.3749944810869,
+          "ports": [
+            {
+              "id": "32390528-13cc-46b5-bff8-6abfbf86f093",
+              "type": "default",
+              "x": -25.500013355005635,
+              "y": -695.3750138162762,
+              "name": "out-1780263707706-78729",
+              "alignment": "right",
+              "parentNode": "bea08c3e-1e6b-4d08-9728-4d5916b066ff",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "&aMourner",
+          "color": "#6e4b1e",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "32390528-13cc-46b5-bff8-6abfbf86f093"
+          ],
+          "locations": [
+            "-1409.49, 68.00, -117.72, 210.96, 0.00",
+            "-1418.39, 68.00, -122.62, 239.04, 0.00",
+            "-1411.41, 68.00, -128.44, 233.13, 0.00",
+            "-1403.41, 68.00, -123.75, -45.00, 0.00",
+            "-1397.43, 68.00, -122.84, -45.00, 0.00",
+            "-1426.49, 68.00, -128.45, -38.66, 0.00"
+          ],
+          "traits": [
+            {
+              "trait": "randomwalk",
+              "args": {}
+            },
+            {
+              "trait": "skintrait",
+              "args": {
+                "skin": "MOURNER_BROWN"
+              }
+            }
+          ],
+          "conditions": {
+            "conditions": [
+              ""
+            ],
+            "args": [],
+            "ors": [
+              false
+            ],
+            "negates": [
+              false
+            ]
+          },
+          "entityType": "PLAYER",
+          "equipment": {
             "HEAD": "GAS_MASK"
           }
         }

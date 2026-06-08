@@ -1,0 +1,109 @@
+{
+  "id": "fe007e9c-a1a8-456f-814b-c543d32f8310",
+  "offsetX": -1,
+  "offsetY": 0,
+  "zoom": 100,
+  "gridSize": 0,
+  "layers": [
+    {
+      "id": "89daf02c-45f4-4708-99bf-20bf0e9d5a08",
+      "type": "diagram-links",
+      "isSvg": true,
+      "transformed": true,
+      "models": {}
+    },
+    {
+      "id": "74589db7-2e9f-4173-9c1c-b9dc0f42bbc3",
+      "type": "diagram-nodes",
+      "isSvg": false,
+      "transformed": true,
+      "models": {
+        "7e8afe01-a9bd-45da-ab69-fba003c301ce": {
+          "id": "7e8afe01-a9bd-45da-ab69-fba003c301ce",
+          "type": "start",
+          "x": 50,
+          "y": 50,
+          "ports": [
+            {
+              "id": "ac488706-4915-49f1-9bb4-14a8dd574467",
+              "type": "default",
+              "x": 98.578125,
+              "y": 55.5,
+              "name": "out-1780809297301",
+              "alignment": "right",
+              "parentNode": "7e8afe01-a9bd-45da-ab69-fba003c301ce",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Start",
+          "color": "#16db26e6",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "ac488706-4915-49f1-9bb4-14a8dd574467"
+          ]
+        },
+        "7154ba63-3a97-4944-87d0-857d545fb5bb": {
+          "id": "7154ba63-3a97-4944-87d0-857d545fb5bb",
+          "type": "npc",
+          "selected": false,
+          "x": 142,
+          "y": 41,
+          "ports": [
+            {
+              "id": "06196b94-51bd-40a3-8687-fe303131448a",
+              "type": "default",
+              "x": 454,
+              "y": 69,
+              "name": "out-1780263707351-64742",
+              "alignment": "right",
+              "parentNode": "7154ba63-3a97-4944-87d0-857d545fb5bb",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "&eBlack Knight Captain",
+          "color": "#6e4b1e",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "06196b94-51bd-40a3-8687-fe303131448a"
+          ],
+          "locations": [
+            "38.38, 71.00, -695.77, 135.00, 0.00"
+          ],
+          "traits": [
+            {
+              "trait": "skintrait",
+              "args": {
+                "skin": "MORRIS"
+              }
+            },
+            {
+              "trait": "randomwalk",
+              "args": {}
+            }
+          ],
+          "conditions": {
+            "conditions": [
+              ""
+            ],
+            "args": [],
+            "ors": [
+              false
+            ],
+            "negates": [
+              false
+            ]
+          },
+          "entityType": "PLAYER",
+          "equipment": {
+            "HAND": "BLACK_SWORD"
+          }
+        }
+      }
+    }
+  ],
+  "trees": {}
+}

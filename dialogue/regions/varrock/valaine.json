@@ -1,0 +1,113 @@
+{
+  "id": "46e863be-b766-416b-b320-9f79a54042e3",
+  "offsetX": 0,
+  "offsetY": 0,
+  "zoom": 100,
+  "gridSize": 0,
+  "layers": [
+    {
+      "id": "3ed4cf05-0fc7-450f-8c59-b7cd0f392771",
+      "type": "diagram-links",
+      "isSvg": true,
+      "transformed": true,
+      "models": {}
+    },
+    {
+      "id": "69dc0943-b084-4d2a-b062-baf35d94e528",
+      "type": "diagram-nodes",
+      "isSvg": false,
+      "transformed": true,
+      "models": {
+        "2d23c8af-464b-4834-98a5-c0613151bc6c": {
+          "id": "2d23c8af-464b-4834-98a5-c0613151bc6c",
+          "type": "start",
+          "x": 50,
+          "y": 50,
+          "ports": [
+            {
+              "id": "fe6e0ea1-417c-4f0c-9f57-db5e91b3e5e6",
+              "type": "default",
+              "x": 98.578125,
+              "y": 55.5,
+              "name": "out-1780878400433",
+              "alignment": "right",
+              "parentNode": "2d23c8af-464b-4834-98a5-c0613151bc6c",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Start",
+          "color": "#16db26e6",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "fe6e0ea1-417c-4f0c-9f57-db5e91b3e5e6"
+          ]
+        },
+        "2c703a38-22d0-45dd-a155-b89ed928ddb2": {
+          "id": "2c703a38-22d0-45dd-a155-b89ed928ddb2",
+          "type": "npc",
+          "selected": true,
+          "x": 144,
+          "y": 47,
+          "ports": [
+            {
+              "id": "97b329a0-188f-43e1-a7fa-2d0cf7f7a918",
+              "type": "default",
+              "x": 499.9375,
+              "y": 75,
+              "name": "out-1780263707891-60584",
+              "alignment": "right",
+              "parentNode": "2c703a38-22d0-45dd-a155-b89ed928ddb2",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "&eValaine",
+          "color": "#6e4b1e",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "97b329a0-188f-43e1-a7fa-2d0cf7f7a918"
+          ],
+          "locations": [
+            "516.51, 70.06, -234.70, 76.57, 11.80"
+          ],
+          "traits": [
+            {
+              "trait": "skintrait",
+              "args": {
+                "skin": "DEFAULT_FEMALE_WHITE"
+              }
+            },
+            {
+              "trait": "lookclose",
+              "args": {}
+            },
+            {
+              "trait": "shoptrait",
+              "args": {
+                "shopID": "ValainesShopOfChampions"
+              }
+            }
+          ],
+          "conditions": {
+            "conditions": [
+              ""
+            ],
+            "args": [],
+            "ors": [
+              false
+            ],
+            "negates": [
+              false
+            ]
+          },
+          "entityType": "PLAYER",
+          "equipment": {}
+        }
+      }
+    }
+  ],
+  "trees": {}
+}

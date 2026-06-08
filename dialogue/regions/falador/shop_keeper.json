@@ -1,0 +1,113 @@
+{
+  "id": "c04237a1-e9f2-4e72-94b4-bf4c09709c89",
+  "offsetX": 0,
+  "offsetY": 0,
+  "zoom": 100,
+  "gridSize": 0,
+  "layers": [
+    {
+      "id": "c8d7aa9c-753e-4efc-a438-8cb28a5b0637",
+      "type": "diagram-links",
+      "isSvg": true,
+      "transformed": true,
+      "models": {}
+    },
+    {
+      "id": "b1384319-5e54-4cfe-8c80-4ad40ace83fc",
+      "type": "diagram-nodes",
+      "isSvg": false,
+      "transformed": true,
+      "models": {
+        "c9ac872c-fab1-40a0-b0d5-300f1c622794": {
+          "id": "c9ac872c-fab1-40a0-b0d5-300f1c622794",
+          "type": "start",
+          "x": 50,
+          "y": 50,
+          "ports": [
+            {
+              "id": "7aa2daae-413a-4361-a2c9-cd71f8988e55",
+              "type": "default",
+              "x": 98.578125,
+              "y": 55.5,
+              "name": "out-1780875736801",
+              "alignment": "right",
+              "parentNode": "c9ac872c-fab1-40a0-b0d5-300f1c622794",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Start",
+          "color": "#16db26e6",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "7aa2daae-413a-4361-a2c9-cd71f8988e55"
+          ]
+        },
+        "57b651c8-b7bc-4a21-8651-9ea6bad9eb58": {
+          "id": "57b651c8-b7bc-4a21-8651-9ea6bad9eb58",
+          "type": "npc",
+          "selected": false,
+          "x": 160,
+          "y": 45,
+          "ports": [
+            {
+              "id": "0b8b0623-3976-4903-9259-d53a939cc54f",
+              "type": "default",
+              "x": 491.46875,
+              "y": 73,
+              "name": "out-1780263707801-32433",
+              "alignment": "right",
+              "parentNode": "57b651c8-b7bc-4a21-8651-9ea6bad9eb58",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "&eShop keeper",
+          "color": "#6e4b1e",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "0b8b0623-3976-4903-9259-d53a939cc54f"
+          ],
+          "locations": [
+            "-187.49, 65.00, -315.30, -2.31, -1.20"
+          ],
+          "traits": [
+            {
+              "trait": "skintrait",
+              "args": {
+                "skin": "SHOPKEEPER"
+              }
+            },
+            {
+              "trait": "lookclose",
+              "args": {}
+            },
+            {
+              "trait": "shoptrait",
+              "args": {
+                "shopID": "FaladorGeneralStore"
+              }
+            }
+          ],
+          "conditions": {
+            "conditions": [
+              ""
+            ],
+            "args": [],
+            "ors": [
+              false
+            ],
+            "negates": [
+              false
+            ]
+          },
+          "entityType": "PLAYER",
+          "equipment": {}
+        }
+      }
+    }
+  ],
+  "trees": {}
+}

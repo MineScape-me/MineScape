@@ -1,7 +1,7 @@
 {
   "id": "5366ac06-f420-4921-b152-9d126d2407f6",
-  "offsetX": 94,
-  "offsetY": 243,
+  "offsetX": 200,
+  "offsetY": 450,
   "zoom": 100,
   "gridSize": 0,
   "layers": [
@@ -23,14 +23,14 @@
             {
               "id": "c7f02e0d-0a43-49e7-98fc-33557623d8af",
               "type": "point",
-              "x": 133.296875,
-              "y": 64.5
+              "x": 106.078125,
+              "y": 63
             },
             {
               "id": "ac796360-3885-40a3-a259-3ae71b86c1a2",
               "type": "point",
               "x": 231.5,
-              "y": 48.5
+              "y": 45.5
             }
           ],
           "labels": [],
@@ -51,14 +51,14 @@
             {
               "id": "b41e3c75-51fd-419d-b21a-189f12da0423",
               "type": "point",
-              "x": 348.40625,
-              "y": 48.5
+              "x": 334.71875,
+              "y": 45.5
             },
             {
               "id": "65238938-0a27-4057-9731-713eea8c56a6",
               "type": "point",
               "x": 231.5,
-              "y": 111.5
+              "y": 108.5
             }
           ],
           "labels": [],
@@ -84,8 +84,8 @@
             {
               "id": "39e7fbec-d129-47f6-9761-a4fe3490624f",
               "type": "default",
-              "x": 125.796875,
-              "y": 57,
+              "x": 98.578125,
+              "y": 55.5,
               "name": "out-1706246558440",
               "alignment": "right",
               "parentNode": "587acf78-11b7-4e16-ba5e-0a5832e68c10",
@@ -114,7 +114,7 @@
               "id": "09c510a5-a1b1-47eb-aece-900d022a7c95",
               "type": "default",
               "x": 224,
-              "y": 41,
+              "y": 38,
               "name": "in-1706246610586 ",
               "alignment": "left",
               "parentNode": "f94e370a-18ec-4972-98d8-8d74716425ec",
@@ -127,8 +127,8 @@
             {
               "id": "bc7960ae-dbd3-4e0c-ac4b-374943801bfc",
               "type": "default",
-              "x": 340.90625,
-              "y": 41,
+              "x": 327.21875,
+              "y": 38,
               "name": "out-1706246610586",
               "alignment": "right",
               "parentNode": "f94e370a-18ec-4972-98d8-8d74716425ec",
@@ -160,7 +160,7 @@
               "id": "9813a136-5bfa-4d91-934e-efc8a2bdf3f5",
               "type": "default",
               "x": 224,
-              "y": 104,
+              "y": 101,
               "name": "in-1706246611787 ",
               "alignment": "left",
               "parentNode": "f7f1547f-4b16-4875-becb-68452048c229",
@@ -173,8 +173,8 @@
             {
               "id": "7978459d-4a8e-4373-b883-87142196f844",
               "type": "default",
-              "x": 692.6875,
-              "y": 104,
+              "x": 620.859375,
+              "y": 101,
               "name": "out-1706246611787",
               "alignment": "right",
               "parentNode": "f7f1547f-4b16-4875-becb-68452048c229",
@@ -192,6 +192,62 @@
             "7978459d-4a8e-4373-b883-87142196f844"
           ],
           "text": "Sorry, I don't have time to talk. Bravek needs lots of\nhelp running the city."
+        },
+        "e6d384f9-5821-4c3e-9e20-c6a25409533f": {
+          "id": "e6d384f9-5821-4c3e-9e20-c6a25409533f",
+          "type": "npc",
+          "selected": true,
+          "x": -152,
+          "y": -291,
+          "ports": [
+            {
+              "id": "fe5e72a9-e15c-4790-bdd1-ccbd0cea8c1a",
+              "type": "default",
+              "x": 189.859375,
+              "y": -263,
+              "name": "out-1780263707419-9685",
+              "alignment": "right",
+              "parentNode": "e6d384f9-5821-4c3e-9e20-c6a25409533f",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Clerk",
+          "color": "#6e4b1e",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "fe5e72a9-e15c-4790-bdd1-ccbd0cea8c1a"
+          ],
+          "locations": [
+            "-1502.47, 68.00, -93.72, 135.00, 0.00"
+          ],
+          "traits": [
+            {
+              "trait": "skintrait",
+              "args": {
+                "skin": "CLERK_EASTERN_ROOM"
+              }
+            },
+            {
+              "trait": "randomwalk",
+              "args": {}
+            }
+          ],
+          "conditions": {
+            "conditions": [
+              ""
+            ],
+            "args": [],
+            "ors": [
+              false
+            ],
+            "negates": [
+              false
+            ]
+          },
+          "entityType": "PLAYER",
+          "equipment": {}
         }
       }
     }

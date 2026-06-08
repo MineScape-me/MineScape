@@ -1,0 +1,113 @@
+{
+  "id": "966c5577-8b72-48bf-bc79-eeedc7fead59",
+  "offsetX": 0,
+  "offsetY": -4,
+  "zoom": 100,
+  "gridSize": 0,
+  "layers": [
+    {
+      "id": "ee4669b8-c117-4819-8ca9-cb17c7dfaf94",
+      "type": "diagram-links",
+      "isSvg": true,
+      "transformed": true,
+      "models": {}
+    },
+    {
+      "id": "4f1462bf-9fef-47dd-a7cd-bce83980b23f",
+      "type": "diagram-nodes",
+      "isSvg": false,
+      "transformed": true,
+      "models": {
+        "085b1f11-956e-4aef-bdcc-3bb19c13f3aa": {
+          "id": "085b1f11-956e-4aef-bdcc-3bb19c13f3aa",
+          "type": "start",
+          "x": 50,
+          "y": 50,
+          "ports": [
+            {
+              "id": "f7adf860-c2e2-4b7b-8f4f-7278185ab793",
+              "type": "default",
+              "x": 98.578125,
+              "y": 55.5,
+              "name": "out-1780878599854",
+              "alignment": "right",
+              "parentNode": "085b1f11-956e-4aef-bdcc-3bb19c13f3aa",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Start",
+          "color": "#16db26e6",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "f7adf860-c2e2-4b7b-8f4f-7278185ab793"
+          ]
+        },
+        "b013d6f7-f72a-4df1-b168-7cc890aa6dd9": {
+          "id": "b013d6f7-f72a-4df1-b168-7cc890aa6dd9",
+          "type": "npc",
+          "selected": true,
+          "x": 140,
+          "y": 39,
+          "ports": [
+            {
+              "id": "95203f7c-d169-41de-906a-da8a469f258c",
+              "type": "default",
+              "x": 520.40625,
+              "y": 67,
+              "name": "out-1780263707930-60150",
+              "alignment": "right",
+              "parentNode": "b013d6f7-f72a-4df1-b168-7cc890aa6dd9",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "&eZambo",
+          "color": "#6e4b1e",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "95203f7c-d169-41de-906a-da8a469f258c"
+          ],
+          "locations": [
+            "-276.38, 68.00, 427.00, 7.58, 0.00"
+          ],
+          "traits": [
+            {
+              "trait": "lookclose",
+              "args": {}
+            },
+            {
+              "trait": "shoptrait",
+              "args": {
+                "shopID": "KaramjaWinesSpiritsandBeers"
+              }
+            },
+            {
+              "trait": "skintrait",
+              "args": {
+                "skin": "SHOPKEEPER"
+              }
+            }
+          ],
+          "conditions": {
+            "conditions": [
+              ""
+            ],
+            "args": [],
+            "ors": [
+              false
+            ],
+            "negates": [
+              false
+            ]
+          },
+          "entityType": "PLAYER",
+          "equipment": {}
+        }
+      }
+    }
+  ],
+  "trees": {}
+}

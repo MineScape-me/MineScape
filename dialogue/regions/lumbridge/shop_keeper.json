@@ -1,0 +1,113 @@
+{
+  "id": "c5f22d98-5e77-48eb-87b9-ba3a4c7c01da",
+  "offsetX": 0,
+  "offsetY": 0,
+  "zoom": 100,
+  "gridSize": 0,
+  "layers": [
+    {
+      "id": "9cc31e3d-0da6-4c82-a99f-b2e1bdfae6ad",
+      "type": "diagram-links",
+      "isSvg": true,
+      "transformed": true,
+      "models": {}
+    },
+    {
+      "id": "083cf3c0-3de4-4559-b64b-bc4960161cf1",
+      "type": "diagram-nodes",
+      "isSvg": false,
+      "transformed": true,
+      "models": {
+        "429f4dd7-7ab9-40cc-8731-188e4a29b7ec": {
+          "id": "429f4dd7-7ab9-40cc-8731-188e4a29b7ec",
+          "type": "start",
+          "x": 50,
+          "y": 50,
+          "ports": [
+            {
+              "id": "bd9765e7-78d0-46b5-a247-07ff3e7e2c05",
+              "type": "default",
+              "x": 98.578125,
+              "y": 55.5,
+              "name": "out-1780875621684",
+              "alignment": "right",
+              "parentNode": "429f4dd7-7ab9-40cc-8731-188e4a29b7ec",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Start",
+          "color": "#16db26e6",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "bd9765e7-78d0-46b5-a247-07ff3e7e2c05"
+          ]
+        },
+        "97fdf041-932b-4565-bd3f-3668793a7bf3": {
+          "id": "97fdf041-932b-4565-bd3f-3668793a7bf3",
+          "type": "npc",
+          "selected": false,
+          "x": 196,
+          "y": 29,
+          "ports": [
+            {
+              "id": "d2909b15-5c8a-4f26-80a7-d3d6d3186ac9",
+              "type": "default",
+              "x": 539.703125,
+              "y": 57,
+              "name": "out-1780263707799-47383",
+              "alignment": "right",
+              "parentNode": "97fdf041-932b-4565-bd3f-3668793a7bf3",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "&eShop keeper",
+          "color": "#6e4b1e",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "d2909b15-5c8a-4f26-80a7-d3d6d3186ac9"
+          ],
+          "locations": [
+            "601.99, 64.00, 137.22, -45.00, 0.00"
+          ],
+          "traits": [
+            {
+              "trait": "shoptrait",
+              "args": {
+                "shopID": "LumbridgeGeneralStore"
+              }
+            },
+            {
+              "trait": "skintrait",
+              "args": {
+                "skin": "SHOPKEEPER"
+              }
+            },
+            {
+              "trait": "randomwalk",
+              "args": {}
+            }
+          ],
+          "conditions": {
+            "conditions": [
+              ""
+            ],
+            "args": [],
+            "ors": [
+              false
+            ],
+            "negates": [
+              false
+            ]
+          },
+          "entityType": "PLAYER",
+          "equipment": {}
+        }
+      }
+    }
+  ],
+  "trees": {}
+}

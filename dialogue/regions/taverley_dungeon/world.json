@@ -1,0 +1,98 @@
+{
+  "id": "3196333b-8f82-41a9-b9fb-2a66d041d211",
+  "offsetX": 0,
+  "offsetY": 0,
+  "zoom": 100,
+  "gridSize": 0,
+  "layers": [
+    {
+      "id": "c6fcd45d-8860-4c95-b41d-37757150150a",
+      "type": "diagram-links",
+      "isSvg": true,
+      "transformed": true,
+      "models": {}
+    },
+    {
+      "id": "32e0c7c4-63bb-4061-874c-300f3e076c59",
+      "type": "diagram-nodes",
+      "isSvg": false,
+      "transformed": true,
+      "models": {
+        "bde56c9d-287b-47e9-ac70-cb4f518e8c11": {
+          "id": "bde56c9d-287b-47e9-ac70-cb4f518e8c11",
+          "type": "start",
+          "x": 50,
+          "y": 50,
+          "ports": [
+            {
+              "id": "5903e0d2-95a1-46ec-92c6-076be9f26ad1",
+              "type": "default",
+              "x": 98.578125,
+              "y": 55.5,
+              "name": "out-1780814347047",
+              "alignment": "right",
+              "parentNode": "bde56c9d-287b-47e9-ac70-cb4f518e8c11",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Start",
+          "color": "#16db26e6",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "5903e0d2-95a1-46ec-92c6-076be9f26ad1"
+          ]
+        },
+        "1171273b-efde-43f8-97c8-a53fa7f2ee15": {
+          "id": "1171273b-efde-43f8-97c8-a53fa7f2ee15",
+          "type": "npc",
+          "selected": false,
+          "x": 143,
+          "y": 41,
+          "ports": [
+            {
+              "id": "451aab6e-c33b-4dd0-b766-c50955e2cd61",
+              "type": "default",
+              "x": 446.234375,
+              "y": 69,
+              "name": "out-1780263707942-10061",
+              "alignment": "right",
+              "parentNode": "1171273b-efde-43f8-97c8-a53fa7f2ee15",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "&cHellhound",
+          "color": "#6e4b1e",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "451aab6e-c33b-4dd0-b766-c50955e2cd61"
+          ],
+          "locations": [
+            "-477.52, 23.00, -446.56, 270.85, -2.70"
+          ],
+          "traits": [],
+          "conditions": {
+            "conditions": [
+              ""
+            ],
+            "args": [],
+            "ors": [
+              false
+            ],
+            "negates": [
+              false
+            ]
+          },
+          "entityType": "ARMOR_STAND",
+          "equipment": {
+            "HEAD": "IRON_AXE:34"
+          }
+        }
+      }
+    }
+  ],
+  "trees": {}
+}

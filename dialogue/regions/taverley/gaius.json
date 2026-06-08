@@ -1,0 +1,115 @@
+{
+  "id": "f3489b91-58e9-4770-804c-8850570018cc",
+  "offsetX": 0,
+  "offsetY": 0,
+  "zoom": 100,
+  "gridSize": 0,
+  "layers": [
+    {
+      "id": "a499558b-3575-49af-8821-9a8c8a382d85",
+      "type": "diagram-links",
+      "isSvg": true,
+      "transformed": true,
+      "models": {}
+    },
+    {
+      "id": "2e1c6381-c6c5-4cf2-847c-8820f4a4aa8b",
+      "type": "diagram-nodes",
+      "isSvg": false,
+      "transformed": true,
+      "models": {
+        "8e2d1fc9-f284-4e6e-851f-6a6bf95549ce": {
+          "id": "8e2d1fc9-f284-4e6e-851f-6a6bf95549ce",
+          "type": "start",
+          "x": 50,
+          "y": 50,
+          "ports": [
+            {
+              "id": "247c6dda-c336-4f9b-87b3-792bd3f30a4b",
+              "type": "default",
+              "x": 98.578125,
+              "y": 55.5,
+              "name": "out-1780813208304",
+              "alignment": "right",
+              "parentNode": "8e2d1fc9-f284-4e6e-851f-6a6bf95549ce",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Start",
+          "color": "#16db26e6",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "247c6dda-c336-4f9b-87b3-792bd3f30a4b"
+          ]
+        },
+        "7c6db7a8-b5d3-4293-a966-8c081255a78b": {
+          "id": "7c6db7a8-b5d3-4293-a966-8c081255a78b",
+          "type": "npc",
+          "selected": false,
+          "x": 142,
+          "y": 31,
+          "ports": [
+            {
+              "id": "0a04e8f5-04ed-46e1-9e78-d03beddb5cd1",
+              "type": "default",
+              "x": 467.34375,
+              "y": 59,
+              "name": "out-1780263707549-52342",
+              "alignment": "right",
+              "parentNode": "7c6db7a8-b5d3-4293-a966-8c081255a78b",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "&eGaius",
+          "color": "#6e4b1e",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "0a04e8f5-04ed-46e1-9e78-d03beddb5cd1"
+          ],
+          "locations": [
+            "-402.47, 71.06, -501.48, -48.90, 2.70"
+          ],
+          "traits": [
+            {
+              "trait": "skintrait",
+              "args": {
+                "skin": "GAIUS"
+              }
+            },
+            {
+              "trait": "lookclose",
+              "args": {}
+            },
+            {
+              "trait": "shoptrait",
+              "args": {
+                "shopID": "GaiusTwoHandedShop"
+              }
+            }
+          ],
+          "conditions": {
+            "conditions": [
+              ""
+            ],
+            "args": [],
+            "ors": [
+              false
+            ],
+            "negates": [
+              false
+            ]
+          },
+          "entityType": "PLAYER",
+          "equipment": {
+            "HAND": "HAMMER"
+          }
+        }
+      }
+    }
+  ],
+  "trees": {}
+}

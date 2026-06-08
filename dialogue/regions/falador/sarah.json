@@ -1,0 +1,115 @@
+{
+  "id": "ae3df9d8-8592-4cc8-bb88-97bd184ea879",
+  "offsetX": 0,
+  "offsetY": 0,
+  "zoom": 100,
+  "gridSize": 0,
+  "layers": [
+    {
+      "id": "438295be-dc62-465c-9c45-ce47ca1720ef",
+      "type": "diagram-links",
+      "isSvg": true,
+      "transformed": true,
+      "models": {}
+    },
+    {
+      "id": "847837ff-d38c-457d-9449-e09cdf8ee7df",
+      "type": "diagram-nodes",
+      "isSvg": false,
+      "transformed": true,
+      "models": {
+        "8e47b6a3-f6fc-4a60-8d05-f3873953902c": {
+          "id": "8e47b6a3-f6fc-4a60-8d05-f3873953902c",
+          "type": "start",
+          "x": 50,
+          "y": 50,
+          "ports": [
+            {
+              "id": "7598ba77-5ac1-41ea-911b-655b20f925bd",
+              "type": "default",
+              "x": 98.578125,
+              "y": 55.5,
+              "name": "out-1780815720906",
+              "alignment": "right",
+              "parentNode": "8e47b6a3-f6fc-4a60-8d05-f3873953902c",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Start",
+          "color": "#16db26e6",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "7598ba77-5ac1-41ea-911b-655b20f925bd"
+          ]
+        },
+        "4fa17047-fa21-4d54-b9f4-9d9756cfc40b": {
+          "id": "4fa17047-fa21-4d54-b9f4-9d9756cfc40b",
+          "type": "npc",
+          "selected": false,
+          "x": 132,
+          "y": 41,
+          "ports": [
+            {
+              "id": "bccf48af-2201-4a2f-a163-a90e7ceae169",
+              "type": "default",
+              "x": 451.234375,
+              "y": 69,
+              "name": "out-1780263707775-34698",
+              "alignment": "right",
+              "parentNode": "4fa17047-fa21-4d54-b9f4-9d9756cfc40b",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "&eSarah",
+          "color": "#6e4b1e",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "bccf48af-2201-4a2f-a163-a90e7ceae169"
+          ],
+          "locations": [
+            "52.00, 63.06, -23.02, -36.87, 0.00"
+          ],
+          "traits": [
+            {
+              "trait": "skintrait",
+              "args": {
+                "skin": "LORELAI"
+              }
+            },
+            {
+              "trait": "shoptrait",
+              "args": {
+                "shopID": "SarahsFarmingShop"
+              }
+            },
+            {
+              "trait": "randomwalk",
+              "args": {}
+            }
+          ],
+          "conditions": {
+            "conditions": [
+              ""
+            ],
+            "args": [],
+            "ors": [
+              false
+            ],
+            "negates": [
+              false
+            ]
+          },
+          "entityType": "PLAYER",
+          "equipment": {
+            "HAND": "SPADE"
+          }
+        }
+      }
+    }
+  ],
+  "trees": {}
+}

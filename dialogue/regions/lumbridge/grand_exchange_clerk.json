@@ -1,0 +1,111 @@
+{
+  "id": "5f9ccd95-3085-413b-ab2d-f88916b84032",
+  "offsetX": 83,
+  "offsetY": 126,
+  "zoom": 100,
+  "gridSize": 0,
+  "layers": [
+    {
+      "id": "abaf7ce1-1386-44e1-9d7f-e8accdef1bf4",
+      "type": "diagram-links",
+      "isSvg": true,
+      "transformed": true,
+      "models": {}
+    },
+    {
+      "id": "2eebe4c1-1788-4009-a080-8be70f381da9",
+      "type": "diagram-nodes",
+      "isSvg": false,
+      "transformed": true,
+      "models": {
+        "f6f07183-c852-403f-ae59-27887c2d30f3": {
+          "id": "f6f07183-c852-403f-ae59-27887c2d30f3",
+          "type": "start",
+          "x": 50,
+          "y": 50,
+          "ports": [
+            {
+              "id": "31f50484-ef7b-4340-8493-5b47b2006117",
+              "type": "default",
+              "x": 98.578125,
+              "y": 55.5,
+              "name": "out-1780813348065",
+              "alignment": "right",
+              "parentNode": "f6f07183-c852-403f-ae59-27887c2d30f3",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Start",
+          "color": "#16db26e6",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "31f50484-ef7b-4340-8493-5b47b2006117"
+          ]
+        },
+        "976e1eb4-d982-4a6f-af52-6f74b803944a": {
+          "id": "976e1eb4-d982-4a6f-af52-6f74b803944a",
+          "type": "npc",
+          "selected": true,
+          "x": 213,
+          "y": 32,
+          "ports": [
+            {
+              "id": "6426bf4d-cdea-4a4a-9ac8-b34643472d69",
+              "type": "default",
+              "x": 501.078125,
+              "y": 60,
+              "name": "out-1780263707269-19843",
+              "alignment": "right",
+              "parentNode": "976e1eb4-d982-4a6f-af52-6f74b803944a",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "&6Grand Exchange Clerk",
+          "color": "#6e4b1e",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "6426bf4d-cdea-4a4a-9ac8-b34643472d69"
+          ],
+          "locations": [
+            "614.46, 64.00, 198.50, 255.62, 3.25"
+          ],
+          "traits": [
+            {
+              "trait": "skintrait",
+              "args": {
+                "skin": "MALE_BANKER"
+              }
+            },
+            {
+              "trait": "lookclose",
+              "args": {}
+            },
+            {
+              "trait": "getrait",
+              "args": {}
+            }
+          ],
+          "conditions": {
+            "conditions": [
+              ""
+            ],
+            "args": [],
+            "ors": [
+              false
+            ],
+            "negates": [
+              false
+            ]
+          },
+          "entityType": "PLAYER",
+          "equipment": {}
+        }
+      }
+    }
+  ],
+  "trees": {}
+}

@@ -1,0 +1,115 @@
+{
+  "id": "d976f00d-ed0b-4fae-858d-f64af31b2603",
+  "offsetX": 0,
+  "offsetY": 0,
+  "zoom": 100,
+  "gridSize": 0,
+  "layers": [
+    {
+      "id": "868c06e0-e691-48ae-b032-3ad62c28147e",
+      "type": "diagram-links",
+      "isSvg": true,
+      "transformed": true,
+      "models": {}
+    },
+    {
+      "id": "fc5e77fd-495f-4895-a823-563182fed735",
+      "type": "diagram-nodes",
+      "isSvg": false,
+      "transformed": true,
+      "models": {
+        "5ff3f271-e87d-4738-bf0a-11079348b51d": {
+          "id": "5ff3f271-e87d-4738-bf0a-11079348b51d",
+          "type": "start",
+          "x": 50,
+          "y": 50,
+          "ports": [
+            {
+              "id": "ad5fee0e-06d0-4ceb-b86c-72d37f474d4e",
+              "type": "default",
+              "x": 98.578125,
+              "y": 55.5,
+              "name": "out-1780878323063",
+              "alignment": "right",
+              "parentNode": "5ff3f271-e87d-4738-bf0a-11079348b51d",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Start",
+          "color": "#16db26e6",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "ad5fee0e-06d0-4ceb-b86c-72d37f474d4e"
+          ]
+        },
+        "354597f2-2c25-4be9-a200-533a36db687f": {
+          "id": "354597f2-2c25-4be9-a200-533a36db687f",
+          "type": "npc",
+          "selected": true,
+          "x": 129,
+          "y": 33,
+          "ports": [
+            {
+              "id": "30fe2d4b-aded-48f8-94f3-5dbdac0b9e8a",
+              "type": "default",
+              "x": 450.5,
+              "y": 61,
+              "name": "out-1780263707836-22764",
+              "alignment": "right",
+              "parentNode": "354597f2-2c25-4be9-a200-533a36db687f",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "&aSquire",
+          "color": "#6e4b1e",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "30fe2d4b-aded-48f8-94f3-5dbdac0b9e8a"
+          ],
+          "locations": [
+            "-808.66, 77.50, -675.40, -66.33, 33.21"
+          ],
+          "traits": [
+            {
+              "trait": "capetrait",
+              "args": {
+                "itemStack": "SQUIRES_BACKPACK"
+              }
+            },
+            {
+              "trait": "skintrait",
+              "args": {
+                "skin": "SQUIRE"
+              }
+            },
+            {
+              "trait": "lookclose",
+              "args": {}
+            }
+          ],
+          "conditions": {
+            "conditions": [
+              ""
+            ],
+            "args": [],
+            "ors": [
+              false
+            ],
+            "negates": [
+              false
+            ]
+          },
+          "entityType": "PLAYER",
+          "equipment": {
+            "HAND": "BATTLESTAFF"
+          }
+        }
+      }
+    }
+  ],
+  "trees": {}
+}

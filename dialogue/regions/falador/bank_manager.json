@@ -1,0 +1,107 @@
+{
+  "id": "c5313a3f-4c3f-49e4-8218-1c55a9333b6d",
+  "offsetX": 123,
+  "offsetY": 197,
+  "zoom": 100,
+  "gridSize": 0,
+  "layers": [
+    {
+      "id": "2424363f-5801-4828-bb13-c537d5ebe17e",
+      "type": "diagram-links",
+      "isSvg": true,
+      "transformed": true,
+      "models": {}
+    },
+    {
+      "id": "26ef08db-b8e1-418c-a47e-be783a29c971",
+      "type": "diagram-nodes",
+      "isSvg": false,
+      "transformed": true,
+      "models": {
+        "a15b1b6d-b7b4-444f-b4eb-d0473dc9514b": {
+          "id": "a15b1b6d-b7b4-444f-b4eb-d0473dc9514b",
+          "type": "start",
+          "x": 50,
+          "y": 50,
+          "ports": [
+            {
+              "id": "52e586cc-1e84-4f00-bf55-a4469d17c2dc",
+              "type": "default",
+              "x": 98.578125,
+              "y": 55.5,
+              "name": "out-1780802275935",
+              "alignment": "right",
+              "parentNode": "a15b1b6d-b7b4-444f-b4eb-d0473dc9514b",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Start",
+          "color": "#16db26e6",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "52e586cc-1e84-4f00-bf55-a4469d17c2dc"
+          ]
+        },
+        "eefa561c-c3ad-46ef-9e0b-ceb2759e0ebd": {
+          "id": "eefa561c-c3ad-46ef-9e0b-ceb2759e0ebd",
+          "type": "npc",
+          "selected": true,
+          "x": 168,
+          "y": 22,
+          "ports": [
+            {
+              "id": "836d050b-0c93-4a44-a2e4-2e204d6eec29",
+              "type": "default",
+              "x": 470.140625,
+              "y": 50,
+              "name": "out-1780263707242-83803",
+              "alignment": "right",
+              "parentNode": "eefa561c-c3ad-46ef-9e0b-ceb2759e0ebd",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Bank Manager",
+          "color": "#6e4b1e",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "836d050b-0c93-4a44-a2e4-2e204d6eec29"
+          ],
+          "locations": [
+            "4.48, 63.00, -202.49, 103.91, 0.00"
+          ],
+          "traits": [
+            {
+              "trait": "skintrait",
+              "args": {
+                "skin": "FEMALE_BANKER"
+              }
+            },
+            {
+              "trait": "lookclose",
+              "args": {}
+            }
+          ],
+          "conditions": {
+            "conditions": [
+              ""
+            ],
+            "args": [],
+            "ors": [
+              false
+            ],
+            "negates": [
+              false
+            ]
+          },
+          "entityType": "PLAYER",
+          "equipment": {}
+        }
+      }
+    }
+  ],
+  "trees": {}
+}

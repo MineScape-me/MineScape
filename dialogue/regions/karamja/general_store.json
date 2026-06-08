@@ -1,0 +1,113 @@
+{
+  "id": "de8d61a8-950a-49f2-91d3-c5ce7bf77f9b",
+  "offsetX": 0,
+  "offsetY": 0,
+  "zoom": 100,
+  "gridSize": 0,
+  "layers": [
+    {
+      "id": "792dbc63-537e-42d7-8cf5-3acf35078a89",
+      "type": "diagram-links",
+      "isSvg": true,
+      "transformed": true,
+      "models": {}
+    },
+    {
+      "id": "362e06d3-6d56-42b4-85d8-54ee531ee05f",
+      "type": "diagram-nodes",
+      "isSvg": false,
+      "transformed": true,
+      "models": {
+        "c63c3cb0-b110-4bf2-a2e4-f2f4a47cba95": {
+          "id": "c63c3cb0-b110-4bf2-a2e4-f2f4a47cba95",
+          "type": "start",
+          "x": 50,
+          "y": 50,
+          "ports": [
+            {
+              "id": "3691f073-1bbb-4e7b-9971-e017c78a36f9",
+              "type": "default",
+              "x": 98.578125,
+              "y": 55.5,
+              "name": "out-1780813525629",
+              "alignment": "right",
+              "parentNode": "c63c3cb0-b110-4bf2-a2e4-f2f4a47cba95",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Start",
+          "color": "#16db26e6",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "3691f073-1bbb-4e7b-9971-e017c78a36f9"
+          ]
+        },
+        "154c2e32-0c19-4002-990e-710092e3fae7": {
+          "id": "154c2e32-0c19-4002-990e-710092e3fae7",
+          "type": "npc",
+          "selected": false,
+          "x": 124,
+          "y": 62,
+          "ports": [
+            {
+              "id": "7fecb65c-1b8c-44c8-8d33-0e3198ba51fd",
+              "type": "default",
+              "x": 455.46875,
+              "y": 90,
+              "name": "out-1780263707562-75446",
+              "alignment": "right",
+              "parentNode": "154c2e32-0c19-4002-990e-710092e3fae7",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "&eGeneral Store",
+          "color": "#6e4b1e",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "7fecb65c-1b8c-44c8-8d33-0e3198ba51fd"
+          ],
+          "locations": [
+            "-349.18, 67.00, 419.84, 111.09, -40.73"
+          ],
+          "traits": [
+            {
+              "trait": "shoptrait",
+              "args": {
+                "shopID": "KaramjaGeneralStore"
+              }
+            },
+            {
+              "trait": "lookclose",
+              "args": {}
+            },
+            {
+              "trait": "skintrait",
+              "args": {
+                "skin": "SHOPKEEPER"
+              }
+            }
+          ],
+          "conditions": {
+            "conditions": [
+              ""
+            ],
+            "args": [],
+            "ors": [
+              false
+            ],
+            "negates": [
+              false
+            ]
+          },
+          "entityType": "PLAYER",
+          "equipment": {}
+        }
+      }
+    }
+  ],
+  "trees": {}
+}

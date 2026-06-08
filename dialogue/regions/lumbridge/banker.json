@@ -1,0 +1,172 @@
+{
+  "id": "81b34e10-ddd9-4430-935e-5c229e631434",
+  "offsetX": -2,
+  "offsetY": -6,
+  "zoom": 100,
+  "gridSize": 0,
+  "layers": [
+    {
+      "id": "d819e425-ed7c-4625-a9af-7c4aeaa91a2c",
+      "type": "diagram-links",
+      "isSvg": true,
+      "transformed": true,
+      "models": {}
+    },
+    {
+      "id": "6cb993b0-1fbe-4095-a499-1263725155a8",
+      "type": "diagram-nodes",
+      "isSvg": false,
+      "transformed": true,
+      "models": {
+        "b413bf09-af4e-462a-9976-86b68443465a": {
+          "id": "b413bf09-af4e-462a-9976-86b68443465a",
+          "type": "start",
+          "x": 50,
+          "y": 50,
+          "ports": [
+            {
+              "id": "212bff07-ada9-4de5-8f29-e82ecf1685e1",
+              "type": "default",
+              "x": 98.578125,
+              "y": 55.5,
+              "name": "out-1780877136159",
+              "alignment": "right",
+              "parentNode": "b413bf09-af4e-462a-9976-86b68443465a",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Start",
+          "color": "#16db26e6",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "212bff07-ada9-4de5-8f29-e82ecf1685e1"
+          ]
+        },
+        "7e6047a2-fced-45d6-8835-53c57ea43fee": {
+          "id": "7e6047a2-fced-45d6-8835-53c57ea43fee",
+          "type": "npc",
+          "selected": true,
+          "x": 131,
+          "y": 46,
+          "ports": [
+            {
+              "id": "0002a90e-5241-4882-8572-2416668f3d17",
+              "type": "default",
+              "x": 433.140625,
+              "y": 74,
+              "name": "out-1780263707254-49644",
+              "alignment": "right",
+              "parentNode": "7e6047a2-fced-45d6-8835-53c57ea43fee",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "&6Banker",
+          "color": "#6e4b1e",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "0002a90e-5241-4882-8572-2416668f3d17"
+          ],
+          "locations": [
+            "570.92, 77.00, 185.70, 27.03, 36.28"
+          ],
+          "traits": [
+            {
+              "trait": "skintrait",
+              "args": {
+                "skin": "FEMALE_BANKER"
+              }
+            },
+            {
+              "trait": "lookclose",
+              "args": {}
+            },
+            {
+              "trait": "banktrait",
+              "args": {}
+            }
+          ],
+          "conditions": {
+            "conditions": [
+              ""
+            ],
+            "args": [],
+            "ors": [
+              false
+            ],
+            "negates": [
+              false
+            ]
+          },
+          "entityType": "PLAYER",
+          "equipment": {}
+        },
+        "134244fb-8a92-4f55-9e7e-0d103d9502a9": {
+          "id": "134244fb-8a92-4f55-9e7e-0d103d9502a9",
+          "type": "npc",
+          "selected": false,
+          "x": 469,
+          "y": 40,
+          "ports": [
+            {
+              "id": "72a49796-bd63-4a4e-ade1-ca3870eeb190",
+              "type": "default",
+              "x": 757.078125,
+              "y": 68,
+              "name": "out-1780263707254-49644",
+              "alignment": "right",
+              "parentNode": "134244fb-8a92-4f55-9e7e-0d103d9502a9",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "&6Banker",
+          "color": "#6e4b1e",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "72a49796-bd63-4a4e-ade1-ca3870eeb190"
+          ],
+          "locations": [
+            "574.00, 77.00, 185.53, 36.86, 36.95",
+            "577.03, 77.00, 185.55, 44.01, 34.61"
+          ],
+          "traits": [
+            {
+              "trait": "skintrait",
+              "args": {
+                "skin": "MALE_BANKER"
+              }
+            },
+            {
+              "trait": "lookclose",
+              "args": {}
+            },
+            {
+              "trait": "banktrait",
+              "args": {}
+            }
+          ],
+          "conditions": {
+            "conditions": [
+              ""
+            ],
+            "args": [],
+            "ors": [
+              false
+            ],
+            "negates": [
+              false
+            ]
+          },
+          "entityType": "PLAYER",
+          "equipment": {}
+        }
+      }
+    }
+  ],
+  "trees": {}
+}

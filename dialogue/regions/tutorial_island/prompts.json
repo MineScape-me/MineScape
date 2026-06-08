@@ -1,0 +1,695 @@
+{
+  "id": "1569e094-96a5-4c9e-ba9f-3b79014cd983",
+  "offsetX": 45.56551724137947,
+  "offsetY": 135.77478236795957,
+  "zoom": 89.99999999999999,
+  "gridSize": 0,
+  "layers": [
+    {
+      "id": "c3963a5b-8de7-4383-9456-d7923c6ae988",
+      "type": "diagram-links",
+      "isSvg": true,
+      "transformed": true,
+      "models": {}
+    },
+    {
+      "id": "43ba6b55-c3de-41b7-b355-582c2ea95fd8",
+      "type": "diagram-nodes",
+      "isSvg": false,
+      "transformed": true,
+      "models": {
+        "12705d07-1f4d-446d-85b9-5df1e95c215d": {
+          "id": "12705d07-1f4d-446d-85b9-5df1e95c215d",
+          "type": "start",
+          "x": 50,
+          "y": 50,
+          "ports": [
+            {
+              "id": "5d2d9b01-8c59-4bcc-963a-6b7edece0771",
+              "type": "default",
+              "x": 98.578125,
+              "y": 55.5,
+              "name": "out-1780801879379",
+              "alignment": "right",
+              "parentNode": "12705d07-1f4d-446d-85b9-5df1e95c215d",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Start",
+          "color": "#16db26e6",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "5d2d9b01-8c59-4bcc-963a-6b7edece0771"
+          ]
+        },
+        "8b360ab8-aa2f-41f2-b83d-b8d07edb5014": {
+          "id": "8b360ab8-aa2f-41f2-b83d-b8d07edb5014",
+          "type": "npc",
+          "selected": false,
+          "x": 173,
+          "y": 43,
+          "ports": [
+            {
+              "id": "96caf0bc-62b7-4cc6-8c6b-de04d2a1bbfc",
+              "type": "default",
+              "x": 464,
+              "y": 71,
+              "name": "out-1780263707948-83558",
+              "alignment": "right",
+              "parentNode": "8b360ab8-aa2f-41f2-b83d-b8d07edb5014",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "&eAfter clicking an npc open your chatbox",
+          "color": "#6e4b1e",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "96caf0bc-62b7-4cc6-8c6b-de04d2a1bbfc"
+          ],
+          "locations": [
+            "222.50, 73.99, 648.20, 286.19, 23.55"
+          ],
+          "traits": [],
+          "conditions": {
+            "conditions": [
+              ""
+            ],
+            "args": [],
+            "ors": [
+              false
+            ],
+            "negates": [
+              false
+            ]
+          },
+          "entityType": "ARMOR_STAND",
+          "equipment": {}
+        },
+        "6344ba5c-8d89-4d39-9770-41e07b76e523": {
+          "id": "6344ba5c-8d89-4d39-9770-41e07b76e523",
+          "type": "npc",
+          "selected": false,
+          "x": 170,
+          "y": 292,
+          "ports": [
+            {
+              "id": "541cc689-5a0b-4dfc-8a6a-a985013c720e",
+              "type": "default",
+              "x": 461,
+              "y": 320,
+              "name": "out-1780263707943-61696",
+              "alignment": "right",
+              "parentNode": "6344ba5c-8d89-4d39-9770-41e07b76e523",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "&cMake sure to talk with the MineScape Guide",
+          "color": "#6e4b1e",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "541cc689-5a0b-4dfc-8a6a-a985013c720e"
+          ],
+          "locations": [
+            "235.42, 73.62, 638.94, -359.70, 7.95"
+          ],
+          "traits": [],
+          "conditions": {
+            "conditions": [
+              ""
+            ],
+            "args": [],
+            "ors": [
+              false
+            ],
+            "negates": [
+              false
+            ]
+          },
+          "entityType": "ARMOR_STAND",
+          "equipment": {}
+        },
+        "49b299a4-ccb7-4958-b6be-20828f9c10db": {
+          "id": "49b299a4-ccb7-4958-b6be-20828f9c10db",
+          "type": "npc",
+          "selected": false,
+          "x": 171,
+          "y": 527,
+          "ports": [
+            {
+              "id": "b28a1989-941f-4717-9874-e85610f44d7b",
+              "type": "default",
+              "x": 462,
+              "y": 555,
+              "name": "out-1780263707945-74350",
+              "alignment": "right",
+              "parentNode": "49b299a4-ccb7-4958-b6be-20828f9c10db",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "&cbefore continuing.",
+          "color": "#6e4b1e",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "b28a1989-941f-4717-9874-e85610f44d7b"
+          ],
+          "locations": [
+            "235.42, 73.26, 638.94, -359.70, 7.95"
+          ],
+          "traits": [],
+          "conditions": {
+            "conditions": [
+              ""
+            ],
+            "args": [],
+            "ors": [
+              false
+            ],
+            "negates": [
+              false
+            ]
+          },
+          "entityType": "ARMOR_STAND",
+          "equipment": {}
+        },
+        "7a4edbd8-f61d-4e3a-8c01-20fd2d3abeaa": {
+          "id": "7a4edbd8-f61d-4e3a-8c01-20fd2d3abeaa",
+          "type": "npc",
+          "selected": false,
+          "x": 543,
+          "y": 38,
+          "ports": [
+            {
+              "id": "ec7ae364-d8a2-403e-b765-877ae591091b",
+              "type": "default",
+              "x": 834,
+              "y": 66,
+              "name": "out-1780263707266-9895",
+              "alignment": "right",
+              "parentNode": "7a4edbd8-f61d-4e3a-8c01-20fd2d3abeaa",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "&6Copper Ore",
+          "color": "#6e4b1e",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "ec7ae364-d8a2-403e-b765-877ae591091b"
+          ],
+          "locations": [
+            "245.50, 46.32, 655.65, 203.10, -4.65",
+            "251.45, 46.32, 657.42, 182.10, 3.15"
+          ],
+          "traits": [
+            {
+              "trait": "disabledhitboxtrait",
+              "args": {}
+            }
+          ],
+          "conditions": {
+            "conditions": [
+              ""
+            ],
+            "args": [],
+            "ors": [
+              false
+            ],
+            "negates": [
+              false
+            ]
+          },
+          "entityType": "ARMOR_STAND",
+          "equipment": {}
+        },
+        "d12b1dfa-09cc-476e-b00d-ec04dd46e133": {
+          "id": "d12b1dfa-09cc-476e-b00d-ec04dd46e133",
+          "type": "npc",
+          "selected": false,
+          "x": 556,
+          "y": 571,
+          "ports": [
+            {
+              "id": "46c47204-f908-4738-96d2-ec3256f2a5d1",
+              "type": "default",
+              "x": 840.875,
+              "y": 599,
+              "name": "out-1780263708017-37466",
+              "alignment": "right",
+              "parentNode": "d12b1dfa-09cc-476e-b00d-ec04dd46e133",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "§edown a tree.",
+          "color": "#6e4b1e",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "46c47204-f908-4738-96d2-ec3256f2a5d1"
+          ],
+          "locations": [
+            "263.77, 67.26, 615.05, 209.84, 6.15"
+          ],
+          "traits": [],
+          "conditions": {
+            "conditions": [
+              ""
+            ],
+            "args": [],
+            "ors": [
+              false
+            ],
+            "negates": [
+              false
+            ]
+          },
+          "entityType": "ARMOR_STAND",
+          "equipment": {}
+        },
+        "8398aa1b-20d1-4caf-8379-7320edeaf15f": {
+          "id": "8398aa1b-20d1-4caf-8379-7320edeaf15f",
+          "type": "npc",
+          "selected": false,
+          "x": 549,
+          "y": 326,
+          "ports": [
+            {
+              "id": "40e14d29-e69e-4c8b-80df-a3d9c9457d29",
+              "type": "default",
+              "x": 833.875,
+              "y": 354,
+              "name": "out-1780263708001-92638",
+              "alignment": "right",
+              "parentNode": "8398aa1b-20d1-4caf-8379-7320edeaf15f",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "&eRight click once and wait to chop&e",
+          "color": "#6e4b1e",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "40e14d29-e69e-4c8b-80df-a3d9c9457d29"
+          ],
+          "locations": [
+            "263.77, 67.63, 615.05, 209.84, 6.15"
+          ],
+          "traits": [],
+          "conditions": {
+            "conditions": [
+              ""
+            ],
+            "args": [],
+            "ors": [
+              false
+            ],
+            "negates": [
+              false
+            ]
+          },
+          "entityType": "ARMOR_STAND",
+          "equipment": {}
+        },
+        "e98af508-22ee-4e89-b28e-d0283ecd5cac": {
+          "id": "e98af508-22ee-4e89-b28e-d0283ecd5cac",
+          "type": "npc",
+          "selected": false,
+          "x": 931,
+          "y": 339,
+          "ports": [
+            {
+              "id": "45615d98-b72a-4241-8de0-b0ea746ff06a",
+              "type": "default",
+              "x": 1215.875,
+              "y": 367,
+              "name": "out-1780263707999-47213",
+              "alignment": "right",
+              "parentNode": "e98af508-22ee-4e89-b28e-d0283ecd5cac",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "&eRight click ladders to travel faster",
+          "color": "#6e4b1e",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "45615d98-b72a-4241-8de0-b0ea746ff06a"
+          ],
+          "locations": [
+            "183.15, 46.08, 595.25, 132.46, 8.10"
+          ],
+          "traits": [],
+          "conditions": {
+            "conditions": [
+              ""
+            ],
+            "args": [],
+            "ors": [
+              false
+            ],
+            "negates": [
+              false
+            ]
+          },
+          "entityType": "ARMOR_STAND",
+          "equipment": {}
+        },
+        "de7baf57-e0be-455c-94bc-2151b9b200ba": {
+          "id": "de7baf57-e0be-455c-94bc-2151b9b200ba",
+          "type": "npc",
+          "selected": false,
+          "x": 907,
+          "y": 3,
+          "ports": [
+            {
+              "id": "a5351f4a-d424-493a-890a-c271f3bd9af6",
+              "type": "default",
+              "x": 1198,
+              "y": 31,
+              "name": "out-1780263707276-19867",
+              "alignment": "right",
+              "parentNode": "de7baf57-e0be-455c-94bc-2151b9b200ba",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "§7Tin Ore",
+          "color": "#6e4b1e",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "a5351f4a-d424-493a-890a-c271f3bd9af6"
+          ],
+          "locations": [
+            "248.70, 46.32, 680.33, 36.75, -3.45",
+            "255.34, 46.32, 677.34, 283.65, -4.80",
+            "254.43, 46.32, 679.56, -46.50, -4.50",
+            "243.72, 46.32, 675.36, 45.90, -0.15"
+          ],
+          "traits": [
+            {
+              "trait": "disabledhitboxtrait",
+              "args": {}
+            }
+          ],
+          "conditions": {
+            "conditions": [
+              ""
+            ],
+            "args": [],
+            "ors": [
+              false
+            ],
+            "negates": [
+              false
+            ]
+          },
+          "entityType": "ARMOR_STAND",
+          "equipment": {}
+        },
+        "57ccf22a-1ba4-4b56-8db6-0d00903f27bb": {
+          "id": "57ccf22a-1ba4-4b56-8db6-0d00903f27bb",
+          "type": "npc",
+          "selected": false,
+          "x": 940,
+          "y": 569,
+          "ports": [
+            {
+              "id": "4841b3d7-a54f-4495-a556-392efe908b3e",
+              "type": "default",
+              "x": 1218.765625,
+              "y": 597,
+              "name": "out-1780263707238-33194",
+              "alignment": "right",
+              "parentNode": "57ccf22a-1ba4-4b56-8db6-0d00903f27bb",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "&4Range",
+          "color": "#6e4b1e",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "4841b3d7-a54f-4495-a556-392efe908b3e"
+          ],
+          "locations": [
+            "313.60, 67.45, 696.61, 92.09, 4.95"
+          ],
+          "traits": [],
+          "conditions": {
+            "conditions": [
+              ""
+            ],
+            "args": [],
+            "ors": [
+              false
+            ],
+            "negates": [
+              false
+            ]
+          },
+          "entityType": "ARMOR_STAND",
+          "equipment": {}
+        },
+        "4c0efd72-02d6-472f-ba08-b973740af726": {
+          "id": "4c0efd72-02d6-472f-ba08-b973740af726",
+          "type": "npc",
+          "selected": false,
+          "x": 189,
+          "y": -219,
+          "ports": [
+            {
+              "id": "7ca7cdb7-4703-4d89-80b7-563a7bfe4d05",
+              "type": "default",
+              "x": 467.765625,
+              "y": -191,
+              "name": "out-1780263707240-19147",
+              "alignment": "right",
+              "parentNode": "4c0efd72-02d6-472f-ba08-b973740af726",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "&4Right click to smelt",
+          "color": "#6e4b1e",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "7ca7cdb7-4703-4d89-80b7-563a7bfe4d05"
+          ],
+          "locations": [
+            "257.14, 47.00, 665.50, 91.36, 0.30"
+          ],
+          "traits": [
+            {
+              "trait": "disabledhitboxtrait",
+              "args": {}
+            }
+          ],
+          "conditions": {
+            "conditions": [
+              ""
+            ],
+            "args": [],
+            "ors": [
+              false
+            ],
+            "negates": [
+              false
+            ]
+          },
+          "entityType": "ARMOR_STAND",
+          "equipment": {}
+        },
+        "a06d8e4e-8552-41b0-8c47-f4edbd9f5517": {
+          "id": "a06d8e4e-8552-41b0-8c47-f4edbd9f5517",
+          "type": "npc",
+          "selected": false,
+          "x": 538,
+          "y": -251,
+          "ports": [
+            {
+              "id": "29b2f4ef-b440-46dd-a8cf-f40ed341dd8d",
+              "type": "default",
+              "x": 822.875,
+              "y": -223,
+              "name": "out-1780263707277-70263",
+              "alignment": "right",
+              "parentNode": "a06d8e4e-8552-41b0-8c47-f4edbd9f5517",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "&9Right click with hammer",
+          "color": "#6e4b1e",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "29b2f4ef-b440-46dd-a8cf-f40ed341dd8d"
+          ],
+          "locations": [
+            "253.51, 46.38, 671.60, 181.51, 2.55",
+            "251.44, 46.20, 663.54, 181.51, 5.85"
+          ],
+          "traits": [
+            {
+              "trait": "disabledhitboxtrait",
+              "args": {}
+            }
+          ],
+          "conditions": {
+            "conditions": [
+              ""
+            ],
+            "args": [],
+            "ors": [
+              false
+            ],
+            "negates": [
+              false
+            ]
+          },
+          "entityType": "ARMOR_STAND",
+          "equipment": {}
+        },
+        "22f02f5d-61b7-4703-878f-ea63181e7ed9": {
+          "id": "22f02f5d-61b7-4703-878f-ea63181e7ed9",
+          "type": "npc",
+          "selected": false,
+          "x": 132.22222222222223,
+          "y": 778.8888888888889,
+          "ports": [
+            {
+              "id": "33af1815-8196-45ca-bbb0-19773f251c87",
+              "type": "default",
+              "x": 457.0972063203425,
+              "y": 806.8889001250103,
+              "name": "out-1780263707947-15788",
+              "alignment": "right",
+              "parentNode": "22f02f5d-61b7-4703-878f-ea63181e7ed9",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "&dFounders Purple Party Hat",
+          "color": "#6e4b1e",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "33af1815-8196-45ca-bbb0-19773f251c87"
+          ],
+          "locations": [
+            "230.38, 74.00, 640.55, 201.79, 12.97"
+          ],
+          "traits": [
+            {
+              "trait": "lookclose",
+              "args": {}
+            },
+            {
+              "trait": "skintrait",
+              "args": {
+                "skin": "EDUARD"
+              }
+            },
+            {
+              "trait": "founderpartyhattrait",
+              "args": {}
+            }
+          ],
+          "conditions": {
+            "conditions": [
+              ""
+            ],
+            "args": [],
+            "ors": [
+              false
+            ],
+            "negates": [
+              false
+            ]
+          },
+          "entityType": "PLAYER",
+          "equipment": {
+            "HEAD": "PURPLE_PARTYHAT"
+          }
+        },
+        "efc78283-cd3b-4a43-9b8b-833d1579142f": {
+          "id": "efc78283-cd3b-4a43-9b8b-833d1579142f",
+          "type": "npc",
+          "selected": false,
+          "x": 532.2222222222223,
+          "y": 802.2222222222223,
+          "ports": [
+            {
+              "id": "99fda7da-4b6e-4e25-b02e-9376132eed86",
+              "type": "default",
+              "x": 865.3159291936066,
+              "y": 830.2222165041334,
+              "name": "out-1780263707543-51845",
+              "alignment": "right",
+              "parentNode": "efc78283-cd3b-4a43-9b8b-833d1579142f",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "&aFree Beta White Party Hat",
+          "color": "#6e4b1e",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "99fda7da-4b6e-4e25-b02e-9376132eed86"
+          ],
+          "locations": [
+            "227.44, 74.00, 642.41, 207.88, 5.06"
+          ],
+          "traits": [
+            {
+              "trait": "skintrait",
+              "args": {
+                "skin": "DEFAULT_MALE_WHITE"
+              }
+            },
+            {
+              "trait": "lookclose",
+              "args": {}
+            },
+            {
+              "trait": "betapartyhattrait",
+              "args": {}
+            }
+          ],
+          "conditions": {
+            "conditions": [
+              ""
+            ],
+            "args": [],
+            "ors": [
+              false
+            ],
+            "negates": [
+              false
+            ]
+          },
+          "entityType": "PLAYER",
+          "equipment": {
+            "HEAD": "WHITE_PARTYHAT"
+          }
+        }
+      }
+    }
+  ],
+  "trees": {}
+}

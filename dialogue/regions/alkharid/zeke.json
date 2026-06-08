@@ -1,0 +1,113 @@
+{
+  "id": "d2e4ae3e-4bc2-4879-a45b-26f397336de0",
+  "offsetX": 0,
+  "offsetY": 0,
+  "zoom": 100,
+  "gridSize": 0,
+  "layers": [
+    {
+      "id": "02a897dd-f7d3-424c-b9a8-28a043707a11",
+      "type": "diagram-links",
+      "isSvg": true,
+      "transformed": true,
+      "models": {}
+    },
+    {
+      "id": "1c7a3886-af92-4dfe-9ef4-62d844e85a70",
+      "type": "diagram-nodes",
+      "isSvg": false,
+      "transformed": true,
+      "models": {
+        "86189453-2a9a-4977-9c5e-6b43e7cde242": {
+          "id": "86189453-2a9a-4977-9c5e-6b43e7cde242",
+          "type": "start",
+          "x": 50,
+          "y": 50,
+          "ports": [
+            {
+              "id": "46f7193a-1aab-4fa7-83fa-5eab224cd894",
+              "type": "default",
+              "x": 98.578125,
+              "y": 55.5,
+              "name": "out-1780878640016",
+              "alignment": "right",
+              "parentNode": "86189453-2a9a-4977-9c5e-6b43e7cde242",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Start",
+          "color": "#16db26e6",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "46f7193a-1aab-4fa7-83fa-5eab224cd894"
+          ]
+        },
+        "d050b700-474f-429e-828b-7004cb0c70ae": {
+          "id": "d050b700-474f-429e-828b-7004cb0c70ae",
+          "type": "npc",
+          "selected": false,
+          "x": 134,
+          "y": 38,
+          "ports": [
+            {
+              "id": "b4df06d6-c744-4d9b-96c2-49d2743d0f06",
+              "type": "default",
+              "x": 483.8125,
+              "y": 66,
+              "name": "out-1780263707937-51890",
+              "alignment": "right",
+              "parentNode": "d050b700-474f-429e-828b-7004cb0c70ae",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "&eZeke",
+          "color": "#6e4b1e",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "b4df06d6-c744-4d9b-96c2-49d2743d0f06"
+          ],
+          "locations": [
+            "794.48, 66.00, 273.38, 54.45, -3.62"
+          ],
+          "traits": [
+            {
+              "trait": "shoptrait",
+              "args": {
+                "shopID": "ZekesSuperiorScimitars"
+              }
+            },
+            {
+              "trait": "lookclose",
+              "args": {}
+            },
+            {
+              "trait": "skintrait",
+              "args": {
+                "skin": "MAN"
+              }
+            }
+          ],
+          "conditions": {
+            "conditions": [
+              ""
+            ],
+            "args": [],
+            "ors": [
+              false
+            ],
+            "negates": [
+              false
+            ]
+          },
+          "entityType": "PLAYER",
+          "equipment": {}
+        }
+      }
+    }
+  ],
+  "trees": {}
+}

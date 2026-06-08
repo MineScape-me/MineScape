@@ -1,0 +1,109 @@
+{
+  "id": "8a105a41-2a86-48cd-9da0-9e48de080002",
+  "offsetX": 0,
+  "offsetY": 0,
+  "zoom": 100,
+  "gridSize": 0,
+  "layers": [
+    {
+      "id": "ec5edeac-0e20-45e4-9844-e647782b5029",
+      "type": "diagram-links",
+      "isSvg": true,
+      "transformed": true,
+      "models": {}
+    },
+    {
+      "id": "a299a92f-2233-435f-a47c-0ea154bd9307",
+      "type": "diagram-nodes",
+      "isSvg": false,
+      "transformed": true,
+      "models": {
+        "ea752937-11a3-4959-a756-6d72f73844b0": {
+          "id": "ea752937-11a3-4959-a756-6d72f73844b0",
+          "type": "start",
+          "x": 50,
+          "y": 50,
+          "ports": [
+            {
+              "id": "5800bb20-34f1-434d-99ca-a02678fa3a31",
+              "type": "default",
+              "x": 98.578125,
+              "y": 55.5,
+              "name": "out-1780876694027",
+              "alignment": "right",
+              "parentNode": "ea752937-11a3-4959-a756-6d72f73844b0",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Start",
+          "color": "#16db26e6",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "5800bb20-34f1-434d-99ca-a02678fa3a31"
+          ]
+        },
+        "43fed0a7-be7f-453b-86ed-60e806a82ef7": {
+          "id": "43fed0a7-be7f-453b-86ed-60e806a82ef7",
+          "type": "npc",
+          "selected": false,
+          "x": 164,
+          "y": 38,
+          "ports": [
+            {
+              "id": "b069612a-5e68-4a1f-a736-e43b076117be",
+              "type": "default",
+              "x": 479.46875,
+              "y": 66,
+              "name": "out-1780263707263-53725",
+              "alignment": "right",
+              "parentNode": "43fed0a7-be7f-453b-86ed-60e806a82ef7",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "&6Banker",
+          "color": "#6e4b1e",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "b069612a-5e68-4a1f-a736-e43b076117be"
+          ],
+          "locations": [
+            "-2957.87, 12.00, 1086.49, 208.81, -1.86",
+            "-2949.11, 12.00, 1078.65, -62.35, -8.01",
+            "-2951.31, 12.00, 1087.16, 107.49, -10.65"
+          ],
+          "traits": [
+            {
+              "trait": "banktrait",
+              "args": {}
+            },
+            {
+              "trait": "lookclose",
+              "args": {}
+            }
+          ],
+          "conditions": {
+            "conditions": [
+              ""
+            ],
+            "args": [],
+            "ors": [
+              false
+            ],
+            "negates": [
+              false
+            ]
+          },
+          "entityType": "ARMOR_STAND",
+          "equipment": {
+            "HEAD": "IRON_AXE:146"
+          }
+        }
+      }
+    }
+  ],
+  "trees": {}
+}

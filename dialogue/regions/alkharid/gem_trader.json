@@ -1,0 +1,113 @@
+{
+  "id": "c9936d76-b3e4-4400-a7e1-1e90bbd8b544",
+  "offsetX": 0,
+  "offsetY": 0,
+  "zoom": 100,
+  "gridSize": 0,
+  "layers": [
+    {
+      "id": "ad64c521-d0e9-44dd-80c6-f7c35596fbb9",
+      "type": "diagram-links",
+      "isSvg": true,
+      "transformed": true,
+      "models": {}
+    },
+    {
+      "id": "718a01d8-fdf6-40ec-ab9d-c0350cf6761c",
+      "type": "diagram-nodes",
+      "isSvg": false,
+      "transformed": true,
+      "models": {
+        "95fb59c0-f053-4665-8bc7-91d9f42b217d": {
+          "id": "95fb59c0-f053-4665-8bc7-91d9f42b217d",
+          "type": "start",
+          "x": 50,
+          "y": 50,
+          "ports": [
+            {
+              "id": "8c80b0ce-4680-439a-8c4f-a221628b0723",
+              "type": "default",
+              "x": 98.578125,
+              "y": 55.5,
+              "name": "out-1780813402856",
+              "alignment": "right",
+              "parentNode": "95fb59c0-f053-4665-8bc7-91d9f42b217d",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Start",
+          "color": "#16db26e6",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "8c80b0ce-4680-439a-8c4f-a221628b0723"
+          ]
+        },
+        "0d063c6d-f4c1-41f2-8c56-c766acb75a6c": {
+          "id": "0d063c6d-f4c1-41f2-8c56-c766acb75a6c",
+          "type": "npc",
+          "selected": false,
+          "x": 143,
+          "y": 31,
+          "ports": [
+            {
+              "id": "6b27b419-90b1-44a6-8776-4d7095c07fd0",
+              "type": "default",
+              "x": 427.875,
+              "y": 59,
+              "name": "out-1780263707557-9353",
+              "alignment": "right",
+              "parentNode": "0d063c6d-f4c1-41f2-8c56-c766acb75a6c",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "&eGem trader",
+          "color": "#6e4b1e",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "6b27b419-90b1-44a6-8776-4d7095c07fd0"
+          ],
+          "locations": [
+            "801.00, 64.00, 227.45, 152.37, 0.00"
+          ],
+          "traits": [
+            {
+              "trait": "shoptrait",
+              "args": {
+                "shopID": "GemTrader"
+              }
+            },
+            {
+              "trait": "lookclose",
+              "args": {}
+            },
+            {
+              "trait": "skintrait",
+              "args": {
+                "skin": "SHOPKEEPER"
+              }
+            }
+          ],
+          "conditions": {
+            "conditions": [
+              ""
+            ],
+            "args": [],
+            "ors": [
+              false
+            ],
+            "negates": [
+              false
+            ]
+          },
+          "entityType": "PLAYER",
+          "equipment": {}
+        }
+      }
+    }
+  ],
+  "trees": {}
+}

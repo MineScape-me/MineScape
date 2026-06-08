@@ -1,0 +1,113 @@
+{
+  "id": "61f79ede-32a3-4758-8ebe-c6ed4b86181a",
+  "offsetX": 0,
+  "offsetY": 0,
+  "zoom": 100,
+  "gridSize": 0,
+  "layers": [
+    {
+      "id": "401ca689-68f5-4f4f-9a9a-4a2a2e0bbb52",
+      "type": "diagram-links",
+      "isSvg": true,
+      "transformed": true,
+      "models": {}
+    },
+    {
+      "id": "f5fdbcc6-b200-401b-8092-1fd914693882",
+      "type": "diagram-nodes",
+      "isSvg": false,
+      "transformed": true,
+      "models": {
+        "b0d5ce9d-d337-43dd-89e7-0d31e3575de3": {
+          "id": "b0d5ce9d-d337-43dd-89e7-0d31e3575de3",
+          "type": "start",
+          "x": 50,
+          "y": 50,
+          "ports": [
+            {
+              "id": "bd6ca77b-c1f8-49c4-a92d-4513845d07fa",
+              "type": "default",
+              "x": 98.578125,
+              "y": 55.5,
+              "name": "out-1780815178940",
+              "alignment": "right",
+              "parentNode": "b0d5ce9d-d337-43dd-89e7-0d31e3575de3",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Start",
+          "color": "#16db26e6",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "bd6ca77b-c1f8-49c4-a92d-4513845d07fa"
+          ]
+        },
+        "d5c57310-52b4-480d-92b2-a8982077b493": {
+          "id": "d5c57310-52b4-480d-92b2-a8982077b493",
+          "type": "npc",
+          "selected": false,
+          "x": 128,
+          "y": 32,
+          "ports": [
+            {
+              "id": "30cfc4a9-3b1b-4aa6-b574-bdcc595b97c8",
+              "type": "default",
+              "x": 477.8125,
+              "y": 60,
+              "name": "out-1780263707745-37600",
+              "alignment": "right",
+              "parentNode": "d5c57310-52b4-480d-92b2-a8982077b493",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "&eRanael",
+          "color": "#6e4b1e",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "30cfc4a9-3b1b-4aa6-b574-bdcc595b97c8"
+          ],
+          "locations": [
+            "890.00, 66.00, 344.84, 103.40, -0.81"
+          ],
+          "traits": [
+            {
+              "trait": "shoptrait",
+              "args": {
+                "shopID": "RanaelsSuperSkirtStore"
+              }
+            },
+            {
+              "trait": "lookclose",
+              "args": {}
+            },
+            {
+              "trait": "skintrait",
+              "args": {
+                "skin": "FARMER"
+              }
+            }
+          ],
+          "conditions": {
+            "conditions": [
+              ""
+            ],
+            "args": [],
+            "ors": [
+              false
+            ],
+            "negates": [
+              false
+            ]
+          },
+          "entityType": "PLAYER",
+          "equipment": {}
+        }
+      }
+    }
+  ],
+  "trees": {}
+}

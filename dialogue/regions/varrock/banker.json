@@ -1,0 +1,324 @@
+{
+  "id": "194a367a-62f5-4f72-9cce-138a3a46ab21",
+  "offsetX": -174,
+  "offsetY": 50,
+  "zoom": 100,
+  "gridSize": 0,
+  "layers": [
+    {
+      "id": "93dc7f62-d917-42c4-a25c-265f0f010267",
+      "type": "diagram-links",
+      "isSvg": true,
+      "transformed": true,
+      "models": {}
+    },
+    {
+      "id": "6aa6277a-f254-4aca-b683-8e1ef9d1a1af",
+      "type": "diagram-nodes",
+      "isSvg": false,
+      "transformed": true,
+      "models": {
+        "dab4fafc-0141-473a-bf86-684e49d05061": {
+          "id": "dab4fafc-0141-473a-bf86-684e49d05061",
+          "type": "start",
+          "x": 50,
+          "y": 50,
+          "ports": [
+            {
+              "id": "c3337de5-5830-43cc-b103-9bb7b742dd02",
+              "type": "default",
+              "x": 98.578125,
+              "y": 55.5,
+              "name": "out-1780876369224",
+              "alignment": "right",
+              "parentNode": "dab4fafc-0141-473a-bf86-684e49d05061",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Start",
+          "color": "#16db26e6",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "c3337de5-5830-43cc-b103-9bb7b742dd02"
+          ]
+        },
+        "2607e637-fb90-40b3-83e0-ed5527df46bb": {
+          "id": "2607e637-fb90-40b3-83e0-ed5527df46bb",
+          "type": "npc",
+          "selected": false,
+          "x": 384,
+          "y": 193,
+          "ports": [
+            {
+              "id": "8ded2fb2-29b4-4df2-bd40-f70bcd6aa63e",
+              "type": "default",
+              "x": 681.109375,
+              "y": 221,
+              "name": "out-1780263707257-70678",
+              "alignment": "right",
+              "parentNode": "2607e637-fb90-40b3-83e0-ed5527df46bb",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "&6Banker",
+          "color": "#6e4b1e",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "8ded2fb2-29b4-4df2-bd40-f70bcd6aa63e"
+          ],
+          "locations": [
+            "703.00, 64.00, -415.50, -10.44, -6.26",
+            "708.99, 64.00, -415.51, 4.35, -4.29"
+          ],
+          "traits": [
+            {
+              "trait": "skintrait",
+              "args": {
+                "skin": "MALE_BANKER"
+              }
+            },
+            {
+              "trait": "banktrait",
+              "args": {}
+            },
+            {
+              "trait": "lookclose",
+              "args": {}
+            }
+          ],
+          "conditions": {
+            "conditions": [
+              ""
+            ],
+            "args": [],
+            "ors": [
+              false
+            ],
+            "negates": [
+              false
+            ]
+          },
+          "entityType": "PLAYER",
+          "equipment": {}
+        },
+        "b1f30f38-cc18-4b8e-b235-3ff81c7d04fa": {
+          "id": "b1f30f38-cc18-4b8e-b235-3ff81c7d04fa",
+          "type": "note",
+          "selected": false,
+          "x": 502,
+          "y": 136,
+          "ports": [],
+          "title": "Note",
+          "color": "#19e0e7e6",
+          "portsInOrder": [],
+          "portsOutOrder": [],
+          "text": "Varrock east"
+        },
+        "aa1a1e2a-d0b8-4f8d-b318-b5fcd5a2deba": {
+          "id": "aa1a1e2a-d0b8-4f8d-b318-b5fcd5a2deba",
+          "type": "npc",
+          "selected": true,
+          "x": 769,
+          "y": 181,
+          "ports": [
+            {
+              "id": "b37eee22-b12d-4143-8e38-2af353a79528",
+              "type": "default",
+              "x": 1071.140625,
+              "y": 209,
+              "name": "out-1780263707246-85990",
+              "alignment": "right",
+              "parentNode": "aa1a1e2a-d0b8-4f8d-b318-b5fcd5a2deba",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "&6Banker",
+          "color": "#6e4b1e",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "b37eee22-b12d-4143-8e38-2af353a79528"
+          ],
+          "locations": [
+            "496.60, 63.06, -470.00, 147.91, 0.18",
+            "496.55, 63.06, -464.00, 165.91, 0.18",
+            "509.44, 63.06, -470.00, 127.26, -3.23",
+            "509.36, 63.06, -463.99, 142.88, -2.76"
+          ],
+          "traits": [
+            {
+              "trait": "skintrait",
+              "args": {
+                "skin": "FEMALE_BANKER"
+              }
+            },
+            {
+              "trait": "banktrait",
+              "args": {}
+            },
+            {
+              "trait": "lookclose",
+              "args": {}
+            }
+          ],
+          "conditions": {
+            "conditions": [
+              ""
+            ],
+            "args": [],
+            "ors": [
+              false
+            ],
+            "negates": [
+              false
+            ]
+          },
+          "entityType": "PLAYER",
+          "equipment": {}
+        },
+        "c5288f37-c5c3-4dba-b13a-6a507600c39a": {
+          "id": "c5288f37-c5c3-4dba-b13a-6a507600c39a",
+          "type": "note",
+          "selected": false,
+          "x": 767,
+          "y": 114,
+          "ports": [],
+          "title": "Note",
+          "color": "#19e0e7e6",
+          "portsInOrder": [],
+          "portsOutOrder": [],
+          "text": "Varrock west"
+        },
+        "404bd2cf-eee4-4b85-a756-6dba2bc289a3": {
+          "id": "404bd2cf-eee4-4b85-a756-6dba2bc289a3",
+          "type": "npc",
+          "selected": false,
+          "x": 70,
+          "y": 181,
+          "ports": [
+            {
+              "id": "d38186eb-03d4-4a7c-8fc9-f1e7785baa6e",
+              "type": "default",
+              "x": 372.140625,
+              "y": 209,
+              "name": "out-1780263707257-70678",
+              "alignment": "right",
+              "parentNode": "404bd2cf-eee4-4b85-a756-6dba2bc289a3",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "&6Banker",
+          "color": "#6e4b1e",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "d38186eb-03d4-4a7c-8fc9-f1e7785baa6e"
+          ],
+          "locations": [
+            "705.93, 64.00, -415.51, -4.46, -4.29"
+          ],
+          "traits": [
+            {
+              "trait": "skintrait",
+              "args": {
+                "skin": "FEMALE_BANKER"
+              }
+            },
+            {
+              "trait": "banktrait",
+              "args": {}
+            },
+            {
+              "trait": "lookclose",
+              "args": {}
+            }
+          ],
+          "conditions": {
+            "conditions": [
+              ""
+            ],
+            "args": [],
+            "ors": [
+              false
+            ],
+            "negates": [
+              false
+            ]
+          },
+          "entityType": "PLAYER",
+          "equipment": {}
+        },
+        "2545c8cb-c5a5-4fdf-b39a-aef3aeec72f2": {
+          "id": "2545c8cb-c5a5-4fdf-b39a-aef3aeec72f2",
+          "type": "npc",
+          "selected": false,
+          "x": 1125,
+          "y": 186,
+          "ports": [
+            {
+              "id": "dc2641c5-441e-4952-91a2-39f7034bdf6c",
+              "type": "default",
+              "x": 1422.109375,
+              "y": 214,
+              "name": "out-1780263707246-85990",
+              "alignment": "right",
+              "parentNode": "2545c8cb-c5a5-4fdf-b39a-aef3aeec72f2",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "&6Banker",
+          "color": "#6e4b1e",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "dc2641c5-441e-4952-91a2-39f7034bdf6c"
+          ],
+          "locations": [
+            "509.36, 63.06, -461.00, 150.92, 0.18",
+            "496.63, 63.06, -461.00, 177.40, 0.18",
+            "509.37, 63.06, -467.00, 135.01, -1.03",
+            "496.63, 63.06, -467.00, 155.53, 0.18"
+          ],
+          "traits": [
+            {
+              "trait": "skintrait",
+              "args": {
+                "skin": "MALE_BANKER"
+              }
+            },
+            {
+              "trait": "banktrait",
+              "args": {}
+            },
+            {
+              "trait": "lookclose",
+              "args": {}
+            }
+          ],
+          "conditions": {
+            "conditions": [
+              ""
+            ],
+            "args": [],
+            "ors": [
+              false
+            ],
+            "negates": [
+              false
+            ]
+          },
+          "entityType": "PLAYER",
+          "equipment": {}
+        }
+      }
+    }
+  ],
+  "trees": {}
+}

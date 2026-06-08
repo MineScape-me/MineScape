@@ -1,0 +1,318 @@
+{
+  "id": "01f9a240-af6f-414a-b1f4-43d1a799b17c",
+  "offsetX": 119,
+  "offsetY": 171,
+  "zoom": 100,
+  "gridSize": 0,
+  "layers": [
+    {
+      "id": "f9316e3f-3759-4302-b606-e2e446927853",
+      "type": "diagram-links",
+      "isSvg": true,
+      "transformed": true,
+      "models": {}
+    },
+    {
+      "id": "748f0115-7301-4273-b81e-ce5b9352427b",
+      "type": "diagram-nodes",
+      "isSvg": false,
+      "transformed": true,
+      "models": {
+        "e9c52267-c420-43ba-a3d5-c89b55d98488": {
+          "id": "e9c52267-c420-43ba-a3d5-c89b55d98488",
+          "type": "start",
+          "x": 50,
+          "y": 50,
+          "ports": [
+            {
+              "id": "882a7f14-f0d7-4968-ba22-3d47275d12e9",
+              "type": "default",
+              "x": 98.578125,
+              "y": 55.5,
+              "name": "out-1780876209606",
+              "alignment": "right",
+              "parentNode": "e9c52267-c420-43ba-a3d5-c89b55d98488",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Start",
+          "color": "#16db26e6",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "882a7f14-f0d7-4968-ba22-3d47275d12e9"
+          ]
+        },
+        "438583e1-1aed-40e6-a5d9-812ce3765863": {
+          "id": "438583e1-1aed-40e6-a5d9-812ce3765863",
+          "type": "npc",
+          "selected": false,
+          "x": 282,
+          "y": 82,
+          "ports": [
+            {
+              "id": "929d60fc-c9b0-43c4-a1d2-ffc4b33b68a3",
+              "type": "default",
+              "x": 585.234375,
+              "y": 110,
+              "name": "out-1780263707255-24415",
+              "alignment": "right",
+              "parentNode": "438583e1-1aed-40e6-a5d9-812ce3765863",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "&6Banker",
+          "color": "#6e4b1e",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "929d60fc-c9b0-43c4-a1d2-ffc4b33b68a3"
+          ],
+          "locations": [
+            "-1216.41, 69.00, -142.70, -17.82, 0.00"
+          ],
+          "traits": [
+            {
+              "trait": "skintrait",
+              "args": {
+                "skin": "MALE_BANKER"
+              }
+            },
+            {
+              "trait": "lookclose",
+              "args": {}
+            },
+            {
+              "trait": "banktrait",
+              "args": {}
+            }
+          ],
+          "conditions": {
+            "conditions": [
+              ""
+            ],
+            "args": [],
+            "ors": [
+              false
+            ],
+            "negates": [
+              false
+            ]
+          },
+          "entityType": "PLAYER",
+          "equipment": {}
+        },
+        "988e3fce-a327-4d71-953a-f363f5461e8c": {
+          "id": "988e3fce-a327-4d71-953a-f363f5461e8c",
+          "type": "note",
+          "selected": false,
+          "x": 313,
+          "y": 22,
+          "ports": [],
+          "title": "Note",
+          "color": "#19e0e7e6",
+          "portsInOrder": [],
+          "portsOutOrder": [],
+          "text": "East Ardougne West"
+        },
+        "3ac65c07-a2c4-4369-a8c6-e6b97a0978f2": {
+          "id": "3ac65c07-a2c4-4369-a8c6-e6b97a0978f2",
+          "type": "npc",
+          "selected": true,
+          "x": 690,
+          "y": 81,
+          "ports": [
+            {
+              "id": "2c234333-46b9-4af9-80a5-546130d5bd00",
+              "type": "default",
+              "x": 981,
+              "y": 109,
+              "name": "out-1780263707252-25469",
+              "alignment": "right",
+              "parentNode": "3ac65c07-a2c4-4369-a8c6-e6b97a0978f2",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "&6Banker",
+          "color": "#6e4b1e",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "2c234333-46b9-4af9-80a5-546130d5bd00"
+          ],
+          "locations": [
+            "-1090.70, 68.00, 9.02, 121.04, -3.38"
+          ],
+          "traits": [
+            {
+              "trait": "lookclose",
+              "args": {}
+            },
+            {
+              "trait": "banktrait",
+              "args": {}
+            },
+            {
+              "trait": "skintrait",
+              "args": {
+                "skin": "MALE_BANKER"
+              }
+            }
+          ],
+          "conditions": {
+            "conditions": [
+              ""
+            ],
+            "args": [],
+            "ors": [
+              false
+            ],
+            "negates": [
+              false
+            ]
+          },
+          "entityType": "PLAYER",
+          "equipment": {}
+        },
+        "c289b453-7a4f-4f5b-b217-f9ae82e7380e": {
+          "id": "c289b453-7a4f-4f5b-b217-f9ae82e7380e",
+          "type": "note",
+          "selected": false,
+          "x": 624,
+          "y": -15,
+          "ports": [],
+          "title": "Note",
+          "color": "#19e0e7e6",
+          "portsInOrder": [],
+          "portsOutOrder": [],
+          "text": "East Ardougne East"
+        },
+        "8798669a-9910-4b6a-9a0f-344e149f62a5": {
+          "id": "8798669a-9910-4b6a-9a0f-344e149f62a5",
+          "type": "npc",
+          "selected": false,
+          "x": -41,
+          "y": 95,
+          "ports": [
+            {
+              "id": "6201bc3e-7454-49ef-b34a-dba78098d410",
+              "type": "default",
+              "x": 261.140625,
+              "y": 123,
+              "name": "out-1780263707255-24415",
+              "alignment": "right",
+              "parentNode": "8798669a-9910-4b6a-9a0f-344e149f62a5",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "&6Banker",
+          "color": "#6e4b1e",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "6201bc3e-7454-49ef-b34a-dba78098d410"
+          ],
+          "locations": [
+            "-1204.56, 69.00, -142.70, 16.71, 0.00",
+            "-1208.42, 69.00, -142.70, 6.38, 0.00"
+          ],
+          "traits": [
+            {
+              "trait": "skintrait",
+              "args": {
+                "skin": "FEMALE_BANKER"
+              }
+            },
+            {
+              "trait": "lookclose",
+              "args": {}
+            },
+            {
+              "trait": "banktrait",
+              "args": {}
+            }
+          ],
+          "conditions": {
+            "conditions": [
+              ""
+            ],
+            "args": [],
+            "ors": [
+              false
+            ],
+            "negates": [
+              false
+            ]
+          },
+          "entityType": "PLAYER",
+          "equipment": {}
+        },
+        "f0056656-04cc-41a7-9755-0abc1ce88fa4": {
+          "id": "f0056656-04cc-41a7-9755-0abc1ce88fa4",
+          "type": "npc",
+          "selected": false,
+          "x": 1040,
+          "y": 78,
+          "ports": [
+            {
+              "id": "fa057739-33a2-4b31-a6b8-c24c0def78b6",
+              "type": "default",
+              "x": 1331,
+              "y": 106,
+              "name": "out-1780263707252-25469",
+              "alignment": "right",
+              "parentNode": "f0056656-04cc-41a7-9755-0abc1ce88fa4",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "&6Banker",
+          "color": "#6e4b1e",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "fa057739-33a2-4b31-a6b8-c24c0def78b6"
+          ],
+          "locations": [
+            "-1090.70, 68.00, -5.02, 79.74, -2.18"
+          ],
+          "traits": [
+            {
+              "trait": "lookclose",
+              "args": {}
+            },
+            {
+              "trait": "banktrait",
+              "args": {}
+            },
+            {
+              "trait": "skintrait",
+              "args": {
+                "skin": "MALE_BANKER"
+              }
+            }
+          ],
+          "conditions": {
+            "conditions": [
+              ""
+            ],
+            "args": [],
+            "ors": [
+              false
+            ],
+            "negates": [
+              false
+            ]
+          },
+          "entityType": "PLAYER",
+          "equipment": {}
+        }
+      }
+    }
+  ],
+  "trees": {}
+}

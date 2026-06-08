@@ -1,0 +1,225 @@
+{
+  "id": "de2a4e5f-ca1b-45ba-bbe2-1d30021d92b6",
+  "offsetX": -10,
+  "offsetY": -3,
+  "zoom": 100,
+  "gridSize": 0,
+  "layers": [
+    {
+      "id": "e4c6c2aa-feec-4bf6-9c8a-00429955ec57",
+      "type": "diagram-links",
+      "isSvg": true,
+      "transformed": true,
+      "models": {}
+    },
+    {
+      "id": "0345843d-cb29-410a-b93a-af8c5c7fb190",
+      "type": "diagram-nodes",
+      "isSvg": false,
+      "transformed": true,
+      "models": {
+        "8e60b5f8-f47a-448a-a86d-a9889d42d7b1": {
+          "id": "8e60b5f8-f47a-448a-a86d-a9889d42d7b1",
+          "type": "start",
+          "x": 50,
+          "y": 50,
+          "ports": [
+            {
+              "id": "f8d8df59-a2c0-4307-a1de-2937ebe9d84c",
+              "type": "default",
+              "x": 98.578125,
+              "y": 55.5,
+              "name": "out-1780811370521",
+              "alignment": "right",
+              "parentNode": "8e60b5f8-f47a-448a-a86d-a9889d42d7b1",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Start",
+          "color": "#16db26e6",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "f8d8df59-a2c0-4307-a1de-2937ebe9d84c"
+          ]
+        },
+        "b4d0acb0-1cfe-4e59-8fc0-256c0e4bfe67": {
+          "id": "b4d0acb0-1cfe-4e59-8fc0-256c0e4bfe67",
+          "type": "npc",
+          "selected": false,
+          "x": 158,
+          "y": 42,
+          "ports": [
+            {
+              "id": "5c551aca-ea8b-46dc-83de-5567cf24d704",
+              "type": "default",
+              "x": 483.34375,
+              "y": 70,
+              "name": "out-1780263707969-66540",
+              "alignment": "right",
+              "parentNode": "b4d0acb0-1cfe-4e59-8fc0-256c0e4bfe67",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "&eCrimson swift",
+          "color": "#6e4b1e",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "5c551aca-ea8b-46dc-83de-5567cf24d704"
+          ],
+          "locations": [
+            "-1286.50, 67.00, 1215.50, 120.96, 0.00",
+            "-1296.50, 67.00, 1200.50, 23.20, 0.00",
+            "-1305.50, 67.00, 1206.50, 198.43, 0.00"
+          ],
+          "traits": [
+            {
+              "trait": "hunterrandomwalk",
+              "args": {
+                "trapType": "BIRD_SNARE"
+              }
+            }
+          ],
+          "conditions": {
+            "conditions": [
+              ""
+            ],
+            "args": [],
+            "ors": [
+              false
+            ],
+            "negates": [
+              false
+            ]
+          },
+          "entityType": "ARMOR_STAND",
+          "equipment": {
+            "HEAD": "APPLE:43"
+          }
+        },
+        "ce57cf07-c5d3-4459-a2ca-04fe8012bd1e": {
+          "id": "ce57cf07-c5d3-4459-a2ca-04fe8012bd1e",
+          "type": "npc",
+          "selected": false,
+          "x": 151,
+          "y": 395,
+          "ports": [
+            {
+              "id": "62434064-dcd2-40b2-aea3-a7bb817cb0be",
+              "type": "default",
+              "x": 476.34375,
+              "y": 423,
+              "name": "out-1780263707970-56505",
+              "alignment": "right",
+              "parentNode": "ce57cf07-c5d3-4459-a2ca-04fe8012bd1e",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "&eCrimson swift",
+          "color": "#6e4b1e",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "62434064-dcd2-40b2-aea3-a7bb817cb0be"
+          ],
+          "locations": [
+            "-1223.50, 63.00, 1179.50, -45.00, 0.00",
+            "-1232.50, 63.00, 1167.50, 200.56, 0.00",
+            "-1223.50, 63.00, 1158.50, 33.69, 0.00"
+          ],
+          "traits": [
+            {
+              "trait": "hunterrandomwalk",
+              "args": {
+                "trapType": "BIRD_SNARE"
+              }
+            }
+          ],
+          "conditions": {
+            "conditions": [
+              ""
+            ],
+            "args": [],
+            "ors": [
+              false
+            ],
+            "negates": [
+              false
+            ]
+          },
+          "entityType": "ARMOR_STAND",
+          "equipment": {
+            "HEAD": "APPLE:43"
+          }
+        },
+        "c0d60690-5af2-4769-a7c0-18f1fe7e7bad": {
+          "id": "c0d60690-5af2-4769-a7c0-18f1fe7e7bad",
+          "type": "npc",
+          "selected": false,
+          "x": 540,
+          "y": 50,
+          "ports": [
+            {
+              "id": "d6035c29-0354-4183-8241-751a64c1e56a",
+              "type": "default",
+              "x": 865.34375,
+              "y": 78,
+              "name": "out-1780263707968-54648",
+              "alignment": "right",
+              "parentNode": "c0d60690-5af2-4769-a7c0-18f1fe7e7bad",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "&eCrimson swift",
+          "color": "#6e4b1e",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "d6035c29-0354-4183-8241-751a64c1e56a"
+          ],
+          "locations": [
+            "-1232.50, 63.00, 1103.50, 153.43, 0.00",
+            "-1247.50, 66.00, 1109.50, 210.96, 0.00",
+            "-1229.50, 64.00, 1055.50, 0.00, 0.00",
+            "-1214.50, 63.00, 1058.50, 0.00, 0.00",
+            "-1238.50, 65.00, 1070.50, 0.00, 0.00",
+            "-1223.50, 63.00, 1082.50, 0.00, 0.00",
+            "-1244.50, 67.00, 1091.50, 67.38, 0.00",
+            "-1232.50, 63.00, 1103.50, -50.71, 0.00",
+            "-1217.50, 63.00, 1043.50, 0.00, 0.00"
+          ],
+          "traits": [
+            {
+              "trait": "hunterrandomwalk",
+              "args": {
+                "trapType": "BIRD_SNARE"
+              }
+            }
+          ],
+          "conditions": {
+            "conditions": [
+              ""
+            ],
+            "args": [],
+            "ors": [
+              false
+            ],
+            "negates": [
+              false
+            ]
+          },
+          "entityType": "ARMOR_STAND",
+          "equipment": {
+            "HEAD": "APPLE:43"
+          }
+        }
+      }
+    }
+  ],
+  "trees": {}
+}

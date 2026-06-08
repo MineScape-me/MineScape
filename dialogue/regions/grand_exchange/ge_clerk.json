@@ -1,0 +1,118 @@
+{
+  "id": "624cfad3-69d1-4aeb-89e5-8647603856cb",
+  "offsetX": 0,
+  "offsetY": 0,
+  "zoom": 100,
+  "gridSize": 0,
+  "layers": [
+    {
+      "id": "df756fbd-4560-47c6-8615-8c3b235003e0",
+      "type": "diagram-links",
+      "isSvg": true,
+      "transformed": true,
+      "models": {}
+    },
+    {
+      "id": "f6f4ace4-bcb8-4107-b1d1-9556e0b16e09",
+      "type": "diagram-nodes",
+      "isSvg": false,
+      "transformed": true,
+      "models": {
+        "4a019210-35f7-43ac-913e-8e25f51abeb8": {
+          "id": "4a019210-35f7-43ac-913e-8e25f51abeb8",
+          "type": "start",
+          "x": 50,
+          "y": 50,
+          "ports": [
+            {
+              "id": "f54d2dea-2531-4d4d-9809-58ea1c9a355f",
+              "type": "default",
+              "x": 98.578125,
+              "y": 55.5,
+              "name": "out-1780813290359",
+              "alignment": "right",
+              "parentNode": "4a019210-35f7-43ac-913e-8e25f51abeb8",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Start",
+          "color": "#16db26e6",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "f54d2dea-2531-4d4d-9809-58ea1c9a355f"
+          ]
+        },
+        "e376090f-8134-49a1-97fc-d892bc325bc9": {
+          "id": "e376090f-8134-49a1-97fc-d892bc325bc9",
+          "type": "npc",
+          "selected": true,
+          "x": 184,
+          "y": 34,
+          "ports": [
+            {
+              "id": "44a28538-ab51-4428-9f91-c5b1ea7a5dbf",
+              "type": "default",
+              "x": 486.140625,
+              "y": 62,
+              "name": "out-1780263707268-11641",
+              "alignment": "right",
+              "parentNode": "e376090f-8134-49a1-97fc-d892bc325bc9",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "&6GE Clerk",
+          "color": "#6e4b1e",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "44a28538-ab51-4428-9f91-c5b1ea7a5dbf"
+          ],
+          "locations": [
+            "441.50, 63.50, -613.52, -4.72, 15.35",
+            "451.51, 63.50, -615.43, 68.13, 3.04",
+            "458.58, 63.50, -626.49, 215.47, -1.95",
+            "445.50, 63.50, -643.49, -89.37, -2.15",
+            "456.64, 63.50, -636.58, 253.97, 1.45",
+            "428.50, 63.50, -630.52, 2.93, 1.45",
+            "435.50, 63.50, -641.50, 260.71, 1.09",
+            "430.50, 63.50, -620.50, -51.07, 2.24"
+          ],
+          "traits": [
+            {
+              "trait": "skintrait",
+              "args": {
+                "skin": "FEMALE_BANKER"
+              }
+            },
+            {
+              "trait": "lookclose",
+              "args": {}
+            },
+            {
+              "trait": "getrait",
+              "args": {}
+            }
+          ],
+          "conditions": {
+            "conditions": [
+              ""
+            ],
+            "args": [],
+            "ors": [
+              false
+            ],
+            "negates": [
+              false
+            ]
+          },
+          "entityType": "PLAYER",
+          "equipment": {}
+        }
+      }
+    }
+  ],
+  "trees": {}
+}

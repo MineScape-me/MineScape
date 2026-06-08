@@ -1,0 +1,107 @@
+{
+  "id": "f73bb9ee-5f3a-421a-bc74-3b2abaf8b641",
+  "offsetX": 0,
+  "offsetY": 0,
+  "zoom": 100,
+  "gridSize": 0,
+  "layers": [
+    {
+      "id": "5db34060-dcc8-4d72-ad92-510e7cdb1a18",
+      "type": "diagram-links",
+      "isSvg": true,
+      "transformed": true,
+      "models": {}
+    },
+    {
+      "id": "7240dc1b-fd47-4bff-9e2d-123b71b0291b",
+      "type": "diagram-nodes",
+      "isSvg": false,
+      "transformed": true,
+      "models": {
+        "470396e3-d8e4-4809-a154-4b32caeb4aa0": {
+          "id": "470396e3-d8e4-4809-a154-4b32caeb4aa0",
+          "type": "start",
+          "x": 50,
+          "y": 50,
+          "ports": [
+            {
+              "id": "bba70bc4-752b-43ba-a902-d882e6a6c141",
+              "type": "default",
+              "x": 98.578125,
+              "y": 55.5,
+              "name": "out-1780813787774",
+              "alignment": "right",
+              "parentNode": "470396e3-d8e4-4809-a154-4b32caeb4aa0",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Start",
+          "color": "#16db26e6",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "bba70bc4-752b-43ba-a902-d882e6a6c141"
+          ]
+        },
+        "09136718-dbb4-40e4-98d7-fa9b644845d4": {
+          "id": "09136718-dbb4-40e4-98d7-fa9b644845d4",
+          "type": "npc",
+          "selected": true,
+          "x": 130,
+          "y": 48,
+          "ports": [
+            {
+              "id": "ce81e5dd-20ba-4ddc-ba04-e25f0b01ec9d",
+              "type": "default",
+              "x": 446.171875,
+              "y": 76,
+              "name": "out-1780263707576-97133",
+              "alignment": "right",
+              "parentNode": "09136718-dbb4-40e4-98d7-fa9b644845d4",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "&aGuard",
+          "color": "#6e4b1e",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "ce81e5dd-20ba-4ddc-ba04-e25f0b01ec9d"
+          ],
+          "locations": [
+            "-1356.32, 69.00, 27.44, -45.00, 0.00"
+          ],
+          "traits": [
+            {
+              "trait": "skintrait",
+              "args": {
+                "skin": "GUARD_ARDOUGNE"
+              }
+            },
+            {
+              "trait": "randomwalk",
+              "args": {}
+            }
+          ],
+          "conditions": {
+            "conditions": [
+              ""
+            ],
+            "args": [],
+            "ors": [
+              false
+            ],
+            "negates": [
+              false
+            ]
+          },
+          "entityType": "PLAYER",
+          "equipment": {}
+        }
+      }
+    }
+  ],
+  "trees": {}
+}

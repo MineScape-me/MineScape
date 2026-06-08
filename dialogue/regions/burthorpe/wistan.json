@@ -1,0 +1,113 @@
+{
+  "id": "153d9d1b-9d74-406f-ac6e-7d007cb2b881",
+  "offsetX": 0,
+  "offsetY": 0,
+  "zoom": 100,
+  "gridSize": 0,
+  "layers": [
+    {
+      "id": "af0d8dd8-98ea-413e-ac9c-bab639890c4a",
+      "type": "diagram-links",
+      "isSvg": true,
+      "transformed": true,
+      "models": {}
+    },
+    {
+      "id": "deacfc0c-d6fd-401b-b03a-70a0402f296e",
+      "type": "diagram-nodes",
+      "isSvg": false,
+      "transformed": true,
+      "models": {
+        "c8f623dd-2f01-47bd-b25f-bba3c71565f5": {
+          "id": "c8f623dd-2f01-47bd-b25f-bba3c71565f5",
+          "type": "start",
+          "x": 50,
+          "y": 50,
+          "ports": [
+            {
+              "id": "2a7e53ff-183b-40c7-8dd3-d3b17e858633",
+              "type": "default",
+              "x": 98.578125,
+              "y": 55.5,
+              "name": "out-1780878430866",
+              "alignment": "right",
+              "parentNode": "c8f623dd-2f01-47bd-b25f-bba3c71565f5",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Start",
+          "color": "#16db26e6",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "2a7e53ff-183b-40c7-8dd3-d3b17e858633"
+          ]
+        },
+        "5b1b5bb5-4478-4ed8-b196-5fb1fe1fccfa": {
+          "id": "5b1b5bb5-4478-4ed8-b196-5fb1fe1fccfa",
+          "type": "npc",
+          "selected": false,
+          "x": 184,
+          "y": 40,
+          "ports": [
+            {
+              "id": "ad0d74cc-d249-47d9-b1e7-5ac8e1999504",
+              "type": "default",
+              "x": 521.578125,
+              "y": 68,
+              "name": "out-1780263707902-86261",
+              "alignment": "right",
+              "parentNode": "5b1b5bb5-4478-4ed8-b196-5fb1fe1fccfa",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "&eWistan",
+          "color": "#6e4b1e",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "ad0d74cc-d249-47d9-b1e7-5ac8e1999504"
+          ],
+          "locations": [
+            "-268.60, 66.06, -790.95, 135.00, 0.00"
+          ],
+          "traits": [
+            {
+              "trait": "shoptrait",
+              "args": {
+                "shopID": "BurthopeGeneralStore"
+              }
+            },
+            {
+              "trait": "skintrait",
+              "args": {
+                "skin": "SHOPKEEPER"
+              }
+            },
+            {
+              "trait": "randomwalk",
+              "args": {}
+            }
+          ],
+          "conditions": {
+            "conditions": [
+              ""
+            ],
+            "args": [],
+            "ors": [
+              false
+            ],
+            "negates": [
+              false
+            ]
+          },
+          "entityType": "PLAYER",
+          "equipment": {}
+        }
+      }
+    }
+  ],
+  "trees": {}
+}

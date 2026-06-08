@@ -1,0 +1,113 @@
+{
+  "id": "ae2695af-d381-4f5e-8395-89dbbce6e312",
+  "offsetX": 50,
+  "offsetY": 86,
+  "zoom": 100,
+  "gridSize": 0,
+  "layers": [
+    {
+      "id": "a5aec0a7-21f8-45f0-87aa-724ddf94a11b",
+      "type": "diagram-links",
+      "isSvg": true,
+      "transformed": true,
+      "models": {}
+    },
+    {
+      "id": "8eacc917-0641-4818-b52d-1c5b38aeb5c0",
+      "type": "diagram-nodes",
+      "isSvg": false,
+      "transformed": true,
+      "models": {
+        "93ec669c-72a3-4a9c-87bd-37ced955ac1a": {
+          "id": "93ec669c-72a3-4a9c-87bd-37ced955ac1a",
+          "type": "start",
+          "x": 50,
+          "y": 50,
+          "ports": [
+            {
+              "id": "0bc0b5fc-b292-4043-b22c-1e281da8cf78",
+              "type": "default",
+              "x": 98.578125,
+              "y": 55.5,
+              "name": "out-1780814555460",
+              "alignment": "right",
+              "parentNode": "93ec669c-72a3-4a9c-87bd-37ced955ac1a",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Start",
+          "color": "#16db26e6",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "0bc0b5fc-b292-4043-b22c-1e281da8cf78"
+          ]
+        },
+        "20d96607-3ad5-4191-9f8e-e43ba71fcc68": {
+          "id": "20d96607-3ad5-4191-9f8e-e43ba71fcc68",
+          "type": "npc",
+          "selected": false,
+          "x": 144,
+          "y": 25,
+          "ports": [
+            {
+              "id": "bf539a0b-e09c-41ac-ab56-c2569ce3bf50",
+              "type": "default",
+              "x": 506.046875,
+              "y": 53,
+              "name": "out-1780263707663-47162",
+              "alignment": "right",
+              "parentNode": "20d96607-3ad5-4191-9f8e-e43ba71fcc68",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "&eLouie Legs",
+          "color": "#6e4b1e",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "bf539a0b-e09c-41ac-ab56-c2569ce3bf50"
+          ],
+          "locations": [
+            "887.47, 66.00, 316.51, -50.66, -40.41"
+          ],
+          "traits": [
+            {
+              "trait": "shoptrait",
+              "args": {
+                "shopID": "LouiesArmouredLegsBazaar"
+              }
+            },
+            {
+              "trait": "lookclose",
+              "args": {}
+            },
+            {
+              "trait": "skintrait",
+              "args": {
+                "skin": "SHOPKEEPER"
+              }
+            }
+          ],
+          "conditions": {
+            "conditions": [
+              ""
+            ],
+            "args": [],
+            "ors": [
+              false
+            ],
+            "negates": [
+              false
+            ]
+          },
+          "entityType": "PLAYER",
+          "equipment": {}
+        }
+      }
+    }
+  ],
+  "trees": {}
+}

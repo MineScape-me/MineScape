@@ -1,0 +1,109 @@
+{
+  "id": "17d2db4b-e05c-4428-9e52-46e19129a87b",
+  "offsetX": 0,
+  "offsetY": 0,
+  "zoom": 100,
+  "gridSize": 0,
+  "layers": [
+    {
+      "id": "579065d9-c482-46f8-b6b1-942d3887aaf7",
+      "type": "diagram-links",
+      "isSvg": true,
+      "transformed": true,
+      "models": {}
+    },
+    {
+      "id": "76a33a07-2ea3-424b-93f4-5512bdbeb359",
+      "type": "diagram-nodes",
+      "isSvg": false,
+      "transformed": true,
+      "models": {
+        "eea60f32-563c-42ac-886c-0dcedbc88237": {
+          "id": "eea60f32-563c-42ac-886c-0dcedbc88237",
+          "type": "start",
+          "x": 50,
+          "y": 50,
+          "ports": [
+            {
+              "id": "f73723cf-c820-420d-bdbd-f2f5bda58726",
+              "type": "default",
+              "x": 98.578125,
+              "y": 55.5,
+              "name": "out-1780812757629",
+              "alignment": "right",
+              "parentNode": "eea60f32-563c-42ac-886c-0dcedbc88237",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Start",
+          "color": "#16db26e6",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "f73723cf-c820-420d-bdbd-f2f5bda58726"
+          ]
+        },
+        "ff04f409-d36b-485e-add4-59b4143604eb": {
+          "id": "ff04f409-d36b-485e-add4-59b4143604eb",
+          "type": "npc",
+          "selected": false,
+          "x": 156,
+          "y": 25,
+          "ports": [
+            {
+              "id": "afbf18e3-1448-44ae-b3d4-bb8aeab82a52",
+              "type": "default",
+              "x": 493.578125,
+              "y": 53,
+              "name": "out-1780263707469-3022",
+              "alignment": "right",
+              "parentNode": "ff04f409-d36b-485e-add4-59b4143604eb",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "&eDrogo",
+          "color": "#6e4b1e",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "afbf18e3-1448-44ae-b3d4-bb8aeab82a52"
+          ],
+          "locations": [
+            "12.38, 41.00, -457.06, 198.30, -37.02"
+          ],
+          "traits": [
+            {
+              "trait": "lookclose",
+              "args": {}
+            },
+            {
+              "trait": "shoptrait",
+              "args": {
+                "shopID": "DrogosMiningEmporium"
+              }
+            }
+          ],
+          "conditions": {
+            "conditions": [
+              ""
+            ],
+            "args": [],
+            "ors": [
+              false
+            ],
+            "negates": [
+              false
+            ]
+          },
+          "entityType": "ARMOR_STAND",
+          "equipment": {
+            "HEAD": "STONE_AXE:70"
+          }
+        }
+      }
+    }
+  ],
+  "trees": {}
+}

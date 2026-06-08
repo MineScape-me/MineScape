@@ -1,0 +1,114 @@
+{
+  "id": "92051717-ea31-42be-ae97-9b1b61b8d0de",
+  "offsetX": 0,
+  "offsetY": -3,
+  "zoom": 100,
+  "gridSize": 0,
+  "layers": [
+    {
+      "id": "8e7212d3-ee44-4226-a88a-f29ca0fa0a43",
+      "type": "diagram-links",
+      "isSvg": true,
+      "transformed": true,
+      "models": {}
+    },
+    {
+      "id": "29a6db99-76a3-4063-a7b2-9df2a6e670de",
+      "type": "diagram-nodes",
+      "isSvg": false,
+      "transformed": true,
+      "models": {
+        "817b7217-567f-4057-a219-569b5bfb47ac": {
+          "id": "817b7217-567f-4057-a219-569b5bfb47ac",
+          "type": "start",
+          "x": 50,
+          "y": 50,
+          "ports": [
+            {
+              "id": "591d6c61-1e9a-4491-adba-92fa37a922b8",
+              "type": "default",
+              "x": 98.578125,
+              "y": 55.5,
+              "name": "out-1780814503977",
+              "alignment": "right",
+              "parentNode": "817b7217-567f-4057-a219-569b5bfb47ac",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Start",
+          "color": "#16db26e6",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "591d6c61-1e9a-4491-adba-92fa37a922b8"
+          ]
+        },
+        "9fcad19c-2414-4f80-958e-2fd7e463d31c": {
+          "id": "9fcad19c-2414-4f80-958e-2fd7e463d31c",
+          "type": "npc",
+          "selected": false,
+          "x": 143,
+          "y": 48,
+          "ports": [
+            {
+              "id": "e298a113-b155-49e5-8fcb-b294d611582f",
+              "type": "default",
+              "x": 455,
+              "y": 76,
+              "name": "out-1780263707615-7791",
+              "alignment": "right",
+              "parentNode": "9fcad19c-2414-4f80-958e-2fd7e463d31c",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "&aJester",
+          "color": "#6e4b1e",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "e298a113-b155-49e5-8fcb-b294d611582f"
+          ],
+          "locations": [
+            "653.54, 62.00, 197.50, 99.15, -3.39",
+            "450.43, 63.00, -593.14, 158.05, 0.18"
+          ],
+          "traits": [
+            {
+              "trait": "skintrait",
+              "args": {
+                "skin": "JESTER"
+              }
+            },
+            {
+              "trait": "lookclose",
+              "args": {}
+            },
+            {
+              "trait": "dailytrait",
+              "args": {}
+            }
+          ],
+          "conditions": {
+            "conditions": [
+              ""
+            ],
+            "args": [],
+            "ors": [
+              false
+            ],
+            "negates": [
+              false
+            ]
+          },
+          "entityType": "PLAYER",
+          "equipment": {
+            "HEAD": "JESTER_HAT"
+          }
+        }
+      }
+    }
+  ],
+  "trees": {}
+}

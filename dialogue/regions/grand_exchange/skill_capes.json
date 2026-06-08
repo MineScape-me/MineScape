@@ -1,0 +1,1475 @@
+{
+  "id": "6acfd78d-d212-4e4d-be29-12c8f7f2fd0b",
+  "offsetX": 197.86598017014217,
+  "offsetY": 671.1648844901276,
+  "zoom": 115.00000000000011,
+  "gridSize": 0,
+  "layers": [
+    {
+      "id": "a34dad28-9743-46ca-b0ee-bbb3759143dd",
+      "type": "diagram-links",
+      "isSvg": true,
+      "transformed": true,
+      "models": {}
+    },
+    {
+      "id": "a071f9d8-9dd3-42fe-99ff-5f4efd90c345",
+      "type": "diagram-nodes",
+      "isSvg": false,
+      "transformed": true,
+      "models": {
+        "462954bf-9f0c-41bd-8171-718fcda2dc0f": {
+          "id": "462954bf-9f0c-41bd-8171-718fcda2dc0f",
+          "type": "start",
+          "selected": false,
+          "x": -102.45901639344262,
+          "y": -4.098360655737707,
+          "ports": [
+            {
+              "id": "4ba4e4c9-166a-437f-a27c-b401d9311581",
+              "type": "default",
+              "x": -53.874992911171105,
+              "y": 1.4062904300674945,
+              "name": "out-1780798682107",
+              "alignment": "right",
+              "parentNode": "462954bf-9f0c-41bd-8171-718fcda2dc0f",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Start",
+          "color": "#16db26e6",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "4ba4e4c9-166a-437f-a27c-b401d9311581"
+          ]
+        },
+        "61561054-d6fc-4aef-bcb9-2f00a440cbe6": {
+          "id": "61561054-d6fc-4aef-bcb9-2f00a440cbe6",
+          "type": "npc",
+          "selected": false,
+          "x": -307,
+          "y": 75,
+          "ports": [
+            {
+              "id": "e591bb32-aa88-4c1b-b2d4-1806b667002c",
+              "type": "default",
+              "x": -15.999999118136149,
+              "y": 103.00003215411411,
+              "name": "out-1780798685286",
+              "alignment": "right",
+              "parentNode": "61561054-d6fc-4aef-bcb9-2f00a440cbe6",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Attack",
+          "color": "#6e4b1e",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "e591bb32-aa88-4c1b-b2d4-1806b667002c"
+          ],
+          "locations": [
+            "428.48, 63.00, -594.49, 217.50, 0.18"
+          ],
+          "traits": [
+            {
+              "trait": "skillcapetrait",
+              "args": {
+                "type": "ATTACK"
+              }
+            },
+            {
+              "trait": "lookclose",
+              "args": {}
+            }
+          ],
+          "conditions": {
+            "conditions": [
+              ""
+            ],
+            "args": [],
+            "ors": [
+              false
+            ],
+            "negates": [
+              false
+            ]
+          },
+          "entityType": "PLAYER",
+          "equipment": {}
+        },
+        "f95dc8e8-3f21-400f-96d6-477e0aedb832": {
+          "id": "f95dc8e8-3f21-400f-96d6-477e0aedb832",
+          "type": "npc",
+          "selected": false,
+          "x": -300,
+          "y": 379,
+          "ports": [
+            {
+              "id": "fcf3f65a-7177-415b-a507-5d197ed5cfa9",
+              "type": "default",
+              "x": -9.000001187124496,
+              "y": 407.0000487060209,
+              "name": "out-1780798685286",
+              "alignment": "right",
+              "parentNode": "f95dc8e8-3f21-400f-96d6-477e0aedb832",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Strength",
+          "color": "#6e4b1e",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "fcf3f65a-7177-415b-a507-5d197ed5cfa9"
+          ],
+          "locations": [
+            "424.45, 63.00, -596.48, 227.94, 0.00"
+          ],
+          "traits": [
+            {
+              "trait": "skillcapetrait",
+              "args": {
+                "type": "STRENGTH"
+              }
+            },
+            {
+              "trait": "lookclose",
+              "args": {}
+            }
+          ],
+          "conditions": {
+            "conditions": [
+              ""
+            ],
+            "args": [],
+            "ors": [
+              false
+            ],
+            "negates": [
+              false
+            ]
+          },
+          "entityType": "PLAYER",
+          "equipment": {}
+        },
+        "646d98f6-9929-475e-a012-b3ee572e1566": {
+          "id": "646d98f6-9929-475e-a012-b3ee572e1566",
+          "type": "npc",
+          "selected": false,
+          "x": -297,
+          "y": 676,
+          "ports": [
+            {
+              "id": "5bbbf01c-9aca-4729-8c8f-22aba9476a8c",
+              "type": "default",
+              "x": -5.999988773194411,
+              "y": 704.0000362920908,
+              "name": "out-1780798685286",
+              "alignment": "right",
+              "parentNode": "646d98f6-9929-475e-a012-b3ee572e1566",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Defence",
+          "color": "#6e4b1e",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "5bbbf01c-9aca-4729-8c8f-22aba9476a8c"
+          ],
+          "locations": [
+            "420.44, 63.00, -600.42, 242.63, 0.00"
+          ],
+          "traits": [
+            {
+              "trait": "skillcapetrait",
+              "args": {
+                "type": "DEFENCE"
+              }
+            },
+            {
+              "trait": "lookclose",
+              "args": {}
+            }
+          ],
+          "conditions": {
+            "conditions": [
+              ""
+            ],
+            "args": [],
+            "ors": [
+              false
+            ],
+            "negates": [
+              false
+            ]
+          },
+          "entityType": "PLAYER",
+          "equipment": {}
+        },
+        "c95e6869-a228-45cd-96c5-20efa9006119": {
+          "id": "c95e6869-a228-45cd-96c5-20efa9006119",
+          "type": "npc",
+          "selected": false,
+          "x": -297,
+          "y": 973,
+          "ports": [
+            {
+              "id": "6d7b63ae-3ef8-44a5-bf0a-bff890855b93",
+              "type": "default",
+              "x": -5.999988773194411,
+              "y": 1001.0000859478112,
+              "name": "out-1780798685286",
+              "alignment": "right",
+              "parentNode": "c95e6869-a228-45cd-96c5-20efa9006119",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Ranged",
+          "color": "#6e4b1e",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "6d7b63ae-3ef8-44a5-bf0a-bff890855b93"
+          ],
+          "locations": [
+            "415.49, 63.00, -605.52, 260.97, 0.00"
+          ],
+          "traits": [
+            {
+              "trait": "skillcapetrait",
+              "args": {
+                "type": "RANGED"
+              }
+            },
+            {
+              "trait": "lookclose",
+              "args": {}
+            }
+          ],
+          "conditions": {
+            "conditions": [
+              ""
+            ],
+            "args": [],
+            "ors": [
+              false
+            ],
+            "negates": [
+              false
+            ]
+          },
+          "entityType": "PLAYER",
+          "equipment": {}
+        },
+        "76e30f4a-5b90-4751-aaf6-bf164b970d43": {
+          "id": "76e30f4a-5b90-4751-aaf6-bf164b970d43",
+          "type": "npc",
+          "selected": false,
+          "x": -297,
+          "y": 1270,
+          "ports": [
+            {
+              "id": "bca0df65-90f6-4f72-802c-eae6a90aeaad",
+              "type": "default",
+              "x": 0.10937174388715704,
+              "y": 1298.000073533881,
+              "name": "out-1780798685286",
+              "alignment": "right",
+              "parentNode": "76e30f4a-5b90-4751-aaf6-bf164b970d43",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Prayer",
+          "color": "#6e4b1e",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "bca0df65-90f6-4f72-802c-eae6a90aeaad"
+          ],
+          "locations": [
+            "411.49, 63.00, -609.47, 137.41, -0.35"
+          ],
+          "traits": [
+            {
+              "trait": "skillcapetrait",
+              "args": {
+                "type": "PRAYER"
+              }
+            },
+            {
+              "trait": "lookclose",
+              "args": {}
+            }
+          ],
+          "conditions": {
+            "conditions": [
+              ""
+            ],
+            "args": [],
+            "ors": [
+              false
+            ],
+            "negates": [
+              false
+            ]
+          },
+          "entityType": "PLAYER",
+          "equipment": {}
+        },
+        "a49db56e-66e8-4728-a804-1743fe6a1c7e": {
+          "id": "a49db56e-66e8-4728-a804-1743fe6a1c7e",
+          "type": "npc",
+          "selected": false,
+          "x": -297,
+          "y": 1567,
+          "ports": [
+            {
+              "id": "23b9d338-13ea-4745-ba49-676db4495432",
+              "type": "default",
+              "x": 0.10937174388715704,
+              "y": 1595.0001231896015,
+              "name": "out-1780798685286",
+              "alignment": "right",
+              "parentNode": "a49db56e-66e8-4728-a804-1743fe6a1c7e",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Magic",
+          "color": "#6e4b1e",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "23b9d338-13ea-4745-ba49-676db4495432"
+          ],
+          "locations": [
+            "409.53, 63.00, -613.47, 141.62, -1.21"
+          ],
+          "traits": [
+            {
+              "trait": "skillcapetrait",
+              "args": {
+                "type": "MAGIC"
+              }
+            },
+            {
+              "trait": "lookclose",
+              "args": {}
+            }
+          ],
+          "conditions": {
+            "conditions": [
+              ""
+            ],
+            "args": [],
+            "ors": [
+              false
+            ],
+            "negates": [
+              false
+            ]
+          },
+          "entityType": "PLAYER",
+          "equipment": {}
+        },
+        "a48c536f-8eeb-44e9-ab41-7f83293f59d3": {
+          "id": "a48c536f-8eeb-44e9-ab41-7f83293f59d3",
+          "type": "npc",
+          "selected": false,
+          "x": -297,
+          "y": 1864,
+          "ports": [
+            {
+              "id": "29456cc2-1f34-4270-8b18-161a4994e9fc",
+              "type": "default",
+              "x": -2.843747049147801,
+              "y": 1892.000048706021,
+              "name": "out-1780798685286",
+              "alignment": "right",
+              "parentNode": "a48c536f-8eeb-44e9-ab41-7f83293f59d3",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Runecraft",
+          "color": "#6e4b1e",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "29456cc2-1f34-4270-8b18-161a4994e9fc"
+          ],
+          "locations": [
+            "408.52, 63.00, -617.45, 140.72, 0.00"
+          ],
+          "traits": [
+            {
+              "trait": "skillcapetrait",
+              "args": {
+                "type": "RUNECRAFTING"
+              }
+            },
+            {
+              "trait": "lookclose",
+              "args": {}
+            }
+          ],
+          "conditions": {
+            "conditions": [
+              ""
+            ],
+            "args": [],
+            "ors": [
+              false
+            ],
+            "negates": [
+              false
+            ]
+          },
+          "entityType": "PLAYER",
+          "equipment": {}
+        },
+        "2a66cb21-8beb-45ee-9ab7-ccb7df3fbf82": {
+          "id": "2a66cb21-8beb-45ee-9ab7-ccb7df3fbf82",
+          "type": "npc",
+          "selected": false,
+          "x": -297,
+          "y": 2161,
+          "ports": [
+            {
+              "id": "f71325a3-4f66-406b-93ab-a746774d9bc9",
+              "type": "default",
+              "x": 0.10937174388715704,
+              "y": 2188.9999742224404,
+              "name": "out-1780798685286",
+              "alignment": "right",
+              "parentNode": "2a66cb21-8beb-45ee-9ab7-ccb7df3fbf82",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Construction",
+          "color": "#6e4b1e",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "f71325a3-4f66-406b-93ab-a746774d9bc9"
+          ],
+          "locations": [
+            "407.53, 63.00, -621.44, 140.32, -4.10"
+          ],
+          "traits": [
+            {
+              "trait": "skillcapetrait",
+              "args": {
+                "type": "CONSTRUCTION"
+              }
+            },
+            {
+              "trait": "lookclose",
+              "args": {}
+            }
+          ],
+          "conditions": {
+            "conditions": [
+              ""
+            ],
+            "args": [],
+            "ors": [
+              false
+            ],
+            "negates": [
+              false
+            ]
+          },
+          "entityType": "PLAYER",
+          "equipment": {}
+        },
+        "a135f0a2-ddc8-4ca2-b392-537e757165f0": {
+          "id": "a135f0a2-ddc8-4ca2-b392-537e757165f0",
+          "type": "npc",
+          "selected": false,
+          "x": 34.47540983606561,
+          "y": 73.73770491803253,
+          "ports": [
+            {
+              "id": "78b47765-9036-45ac-bd69-3274b5ebc948",
+              "type": "default",
+              "x": 331.57812588186385,
+              "y": 101.73443198197428,
+              "name": "out-1780798685286",
+              "alignment": "right",
+              "parentNode": "a135f0a2-ddc8-4ca2-b392-537e757165f0",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Hitpoints",
+          "color": "#6e4b1e",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "78b47765-9036-45ac-bd69-3274b5ebc948"
+          ],
+          "locations": [
+            "407.50, 63.00, -635.50, 127.43, -3.37"
+          ],
+          "traits": [
+            {
+              "trait": "skillcapetrait",
+              "args": {
+                "type": "HITPOINTS"
+              }
+            },
+            {
+              "trait": "lookclose",
+              "args": {}
+            }
+          ],
+          "conditions": {
+            "conditions": [
+              ""
+            ],
+            "args": [],
+            "ors": [
+              false
+            ],
+            "negates": [
+              false
+            ]
+          },
+          "entityType": "PLAYER",
+          "equipment": {}
+        },
+        "2554eeb1-fa26-43fe-820a-c0ae2860e32b": {
+          "id": "2554eeb1-fa26-43fe-820a-c0ae2860e32b",
+          "type": "npc",
+          "selected": false,
+          "x": 34.47540983606561,
+          "y": 370.73770491803253,
+          "ports": [
+            {
+              "id": "050f097d-64f9-462b-bab1-e0fd64cbe0b9",
+              "type": "default",
+              "x": 331.57812588186385,
+              "y": 398.7344195680442,
+              "name": "out-1780798685286",
+              "alignment": "right",
+              "parentNode": "2554eeb1-fa26-43fe-820a-c0ae2860e32b",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Agility",
+          "color": "#6e4b1e",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "050f097d-64f9-462b-bab1-e0fd64cbe0b9"
+          ],
+          "locations": [
+            "408.50, 63.00, -639.50, 119.90, -2.91"
+          ],
+          "traits": [
+            {
+              "trait": "skillcapetrait",
+              "args": {
+                "type": "AGILITY"
+              }
+            },
+            {
+              "trait": "lookclose",
+              "args": {}
+            }
+          ],
+          "conditions": {
+            "conditions": [
+              ""
+            ],
+            "args": [],
+            "ors": [
+              false
+            ],
+            "negates": [
+              false
+            ]
+          },
+          "entityType": "PLAYER",
+          "equipment": {}
+        },
+        "8c71c331-45fe-4b5d-9c49-ed6872c4c907": {
+          "id": "8c71c331-45fe-4b5d-9c49-ed6872c4c907",
+          "type": "npc",
+          "selected": false,
+          "x": 34.47540983606561,
+          "y": 667.7377049180325,
+          "ports": [
+            {
+              "id": "b35663a4-3bf6-4a6d-80b0-451c7d0ed382",
+              "type": "default",
+              "x": 325.4687963996075,
+              "y": 695.7344071541141,
+              "name": "out-1780798685286",
+              "alignment": "right",
+              "parentNode": "8c71c331-45fe-4b5d-9c49-ed6872c4c907",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Herblore",
+          "color": "#6e4b1e",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "b35663a4-3bf6-4a6d-80b0-451c7d0ed382"
+          ],
+          "locations": [
+            "409.50, 63.00, -643.50, 221.25, 0.00"
+          ],
+          "traits": [
+            {
+              "trait": "skillcapetrait",
+              "args": {
+                "type": "HERBLORE"
+              }
+            },
+            {
+              "trait": "lookclose",
+              "args": {}
+            }
+          ],
+          "conditions": {
+            "conditions": [
+              ""
+            ],
+            "args": [],
+            "ors": [
+              false
+            ],
+            "negates": [
+              false
+            ]
+          },
+          "entityType": "PLAYER",
+          "equipment": {}
+        },
+        "ebf01026-04ae-4b02-93a3-927514188883": {
+          "id": "ebf01026-04ae-4b02-93a3-927514188883",
+          "type": "npc",
+          "selected": false,
+          "x": 34.47540983606561,
+          "y": 964.7377049180325,
+          "ports": [
+            {
+              "id": "801225f9-4511-4afd-af92-2bf4710458f3",
+              "type": "default",
+              "x": 331.57812588186385,
+              "y": 992.7344568098345,
+              "name": "out-1780798685286",
+              "alignment": "right",
+              "parentNode": "ebf01026-04ae-4b02-93a3-927514188883",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Thieving",
+          "color": "#6e4b1e",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "801225f9-4511-4afd-af92-2bf4710458f3"
+          ],
+          "locations": [
+            "411.52, 63.00, -647.45, 253.15, -3.36"
+          ],
+          "traits": [
+            {
+              "trait": "skillcapetrait",
+              "args": {
+                "type": "THIEVING"
+              }
+            },
+            {
+              "trait": "lookclose",
+              "args": {}
+            }
+          ],
+          "conditions": {
+            "conditions": [
+              ""
+            ],
+            "args": [],
+            "ors": [
+              false
+            ],
+            "negates": [
+              false
+            ]
+          },
+          "entityType": "PLAYER",
+          "equipment": {}
+        },
+        "484a5ebe-b690-4690-8e9c-60f98712ebef": {
+          "id": "484a5ebe-b690-4690-8e9c-60f98712ebef",
+          "type": "npc",
+          "selected": false,
+          "x": 34.47540983606561,
+          "y": 1261.7377049180325,
+          "ports": [
+            {
+              "id": "b039f87d-59a2-4948-b43c-186a6cead845",
+              "type": "default",
+              "x": 331.57812588186385,
+              "y": 1289.734382326254,
+              "name": "out-1780798685286",
+              "alignment": "right",
+              "parentNode": "484a5ebe-b690-4690-8e9c-60f98712ebef",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Crafting",
+          "color": "#6e4b1e",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "b039f87d-59a2-4948-b43c-186a6cead845"
+          ],
+          "locations": [
+            "415.45, 63.00, -651.47, 268.33, -3.38"
+          ],
+          "traits": [
+            {
+              "trait": "skillcapetrait",
+              "args": {
+                "type": "CRAFTING"
+              }
+            },
+            {
+              "trait": "lookclose",
+              "args": {}
+            }
+          ],
+          "conditions": {
+            "conditions": [
+              ""
+            ],
+            "args": [],
+            "ors": [
+              false
+            ],
+            "negates": [
+              false
+            ]
+          },
+          "entityType": "PLAYER",
+          "equipment": {}
+        },
+        "4c688bc7-5f7b-46ed-8dac-7fe617bacaa0": {
+          "id": "4c688bc7-5f7b-46ed-8dac-7fe617bacaa0",
+          "type": "npc",
+          "selected": false,
+          "x": 34.47540983606561,
+          "y": 1558.7377049180325,
+          "ports": [
+            {
+              "id": "c2739521-cf04-410b-8b38-f6ff628bb373",
+              "type": "default",
+              "x": 331.57812588186385,
+              "y": 1586.7344319819745,
+              "name": "out-1780798685286",
+              "alignment": "right",
+              "parentNode": "4c688bc7-5f7b-46ed-8dac-7fe617bacaa0",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Fletching",
+          "color": "#6e4b1e",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "c2739521-cf04-410b-8b38-f6ff628bb373"
+          ],
+          "locations": [
+            "420.50, 63.00, -656.50, -72.18, -2.96"
+          ],
+          "traits": [
+            {
+              "trait": "skillcapetrait",
+              "args": {
+                "type": "FLETCHING"
+              }
+            },
+            {
+              "trait": "lookclose",
+              "args": {}
+            }
+          ],
+          "conditions": {
+            "conditions": [
+              ""
+            ],
+            "args": [],
+            "ors": [
+              false
+            ],
+            "negates": [
+              false
+            ]
+          },
+          "entityType": "PLAYER",
+          "equipment": {}
+        },
+        "092ccb73-3bd1-4df0-90bb-81b46bc11b32": {
+          "id": "092ccb73-3bd1-4df0-90bb-81b46bc11b32",
+          "type": "npc",
+          "selected": false,
+          "x": 34.47540983606561,
+          "y": 1855.7377049180325,
+          "ports": [
+            {
+              "id": "c77b35fe-9a97-40dd-bf8a-1a0bb5dbebd1",
+              "type": "default",
+              "x": 331.57812588186385,
+              "y": 1883.7344816376947,
+              "name": "out-1780798685286",
+              "alignment": "right",
+              "parentNode": "092ccb73-3bd1-4df0-90bb-81b46bc11b32",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Slayer",
+          "color": "#6e4b1e",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "c77b35fe-9a97-40dd-bf8a-1a0bb5dbebd1"
+          ],
+          "locations": [
+            "424.49, 63.00, -660.50, -57.54, -2.16"
+          ],
+          "traits": [
+            {
+              "trait": "skillcapetrait",
+              "args": {
+                "type": "SLAYER"
+              }
+            },
+            {
+              "trait": "lookclose",
+              "args": {}
+            }
+          ],
+          "conditions": {
+            "conditions": [
+              ""
+            ],
+            "args": [],
+            "ors": [
+              false
+            ],
+            "negates": [
+              false
+            ]
+          },
+          "entityType": "PLAYER",
+          "equipment": {}
+        },
+        "6ffc87b5-bab8-4ca1-a63e-a6a3fdaf36c7": {
+          "id": "6ffc87b5-bab8-4ca1-a63e-a6a3fdaf36c7",
+          "type": "npc",
+          "selected": false,
+          "x": 34.47540983606561,
+          "y": 2152.7377049180323,
+          "ports": [
+            {
+              "id": "a5f76f1f-1da8-4b1a-a414-4d7797b7a901",
+              "type": "default",
+              "x": 331.57812588186385,
+              "y": 2180.734531293415,
+              "name": "out-1780798685286",
+              "alignment": "right",
+              "parentNode": "6ffc87b5-bab8-4ca1-a63e-a6a3fdaf36c7",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Hunter",
+          "color": "#6e4b1e",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "a5f76f1f-1da8-4b1a-a414-4d7797b7a901"
+          ],
+          "locations": [
+            "428.57, 63.00, -662.52, -48.31, -2.29"
+          ],
+          "traits": [
+            {
+              "trait": "skillcapetrait",
+              "args": {
+                "type": "HUNTER"
+              }
+            },
+            {
+              "trait": "lookclose",
+              "args": {}
+            }
+          ],
+          "conditions": {
+            "conditions": [
+              ""
+            ],
+            "args": [],
+            "ors": [
+              false
+            ],
+            "negates": [
+              false
+            ]
+          },
+          "entityType": "PLAYER",
+          "equipment": {}
+        },
+        "cdeae650-53d5-47a1-b9bf-ea110d9f47da": {
+          "id": "cdeae650-53d5-47a1-b9bf-ea110d9f47da",
+          "type": "npc",
+          "selected": false,
+          "x": 383.6557377049181,
+          "y": 65.81967213114729,
+          "ports": [
+            {
+              "id": "c77345e2-805f-4b2d-8080-5268d5c9ce75",
+              "type": "default",
+              "x": 680.750013295794,
+              "y": 93.81260663769461,
+              "name": "out-1780798685286",
+              "alignment": "right",
+              "parentNode": "cdeae650-53d5-47a1-b9bf-ea110d9f47da",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Mining",
+          "color": "#6e4b1e",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "c77345e2-805f-4b2d-8080-5268d5c9ce75"
+          ],
+          "locations": [
+            "432.53, 63.00, -663.41, -40.22, -2.88"
+          ],
+          "traits": [
+            {
+              "trait": "skillcapetrait",
+              "args": {
+                "type": "MINING"
+              }
+            },
+            {
+              "trait": "lookclose",
+              "args": {}
+            }
+          ],
+          "conditions": {
+            "conditions": [
+              ""
+            ],
+            "args": [],
+            "ors": [
+              false
+            ],
+            "negates": [
+              false
+            ]
+          },
+          "entityType": "PLAYER",
+          "equipment": {}
+        },
+        "24c0cf7b-290a-4b50-8b52-452e6496c483": {
+          "id": "24c0cf7b-290a-4b50-8b52-452e6496c483",
+          "type": "npc",
+          "selected": false,
+          "x": 383.6557377049181,
+          "y": 362.8196721311473,
+          "ports": [
+            {
+              "id": "b9f2e441-3bd3-49e9-af27-71200cb301f2",
+              "type": "default",
+              "x": 680.750013295794,
+              "y": 390.81253215411414,
+              "name": "out-1780798685286",
+              "alignment": "right",
+              "parentNode": "24c0cf7b-290a-4b50-8b52-452e6496c483",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Smithing",
+          "color": "#6e4b1e",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "b9f2e441-3bd3-49e9-af27-71200cb301f2"
+          ],
+          "locations": [
+            "436.48, 63.00, -664.52, -30.32, -3.41"
+          ],
+          "traits": [
+            {
+              "trait": "skillcapetrait",
+              "args": {
+                "type": "SMITHING"
+              }
+            },
+            {
+              "trait": "lookclose",
+              "args": {}
+            }
+          ],
+          "conditions": {
+            "conditions": [
+              ""
+            ],
+            "args": [],
+            "ors": [
+              false
+            ],
+            "negates": [
+              false
+            ]
+          },
+          "entityType": "PLAYER",
+          "equipment": {}
+        },
+        "9578977c-21b7-4773-88cf-5c173cec0d9f": {
+          "id": "9578977c-21b7-4773-88cf-5c173cec0d9f",
+          "type": "npc",
+          "selected": false,
+          "x": 383.6557377049181,
+          "y": 659.8196721311473,
+          "ports": [
+            {
+              "id": "cbf34d9e-636e-43c2-a7d0-2a8bff8dd99c",
+              "type": "default",
+              "x": 674.6406217438872,
+              "y": 687.8125818098345,
+              "name": "out-1780798685286",
+              "alignment": "right",
+              "parentNode": "9578977c-21b7-4773-88cf-5c173cec0d9f",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Fishing",
+          "color": "#6e4b1e",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "cbf34d9e-636e-43c2-a7d0-2a8bff8dd99c"
+          ],
+          "locations": [
+            "450.50, 63.00, -664.49, -9.99, -3.37"
+          ],
+          "traits": [
+            {
+              "trait": "skillcapetrait",
+              "args": {
+                "type": "FISHING"
+              }
+            },
+            {
+              "trait": "lookclose",
+              "args": {}
+            }
+          ],
+          "conditions": {
+            "conditions": [
+              ""
+            ],
+            "args": [],
+            "ors": [
+              false
+            ],
+            "negates": [
+              false
+            ]
+          },
+          "entityType": "PLAYER",
+          "equipment": {}
+        },
+        "d9b4e7b1-c190-403b-8a8b-1fe68fa44878": {
+          "id": "d9b4e7b1-c190-403b-8a8b-1fe68fa44878",
+          "type": "npc",
+          "selected": false,
+          "x": 384.6393442622952,
+          "y": 956.8196721311473,
+          "ports": [
+            {
+              "id": "529b34c7-06b0-4e23-9d20-b147e1dae235",
+              "type": "default",
+              "x": 675.6250463996075,
+              "y": 984.8125693959045,
+              "name": "out-1780798685286",
+              "alignment": "right",
+              "parentNode": "d9b4e7b1-c190-403b-8a8b-1fe68fa44878",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Cooking",
+          "color": "#6e4b1e",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "529b34c7-06b0-4e23-9d20-b147e1dae235"
+          ],
+          "locations": [
+            "454.56, 63.00, -663.46, -14.42, 0.00"
+          ],
+          "traits": [
+            {
+              "trait": "skillcapetrait",
+              "args": {
+                "type": "COOKING"
+              }
+            },
+            {
+              "trait": "lookclose",
+              "args": {}
+            }
+          ],
+          "conditions": {
+            "conditions": [
+              ""
+            ],
+            "args": [],
+            "ors": [
+              false
+            ],
+            "negates": [
+              false
+            ]
+          },
+          "entityType": "PLAYER",
+          "equipment": {}
+        },
+        "dfd1840f-a7c6-4939-b7a2-8b94899df597": {
+          "id": "dfd1840f-a7c6-4939-b7a2-8b94899df597",
+          "type": "npc",
+          "selected": false,
+          "x": 384.6393442622952,
+          "y": 1253.8196721311474,
+          "ports": [
+            {
+              "id": "3b4a1f91-f2e6-4dab-9804-6130e67d59b4",
+              "type": "default",
+              "x": 681.7344379515143,
+              "y": 1281.8125569819742,
+              "name": "out-1780798685286",
+              "alignment": "right",
+              "parentNode": "dfd1840f-a7c6-4939-b7a2-8b94899df597",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Firemaking",
+          "color": "#6e4b1e",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "3b4a1f91-f2e6-4dab-9804-6130e67d59b4"
+          ],
+          "locations": [
+            "458.54, 63.00, -662.47, -17.25, -2.16"
+          ],
+          "traits": [
+            {
+              "trait": "skillcapetrait",
+              "args": {
+                "type": "FIREMAKING"
+              }
+            },
+            {
+              "trait": "lookclose",
+              "args": {}
+            }
+          ],
+          "conditions": {
+            "conditions": [
+              ""
+            ],
+            "args": [],
+            "ors": [
+              false
+            ],
+            "negates": [
+              false
+            ]
+          },
+          "entityType": "PLAYER",
+          "equipment": {}
+        },
+        "c048a760-dc27-44cf-99a0-e3bf7e1b0faa": {
+          "id": "c048a760-dc27-44cf-99a0-e3bf7e1b0faa",
+          "type": "npc",
+          "selected": false,
+          "x": 384.6393442622952,
+          "y": 1550.8196721311474,
+          "ports": [
+            {
+              "id": "08c94e04-c8e6-4592-9e0a-fbebd9788b9b",
+              "type": "default",
+              "x": 681.7344379515143,
+              "y": 1578.8126066376947,
+              "name": "out-1780798685286",
+              "alignment": "right",
+              "parentNode": "c048a760-dc27-44cf-99a0-e3bf7e1b0faa",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Woodcutting",
+          "color": "#6e4b1e",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "08c94e04-c8e6-4592-9e0a-fbebd9788b9b"
+          ],
+          "locations": [
+            "462.48, 63.00, -660.48, -26.33, -0.35"
+          ],
+          "traits": [
+            {
+              "trait": "skillcapetrait",
+              "args": {
+                "type": "WOODCUTTING"
+              }
+            },
+            {
+              "trait": "lookclose",
+              "args": {}
+            }
+          ],
+          "conditions": {
+            "conditions": [
+              ""
+            ],
+            "args": [],
+            "ors": [
+              false
+            ],
+            "negates": [
+              false
+            ]
+          },
+          "entityType": "PLAYER",
+          "equipment": {}
+        },
+        "1e62dcbd-f40d-47bc-8944-7cd032490b41": {
+          "id": "1e62dcbd-f40d-47bc-8944-7cd032490b41",
+          "type": "npc",
+          "selected": false,
+          "x": 384.6393442622952,
+          "y": 1847.8196721311474,
+          "ports": [
+            {
+              "id": "fc726fc7-0d26-417b-87ad-f124c05779eb",
+              "type": "default",
+              "x": 681.7344379515143,
+              "y": 1875.8125321541143,
+              "name": "out-1780798685286",
+              "alignment": "right",
+              "parentNode": "1e62dcbd-f40d-47bc-8944-7cd032490b41",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Farming",
+          "color": "#6e4b1e",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "fc726fc7-0d26-417b-87ad-f124c05779eb"
+          ],
+          "locations": [
+            "466.51, 63.00, -656.49, -40.33, -0.35"
+          ],
+          "traits": [
+            {
+              "trait": "skillcapetrait",
+              "args": {
+                "type": "FARMING"
+              }
+            },
+            {
+              "trait": "lookclose",
+              "args": {}
+            }
+          ],
+          "conditions": {
+            "conditions": [
+              ""
+            ],
+            "args": [],
+            "ors": [
+              false
+            ],
+            "negates": [
+              false
+            ]
+          },
+          "entityType": "PLAYER",
+          "equipment": {}
+        },
+        "c2e364e1-7073-44c5-b8c6-74cab390743c": {
+          "id": "c2e364e1-7073-44c5-b8c6-74cab390743c",
+          "type": "npc",
+          "selected": false,
+          "x": -62.499999999999964,
+          "y": -294.108695652174,
+          "ports": [
+            {
+              "id": "f74b80fa-e8f4-4b05-a27f-62d65fb67c36",
+              "type": "default",
+              "x": 234.60942139960764,
+              "y": -266.10866349805957,
+              "name": "out-1780263707265-96085",
+              "alignment": "right",
+              "parentNode": "c2e364e1-7073-44c5-b8c6-74cab390743c",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "&6CabbageGod",
+          "color": "#6e4b1e",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "f74b80fa-e8f4-4b05-a27f-62d65fb67c36"
+          ],
+          "locations": [
+            "429.48, 62.81, -592.51, 355.82, 70.05"
+          ],
+          "traits": [],
+          "conditions": {
+            "conditions": [
+              ""
+            ],
+            "args": [],
+            "ors": [
+              false
+            ],
+            "negates": [
+              false
+            ]
+          },
+          "entityType": "ARMOR_STAND",
+          "equipment": {}
+        },
+        "b2ed8adb-d296-4dc2-8f85-74237ac18229": {
+          "id": "b2ed8adb-d296-4dc2-8f85-74237ac18229",
+          "type": "npc",
+          "selected": false,
+          "x": 304.3478260869562,
+          "y": -283.4782608695649,
+          "ports": [
+            {
+              "id": "a461286a-a4d4-4b02-9d14-c56eb1cdb1fa",
+              "type": "default",
+              "x": 601.4571894580286,
+              "y": -255.4782750661439,
+              "name": "out-1780263707274-36359",
+              "alignment": "right",
+              "parentNode": "b2ed8adb-d296-4dc2-8f85-74237ac18229",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "&6TUiZ",
+          "color": "#6e4b1e",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "a461286a-a4d4-4b02-9d14-c56eb1cdb1fa"
+          ],
+          "locations": [
+            "434.52, 62.81, -591.43, 162.17, 39.45"
+          ],
+          "traits": [],
+          "conditions": {
+            "conditions": [
+              ""
+            ],
+            "args": [],
+            "ors": [
+              false
+            ],
+            "negates": [
+              false
+            ]
+          },
+          "entityType": "ARMOR_STAND",
+          "equipment": {}
+        },
+        "a89514d6-6549-4e01-a4d7-b67a4e8c44ad": {
+          "id": "a89514d6-6549-4e01-a4d7-b67a4e8c44ad",
+          "type": "npc",
+          "selected": true,
+          "x": 653.9130434782602,
+          "y": -286.0869565217388,
+          "ports": [
+            {
+              "id": "a2f7717a-d47e-41f5-b17d-a43f59f5e641",
+              "type": "default",
+              "x": 944.9130530789515,
+              "y": -258.08697071831716,
+              "name": "out-1780263707272-75585",
+              "alignment": "right",
+              "parentNode": "a89514d6-6549-4e01-a4d7-b67a4e8c44ad",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "&6Routhless",
+          "color": "#6e4b1e",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "a2f7717a-d47e-41f5-b17d-a43f59f5e641"
+          ],
+          "locations": [
+            "433.48, 62.81, -597.49, 269.56, 4.50"
+          ],
+          "traits": [],
+          "conditions": {
+            "conditions": [
+              ""
+            ],
+            "args": [],
+            "ors": [
+              false
+            ],
+            "negates": [
+              false
+            ]
+          },
+          "entityType": "ARMOR_STAND",
+          "equipment": {}
+        }
+      }
+    }
+  ],
+  "trees": {}
+}

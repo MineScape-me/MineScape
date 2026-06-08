@@ -1,0 +1,103 @@
+{
+  "id": "7e1107cb-b98a-4f8b-b608-1bae508bfd56",
+  "offsetX": -1,
+  "offsetY": 0,
+  "zoom": 100,
+  "gridSize": 0,
+  "layers": [
+    {
+      "id": "dd02cabf-7c3f-4ee1-924c-6235e4c21312",
+      "type": "diagram-links",
+      "isSvg": true,
+      "transformed": true,
+      "models": {}
+    },
+    {
+      "id": "e02f44e0-deb8-4a67-b09f-e5c1707010e8",
+      "type": "diagram-nodes",
+      "isSvg": false,
+      "transformed": true,
+      "models": {
+        "938ce6ea-0e69-452f-acf4-a642f4ead834": {
+          "id": "938ce6ea-0e69-452f-acf4-a642f4ead834",
+          "type": "start",
+          "x": 50,
+          "y": 50,
+          "ports": [
+            {
+              "id": "96bf553f-7703-43bb-8d75-9c581c1a5387",
+              "type": "default",
+              "x": 98.578125,
+              "y": 55.5,
+              "name": "out-1780815908375",
+              "alignment": "right",
+              "parentNode": "938ce6ea-0e69-452f-acf4-a642f4ead834",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Start",
+          "color": "#16db26e6",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "96bf553f-7703-43bb-8d75-9c581c1a5387"
+          ]
+        },
+        "321fb80e-f4a2-4389-978d-dd6319b793c3": {
+          "id": "321fb80e-f4a2-4389-978d-dd6319b793c3",
+          "type": "npc",
+          "selected": false,
+          "x": 146,
+          "y": 51,
+          "ports": [
+            {
+              "id": "bb25e1f2-f59f-4e7d-8cdd-91028ad93712",
+              "type": "default",
+              "x": 437,
+              "y": 79,
+              "name": "out-1780263707787-27050",
+              "alignment": "right",
+              "parentNode": "321fb80e-f4a2-4389-978d-dd6319b793c3",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "&aSergeant",
+          "color": "#6e4b1e",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "bb25e1f2-f59f-4e7d-8cdd-91028ad93712"
+          ],
+          "locations": [
+            "-375.55, 66.00, -776.43, 1.90, 89.25"
+          ],
+          "traits": [
+            {
+              "trait": "skintrait",
+              "args": {
+                "skin": "HIGHWAYMAN"
+              }
+            }
+          ],
+          "conditions": {
+            "conditions": [
+              ""
+            ],
+            "args": [],
+            "ors": [
+              false
+            ],
+            "negates": [
+              false
+            ]
+          },
+          "entityType": "PLAYER",
+          "equipment": {}
+        }
+      }
+    }
+  ],
+  "trees": {}
+}

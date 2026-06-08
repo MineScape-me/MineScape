@@ -1,0 +1,101 @@
+{
+  "id": "42bb4b63-e073-4349-aceb-0c74f46f7625",
+  "offsetX": 0,
+  "offsetY": -5,
+  "zoom": 100,
+  "gridSize": 0,
+  "layers": [
+    {
+      "id": "21c5459c-4825-4c19-9fd4-2e2209c8e522",
+      "type": "diagram-links",
+      "isSvg": true,
+      "transformed": true,
+      "models": {}
+    },
+    {
+      "id": "76dce91b-f004-4af2-8210-8b78e9f4651e",
+      "type": "diagram-nodes",
+      "isSvg": false,
+      "transformed": true,
+      "models": {
+        "ab47a2fc-21f2-414e-962a-969e43d7b9b0": {
+          "id": "ab47a2fc-21f2-414e-962a-969e43d7b9b0",
+          "type": "start",
+          "x": 50,
+          "y": 50,
+          "ports": [
+            {
+              "id": "95407343-53e0-43f8-b310-8450289b5805",
+              "type": "default",
+              "x": 98.578125,
+              "y": 55.5,
+              "name": "out-1780809231142",
+              "alignment": "right",
+              "parentNode": "ab47a2fc-21f2-414e-962a-969e43d7b9b0",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Start",
+          "color": "#16db26e6",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "95407343-53e0-43f8-b310-8450289b5805"
+          ]
+        },
+        "34a1470b-deda-4ab1-81aa-b15b4789201d": {
+          "id": "34a1470b-deda-4ab1-81aa-b15b4789201d",
+          "type": "npc",
+          "selected": false,
+          "x": 168,
+          "y": 56,
+          "ports": [
+            {
+              "id": "fbb41693-d270-4e0b-83f1-be82bf2fa10b",
+              "type": "default",
+              "x": 446.765625,
+              "y": 84,
+              "name": "out-1780263707349-62026",
+              "alignment": "right",
+              "parentNode": "34a1470b-deda-4ab1-81aa-b15b4789201d",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "&eBlack Cat",
+          "color": "#6e4b1e",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "fbb41693-d270-4e0b-83f1-be82bf2fa10b"
+          ],
+          "locations": [
+            "40.29, 71.00, -701.71, 53.13, 0.00"
+          ],
+          "traits": [
+            {
+              "trait": "randomwalk",
+              "args": {}
+            }
+          ],
+          "conditions": {
+            "conditions": [
+              ""
+            ],
+            "args": [],
+            "ors": [
+              false
+            ],
+            "negates": [
+              false
+            ]
+          },
+          "entityType": "CAT",
+          "equipment": {}
+        }
+      }
+    }
+  ],
+  "trees": {}
+}

@@ -1,0 +1,113 @@
+{
+  "id": "1b1ddc2d-fb93-4c98-8667-42df781c7295",
+  "offsetX": 56.074775950550546,
+  "offsetY": 107.40343886579241,
+  "zoom": 76.66666666666659,
+  "gridSize": 0,
+  "layers": [
+    {
+      "id": "40071027-41a8-44d8-9595-23ddd9e3eba6",
+      "type": "diagram-links",
+      "isSvg": true,
+      "transformed": true,
+      "models": {}
+    },
+    {
+      "id": "24218a26-0b02-4989-89d9-ac3511312f56",
+      "type": "diagram-nodes",
+      "isSvg": false,
+      "transformed": true,
+      "models": {
+        "bd51fcea-004b-4071-851f-c7e1c31db867": {
+          "id": "bd51fcea-004b-4071-851f-c7e1c31db867",
+          "type": "start",
+          "x": 50,
+          "y": 50,
+          "ports": [
+            {
+              "id": "70055857-cc49-4305-b8c2-3f1a0e0faf8f",
+              "type": "default",
+              "x": 98.57812267744097,
+              "y": 55.500008567971236,
+              "name": "out-1780815768586",
+              "alignment": "right",
+              "parentNode": "bd51fcea-004b-4071-851f-c7e1c31db867",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Start",
+          "color": "#16db26e6",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "70055857-cc49-4305-b8c2-3f1a0e0faf8f"
+          ]
+        },
+        "23cb36ca-fb83-4fb1-b0e4-c8cfd88f13be": {
+          "id": "23cb36ca-fb83-4fb1-b0e4-c8cfd88f13be",
+          "type": "npc",
+          "selected": false,
+          "x": 111,
+          "y": 63,
+          "ports": [
+            {
+              "id": "2698a941-8583-411c-88e2-46f23f14ea8e",
+              "type": "default",
+              "x": 424.1093541015242,
+              "y": 90.99999928001272,
+              "name": "out-1780263707780-9422",
+              "alignment": "right",
+              "parentNode": "23cb36ca-fb83-4fb1-b0e4-c8cfd88f13be",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "&eScavvo",
+          "color": "#6e4b1e",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "2698a941-8583-411c-88e2-46f23f14ea8e"
+          ],
+          "locations": [
+            "513.93, 70.00, -221.90, 119.00, 8.16"
+          ],
+          "traits": [
+            {
+              "trait": "shoptrait",
+              "args": {
+                "shopID": "ScavvosRuneStore"
+              }
+            },
+            {
+              "trait": "skintrait",
+              "args": {
+                "skin": "SCAVVO"
+              }
+            },
+            {
+              "trait": "lookclose",
+              "args": {}
+            }
+          ],
+          "conditions": {
+            "conditions": [
+              ""
+            ],
+            "args": [],
+            "ors": [
+              false
+            ],
+            "negates": [
+              false
+            ]
+          },
+          "entityType": "PLAYER",
+          "equipment": {}
+        }
+      }
+    }
+  ],
+  "trees": {}
+}

@@ -1,0 +1,148 @@
+{
+  "id": "d0992701-b40d-45ed-bc00-b15c9839636f",
+  "offsetX": 0,
+  "offsetY": 0,
+  "zoom": 100,
+  "gridSize": 0,
+  "layers": [
+    {
+      "id": "f79b1ee3-d710-45ee-9368-22fb7c9aa591",
+      "type": "diagram-links",
+      "isSvg": true,
+      "transformed": true,
+      "models": {}
+    },
+    {
+      "id": "a24e153c-a509-4ddd-83a7-868142ae0ab5",
+      "type": "diagram-nodes",
+      "isSvg": false,
+      "transformed": true,
+      "models": {
+        "c625217c-3479-4537-a674-abdb9708a7ab": {
+          "id": "c625217c-3479-4537-a674-abdb9708a7ab",
+          "type": "start",
+          "x": 50,
+          "y": 50,
+          "ports": [
+            {
+              "id": "97582d92-cdbd-4d39-a812-5de9e4925c7f",
+              "type": "default",
+              "x": 98.578125,
+              "y": 55.5,
+              "name": "out-1780811637043",
+              "alignment": "right",
+              "parentNode": "c625217c-3479-4537-a674-abdb9708a7ab",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Start",
+          "color": "#16db26e6",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "97582d92-cdbd-4d39-a812-5de9e4925c7f"
+          ]
+        },
+        "26dc3f9a-877e-4a25-b3e6-bb228185f84e": {
+          "id": "26dc3f9a-877e-4a25-b3e6-bb228185f84e",
+          "type": "npc",
+          "selected": false,
+          "x": 155,
+          "y": 45,
+          "ports": [
+            {
+              "id": "352c00ff-fa2d-43e0-bbfe-260ee2619e15",
+              "type": "default",
+              "x": 495.859375,
+              "y": 73,
+              "name": "out-1780263707423-77437",
+              "alignment": "right",
+              "parentNode": "26dc3f9a-877e-4a25-b3e6-bb228185f84e",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "&aClick to exit",
+          "color": "#6e4b1e",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "352c00ff-fa2d-43e0-bbfe-260ee2619e15"
+          ],
+          "locations": [
+            "509.54, 23.00, -642.53, -88.95, -1.65"
+          ],
+          "traits": [
+            {
+              "trait": "teleportstrait",
+              "args": {
+                "teleport": "BOSS_BRYOPHYTA_EXIT"
+              }
+            }
+          ],
+          "conditions": {
+            "conditions": [
+              ""
+            ],
+            "args": [],
+            "ors": [
+              false
+            ],
+            "negates": [
+              false
+            ]
+          },
+          "entityType": "ARMOR_STAND",
+          "equipment": {}
+        },
+        "1471c71e-3dab-473a-9abd-c33223aa63f3": {
+          "id": "1471c71e-3dab-473a-9abd-c33223aa63f3",
+          "type": "npc",
+          "selected": false,
+          "x": 164,
+          "y": 325,
+          "ports": [
+            {
+              "id": "250d993a-eaea-4791-a760-7b85356dd39a",
+              "type": "default",
+              "x": 461.109375,
+              "y": 353,
+              "name": "out-1780263707889-70960",
+              "alignment": "right",
+              "parentNode": "1471c71e-3dab-473a-9abd-c33223aa63f3",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "&aUse a mossy key on the door to enter the boss instance.",
+          "color": "#6e4b1e",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "250d993a-eaea-4791-a760-7b85356dd39a"
+          ],
+          "locations": [
+            "477.02, 45.00, -645.31, 178.41, 19.95"
+          ],
+          "traits": [],
+          "conditions": {
+            "conditions": [
+              ""
+            ],
+            "args": [],
+            "ors": [
+              false
+            ],
+            "negates": [
+              false
+            ]
+          },
+          "entityType": "ARMOR_STAND",
+          "equipment": {}
+        }
+      }
+    }
+  ],
+  "trees": {}
+}

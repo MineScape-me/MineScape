@@ -1,7 +1,7 @@
 {
   "id": "3c63332b-cff6-48dc-88f9-3dc83046c6a6",
-  "offsetX": 0,
-  "offsetY": 0,
+  "offsetX": 253,
+  "offsetY": 244,
   "zoom": 100,
   "gridSize": 0,
   "layers": [
@@ -23,14 +23,14 @@
             {
               "id": "cd7db571-cae9-4ad2-bc3a-390696691226",
               "type": "point",
-              "x": 370.296875,
-              "y": 88.5
+              "x": 343.078125,
+              "y": 87
             },
             {
               "id": "397e039e-bde1-4ab1-b852-c520a275938a",
               "type": "point",
               "x": 472.5,
-              "y": 88.5
+              "y": 85.5
             }
           ],
           "labels": [],
@@ -51,14 +51,14 @@
             {
               "id": "62735eaa-700c-42c8-8b69-8d57b161479a",
               "type": "point",
-              "x": 799.5,
-              "y": 88.5
+              "x": 861.796875,
+              "y": 85.5
             },
             {
               "id": "9016a2fd-0846-4286-9ea5-90625a44f8ba",
               "type": "point",
               "x": 922.5,
-              "y": 88.5
+              "y": 85.5
             }
           ],
           "labels": [],
@@ -79,14 +79,14 @@
             {
               "id": "57b03a99-daa4-468e-be97-bfb63f6dfb05",
               "type": "point",
-              "x": 801.640625,
-              "y": 105.5
+              "x": 863.9375,
+              "y": 102.5
             },
             {
               "id": "2922f660-f714-4c25-8104-4e2d89168b92",
               "type": "point",
               "x": 528.5,
-              "y": 211.5
+              "y": 208.5
             }
           ],
           "labels": [],
@@ -107,14 +107,14 @@
             {
               "id": "30f05876-5086-4fee-873b-51bd5e42fa15",
               "type": "point",
-              "x": 762.671875,
-              "y": 211.5
+              "x": 729.59375,
+              "y": 208.5
             },
             {
               "id": "cf38275c-cc85-4b8d-9c95-eddbc66082d4",
               "type": "point",
               "x": 564.5,
-              "y": 295.5
+              "y": 292.5
             }
           ],
           "labels": [],
@@ -135,14 +135,14 @@
             {
               "id": "ef4cf465-f48a-4df1-b839-1c995ae89f93",
               "type": "point",
-              "x": 939.84375,
-              "y": 304.5
+              "x": 894.484375,
+              "y": 301
             },
             {
               "id": "398d01e1-2078-4ff0-bed4-0fb52ad82669",
               "type": "point",
               "x": 922.5,
-              "y": 88.5
+              "y": 85.5
             }
           ],
           "labels": [],
@@ -163,14 +163,14 @@
             {
               "id": "80d02637-edce-42cd-ac3b-24d4c43a3f40",
               "type": "point",
-              "x": 939.828125,
-              "y": 340.5
+              "x": 894.484375,
+              "y": 336
             },
             {
               "id": "4a61dea3-1f5c-43fc-91f2-c44e15063463",
               "type": "point",
               "x": 1000.5,
-              "y": 340.5
+              "y": 337.5
             }
           ],
           "labels": [],
@@ -196,8 +196,8 @@
             {
               "id": "0bdd3327-b6e0-4b08-99e1-00d6a7a40409",
               "type": "default",
-              "x": 362.796875,
-              "y": 81,
+              "x": 335.578125,
+              "y": 79.5,
               "name": "out-1654769861975",
               "alignment": "right",
               "parentNode": "67bf36ab-738b-4c89-ac82-a488fdd1d867",
@@ -209,7 +209,7 @@
             }
           ],
           "title": "Start",
-          "color": "#16db26",
+          "color": "#16db26e6",
           "portsInOrder": [],
           "portsOutOrder": [
             "0bdd3327-b6e0-4b08-99e1-00d6a7a40409"
@@ -225,8 +225,8 @@
             {
               "id": "e56c8459-5e45-41e8-b9c5-7e41c536773c",
               "type": "default",
-              "x": 792,
-              "y": 81,
+              "x": 854.296875,
+              "y": 78,
               "name": "out-1654769866030",
               "alignment": "right",
               "parentNode": "18f9a885-0c55-4a1a-b1c3-ef48211d3bfe",
@@ -239,8 +239,8 @@
             {
               "id": "199ee890-1496-41e2-9e54-cf60e1366546",
               "type": "default",
-              "x": 794.140625,
-              "y": 98,
+              "x": 856.4375,
+              "y": 95,
               "name": "out-16547698660301",
               "alignment": "right",
               "parentNode": "18f9a885-0c55-4a1a-b1c3-ef48211d3bfe",
@@ -254,7 +254,7 @@
               "id": "d330d589-1b25-4c30-b393-52350a0d8a91",
               "type": "default",
               "x": 465,
-              "y": 81,
+              "y": 78,
               "name": "in-1654769866030 ",
               "alignment": "left",
               "parentNode": "18f9a885-0c55-4a1a-b1c3-ef48211d3bfe",
@@ -266,7 +266,7 @@
             }
           ],
           "title": "Condition",
-          "color": "#02630a",
+          "color": "#02630ae6",
           "portsInOrder": [
             "d330d589-1b25-4c30-b393-52350a0d8a91"
           ],
@@ -286,6 +286,14 @@
               [
                 "RIGHT_CLICK"
               ]
+            ],
+            "ors": [
+              false,
+              false
+            ],
+            "negates": [
+              false,
+              false
             ]
           }
         },
@@ -300,7 +308,7 @@
               "id": "ba8276df-bd07-4de5-8555-2bb5c35c1bb5",
               "type": "default",
               "x": 915,
-              "y": 81,
+              "y": 78,
               "name": "in-1654769879317 ",
               "alignment": "left",
               "parentNode": "4533bfc8-fb2f-45a7-b1d6-4e16d521f25e",
@@ -315,7 +323,7 @@
               "id": "b1a6600c-596e-4405-ae5a-6e45e3c4b02b",
               "type": "default",
               "x": 1212.8125,
-              "y": 81,
+              "y": 78,
               "name": "out-1654769879317",
               "alignment": "right",
               "parentNode": "4533bfc8-fb2f-45a7-b1d6-4e16d521f25e",
@@ -325,7 +333,7 @@
             }
           ],
           "title": "Action",
-          "color": "#3e077e",
+          "color": "#3e077ee6",
           "portsInOrder": [
             "ba8276df-bd07-4de5-8555-2bb5c35c1bb5"
           ],
@@ -354,7 +362,7 @@
               "id": "de3e54a8-29fb-48ad-ac66-4b0f9259bf28",
               "type": "default",
               "x": 521,
-              "y": 204,
+              "y": 201,
               "name": "in-1654769884270 ",
               "alignment": "left",
               "parentNode": "e3dfe886-5ca4-4386-bc66-0d5f70fbea87",
@@ -367,8 +375,8 @@
             {
               "id": "b3e3d951-3688-4aaa-ad40-c929d6d19515",
               "type": "default",
-              "x": 755.171875,
-              "y": 204,
+              "x": 722.09375,
+              "y": 201,
               "name": "out-1654769884270",
               "alignment": "right",
               "parentNode": "e3dfe886-5ca4-4386-bc66-0d5f70fbea87",
@@ -380,7 +388,7 @@
             }
           ],
           "title": "Fairy shop keeper",
-          "color": "#dd341e",
+          "color": "#dd341ee6",
           "portsInOrder": [
             "de3e54a8-29fb-48ad-ac66-4b0f9259bf28"
           ],
@@ -400,7 +408,7 @@
               "id": "2f35e789-ad69-41e1-bf88-c7371abe1b39",
               "type": "default",
               "x": 557,
-              "y": 288,
+              "y": 285,
               "name": "in-1654769887004 ",
               "alignment": "left",
               "parentNode": "1f7a3d78-8e22-4833-965b-570cdcb3a9ca",
@@ -413,8 +421,8 @@
             {
               "id": "9409bedc-6fff-466c-8d43-a48d0ca86837",
               "type": "default",
-              "x": 932.34375,
-              "y": 297,
+              "x": 886.984375,
+              "y": 293.5,
               "name": "out-1654769887004",
               "alignment": "right",
               "parentNode": "1f7a3d78-8e22-4833-965b-570cdcb3a9ca",
@@ -427,8 +435,8 @@
             {
               "id": "5e17b579-495d-415e-b776-100f1a6c9fbc",
               "type": "default",
-              "x": 932.328125,
-              "y": 333,
+              "x": 886.984375,
+              "y": 328.5,
               "name": "out-1654769890120",
               "alignment": "right",
               "parentNode": "1f7a3d78-8e22-4833-965b-570cdcb3a9ca",
@@ -440,7 +448,7 @@
             }
           ],
           "title": "Select an option.",
-          "color": "#0756b1",
+          "color": "#0756b1e6",
           "portsInOrder": [
             "2f35e789-ad69-41e1-bf88-c7371abe1b39"
           ],
@@ -454,6 +462,12 @@
                 ""
               ],
               "args": [],
+              "ors": [
+                false
+              ],
+              "negates": [
+                false
+              ],
               "text": "Yes please. What are you selling?"
             },
             {
@@ -461,6 +475,12 @@
                 ""
               ],
               "args": [],
+              "ors": [
+                false
+              ],
+              "negates": [
+                false
+              ],
               "text": "No thanks."
             }
           ]
@@ -476,7 +496,7 @@
               "id": "78432ea8-e741-41ce-8ff4-7c4c310cfd78",
               "type": "default",
               "x": 993,
-              "y": 333,
+              "y": 330,
               "name": "in-1654769884270 ",
               "alignment": "left",
               "parentNode": "13c9d902-385f-451f-990b-6cf2a2c19cf7",
@@ -489,8 +509,8 @@
             {
               "id": "ee50ca55-963f-48b2-bb81-7740fb39488f",
               "type": "default",
-              "x": 1139.21875,
-              "y": 333,
+              "x": 1120.6875,
+              "y": 330,
               "name": "out-1654769884270",
               "alignment": "right",
               "parentNode": "13c9d902-385f-451f-990b-6cf2a2c19cf7",
@@ -500,7 +520,7 @@
             }
           ],
           "title": "<player>",
-          "color": "#dd341e",
+          "color": "#dd341ee6",
           "portsInOrder": [
             "78432ea8-e741-41ce-8ff4-7c4c310cfd78"
           ],
@@ -512,15 +532,15 @@
         "ad9603bf-a1ce-420c-bc45-2b5e04faef7f": {
           "id": "ad9603bf-a1ce-420c-bc45-2b5e04faef7f",
           "type": "npc",
-          "selected": false,
-          "x": 247,
-          "y": -238,
+          "selected": true,
+          "x": 84,
+          "y": -246,
           "ports": [
             {
               "id": "d6afcf5c-6df9-437d-a73f-e56b92640d6f",
               "type": "default",
-              "x": 639,
-              "y": -210,
+              "x": 396,
+              "y": -218,
               "name": "out-1780218322030-65681",
               "alignment": "right",
               "parentNode": "ad9603bf-a1ce-420c-bc45-2b5e04faef7f",
@@ -529,7 +549,7 @@
               "label": "❯"
             }
           ],
-          "title": "Fairy shop keeper",
+          "title": "&eFairy shop keeper",
           "color": "#6e4b1e",
           "portsInOrder": [],
           "portsOutOrder": [

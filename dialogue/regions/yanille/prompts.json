@@ -1,0 +1,207 @@
+{
+  "id": "278826db-00af-4e99-b66d-ee08e21e2dd3",
+  "offsetX": 1,
+  "offsetY": 2,
+  "zoom": 100,
+  "gridSize": 0,
+  "layers": [
+    {
+      "id": "b0e91aa0-50ee-42c0-8c5d-ff1d41f3d703",
+      "type": "diagram-links",
+      "isSvg": true,
+      "transformed": true,
+      "models": {}
+    },
+    {
+      "id": "bd84f488-151e-48b1-a3e6-7f79f51fc048",
+      "type": "diagram-nodes",
+      "isSvg": false,
+      "transformed": true,
+      "models": {
+        "cbf9fadd-15ee-43a7-a1f7-5d45a80fc7f0": {
+          "id": "cbf9fadd-15ee-43a7-a1f7-5d45a80fc7f0",
+          "type": "start",
+          "x": 50,
+          "y": 50,
+          "ports": [
+            {
+              "id": "ee17b71c-6f55-4502-aa2a-ace6df719246",
+              "type": "default",
+              "x": 98.578125,
+              "y": 55.5,
+              "name": "out-1780811989984",
+              "alignment": "right",
+              "parentNode": "cbf9fadd-15ee-43a7-a1f7-5d45a80fc7f0",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Start",
+          "color": "#16db26e6",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "ee17b71c-6f55-4502-aa2a-ace6df719246"
+          ]
+        },
+        "254f5ebc-0feb-4a8e-8879-68188b28512c": {
+          "id": "254f5ebc-0feb-4a8e-8879-68188b28512c",
+          "type": "npc",
+          "selected": false,
+          "x": 142,
+          "y": 39,
+          "ports": [
+            {
+              "id": "19ae6388-e366-4299-9544-78a118eb58eb",
+              "type": "default",
+              "x": 579.59375,
+              "y": 67,
+              "name": "out-1780263707446-80435",
+              "alignment": "right",
+              "parentNode": "254f5ebc-0feb-4a8e-8879-68188b28512c",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "&aDark Wizards' Tower Teleport",
+          "color": "#6e4b1e",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "19ae6388-e366-4299-9544-78a118eb58eb"
+          ],
+          "locations": [
+            "-1290.02, 83.00, 608.70, 179.89, -0.75"
+          ],
+          "traits": [
+            {
+              "trait": "teleportstrait",
+              "args": {
+                "teleport": "WIZARDS_GUILD_DARK_WIZARDS_TOWER"
+              }
+            }
+          ],
+          "conditions": {
+            "conditions": [
+              ""
+            ],
+            "args": [],
+            "ors": [
+              false
+            ],
+            "negates": [
+              false
+            ]
+          },
+          "entityType": "ARMOR_STAND",
+          "equipment": {}
+        },
+        "c576a025-3c6a-4dcf-8d2a-405271003ea1": {
+          "id": "c576a025-3c6a-4dcf-8d2a-405271003ea1",
+          "type": "npc",
+          "selected": false,
+          "x": 616,
+          "y": 41,
+          "ports": [
+            {
+              "id": "30dd75bd-ff94-4b30-a46c-9055df172dc9",
+              "type": "default",
+              "x": 1043.828125,
+              "y": 69,
+              "name": "out-1780263707831-63735",
+              "alignment": "right",
+              "parentNode": "c576a025-3c6a-4dcf-8d2a-405271003ea1",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "&aSorceror's Tower Teleport",
+          "color": "#6e4b1e",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "30dd75bd-ff94-4b30-a46c-9055df172dc9"
+          ],
+          "locations": [
+            "-1306.68, 83.00, 592.01, -89.23, -0.15"
+          ],
+          "traits": [
+            {
+              "trait": "teleportstrait",
+              "args": {
+                "teleport": "WIZARDS_GUILD_SOURCERERS_TOWER"
+              }
+            }
+          ],
+          "conditions": {
+            "conditions": [
+              ""
+            ],
+            "args": [],
+            "ors": [
+              false
+            ],
+            "negates": [
+              false
+            ]
+          },
+          "entityType": "ARMOR_STAND",
+          "equipment": {}
+        },
+        "598d3500-1fe5-4165-82f9-cd29d6cd4a55": {
+          "id": "598d3500-1fe5-4165-82f9-cd29d6cd4a55",
+          "type": "npc",
+          "selected": false,
+          "x": 138,
+          "y": 354,
+          "ports": [
+            {
+              "id": "d6f1588c-89fd-44c8-9384-bf57613bd94e",
+              "type": "default",
+              "x": 538.921875,
+              "y": 382,
+              "name": "out-1780263707921-44105",
+              "alignment": "right",
+              "parentNode": "598d3500-1fe5-4165-82f9-cd29d6cd4a55",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "&aWizards' Tower Teleport",
+          "color": "#6e4b1e",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "d6f1588c-89fd-44c8-9384-bf57613bd94e"
+          ],
+          "locations": [
+            "-1273.30, 83.00, 592.01, 90.05, -0.45"
+          ],
+          "traits": [
+            {
+              "trait": "teleportstrait",
+              "args": {
+                "teleport": "WIZARDS_GUILD_WIZARDS_TOWER"
+              }
+            }
+          ],
+          "conditions": {
+            "conditions": [
+              ""
+            ],
+            "args": [],
+            "ors": [
+              false
+            ],
+            "negates": [
+              false
+            ]
+          },
+          "entityType": "ARMOR_STAND",
+          "equipment": {}
+        }
+      }
+    }
+  ],
+  "trees": {}
+}

@@ -1,0 +1,178 @@
+{
+  "id": "4ecc36fe-e879-4ca7-bf98-9492f6b7ce02",
+  "offsetX": -1,
+  "offsetY": -6,
+  "zoom": 100,
+  "gridSize": 0,
+  "layers": [
+    {
+      "id": "49195682-e030-4929-8283-c471a5e76182",
+      "type": "diagram-links",
+      "isSvg": true,
+      "transformed": true,
+      "models": {}
+    },
+    {
+      "id": "db4f00cb-3963-44ec-9aec-73ba179c9ca5",
+      "type": "diagram-nodes",
+      "isSvg": false,
+      "transformed": true,
+      "models": {
+        "04c18e11-9bb2-4f1f-8088-a2aeba293877": {
+          "id": "04c18e11-9bb2-4f1f-8088-a2aeba293877",
+          "type": "start",
+          "x": 50,
+          "y": 50,
+          "ports": [
+            {
+              "id": "5e222c98-52d1-4925-bc52-6625006dd5b6",
+              "type": "default",
+              "x": 98.578125,
+              "y": 55.5,
+              "name": "out-1780875673822",
+              "alignment": "right",
+              "parentNode": "04c18e11-9bb2-4f1f-8088-a2aeba293877",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Start",
+          "color": "#16db26e6",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "5e222c98-52d1-4925-bc52-6625006dd5b6"
+          ]
+        },
+        "30e9343e-b432-495f-92e8-79f348095820": {
+          "id": "30e9343e-b432-495f-92e8-79f348095820",
+          "type": "npc",
+          "selected": false,
+          "x": 158,
+          "y": 41,
+          "ports": [
+            {
+              "id": "65300f1e-ba6d-441e-8692-a38ddc2befce",
+              "type": "default",
+              "x": 489.46875,
+              "y": 69,
+              "name": "out-1780263707800-72744",
+              "alignment": "right",
+              "parentNode": "30e9343e-b432-495f-92e8-79f348095820",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "&eShop keeper",
+          "color": "#6e4b1e",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "65300f1e-ba6d-441e-8692-a38ddc2befce"
+          ],
+          "locations": [
+            "590.49, 63.06, -406.44, -38.66, 0.00"
+          ],
+          "traits": [
+            {
+              "trait": "shoptrait",
+              "args": {
+                "shopID": "VarrockGeneralStore"
+              }
+            },
+            {
+              "trait": "randomwalk",
+              "args": {}
+            },
+            {
+              "trait": "skintrait",
+              "args": {
+                "skin": "SHOPKEEPER"
+              }
+            }
+          ],
+          "conditions": {
+            "conditions": [
+              ""
+            ],
+            "args": [],
+            "ors": [
+              false
+            ],
+            "negates": [
+              false
+            ]
+          },
+          "entityType": "PLAYER",
+          "equipment": {}
+        },
+        "3fe77b1b-31db-4335-927c-a8f6aa498201": {
+          "id": "3fe77b1b-31db-4335-927c-a8f6aa498201",
+          "type": "npc",
+          "selected": false,
+          "x": 537,
+          "y": 52,
+          "ports": [
+            {
+              "id": "25ee4935-5e12-4bf0-8f9f-1fe7302c4c47",
+              "type": "default",
+              "x": 865.515625,
+              "y": 80,
+              "name": "out-1780263707798-81536",
+              "alignment": "right",
+              "parentNode": "3fe77b1b-31db-4335-927c-a8f6aa498201",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "&eShop keeper",
+          "color": "#6e4b1e",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "25ee4935-5e12-4bf0-8f9f-1fe7302c4c47"
+          ],
+          "locations": [
+            "562.72, 63.06, -353.21, 141.34, 0.00"
+          ],
+          "traits": [
+            {
+              "trait": "shoptrait",
+              "args": {
+                "shopID": "VarrockSwordshop"
+              }
+            },
+            {
+              "trait": "skintrait",
+              "args": {
+                "skin": "BLACKSMITH"
+              }
+            },
+            {
+              "trait": "randomwalk",
+              "args": {}
+            }
+          ],
+          "conditions": {
+            "conditions": [
+              ""
+            ],
+            "args": [],
+            "ors": [
+              false
+            ],
+            "negates": [
+              false
+            ]
+          },
+          "entityType": "PLAYER",
+          "equipment": {
+            "HAND": "RUNE_LONGSWORD",
+            "OFF_HAND": "AIR"
+          }
+        }
+      }
+    }
+  ],
+  "trees": {}
+}

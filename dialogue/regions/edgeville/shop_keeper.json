@@ -1,0 +1,113 @@
+{
+  "id": "c2847654-4312-4202-9dea-45917ce5e927",
+  "offsetX": 0,
+  "offsetY": -3,
+  "zoom": 100,
+  "gridSize": 0,
+  "layers": [
+    {
+      "id": "f15b29f2-4480-4adf-b040-2a3d70fa933c",
+      "type": "diagram-links",
+      "isSvg": true,
+      "transformed": true,
+      "models": {}
+    },
+    {
+      "id": "6f543d34-8852-4e4d-bb92-e6b2c9f7fd5d",
+      "type": "diagram-nodes",
+      "isSvg": false,
+      "transformed": true,
+      "models": {
+        "19080931-1152-4c58-b60e-00cae7e38131": {
+          "id": "19080931-1152-4c58-b60e-00cae7e38131",
+          "type": "start",
+          "x": 50,
+          "y": 50,
+          "ports": [
+            {
+              "id": "8174777b-2500-4d39-9cc7-d1efd7dcf123",
+              "type": "default",
+              "x": 98.578125,
+              "y": 55.5,
+              "name": "out-1780875592823",
+              "alignment": "right",
+              "parentNode": "19080931-1152-4c58-b60e-00cae7e38131",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Start",
+          "color": "#16db26e6",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "8174777b-2500-4d39-9cc7-d1efd7dcf123"
+          ]
+        },
+        "e334b39e-3927-4daa-be7b-b2eaafa9f526": {
+          "id": "e334b39e-3927-4daa-be7b-b2eaafa9f526",
+          "type": "npc",
+          "selected": false,
+          "x": 143,
+          "y": 34,
+          "ports": [
+            {
+              "id": "7844b5c6-45be-489c-80ef-aa96969ed319",
+              "type": "default",
+              "x": 486.703125,
+              "y": 62,
+              "name": "out-1780263707796-36291",
+              "alignment": "right",
+              "parentNode": "e334b39e-3927-4daa-be7b-b2eaafa9f526",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "&eShop keeper",
+          "color": "#6e4b1e",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "7844b5c6-45be-489c-80ef-aa96969ed319"
+          ],
+          "locations": [
+            "187.22, 63.00, -688.70, 45.00, 0.00"
+          ],
+          "traits": [
+            {
+              "trait": "randomwalk",
+              "args": {}
+            },
+            {
+              "trait": "skintrait",
+              "args": {
+                "skin": "SHOPKEEPER"
+              }
+            },
+            {
+              "trait": "shoptrait",
+              "args": {
+                "shopID": "EdgevilleGeneralStore"
+              }
+            }
+          ],
+          "conditions": {
+            "conditions": [
+              ""
+            ],
+            "args": [],
+            "ors": [
+              false
+            ],
+            "negates": [
+              false
+            ]
+          },
+          "entityType": "PLAYER",
+          "equipment": {}
+        }
+      }
+    }
+  ],
+  "trees": {}
+}

@@ -1,0 +1,115 @@
+{
+  "id": "d118df2e-9799-4b72-a113-c56f974f04cb",
+  "offsetX": 0,
+  "offsetY": 0,
+  "zoom": 100,
+  "gridSize": 0,
+  "layers": [
+    {
+      "id": "d97483d7-ee00-453a-97d9-3e8441e51de1",
+      "type": "diagram-links",
+      "isSvg": true,
+      "transformed": true,
+      "models": {}
+    },
+    {
+      "id": "d47c9b79-7e2d-4e0e-8aea-479d8ddb3f60",
+      "type": "diagram-nodes",
+      "isSvg": false,
+      "transformed": true,
+      "models": {
+        "57ae9abe-120c-4eea-b938-040d60999716": {
+          "id": "57ae9abe-120c-4eea-b938-040d60999716",
+          "type": "start",
+          "x": 50,
+          "y": 50,
+          "ports": [
+            {
+              "id": "45272f1f-1c16-4b31-a41b-a07e84ca55df",
+              "type": "default",
+              "x": 98.578125,
+              "y": 55.5,
+              "name": "out-1780878577156",
+              "alignment": "right",
+              "parentNode": "57ae9abe-120c-4eea-b938-040d60999716",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Start",
+          "color": "#16db26e6",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "45272f1f-1c16-4b31-a41b-a07e84ca55df"
+          ]
+        },
+        "1e58f21c-cc44-4a19-81b8-00721f47cd20": {
+          "id": "1e58f21c-cc44-4a19-81b8-00721f47cd20",
+          "type": "npc",
+          "selected": true,
+          "x": 167,
+          "y": 45,
+          "ports": [
+            {
+              "id": "46649385-264f-4023-a5f8-92e3fdb3e9e2",
+              "type": "default",
+              "x": 498.46875,
+              "y": 73,
+              "name": "out-1780263707928-27961",
+              "alignment": "right",
+              "parentNode": "1e58f21c-cc44-4a19-81b8-00721f47cd20",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "&eZaff",
+          "color": "#6e4b1e",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "46649385-264f-4023-a5f8-92e3fdb3e9e2"
+          ],
+          "locations": [
+            "543.63, 63.06, -458.57, 42.99, -1.03"
+          ],
+          "traits": [
+            {
+              "trait": "shoptrait",
+              "args": {
+                "shopID": "ZaffsSuperiorStaffs"
+              }
+            },
+            {
+              "trait": "lookclose",
+              "args": {}
+            },
+            {
+              "trait": "skintrait",
+              "args": {
+                "skin": "WIZARD"
+              }
+            }
+          ],
+          "conditions": {
+            "conditions": [
+              ""
+            ],
+            "args": [],
+            "ors": [
+              false
+            ],
+            "negates": [
+              false
+            ]
+          },
+          "entityType": "PLAYER",
+          "equipment": {
+            "HAND": "STAFF_OF_FIRE"
+          }
+        }
+      }
+    }
+  ],
+  "trees": {}
+}

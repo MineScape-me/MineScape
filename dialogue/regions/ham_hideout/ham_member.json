@@ -1,0 +1,218 @@
+{
+  "id": "dc93ee47-ddef-41d1-892a-8152665a6817",
+  "offsetX": 0,
+  "offsetY": 0,
+  "zoom": 100,
+  "gridSize": 0,
+  "layers": [
+    {
+      "id": "5cc2fa3d-c76a-4f49-a368-a399cc5436ec",
+      "type": "diagram-links",
+      "isSvg": true,
+      "transformed": true,
+      "models": {}
+    },
+    {
+      "id": "f5bddde1-3a16-4976-8fa3-bfeba692d472",
+      "type": "diagram-nodes",
+      "isSvg": false,
+      "transformed": true,
+      "models": {
+        "4e71e844-3642-4268-81ab-3a97baa4db0c": {
+          "id": "4e71e844-3642-4268-81ab-3a97baa4db0c",
+          "type": "start",
+          "x": 50,
+          "y": 50,
+          "ports": [
+            {
+              "id": "4b2a178e-46be-40b3-9697-a4558e32ae7d",
+              "type": "default",
+              "x": 98.578125,
+              "y": 55.5,
+              "name": "out-1780813931417",
+              "alignment": "right",
+              "parentNode": "4e71e844-3642-4268-81ab-3a97baa4db0c",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Start",
+          "color": "#16db26e6",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "4b2a178e-46be-40b3-9697-a4558e32ae7d"
+          ]
+        },
+        "38dfe075-2fd5-4154-8dcb-67da1f7024ff": {
+          "id": "38dfe075-2fd5-4154-8dcb-67da1f7024ff",
+          "type": "npc",
+          "selected": false,
+          "x": 129,
+          "y": 39,
+          "ports": [
+            {
+              "id": "09ab7c50-0a6e-49f2-9596-4166192bde93",
+              "type": "default",
+              "x": 464.75,
+              "y": 67,
+              "name": "out-1780263707975-15085",
+              "alignment": "right",
+              "parentNode": "38dfe075-2fd5-4154-8dcb-67da1f7024ff",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "&aH.A.M Member",
+          "color": "#6e4b1e",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "09ab7c50-0a6e-49f2-9596-4166192bde93"
+          ],
+          "locations": [
+            "340.52, 28.00, 192.90, 225.00, 0.00",
+            "389.34, 28.00, 161.93, 225.00, 0.00",
+            "340.70, 28.00, 141.57, 53.13, 0.00",
+            "316.18, 28.00, 98.19, -45.00, 0.00",
+            "355.77, 28.00, 144.11, 38.66, 0.00",
+            "335.91, 28.00, 178.76, -51.34, 0.00",
+            "375.19, 28.00, 170.84, -36.87, 0.00",
+            "344.68, 28.00, 149.89, 225.00, 0.00",
+            "311.69, 28.00, 83.73, 135.00, 0.00",
+            "382.23, 28.00, 168.40, 59.04, 0.00",
+            "372.70, 28.00, 164.68, 135.00, 0.00",
+            "349.80, 28.00, 130.89, -38.66, 0.00"
+          ],
+          "traits": [
+            {
+              "trait": "randomwalk",
+              "args": {}
+            },
+            {
+              "trait": "skintrait",
+              "args": {
+                "skin": "HAM_MEMBER_FEMALE"
+              }
+            },
+            {
+              "trait": "capetrait",
+              "args": {
+                "itemStack": "HAM_CLOAK"
+              }
+            },
+            {
+              "trait": "thievingtrait",
+              "args": {
+                "thievingTableID": "HAM_MEMBER"
+              }
+            }
+          ],
+          "conditions": {
+            "conditions": [
+              ""
+            ],
+            "args": [],
+            "ors": [
+              false
+            ],
+            "negates": [
+              false
+            ]
+          },
+          "entityType": "PLAYER",
+          "equipment": {
+            "FEET": "HAM_BOOTS",
+            "LEGS": "HAM_ROBE",
+            "CHEST": "HAM_SHIRT",
+            "HEAD": "HAM_HOOD"
+          }
+        },
+        "75d4a31e-122a-4145-8cf2-717a3afdcbac": {
+          "id": "75d4a31e-122a-4145-8cf2-717a3afdcbac",
+          "type": "npc",
+          "selected": false,
+          "x": 512,
+          "y": 42,
+          "ports": [
+            {
+              "id": "cd6a2ad8-5190-44ec-8300-4aa56541056e",
+              "type": "default",
+              "x": 833.6875,
+              "y": 70,
+              "name": "out-1780263707975-15085",
+              "alignment": "right",
+              "parentNode": "75d4a31e-122a-4145-8cf2-717a3afdcbac",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "&aH.A.M Member",
+          "color": "#6e4b1e",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "cd6a2ad8-5190-44ec-8300-4aa56541056e"
+          ],
+          "locations": [
+            "330.72, 28.00, 126.57, -59.04, 0.00",
+            "337.56, 28.00, 168.78, -51.34, 0.00",
+            "304.70, 28.00, 92.75, -38.66, 0.00",
+            "358.76, 28.00, 156.89, 143.13, 0.00",
+            "306.07, 28.00, 125.41, 225.00, 0.00",
+            "323.52, 28.00, 104.32, 233.13, 0.00",
+            "344.99, 28.00, 160.13, 59.04, 0.00",
+            "394.56, 28.00, 168.34, 210.96, 0.00",
+            "284.97, 28.00, 121.67, -38.66, 0.00",
+            "333.56, 28.00, 188.89, 135.00, 0.00",
+            "290.79, 28.00, 127.71, 143.13, 0.00"
+          ],
+          "traits": [
+            {
+              "trait": "randomwalk",
+              "args": {}
+            },
+            {
+              "trait": "skintrait",
+              "args": {
+                "skin": "HAM_MEMBER_MALE"
+              }
+            },
+            {
+              "trait": "capetrait",
+              "args": {
+                "itemStack": "HAM_CLOAK"
+              }
+            },
+            {
+              "trait": "thievingtrait",
+              "args": {
+                "thievingTableID": "HAM_MEMBER"
+              }
+            }
+          ],
+          "conditions": {
+            "conditions": [
+              ""
+            ],
+            "args": [],
+            "ors": [
+              false
+            ],
+            "negates": [
+              false
+            ]
+          },
+          "entityType": "PLAYER",
+          "equipment": {
+            "FEET": "HAM_BOOTS",
+            "LEGS": "HAM_ROBE",
+            "CHEST": "HAM_SHIRT",
+            "HEAD": "HAM_HOOD"
+          }
+        }
+      }
+    }
+  ],
+  "trees": {}
+}

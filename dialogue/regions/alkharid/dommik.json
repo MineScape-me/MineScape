@@ -1,0 +1,113 @@
+{
+  "id": "40f3cf1e-17fc-4a7b-88db-58a783402641",
+  "offsetX": 0,
+  "offsetY": 0,
+  "zoom": 100,
+  "gridSize": 0,
+  "layers": [
+    {
+      "id": "92ab624d-39dd-4880-befc-6602ccab19e8",
+      "type": "diagram-links",
+      "isSvg": true,
+      "transformed": true,
+      "models": {}
+    },
+    {
+      "id": "34dd7fe6-b36e-475c-8f8b-7812d84d414e",
+      "type": "diagram-nodes",
+      "isSvg": false,
+      "transformed": true,
+      "models": {
+        "4eac1ca2-f956-4c73-a2b3-a1606a286696": {
+          "id": "4eac1ca2-f956-4c73-a2b3-a1606a286696",
+          "type": "start",
+          "x": 50,
+          "y": 50,
+          "ports": [
+            {
+              "id": "9fb07740-94b3-41a3-913e-d7e3bd26ff8d",
+              "type": "default",
+              "x": 98.578125,
+              "y": 55.5,
+              "name": "out-1780812291990",
+              "alignment": "right",
+              "parentNode": "4eac1ca2-f956-4c73-a2b3-a1606a286696",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Start",
+          "color": "#16db26e6",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "9fb07740-94b3-41a3-913e-d7e3bd26ff8d"
+          ]
+        },
+        "8adeaafc-95ba-4fa6-a41b-b2fc79d08dd6": {
+          "id": "8adeaafc-95ba-4fa6-a41b-b2fc79d08dd6",
+          "type": "npc",
+          "selected": true,
+          "x": 118,
+          "y": 88,
+          "ports": [
+            {
+              "id": "609594ea-b012-4541-a43c-dedc5917bbba",
+              "type": "default",
+              "x": 455.578125,
+              "y": 116,
+              "name": "out-1780263707454-76745",
+              "alignment": "right",
+              "parentNode": "8adeaafc-95ba-4fa6-a41b-b2fc79d08dd6",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Dommik",
+          "color": "#6e4b1e",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "609594ea-b012-4541-a43c-dedc5917bbba"
+          ],
+          "locations": [
+            "890.81, 65.00, 267.51, 9.92, -64.75"
+          ],
+          "traits": [
+            {
+              "trait": "shoptrait",
+              "args": {
+                "shopID": "DommiksCraftingStore"
+              }
+            },
+            {
+              "trait": "lookclose",
+              "args": {}
+            },
+            {
+              "trait": "skintrait",
+              "args": {
+                "skin": "SHOPKEEPER"
+              }
+            }
+          ],
+          "conditions": {
+            "conditions": [
+              ""
+            ],
+            "args": [],
+            "ors": [
+              false
+            ],
+            "negates": [
+              false
+            ]
+          },
+          "entityType": "PLAYER",
+          "equipment": {}
+        }
+      }
+    }
+  ],
+  "trees": {}
+}

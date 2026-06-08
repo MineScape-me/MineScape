@@ -1,0 +1,166 @@
+{
+  "id": "cf1526b9-71e9-43d5-a4c6-3b454c0b32f4",
+  "offsetX": -1,
+  "offsetY": 0,
+  "zoom": 100,
+  "gridSize": 0,
+  "layers": [
+    {
+      "id": "cd6429cc-eeb0-4bd0-977d-888f86e2c1e7",
+      "type": "diagram-links",
+      "isSvg": true,
+      "transformed": true,
+      "models": {}
+    },
+    {
+      "id": "7518fdec-c73a-4d6e-8c41-01646f85eba6",
+      "type": "diagram-nodes",
+      "isSvg": false,
+      "transformed": true,
+      "models": {
+        "151c4b60-f366-4035-b05c-dbe45cc43152": {
+          "id": "151c4b60-f366-4035-b05c-dbe45cc43152",
+          "type": "start",
+          "x": 50,
+          "y": 50,
+          "ports": [
+            {
+              "id": "9767c79a-7c97-48c0-bd6a-08168131e4b8",
+              "type": "default",
+              "x": 98.578125,
+              "y": 55.5,
+              "name": "out-1780815337848",
+              "alignment": "right",
+              "parentNode": "151c4b60-f366-4035-b05c-dbe45cc43152",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Start",
+          "color": "#16db26e6",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "9767c79a-7c97-48c0-bd6a-08168131e4b8"
+          ]
+        },
+        "8c9fcf60-3431-4f35-b3f9-8b8902b9dc0d": {
+          "id": "8c9fcf60-3431-4f35-b3f9-8b8902b9dc0d",
+          "type": "npc",
+          "selected": false,
+          "x": 111,
+          "y": 63,
+          "ports": [
+            {
+              "id": "df358e6c-5127-406a-bd74-220292e2e6ce",
+              "type": "default",
+              "x": 436.34375,
+              "y": 91,
+              "name": "out-1780263707994-53302",
+              "alignment": "right",
+              "parentNode": "8c9fcf60-3431-4f35-b3f9-8b8902b9dc0d",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "&eRed salamander",
+          "color": "#6e4b1e",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "df358e6c-5127-406a-bd74-220292e2e6ce"
+          ],
+          "locations": [
+            "-1714.56, 78.00, 179.30, 239.04, 0.00",
+            "-1704.73, 75.00, 192.74, 153.43, 0.00",
+            "-1718.32, 79.00, 171.28, 225.00, 0.00",
+            "-1718.47, 76.00, 178.30, 36.87, 0.00",
+            "-1714.56, 78.00, 179.30, 45.00, 0.00"
+          ],
+          "traits": [
+            {
+              "trait": "hunterrandomwalk",
+              "args": {
+                "trapType": "NET_TRAP"
+              }
+            }
+          ],
+          "conditions": {
+            "conditions": [
+              ""
+            ],
+            "args": [],
+            "ors": [
+              false
+            ],
+            "negates": [
+              false
+            ]
+          },
+          "entityType": "ARMOR_STAND",
+          "equipment": {
+            "HEAD": "APPLE:55"
+          }
+        },
+        "e2c62b43-a6a3-4a0d-bd81-916e85f7f84a": {
+          "id": "e2c62b43-a6a3-4a0d-bd81-916e85f7f84a",
+          "type": "npc",
+          "selected": false,
+          "x": 528,
+          "y": 72,
+          "ports": [
+            {
+              "id": "2bf5df97-ea68-42ac-ae75-6cc4b59d61a9",
+              "type": "default",
+              "x": 853.34375,
+              "y": 100,
+              "name": "out-1780263707995-90416",
+              "alignment": "right",
+              "parentNode": "e2c62b43-a6a3-4a0d-bd81-916e85f7f84a",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "&eRed salamander",
+          "color": "#6e4b1e",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "2bf5df97-ea68-42ac-ae75-6cc4b59d61a9"
+          ],
+          "locations": [
+            "-1660.34, 63.00, 124.73, 125.54, 0.00",
+            "-1646.50, 66.00, 135.50, 110.56, 0.00",
+            "-1640.50, 66.00, 141.50, 26.57, 0.00",
+            "-1634.50, 66.00, 144.50, 36.87, 0.00"
+          ],
+          "traits": [
+            {
+              "trait": "hunterrandomwalk",
+              "args": {
+                "trapType": "NET_TRAP"
+              }
+            }
+          ],
+          "conditions": {
+            "conditions": [
+              ""
+            ],
+            "args": [],
+            "ors": [
+              false
+            ],
+            "negates": [
+              false
+            ]
+          },
+          "entityType": "ARMOR_STAND",
+          "equipment": {
+            "HEAD": "APPLE:55"
+          }
+        }
+      }
+    }
+  ],
+  "trees": {}
+}

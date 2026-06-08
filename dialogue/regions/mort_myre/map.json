@@ -1,0 +1,111 @@
+{
+  "id": "103fe387-797d-4765-8c52-d013d2acd7f2",
+  "offsetX": 331,
+  "offsetY": 556,
+  "zoom": 100,
+  "gridSize": 0,
+  "layers": [
+    {
+      "id": "fa9b3253-9613-4f0e-bd34-5186ede4417f",
+      "type": "diagram-links",
+      "isSvg": true,
+      "transformed": true,
+      "models": {}
+    },
+    {
+      "id": "a12572f4-e7cd-4a22-8d9f-d39240b9b076",
+      "type": "diagram-nodes",
+      "isSvg": false,
+      "transformed": true,
+      "models": {
+        "ffd0e80f-5222-42da-afea-0eab0c99cf6d": {
+          "id": "ffd0e80f-5222-42da-afea-0eab0c99cf6d",
+          "type": "start",
+          "x": 50,
+          "y": 50,
+          "ports": [
+            {
+              "id": "0127d479-fec6-4b19-a75c-be5fd1373fee",
+              "type": "default",
+              "x": 98.578125,
+              "y": 55.5,
+              "name": "out-1780798479084",
+              "alignment": "right",
+              "parentNode": "ffd0e80f-5222-42da-afea-0eab0c99cf6d",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Start",
+          "color": "#16db26e6",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "0127d479-fec6-4b19-a75c-be5fd1373fee"
+          ]
+        },
+        "f1f0e50c-4ab6-4e79-91f0-de26af85b76e": {
+          "id": "f1f0e50c-4ab6-4e79-91f0-de26af85b76e",
+          "type": "npc",
+          "selected": false,
+          "x": -196,
+          "y": -237,
+          "ports": [
+            {
+              "id": "9116b2c0-9457-459a-b4bd-0f9783f5cfff",
+              "type": "default",
+              "x": 102.6875,
+              "y": -209,
+              "name": "out-1780263707209-69683",
+              "alignment": "right",
+              "parentNode": "f1f0e50c-4ab6-4e79-91f0-de26af85b76e",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "NPC",
+          "color": "#6e4b1e",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "9116b2c0-9457-459a-b4bd-0f9783f5cfff"
+          ],
+          "locations": [
+            "1439.50, 66.00, -523.19, 0.04, 64.65"
+          ],
+          "traits": [],
+          "conditions": {
+            "conditions": [
+              ""
+            ],
+            "args": [],
+            "ors": [
+              false
+            ],
+            "negates": [
+              false
+            ]
+          },
+          "entityType": "ARMOR_STAND",
+          "equipment": {
+            "HEAD": "IRON_AXE:106"
+          }
+        },
+        "f72e2bd2-2d63-46d8-bcc8-bb9175f9ac2e": {
+          "id": "f72e2bd2-2d63-46d8-bcc8-bb9175f9ac2e",
+          "type": "note",
+          "selected": false,
+          "x": -187,
+          "y": -299,
+          "ports": [],
+          "title": "Note",
+          "color": "#19e0e7e6",
+          "portsInOrder": [],
+          "portsOutOrder": [],
+          "text": "Owl"
+        }
+      }
+    }
+  ],
+  "trees": {}
+}

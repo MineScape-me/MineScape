@@ -1,0 +1,262 @@
+{
+  "id": "152bd06c-5afd-4bf1-820e-cbd127f6cab9",
+  "offsetX": 0,
+  "offsetY": 0,
+  "zoom": 100,
+  "gridSize": 0,
+  "layers": [
+    {
+      "id": "04116d69-7ff4-435d-bf4d-ae3e4b9ef685",
+      "type": "diagram-links",
+      "isSvg": true,
+      "transformed": true,
+      "models": {}
+    },
+    {
+      "id": "16121fd2-81a2-46b8-986e-431d6d0ae26b",
+      "type": "diagram-nodes",
+      "isSvg": false,
+      "transformed": true,
+      "models": {
+        "04d0e18d-c6c9-45a5-b426-650a16cb01c3": {
+          "id": "04d0e18d-c6c9-45a5-b426-650a16cb01c3",
+          "type": "start",
+          "x": 50,
+          "y": 50,
+          "ports": [
+            {
+              "id": "b8605b13-1b8b-4041-8abd-124ed8342150",
+              "type": "default",
+              "x": 98.578125,
+              "y": 55.5,
+              "name": "out-1780811766422",
+              "alignment": "right",
+              "parentNode": "04d0e18d-c6c9-45a5-b426-650a16cb01c3",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Start",
+          "color": "#16db26e6",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "b8605b13-1b8b-4041-8abd-124ed8342150"
+          ]
+        },
+        "5847bd0b-6e4c-4f9d-9cc1-fba687357b65": {
+          "id": "5847bd0b-6e4c-4f9d-9cc1-fba687357b65",
+          "type": "npc",
+          "selected": false,
+          "x": 142,
+          "y": 38,
+          "ports": [
+            {
+              "id": "ad5a887d-045f-4ade-8f9f-199e4204d097",
+              "type": "default",
+              "x": 454,
+              "y": 66,
+              "name": "out-1780263707439-2878",
+              "alignment": "right",
+              "parentNode": "5847bd0b-6e4c-4f9d-9cc1-fba687357b65",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "&aDairy Cow",
+          "color": "#6e4b1e",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "ad5a887d-045f-4ade-8f9f-199e4204d097"
+          ],
+          "locations": [
+            "682.75, 63.00, 11.88, 155.40, 0.00",
+            "671.49, 63.00, -9.40, 358.35, 87.00",
+            "706.44, 63.00, 40.58, 359.57, 22.95",
+            "707.44, 63.00, 69.87, -170.99, 5.37"
+          ],
+          "traits": [
+            {
+              "trait": "cowtrait",
+              "args": {}
+            }
+          ],
+          "conditions": {
+            "conditions": [
+              ""
+            ],
+            "args": [],
+            "ors": [
+              false
+            ],
+            "negates": [
+              false
+            ]
+          },
+          "entityType": "ARMOR_STAND",
+          "equipment": {
+            "HEAD": "IRON_AXE"
+          }
+        },
+        "fadc310c-3163-41f2-b059-3874be5eaae2": {
+          "id": "fadc310c-3163-41f2-b059-3874be5eaae2",
+          "type": "npc",
+          "selected": false,
+          "x": 505,
+          "y": 33,
+          "ports": [
+            {
+              "id": "68ccb759-e598-489b-8d16-e0b1e003a3f8",
+              "type": "default",
+              "x": 817,
+              "y": 61,
+              "name": "out-1780263707440-15304",
+              "alignment": "right",
+              "parentNode": "fadc310c-3163-41f2-b059-3874be5eaae2",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "&aDairy Cow",
+          "color": "#6e4b1e",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "68ccb759-e598-489b-8d16-e0b1e003a3f8"
+          ],
+          "locations": [
+            "-1035.49, 67.00, -208.61, -179.96, 0.60"
+          ],
+          "traits": [
+            {
+              "trait": "cowtrait",
+              "args": {}
+            }
+          ],
+          "conditions": {
+            "conditions": [
+              ""
+            ],
+            "args": [],
+            "ors": [
+              false
+            ],
+            "negates": [
+              false
+            ]
+          },
+          "entityType": "ARMOR_STAND",
+          "equipment": {
+            "HEAD": "IRON_AXE"
+          }
+        },
+        "1e7ed53d-232b-44f0-8f2a-aef98dfafd60": {
+          "id": "1e7ed53d-232b-44f0-8f2a-aef98dfafd60",
+          "type": "npc",
+          "selected": false,
+          "x": 149,
+          "y": 419,
+          "ports": [
+            {
+              "id": "c81e91bb-09d9-4d6b-8089-0f2860a044e5",
+              "type": "default",
+              "x": 461,
+              "y": 447,
+              "name": "out-1780263707441-36076",
+              "alignment": "right",
+              "parentNode": "1e7ed53d-232b-44f0-8f2a-aef98dfafd60",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "&aDairy Cow",
+          "color": "#6e4b1e",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "c81e91bb-09d9-4d6b-8089-0f2860a044e5"
+          ],
+          "locations": [
+            "-2799.49, 12.00, 1113.73, -1.68, 49.65"
+          ],
+          "traits": [
+            {
+              "trait": "cowtrait",
+              "args": {}
+            }
+          ],
+          "conditions": {
+            "conditions": [
+              ""
+            ],
+            "args": [],
+            "ors": [
+              false
+            ],
+            "negates": [
+              false
+            ]
+          },
+          "entityType": "ARMOR_STAND",
+          "equipment": {
+            "HEAD": "IRON_AXE"
+          }
+        },
+        "ec854899-251f-4566-97cb-54268e475c77": {
+          "id": "ec854899-251f-4566-97cb-54268e475c77",
+          "type": "npc",
+          "selected": false,
+          "x": 537,
+          "y": 368,
+          "ports": [
+            {
+              "id": "ecbc6d60-fd2c-498a-aded-8b4bc21cf5e7",
+              "type": "default",
+              "x": 849,
+              "y": 396,
+              "name": "out-1780263707442-43497",
+              "alignment": "right",
+              "parentNode": "ec854899-251f-4566-97cb-54268e475c77",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "&aDairy Cow",
+          "color": "#6e4b1e",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "ecbc6d60-fd2c-498a-aded-8b4bc21cf5e7"
+          ],
+          "locations": [
+            "-1307.40, 70.00, 489.09, -179.64, 34.50"
+          ],
+          "traits": [
+            {
+              "trait": "cowtrait",
+              "args": {}
+            }
+          ],
+          "conditions": {
+            "conditions": [
+              ""
+            ],
+            "args": [],
+            "ors": [
+              false
+            ],
+            "negates": [
+              false
+            ]
+          },
+          "entityType": "ARMOR_STAND",
+          "equipment": {
+            "HEAD": "IRON_AXE"
+          }
+        }
+      }
+    }
+  ],
+  "trees": {}
+}

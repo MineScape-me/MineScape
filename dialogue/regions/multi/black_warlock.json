@@ -1,0 +1,109 @@
+{
+  "id": "d2665e29-42f0-4271-ac92-c3fd9c186a42",
+  "offsetX": 0,
+  "offsetY": 0,
+  "zoom": 100,
+  "gridSize": 0,
+  "layers": [
+    {
+      "id": "80d23a17-17df-4eec-b8d4-254cfb813ead",
+      "type": "diagram-links",
+      "isSvg": true,
+      "transformed": true,
+      "models": {}
+    },
+    {
+      "id": "b00c8034-925e-4de8-9a03-aa3526312ea6",
+      "type": "diagram-nodes",
+      "isSvg": false,
+      "transformed": true,
+      "models": {
+        "c293712a-af9b-46ce-8211-ecfc871f374c": {
+          "id": "c293712a-af9b-46ce-8211-ecfc871f374c",
+          "type": "start",
+          "x": 50,
+          "y": 50,
+          "ports": [
+            {
+              "id": "a04161a4-94c5-40a7-b478-f775d49403de",
+              "type": "default",
+              "x": 98.578125,
+              "y": 55.5,
+              "name": "out-1780809487826",
+              "alignment": "right",
+              "parentNode": "c293712a-af9b-46ce-8211-ecfc871f374c",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Start",
+          "color": "#16db26e6",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "a04161a4-94c5-40a7-b478-f775d49403de"
+          ]
+        },
+        "b341cd48-82f9-47c8-a1c9-1d4acc7a88ff": {
+          "id": "b341cd48-82f9-47c8-a1c9-1d4acc7a88ff",
+          "type": "npc",
+          "selected": false,
+          "x": 152,
+          "y": 32,
+          "ports": [
+            {
+              "id": "d6c571c2-fe67-48f4-a6b0-c91e13d8c96c",
+              "type": "default",
+              "x": 464,
+              "y": 60,
+              "name": "out-1780263707958-47470",
+              "alignment": "right",
+              "parentNode": "b341cd48-82f9-47c8-a1c9-1d4acc7a88ff",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Black warlock",
+          "color": "#6e4b1e",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "d6c571c2-fe67-48f4-a6b0-c91e13d8c96c"
+          ],
+          "locations": [
+            "-1410.50, 68.00, 1179.50, 225.00, 0.00",
+            "-1440.50, 68.00, 1164.50, 51.34, 0.00",
+            "-1410.50, 68.00, 1179.50, -45.00, 0.00",
+            "-1440.50, 69.00, 1115.50, -45.00, 0.00",
+            "-1465.50, 68.00, 1143.50, 231.34, 0.00",
+            "-1407.50, 66.00, 1112.50, 0.00, 0.00",
+            "-1371.50, 68.00, 1097.50, 0.00, 0.00"
+          ],
+          "traits": [
+            {
+              "trait": "randomwalk",
+              "args": {}
+            }
+          ],
+          "conditions": {
+            "conditions": [
+              ""
+            ],
+            "args": [],
+            "ors": [
+              false
+            ],
+            "negates": [
+              false
+            ]
+          },
+          "entityType": "ARMOR_STAND",
+          "equipment": {
+            "HEAD": "APPLE:51"
+          }
+        }
+      }
+    }
+  ],
+  "trees": {}
+}

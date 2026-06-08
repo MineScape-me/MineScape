@@ -1,0 +1,113 @@
+{
+  "id": "39de5b03-fc52-4a9a-b734-1d46550c87d3",
+  "offsetX": 115,
+  "offsetY": 163,
+  "zoom": 100,
+  "gridSize": 0,
+  "layers": [
+    {
+      "id": "2da1c290-ba5c-4a82-bcbe-a8e48908464f",
+      "type": "diagram-links",
+      "isSvg": true,
+      "transformed": true,
+      "models": {}
+    },
+    {
+      "id": "17afeb33-f064-41d5-9dfd-d7e365abdf5a",
+      "type": "diagram-nodes",
+      "isSvg": false,
+      "transformed": true,
+      "models": {
+        "e3f64fb5-680b-405c-8172-97a35026ea7b": {
+          "id": "e3f64fb5-680b-405c-8172-97a35026ea7b",
+          "type": "start",
+          "x": 50,
+          "y": 50,
+          "ports": [
+            {
+              "id": "609523b9-12ac-499d-867d-0dbbd34dc448",
+              "type": "default",
+              "x": 98.578125,
+              "y": 55.5,
+              "name": "out-1780814827056",
+              "alignment": "right",
+              "parentNode": "e3f64fb5-680b-405c-8172-97a35026ea7b",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Start",
+          "color": "#16db26e6",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "609523b9-12ac-499d-867d-0dbbd34dc448"
+          ]
+        },
+        "27bc4bec-ffe9-49df-9e5a-0cf042b6b33c": {
+          "id": "27bc4bec-ffe9-49df-9e5a-0cf042b6b33c",
+          "type": "npc",
+          "selected": false,
+          "x": 160,
+          "y": 45,
+          "ports": [
+            {
+              "id": "bff6124b-9435-4e57-86c7-1f8392a48834",
+              "type": "default",
+              "x": 485.34375,
+              "y": 73,
+              "name": "out-1780263707717-62059",
+              "alignment": "right",
+              "parentNode": "27bc4bec-ffe9-49df-9e5a-0cf042b6b33c",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "&eNoterazzo",
+          "color": "#6e4b1e",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "bff6124b-9435-4e57-86c7-1f8392a48834"
+          ],
+          "locations": [
+            "20.66, 68.00, -1259.54, 129.68, 0.00"
+          ],
+          "traits": [
+            {
+              "trait": "skintrait",
+              "args": {
+                "skin": "NOTERAZZO"
+              }
+            },
+            {
+              "trait": "lookclose",
+              "args": {}
+            },
+            {
+              "trait": "shoptrait",
+              "args": {
+                "shopID": "BanditDutyFreeShop"
+              }
+            }
+          ],
+          "conditions": {
+            "conditions": [
+              ""
+            ],
+            "args": [],
+            "ors": [
+              false
+            ],
+            "negates": [
+              false
+            ]
+          },
+          "entityType": "PLAYER",
+          "equipment": {}
+        }
+      }
+    }
+  ],
+  "trees": {}
+}

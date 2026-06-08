@@ -1,0 +1,113 @@
+{
+  "id": "7dd898a2-f3c4-45d1-b4d6-9163cc9dcaa3",
+  "offsetX": 0,
+  "offsetY": 0,
+  "zoom": 100,
+  "gridSize": 0,
+  "layers": [
+    {
+      "id": "f6a2102f-def3-4a7c-9713-e826e2fc3529",
+      "type": "diagram-links",
+      "isSvg": true,
+      "transformed": true,
+      "models": {}
+    },
+    {
+      "id": "cbc7e35b-0043-4228-afe2-7b0040904fb0",
+      "type": "diagram-nodes",
+      "isSvg": false,
+      "transformed": true,
+      "models": {
+        "8e49a396-72ac-47f5-9a3f-519fd550c2a2": {
+          "id": "8e49a396-72ac-47f5-9a3f-519fd550c2a2",
+          "type": "start",
+          "x": 50,
+          "y": 50,
+          "ports": [
+            {
+              "id": "3b66b581-342b-46f2-9b40-edb07d4241c8",
+              "type": "default",
+              "x": 98.578125,
+              "y": 55.5,
+              "name": "out-1780815683098",
+              "alignment": "right",
+              "parentNode": "8e49a396-72ac-47f5-9a3f-519fd550c2a2",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Start",
+          "color": "#16db26e6",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "3b66b581-342b-46f2-9b40-edb07d4241c8"
+          ]
+        },
+        "da6e8a14-6324-443d-ba55-12b7876ab5ca": {
+          "id": "da6e8a14-6324-443d-ba55-12b7876ab5ca",
+          "type": "npc",
+          "selected": false,
+          "x": 128,
+          "y": 41,
+          "ports": [
+            {
+              "id": "1f591776-bf0b-4a70-a5a6-7623a1a930ea",
+              "type": "default",
+              "x": 435.4375,
+              "y": 69,
+              "name": "out-1780263707764-52275",
+              "alignment": "right",
+              "parentNode": "da6e8a14-6324-443d-ba55-12b7876ab5ca",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "&eRomily Weaklax",
+          "color": "#6e4b1e",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "1f591776-bf0b-4a70-a5a6-7623a1a930ea"
+          ],
+          "locations": [
+            "346.30, 65.00, -513.45, 101.97, 2.90"
+          ],
+          "traits": [
+            {
+              "trait": "skintrait",
+              "args": {
+                "skin": "ROMILY_WEAKLAX"
+              }
+            },
+            {
+              "trait": "lookclose",
+              "args": {}
+            },
+            {
+              "trait": "shoptrait",
+              "args": {
+                "shopID": "PieShop"
+              }
+            }
+          ],
+          "conditions": {
+            "conditions": [
+              ""
+            ],
+            "args": [],
+            "ors": [
+              false
+            ],
+            "negates": [
+              false
+            ]
+          },
+          "entityType": "PLAYER",
+          "equipment": {}
+        }
+      }
+    }
+  ],
+  "trees": {}
+}

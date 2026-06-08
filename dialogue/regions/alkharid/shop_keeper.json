@@ -1,0 +1,113 @@
+{
+  "id": "32a87024-d506-461e-8ad6-f456a2bc332e",
+  "offsetX": 0,
+  "offsetY": 0,
+  "zoom": 100,
+  "gridSize": 0,
+  "layers": [
+    {
+      "id": "ff1ff54c-a3eb-4764-bf0b-03bf9f02aa04",
+      "type": "diagram-links",
+      "isSvg": true,
+      "transformed": true,
+      "models": {}
+    },
+    {
+      "id": "4ae4980b-ac55-4c43-9be0-56093d94f18c",
+      "type": "diagram-nodes",
+      "isSvg": false,
+      "transformed": true,
+      "models": {
+        "e9f5b5ce-c54c-4707-b3e1-1ab7158dbe81": {
+          "id": "e9f5b5ce-c54c-4707-b3e1-1ab7158dbe81",
+          "type": "start",
+          "x": 50,
+          "y": 50,
+          "ports": [
+            {
+              "id": "af45922d-0dbb-4b0e-8f0c-166fa0935e64",
+              "type": "default",
+              "x": 98.578125,
+              "y": 55.5,
+              "name": "out-1780875702294",
+              "alignment": "right",
+              "parentNode": "e9f5b5ce-c54c-4707-b3e1-1ab7158dbe81",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Start",
+          "color": "#16db26e6",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "af45922d-0dbb-4b0e-8f0c-166fa0935e64"
+          ]
+        },
+        "79f23ccf-ccee-4044-bf2c-5590245612d7": {
+          "id": "79f23ccf-ccee-4044-bf2c-5590245612d7",
+          "type": "npc",
+          "selected": false,
+          "x": 194,
+          "y": 122,
+          "ports": [
+            {
+              "id": "83ba4a1e-8487-42b8-8799-b4d916667895",
+              "type": "default",
+              "x": 531.578125,
+              "y": 150,
+              "name": "out-1780263707802-43126",
+              "alignment": "right",
+              "parentNode": "79f23ccf-ccee-4044-bf2c-5590245612d7",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "&eShop keeper",
+          "color": "#6e4b1e",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "83ba4a1e-8487-42b8-8799-b4d916667895"
+          ],
+          "locations": [
+            "884.11, 66.06, 298.46, 115.45, 3.47"
+          ],
+          "traits": [
+            {
+              "trait": "lookclose",
+              "args": {}
+            },
+            {
+              "trait": "shoptrait",
+              "args": {
+                "shopID": "AlKharidGeneralStore"
+              }
+            },
+            {
+              "trait": "skintrait",
+              "args": {
+                "skin": "SHOPKEEPER"
+              }
+            }
+          ],
+          "conditions": {
+            "conditions": [
+              ""
+            ],
+            "args": [],
+            "ors": [
+              false
+            ],
+            "negates": [
+              false
+            ]
+          },
+          "entityType": "PLAYER",
+          "equipment": {}
+        }
+      }
+    }
+  ],
+  "trees": {}
+}

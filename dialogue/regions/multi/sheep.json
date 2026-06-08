@@ -1,0 +1,238 @@
+{
+  "id": "e494092e-996a-4a5e-8984-5689aa89980b",
+  "offsetX": 0,
+  "offsetY": 0,
+  "zoom": 100,
+  "gridSize": 0,
+  "layers": [
+    {
+      "id": "bb15e144-7292-4aa2-892d-a0c9e72507bd",
+      "type": "diagram-links",
+      "isSvg": true,
+      "transformed": true,
+      "models": {}
+    },
+    {
+      "id": "c81b020f-8916-44f7-82de-145444d9e7fe",
+      "type": "diagram-nodes",
+      "isSvg": false,
+      "transformed": true,
+      "models": {
+        "12814498-b668-4d2d-956b-fd03bc2f97c1": {
+          "id": "12814498-b668-4d2d-956b-fd03bc2f97c1",
+          "type": "start",
+          "x": 50,
+          "y": 50,
+          "ports": [
+            {
+              "id": "bfb919f2-1635-4b5d-a80c-6581eaeebf2e",
+              "type": "default",
+              "x": 98.578125,
+              "y": 55.5,
+              "name": "out-1780816506858",
+              "alignment": "right",
+              "parentNode": "12814498-b668-4d2d-956b-fd03bc2f97c1",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Start",
+          "color": "#16db26e6",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "bfb919f2-1635-4b5d-a80c-6581eaeebf2e"
+          ]
+        },
+        "7d8b1eef-345a-46b0-a326-a0bf68c388ef": {
+          "id": "7d8b1eef-345a-46b0-a326-a0bf68c388ef",
+          "type": "npc",
+          "selected": false,
+          "x": 211,
+          "y": 125,
+          "ports": [
+            {
+              "id": "69324116-0f42-4e52-8170-89176ed242cb",
+              "type": "default",
+              "x": 514.234375,
+              "y": 153,
+              "name": "out-1780263707792-12403",
+              "alignment": "right",
+              "parentNode": "7d8b1eef-345a-46b0-a326-a0bf68c388ef",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "&eSheep",
+          "color": "#6e4b1e",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "69324116-0f42-4e52-8170-89176ed242cb"
+          ],
+          "locations": [
+            "-1085.43, 67.00, -269.06, 141.34, 0.00",
+            "-1107.51, 66.00, -274.59, 225.00, 0.00",
+            "-1087.19, 67.00, -240.95, -30.96, 0.00",
+            "-1092.54, 66.00, -229.45, 141.34, 0.00",
+            "-1101.70, 66.00, -223.41, 38.66, 0.00",
+            "-1089.51, 67.00, -253.14, 218.66, 0.00",
+            "-1109.73, 66.00, -247.83, 233.13, 0.00"
+          ],
+          "traits": [
+            {
+              "trait": "sheeptrait",
+              "args": {}
+            },
+            {
+              "trait": "randomwalk",
+              "args": {}
+            }
+          ],
+          "conditions": {
+            "conditions": [
+              ""
+            ],
+            "args": [],
+            "ors": [
+              false
+            ],
+            "negates": [
+              false
+            ]
+          },
+          "entityType": "ARMOR_STAND",
+          "equipment": {
+            "HEAD": "IRON_AXE:151"
+          }
+        },
+        "114ce724-ef5a-4818-8a72-a170cd5e58a7": {
+          "id": "114ce724-ef5a-4818-8a72-a170cd5e58a7",
+          "type": "npc",
+          "selected": false,
+          "x": 590,
+          "y": 96,
+          "ports": [
+            {
+              "id": "367cf005-1dbb-4982-945e-fd71c34c4e29",
+              "type": "default",
+              "x": 902,
+              "y": 124,
+              "name": "out-1780263707793-34152",
+              "alignment": "right",
+              "parentNode": "114ce724-ef5a-4818-8a72-a170cd5e58a7",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "&eSheep",
+          "color": "#6e4b1e",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "367cf005-1dbb-4982-945e-fd71c34c4e29"
+          ],
+          "locations": [
+            "-2855.49, 13.00, 1145.30, 218.66, 0.00",
+            "-2831.69, 10.00, 1171.30, 45.00, 0.00",
+            "-2858.91, 14.00, 1169.09, 218.66, 0.00"
+          ],
+          "traits": [
+            {
+              "trait": "randomwalk",
+              "args": {}
+            }
+          ],
+          "conditions": {
+            "conditions": [
+              ""
+            ],
+            "args": [],
+            "ors": [
+              false
+            ],
+            "negates": [
+              false
+            ]
+          },
+          "entityType": "ARMOR_STAND",
+          "equipment": {
+            "HEAD": "IRON_AXE"
+          }
+        },
+        "5141f480-10b4-4730-8af0-4dcb8e9f9a52": {
+          "id": "5141f480-10b4-4730-8af0-4dcb8e9f9a52",
+          "type": "npc",
+          "selected": false,
+          "x": 595,
+          "y": 449,
+          "ports": [
+            {
+              "id": "849a18cc-07d6-4c13-b3af-3ce4fe6184cb",
+              "type": "default",
+              "x": 907,
+              "y": 477,
+              "name": "out-1780263707791-68830",
+              "alignment": "right",
+              "parentNode": "5141f480-10b4-4730-8af0-4dcb8e9f9a52",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "&eSheep",
+          "color": "#6e4b1e",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "849a18cc-07d6-4c13-b3af-3ce4fe6184cb"
+          ],
+          "locations": [
+            "556.90, 65.00, 40.33, 141.34, 0.00",
+            "553.91, 64.00, 31.72, -53.13, 0.00",
+            "532.34, 64.00, 42.66, 231.34, 0.00",
+            "560.67, 64.00, 30.79, 141.34, 0.00",
+            "537.66, 64.00, 28.65, 135.00, 0.00",
+            "557.00, 65.00, 49.26, 51.34, 0.00",
+            "574.59, 64.00, 55.14, -30.96, 0.00",
+            "538.71, 64.00, 59.10, 45.00, 0.00",
+            "570.52, 63.00, 66.64, 218.66, 0.00",
+            "528.13, 63.00, 28.54, 53.13, 0.00",
+            "568.65, 64.00, 29.58, -59.04, 0.00",
+            "531.29, 64.00, 53.57, -59.04, 0.00",
+            "571.27, 64.00, 51.55, -53.13, 0.00",
+            "557.99, 64.00, 63.22, -45.00, 0.00",
+            "568.34, 64.00, 39.92, 59.04, 0.00",
+            "529.35, 63.00, 32.03, 38.66, 0.00"
+          ],
+          "traits": [
+            {
+              "trait": "sheeptrait",
+              "args": {}
+            },
+            {
+              "trait": "randomwalk",
+              "args": {}
+            }
+          ],
+          "conditions": {
+            "conditions": [
+              ""
+            ],
+            "args": [],
+            "ors": [
+              false
+            ],
+            "negates": [
+              false
+            ]
+          },
+          "entityType": "ARMOR_STAND",
+          "equipment": {
+            "HEAD": "IRON_AXE"
+          }
+        }
+      }
+    }
+  ],
+  "trees": {}
+}

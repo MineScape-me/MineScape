@@ -1,0 +1,274 @@
+{
+  "id": "e24fa37e-a161-47ad-b7d8-fbac09454cc2",
+  "offsetX": -5,
+  "offsetY": -6,
+  "zoom": 100,
+  "gridSize": 0,
+  "layers": [
+    {
+      "id": "1ae5f72a-a37e-4037-a197-12c84594282a",
+      "type": "diagram-links",
+      "isSvg": true,
+      "transformed": true,
+      "models": {}
+    },
+    {
+      "id": "0a491952-d28b-4cd9-8ff9-4578dacf9d6b",
+      "type": "diagram-nodes",
+      "isSvg": false,
+      "transformed": true,
+      "models": {
+        "197b0b70-c7eb-477b-ae75-414b103158f9": {
+          "id": "197b0b70-c7eb-477b-ae75-414b103158f9",
+          "type": "start",
+          "x": 50,
+          "y": 50,
+          "ports": [
+            {
+              "id": "181da59d-e294-4562-81c1-95f952602923",
+              "type": "default",
+              "x": 98.578125,
+              "y": 55.5,
+              "name": "out-1780875437889",
+              "alignment": "right",
+              "parentNode": "197b0b70-c7eb-477b-ae75-414b103158f9",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Start",
+          "color": "#16db26e6",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "181da59d-e294-4562-81c1-95f952602923"
+          ]
+        },
+        "a1bbe7fe-b25f-4723-99d5-ee7ed044bc8a": {
+          "id": "a1bbe7fe-b25f-4723-99d5-ee7ed044bc8a",
+          "type": "npc",
+          "selected": false,
+          "x": 151,
+          "y": 40,
+          "ports": [
+            {
+              "id": "aae4d5e2-eab9-488f-8ab1-ddf55c35ecec",
+              "type": "default",
+              "x": 476.34375,
+              "y": 68,
+              "name": "out-1780263708013-95198",
+              "alignment": "right",
+              "parentNode": "a1bbe7fe-b25f-4723-99d5-ee7ed044bc8a",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "&aTropical wagtail",
+          "color": "#6e4b1e",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "aae4d5e2-eab9-488f-8ab1-ddf55c35ecec"
+          ],
+          "locations": [
+            "-1447.42, 67.00, 1206.50, 125.54, 0.00",
+            "-1431.50, 67.00, 1197.50, -18.43, 0.00"
+          ],
+          "traits": [
+            {
+              "trait": "hunterrandomwalk",
+              "args": {
+                "trapType": "BIRD_SNARE"
+              }
+            }
+          ],
+          "conditions": {
+            "conditions": [
+              ""
+            ],
+            "args": [],
+            "ors": [
+              false
+            ],
+            "negates": [
+              false
+            ]
+          },
+          "entityType": "ARMOR_STAND",
+          "equipment": {
+            "HEAD": "APPLE:44"
+          }
+        },
+        "bd9f6851-7870-44fe-bcbb-f35537c7dc45": {
+          "id": "bd9f6851-7870-44fe-bcbb-f35537c7dc45",
+          "type": "npc",
+          "selected": false,
+          "x": 525,
+          "y": 33,
+          "ports": [
+            {
+              "id": "3a524a27-7c76-4a21-bb34-b8dab4e177d5",
+              "type": "default",
+              "x": 850.34375,
+              "y": 61,
+              "name": "out-1780263708014-44715",
+              "alignment": "right",
+              "parentNode": "bd9f6851-7870-44fe-bcbb-f35537c7dc45",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "&aTropical wagtail",
+          "color": "#6e4b1e",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "3a524a27-7c76-4a21-bb34-b8dab4e177d5"
+          ],
+          "locations": [
+            "-1492.50, 67.00, 1040.50, 247.38, 0.00",
+            "-1483.50, 67.00, 1040.50, 65.22, 0.00",
+            "-1486.50, 67.00, 1058.50, 230.19, 0.00"
+          ],
+          "traits": [
+            {
+              "trait": "hunterrandomwalk",
+              "args": {
+                "trapType": "BIRD_SNARE"
+              }
+            }
+          ],
+          "conditions": {
+            "conditions": [
+              ""
+            ],
+            "args": [],
+            "ors": [
+              false
+            ],
+            "negates": [
+              false
+            ]
+          },
+          "entityType": "ARMOR_STAND",
+          "equipment": {
+            "HEAD": "APPLE:44"
+          }
+        },
+        "52bf02fe-815e-4eb6-a24b-5b466c109443": {
+          "id": "52bf02fe-815e-4eb6-a24b-5b466c109443",
+          "type": "npc",
+          "selected": false,
+          "x": 140,
+          "y": 380,
+          "ports": [
+            {
+              "id": "f6b06753-225d-44b4-9559-f75ff55ff9a8",
+              "type": "default",
+              "x": 465.34375,
+              "y": 408,
+              "name": "out-1780263708016-47165",
+              "alignment": "right",
+              "parentNode": "52bf02fe-815e-4eb6-a24b-5b466c109443",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "&aTropical wagtail",
+          "color": "#6e4b1e",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "f6b06753-225d-44b4-9559-f75ff55ff9a8"
+          ],
+          "locations": [
+            "-1528.50, 71.00, 1115.50, -12.99, 0.00",
+            "-1522.50, 66.00, 1124.50, 209.05, 0.00"
+          ],
+          "traits": [
+            {
+              "trait": "hunterrandomwalk",
+              "args": {
+                "trapType": "BIRD_SNARE"
+              }
+            }
+          ],
+          "conditions": {
+            "conditions": [
+              ""
+            ],
+            "args": [],
+            "ors": [
+              false
+            ],
+            "negates": [
+              false
+            ]
+          },
+          "entityType": "ARMOR_STAND",
+          "equipment": {
+            "HEAD": "APPLE:44"
+          }
+        },
+        "154f7333-d673-47af-a80f-80525faf5801": {
+          "id": "154f7333-d673-47af-a80f-80525faf5801",
+          "type": "npc",
+          "selected": true,
+          "x": 540,
+          "y": 382,
+          "ports": [
+            {
+              "id": "31c9a38e-f699-4866-9bbe-5dd5b50dd1d9",
+              "type": "default",
+              "x": 865.34375,
+              "y": 410,
+              "name": "out-1780263708012-37236",
+              "alignment": "right",
+              "parentNode": "154f7333-d673-47af-a80f-80525faf5801",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "&aTropical wagtail",
+          "color": "#6e4b1e",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "31c9a38e-f699-4866-9bbe-5dd5b50dd1d9"
+          ],
+          "locations": [
+            "-1549.50, 67.00, 1194.50, 219.81, 0.00",
+            "-1555.50, 66.00, 1182.50, 221.99, 0.00",
+            "-1564.50, 66.00, 1188.50, 29.05, 0.00",
+            "-1549.50, 67.00, 1194.50, -19.98, 0.00"
+          ],
+          "traits": [
+            {
+              "trait": "hunterrandomwalk",
+              "args": {
+                "trapType": "BIRD_SNARE"
+              }
+            }
+          ],
+          "conditions": {
+            "conditions": [
+              ""
+            ],
+            "args": [],
+            "ors": [
+              false
+            ],
+            "negates": [
+              false
+            ]
+          },
+          "entityType": "ARMOR_STAND",
+          "equipment": {
+            "HEAD": "APPLE:44"
+          }
+        }
+      }
+    }
+  ],
+  "trees": {}
+}

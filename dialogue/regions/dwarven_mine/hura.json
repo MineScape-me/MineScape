@@ -1,0 +1,105 @@
+{
+  "id": "66f3b94a-ed57-432b-a819-18297c905115",
+  "offsetX": 0,
+  "offsetY": 1,
+  "zoom": 100,
+  "gridSize": 0,
+  "layers": [
+    {
+      "id": "e87aafd1-23fb-410f-8e1e-72d8d38fe686",
+      "type": "diagram-links",
+      "isSvg": true,
+      "transformed": true,
+      "models": {}
+    },
+    {
+      "id": "5fb939d8-7645-4371-a04b-64f64f202259",
+      "type": "diagram-nodes",
+      "isSvg": false,
+      "transformed": true,
+      "models": {
+        "db53c546-501a-4dc1-94cd-3c28256b4f59": {
+          "id": "db53c546-501a-4dc1-94cd-3c28256b4f59",
+          "type": "start",
+          "x": 50,
+          "y": 50,
+          "ports": [
+            {
+              "id": "c2af9154-d0df-412f-b0ea-c07ba0f17c87",
+              "type": "default",
+              "x": 98.578125,
+              "y": 55.5,
+              "name": "out-1780814428699",
+              "alignment": "right",
+              "parentNode": "db53c546-501a-4dc1-94cd-3c28256b4f59",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Start",
+          "color": "#16db26e6",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "c2af9154-d0df-412f-b0ea-c07ba0f17c87"
+          ]
+        },
+        "0e8f8e85-de03-47ed-a93f-9d37cefcea88": {
+          "id": "0e8f8e85-de03-47ed-a93f-9d37cefcea88",
+          "type": "npc",
+          "selected": false,
+          "x": 121,
+          "y": 47,
+          "ports": [
+            {
+              "id": "cc02de33-4d70-4a47-9086-e5ea1a8f5fcf",
+              "type": "default",
+              "x": 440.234375,
+              "y": 75,
+              "name": "out-1780263707610-77089",
+              "alignment": "right",
+              "parentNode": "0e8f8e85-de03-47ed-a93f-9d37cefcea88",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "&eHura",
+          "color": "#6e4b1e",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "cc02de33-4d70-4a47-9086-e5ea1a8f5fcf"
+          ],
+          "locations": [
+            "-49.53, 43.00, -369.05, 161.20, 2.70"
+          ],
+          "traits": [
+            {
+              "trait": "shoptrait",
+              "args": {
+                "shopID": "HurasCrossbowShop"
+              }
+            }
+          ],
+          "conditions": {
+            "conditions": [
+              ""
+            ],
+            "args": [],
+            "ors": [
+              false
+            ],
+            "negates": [
+              false
+            ]
+          },
+          "entityType": "ARMOR_STAND",
+          "equipment": {
+            "HEAD": "STONE_AXE:70"
+          }
+        }
+      }
+    }
+  ],
+  "trees": {}
+}

@@ -1,0 +1,113 @@
+{
+  "id": "dd185518-106a-4620-a928-a0fe220d245c",
+  "offsetX": 2,
+  "offsetY": -6,
+  "zoom": 100,
+  "gridSize": 0,
+  "layers": [
+    {
+      "id": "b6f7a3cb-c7f1-4503-8d67-554aa0097ad1",
+      "type": "diagram-links",
+      "isSvg": true,
+      "transformed": true,
+      "models": {}
+    },
+    {
+      "id": "8cefd16d-3bdb-43a2-8828-6842ba44eb63",
+      "type": "diagram-nodes",
+      "isSvg": false,
+      "transformed": true,
+      "models": {
+        "16d6b0a2-3e96-46fa-ab95-171def53d407": {
+          "id": "16d6b0a2-3e96-46fa-ab95-171def53d407",
+          "type": "start",
+          "x": 50,
+          "y": 50,
+          "ports": [
+            {
+              "id": "8e390472-7143-4a3a-9870-d4b747e1dd42",
+              "type": "default",
+              "x": 98.578125,
+              "y": 55.5,
+              "name": "out-1780878371335",
+              "alignment": "right",
+              "parentNode": "16d6b0a2-3e96-46fa-ab95-171def53d407",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Start",
+          "color": "#16db26e6",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "8e390472-7143-4a3a-9870-d4b747e1dd42"
+          ]
+        },
+        "98209fd2-8e3e-4abf-82a2-2f73f5c51708": {
+          "id": "98209fd2-8e3e-4abf-82a2-2f73f5c51708",
+          "type": "npc",
+          "selected": false,
+          "x": 170,
+          "y": 42,
+          "ports": [
+            {
+              "id": "645be08f-6138-46d3-8ba0-687e9fc3a593",
+              "type": "default",
+              "x": 513.703125,
+              "y": 70,
+              "name": "out-1780263707849-68801",
+              "alignment": "right",
+              "parentNode": "98209fd2-8e3e-4abf-82a2-2f73f5c51708",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "&eThessalia",
+          "color": "#6e4b1e",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "645be08f-6138-46d3-8ba0-687e9fc3a593"
+          ],
+          "locations": [
+            "560.26, 63.06, -407.81, 53.13, 0.00"
+          ],
+          "traits": [
+            {
+              "trait": "shoptrait",
+              "args": {
+                "shopID": "ThessaliasFineClothes"
+              }
+            },
+            {
+              "trait": "skintrait",
+              "args": {
+                "skin": "WOMAN"
+              }
+            },
+            {
+              "trait": "randomwalk",
+              "args": {}
+            }
+          ],
+          "conditions": {
+            "conditions": [
+              ""
+            ],
+            "args": [],
+            "ors": [
+              false
+            ],
+            "negates": [
+              false
+            ]
+          },
+          "entityType": "PLAYER",
+          "equipment": {}
+        }
+      }
+    }
+  ],
+  "trees": {}
+}

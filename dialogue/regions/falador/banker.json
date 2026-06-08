@@ -1,0 +1,321 @@
+{
+  "id": "dc72c274-3ba9-4d8c-a187-6c00fa347246",
+  "offsetX": -20,
+  "offsetY": 171,
+  "zoom": 100,
+  "gridSize": 0,
+  "layers": [
+    {
+      "id": "dceefbf3-7581-4ea4-9c23-65877df29a25",
+      "type": "diagram-links",
+      "isSvg": true,
+      "transformed": true,
+      "models": {}
+    },
+    {
+      "id": "92de8f89-7ebc-4ca1-8325-75f97b481556",
+      "type": "diagram-nodes",
+      "isSvg": false,
+      "transformed": true,
+      "models": {
+        "b02601c9-acee-4e7f-8250-37219b026e0b": {
+          "id": "b02601c9-acee-4e7f-8250-37219b026e0b",
+          "type": "start",
+          "x": 50,
+          "y": 50,
+          "ports": [
+            {
+              "id": "f57112a3-0c2d-4058-baed-eb9fedbe60ab",
+              "type": "default",
+              "x": 98.578125,
+              "y": 55.5,
+              "name": "out-1780876277616",
+              "alignment": "right",
+              "parentNode": "b02601c9-acee-4e7f-8250-37219b026e0b",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Start",
+          "color": "#16db26e6",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "f57112a3-0c2d-4058-baed-eb9fedbe60ab"
+          ]
+        },
+        "8f54cdd1-1ae0-449d-80b4-0fe1d81acf2f": {
+          "id": "8f54cdd1-1ae0-449d-80b4-0fe1d81acf2f",
+          "type": "npc",
+          "selected": false,
+          "x": 364,
+          "y": 104,
+          "ports": [
+            {
+              "id": "3c719cd3-fb77-4965-8fe7-01b1759b2190",
+              "type": "default",
+              "x": 661.109375,
+              "y": 132,
+              "name": "out-1780263707255-70728",
+              "alignment": "right",
+              "parentNode": "8f54cdd1-1ae0-449d-80b4-0fe1d81acf2f",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "&6Banker",
+          "color": "#6e4b1e",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "3c719cd3-fb77-4965-8fe7-01b1759b2190"
+          ],
+          "locations": [
+            "-219.98, 65.00, -253.70, 152.37, 0.00"
+          ],
+          "traits": [
+            {
+              "trait": "skintrait",
+              "args": {
+                "skin": "MALE_BANKER"
+              }
+            },
+            {
+              "trait": "banktrait",
+              "args": {}
+            },
+            {
+              "trait": "lookclose",
+              "args": {}
+            }
+          ],
+          "conditions": {
+            "conditions": [
+              ""
+            ],
+            "args": [],
+            "ors": [
+              false
+            ],
+            "negates": [
+              false
+            ]
+          },
+          "entityType": "PLAYER",
+          "equipment": {}
+        },
+        "007750b1-2d26-417b-aa96-7ff3f85c11b6": {
+          "id": "007750b1-2d26-417b-aa96-7ff3f85c11b6",
+          "type": "note",
+          "selected": false,
+          "x": 218,
+          "y": -9,
+          "ports": [],
+          "title": "Note",
+          "color": "#19e0e7e6",
+          "portsInOrder": [],
+          "portsOutOrder": [],
+          "text": "West Falador"
+        },
+        "3c5f6a2f-9f9c-41bc-b0e8-c641a8ac76cc": {
+          "id": "3c5f6a2f-9f9c-41bc-b0e8-c641a8ac76cc",
+          "type": "npc",
+          "selected": false,
+          "x": 759,
+          "y": 72,
+          "ports": [
+            {
+              "id": "d8d73322-04df-4f8a-b29a-3358365f4304",
+              "type": "default",
+              "x": 1061.140625,
+              "y": 100,
+              "name": "out-1780263707251-15245",
+              "alignment": "right",
+              "parentNode": "3c5f6a2f-9f9c-41bc-b0e8-c641a8ac76cc",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "&6Banker",
+          "color": "#6e4b1e",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "d8d73322-04df-4f8a-b29a-3358365f4304"
+          ],
+          "locations": [
+            "-5.65, 63.00, -204.70, 150.83, -3.60",
+            "-14.68, 63.00, -204.70, 176.94, -1.22"
+          ],
+          "traits": [
+            {
+              "trait": "skintrait",
+              "args": {
+                "skin": "FEMALE_BANKER"
+              }
+            },
+            {
+              "trait": "banktrait",
+              "args": {}
+            },
+            {
+              "trait": "lookclose",
+              "args": {}
+            }
+          ],
+          "conditions": {
+            "conditions": [
+              ""
+            ],
+            "args": [],
+            "ors": [
+              false
+            ],
+            "negates": [
+              false
+            ]
+          },
+          "entityType": "PLAYER",
+          "equipment": {}
+        },
+        "81d8bdca-d30d-4dcd-9b86-c925f78a5335": {
+          "id": "81d8bdca-d30d-4dcd-9b86-c925f78a5335",
+          "type": "note",
+          "selected": false,
+          "x": 833,
+          "y": 6,
+          "ports": [],
+          "title": "Note",
+          "color": "#19e0e7e6",
+          "portsInOrder": [],
+          "portsOutOrder": [],
+          "text": "East Falador"
+        },
+        "d98efb56-8768-4b80-abb5-eb96cd5c5a8a": {
+          "id": "d98efb56-8768-4b80-abb5-eb96cd5c5a8a",
+          "type": "npc",
+          "selected": false,
+          "x": 30,
+          "y": 98,
+          "ports": [
+            {
+              "id": "d2dc1714-1a73-4577-9f94-3b48e50ec204",
+              "type": "default",
+              "x": 332.140625,
+              "y": 126,
+              "name": "out-1780263707255-70728",
+              "alignment": "right",
+              "parentNode": "d98efb56-8768-4b80-abb5-eb96cd5c5a8a",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "&6Banker",
+          "color": "#6e4b1e",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "d2dc1714-1a73-4577-9f94-3b48e50ec204"
+          ],
+          "locations": [
+            "-222.92, 65.00, -253.70, 161.82, 0.00",
+            "-232.02, 65.00, -253.70, 189.52, 0.00"
+          ],
+          "traits": [
+            {
+              "trait": "skintrait",
+              "args": {
+                "skin": "FEMALE_BANKER"
+              }
+            },
+            {
+              "trait": "banktrait",
+              "args": {}
+            },
+            {
+              "trait": "lookclose",
+              "args": {}
+            }
+          ],
+          "conditions": {
+            "conditions": [
+              ""
+            ],
+            "args": [],
+            "ors": [
+              false
+            ],
+            "negates": [
+              false
+            ]
+          },
+          "entityType": "PLAYER",
+          "equipment": {}
+        },
+        "edb9a2d6-8555-4af5-989b-2f3ee6c794e9": {
+          "id": "edb9a2d6-8555-4af5-989b-2f3ee6c794e9",
+          "type": "npc",
+          "selected": false,
+          "x": 1126,
+          "y": 86,
+          "ports": [
+            {
+              "id": "144d1b11-b6b6-4c26-9989-326ab206511c",
+              "type": "default",
+              "x": 1423.109375,
+              "y": 114,
+              "name": "out-1780263707251-15245",
+              "alignment": "right",
+              "parentNode": "edb9a2d6-8555-4af5-989b-2f3ee6c794e9",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "&6Banker",
+          "color": "#6e4b1e",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "144d1b11-b6b6-4c26-9989-326ab206511c"
+          ],
+          "locations": [
+            "-8.70, 63.00, -204.70, 159.87, -0.35",
+            "-11.50, 63.00, -204.50, 167.89, 0.00",
+            "-17.50, 63.00, -204.50, 185.10, -1.21"
+          ],
+          "traits": [
+            {
+              "trait": "skintrait",
+              "args": {
+                "skin": "MALE_BANKER"
+              }
+            },
+            {
+              "trait": "banktrait",
+              "args": {}
+            },
+            {
+              "trait": "lookclose",
+              "args": {}
+            }
+          ],
+          "conditions": {
+            "conditions": [
+              ""
+            ],
+            "args": [],
+            "ors": [
+              false
+            ],
+            "negates": [
+              false
+            ]
+          },
+          "entityType": "PLAYER",
+          "equipment": {}
+        }
+      }
+    }
+  ],
+  "trees": {}
+}

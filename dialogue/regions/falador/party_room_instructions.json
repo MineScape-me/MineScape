@@ -1,0 +1,96 @@
+{
+  "id": "362be667-74c6-4a90-b7a4-fbe086496a7d",
+  "offsetX": 0,
+  "offsetY": 0,
+  "zoom": 100,
+  "gridSize": 0,
+  "layers": [
+    {
+      "id": "76ed67a6-4ca5-471e-8d1c-a9c73a15571c",
+      "type": "diagram-links",
+      "isSvg": true,
+      "transformed": true,
+      "models": {}
+    },
+    {
+      "id": "3a276d1f-8b1d-49f5-9fd5-95c7ad456fcd",
+      "type": "diagram-nodes",
+      "isSvg": false,
+      "transformed": true,
+      "models": {
+        "dfe7e46b-4df8-4628-89f4-d3f770c12e5d": {
+          "id": "dfe7e46b-4df8-4628-89f4-d3f770c12e5d",
+          "type": "start",
+          "x": 50,
+          "y": 50,
+          "ports": [
+            {
+              "id": "75a0a878-a63e-4a57-ada3-4c91a5e068a7",
+              "type": "default",
+              "x": 98.578125,
+              "y": 55.5,
+              "name": "out-1780802201606",
+              "alignment": "right",
+              "parentNode": "dfe7e46b-4df8-4628-89f4-d3f770c12e5d",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Start",
+          "color": "#16db26e6",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "75a0a878-a63e-4a57-ada3-4c91a5e068a7"
+          ]
+        },
+        "daaa4d24-938f-4016-bb52-c7e124bf9d50": {
+          "id": "daaa4d24-938f-4016-bb52-c7e124bf9d50",
+          "type": "npc",
+          "selected": true,
+          "x": 62,
+          "y": 92,
+          "ports": [
+            {
+              "id": "be667cf2-421d-4902-8151-ea47a413ce48",
+              "type": "default",
+              "x": 359.109375,
+              "y": 120,
+              "name": "out-1780263707230-41638",
+              "alignment": "right",
+              "parentNode": "daaa4d24-938f-4016-bb52-c7e124bf9d50",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "&ePull the lever with 1,000gp to start the event.",
+          "color": "#6e4b1e",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "be667cf2-421d-4902-8151-ea47a413ce48"
+          ],
+          "locations": [
+            "105.66, 63.88, -276.93, -97.93, 26.70"
+          ],
+          "traits": [],
+          "conditions": {
+            "conditions": [
+              ""
+            ],
+            "args": [],
+            "ors": [
+              false
+            ],
+            "negates": [
+              false
+            ]
+          },
+          "entityType": "ARMOR_STAND",
+          "equipment": {}
+        }
+      }
+    }
+  ],
+  "trees": {}
+}
