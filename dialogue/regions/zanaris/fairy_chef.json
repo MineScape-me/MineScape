@@ -1,7 +1,7 @@
 {
   "id": "7d5dfb18-374d-4217-aee0-4b01da6af6c0",
-  "offsetX": 0,
-  "offsetY": 0,
+  "offsetX": 267,
+  "offsetY": 427,
   "zoom": 100,
   "gridSize": 0,
   "layers": [
@@ -23,14 +23,14 @@
             {
               "id": "022dc3b2-d8c8-43cb-bc5f-ecd99d463a39",
               "type": "point",
-              "x": 213.296875,
-              "y": 63.5
+              "x": 186.078125,
+              "y": 62
             },
             {
               "id": "caedbe46-7c88-44db-9682-d4e10ed83f2b",
               "type": "point",
               "x": 289.5,
-              "y": 63.5
+              "y": 60.5
             }
           ],
           "labels": [],
@@ -56,8 +56,8 @@
             {
               "id": "e78e5954-7d1d-4c19-9b46-f81b4a942698",
               "type": "default",
-              "x": 205.796875,
-              "y": 56,
+              "x": 178.578125,
+              "y": 54.5,
               "name": "out-1654945582028",
               "alignment": "right",
               "parentNode": "e275c2fe-c2da-48a2-beb9-e130d1ea9551",
@@ -69,7 +69,7 @@
             }
           ],
           "title": "Start",
-          "color": "#16db26",
+          "color": "#16db26e6",
           "portsInOrder": [],
           "portsOutOrder": [
             "e78e5954-7d1d-4c19-9b46-f81b4a942698"
@@ -78,7 +78,7 @@
         "6ec3ad40-d2b0-441b-a4b2-0a0df0e4b5b5": {
           "id": "6ec3ad40-d2b0-441b-a4b2-0a0df0e4b5b5",
           "type": "dialogue",
-          "selected": true,
+          "selected": false,
           "x": 295,
           "y": 25,
           "ports": [
@@ -86,7 +86,7 @@
               "id": "7d8280b9-4963-4867-a45d-292f96982d66",
               "type": "default",
               "x": 282,
-              "y": 56,
+              "y": 53,
               "name": "in-1654945584014 ",
               "alignment": "left",
               "parentNode": "6ec3ad40-d2b0-441b-a4b2-0a0df0e4b5b5",
@@ -99,8 +99,8 @@
             {
               "id": "7eb93b19-84bb-48c6-8a88-ac196f4d25dc",
               "type": "default",
-              "x": 787.34375,
-              "y": 56,
+              "x": 709.453125,
+              "y": 53,
               "name": "out-1654945584014",
               "alignment": "right",
               "parentNode": "6ec3ad40-d2b0-441b-a4b2-0a0df0e4b5b5",
@@ -110,7 +110,7 @@
             }
           ],
           "title": "Fairy chef",
-          "color": "#dd341e",
+          "color": "#dd341ee6",
           "portsInOrder": [
             "7d8280b9-4963-4867-a45d-292f96982d66"
           ],
@@ -123,14 +123,14 @@
           "id": "20921563-8f3b-4528-bd90-84bbee06b18d",
           "type": "npc",
           "selected": false,
-          "x": 90,
-          "y": -263,
+          "x": 14,
+          "y": -311,
           "ports": [
             {
               "id": "7bf0b45f-af22-4e64-bbee-877ef051f6a0",
               "type": "default",
-              "x": 482,
-              "y": -235,
+              "x": 317.234375,
+              "y": -283,
               "name": "out-1780218322026-4495",
               "alignment": "right",
               "parentNode": "20921563-8f3b-4528-bd90-84bbee06b18d",
@@ -168,10 +168,11 @@
           },
           "entityType": "ARMOR_STAND",
           "equipment": {
-            "HEAD": "IRON_AXE"
+            "HEAD": "IRON_AXE:118"
           }
         }
       }
     }
-  ]
+  ],
+  "trees": {}
 }

@@ -1,7 +1,7 @@
 {
   "id": "8d36e0a9-ca38-470c-8845-fc322454a455",
-  "offsetX": 0,
-  "offsetY": 0,
+  "offsetX": 684,
+  "offsetY": 513,
   "zoom": 100,
   "gridSize": 0,
   "layers": [
@@ -23,14 +23,14 @@
             {
               "id": "bf9ee667-8944-42b9-8c20-035ae0d148f4",
               "type": "point",
-              "x": 199.296875,
-              "y": 54.5
+              "x": 172.078125,
+              "y": 53
             },
             {
               "id": "b753972a-9369-4229-b6ce-a0b0fe1bd944",
               "type": "point",
               "x": 248.5,
-              "y": 54.5
+              "y": 51.5
             }
           ],
           "labels": [],
@@ -56,8 +56,8 @@
             {
               "id": "b59144ba-1eb8-4962-b99a-fcf6681ef8e6",
               "type": "default",
-              "x": 191.796875,
-              "y": 47,
+              "x": 164.578125,
+              "y": 45.5,
               "name": "out-1656779766971",
               "alignment": "right",
               "parentNode": "d1ff4e1f-dd10-437a-949c-22af8396f6d7",
@@ -69,7 +69,7 @@
             }
           ],
           "title": "Start",
-          "color": "#16db26",
+          "color": "#16db26e6",
           "portsInOrder": [],
           "portsOutOrder": [
             "b59144ba-1eb8-4962-b99a-fcf6681ef8e6"
@@ -86,7 +86,7 @@
               "id": "c44e3288-0b99-4ed4-bb8a-0e06d9838c5d",
               "type": "default",
               "x": 241,
-              "y": 47,
+              "y": 44,
               "name": "in-1656779767701 ",
               "alignment": "left",
               "parentNode": "ad88941e-a87c-4173-a502-9baf758edc7e",
@@ -99,8 +99,8 @@
             {
               "id": "3538d35d-8bdb-4ca9-aa38-847279f2d443",
               "type": "default",
-              "x": 685.515625,
-              "y": 47,
+              "x": 675.15625,
+              "y": 44,
               "name": "out-1656779767701",
               "alignment": "right",
               "parentNode": "ad88941e-a87c-4173-a502-9baf758edc7e",
@@ -110,7 +110,7 @@
             }
           ],
           "title": "Action",
-          "color": "#3e077e",
+          "color": "#3e077ee6",
           "portsInOrder": [
             "c44e3288-0b99-4ed4-bb8a-0e06d9838c5d"
           ],
@@ -133,14 +133,14 @@
           "id": "95a70880-e0e1-40e0-8a32-dd1ed220c382",
           "type": "npc",
           "selected": false,
-          "x": 76,
-          "y": -272,
+          "x": -126,
+          "y": -265,
           "ports": [
             {
               "id": "05c033f1-2b5f-4651-ab17-a476a0aa06d7",
               "type": "default",
-              "x": 468,
-              "y": -244,
+              "x": 172.6875,
+              "y": -237,
               "name": "out-1780218321674-81464",
               "alignment": "right",
               "parentNode": "95a70880-e0e1-40e0-8a32-dd1ed220c382",
@@ -178,7 +178,7 @@
           },
           "entityType": "ARMOR_STAND",
           "equipment": {
-            "HEAD": "IRON_AXE"
+            "HEAD": "IRON_AXE:42"
           }
         }
       }

@@ -1,7 +1,7 @@
 {
   "id": "55f7f362-3f90-4cfa-93d2-c8566b6bcedf",
-  "offsetX": 2,
-  "offsetY": 0,
+  "offsetX": 187,
+  "offsetY": 236,
   "zoom": 100,
   "gridSize": 0,
   "layers": [
@@ -23,14 +23,14 @@
             {
               "id": "b409a3da-eb09-44ed-8191-41066c963aaa",
               "type": "point",
-              "x": 279.296875,
-              "y": 106.5
+              "x": 252.078125,
+              "y": 105
             },
             {
               "id": "4b4b70aa-c345-470f-a44f-b6a9d52a5773",
               "type": "point",
               "x": 339.5,
-              "y": 106.5
+              "y": 103.5
             }
           ],
           "labels": [],
@@ -51,14 +51,14 @@
             {
               "id": "29bee8c2-f9aa-4456-b9fc-fd472a887357",
               "type": "point",
-              "x": 756.890625,
-              "y": 106.5
+              "x": 693.546875,
+              "y": 103.5
             },
             {
               "id": "d26fb543-6ff7-4a89-8de5-fedd6578ad4d",
               "type": "point",
               "x": 341.5,
-              "y": 185.5
+              "y": 182.5
             }
           ],
           "labels": [],
@@ -79,14 +79,14 @@
             {
               "id": "5f3adb90-a982-4af4-a95d-11b5c4496801",
               "type": "point",
-              "x": 773.546875,
-              "y": 185.5
+              "x": 707.78125,
+              "y": 182.5
             },
             {
               "id": "17b5de39-f507-4084-84a6-c622605a20fb",
               "type": "point",
               "x": 338.5,
-              "y": 268.5
+              "y": 265.5
             }
           ],
           "labels": [],
@@ -107,14 +107,14 @@
             {
               "id": "6e48dd9c-cf13-411c-a167-2888654da40b",
               "type": "point",
-              "x": 777.875,
-              "y": 268.5
+              "x": 710.890625,
+              "y": 265.5
             },
             {
               "id": "6db5a50f-c027-403a-9c75-9e9f74f16fda",
               "type": "point",
               "x": 330.5,
-              "y": 329.5
+              "y": 326.5
             }
           ],
           "labels": [],
@@ -141,8 +141,8 @@
             {
               "id": "bcabe052-a45f-4fbe-9ae9-311ef5d96c4f",
               "type": "default",
-              "x": 271.796875,
-              "y": 99,
+              "x": 244.578125,
+              "y": 97.5,
               "name": "out-1654945845638",
               "alignment": "right",
               "parentNode": "12cf3db9-2816-4a74-8db3-5487223f20c8",
@@ -154,7 +154,7 @@
             }
           ],
           "title": "Start",
-          "color": "#16db26",
+          "color": "#16db26e6",
           "portsInOrder": [],
           "portsOutOrder": [
             "bcabe052-a45f-4fbe-9ae9-311ef5d96c4f"
@@ -171,7 +171,7 @@
               "id": "63cf8386-f2b0-431b-8916-92f9a32b755e",
               "type": "default",
               "x": 332,
-              "y": 99,
+              "y": 96,
               "name": "in-1654945846332 ",
               "alignment": "left",
               "parentNode": "47c98324-e002-4c34-8f6b-24a57d87eb88",
@@ -184,8 +184,8 @@
             {
               "id": "28ddbbbd-c844-4b24-8439-1225329ab202",
               "type": "default",
-              "x": 749.390625,
-              "y": 99,
+              "x": 686.046875,
+              "y": 96,
               "name": "out-1654945846332",
               "alignment": "right",
               "parentNode": "47c98324-e002-4c34-8f6b-24a57d87eb88",
@@ -197,7 +197,7 @@
             }
           ],
           "title": "<player>",
-          "color": "#dd341e",
+          "color": "#dd341ee6",
           "portsInOrder": [
             "63cf8386-f2b0-431b-8916-92f9a32b755e"
           ],
@@ -217,7 +217,7 @@
               "id": "1aee6321-dde1-49a1-a4c4-025c53eeb962",
               "type": "default",
               "x": 334,
-              "y": 178,
+              "y": 175,
               "name": "in-1654945846332 ",
               "alignment": "left",
               "parentNode": "3efafc86-eb99-4d80-8e9a-775389a9d848",
@@ -230,8 +230,8 @@
             {
               "id": "2fc5c86d-75c0-4b33-8742-606735ee75f8",
               "type": "default",
-              "x": 766.046875,
-              "y": 178,
+              "x": 700.28125,
+              "y": 175,
               "name": "out-1654945846332",
               "alignment": "right",
               "parentNode": "3efafc86-eb99-4d80-8e9a-775389a9d848",
@@ -243,7 +243,7 @@
             }
           ],
           "title": "Gatekeeper",
-          "color": "#dd341e",
+          "color": "#dd341ee6",
           "portsInOrder": [
             "1aee6321-dde1-49a1-a4c4-025c53eeb962"
           ],
@@ -263,7 +263,7 @@
               "id": "2a534d58-9332-4899-8fb5-63404377c251",
               "type": "default",
               "x": 331,
-              "y": 261,
+              "y": 258,
               "name": "in-1654945846332 ",
               "alignment": "left",
               "parentNode": "5066c8a0-245d-4a39-b0ad-e731dc6e5f92",
@@ -276,8 +276,8 @@
             {
               "id": "5a56bce2-c3a3-4039-9554-16b31780bdf1",
               "type": "default",
-              "x": 770.375,
-              "y": 261,
+              "x": 703.390625,
+              "y": 258,
               "name": "out-1654945846332",
               "alignment": "right",
               "parentNode": "5066c8a0-245d-4a39-b0ad-e731dc6e5f92",
@@ -289,7 +289,7 @@
             }
           ],
           "title": "<player>",
-          "color": "#dd341e",
+          "color": "#dd341ee6",
           "portsInOrder": [
             "2a534d58-9332-4899-8fb5-63404377c251"
           ],
@@ -309,7 +309,7 @@
               "id": "b324f07d-0bbf-4079-8bc3-71cf684c3bdf",
               "type": "default",
               "x": 323,
-              "y": 322,
+              "y": 319,
               "name": "in-1654945846332 ",
               "alignment": "left",
               "parentNode": "d05fdcce-9ce6-42ad-86a0-c4fcf8be80b5",
@@ -322,8 +322,8 @@
             {
               "id": "d270262e-646e-4d17-8092-b0c9ddf7908c",
               "type": "default",
-              "x": 784.359375,
-              "y": 322,
+              "x": 713.75,
+              "y": 319,
               "name": "out-1654945846332",
               "alignment": "right",
               "parentNode": "d05fdcce-9ce6-42ad-86a0-c4fcf8be80b5",
@@ -333,7 +333,7 @@
             }
           ],
           "title": "Gatekeeper",
-          "color": "#dd341e",
+          "color": "#dd341ee6",
           "portsInOrder": [
             "b324f07d-0bbf-4079-8bc3-71cf684c3bdf"
           ],
@@ -352,7 +352,7 @@
             {
               "id": "956eed9e-54f2-4066-a593-aabc6ad3d0f9",
               "type": "default",
-              "x": 548,
+              "x": 459.234375,
               "y": -244,
               "name": "out-1780218322093-45466",
               "alignment": "right",
@@ -393,10 +393,11 @@
           },
           "entityType": "ARMOR_STAND",
           "equipment": {
-            "HEAD": "IRON_AXE"
+            "HEAD": "IRON_AXE:126"
           }
         }
       }
     }
-  ]
+  ],
+  "trees": {}
 }

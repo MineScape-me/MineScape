@@ -584,6 +584,64 @@
           "equipment": {
             "HEAD": "apple:71"
           }
+        },
+        "7cb0200f-03d6-4f81-8e69-f5919b7caa36": {
+          "id": "7cb0200f-03d6-4f81-8e69-f5919b7caa36",
+          "type": "npc",
+          "selected": false,
+          "x": 262,
+          "y": -342,
+          "ports": [
+            {
+              "id": "51511873-c6f2-460e-833f-b9230ea3b331",
+              "type": "default",
+              "x": 687.703125,
+              "y": -314,
+              "name": "out-1780218322175-21872",
+              "alignment": "right",
+              "parentNode": "7cb0200f-03d6-4f81-8e69-f5919b7caa36",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Homunculus",
+          "color": "#6e4b1e",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "51511873-c6f2-460e-833f-b9230ea3b331"
+          ],
+          "locations": [
+            "-1099.56, 14.00, 149.58, -45.00, 0.00"
+          ],
+          "traits": [
+            {
+              "trait": "lookclose",
+              "args": {}
+            }
+          ],
+          "conditions": {
+            "conditions": [
+              "questStage"
+            ],
+            "args": [
+              [
+                "TOWER_OF_LIFE",
+                ">=",
+                "MEET_BASEMENT"
+              ]
+            ],
+            "ors": [
+              false
+            ],
+            "negates": [
+              false
+            ]
+          },
+          "entityType": "ARMOR_STAND",
+          "equipment": {
+            "HEAD": "apple:71"
+          }
         }
       }
     }
