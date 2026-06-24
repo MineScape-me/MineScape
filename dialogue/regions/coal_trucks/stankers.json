@@ -1,8 +1,8 @@
 {
   "id": "fa2e1443-e64d-40e1-bdb8-0b76e771be09",
-  "offsetX": -18.602488880112723,
-  "offsetY": 193.8887072092726,
-  "zoom": 86.11111195882158,
+  "offsetX": -3.2213654112958636,
+  "offsetY": 146.14461774762333,
+  "zoom": 87.77777862548825,
   "gridSize": 0,
   "layers": [
     {
@@ -255,34 +255,6 @@
               "type": "point",
               "x": 758.70310256999,
               "y": 317.32813597128074
-            }
-          ],
-          "labels": [],
-          "width": 3,
-          "color": "gray",
-          "curvyness": 50,
-          "selectedColor": "rgb(0,192,255)"
-        },
-        "88d269a1-83a5-488e-96c8-eedba323643c": {
-          "id": "88d269a1-83a5-488e-96c8-eedba323643c",
-          "type": "default",
-          "selected": false,
-          "source": "97e6b700-280c-4888-9a10-6d046bf98fce",
-          "sourcePort": "19c62263-9d39-4bb5-948a-04a225ff5d51",
-          "target": "90632994-47ac-4818-84f2-fadc25abe60e",
-          "targetPort": "674f9dd8-eab1-4dc7-8129-96be1e22dc93",
-          "points": [
-            {
-              "id": "46864f15-b61b-4100-96d7-f5553630395c",
-              "type": "point",
-              "x": 904.7343668834108,
-              "y": 317.32813597128074
-            },
-            {
-              "id": "7cb729fb-0221-4d37-8902-0406825799b7",
-              "type": "point",
-              "x": 758.70310256999,
-              "y": 380.3281353510848
             }
           ],
           "labels": [],
@@ -1032,9 +1004,7 @@
               "name": "out-1777914017091",
               "alignment": "right",
               "parentNode": "97e6b700-280c-4888-9a10-6d046bf98fce",
-              "links": [
-                "88d269a1-83a5-488e-96c8-eedba323643c"
-              ],
+              "links": [],
               "in": false,
               "label": "❯"
             }
@@ -1048,50 +1018,6 @@
             "19c62263-9d39-4bb5-948a-04a225ff5d51"
           ],
           "text": "No thank you."
-        },
-        "90632994-47ac-4818-84f2-fadc25abe60e": {
-          "id": "90632994-47ac-4818-84f2-fadc25abe60e",
-          "type": "dialogue",
-          "selected": false,
-          "x": 764.2105263036162,
-          "y": 344.84210469406,
-          "ports": [
-            {
-              "id": "674f9dd8-eab1-4dc7-8129-96be1e22dc93",
-              "type": "default",
-              "x": 751.2030908305669,
-              "y": 372.8281590514295,
-              "name": "in-1777914019491 ",
-              "alignment": "left",
-              "parentNode": "90632994-47ac-4818-84f2-fadc25abe60e",
-              "links": [
-                "88d269a1-83a5-488e-96c8-eedba323643c"
-              ],
-              "in": true,
-              "label": "❯"
-            },
-            {
-              "id": "80e5b78c-8e45-4d3a-bb0b-8fcab5677058",
-              "type": "default",
-              "x": 952.2968388509237,
-              "y": 372.8281590514295,
-              "name": "out-1777914019491",
-              "alignment": "right",
-              "parentNode": "90632994-47ac-4818-84f2-fadc25abe60e",
-              "links": [],
-              "in": false,
-              "label": "❯"
-            }
-          ],
-          "title": "Stankers",
-          "color": "#dd341ee6",
-          "portsInOrder": [
-            "674f9dd8-eab1-4dc7-8129-96be1e22dc93"
-          ],
-          "portsOutOrder": [
-            "80e5b78c-8e45-4d3a-bb0b-8fcab5677058"
-          ],
-          "text": "Hello bold adventurer."
         },
         "4a161ad0-d0e7-4bed-8c5e-4dc0a24788a0": {
           "id": "4a161ad0-d0e7-4bed-8c5e-4dc0a24788a0",
