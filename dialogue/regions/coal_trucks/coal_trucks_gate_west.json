@@ -1,7 +1,7 @@
 {
   "id": "5b9eed1e-8555-4a9d-8e11-8bbfdadc4f05",
-  "offsetX": 215,
-  "offsetY": 324,
+  "offsetX": 164,
+  "offsetY": 357,
   "zoom": 100,
   "gridSize": 0,
   "layers": [
@@ -51,14 +51,14 @@
             {
               "id": "5cf78535-dfd0-4726-9011-d934c2346a92",
               "type": "point",
-              "x": 645.578125,
+              "x": 635.40625,
               "y": 61.5
             },
             {
               "id": "536cdcb6-5bef-40bf-922c-12b92e5e7e6c",
               "type": "point",
               "x": 705.5,
-              "y": 62.5
+              "y": 60.5
             }
           ],
           "labels": [],
@@ -107,7 +107,7 @@
             {
               "id": "e9ef0a96-2973-43e6-b5dd-04b69113adf6",
               "type": "point",
-              "x": 647.71875,
+              "x": 637.546875,
               "y": 78.5
             },
             {
@@ -135,7 +135,7 @@
             {
               "id": "8b4aec73-7029-4f52-8889-7080413194c2",
               "type": "point",
-              "x": 645.171875,
+              "x": 638.453125,
               "y": 141.5
             },
             {
@@ -212,7 +212,7 @@
             {
               "id": "03785216-549a-4f0a-9540-6e24977a56b6",
               "type": "default",
-              "x": 638.078125,
+              "x": 627.90625,
               "y": 54,
               "name": "out-1779025986981",
               "alignment": "right",
@@ -226,7 +226,7 @@
             {
               "id": "8258c926-cfbb-400d-88aa-78937616f0bf",
               "type": "default",
-              "x": 640.21875,
+              "x": 630.046875,
               "y": 71,
               "name": "out-17790259869811",
               "alignment": "right",
@@ -253,7 +253,7 @@
             ],
             "args": [
               [
-                "INTERACTION_DIRECTION_NORTH"
+                "INTERACTION_DIRECTION_EAST"
               ]
             ],
             "ors": [
@@ -269,13 +269,13 @@
           "type": "action",
           "selected": false,
           "x": 711,
-          "y": 27,
+          "y": 25,
           "ports": [
             {
               "id": "2821a0a1-c0ed-4f80-bf3d-00183a621843",
               "type": "default",
               "x": 698,
-              "y": 55,
+              "y": 53,
               "name": "in-1779026043806 ",
               "alignment": "left",
               "parentNode": "a985f61c-57ae-4562-a476-4bfc36baa07c",
@@ -289,7 +289,7 @@
               "id": "c8383c0e-7778-450f-bae0-f321695e32fb",
               "type": "default",
               "x": 983.5625,
-              "y": 55,
+              "y": 53,
               "name": "out-1779026043806",
               "alignment": "right",
               "parentNode": "a985f61c-57ae-4562-a476-4bfc36baa07c",
@@ -312,7 +312,7 @@
             ],
             "args": [
               [
-                "SOUTH"
+                "WEST"
               ]
             ]
           }
@@ -347,8 +347,8 @@
           ],
           "locationType": "area",
           "locations": [
-            "-1361, 71, -519, 0, 0",
-            "-1359, 69, -519, 0, 0"
+            "-1398, 71, -577, 0, 0",
+            "-1398, 69, -575, 0, 0"
           ],
           "conditions": {
             "conditions": [
@@ -387,7 +387,7 @@
             {
               "id": "ce85173b-57c7-418b-941e-5903824560f1",
               "type": "default",
-              "x": 637.671875,
+              "x": 630.953125,
               "y": 134,
               "name": "out-1782931963598",
               "alignment": "right",
@@ -401,7 +401,7 @@
             {
               "id": "ab3d9cb4-12c5-47f7-8264-75530d354cfc",
               "type": "default",
-              "x": 639.8125,
+              "x": 633.09375,
               "y": 151,
               "name": "out-17829319635981",
               "alignment": "right",
@@ -426,7 +426,7 @@
             ],
             "args": [
               [
-                "INTERACTION_DIRECTION_SOUTH"
+                "INTERACTION_DIRECTION_WEST"
               ]
             ],
             "ors": [
@@ -485,7 +485,7 @@
             ],
             "args": [
               [
-                "NORTH"
+                "EAST"
               ]
             ]
           }
