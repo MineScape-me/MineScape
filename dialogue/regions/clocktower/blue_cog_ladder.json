@@ -1,0 +1,236 @@
+{
+  "id": "77a87359-4518-4609-a0b9-78a0c3ada2d6",
+  "offsetX": 476.24929582526397,
+  "offsetY": 629.8006935310368,
+  "zoom": 150.6172824964274,
+  "gridSize": 0,
+  "layers": [
+    {
+      "id": "b3267bdc-6911-49e8-bad0-3ea4860a7d1d",
+      "type": "diagram-links",
+      "isSvg": true,
+      "transformed": true,
+      "models": {
+        "7952752b-33ec-4e12-a896-18da771f9b8f": {
+          "id": "7952752b-33ec-4e12-a896-18da771f9b8f",
+          "type": "default",
+          "selected": false,
+          "source": "4b9c6bcb-0003-4f85-93b7-96117b31fcc2",
+          "sourcePort": "53eae294-954b-42c6-8f2e-828a4dd3a907",
+          "target": "a28939d4-ac2e-4faa-b4af-56c7052f1eda",
+          "targetPort": "09978bc0-516e-463c-8de2-1dc29ac2d272",
+          "points": [
+            {
+              "id": "0ab22867-895d-40a1-94a2-dcd52742c871",
+              "type": "point",
+              "x": 131.078120018498,
+              "y": -114.42185238497174
+            },
+            {
+              "id": "c7263c67-8153-42bc-bb4b-c8e56e9e25d3",
+              "type": "point",
+              "x": 237.79686754683615,
+              "y": -71.32809471472883
+            }
+          ],
+          "labels": [],
+          "width": 3,
+          "color": "gray",
+          "curvyness": 50,
+          "selectedColor": "rgb(0,192,255)"
+        },
+        "62a1da64-f7a5-4dbb-92c2-0a0c66011f20": {
+          "id": "62a1da64-f7a5-4dbb-92c2-0a0c66011f20",
+          "type": "default",
+          "selected": false,
+          "source": "0a186217-6f91-4b7e-b215-40ad92808b6c",
+          "sourcePort": "f96e7c46-67c5-4508-9a52-0578423b1de0",
+          "target": "a28939d4-ac2e-4faa-b4af-56c7052f1eda",
+          "targetPort": "09978bc0-516e-463c-8de2-1dc29ac2d272",
+          "points": [
+            {
+              "id": "9cd13dad-d7d5-4ed2-84a1-63bf2bc4a3fb",
+              "type": "point",
+              "x": 106.07811552467685,
+              "y": 63.000016073258095
+            },
+            {
+              "id": "697e7359-c7f0-4fb1-8a9d-99a72fece5c6",
+              "type": "point",
+              "x": 237.79686754683615,
+              "y": -71.32809471472883
+            }
+          ],
+          "labels": [],
+          "width": 3,
+          "color": "gray",
+          "curvyness": 50,
+          "selectedColor": "rgb(0,192,255)"
+        }
+      }
+    },
+    {
+      "id": "37a298e7-49e7-4a8f-ba03-0b902e68b6e8",
+      "type": "diagram-nodes",
+      "isSvg": false,
+      "transformed": true,
+      "models": {
+        "0a186217-6f91-4b7e-b215-40ad92808b6c": {
+          "id": "0a186217-6f91-4b7e-b215-40ad92808b6c",
+          "type": "start",
+          "x": 50,
+          "y": 50,
+          "ports": [
+            {
+              "id": "f96e7c46-67c5-4508-9a52-0578423b1de0",
+              "type": "default",
+              "x": 98.5781162026976,
+              "y": 55.50001675127884,
+              "name": "out-1784836690772",
+              "alignment": "right",
+              "parentNode": "0a186217-6f91-4b7e-b215-40ad92808b6c",
+              "links": [
+                "62a1da64-f7a5-4dbb-92c2-0a0c66011f20"
+              ],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Start",
+          "color": "#16db26e6",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "f96e7c46-67c5-4508-9a52-0578423b1de0"
+          ]
+        },
+        "4b9c6bcb-0003-4f85-93b7-96117b31fcc2": {
+          "id": "4b9c6bcb-0003-4f85-93b7-96117b31fcc2",
+          "type": "location",
+          "selected": false,
+          "x": -69.53436681960169,
+          "y": -149.9345887626887,
+          "ports": [
+            {
+              "id": "53eae294-954b-42c6-8f2e-828a4dd3a907",
+              "type": "default",
+              "x": 123.57810043484783,
+              "y": -121.92187196862191,
+              "name": "out-1784836697159",
+              "alignment": "right",
+              "parentNode": "4b9c6bcb-0003-4f85-93b7-96117b31fcc2",
+              "links": [
+                "7952752b-33ec-4e12-a896-18da771f9b8f"
+              ],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Location",
+          "color": "#3a7bdd",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "53eae294-954b-42c6-8f2e-828a4dd3a907"
+          ],
+          "locationType": "area",
+          "locations": [
+            "-1346, 53, 159, 0, 0",
+            "-1345, 55, 159, 0, 0"
+          ],
+          "conditions": {
+            "conditions": [
+              ""
+            ],
+            "args": [],
+            "ors": [
+              false
+            ],
+            "negates": [
+              false
+            ]
+          }
+        },
+        "6f9187d7-2207-4062-a0f0-0f69e253e1f9": {
+          "id": "6f9187d7-2207-4062-a0f0-0f69e253e1f9",
+          "type": "note",
+          "selected": false,
+          "x": 277.01539229245805,
+          "y": -220.24154378254042,
+          "ports": [],
+          "title": "Note",
+          "color": "#19e0e7e6",
+          "portsInOrder": [],
+          "portsOutOrder": [],
+          "text": "blue_cog_ladder\nExit Only!"
+        },
+        "a28939d4-ac2e-4faa-b4af-56c7052f1eda": {
+          "id": "a28939d4-ac2e-4faa-b4af-56c7052f1eda",
+          "type": "action",
+          "selected": false,
+          "x": 243.3017141993784,
+          "y": -106.83039101770709,
+          "ports": [
+            {
+              "id": "09978bc0-516e-463c-8de2-1dc29ac2d272",
+              "type": "default",
+              "x": 230.29688848652782,
+              "y": -78.82809403670808,
+              "name": "in-1784836783103 ",
+              "alignment": "left",
+              "parentNode": "a28939d4-ac2e-4faa-b4af-56c7052f1eda",
+              "links": [
+                "7952752b-33ec-4e12-a896-18da771f9b8f",
+                "62a1da64-f7a5-4dbb-92c2-0a0c66011f20"
+              ],
+              "in": true,
+              "label": "❯"
+            },
+            {
+              "id": "14cfc48c-6e80-4790-9396-d2ef60aa92fd",
+              "type": "default",
+              "x": 633.4687223531635,
+              "y": -78.82809403670808,
+              "name": "out-1784836783103",
+              "alignment": "right",
+              "parentNode": "a28939d4-ac2e-4faa-b4af-56c7052f1eda",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Action",
+          "color": "#3e077ee6",
+          "portsInOrder": [
+            "09978bc0-516e-463c-8de2-1dc29ac2d272"
+          ],
+          "portsOutOrder": [
+            "14cfc48c-6e80-4790-9396-d2ef60aa92fd"
+          ],
+          "actions": {
+            "actions": [
+              "teleport"
+            ],
+            "args": [
+              [
+                "CLOCK_TOWER_COG_BLUE_LADDER_TOP"
+              ]
+            ]
+          }
+        },
+        "95d5b4e6-04de-4ffe-88c5-22070873728b": {
+          "id": "95d5b4e6-04de-4ffe-88c5-22070873728b",
+          "type": "note",
+          "selected": false,
+          "x": 257.4410437819002,
+          "y": -24.433247580276685,
+          "ports": [],
+          "title": "Note",
+          "color": "#19e0e7e6",
+          "portsInOrder": [],
+          "portsOutOrder": [],
+          "text": "teleports out of dungeon"
+        }
+      }
+    }
+  ],
+  "trees": {}
+}
