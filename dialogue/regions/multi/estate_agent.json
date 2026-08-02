@@ -272,15 +272,15 @@
         "fb87a83c-a23d-4d84-93ed-391098222d6d": {
           "id": "fb87a83c-a23d-4d84-93ed-391098222d6d",
           "type": "npc",
-          "selected": false,
-          "x": 76,
-          "y": -285,
+          "selected": true,
+          "x": -15,
+          "y": -352,
           "ports": [
             {
               "id": "ad629b92-475b-4cc2-a0f5-9104f639bf0d",
               "type": "default",
-              "x": 373.109375,
-              "y": -257,
+              "x": 297,
+              "y": -324,
               "name": "out-1780218322012-83319",
               "alignment": "right",
               "parentNode": "fb87a83c-a23d-4d84-93ed-391098222d6d",
@@ -326,7 +326,9 @@
             ]
           },
           "entityType": "PLAYER",
-          "equipment": {}
+          "equipment": {
+            "HAND": "BRIEFCASE"
+          }
         }
       }
     }
