@@ -1,7 +1,7 @@
 {
   "id": "7e432b2f-e973-4f5d-9833-6431072026f0",
-  "offsetX": 1,
-  "offsetY": 1,
+  "offsetX": 464,
+  "offsetY": 446,
   "zoom": 100,
   "gridSize": 0,
   "layers": [
@@ -23,14 +23,14 @@
             {
               "id": "6edf6486-b827-4894-b6b2-5bcbfc78942c",
               "type": "point",
-              "x": 186.296875,
-              "y": 117.5
+              "x": 159.078125,
+              "y": 116
             },
             {
               "id": "f30ea8e2-494a-40ab-b47e-c20b7f2ab5ad",
               "type": "point",
               "x": 258.5,
-              "y": 117.5
+              "y": 114.5
             }
           ],
           "labels": [],
@@ -51,8 +51,8 @@
             {
               "id": "8b498808-462a-4931-89c1-c40b800b5d2f",
               "type": "point",
-              "x": 666.21875,
-              "y": 117.5
+              "x": 682.84375,
+              "y": 114.5
             },
             {
               "id": "bce7c8d2-604c-4a48-a9e9-ca124a0a39af",
@@ -79,8 +79,8 @@
             {
               "id": "f7b81039-5256-42f2-8d48-495ea8a47c5b",
               "type": "point",
-              "x": 668.359375,
-              "y": 134.5
+              "x": 684.984375,
+              "y": 131.5
             },
             {
               "id": "a412de7d-7621-402c-8187-15f2282293f4",
@@ -112,8 +112,8 @@
             {
               "id": "865edea6-a8a5-49de-89f7-20e1553a9378",
               "type": "default",
-              "x": 178.796875,
-              "y": 110,
+              "x": 151.578125,
+              "y": 108.5,
               "name": "out-1657337420906",
               "alignment": "right",
               "parentNode": "3fcbb880-2bc5-4362-8c03-965576669b7f",
@@ -142,7 +142,7 @@
               "id": "743bed67-b2a8-4c61-afd4-0a66e191a3aa",
               "type": "default",
               "x": 251,
-              "y": 110,
+              "y": 107,
               "name": "in-1657337421705 ",
               "alignment": "left",
               "parentNode": "6dafbad8-30df-464a-948c-2fb716c70500",
@@ -155,8 +155,8 @@
             {
               "id": "27b9997d-8770-465b-b8ae-605086e8152e",
               "type": "default",
-              "x": 658.71875,
-              "y": 110,
+              "x": 675.34375,
+              "y": 107,
               "name": "out-1657337421705",
               "alignment": "right",
               "parentNode": "6dafbad8-30df-464a-948c-2fb716c70500",
@@ -169,8 +169,8 @@
             {
               "id": "c9f97183-afd8-48a0-aa01-f653d4eee2fd",
               "type": "default",
-              "x": 660.859375,
-              "y": 127,
+              "x": 677.484375,
+              "y": 124,
               "name": "out-16573374217051",
               "alignment": "right",
               "parentNode": "6dafbad8-30df-464a-948c-2fb716c70500",
@@ -198,6 +198,12 @@
               [
                 "CONSTRUCTION_HAS_HOME"
               ]
+            ],
+            "ors": [
+              false
+            ],
+            "negates": [
+              false
             ]
           }
         },
@@ -235,7 +241,7 @@
         "e8c7ce0a-fe22-4f9d-8ecf-cd64612dd6bc": {
           "id": "e8c7ce0a-fe22-4f9d-8ecf-cd64612dd6bc",
           "type": "tree",
-          "selected": true,
+          "selected": false,
           "x": 713,
           "y": 121,
           "ports": [
@@ -267,14 +273,14 @@
           "id": "fb87a83c-a23d-4d84-93ed-391098222d6d",
           "type": "npc",
           "selected": false,
-          "x": 63,
-          "y": -209,
+          "x": 76,
+          "y": -285,
           "ports": [
             {
               "id": "ad629b92-475b-4cc2-a0f5-9104f639bf0d",
               "type": "default",
-              "x": 455,
-              "y": -181,
+              "x": 373.109375,
+              "y": -257,
               "name": "out-1780218322012-83319",
               "alignment": "right",
               "parentNode": "fb87a83c-a23d-4d84-93ed-391098222d6d",
@@ -290,7 +296,10 @@
             "ad629b92-475b-4cc2-a0f5-9104f639bf0d"
           ],
           "locations": [
-            "-1141.49, 69.06, -28.51, 135.00, 0.00"
+            "-1141.49, 69.06, -28.51, 135.00, 0.00",
+            "663.12, 63.06, -576.65, 218.66, 0.00",
+            "-114, 64.06, -246, 0, 0",
+            "-848, 66, -659, 0, 0"
           ],
           "traits": [
             {
@@ -1099,6 +1108,12 @@
                     ""
                   ],
                   "args": [],
+                  "ors": [
+                    false
+                  ],
+                  "negates": [
+                    false
+                  ],
                   "text": "How can I get a house?"
                 },
                 {
@@ -1106,6 +1121,12 @@
                     ""
                   ],
                   "args": [],
+                  "ors": [
+                    false
+                  ],
+                  "negates": [
+                    false
+                  ],
                   "text": "Tell me about houses!"
                 }
               ]
@@ -1633,6 +1654,12 @@
                     ""
                   ],
                   "args": [],
+                  "ors": [
+                    false
+                  ],
+                  "negates": [
+                    false
+                  ],
                   "text": "Yes please!"
                 },
                 {
@@ -1640,6 +1667,12 @@
                     ""
                   ],
                   "args": [],
+                  "ors": [
+                    false
+                  ],
+                  "negates": [
+                    false
+                  ],
                   "text": "No thanks."
                 }
               ]
@@ -1849,6 +1882,12 @@
                     "1,000",
                     "false"
                   ]
+                ],
+                "ors": [
+                  false
+                ],
+                "negates": [
+                  false
                 ]
               }
             },
@@ -2980,6 +3019,12 @@
                     ""
                   ],
                   "args": [],
+                  "ors": [
+                    false
+                  ],
+                  "negates": [
+                    false
+                  ],
                   "text": "Can you move my house please?"
                 },
                 {
@@ -2987,6 +3032,12 @@
                     ""
                   ],
                   "args": [],
+                  "ors": [
+                    false
+                  ],
+                  "negates": [
+                    false
+                  ],
                   "text": "Can you redecorate my house please?"
                 },
                 {
@@ -2994,6 +3045,12 @@
                     ""
                   ],
                   "args": [],
+                  "ors": [
+                    false
+                  ],
+                  "negates": [
+                    false
+                  ],
                   "text": "Could I have a Construction guidebook?"
                 },
                 {
@@ -3001,6 +3058,12 @@
                     ""
                   ],
                   "args": [],
+                  "ors": [
+                    false
+                  ],
+                  "negates": [
+                    false
+                  ],
                   "text": "Tell me about houses!"
                 },
                 {
@@ -3008,6 +3071,12 @@
                     ""
                   ],
                   "args": [],
+                  "ors": [
+                    false
+                  ],
+                  "negates": [
+                    false
+                  ],
                   "text": "Tell me about that skillcape you're wearing."
                 }
               ]
@@ -3729,6 +3798,12 @@
                     "1",
                     "false"
                   ]
+                ],
+                "ors": [
+                  false
+                ],
+                "negates": [
+                  false
                 ]
               }
             },
