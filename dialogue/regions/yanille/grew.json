@@ -1,7 +1,7 @@
 {
   "id": "98a25be4-0cc6-432b-8182-f03a28c44325",
-  "offsetX": 0,
-  "offsetY": 0,
+  "offsetX": 308,
+  "offsetY": 345,
   "zoom": 100,
   "gridSize": 0,
   "layers": [
@@ -23,14 +23,14 @@
             {
               "id": "aa92c429-b013-4842-8e97-bbb7f0e4581a",
               "type": "point",
-              "x": 133.296875,
-              "y": 64.5
+              "x": 106.078125,
+              "y": 63
             },
             {
               "id": "09f54ffe-800d-428a-a841-dc167f05180e",
               "type": "point",
               "x": 182.5,
-              "y": 64.5
+              "y": 61.5
             }
           ],
           "labels": [],
@@ -56,8 +56,8 @@
             {
               "id": "a1a40b22-59c5-417e-bfab-3edf70fa4bdb",
               "type": "default",
-              "x": 125.796875,
-              "y": 57,
+              "x": 98.578125,
+              "y": 55.5,
               "name": "out-1680309921703",
               "alignment": "right",
               "parentNode": "107e6732-a651-4c79-b57e-4ada16080e7c",
@@ -78,7 +78,7 @@
         "ed96eb30-d413-4dfd-9114-87f4583c8863": {
           "id": "ed96eb30-d413-4dfd-9114-87f4583c8863",
           "type": "action",
-          "selected": true,
+          "selected": false,
           "x": 188,
           "y": 26,
           "ports": [
@@ -86,7 +86,7 @@
               "id": "234296d8-0cec-474e-9dc1-070277ab73f2",
               "type": "default",
               "x": 175,
-              "y": 57,
+              "y": 54,
               "name": "in-1680309940544 ",
               "alignment": "left",
               "parentNode": "ed96eb30-d413-4dfd-9114-87f4583c8863",
@@ -99,8 +99,8 @@
             {
               "id": "07401f00-eb74-4f2c-bbdd-31d5719bae70",
               "type": "default",
-              "x": 714.0625,
-              "y": 57,
+              "x": 647.984375,
+              "y": 54,
               "name": "out-1680309940544",
               "alignment": "right",
               "parentNode": "ed96eb30-d413-4dfd-9114-87f4583c8863",
@@ -138,7 +138,7 @@
             {
               "id": "d459cce1-ef83-4209-a35a-fcacb43c0f23",
               "type": "default",
-              "x": 402,
+              "x": 308.6875,
               "y": -234,
               "name": "out-1780218322121-75865",
               "alignment": "right",
@@ -177,7 +177,7 @@
           },
           "entityType": "ARMOR_STAND",
           "equipment": {
-            "HEAD": "APPLE"
+            "HEAD": "APPLE:16"
           }
         }
       }
