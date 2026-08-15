@@ -1,7 +1,7 @@
 {
   "id": "88cfd580-5261-4e3a-86b8-f3ceaba0f544",
-  "offsetX": 774,
-  "offsetY": 538,
+  "offsetX": 644,
+  "offsetY": 507,
   "zoom": 100,
   "gridSize": 0,
   "layers": [
@@ -472,15 +472,15 @@
         "6728e3e9-6b7b-4f8b-8c5d-0b22903437ba": {
           "id": "6728e3e9-6b7b-4f8b-8c5d-0b22903437ba",
           "type": "npc",
-          "selected": false,
-          "x": -296,
-          "y": -294,
+          "selected": true,
+          "x": -371,
+          "y": -348,
           "ports": [
             {
               "id": "c40bc0a3-e8f3-459e-8568-cec56fc600f0",
               "type": "default",
-              "x": 140.703125,
-              "y": -266,
+              "x": 65.703125,
+              "y": -320,
               "name": "out-1780218322009-45543",
               "alignment": "right",
               "parentNode": "6728e3e9-6b7b-4f8b-8c5d-0b22903437ba",
@@ -524,8 +524,70 @@
           },
           "entityType": "ARMOR_STAND",
           "equipment": {
-            "HEAD": "STONE_AXE:10"
+            "HEAD": "IRON_AXE:54"
           }
+        },
+        "9e5a1fbe-1537-46d1-9e81-d15cce0655a1": {
+          "id": "9e5a1fbe-1537-46d1-9e81-d15cce0655a1",
+          "type": "npc",
+          "selected": false,
+          "x": 149,
+          "y": -455,
+          "ports": [
+            {
+              "id": "bdb0c56d-0f3b-4388-bfaf-9a78f47d216e",
+              "type": "default",
+              "x": 591.828125,
+              "y": -427,
+              "name": "out-1780218322009-45543",
+              "alignment": "right",
+              "parentNode": "9e5a1fbe-1537-46d1-9e81-d15cce0655a1",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Ernest",
+          "color": "#6e4b1e",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "bdb0c56d-0f3b-4388-bfaf-9a78f47d216e"
+          ],
+          "locations": [
+            "275.38, 84.00, -237.90, -36.87, 0.00"
+          ],
+          "traits": [
+            {
+              "trait": "randomwalk",
+              "args": {}
+            },
+            {
+              "trait": "skintrait",
+              "args": {
+                "skin": "MORGAN"
+              }
+            }
+          ],
+          "conditions": {
+            "conditions": [
+              "questStage"
+            ],
+            "args": [
+              [
+                "ERNEST_THE_CHICKEN",
+                ">=",
+                "TALK_ERNEST"
+              ]
+            ],
+            "ors": [
+              false
+            ],
+            "negates": [
+              false
+            ]
+          },
+          "entityType": "PLAYER",
+          "equipment": {}
         }
       }
     }
