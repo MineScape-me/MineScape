@@ -1,37 +1,37 @@
 {
-  "id": "c5313a3f-4c3f-49e4-8218-1c55a9333b6d",
-  "offsetX": 123,
-  "offsetY": 197,
-  "zoom": 100,
+  "id": "58666b9d-40e6-474f-9633-405c4c37def4",
+  "offsetX": 0,
+  "offsetY": 0,
+  "zoom": 75,
   "gridSize": 0,
   "layers": [
     {
-      "id": "2424363f-5801-4828-bb13-c537d5ebe17e",
+      "id": "a453aaa1-0301-4c1e-b150-f179bd8d5a68",
       "type": "diagram-links",
       "isSvg": true,
       "transformed": true,
       "models": {}
     },
     {
-      "id": "26ef08db-b8e1-418c-a47e-be783a29c971",
+      "id": "abaf9e5f-37e8-4885-a504-752a69d9cdd1",
       "type": "diagram-nodes",
       "isSvg": false,
       "transformed": true,
       "models": {
-        "a15b1b6d-b7b4-444f-b4eb-d0473dc9514b": {
-          "id": "a15b1b6d-b7b4-444f-b4eb-d0473dc9514b",
+        "795a4324-c8ba-45fd-9c27-375f5dc112a6": {
+          "id": "795a4324-c8ba-45fd-9c27-375f5dc112a6",
           "type": "start",
           "x": 50,
           "y": 50,
           "ports": [
             {
-              "id": "52e586cc-1e84-4f00-bf55-a4469d17c2dc",
+              "id": "0236102a-d893-4c96-8653-aee610f7c1cf",
               "type": "default",
-              "x": 98.578125,
+              "x": 167,
               "y": 55.5,
-              "name": "out-1780802275935",
+              "name": "out-1780263662442-52286",
               "alignment": "right",
-              "parentNode": "a15b1b6d-b7b4-444f-b4eb-d0473dc9514b",
+              "parentNode": "795a4324-c8ba-45fd-9c27-375f5dc112a6",
               "links": [],
               "in": false,
               "label": "❯"
@@ -41,47 +41,41 @@
           "color": "#16db26e6",
           "portsInOrder": [],
           "portsOutOrder": [
-            "52e586cc-1e84-4f00-bf55-a4469d17c2dc"
+            "0236102a-d893-4c96-8653-aee610f7c1cf"
           ]
         },
-        "eefa561c-c3ad-46ef-9e0b-ceb2759e0ebd": {
-          "id": "eefa561c-c3ad-46ef-9e0b-ceb2759e0ebd",
+        "7b54e3b7-3914-4f5b-90b6-039f44f5adae": {
+          "id": "7b54e3b7-3914-4f5b-90b6-039f44f5adae",
           "type": "npc",
-          "selected": true,
-          "x": 168,
-          "y": 22,
+          "selected": false,
+          "x": 10,
+          "y": -262,
           "ports": [
             {
-              "id": "836d050b-0c93-4a44-a2e4-2e204d6eec29",
+              "id": "f4f88502-ebd7-46d9-a65d-ba0000f8904b",
               "type": "default",
-              "x": 470.140625,
-              "y": 50,
-              "name": "out-1780263707242-83803",
+              "x": 402,
+              "y": -234,
+              "name": "out-1780263662442-80506",
               "alignment": "right",
-              "parentNode": "eefa561c-c3ad-46ef-9e0b-ceb2759e0ebd",
+              "parentNode": "7b54e3b7-3914-4f5b-90b6-039f44f5adae",
               "links": [],
               "in": false,
               "label": "❯"
             }
           ],
-          "title": "Bank Manager",
+          "title": "Golrie",
           "color": "#6e4b1e",
           "portsInOrder": [],
           "portsOutOrder": [
-            "836d050b-0c93-4a44-a2e4-2e204d6eec29"
+            "f4f88502-ebd7-46d9-a65d-ba0000f8904b"
           ],
           "locations": [
-            "4.48, 63.00, -202.49, 103.91, 0.00"
+            "-1517.42, 55.00, 307.12, 128.66, 0.00"
           ],
           "traits": [
             {
-              "trait": "skintrait",
-              "args": {
-                "skin": "FEMALE_BANKER"
-              }
-            },
-            {
-              "trait": "lookclose",
+              "trait": "randomwalk",
               "args": {}
             }
           ],
@@ -97,8 +91,10 @@
               false
             ]
           },
-          "entityType": "PLAYER",
-          "equipment": {}
+          "entityType": "ARMOR_STAND",
+          "equipment": {
+            "HEAD": "IRON_AXE"
+          }
         }
       }
     }

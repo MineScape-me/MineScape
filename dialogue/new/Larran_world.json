@@ -1,0 +1,103 @@
+{
+  "id": "cdd057e2-6f75-4971-b44d-e9a23482b59b",
+  "offsetX": 0,
+  "offsetY": 0,
+  "zoom": 75,
+  "gridSize": 0,
+  "layers": [
+    {
+      "id": "e234dd20-1f4c-4e02-af9d-65b9c2bd4b7c",
+      "type": "diagram-links",
+      "isSvg": true,
+      "transformed": true,
+      "models": {}
+    },
+    {
+      "id": "23de301a-456c-45fa-91d4-d129e0c094a2",
+      "type": "diagram-nodes",
+      "isSvg": false,
+      "transformed": true,
+      "models": {
+        "6fb7ca7e-5f65-4272-9c63-54854182051c": {
+          "id": "6fb7ca7e-5f65-4272-9c63-54854182051c",
+          "type": "start",
+          "x": 50,
+          "y": 50,
+          "ports": [
+            {
+              "id": "87023e26-dfd2-4c4e-8f17-b5c13e5c04b8",
+              "type": "default",
+              "x": 167,
+              "y": 55.5,
+              "name": "out-1780263662448-56111",
+              "alignment": "right",
+              "parentNode": "6fb7ca7e-5f65-4272-9c63-54854182051c",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Start",
+          "color": "#16db26e6",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "87023e26-dfd2-4c4e-8f17-b5c13e5c04b8"
+          ]
+        },
+        "7be4596d-d200-4abb-b1d1-809a0248f1ee": {
+          "id": "7be4596d-d200-4abb-b1d1-809a0248f1ee",
+          "type": "npc",
+          "selected": false,
+          "x": 10,
+          "y": -262,
+          "ports": [
+            {
+              "id": "88e7afde-d6ba-4997-be79-4a11d997c1ef",
+              "type": "default",
+              "x": 402,
+              "y": -234,
+              "name": "out-1780263662448-59512",
+              "alignment": "right",
+              "parentNode": "7be4596d-d200-4abb-b1d1-809a0248f1ee",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Larran",
+          "color": "#6e4b1e",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "88e7afde-d6ba-4997-be79-4a11d997c1ef"
+          ],
+          "locations": [
+            "786.49, 73.00, -1134.58, -59.04, 0.00"
+          ],
+          "traits": [
+            {
+              "trait": "randomwalk",
+              "args": {}
+            }
+          ],
+          "conditions": {
+            "conditions": [
+              ""
+            ],
+            "args": [],
+            "ors": [
+              false
+            ],
+            "negates": [
+              false
+            ]
+          },
+          "entityType": "ARMOR_STAND",
+          "equipment": {
+            "HEAD": "APPLE"
+          }
+        }
+      }
+    }
+  ],
+  "trees": {}
+}

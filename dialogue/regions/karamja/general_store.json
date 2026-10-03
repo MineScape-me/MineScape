@@ -47,7 +47,7 @@
         "154c2e32-0c19-4002-990e-710092e3fae7": {
           "id": "154c2e32-0c19-4002-990e-710092e3fae7",
           "type": "npc",
-          "selected": false,
+          "selected": true,
           "x": 124,
           "y": 62,
           "ports": [
@@ -81,14 +81,14 @@
               }
             },
             {
-              "trait": "lookclose",
-              "args": {}
-            },
-            {
               "trait": "skintrait",
               "args": {
                 "skin": "SHOPKEEPER"
               }
+            },
+            {
+              "trait": "randomwalk",
+              "args": {}
             }
           ],
           "conditions": {

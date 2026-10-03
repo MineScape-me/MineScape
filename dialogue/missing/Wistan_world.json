@@ -1,0 +1,126 @@
+{
+  "id": "387cd8c2-33cb-4baf-85a3-e0dcc1c4a3f3",
+  "offsetX": 0,
+  "offsetY": 0,
+  "zoom": 75,
+  "gridSize": 0,
+  "layers": [
+    {
+      "id": "cfbeb2dc-ff0d-4bcc-974f-05c9520ede25",
+      "type": "diagram-links",
+      "isSvg": true,
+      "transformed": true,
+      "models": {}
+    },
+    {
+      "id": "5601d490-30b7-4928-a466-7060de9cc6ee",
+      "type": "diagram-nodes",
+      "isSvg": false,
+      "transformed": true,
+      "models": {
+        "cc227895-e428-470b-8cf7-266f28f4f152": {
+          "id": "cc227895-e428-470b-8cf7-266f28f4f152",
+          "type": "start",
+          "x": 50,
+          "y": 50,
+          "ports": [
+            {
+              "id": "8da27446-c7dc-43a3-87a0-452ae249f426",
+              "type": "default",
+              "x": 167,
+              "y": 55.5,
+              "name": "out-1780263707902-39476",
+              "alignment": "right",
+              "parentNode": "cc227895-e428-470b-8cf7-266f28f4f152",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Start",
+          "color": "#16db26e6",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "8da27446-c7dc-43a3-87a0-452ae249f426"
+          ]
+        },
+        "897e7a05-72d3-4281-be77-ee8619ec6b15": {
+          "id": "897e7a05-72d3-4281-be77-ee8619ec6b15",
+          "type": "npc",
+          "selected": false,
+          "x": 10,
+          "y": -288,
+          "ports": [
+            {
+              "id": "4a349331-4528-48ba-8a23-734af6f495ec",
+              "type": "default",
+              "x": 402,
+              "y": -260,
+              "name": "out-1780263707902-86261",
+              "alignment": "right",
+              "parentNode": "897e7a05-72d3-4281-be77-ee8619ec6b15",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Wistan",
+          "color": "#6e4b1e",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "4a349331-4528-48ba-8a23-734af6f495ec"
+          ],
+          "locations": [
+            "-268.60, 66.06, -790.95, 135.00, 0.00"
+          ],
+          "traits": [
+            {
+              "trait": "shoptrait",
+              "args": {
+                "shopID": "BurthopeGeneralStore"
+              }
+            },
+            {
+              "trait": "skintrait",
+              "args": {
+                "skin": "SHOPKEEPER"
+              }
+            },
+            {
+              "trait": "randomwalk",
+              "args": {}
+            }
+          ],
+          "conditions": {
+            "conditions": [
+              ""
+            ],
+            "args": [],
+            "ors": [
+              false
+            ],
+            "negates": [
+              false
+            ]
+          },
+          "entityType": "PLAYER",
+          "equipment": {}
+        },
+        "7f7405a3-7f0e-4a98-8fc6-b1fb66cca6bd": {
+          "id": "7f7405a3-7f0e-4a98-8fc6-b1fb66cca6bd",
+          "type": "note",
+          "selected": false,
+          "x": 470,
+          "y": -288,
+          "ports": [],
+          "title": "Note",
+          "color": "#19e0e7e6",
+          "portsInOrder": [],
+          "portsOutOrder": [],
+          "text": "NPC IDs: 1196\nglowtrait not in schema"
+        }
+      }
+    }
+  ],
+  "trees": {}
+}

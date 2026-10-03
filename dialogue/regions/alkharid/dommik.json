@@ -48,13 +48,13 @@
           "id": "8adeaafc-95ba-4fa6-a41b-b2fc79d08dd6",
           "type": "npc",
           "selected": true,
-          "x": 118,
+          "x": 117,
           "y": 88,
           "ports": [
             {
               "id": "609594ea-b012-4541-a43c-dedc5917bbba",
               "type": "default",
-              "x": 455.578125,
+              "x": 454.578125,
               "y": 116,
               "name": "out-1780263707454-76745",
               "alignment": "right",
@@ -71,7 +71,7 @@
             "609594ea-b012-4541-a43c-dedc5917bbba"
           ],
           "locations": [
-            "890.81, 65.00, 267.51, 9.92, -64.75"
+            "916.50, 66.00, 271.50, 0.00, 0.00"
           ],
           "traits": [
             {
@@ -81,14 +81,14 @@
               }
             },
             {
-              "trait": "lookclose",
-              "args": {}
-            },
-            {
               "trait": "skintrait",
               "args": {
-                "skin": "SHOPKEEPER"
+                "skin": "DOMMIK"
               }
+            },
+            {
+              "trait": "randomwalk",
+              "args": {}
             }
           ],
           "conditions": {

@@ -1,0 +1,107 @@
+{
+  "id": "ea9947f5-9468-44f8-991b-a93c4ab5ab82",
+  "offsetX": 0,
+  "offsetY": 0,
+  "zoom": 75,
+  "gridSize": 0,
+  "layers": [
+    {
+      "id": "423f155f-cf3b-4f3e-8d44-28b7097ee31d",
+      "type": "diagram-links",
+      "isSvg": true,
+      "transformed": true,
+      "models": {}
+    },
+    {
+      "id": "d7dba6a5-90e0-4d4b-b6af-1715747c42c4",
+      "type": "diagram-nodes",
+      "isSvg": false,
+      "transformed": true,
+      "models": {
+        "796611db-1dda-4ffa-bb17-a43cf92aacc9": {
+          "id": "796611db-1dda-4ffa-bb17-a43cf92aacc9",
+          "type": "start",
+          "x": 50,
+          "y": 50,
+          "ports": [
+            {
+              "id": "b45b0c56-eacb-4afb-bd50-4583ac8691ed",
+              "type": "default",
+              "x": 167,
+              "y": 55.5,
+              "name": "out-1780263662439-170",
+              "alignment": "right",
+              "parentNode": "796611db-1dda-4ffa-bb17-a43cf92aacc9",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Start",
+          "color": "#16db26e6",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "b45b0c56-eacb-4afb-bd50-4583ac8691ed"
+          ]
+        },
+        "667a7724-c190-4cbb-8d00-32bc5fee5f53": {
+          "id": "667a7724-c190-4cbb-8d00-32bc5fee5f53",
+          "type": "npc",
+          "selected": false,
+          "x": 10,
+          "y": -262,
+          "ports": [
+            {
+              "id": "c2d88d63-116c-487e-9265-dc4e036f5876",
+              "type": "default",
+              "x": 402,
+              "y": -234,
+              "name": "out-1780263662439-92126",
+              "alignment": "right",
+              "parentNode": "667a7724-c190-4cbb-8d00-32bc5fee5f53",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Civilian",
+          "color": "#6e4b1e",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "c2d88d63-116c-487e-9265-dc4e036f5876"
+          ],
+          "locations": [
+            "-1581.44, 67.00, -87.87, -30.96, 0.00"
+          ],
+          "traits": [
+            {
+              "trait": "randomwalk",
+              "args": {}
+            },
+            {
+              "trait": "skintrait",
+              "args": {
+                "skin": "CIVILIAN_WEST_ARDOUGNE_VARIANT_3"
+              }
+            }
+          ],
+          "conditions": {
+            "conditions": [
+              ""
+            ],
+            "args": [],
+            "ors": [
+              false
+            ],
+            "negates": [
+              false
+            ]
+          },
+          "entityType": "PLAYER",
+          "equipment": {}
+        }
+      }
+    }
+  ],
+  "trees": {}
+}

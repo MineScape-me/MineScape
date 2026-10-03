@@ -1,0 +1,107 @@
+{
+  "id": "2ecd5a67-60e9-4ee6-a36b-79fd8da8a601",
+  "offsetX": 0,
+  "offsetY": 0,
+  "zoom": 75,
+  "gridSize": 0,
+  "layers": [
+    {
+      "id": "5b0f742f-8d80-4777-b7bb-540549309a30",
+      "type": "diagram-links",
+      "isSvg": true,
+      "transformed": true,
+      "models": {}
+    },
+    {
+      "id": "0225c43d-56a4-49f5-aa8d-14c6ffc58612",
+      "type": "diagram-nodes",
+      "isSvg": false,
+      "transformed": true,
+      "models": {
+        "217f3a6c-4e0e-4080-8d7d-33af37d7dcae": {
+          "id": "217f3a6c-4e0e-4080-8d7d-33af37d7dcae",
+          "type": "start",
+          "x": 50,
+          "y": 50,
+          "ports": [
+            {
+              "id": "4313e28b-a76f-4d51-9fe4-3e80671e6e40",
+              "type": "default",
+              "x": 167,
+              "y": 55.5,
+              "name": "out-1780263662445-44782",
+              "alignment": "right",
+              "parentNode": "217f3a6c-4e0e-4080-8d7d-33af37d7dcae",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Start",
+          "color": "#16db26e6",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "4313e28b-a76f-4d51-9fe4-3e80671e6e40"
+          ]
+        },
+        "53882908-a4a4-4ed3-bd9b-6ceecc5b861c": {
+          "id": "53882908-a4a4-4ed3-bd9b-6ceecc5b861c",
+          "type": "npc",
+          "selected": false,
+          "x": 10,
+          "y": -262,
+          "ports": [
+            {
+              "id": "76d53f1a-9c39-464d-a957-f69a7dee2422",
+              "type": "default",
+              "x": 402,
+              "y": -234,
+              "name": "out-1780263662445-25411",
+              "alignment": "right",
+              "parentNode": "53882908-a4a4-4ed3-bd9b-6ceecc5b861c",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Gerald",
+          "color": "#6e4b1e",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "76d53f1a-9c39-464d-a957-f69a7dee2422"
+          ],
+          "locations": [
+            "-1479.57, 66.00, -393.55, 45.00, 0.00"
+          ],
+          "traits": [
+            {
+              "trait": "skintrait",
+              "args": {
+                "skin": "GERALD"
+              }
+            },
+            {
+              "trait": "randomwalk",
+              "args": {}
+            }
+          ],
+          "conditions": {
+            "conditions": [
+              ""
+            ],
+            "args": [],
+            "ors": [
+              false
+            ],
+            "negates": [
+              false
+            ]
+          },
+          "entityType": "PLAYER",
+          "equipment": {}
+        }
+      }
+    }
+  ],
+  "trees": {}
+}

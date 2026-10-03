@@ -1,0 +1,126 @@
+{
+  "id": "aa36871d-a5de-43af-8d76-bdd44d39aa73",
+  "offsetX": 0,
+  "offsetY": 0,
+  "zoom": 75,
+  "gridSize": 0,
+  "layers": [
+    {
+      "id": "79a8b43a-a1f7-43c6-a458-e03bf36d8b2c",
+      "type": "diagram-links",
+      "isSvg": true,
+      "transformed": true,
+      "models": {}
+    },
+    {
+      "id": "648a0ced-97ad-4415-8cec-4dcd9fcb91ca",
+      "type": "diagram-nodes",
+      "isSvg": false,
+      "transformed": true,
+      "models": {
+        "da02c198-fcc5-49c3-ab79-b9e65ff2c4d4": {
+          "id": "da02c198-fcc5-49c3-ab79-b9e65ff2c4d4",
+          "type": "start",
+          "x": 50,
+          "y": 50,
+          "ports": [
+            {
+              "id": "56804b82-7a84-4115-92e6-232bef21e736",
+              "type": "default",
+              "x": 167,
+              "y": 55.5,
+              "name": "out-1780263707849-28548",
+              "alignment": "right",
+              "parentNode": "da02c198-fcc5-49c3-ab79-b9e65ff2c4d4",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Start",
+          "color": "#16db26e6",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "56804b82-7a84-4115-92e6-232bef21e736"
+          ]
+        },
+        "6ed8619e-8ceb-4b39-9891-c8ec017ec4b0": {
+          "id": "6ed8619e-8ceb-4b39-9891-c8ec017ec4b0",
+          "type": "npc",
+          "selected": false,
+          "x": 10,
+          "y": -288,
+          "ports": [
+            {
+              "id": "898ec399-04db-4e72-924a-5ce8c6ab385b",
+              "type": "default",
+              "x": 402,
+              "y": -260,
+              "name": "out-1780263707849-68801",
+              "alignment": "right",
+              "parentNode": "6ed8619e-8ceb-4b39-9891-c8ec017ec4b0",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Thessalia",
+          "color": "#6e4b1e",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "898ec399-04db-4e72-924a-5ce8c6ab385b"
+          ],
+          "locations": [
+            "560.26, 63.06, -407.81, 53.13, 0.00"
+          ],
+          "traits": [
+            {
+              "trait": "shoptrait",
+              "args": {
+                "shopID": "ThessaliasFineClothes"
+              }
+            },
+            {
+              "trait": "skintrait",
+              "args": {
+                "skin": "WOMAN"
+              }
+            },
+            {
+              "trait": "randomwalk",
+              "args": {}
+            }
+          ],
+          "conditions": {
+            "conditions": [
+              ""
+            ],
+            "args": [],
+            "ors": [
+              false
+            ],
+            "negates": [
+              false
+            ]
+          },
+          "entityType": "PLAYER",
+          "equipment": {}
+        },
+        "fb3f173e-3db2-4fff-906c-44dfd909cafd": {
+          "id": "fb3f173e-3db2-4fff-906c-44dfd909cafd",
+          "type": "note",
+          "selected": false,
+          "x": 470,
+          "y": -288,
+          "ports": [],
+          "title": "Note",
+          "color": "#19e0e7e6",
+          "portsInOrder": [],
+          "portsOutOrder": [],
+          "text": "NPC IDs: 2461\nglowtrait not in schema"
+        }
+      }
+    }
+  ],
+  "trees": {}
+}

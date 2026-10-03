@@ -1,7 +1,7 @@
 {
   "id": "ab81d63e-7c28-4507-89b2-f41d254641e0",
-  "offsetX": 121,
-  "offsetY": 193,
+  "offsetX": 607,
+  "offsetY": 539,
   "zoom": 100,
   "gridSize": 0,
   "layers": [
@@ -23,14 +23,14 @@
             {
               "id": "fb86337d-826a-465a-977a-cf293f097bde",
               "type": "point",
-              "x": 189.296875,
-              "y": 66.5
+              "x": 162.078125,
+              "y": 65
             },
             {
               "id": "9215773a-63f5-4aaf-9bbd-fb4b222f0bf4",
               "type": "point",
               "x": 238.5,
-              "y": 68.5
+              "y": 65.5
             }
           ],
           "labels": [],
@@ -56,8 +56,8 @@
             {
               "id": "ca3c3f63-7d6d-4626-9042-60e31eadc5b7",
               "type": "default",
-              "x": 181.796875,
-              "y": 59,
+              "x": 154.578125,
+              "y": 57.5,
               "name": "out-1656418809197",
               "alignment": "right",
               "parentNode": "4e78d072-00d4-4e15-a921-101ae7beb30a",
@@ -69,7 +69,7 @@
             }
           ],
           "title": "Start",
-          "color": "#16db26",
+          "color": "#16db26e6",
           "portsInOrder": [],
           "portsOutOrder": [
             "ca3c3f63-7d6d-4626-9042-60e31eadc5b7"
@@ -78,7 +78,7 @@
         "5008cc52-4671-41fc-8f60-560fac59e55a": {
           "id": "5008cc52-4671-41fc-8f60-560fac59e55a",
           "type": "action",
-          "selected": true,
+          "selected": false,
           "x": 244,
           "y": 30,
           "ports": [
@@ -86,7 +86,7 @@
               "id": "ae3fdbb1-6875-436f-9f8f-dbb804fe2566",
               "type": "default",
               "x": 231,
-              "y": 61,
+              "y": 58,
               "name": "in-1656418810457 ",
               "alignment": "left",
               "parentNode": "5008cc52-4671-41fc-8f60-560fac59e55a",
@@ -99,8 +99,8 @@
             {
               "id": "15635270-49f5-4479-94dc-b6599efcbedc",
               "type": "default",
-              "x": 626.609375,
-              "y": 61,
+              "x": 616.25,
+              "y": 58,
               "name": "out-1656418810457",
               "alignment": "right",
               "parentNode": "5008cc52-4671-41fc-8f60-560fac59e55a",
@@ -110,7 +110,7 @@
             }
           ],
           "title": "Action",
-          "color": "#3e077e",
+          "color": "#3e077ee6",
           "portsInOrder": [
             "ae3fdbb1-6875-436f-9f8f-dbb804fe2566"
           ],
@@ -132,15 +132,15 @@
         "d21d6f22-5a3e-4faf-ad9d-7b26420a96ec": {
           "id": "d21d6f22-5a3e-4faf-ad9d-7b26420a96ec",
           "type": "npc",
-          "selected": false,
-          "x": 66,
-          "y": -286,
+          "selected": true,
+          "x": -44,
+          "y": -327,
           "ports": [
             {
               "id": "67987222-23e0-44cd-817c-6d12bbf148d9",
               "type": "default",
-              "x": 458,
-              "y": -258,
+              "x": 268,
+              "y": -299,
               "name": "out-1780218322160-53122",
               "alignment": "right",
               "parentNode": "d21d6f22-5a3e-4faf-ad9d-7b26420a96ec",
@@ -156,7 +156,7 @@
             "67987222-23e0-44cd-817c-6d12bbf148d9"
           ],
           "locations": [
-            "-63.11, 64.00, -275.32, 53.13, 0.00"
+            "-41.50, 68.00, -272.50, -180.00, 0.00"
           ],
           "traits": [
             {
@@ -166,7 +166,7 @@
             {
               "trait": "skintrait",
               "args": {
-                "skin": "HEKSEL"
+                "skin": "HESKEL"
               }
             }
           ],

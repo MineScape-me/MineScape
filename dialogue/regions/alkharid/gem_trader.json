@@ -1,7 +1,7 @@
 {
   "id": "c9936d76-b3e4-4400-a7e1-1e90bbd8b544",
-  "offsetX": 0,
-  "offsetY": 0,
+  "offsetX": 189,
+  "offsetY": 90,
   "zoom": 100,
   "gridSize": 0,
   "layers": [
@@ -47,14 +47,14 @@
         "0d063c6d-f4c1-41f2-8c56-c766acb75a6c": {
           "id": "0d063c6d-f4c1-41f2-8c56-c766acb75a6c",
           "type": "npc",
-          "selected": false,
+          "selected": true,
           "x": 143,
           "y": 31,
           "ports": [
             {
               "id": "6b27b419-90b1-44a6-8776-4d7095c07fd0",
               "type": "default",
-              "x": 427.875,
+              "x": 426.171875,
               "y": 59,
               "name": "out-1780263707557-9353",
               "alignment": "right",
@@ -71,7 +71,7 @@
             "6b27b419-90b1-44a6-8776-4d7095c07fd0"
           ],
           "locations": [
-            "801.00, 64.00, 227.45, 152.37, 0.00"
+            "813.50, 66.00, 217.50, 0.00, 0.00"
           ],
           "traits": [
             {
@@ -81,14 +81,14 @@
               }
             },
             {
-              "trait": "lookclose",
-              "args": {}
-            },
-            {
               "trait": "skintrait",
               "args": {
-                "skin": "SHOPKEEPER"
+                "skin": "GEM_TRADER"
               }
+            },
+            {
+              "trait": "randomwalk",
+              "args": {}
             }
           ],
           "conditions": {

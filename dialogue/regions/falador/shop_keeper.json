@@ -47,14 +47,14 @@
         "57b651c8-b7bc-4a21-8651-9ea6bad9eb58": {
           "id": "57b651c8-b7bc-4a21-8651-9ea6bad9eb58",
           "type": "npc",
-          "selected": false,
+          "selected": true,
           "x": 160,
           "y": 45,
           "ports": [
             {
               "id": "0b8b0623-3976-4903-9259-d53a939cc54f",
               "type": "default",
-              "x": 491.46875,
+              "x": 506.15625,
               "y": 73,
               "name": "out-1780263707801-32433",
               "alignment": "right",
@@ -71,17 +71,17 @@
             "0b8b0623-3976-4903-9259-d53a939cc54f"
           ],
           "locations": [
-            "-187.49, 65.00, -315.30, -2.31, -1.20"
+            "-178.50, 67.00, -309.50, 0.00, 0.00"
           ],
           "traits": [
             {
               "trait": "skintrait",
               "args": {
-                "skin": "SHOPKEEPER"
+                "skin": "SHOP_KEEPER_FALADOR"
               }
             },
             {
-              "trait": "lookclose",
+              "trait": "randomwalk",
               "args": {}
             },
             {

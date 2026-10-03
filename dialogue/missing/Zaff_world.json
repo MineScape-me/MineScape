@@ -1,0 +1,128 @@
+{
+  "id": "27b075f3-5364-45ec-bc6a-5fa822b9ad49",
+  "offsetX": 0,
+  "offsetY": 0,
+  "zoom": 75,
+  "gridSize": 0,
+  "layers": [
+    {
+      "id": "12e26fdc-d353-4750-8f5c-9393960cb52f",
+      "type": "diagram-links",
+      "isSvg": true,
+      "transformed": true,
+      "models": {}
+    },
+    {
+      "id": "4060ed1d-d2a3-4e43-a238-8fc4d6687baa",
+      "type": "diagram-nodes",
+      "isSvg": false,
+      "transformed": true,
+      "models": {
+        "f9742f34-0f70-48a3-a9a1-43ba06a3da40": {
+          "id": "f9742f34-0f70-48a3-a9a1-43ba06a3da40",
+          "type": "start",
+          "x": 50,
+          "y": 50,
+          "ports": [
+            {
+              "id": "6c53e0df-9271-42b9-8c3d-82e9f3f9c8b7",
+              "type": "default",
+              "x": 167,
+              "y": 55.5,
+              "name": "out-1780263707928-37323",
+              "alignment": "right",
+              "parentNode": "f9742f34-0f70-48a3-a9a1-43ba06a3da40",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Start",
+          "color": "#16db26e6",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "6c53e0df-9271-42b9-8c3d-82e9f3f9c8b7"
+          ]
+        },
+        "dd4f68b2-af21-4397-8ed2-32c5a499553f": {
+          "id": "dd4f68b2-af21-4397-8ed2-32c5a499553f",
+          "type": "npc",
+          "selected": false,
+          "x": 10,
+          "y": -314,
+          "ports": [
+            {
+              "id": "f2be5da0-a756-4e3a-a985-b7ff34c09445",
+              "type": "default",
+              "x": 402,
+              "y": -286,
+              "name": "out-1780263707928-27961",
+              "alignment": "right",
+              "parentNode": "dd4f68b2-af21-4397-8ed2-32c5a499553f",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Zaff",
+          "color": "#6e4b1e",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "f2be5da0-a756-4e3a-a985-b7ff34c09445"
+          ],
+          "locations": [
+            "543.63, 63.06, -458.57, 42.99, -1.03"
+          ],
+          "traits": [
+            {
+              "trait": "shoptrait",
+              "args": {
+                "shopID": "ZaffsSuperiorStaffs"
+              }
+            },
+            {
+              "trait": "lookclose",
+              "args": {}
+            },
+            {
+              "trait": "skintrait",
+              "args": {
+                "skin": "WIZARD"
+              }
+            }
+          ],
+          "conditions": {
+            "conditions": [
+              ""
+            ],
+            "args": [],
+            "ors": [
+              false
+            ],
+            "negates": [
+              false
+            ]
+          },
+          "entityType": "PLAYER",
+          "equipment": {
+            "HAND": "STAFF_OF_FIRE"
+          }
+        },
+        "ff1ab446-5165-4e5f-8918-45fd6ec92e2d": {
+          "id": "ff1ab446-5165-4e5f-8918-45fd6ec92e2d",
+          "type": "note",
+          "selected": false,
+          "x": 470,
+          "y": -314,
+          "ports": [],
+          "title": "Note",
+          "color": "#19e0e7e6",
+          "portsInOrder": [],
+          "portsOutOrder": [],
+          "text": "NPC IDs: 10987\nglowtrait not in schema"
+        }
+      }
+    }
+  ],
+  "trees": {}
+}

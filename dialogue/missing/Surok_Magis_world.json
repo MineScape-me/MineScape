@@ -1,0 +1,109 @@
+{
+  "id": "75c59638-10e3-47c5-9de5-56e78569bb0b",
+  "offsetX": 0,
+  "offsetY": 0,
+  "zoom": 75,
+  "gridSize": 0,
+  "layers": [
+    {
+      "id": "8490716c-49d8-4966-ad56-640cfe691d43",
+      "type": "diagram-links",
+      "isSvg": true,
+      "transformed": true,
+      "models": {}
+    },
+    {
+      "id": "93bdffa9-28a5-41c0-9bb2-2baea361c06d",
+      "type": "diagram-nodes",
+      "isSvg": false,
+      "transformed": true,
+      "models": {
+        "7edbfeea-7c16-4890-b464-cc44996c0192": {
+          "id": "7edbfeea-7c16-4890-b464-cc44996c0192",
+          "type": "start",
+          "x": 50,
+          "y": 50,
+          "ports": [
+            {
+              "id": "3b2936e1-28f6-4144-93ae-539c4cb28324",
+              "type": "default",
+              "x": 167,
+              "y": 55.5,
+              "name": "out-1780263707839-19947",
+              "alignment": "right",
+              "parentNode": "7edbfeea-7c16-4890-b464-cc44996c0192",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Start",
+          "color": "#16db26e6",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "3b2936e1-28f6-4144-93ae-539c4cb28324"
+          ]
+        },
+        "b51fcc3b-cdb0-474b-a99d-e96ac008cf36": {
+          "id": "b51fcc3b-cdb0-474b-a99d-e96ac008cf36",
+          "type": "npc",
+          "selected": false,
+          "x": 10,
+          "y": -288,
+          "ports": [
+            {
+              "id": "de018935-0e67-46d0-8184-cc922a31f614",
+              "type": "default",
+              "x": 402,
+              "y": -260,
+              "name": "out-1780263707839-54095",
+              "alignment": "right",
+              "parentNode": "b51fcc3b-cdb0-474b-a99d-e96ac008cf36",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Surok Magis",
+          "color": "#6e4b1e",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "de018935-0e67-46d0-8184-cc922a31f614"
+          ],
+          "locations": [
+            "575.68, 62.06, -641.80, 45.00, 0.00"
+          ],
+          "traits": [
+            {
+              "trait": "skintrait",
+              "args": {
+                "skin": "SUROK_MAGIS"
+              }
+            },
+            {
+              "trait": "randomwalk",
+              "args": {}
+            }
+          ],
+          "conditions": {
+            "conditions": [
+              ""
+            ],
+            "args": [],
+            "ors": [
+              false
+            ],
+            "negates": [
+              false
+            ]
+          },
+          "entityType": "PLAYER",
+          "equipment": {
+            "HEAD": "BLACK_WIZARD_HAT"
+          }
+        }
+      }
+    }
+  ],
+  "trees": {}
+}

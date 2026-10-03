@@ -1,0 +1,107 @@
+{
+  "id": "68bc1caa-3e22-4f36-bbb1-d4c6c9a438c7",
+  "offsetX": 0,
+  "offsetY": 0,
+  "zoom": 75,
+  "gridSize": 0,
+  "layers": [
+    {
+      "id": "56f7bc6b-2093-44dc-aaff-74f9a588b156",
+      "type": "diagram-links",
+      "isSvg": true,
+      "transformed": true,
+      "models": {}
+    },
+    {
+      "id": "f448b79b-2ec9-4ae9-bfb9-845d7542c47f",
+      "type": "diagram-nodes",
+      "isSvg": false,
+      "transformed": true,
+      "models": {
+        "5bccd244-5a20-4332-90a6-1edca7849c4d": {
+          "id": "5bccd244-5a20-4332-90a6-1edca7849c4d",
+          "type": "start",
+          "x": 50,
+          "y": 50,
+          "ports": [
+            {
+              "id": "a22f7b83-621e-4e66-af9b-dd7d6f49fa71",
+              "type": "default",
+              "x": 167,
+              "y": 55.5,
+              "name": "out-1780263662447-79220",
+              "alignment": "right",
+              "parentNode": "5bccd244-5a20-4332-90a6-1edca7849c4d",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Start",
+          "color": "#16db26e6",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "a22f7b83-621e-4e66-af9b-dd7d6f49fa71"
+          ]
+        },
+        "af4d2a69-d0a9-486e-ba37-95c758a03f85": {
+          "id": "af4d2a69-d0a9-486e-ba37-95c758a03f85",
+          "type": "npc",
+          "selected": false,
+          "x": 10,
+          "y": -262,
+          "ports": [
+            {
+              "id": "6bddb9f4-5e3e-427d-91cf-b2b0423f93b3",
+              "type": "default",
+              "x": 402,
+              "y": -234,
+              "name": "out-1780263662447-62008",
+              "alignment": "right",
+              "parentNode": "af4d2a69-d0a9-486e-ba37-95c758a03f85",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Hudon",
+          "color": "#6e4b1e",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "6bddb9f4-5e3e-427d-91cf-b2b0423f93b3"
+          ],
+          "locations": [
+            "-1531.22, 87.00, -603.47, 166.60, -14.47"
+          ],
+          "traits": [
+            {
+              "trait": "skintrait",
+              "args": {
+                "skin": "HUDON"
+              }
+            },
+            {
+              "trait": "lookclose",
+              "args": {}
+            }
+          ],
+          "conditions": {
+            "conditions": [
+              ""
+            ],
+            "args": [],
+            "ors": [
+              false
+            ],
+            "negates": [
+              false
+            ]
+          },
+          "entityType": "PLAYER",
+          "equipment": {}
+        }
+      }
+    }
+  ],
+  "trees": {}
+}

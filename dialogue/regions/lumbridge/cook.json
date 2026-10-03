@@ -1,7 +1,7 @@
 {
   "id": "707e6e3a-123a-4def-b38a-1b3735cfdea0",
-  "offsetX": 162,
-  "offsetY": 62,
+  "offsetX": 659,
+  "offsetY": 426,
   "zoom": 100,
   "gridSize": 0,
   "layers": [
@@ -23,14 +23,14 @@
             {
               "id": "80a05427-e11e-429a-8bfb-40d1535f9507",
               "type": "point",
-              "x": 173.296875,
-              "y": 65.5
+              "x": 146.078125,
+              "y": 64
             },
             {
               "id": "3069e7fa-9b4d-4f0e-997e-6fe983840721",
               "type": "point",
               "x": 215.5,
-              "y": 65.5
+              "y": 62.5
             }
           ],
           "labels": [],
@@ -52,7 +52,7 @@
               "id": "99797855-9231-425a-b9c5-98f992df2b35",
               "type": "point",
               "x": 540.21875,
-              "y": 65.5
+              "y": 62.5
             },
             {
               "id": "e885ef77-d57f-429e-8bf1-dbf757b2948a",
@@ -80,7 +80,7 @@
               "id": "45ea828b-a172-4b65-92e3-3b5590816b4e",
               "type": "point",
               "x": 540.21875,
-              "y": 82.5
+              "y": 79.5
             },
             {
               "id": "b1b18ea7-e1c3-4e12-9b02-40f8aa83c60b",
@@ -108,7 +108,7 @@
               "id": "d4f0c840-afaa-45fe-bae1-228273317a96",
               "type": "point",
               "x": 540.21875,
-              "y": 99.5
+              "y": 96.5
             },
             {
               "id": "b3c20856-3b28-4821-92ba-3d791e24548b",
@@ -140,8 +140,8 @@
             {
               "id": "56cab285-f55f-4413-a01e-d50da397ed1c",
               "type": "default",
-              "x": 165.796875,
-              "y": 58,
+              "x": 138.578125,
+              "y": 56.5,
               "name": "out-1657794318857",
               "alignment": "right",
               "parentNode": "65109b8d-2080-4dc5-8ebd-d96d76fd2291",
@@ -170,7 +170,7 @@
               "id": "ddfdedf5-cfbf-48ce-a24c-615aa41402c0",
               "type": "default",
               "x": 208,
-              "y": 58,
+              "y": 55,
               "name": "in-1657794319605 ",
               "alignment": "left",
               "parentNode": "cb7b65b6-dde1-4b16-84d2-677a9d9d8c0a",
@@ -184,7 +184,7 @@
               "id": "ea0ebaaf-a292-4932-b29c-bcdd39f7495b",
               "type": "default",
               "x": 532.71875,
-              "y": 58,
+              "y": 55,
               "name": "out-1657794322520",
               "alignment": "right",
               "parentNode": "cb7b65b6-dde1-4b16-84d2-677a9d9d8c0a",
@@ -198,7 +198,7 @@
               "id": "0eed940d-bb72-4b72-9ec7-c35dc7027099",
               "type": "default",
               "x": 532.71875,
-              "y": 75,
+              "y": 72,
               "name": "out-16577943225201",
               "alignment": "right",
               "parentNode": "cb7b65b6-dde1-4b16-84d2-677a9d9d8c0a",
@@ -212,7 +212,7 @@
               "id": "612111da-3f88-4009-a627-44fda454fc68",
               "type": "default",
               "x": 532.71875,
-              "y": 92,
+              "y": 89,
               "name": "out-16577943225202",
               "alignment": "right",
               "parentNode": "cb7b65b6-dde1-4b16-84d2-677a9d9d8c0a",
@@ -332,14 +332,14 @@
           "id": "cddc91ec-fc2f-4683-84f1-44eb65552aa9",
           "type": "npc",
           "selected": false,
-          "x": 50,
-          "y": -287,
+          "x": -80,
+          "y": -355,
           "ports": [
             {
               "id": "a05db6e6-3106-44c8-8bda-9ef5029930a6",
               "type": "default",
-              "x": 442,
-              "y": -259,
+              "x": 232,
+              "y": -327,
               "name": "out-1780218321874-97638",
               "alignment": "right",
               "parentNode": "cddc91ec-fc2f-4683-84f1-44eb65552aa9",
@@ -355,7 +355,7 @@
             "a05db6e6-3106-44c8-8bda-9ef5029930a6"
           ],
           "locations": [
-            "580.30, 65.00, 211.47, 51.34, 0.00"
+            "576.50, 70.00, 207.50, 90.00, 0.00"
           ],
           "traits": [
             {
@@ -365,7 +365,7 @@
             {
               "trait": "skintrait",
               "args": {
-                "skin": "CHEF"
+                "skin": "COOK_LUMBRIDGE"
               }
             }
           ],
@@ -1785,6 +1785,12 @@
                     ""
                   ],
                   "args": [],
+                  "ors": [
+                    false
+                  ],
+                  "negates": [
+                    false
+                  ],
                   "text": "遰 What's wrong?"
                 },
                 {
@@ -1792,6 +1798,12 @@
                     ""
                   ],
                   "args": [],
+                  "ors": [
+                    false
+                  ],
+                  "negates": [
+                    false
+                  ],
                   "text": "Can you make me a cake?"
                 },
                 {
@@ -1799,6 +1811,12 @@
                     ""
                   ],
                   "args": [],
+                  "ors": [
+                    false
+                  ],
+                  "negates": [
+                    false
+                  ],
                   "text": "You don't look very happy."
                 },
                 {
@@ -1806,6 +1824,12 @@
                     ""
                   ],
                   "args": [],
+                  "ors": [
+                    false
+                  ],
+                  "negates": [
+                    false
+                  ],
                   "text": "Nice hat!"
                 }
               ]
@@ -2017,6 +2041,12 @@
                     ""
                   ],
                   "args": [],
+                  "ors": [
+                    false
+                  ],
+                  "negates": [
+                    false
+                  ],
                   "text": "遰 I'm always happy to help a cook in distress."
                 },
                 {
@@ -2024,6 +2054,12 @@
                     ""
                   ],
                   "args": [],
+                  "ors": [
+                    false
+                  ],
+                  "negates": [
+                    false
+                  ],
                   "text": "I can't right now, Maybe later."
                 }
               ]
@@ -2261,6 +2297,12 @@
                     ""
                   ],
                   "args": [],
+                  "ors": [
+                    false
+                  ],
+                  "negates": [
+                    false
+                  ],
                   "text": "Where do I find some flour?"
                 },
                 {
@@ -2268,6 +2310,12 @@
                     ""
                   ],
                   "args": [],
+                  "ors": [
+                    false
+                  ],
+                  "negates": [
+                    false
+                  ],
                   "text": "How about milk?"
                 },
                 {
@@ -2275,6 +2323,12 @@
                     ""
                   ],
                   "args": [],
+                  "ors": [
+                    false
+                  ],
+                  "negates": [
+                    false
+                  ],
                   "text": "And eggs? Where are they found?"
                 },
                 {
@@ -2282,6 +2336,12 @@
                     ""
                   ],
                   "args": [],
+                  "ors": [
+                    false
+                  ],
+                  "negates": [
+                    false
+                  ],
                   "text": "Actually, I know where to find this stuff."
                 }
               ]
@@ -2995,6 +3055,12 @@
                     ""
                   ],
                   "args": [],
+                  "ors": [
+                    false
+                  ],
+                  "negates": [
+                    false
+                  ],
                   "text": "What's wrong?"
                 },
                 {
@@ -3002,6 +3068,12 @@
                     ""
                   ],
                   "args": [],
+                  "ors": [
+                    false
+                  ],
+                  "negates": [
+                    false
+                  ],
                   "text": "I'd take the rest of the day off if I were you."
                 }
               ]
@@ -4401,6 +4473,16 @@
                     "1",
                     "false"
                   ]
+                ],
+                "ors": [
+                  false,
+                  false,
+                  false
+                ],
+                "negates": [
+                  false,
+                  false,
+                  false
                 ]
               }
             },
@@ -4713,6 +4795,16 @@
                     "1",
                     "false"
                   ]
+                ],
+                "ors": [
+                  false,
+                  false,
+                  false
+                ],
+                "negates": [
+                  false,
+                  false,
+                  false
                 ]
               }
             },
@@ -5004,6 +5096,12 @@
                     ""
                   ],
                   "args": [],
+                  "ors": [
+                    false
+                  ],
+                  "negates": [
+                    false
+                  ],
                   "text": "I'll get right on it."
                 },
                 {
@@ -5011,6 +5109,12 @@
                     ""
                   ],
                   "args": [],
+                  "ors": [
+                    false
+                  ],
+                  "negates": [
+                    false
+                  ],
                   "text": "Can you remind me how to find these things again?"
                 }
               ]
@@ -5200,6 +5304,12 @@
                     ""
                   ],
                   "args": [],
+                  "ors": [
+                    false
+                  ],
+                  "negates": [
+                    false
+                  ],
                   "text": "Where do I find some flour?"
                 },
                 {
@@ -5207,6 +5317,12 @@
                     ""
                   ],
                   "args": [],
+                  "ors": [
+                    false
+                  ],
+                  "negates": [
+                    false
+                  ],
                   "text": "How about milk?"
                 },
                 {
@@ -5214,6 +5330,12 @@
                     ""
                   ],
                   "args": [],
+                  "ors": [
+                    false
+                  ],
+                  "negates": [
+                    false
+                  ],
                   "text": "And eggs? Where are they found?"
                 },
                 {
@@ -5221,6 +5343,12 @@
                     ""
                   ],
                   "args": [],
+                  "ors": [
+                    false
+                  ],
+                  "negates": [
+                    false
+                  ],
                   "text": "Actually, I know where to find this stuff."
                 }
               ]
@@ -6053,6 +6181,12 @@
                     ""
                   ],
                   "args": [],
+                  "ors": [
+                    false
+                  ],
+                  "negates": [
+                    false
+                  ],
                   "text": "I am getting strong and mighty."
                 },
                 {
@@ -6060,6 +6194,12 @@
                     ""
                   ],
                   "args": [],
+                  "ors": [
+                    false
+                  ],
+                  "negates": [
+                    false
+                  ],
                   "text": "I keep on dying."
                 },
                 {
@@ -6067,6 +6207,12 @@
                     ""
                   ],
                   "args": [],
+                  "ors": [
+                    false
+                  ],
+                  "negates": [
+                    false
+                  ],
                   "text": "Can I use your range?"
                 }
               ]

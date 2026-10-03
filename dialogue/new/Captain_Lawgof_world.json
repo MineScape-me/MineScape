@@ -1,0 +1,103 @@
+{
+  "id": "f199c6f0-285e-4859-b899-0e6f172406c4",
+  "offsetX": 0,
+  "offsetY": 0,
+  "zoom": 75,
+  "gridSize": 0,
+  "layers": [
+    {
+      "id": "543fe7d2-2e35-49bc-83cf-45bd54e6eb41",
+      "type": "diagram-links",
+      "isSvg": true,
+      "transformed": true,
+      "models": {}
+    },
+    {
+      "id": "17981e17-81a9-4ad0-a12a-e3bee76ce4f1",
+      "type": "diagram-nodes",
+      "isSvg": false,
+      "transformed": true,
+      "models": {
+        "a159d064-2b3a-4b80-9bd6-a2d9da5e86e5": {
+          "id": "a159d064-2b3a-4b80-9bd6-a2d9da5e86e5",
+          "type": "start",
+          "x": 50,
+          "y": 50,
+          "ports": [
+            {
+              "id": "dc668c05-a1e1-45e2-b8ec-83867cee6499",
+              "type": "default",
+              "x": 167,
+              "y": 55.5,
+              "name": "out-1780263662444-38248",
+              "alignment": "right",
+              "parentNode": "a159d064-2b3a-4b80-9bd6-a2d9da5e86e5",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Start",
+          "color": "#16db26e6",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "dc668c05-a1e1-45e2-b8ec-83867cee6499"
+          ]
+        },
+        "ce6cad90-a5b4-4986-9d03-312afbf54238": {
+          "id": "ce6cad90-a5b4-4986-9d03-312afbf54238",
+          "type": "npc",
+          "selected": false,
+          "x": 10,
+          "y": -262,
+          "ports": [
+            {
+              "id": "257051e6-089b-4270-a1bd-3b81cfae6e1c",
+              "type": "default",
+              "x": 402,
+              "y": -234,
+              "name": "out-1780263662444-24870",
+              "alignment": "right",
+              "parentNode": "ce6cad90-a5b4-4986-9d03-312afbf54238",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Captain Lawgof",
+          "color": "#6e4b1e",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "257051e6-089b-4270-a1bd-3b81cfae6e1c"
+          ],
+          "locations": [
+            "-1361.24, 69.00, -532.50, 218.66, 0.00"
+          ],
+          "traits": [
+            {
+              "trait": "randomwalk",
+              "args": {}
+            }
+          ],
+          "conditions": {
+            "conditions": [
+              ""
+            ],
+            "args": [],
+            "ors": [
+              false
+            ],
+            "negates": [
+              false
+            ]
+          },
+          "entityType": "ARMOR_STAND",
+          "equipment": {
+            "HEAD": "APPLE"
+          }
+        }
+      }
+    }
+  ],
+  "trees": {}
+}

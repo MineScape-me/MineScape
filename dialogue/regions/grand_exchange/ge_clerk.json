@@ -1,7 +1,7 @@
 {
   "id": "624cfad3-69d1-4aeb-89e5-8647603856cb",
-  "offsetX": 0,
-  "offsetY": 0,
+  "offsetX": 546,
+  "offsetY": 260,
   "zoom": 100,
   "gridSize": 0,
   "layers": [
@@ -47,15 +47,15 @@
         "e376090f-8134-49a1-97fc-d892bc325bc9": {
           "id": "e376090f-8134-49a1-97fc-d892bc325bc9",
           "type": "npc",
-          "selected": true,
-          "x": 184,
-          "y": 34,
+          "selected": false,
+          "x": 191,
+          "y": 15,
           "ports": [
             {
               "id": "44a28538-ab51-4428-9f91-c5b1ea7a5dbf",
               "type": "default",
-              "x": 486.140625,
-              "y": 62,
+              "x": 548.140625,
+              "y": 43,
               "name": "out-1780263707268-11641",
               "alignment": "right",
               "parentNode": "e376090f-8134-49a1-97fc-d892bc325bc9",
@@ -71,20 +71,193 @@
             "44a28538-ab51-4428-9f91-c5b1ea7a5dbf"
           ],
           "locations": [
-            "441.50, 63.50, -613.52, -4.72, 15.35",
-            "451.51, 63.50, -615.43, 68.13, 3.04",
-            "458.58, 63.50, -626.49, 215.47, -1.95",
-            "445.50, 63.50, -643.49, -89.37, -2.15",
-            "456.64, 63.50, -636.58, 253.97, 1.45",
-            "428.50, 63.50, -630.52, 2.93, 1.45",
-            "435.50, 63.50, -641.50, 260.71, 1.09",
-            "430.50, 63.50, -620.50, -51.07, 2.24"
+            "444.50, 67.00, -616.50, 0.00, 0.00"
           ],
           "traits": [
             {
               "trait": "skintrait",
               "args": {
-                "skin": "FEMALE_BANKER"
+                "skin": "GRAND_EXCHANGE_CLERK"
+              }
+            },
+            {
+              "trait": "lookclose",
+              "args": {}
+            },
+            {
+              "trait": "getrait",
+              "args": {}
+            }
+          ],
+          "conditions": {
+            "conditions": [
+              ""
+            ],
+            "args": [],
+            "ors": [
+              false
+            ],
+            "negates": [
+              false
+            ]
+          },
+          "entityType": "PLAYER",
+          "equipment": {}
+        },
+        "cc3a9a35-db6b-4891-9708-01e84429f700": {
+          "id": "cc3a9a35-db6b-4891-9708-01e84429f700",
+          "type": "npc",
+          "selected": false,
+          "x": 626,
+          "y": 15,
+          "ports": [
+            {
+              "id": "42326ea0-9b57-4b12-acb4-0754dce52fda",
+              "type": "default",
+              "x": 995.390625,
+              "y": 43,
+              "name": "out-1780263707268-11641",
+              "alignment": "right",
+              "parentNode": "cc3a9a35-db6b-4891-9708-01e84429f700",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "&6GE Clerk",
+          "color": "#6e4b1e",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "42326ea0-9b57-4b12-acb4-0754dce52fda"
+          ],
+          "locations": [
+            "440.50, 67.00, -616.50, 0.00, 0.00"
+          ],
+          "traits": [
+            {
+              "trait": "skintrait",
+              "args": {
+                "skin": "GRAND_EXCHANGE_CLERK_2"
+              }
+            },
+            {
+              "trait": "lookclose",
+              "args": {}
+            },
+            {
+              "trait": "getrait",
+              "args": {}
+            }
+          ],
+          "conditions": {
+            "conditions": [
+              ""
+            ],
+            "args": [],
+            "ors": [
+              false
+            ],
+            "negates": [
+              false
+            ]
+          },
+          "entityType": "PLAYER",
+          "equipment": {}
+        },
+        "5cf638e6-bd66-4331-9d79-9117887988c1": {
+          "id": "5cf638e6-bd66-4331-9d79-9117887988c1",
+          "type": "npc",
+          "selected": true,
+          "x": 614,
+          "y": 396,
+          "ports": [
+            {
+              "id": "0a1c644f-a247-46bc-a93e-e74f2c5a1d88",
+              "type": "default",
+              "x": 983.390625,
+              "y": 424,
+              "name": "out-1780263707268-11641",
+              "alignment": "right",
+              "parentNode": "5cf638e6-bd66-4331-9d79-9117887988c1",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "&6GE Clerk",
+          "color": "#6e4b1e",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "0a1c644f-a247-46bc-a93e-e74f2c5a1d88"
+          ],
+          "locations": [
+            "440.50, 67.00, -626.50, -180.00, 0.00"
+          ],
+          "traits": [
+            {
+              "trait": "skintrait",
+              "args": {
+                "skin": "GRAND_EXCHANGE_CLERK_2"
+              }
+            },
+            {
+              "trait": "lookclose",
+              "args": {}
+            },
+            {
+              "trait": "getrait",
+              "args": {}
+            }
+          ],
+          "conditions": {
+            "conditions": [
+              ""
+            ],
+            "args": [],
+            "ors": [
+              false
+            ],
+            "negates": [
+              false
+            ]
+          },
+          "entityType": "PLAYER",
+          "equipment": {}
+        },
+        "6c8ba99e-ef6a-44f0-9acd-6514612e9998": {
+          "id": "6c8ba99e-ef6a-44f0-9acd-6514612e9998",
+          "type": "npc",
+          "selected": false,
+          "x": 184,
+          "y": 392,
+          "ports": [
+            {
+              "id": "9d58d149-8ff5-416a-9b9d-0f099ba56bc4",
+              "type": "default",
+              "x": 553.390625,
+              "y": 420,
+              "name": "out-1780263707268-11641",
+              "alignment": "right",
+              "parentNode": "6c8ba99e-ef6a-44f0-9acd-6514612e9998",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "&6GE Clerk",
+          "color": "#6e4b1e",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "9d58d149-8ff5-416a-9b9d-0f099ba56bc4"
+          ],
+          "locations": [
+            "444.50, 67.00, -626.50, -180.00, 0.00"
+          ],
+          "traits": [
+            {
+              "trait": "skintrait",
+              "args": {
+                "skin": "GRAND_EXCHANGE_CLERK_3"
               }
             },
             {

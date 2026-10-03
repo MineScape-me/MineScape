@@ -1,7 +1,7 @@
 {
   "id": "c2847654-4312-4202-9dea-45917ce5e927",
-  "offsetX": 0,
-  "offsetY": -3,
+  "offsetX": 80,
+  "offsetY": 63,
   "zoom": 100,
   "gridSize": 0,
   "layers": [
@@ -47,14 +47,14 @@
         "e334b39e-3927-4daa-be7b-b2eaafa9f526": {
           "id": "e334b39e-3927-4daa-be7b-b2eaafa9f526",
           "type": "npc",
-          "selected": false,
+          "selected": true,
           "x": 143,
           "y": 34,
           "ports": [
             {
               "id": "7844b5c6-45be-489c-80ef-aa96969ed319",
               "type": "default",
-              "x": 486.703125,
+              "x": 498.953125,
               "y": 62,
               "name": "out-1780263707796-36291",
               "alignment": "right",
@@ -71,7 +71,7 @@
             "7844b5c6-45be-489c-80ef-aa96969ed319"
           ],
           "locations": [
-            "187.22, 63.00, -688.70, 45.00, 0.00"
+            "188.50, 71.00, -680.50, 0.00, 0.00"
           ],
           "traits": [
             {
@@ -81,7 +81,7 @@
             {
               "trait": "skintrait",
               "args": {
-                "skin": "SHOPKEEPER"
+                "skin": "SHOP_KEEPER_EDGEVILLE"
               }
             },
             {

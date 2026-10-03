@@ -1,0 +1,112 @@
+{
+  "id": "6306b45f-8852-4b82-a676-8d950875d34f",
+  "offsetX": 0,
+  "offsetY": 0,
+  "zoom": 75,
+  "gridSize": 0,
+  "layers": [
+    {
+      "id": "bcbecc1e-af11-4f56-a5ed-cde85f33290b",
+      "type": "diagram-links",
+      "isSvg": true,
+      "transformed": true,
+      "models": {}
+    },
+    {
+      "id": "0b094411-cba5-480c-b10e-e0e92b513e42",
+      "type": "diagram-nodes",
+      "isSvg": false,
+      "transformed": true,
+      "models": {
+        "a1e698f3-1ba1-47c9-b084-1078f01efac1": {
+          "id": "a1e698f3-1ba1-47c9-b084-1078f01efac1",
+          "type": "start",
+          "x": 50,
+          "y": 50,
+          "ports": [
+            {
+              "id": "b2da5365-db64-4efb-b117-5be4b5448317",
+              "type": "default",
+              "x": 167,
+              "y": 55.5,
+              "name": "out-1780263707828-92172",
+              "alignment": "right",
+              "parentNode": "a1e698f3-1ba1-47c9-b084-1078f01efac1",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Start",
+          "color": "#16db26e6",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "b2da5365-db64-4efb-b117-5be4b5448317"
+          ]
+        },
+        "bb2eff65-1c29-4f09-86e2-88012fd26b8c": {
+          "id": "bb2eff65-1c29-4f09-86e2-88012fd26b8c",
+          "type": "npc",
+          "selected": false,
+          "x": 10,
+          "y": -470,
+          "ports": [
+            {
+              "id": "d8072c7c-b845-4298-95b8-bc2b9c05b7e5",
+              "type": "default",
+              "x": 402,
+              "y": -442,
+              "name": "out-1780263707828-69439",
+              "alignment": "right",
+              "parentNode": "bb2eff65-1c29-4f09-86e2-88012fd26b8c",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Soldier",
+          "color": "#6e4b1e",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "d8072c7c-b845-4298-95b8-bc2b9c05b7e5"
+          ],
+          "locations": [
+            "-376.49, 66.00, -772.51, 182.79, 1.05",
+            "-373.48, 66.00, -772.40, 178.80, -3.00",
+            "-374.60, 66.00, -769.79, 181.50, -5.10",
+            "-377.49, 66.00, -772.54, 179.52, 0.60",
+            "-369.79, 66.00, -747.50, -89.85, 25.80",
+            "-367.69, 66.00, -747.50, 91.50, 0.15",
+            "-376.44, 66.00, -769.82, 186.90, 32.10",
+            "-375.54, 66.00, -769.79, 181.50, 68.70",
+            "-374.45, 66.00, -772.45, 181.18, 8.25",
+            "-368.52, 66.00, -748.75, 3.75, 4.35"
+          ],
+          "traits": [
+            {
+              "trait": "skintrait",
+              "args": {
+                "skin": "HIGHWAYMAN"
+              }
+            }
+          ],
+          "conditions": {
+            "conditions": [
+              ""
+            ],
+            "args": [],
+            "ors": [
+              false
+            ],
+            "negates": [
+              false
+            ]
+          },
+          "entityType": "PLAYER",
+          "equipment": {}
+        }
+      }
+    }
+  ],
+  "trees": {}
+}

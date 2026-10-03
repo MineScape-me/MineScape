@@ -1,0 +1,107 @@
+{
+  "id": "908f5f24-57aa-4ac4-8e34-01ab501e70f0",
+  "offsetX": 0,
+  "offsetY": 0,
+  "zoom": 75,
+  "gridSize": 0,
+  "layers": [
+    {
+      "id": "2f5c055f-036b-4d96-bd93-0570f0dac03c",
+      "type": "diagram-links",
+      "isSvg": true,
+      "transformed": true,
+      "models": {}
+    },
+    {
+      "id": "67a7e271-dbac-4300-a62e-90c6e2156b04",
+      "type": "diagram-nodes",
+      "isSvg": false,
+      "transformed": true,
+      "models": {
+        "dfafa3be-bbdb-44f7-9e46-d1f29f8487e9": {
+          "id": "dfafa3be-bbdb-44f7-9e46-d1f29f8487e9",
+          "type": "start",
+          "x": 50,
+          "y": 50,
+          "ports": [
+            {
+              "id": "56b29aa4-7c1d-413e-833b-8b06ddcb7f62",
+              "type": "default",
+              "x": 167,
+              "y": 55.5,
+              "name": "out-1780263662446-54986",
+              "alignment": "right",
+              "parentNode": "dfafa3be-bbdb-44f7-9e46-d1f29f8487e9",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Start",
+          "color": "#16db26e6",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "56b29aa4-7c1d-413e-833b-8b06ddcb7f62"
+          ]
+        },
+        "040dcad8-7c0f-488f-80e9-5a841a77c5b2": {
+          "id": "040dcad8-7c0f-488f-80e9-5a841a77c5b2",
+          "type": "npc",
+          "selected": false,
+          "x": 10,
+          "y": -262,
+          "ports": [
+            {
+              "id": "1c282d74-d43b-4110-ba78-0089a599f0d7",
+              "type": "default",
+              "x": 402,
+              "y": -234,
+              "name": "out-1780263662446-43782",
+              "alignment": "right",
+              "parentNode": "040dcad8-7c0f-488f-80e9-5a841a77c5b2",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Hadley",
+          "color": "#6e4b1e",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "1c282d74-d43b-4110-ba78-0089a599f0d7"
+          ],
+          "locations": [
+            "-1522.64, 68.06, -438.66, 135.00, 0.00"
+          ],
+          "traits": [
+            {
+              "trait": "randomwalk",
+              "args": {}
+            },
+            {
+              "trait": "skintrait",
+              "args": {
+                "skin": "HADLEY"
+              }
+            }
+          ],
+          "conditions": {
+            "conditions": [
+              ""
+            ],
+            "args": [],
+            "ors": [
+              false
+            ],
+            "negates": [
+              false
+            ]
+          },
+          "entityType": "PLAYER",
+          "equipment": {}
+        }
+      }
+    }
+  ],
+  "trees": {}
+}

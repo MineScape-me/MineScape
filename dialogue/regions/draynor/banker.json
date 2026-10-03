@@ -1,7 +1,7 @@
 {
   "id": "7ec2ae79-3c13-437f-a9fc-822954c368df",
-  "offsetX": 0,
-  "offsetY": 0,
+  "offsetX": 229,
+  "offsetY": 82,
   "zoom": 100,
   "gridSize": 0,
   "layers": [
@@ -47,14 +47,14 @@
         "847fa1bf-b2ec-4cb2-98c7-be07f0823e41": {
           "id": "847fa1bf-b2ec-4cb2-98c7-be07f0823e41",
           "type": "npc",
-          "selected": false,
+          "selected": true,
           "x": 131,
           "y": 32,
           "ports": [
             {
               "id": "bbdf1ea4-725a-447a-9a86-f4189699d882",
               "type": "default",
-              "x": 433.140625,
+              "x": 461.046875,
               "y": 60,
               "name": "out-1780263707250-44138",
               "alignment": "right",
@@ -71,14 +71,14 @@
             "bbdf1ea4-725a-447a-9a86-f4189699d882"
           ],
           "locations": [
-            "219.64, 63.00, 117.52, 157.86, 0.00",
-            "219.57, 63.00, 125.53, -55.67, -2.16"
+            "220.50, 68.00, 123.00, -90.00, 0.00",
+            "220.50, 68.00, 126.00, -90.00, 0.00"
           ],
           "traits": [
             {
               "trait": "skintrait",
               "args": {
-                "skin": "FEMALE_BANKER"
+                "skin": "BANKER_STANDARD_2"
               }
             },
             {
@@ -108,14 +108,14 @@
         "b6257d13-9874-4739-bbee-9938b87ef55b": {
           "id": "b6257d13-9874-4739-bbee-9938b87ef55b",
           "type": "npc",
-          "selected": true,
+          "selected": false,
           "x": 552,
           "y": 27,
           "ports": [
             {
               "id": "7e04eb1a-ada9-4070-9436-684e76893d3b",
               "type": "default",
-              "x": 843,
+              "x": 882.046875,
               "y": 55,
               "name": "out-1780263707250-44138",
               "alignment": "right",
@@ -132,14 +132,14 @@
             "7e04eb1a-ada9-4070-9436-684e76893d3b"
           ],
           "locations": [
-            "219.57, 63.00, 113.52, 140.15, -4.34",
-            "219.60, 63.00, 121.52, -32.86, -2.95"
+            "220.50, 68.00, 117.00, -90.00, 0.00",
+            "213.50, 68.00, 127.00, -90.00, 0.00"
           ],
           "traits": [
             {
               "trait": "skintrait",
               "args": {
-                "skin": "MALE_BANKER"
+                "skin": "BANKER_STANDARD_5"
               }
             },
             {

@@ -1,37 +1,37 @@
 {
-  "id": "5f9ccd95-3085-413b-ab2d-f88916b84032",
-  "offsetX": 83,
-  "offsetY": 126,
-  "zoom": 100,
+  "id": "82536560-7576-4692-88ba-b4a5560a408d",
+  "offsetX": 0,
+  "offsetY": 0,
+  "zoom": 75,
   "gridSize": 0,
   "layers": [
     {
-      "id": "abaf7ce1-1386-44e1-9d7f-e8accdef1bf4",
+      "id": "6acd7beb-f150-480f-84ba-4bac86768b1d",
       "type": "diagram-links",
       "isSvg": true,
       "transformed": true,
       "models": {}
     },
     {
-      "id": "2eebe4c1-1788-4009-a080-8be70f381da9",
+      "id": "cc0840f1-b9a4-4f72-b7cd-7c6a0544b420",
       "type": "diagram-nodes",
       "isSvg": false,
       "transformed": true,
       "models": {
-        "f6f07183-c852-403f-ae59-27887c2d30f3": {
-          "id": "f6f07183-c852-403f-ae59-27887c2d30f3",
+        "065a708c-83fb-4566-b027-9f45665e1bdc": {
+          "id": "065a708c-83fb-4566-b027-9f45665e1bdc",
           "type": "start",
           "x": 50,
           "y": 50,
           "ports": [
             {
-              "id": "31f50484-ef7b-4340-8493-5b47b2006117",
+              "id": "9edcfdb8-e810-496d-8bab-20444b1ff7ed",
               "type": "default",
-              "x": 98.578125,
+              "x": 167,
               "y": 55.5,
-              "name": "out-1780813348065",
+              "name": "out-1780263662448-42219",
               "alignment": "right",
-              "parentNode": "f6f07183-c852-403f-ae59-27887c2d30f3",
+              "parentNode": "065a708c-83fb-4566-b027-9f45665e1bdc",
               "links": [],
               "in": false,
               "label": "❯"
@@ -41,51 +41,47 @@
           "color": "#16db26e6",
           "portsInOrder": [],
           "portsOutOrder": [
-            "31f50484-ef7b-4340-8493-5b47b2006117"
+            "9edcfdb8-e810-496d-8bab-20444b1ff7ed"
           ]
         },
-        "976e1eb4-d982-4a6f-af52-6f74b803944a": {
-          "id": "976e1eb4-d982-4a6f-af52-6f74b803944a",
+        "5a11670b-de6c-4f01-8f83-b5f67407a52b": {
+          "id": "5a11670b-de6c-4f01-8f83-b5f67407a52b",
           "type": "npc",
-          "selected": true,
-          "x": 213,
-          "y": 32,
+          "selected": false,
+          "x": 10,
+          "y": -262,
           "ports": [
             {
-              "id": "6426bf4d-cdea-4a4a-9ac8-b34643472d69",
+              "id": "4a715a73-85d4-43b5-b73f-9e5a1b5deee0",
               "type": "default",
-              "x": 501.078125,
-              "y": 60,
-              "name": "out-1780263707269-19843",
+              "x": 402,
+              "y": -234,
+              "name": "out-1780263662448-43119",
               "alignment": "right",
-              "parentNode": "976e1eb4-d982-4a6f-af52-6f74b803944a",
+              "parentNode": "5a11670b-de6c-4f01-8f83-b5f67407a52b",
               "links": [],
               "in": false,
               "label": "❯"
             }
           ],
-          "title": "&6Grand Exchange Clerk",
+          "title": "Otto Godblessed",
           "color": "#6e4b1e",
           "portsInOrder": [],
           "portsOutOrder": [
-            "6426bf4d-cdea-4a4a-9ac8-b34643472d69"
+            "4a715a73-85d4-43b5-b73f-9e5a1b5deee0"
           ],
           "locations": [
-            "614.46, 64.00, 198.50, 255.62, 3.25"
+            "-1561.56, 90.00, -618.55, 38.66, 0.00"
           ],
           "traits": [
             {
               "trait": "skintrait",
               "args": {
-                "skin": "MALE_BANKER"
+                "skin": "OTTO_GODBLESSED"
               }
             },
             {
-              "trait": "lookclose",
-              "args": {}
-            },
-            {
-              "trait": "getrait",
+              "trait": "randomwalk",
               "args": {}
             }
           ],

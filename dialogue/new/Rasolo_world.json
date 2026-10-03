@@ -1,0 +1,109 @@
+{
+  "id": "b31a7b7e-b8c6-4667-9229-acbfa0c04754",
+  "offsetX": 0,
+  "offsetY": 0,
+  "zoom": 75,
+  "gridSize": 0,
+  "layers": [
+    {
+      "id": "32654493-9f31-425d-ad2d-fd59de167ce7",
+      "type": "diagram-links",
+      "isSvg": true,
+      "transformed": true,
+      "models": {}
+    },
+    {
+      "id": "ca217e83-2648-439d-8f5c-06f391999fd8",
+      "type": "diagram-nodes",
+      "isSvg": false,
+      "transformed": true,
+      "models": {
+        "bd4a3b91-4bb3-45fa-b3bd-cd2cfcc3e7ce": {
+          "id": "bd4a3b91-4bb3-45fa-b3bd-cd2cfcc3e7ce",
+          "type": "start",
+          "x": 50,
+          "y": 50,
+          "ports": [
+            {
+              "id": "99726a42-d697-48e2-a466-e735decb6629",
+              "type": "default",
+              "x": 167,
+              "y": 55.5,
+              "name": "out-1780263662449-17750",
+              "alignment": "right",
+              "parentNode": "bd4a3b91-4bb3-45fa-b3bd-cd2cfcc3e7ce",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Start",
+          "color": "#16db26e6",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "99726a42-d697-48e2-a466-e735decb6629"
+          ]
+        },
+        "864be48c-09e6-4d83-b85e-a656f446390d": {
+          "id": "864be48c-09e6-4d83-b85e-a656f446390d",
+          "type": "npc",
+          "selected": false,
+          "x": 10,
+          "y": -288,
+          "ports": [
+            {
+              "id": "76a6e2f0-fe99-4f3d-9490-0f955babbee3",
+              "type": "default",
+              "x": 402,
+              "y": -260,
+              "name": "out-1780263662449-15360",
+              "alignment": "right",
+              "parentNode": "864be48c-09e6-4d83-b85e-a656f446390d",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Rasolo",
+          "color": "#6e4b1e",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "76a6e2f0-fe99-4f3d-9490-0f955babbee3"
+          ],
+          "locations": [
+            "-1454.44, 66.00, -445.74, -45.00, 0.00"
+          ],
+          "traits": [
+            {
+              "trait": "skintrait",
+              "args": {
+                "skin": "RASOLO"
+              }
+            },
+            {
+              "trait": "randomwalk",
+              "args": {}
+            }
+          ],
+          "conditions": {
+            "conditions": [
+              ""
+            ],
+            "args": [],
+            "ors": [
+              false
+            ],
+            "negates": [
+              false
+            ]
+          },
+          "entityType": "PLAYER",
+          "equipment": {
+            "HEAD": "DARK_CAVALIER"
+          }
+        }
+      }
+    }
+  ],
+  "trees": {}
+}

@@ -1,0 +1,126 @@
+{
+  "id": "0392030c-85a8-4de6-804c-e7fcbeb5b95d",
+  "offsetX": 0,
+  "offsetY": 0,
+  "zoom": 75,
+  "gridSize": 0,
+  "layers": [
+    {
+      "id": "9be2d0de-945a-487a-aa4e-37968c45d6e1",
+      "type": "diagram-links",
+      "isSvg": true,
+      "transformed": true,
+      "models": {}
+    },
+    {
+      "id": "d1c3cb67-bc1b-43d0-8084-ae3c53ee36eb",
+      "type": "diagram-nodes",
+      "isSvg": false,
+      "transformed": true,
+      "models": {
+        "ec1764ae-02a4-4586-b7dc-05d52b45fd75": {
+          "id": "ec1764ae-02a4-4586-b7dc-05d52b45fd75",
+          "type": "start",
+          "x": 50,
+          "y": 50,
+          "ports": [
+            {
+              "id": "07d64b29-603f-4dbd-8728-f7ec913b87b1",
+              "type": "default",
+              "x": 167,
+              "y": 55.5,
+              "name": "out-1780263707930-15765",
+              "alignment": "right",
+              "parentNode": "ec1764ae-02a4-4586-b7dc-05d52b45fd75",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Start",
+          "color": "#16db26e6",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "07d64b29-603f-4dbd-8728-f7ec913b87b1"
+          ]
+        },
+        "1097a905-7b53-4447-ab7f-57904014e27c": {
+          "id": "1097a905-7b53-4447-ab7f-57904014e27c",
+          "type": "npc",
+          "selected": false,
+          "x": 10,
+          "y": -288,
+          "ports": [
+            {
+              "id": "e9dbf400-e63c-4e6d-98c0-360e243e7e5a",
+              "type": "default",
+              "x": 402,
+              "y": -260,
+              "name": "out-1780263707930-60150",
+              "alignment": "right",
+              "parentNode": "1097a905-7b53-4447-ab7f-57904014e27c",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Zambo",
+          "color": "#6e4b1e",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "e9dbf400-e63c-4e6d-98c0-360e243e7e5a"
+          ],
+          "locations": [
+            "-276.38, 68.00, 427.00, 7.58, 0.00"
+          ],
+          "traits": [
+            {
+              "trait": "lookclose",
+              "args": {}
+            },
+            {
+              "trait": "shoptrait",
+              "args": {
+                "shopID": "KaramjaWinesSpiritsandBeers"
+              }
+            },
+            {
+              "trait": "skintrait",
+              "args": {
+                "skin": "SHOPKEEPER"
+              }
+            }
+          ],
+          "conditions": {
+            "conditions": [
+              ""
+            ],
+            "args": [],
+            "ors": [
+              false
+            ],
+            "negates": [
+              false
+            ]
+          },
+          "entityType": "PLAYER",
+          "equipment": {}
+        },
+        "4ea5f53e-746f-403c-ad5f-77bfc4f1693a": {
+          "id": "4ea5f53e-746f-403c-ad5f-77bfc4f1693a",
+          "type": "note",
+          "selected": false,
+          "x": 470,
+          "y": -288,
+          "ports": [],
+          "title": "Note",
+          "color": "#19e0e7e6",
+          "portsInOrder": [],
+          "portsOutOrder": [],
+          "text": "NPC IDs: 10991\nglowtrait not in schema"
+        }
+      }
+    }
+  ],
+  "trees": {}
+}

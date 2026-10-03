@@ -1,0 +1,124 @@
+{
+  "id": "bd70edf9-4a67-418d-a232-309b0d713ee5",
+  "offsetX": 0,
+  "offsetY": 0,
+  "zoom": 75,
+  "gridSize": 0,
+  "layers": [
+    {
+      "id": "6ef53588-53dc-49df-a4e2-a8f1aeeb749d",
+      "type": "diagram-links",
+      "isSvg": true,
+      "transformed": true,
+      "models": {}
+    },
+    {
+      "id": "2bdb3af2-8a07-4cc3-91ae-b9ff892bc4f0",
+      "type": "diagram-nodes",
+      "isSvg": false,
+      "transformed": true,
+      "models": {
+        "579e160a-cc77-4e78-9693-134c629b2abd": {
+          "id": "579e160a-cc77-4e78-9693-134c629b2abd",
+          "type": "start",
+          "x": 50,
+          "y": 50,
+          "ports": [
+            {
+              "id": "897303b8-ac00-434a-8420-565d5855d9eb",
+              "type": "default",
+              "x": 167,
+              "y": 55.5,
+              "name": "out-1780263662438-36834",
+              "alignment": "right",
+              "parentNode": "579e160a-cc77-4e78-9693-134c629b2abd",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Start",
+          "color": "#16db26e6",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "897303b8-ac00-434a-8420-565d5855d9eb"
+          ]
+        },
+        "3f8e1524-e8b3-4eaf-8b56-594df7d4ba79": {
+          "id": "3f8e1524-e8b3-4eaf-8b56-594df7d4ba79",
+          "type": "npc",
+          "selected": false,
+          "x": 10,
+          "y": -288,
+          "ports": [
+            {
+              "id": "48d32c23-e16c-49f5-92d2-594e5a7f69d4",
+              "type": "default",
+              "x": 402,
+              "y": -260,
+              "name": "out-1780263662438-85159",
+              "alignment": "right",
+              "parentNode": "3f8e1524-e8b3-4eaf-8b56-594df7d4ba79",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Banker",
+          "color": "#6e4b1e",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "48d32c23-e16c-49f5-92d2-594e5a7f69d4"
+          ],
+          "locations": [
+            "447.70, 63.50, -613.30, NaN, NaN"
+          ],
+          "traits": [
+            {
+              "trait": "skintrait",
+              "args": {
+                "skin": "MALE_BANKER"
+              }
+            },
+            {
+              "trait": "lookclose",
+              "args": {}
+            },
+            {
+              "trait": "banktrait",
+              "args": {}
+            }
+          ],
+          "conditions": {
+            "conditions": [
+              ""
+            ],
+            "args": [],
+            "ors": [
+              false
+            ],
+            "negates": [
+              false
+            ]
+          },
+          "entityType": "PLAYER",
+          "equipment": {}
+        },
+        "f0059220-8ddb-4533-b98e-b389bb0dcad3": {
+          "id": "f0059220-8ddb-4533-b98e-b389bb0dcad3",
+          "type": "note",
+          "selected": false,
+          "x": 470,
+          "y": -288,
+          "ports": [],
+          "title": "Note",
+          "color": "#19e0e7e6",
+          "portsInOrder": [],
+          "portsOutOrder": [],
+          "text": "NPC IDs: 64860\nglowtrait not in schema"
+        }
+      }
+    }
+  ],
+  "trees": {}
+}

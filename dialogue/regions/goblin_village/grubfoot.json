@@ -1,7 +1,7 @@
 {
   "id": "06efcc2f-c75e-49dd-a0d0-537eb194c15c",
-  "offsetX": 0,
-  "offsetY": 0,
+  "offsetX": 281,
+  "offsetY": 317,
   "zoom": 100,
   "gridSize": 0,
   "layers": [
@@ -47,7 +47,7 @@
         "7f7b4ea2-7ec8-42f8-bcaf-88444a78bb5f": {
           "id": "7f7b4ea2-7ec8-42f8-bcaf-88444a78bb5f",
           "type": "npc",
-          "selected": false,
+          "selected": true,
           "x": 131,
           "y": 29,
           "ports": [
@@ -71,11 +71,11 @@
             "314e2e1c-652d-4e3f-84d3-f90fedf40c78"
           ],
           "locations": [
-            "-198.38, 55.00, -686.79, 251.52, 0.00"
+            "-181.50, 64.00, -691.50, 0.00, 0.00"
           ],
           "traits": [
             {
-              "trait": "lookclose",
+              "trait": "randomwalk",
               "args": {}
             }
           ],

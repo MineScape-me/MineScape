@@ -1,0 +1,107 @@
+{
+  "id": "20201607-fd94-4a5d-848a-aed125b77fac",
+  "offsetX": 0,
+  "offsetY": 0,
+  "zoom": 75,
+  "gridSize": 0,
+  "layers": [
+    {
+      "id": "f354fa2c-586f-40ed-9d2a-ca20c91ff6b4",
+      "type": "diagram-links",
+      "isSvg": true,
+      "transformed": true,
+      "models": {}
+    },
+    {
+      "id": "f5d4d92c-131c-45e6-bc35-a9e9d676b542",
+      "type": "diagram-nodes",
+      "isSvg": false,
+      "transformed": true,
+      "models": {
+        "27522dfa-7354-4d7b-9672-ed481f479382": {
+          "id": "27522dfa-7354-4d7b-9672-ed481f479382",
+          "type": "start",
+          "x": 50,
+          "y": 50,
+          "ports": [
+            {
+              "id": "b6a46fb0-f944-4c01-bf0c-0b03aa65871c",
+              "type": "default",
+              "x": 167,
+              "y": 55.5,
+              "name": "out-1780263662440-31755",
+              "alignment": "right",
+              "parentNode": "27522dfa-7354-4d7b-9672-ed481f479382",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Start",
+          "color": "#16db26e6",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "b6a46fb0-f944-4c01-bf0c-0b03aa65871c"
+          ]
+        },
+        "e067713e-6079-410b-a73c-ec1f3c78067e": {
+          "id": "e067713e-6079-410b-a73c-ec1f3c78067e",
+          "type": "npc",
+          "selected": false,
+          "x": 10,
+          "y": -262,
+          "ports": [
+            {
+              "id": "a7e28dc5-e97b-4b84-a1f7-ec2d05c30307",
+              "type": "default",
+              "x": 402,
+              "y": -234,
+              "name": "out-1780263662440-5875",
+              "alignment": "right",
+              "parentNode": "e067713e-6079-410b-a73c-ec1f3c78067e",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Galahad",
+          "color": "#6e4b1e",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "a7e28dc5-e97b-4b84-a1f7-ec2d05c30307"
+          ],
+          "locations": [
+            "-1222.50, 67.00, -576.50, -42.66, -50.13"
+          ],
+          "traits": [
+            {
+              "trait": "lookclose",
+              "args": {}
+            },
+            {
+              "trait": "skintrait",
+              "args": {
+                "skin": "GALAHAD"
+              }
+            }
+          ],
+          "conditions": {
+            "conditions": [
+              ""
+            ],
+            "args": [],
+            "ors": [
+              false
+            ],
+            "negates": [
+              false
+            ]
+          },
+          "entityType": "PLAYER",
+          "equipment": {}
+        }
+      }
+    }
+  ],
+  "trees": {}
+}

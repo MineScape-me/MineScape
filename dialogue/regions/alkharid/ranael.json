@@ -47,7 +47,7 @@
         "d5c57310-52b4-480d-92b2-a8982077b493": {
           "id": "d5c57310-52b4-480d-92b2-a8982077b493",
           "type": "npc",
-          "selected": false,
+          "selected": true,
           "x": 128,
           "y": 32,
           "ports": [
@@ -71,7 +71,7 @@
             "30cfc4a9-3b1b-4aa6-b574-bdcc595b97c8"
           ],
           "locations": [
-            "890.00, 66.00, 344.84, 103.40, -0.81"
+            "901.50, 69.00, 364.50, 90.00, 0.00"
           ],
           "traits": [
             {
@@ -81,13 +81,13 @@
               }
             },
             {
-              "trait": "lookclose",
+              "trait": "randomwalk",
               "args": {}
             },
             {
               "trait": "skintrait",
               "args": {
-                "skin": "FARMER"
+                "skin": "RANAEL"
               }
             }
           ],

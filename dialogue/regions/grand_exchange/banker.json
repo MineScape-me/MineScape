@@ -1,7 +1,7 @@
 {
   "id": "9899fa7a-dd8c-4654-94fa-29bd07748ae2",
-  "offsetX": 0,
-  "offsetY": 0,
+  "offsetX": 369,
+  "offsetY": 178,
   "zoom": 100,
   "gridSize": 0,
   "layers": [
@@ -48,14 +48,14 @@
           "id": "d5ac3b64-f428-44f5-96a9-6a2040c49a89",
           "type": "npc",
           "selected": false,
-          "x": 152,
-          "y": 35,
+          "x": 167,
+          "y": 26,
           "ports": [
             {
               "id": "526f39ca-2a0b-44db-97d0-c5fa5475208a",
               "type": "default",
-              "x": 449.109375,
-              "y": 63,
+              "x": 497.046875,
+              "y": 54,
               "name": "out-1780263707247-72474",
               "alignment": "right",
               "parentNode": "d5ac3b64-f428-44f5-96a9-6a2040c49a89",
@@ -71,20 +71,193 @@
             "526f39ca-2a0b-44db-97d0-c5fa5475208a"
           ],
           "locations": [
-            "458.52, 63.50, -630.50, 234.48, -0.85",
-            "428.35, 63.50, -626.57, -41.85, 1.61",
-            "445.50, 63.50, -613.53, 61.86, 7.38",
-            "451.70, 63.50, -641.70, 267.49, 1.43",
-            "441.50, 63.50, -643.50, 269.15, -2.16",
-            "435.50, 63.50, -615.50, -56.89, 4.37",
-            "456.50, 63.50, -620.50, 58.69, 1.86",
-            "430.50, 63.50, -636.50, 239.64, 1.44"
+            "447.50, 67.00, -623.50, -90.00, 0.00"
           ],
           "traits": [
             {
               "trait": "skintrait",
               "args": {
-                "skin": "MALE_BANKER"
+                "skin": "BANKER_STANDARD_5"
+              }
+            },
+            {
+              "trait": "lookclose",
+              "args": {}
+            },
+            {
+              "trait": "banktrait",
+              "args": {}
+            }
+          ],
+          "conditions": {
+            "conditions": [
+              ""
+            ],
+            "args": [],
+            "ors": [
+              false
+            ],
+            "negates": [
+              false
+            ]
+          },
+          "entityType": "PLAYER",
+          "equipment": {}
+        },
+        "78a31988-83c2-4104-a887-975ee5fab93a": {
+          "id": "78a31988-83c2-4104-a887-975ee5fab93a",
+          "type": "npc",
+          "selected": false,
+          "x": 170,
+          "y": 361,
+          "ports": [
+            {
+              "id": "bd3215c0-d563-49b6-9f2a-ad552a94dfe1",
+              "type": "default",
+              "x": 500.046875,
+              "y": 389,
+              "name": "out-1780263707247-72474",
+              "alignment": "right",
+              "parentNode": "78a31988-83c2-4104-a887-975ee5fab93a",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "&6Banker",
+          "color": "#6e4b1e",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "bd3215c0-d563-49b6-9f2a-ad552a94dfe1"
+          ],
+          "locations": [
+            "437.50, 67.00, -623.50, 90.00, 0.00"
+          ],
+          "traits": [
+            {
+              "trait": "skintrait",
+              "args": {
+                "skin": "BANKER_STANDARD_5"
+              }
+            },
+            {
+              "trait": "lookclose",
+              "args": {}
+            },
+            {
+              "trait": "banktrait",
+              "args": {}
+            }
+          ],
+          "conditions": {
+            "conditions": [
+              ""
+            ],
+            "args": [],
+            "ors": [
+              false
+            ],
+            "negates": [
+              false
+            ]
+          },
+          "entityType": "PLAYER",
+          "equipment": {}
+        },
+        "5b310f89-32aa-493d-bc60-f428f19f50f6": {
+          "id": "5b310f89-32aa-493d-bc60-f428f19f50f6",
+          "type": "npc",
+          "selected": false,
+          "x": 555,
+          "y": 25,
+          "ports": [
+            {
+              "id": "82c85d57-0a62-42af-b61a-7b13660c263f",
+              "type": "default",
+              "x": 885.046875,
+              "y": 53,
+              "name": "out-1780263707247-72474",
+              "alignment": "right",
+              "parentNode": "5b310f89-32aa-493d-bc60-f428f19f50f6",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "&6Banker",
+          "color": "#6e4b1e",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "82c85d57-0a62-42af-b61a-7b13660c263f"
+          ],
+          "locations": [
+            "447.50, 67.00, -619.50, -90.00, 0.00"
+          ],
+          "traits": [
+            {
+              "trait": "skintrait",
+              "args": {
+                "skin": "BANKER_STANDARD_4"
+              }
+            },
+            {
+              "trait": "lookclose",
+              "args": {}
+            },
+            {
+              "trait": "banktrait",
+              "args": {}
+            }
+          ],
+          "conditions": {
+            "conditions": [
+              ""
+            ],
+            "args": [],
+            "ors": [
+              false
+            ],
+            "negates": [
+              false
+            ]
+          },
+          "entityType": "PLAYER",
+          "equipment": {}
+        },
+        "3996eabb-1db2-4b09-ba13-69a5a87628a9": {
+          "id": "3996eabb-1db2-4b09-ba13-69a5a87628a9",
+          "type": "npc",
+          "selected": false,
+          "x": 555,
+          "y": 362,
+          "ports": [
+            {
+              "id": "5d783951-7712-4046-833a-37cbeb355695",
+              "type": "default",
+              "x": 885.046875,
+              "y": 390,
+              "name": "out-1780263707247-72474",
+              "alignment": "right",
+              "parentNode": "3996eabb-1db2-4b09-ba13-69a5a87628a9",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "&6Banker",
+          "color": "#6e4b1e",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "5d783951-7712-4046-833a-37cbeb355695"
+          ],
+          "locations": [
+            "437.50, 67.00, -619.50, 90.00, 0.00"
+          ],
+          "traits": [
+            {
+              "trait": "skintrait",
+              "args": {
+                "skin": "BANKER_STANDARD_3"
               }
             },
             {

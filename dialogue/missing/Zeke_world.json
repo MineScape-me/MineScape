@@ -1,0 +1,126 @@
+{
+  "id": "c4bdc09c-8d8f-47ce-9207-fe38b021dba4",
+  "offsetX": 0,
+  "offsetY": 0,
+  "zoom": 75,
+  "gridSize": 0,
+  "layers": [
+    {
+      "id": "2d4f0243-1335-4472-be37-907bcef131dd",
+      "type": "diagram-links",
+      "isSvg": true,
+      "transformed": true,
+      "models": {}
+    },
+    {
+      "id": "9f6dd6e4-a1e4-408d-ace7-3be40ec71303",
+      "type": "diagram-nodes",
+      "isSvg": false,
+      "transformed": true,
+      "models": {
+        "cdeffbe0-bea3-4421-b040-9d65c7d7e7d3": {
+          "id": "cdeffbe0-bea3-4421-b040-9d65c7d7e7d3",
+          "type": "start",
+          "x": 50,
+          "y": 50,
+          "ports": [
+            {
+              "id": "510fdb40-544b-4b7c-9348-b2fc3e536a14",
+              "type": "default",
+              "x": 167,
+              "y": 55.5,
+              "name": "out-1780263707937-34328",
+              "alignment": "right",
+              "parentNode": "cdeffbe0-bea3-4421-b040-9d65c7d7e7d3",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Start",
+          "color": "#16db26e6",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "510fdb40-544b-4b7c-9348-b2fc3e536a14"
+          ]
+        },
+        "1e297828-ff27-4fa0-acbe-8d12ee2851e9": {
+          "id": "1e297828-ff27-4fa0-acbe-8d12ee2851e9",
+          "type": "npc",
+          "selected": false,
+          "x": 10,
+          "y": -288,
+          "ports": [
+            {
+              "id": "8e785564-100a-4c3d-8e89-61367688ccf2",
+              "type": "default",
+              "x": 402,
+              "y": -260,
+              "name": "out-1780263707937-51890",
+              "alignment": "right",
+              "parentNode": "1e297828-ff27-4fa0-acbe-8d12ee2851e9",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Zeke",
+          "color": "#6e4b1e",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "8e785564-100a-4c3d-8e89-61367688ccf2"
+          ],
+          "locations": [
+            "794.48, 66.00, 273.38, 54.45, -3.62"
+          ],
+          "traits": [
+            {
+              "trait": "shoptrait",
+              "args": {
+                "shopID": "ZekesSuperiorScimitars"
+              }
+            },
+            {
+              "trait": "lookclose",
+              "args": {}
+            },
+            {
+              "trait": "skintrait",
+              "args": {
+                "skin": "MAN"
+              }
+            }
+          ],
+          "conditions": {
+            "conditions": [
+              ""
+            ],
+            "args": [],
+            "ors": [
+              false
+            ],
+            "negates": [
+              false
+            ]
+          },
+          "entityType": "PLAYER",
+          "equipment": {}
+        },
+        "a05f74c7-7333-4980-9ade-31d0ad7a0279": {
+          "id": "a05f74c7-7333-4980-9ade-31d0ad7a0279",
+          "type": "note",
+          "selected": false,
+          "x": 470,
+          "y": -288,
+          "ports": [],
+          "title": "Note",
+          "color": "#19e0e7e6",
+          "portsInOrder": [],
+          "portsOutOrder": [],
+          "text": "NPC IDs: 3914\nglowtrait not in schema"
+        }
+      }
+    }
+  ],
+  "trees": {}
+}

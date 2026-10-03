@@ -1,0 +1,107 @@
+{
+  "id": "dfafa3c8-5bff-4e5f-abfc-cadbc8a91c4f",
+  "offsetX": 0,
+  "offsetY": 0,
+  "zoom": 75,
+  "gridSize": 0,
+  "layers": [
+    {
+      "id": "d4d7d8ee-274b-4101-8e3f-7c087f634f06",
+      "type": "diagram-links",
+      "isSvg": true,
+      "transformed": true,
+      "models": {}
+    },
+    {
+      "id": "61d87775-01ff-4caf-b919-f5a18985278e",
+      "type": "diagram-nodes",
+      "isSvg": false,
+      "transformed": true,
+      "models": {
+        "e0f59af5-84f0-4bbd-86a9-8e62f3617edf": {
+          "id": "e0f59af5-84f0-4bbd-86a9-8e62f3617edf",
+          "type": "start",
+          "x": 50,
+          "y": 50,
+          "ports": [
+            {
+              "id": "8623054d-9ca5-45c2-b4f9-ed33dde08d55",
+              "type": "default",
+              "x": 167,
+              "y": 55.5,
+              "name": "out-1780263662444-63646",
+              "alignment": "right",
+              "parentNode": "e0f59af5-84f0-4bbd-86a9-8e62f3617edf",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Start",
+          "color": "#16db26e6",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "8623054d-9ca5-45c2-b4f9-ed33dde08d55"
+          ]
+        },
+        "1b415e3e-d09a-488c-b046-6ecb2bcee6a2": {
+          "id": "1b415e3e-d09a-488c-b046-6ecb2bcee6a2",
+          "type": "npc",
+          "selected": false,
+          "x": 10,
+          "y": -262,
+          "ports": [
+            {
+              "id": "723eb1ac-de43-458d-be40-3167faa8b814",
+              "type": "default",
+              "x": 402,
+              "y": -234,
+              "name": "out-1780263662444-91024",
+              "alignment": "right",
+              "parentNode": "1b415e3e-d09a-488c-b046-6ecb2bcee6a2",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Almera",
+          "color": "#6e4b1e",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "723eb1ac-de43-458d-be40-3167faa8b814"
+          ],
+          "locations": [
+            "-1499.58, 91.00, -646.55, 53.13, 0.00"
+          ],
+          "traits": [
+            {
+              "trait": "randomwalk",
+              "args": {}
+            },
+            {
+              "trait": "skintrait",
+              "args": {
+                "skin": "ALMERA"
+              }
+            }
+          ],
+          "conditions": {
+            "conditions": [
+              ""
+            ],
+            "args": [],
+            "ors": [
+              false
+            ],
+            "negates": [
+              false
+            ]
+          },
+          "entityType": "PLAYER",
+          "equipment": {}
+        }
+      }
+    }
+  ],
+  "trees": {}
+}

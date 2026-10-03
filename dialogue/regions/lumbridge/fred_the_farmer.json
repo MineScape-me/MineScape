@@ -1,7 +1,7 @@
 {
   "id": "155ffe81-c82f-4142-af1f-6cd3b6084c95",
-  "offsetX": 12,
-  "offsetY": 127,
+  "offsetX": 308,
+  "offsetY": 441,
   "zoom": 100,
   "gridSize": 0,
   "layers": [
@@ -23,14 +23,14 @@
             {
               "id": "18201eb2-7c5f-4728-a6c7-5f881af91cbb",
               "type": "point",
-              "x": 201.296875,
-              "y": 82.5
+              "x": 174.078125,
+              "y": 81
             },
             {
               "id": "bff64877-8a06-43b9-be27-693d8a1ac48f",
               "type": "point",
               "x": 240.5,
-              "y": 82.5
+              "y": 79.5
             }
           ],
           "labels": [],
@@ -52,7 +52,7 @@
               "id": "c99ced36-6908-4b5d-9ed8-bad61706aa18",
               "type": "point",
               "x": 516.96875,
-              "y": 82.5
+              "y": 79.5
             },
             {
               "id": "fc33e84d-7d01-4da9-9c29-2b69e6780315",
@@ -80,7 +80,7 @@
               "id": "71b22f08-0803-47bd-881d-c9cfc24ea8e0",
               "type": "point",
               "x": 516.96875,
-              "y": 99.5
+              "y": 96.5
             },
             {
               "id": "db2a2ba6-cbc0-4c1e-9a96-9cf78b889e19",
@@ -112,8 +112,8 @@
             {
               "id": "7c10920b-42fe-4aff-a651-9e52a2242e73",
               "type": "default",
-              "x": 193.796875,
-              "y": 75,
+              "x": 166.578125,
+              "y": 73.5,
               "name": "out-1657335352333",
               "alignment": "right",
               "parentNode": "92b3490e-6d87-4f35-a45e-c8a40fad67d1",
@@ -142,7 +142,7 @@
               "id": "d4984912-36b4-42c0-9e68-3591867add92",
               "type": "default",
               "x": 233,
-              "y": 75,
+              "y": 72,
               "name": "in-1657335354356 ",
               "alignment": "left",
               "parentNode": "7d33d318-6ac8-4427-b894-5ac5d795da1a",
@@ -156,7 +156,7 @@
               "id": "2056b47c-ed5f-4f62-9336-3fb01247f06e",
               "type": "default",
               "x": 509.46875,
-              "y": 75,
+              "y": 72,
               "name": "out-1657335359314",
               "alignment": "right",
               "parentNode": "7d33d318-6ac8-4427-b894-5ac5d795da1a",
@@ -170,7 +170,7 @@
               "id": "77e125bd-50db-4b78-af9d-2c99ac5d949f",
               "type": "default",
               "x": 509.46875,
-              "y": 92,
+              "y": 89,
               "name": "out-16573353593141",
               "alignment": "right",
               "parentNode": "7d33d318-6ac8-4427-b894-5ac5d795da1a",
@@ -184,7 +184,7 @@
               "id": "6c4d12e3-e409-47a3-8cd5-399ed05c1b93",
               "type": "default",
               "x": 509.46875,
-              "y": 109,
+              "y": 106,
               "name": "out-16573353593142",
               "alignment": "right",
               "parentNode": "7d33d318-6ac8-4427-b894-5ac5d795da1a",
@@ -283,15 +283,15 @@
         "3a617200-a3f0-4f92-ad78-8d4e770fb0ad": {
           "id": "3a617200-a3f0-4f92-ad78-8d4e770fb0ad",
           "type": "npc",
-          "selected": false,
-          "x": 78,
-          "y": -244,
+          "selected": true,
+          "x": 61,
+          "y": -293,
           "ports": [
             {
               "id": "59b842a5-9242-4f9d-adb8-2914c22983c1",
               "type": "default",
-              "x": 470,
-              "y": -216,
+              "x": 345.875,
+              "y": -265,
               "name": "out-1780218322070-47236",
               "alignment": "right",
               "parentNode": "3a617200-a3f0-4f92-ad78-8d4e770fb0ad",
@@ -307,7 +307,7 @@
             "59b842a5-9242-4f9d-adb8-2914c22983c1"
           ],
           "locations": [
-            "511.90, 63.00, 30.96, 181.83, 0.00"
+            "516.50, 67.00, 33.50, -180.00, 0.00"
           ],
           "traits": [
             {
@@ -1271,6 +1271,12 @@
                     ""
                   ],
                   "args": [],
+                  "ors": [
+                    false
+                  ],
+                  "negates": [
+                    false
+                  ],
                   "text": "遰 I'm looking for a quest."
                 },
                 {
@@ -1278,6 +1284,12 @@
                     ""
                   ],
                   "args": [],
+                  "ors": [
+                    false
+                  ],
+                  "negates": [
+                    false
+                  ],
                   "text": "I'm looking for something to kill."
                 },
                 {
@@ -1285,6 +1297,12 @@
                     ""
                   ],
                   "args": [],
+                  "ors": [
+                    false
+                  ],
+                  "negates": [
+                    false
+                  ],
                   "text": "I'm lost."
                 }
               ]
@@ -1553,6 +1571,12 @@
                     ""
                   ],
                   "args": [],
+                  "ors": [
+                    false
+                  ],
+                  "negates": [
+                    false
+                  ],
                   "text": "遰 Yes okay. I can do that."
                 },
                 {
@@ -1560,6 +1584,12 @@
                     ""
                   ],
                   "args": [],
+                  "ors": [
+                    false
+                  ],
+                  "negates": [
+                    false
+                  ],
                   "text": "That doesn't sound a very exciting quest."
                 },
                 {
@@ -1567,6 +1597,12 @@
                     ""
                   ],
                   "args": [],
+                  "ors": [
+                    false
+                  ],
+                  "negates": [
+                    false
+                  ],
                   "text": "What do you mean, The Thing?"
                 }
               ]
@@ -1843,6 +1879,12 @@
                     ""
                   ],
                   "args": [],
+                  "ors": [
+                    false
+                  ],
+                  "negates": [
+                    false
+                  ],
                   "text": "Yes okay. I can do that."
                 },
                 {
@@ -1850,6 +1892,12 @@
                     ""
                   ],
                   "args": [],
+                  "ors": [
+                    false
+                  ],
+                  "negates": [
+                    false
+                  ],
                   "text": "No I'll give it a miss."
                 }
               ]
@@ -2160,6 +2208,12 @@
                     ""
                   ],
                   "args": [],
+                  "ors": [
+                    false
+                  ],
+                  "negates": [
+                    false
+                  ],
                   "text": "Yes okay. I can do that."
                 },
                 {
@@ -2167,6 +2221,12 @@
                     ""
                   ],
                   "args": [],
+                  "ors": [
+                    false
+                  ],
+                  "negates": [
+                    false
+                  ],
                   "text": "Erm I'm  a bit worried about this Thing."
                 }
               ]
@@ -3198,6 +3258,12 @@
                     "1",
                     "false"
                   ]
+                ],
+                "ors": [
+                  false
+                ],
+                "negates": [
+                  false
                 ]
               }
             },
@@ -3270,6 +3336,12 @@
                     "1",
                     "false"
                   ]
+                ],
+                "ors": [
+                  false
+                ],
+                "negates": [
+                  false
                 ]
               }
             },
@@ -3663,6 +3735,12 @@
                     ">=",
                     "20"
                   ]
+                ],
+                "ors": [
+                  false
+                ],
+                "negates": [
+                  false
                 ]
               }
             },
@@ -4162,6 +4240,12 @@
                     ">=",
                     "20"
                   ]
+                ],
+                "ors": [
+                  false
+                ],
+                "negates": [
+                  false
                 ]
               }
             }

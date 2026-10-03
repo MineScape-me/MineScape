@@ -1,7 +1,7 @@
 {
   "id": "092ac781-900e-449a-9ae7-30a969cbba55",
-  "offsetX": 0,
-  "offsetY": 0,
+  "offsetX": 200,
+  "offsetY": 85,
   "zoom": 100,
   "gridSize": 0,
   "layers": [
@@ -47,7 +47,7 @@
         "c6c48273-b74c-42c6-9c91-544f5cb828b9": {
           "id": "c6c48273-b74c-42c6-9c91-544f5cb828b9",
           "type": "npc",
-          "selected": false,
+          "selected": true,
           "x": 147,
           "y": 35,
           "ports": [
@@ -71,7 +71,7 @@
             "54884fad-bd82-428a-ad8e-7c99c486de0a"
           ],
           "locations": [
-            "-28.00, 66.06, 113.00, 52.70, 29.07"
+            "-12.50, 68.00, 108.50, 0.00, 0.00"
           ],
           "traits": [
             {
@@ -81,14 +81,14 @@
               }
             },
             {
-              "trait": "lookclose",
-              "args": {}
-            },
-            {
               "trait": "skintrait",
               "args": {
-                "skin": "WIZARD"
+                "skin": "GRUM"
               }
+            },
+            {
+              "trait": "randomwalk",
+              "args": {}
             }
           ],
           "conditions": {

@@ -1,0 +1,111 @@
+{
+  "id": "d9c4d3dd-9154-43b1-8f4c-024e364d4bcb",
+  "offsetX": 0,
+  "offsetY": 0,
+  "zoom": 75,
+  "gridSize": 0,
+  "layers": [
+    {
+      "id": "20121bc3-3064-40fd-8963-a741d89d3231",
+      "type": "diagram-links",
+      "isSvg": true,
+      "transformed": true,
+      "models": {}
+    },
+    {
+      "id": "81b8a49b-34ad-49da-af99-2d7492fd41c0",
+      "type": "diagram-nodes",
+      "isSvg": false,
+      "transformed": true,
+      "models": {
+        "ba4786b2-08d8-4cd7-82ea-9d59dba29444": {
+          "id": "ba4786b2-08d8-4cd7-82ea-9d59dba29444",
+          "type": "start",
+          "x": 50,
+          "y": 50,
+          "ports": [
+            {
+              "id": "dafeac16-c146-46ca-94e1-25574f20e5dc",
+              "type": "default",
+              "x": 167,
+              "y": 55.5,
+              "name": "out-1780263662443-44076",
+              "alignment": "right",
+              "parentNode": "ba4786b2-08d8-4cd7-82ea-9d59dba29444",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Start",
+          "color": "#16db26e6",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "dafeac16-c146-46ca-94e1-25574f20e5dc"
+          ]
+        },
+        "e3543bd1-9b47-4ee2-9818-1b16cb306939": {
+          "id": "e3543bd1-9b47-4ee2-9818-1b16cb306939",
+          "type": "npc",
+          "selected": false,
+          "x": 10,
+          "y": -340,
+          "ports": [
+            {
+              "id": "fb3273d9-b49a-4dcf-9e43-ae661320633e",
+              "type": "default",
+              "x": 402,
+              "y": -312,
+              "name": "out-1780263662443-23808",
+              "alignment": "right",
+              "parentNode": "e3543bd1-9b47-4ee2-9818-1b16cb306939",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Guard",
+          "color": "#6e4b1e",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "fb3273d9-b49a-4dcf-9e43-ae661320633e"
+          ],
+          "locations": [
+            "-1502.74, 70.00, -217.32, 231.34, 0.00",
+            "-1519.04, 70.00, -217.44, 135.00, 0.00"
+          ],
+          "traits": [
+            {
+              "trait": "skintrait",
+              "args": {
+                "skin": "GUARD_COMBAT_TRAINING_CAMP"
+              }
+            },
+            {
+              "trait": "randomwalk",
+              "args": {}
+            }
+          ],
+          "conditions": {
+            "conditions": [
+              ""
+            ],
+            "args": [],
+            "ors": [
+              false
+            ],
+            "negates": [
+              false
+            ]
+          },
+          "entityType": "PLAYER",
+          "equipment": {
+            "HAND": "IRON_MACE",
+            "OFF_HAND": "AIR"
+          }
+        }
+      }
+    }
+  ],
+  "trees": {}
+}

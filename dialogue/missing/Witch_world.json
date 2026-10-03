@@ -1,0 +1,113 @@
+{
+  "id": "7ebba20e-90bb-4c19-bd32-d96acd117068",
+  "offsetX": 0,
+  "offsetY": 0,
+  "zoom": 75,
+  "gridSize": 0,
+  "layers": [
+    {
+      "id": "cd495c51-ac3a-46ee-ad03-ff9be6a15013",
+      "type": "diagram-links",
+      "isSvg": true,
+      "transformed": true,
+      "models": {}
+    },
+    {
+      "id": "8de043eb-e867-4b11-913c-91d72f105bc7",
+      "type": "diagram-nodes",
+      "isSvg": false,
+      "transformed": true,
+      "models": {
+        "54562d2d-2d6b-43f1-a16a-2158f21db774": {
+          "id": "54562d2d-2d6b-43f1-a16a-2158f21db774",
+          "type": "start",
+          "x": 50,
+          "y": 50,
+          "ports": [
+            {
+              "id": "1631da78-09c4-4c7e-91e2-67782cb1d08a",
+              "type": "default",
+              "x": 167,
+              "y": 55.5,
+              "name": "out-1780263707903-56405",
+              "alignment": "right",
+              "parentNode": "54562d2d-2d6b-43f1-a16a-2158f21db774",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Start",
+          "color": "#16db26e6",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "1631da78-09c4-4c7e-91e2-67782cb1d08a"
+          ]
+        },
+        "1a40112a-540b-411a-9b23-f45853055e5c": {
+          "id": "1a40112a-540b-411a-9b23-f45853055e5c",
+          "type": "npc",
+          "selected": false,
+          "x": 10,
+          "y": -392,
+          "ports": [
+            {
+              "id": "8ee2bd9c-2d4c-4de7-8ef6-e644cdcf7b31",
+              "type": "default",
+              "x": 402,
+              "y": -364,
+              "name": "out-1780263707903-3353",
+              "alignment": "right",
+              "parentNode": "1a40112a-540b-411a-9b23-f45853055e5c",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Witch",
+          "color": "#6e4b1e",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "8ee2bd9c-2d4c-4de7-8ef6-e644cdcf7b31"
+          ],
+          "locations": [
+            "45.60, 71.00, -698.52, -38.66, 0.00"
+          ],
+          "traits": [
+            {
+              "trait": "skintrait",
+              "args": {
+                "skin": "WITCHAVEN_VILLAGER_WOMAN"
+              }
+            },
+            {
+              "trait": "randomwalk",
+              "args": {}
+            }
+          ],
+          "conditions": {
+            "conditions": [
+              ""
+            ],
+            "args": [],
+            "ors": [
+              false
+            ],
+            "negates": [
+              false
+            ]
+          },
+          "entityType": "PLAYER",
+          "equipment": {
+            "HAND": "BATTLESTAFF",
+            "FEET": "LEATHER_BOOTS",
+            "LEGS": "BLACK_SKIRT",
+            "CHEST": "BLACK_ROBE",
+            "HEAD": "BLACK_WIZARD_HAT"
+          }
+        }
+      }
+    }
+  ],
+  "trees": {}
+}
