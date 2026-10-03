@@ -1,7 +1,7 @@
 {
   "id": "765d69a0-6d2c-4b0e-9adf-af25414b38e0",
-  "offsetX": 235,
-  "offsetY": 166,
+  "offsetX": 678,
+  "offsetY": 492,
   "zoom": 100,
   "gridSize": 0,
   "layers": [
@@ -23,14 +23,14 @@
             {
               "id": "d2a6b58f-9df9-4550-a691-0868e285d818",
               "type": "point",
-              "x": -69.703125,
-              "y": 38.5
+              "x": -96.921875,
+              "y": 37
             },
             {
               "id": "861dbe70-2b52-463c-a552-1fdd56dc256a",
               "type": "point",
               "x": -21.5,
-              "y": 39.5
+              "y": 36.5
             }
           ],
           "labels": [],
@@ -51,8 +51,8 @@
             {
               "id": "fb1f4a60-1952-4024-bff5-113b57feeed3",
               "type": "point",
-              "x": 295.40625,
-              "y": 56.5
+              "x": 312.03125,
+              "y": 53.5
             },
             {
               "id": "b6e51b4b-6a9a-486d-b9f2-95daca419718",
@@ -85,8 +85,8 @@
             {
               "id": "10d94860-f85d-4d7c-8f53-a0a2d7f9f526",
               "type": "default",
-              "x": -77.203125,
-              "y": 31,
+              "x": -104.421875,
+              "y": 29.5,
               "name": "out-1691738849123",
               "alignment": "right",
               "parentNode": "164a9bdf-8a69-4d2a-ba59-10cb2c9ac3ca",
@@ -115,7 +115,7 @@
               "id": "76f0d474-6d0e-4282-af0c-46349f856f2a",
               "type": "default",
               "x": -29,
-              "y": 32,
+              "y": 29,
               "name": "in-1691738919384 ",
               "alignment": "left",
               "parentNode": "14c4fbf4-6e02-4188-8624-87ff541b9650",
@@ -128,8 +128,8 @@
             {
               "id": "753a3f25-f246-488e-a33a-9fa4dfeb4738",
               "type": "default",
-              "x": 285.765625,
-              "y": 32,
+              "x": 302.390625,
+              "y": 29,
               "name": "out-1691738919384",
               "alignment": "right",
               "parentNode": "14c4fbf4-6e02-4188-8624-87ff541b9650",
@@ -140,8 +140,8 @@
             {
               "id": "f40549fc-315f-4424-814c-ed648a9b56f2",
               "type": "default",
-              "x": 287.90625,
-              "y": 49,
+              "x": 304.53125,
+              "y": 46,
               "name": "out-16917389193841",
               "alignment": "right",
               "parentNode": "14c4fbf4-6e02-4188-8624-87ff541b9650",
@@ -169,13 +169,19 @@
               [
                 "false"
               ]
+            ],
+            "ors": [
+              false
+            ],
+            "negates": [
+              false
             ]
           }
         },
         "52ab4b89-b7f7-4cc7-9a5d-df34f74950d5": {
           "id": "52ab4b89-b7f7-4cc7-9a5d-df34f74950d5",
           "type": "tree",
-          "selected": true,
+          "selected": false,
           "x": 365,
           "y": 33,
           "ports": [
@@ -202,6 +208,58 @@
           "portsOutOrder": [],
           "tree": "dragon_slayer_before",
           "start": "Start"
+        },
+        "fe57b1d1-d125-4877-a4be-4b11db22040e": {
+          "id": "fe57b1d1-d125-4877-a4be-4b11db22040e",
+          "type": "npc",
+          "selected": true,
+          "x": -163,
+          "y": -302,
+          "ports": [
+            {
+              "id": "2c3f88f4-07e1-4eb1-b7c7-dbd21b661e27",
+              "type": "default",
+              "x": 135.6875,
+              "y": -274,
+              "name": "out-1791065145402",
+              "alignment": "right",
+              "parentNode": "fe57b1d1-d125-4877-a4be-4b11db22040e",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Wormbrain",
+          "color": "#6e4b1e",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "2c3f88f4-07e1-4eb1-b7c7-dbd21b661e27"
+          ],
+          "locations": [
+            "-9.50, 68.00, 284.50, -90.00, 0.00"
+          ],
+          "traits": [
+            {
+              "trait": "randomwalk",
+              "args": {}
+            }
+          ],
+          "conditions": {
+            "conditions": [
+              ""
+            ],
+            "args": [],
+            "ors": [
+              false
+            ],
+            "negates": [
+              false
+            ]
+          },
+          "entityType": "ARMOR_STAND",
+          "equipment": {
+            "HEAD": "STONE_AXE:16"
+          }
         }
       }
     }
@@ -619,6 +677,12 @@
                     ""
                   ],
                   "args": [],
+                  "ors": [
+                    false
+                  ],
+                  "negates": [
+                    false
+                  ],
                   "text": "What are you in for?"
                 },
                 {
@@ -626,6 +690,12 @@
                     ""
                   ],
                   "args": [],
+                  "ors": [
+                    false
+                  ],
+                  "negates": [
+                    false
+                  ],
                   "text": "Sorry, thought this was a zoo."
                 }
               ]
