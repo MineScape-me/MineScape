@@ -9,15 +9,17 @@ jobs:
     runs-on: ubuntu-latest
     name: Dialogue Checks
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v7
         with:
           fetch-depth: 0
-      - id: file_changes
-        uses: trilom/file-changes-action@v1.2.4
       - name: Changed Files
-        run: cat $HOME/files.json
+        # The PR's merge commit against its base (its first parent): what the dialogue checks read.
+        run: |
+          git -c core.quotePath=false diff --name-only --no-renames --diff-filter=M HEAD^1 HEAD | jq -R . | jq -s . > ~/files_modified.json
+          git -c core.quotePath=false diff --name-only --no-renames --diff-filter=A HEAD^1 HEAD | jq -R . | jq -s . > ~/files_added.json
+          jq -s add ~/files_modified.json ~/files_added.json
       - name: Checkout frontent repo
-        uses: actions/checkout@v3
+        uses: actions/checkout@v7
         with:
           repository: AshleyThew/dialogue-maker
           path: dialogue-maker

@@ -8,12 +8,7 @@ jobs:
     name: Dialogue paths
     runs-on: ubuntu-latest
     steps:
-      - name: Set up Python 3.11
-        uses: actions/setup-python@v4
-        with:
-          python-version: '3.11'
-
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v7
         with:
           token: ${{ secrets.BOT_SECRET }}
 
