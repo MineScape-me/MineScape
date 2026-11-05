@@ -16024,26 +16024,82 @@
               "curvyness": 50,
               "selectedColor": "rgb(0,192,255)"
             },
-            "24cc242f-604f-4dc8-b3f5-0136705b08f9": {
-              "id": "24cc242f-604f-4dc8-b3f5-0136705b08f9",
+            "63bb1c98-0560-435e-90c8-611848127523": {
+              "id": "63bb1c98-0560-435e-90c8-611848127523",
               "type": "default",
               "selected": false,
               "source": "dab3b5dd-2890-4a07-9ecb-231761962bf0",
               "sourcePort": "fac9dab4-5f7f-49de-ac2c-9df08dfceeb4",
-              "target": "3aa37e05-0b51-4a53-8636-9f63f945f781",
-              "targetPort": "bfd9a301-90e2-4e6f-bf8f-2e71b2a8c812",
+              "target": "c7bef671-3689-46c8-9bed-7f82c3fcecb6",
+              "targetPort": "8612eb61-2a4d-43e8-b324-9682b9b61c92",
               "points": [
                 {
-                  "id": "36bb5e80-a484-456c-b814-188f30e0a296",
+                  "id": "458edc5d-1271-49de-af8c-7ef671f16a4d",
                   "type": "point",
                   "x": 1166.5,
                   "y": 279.5
                 },
                 {
-                  "id": "18c6dd20-72b2-489e-bd06-e152508926fc",
+                  "id": "282041c9-2798-4473-a2ce-27f795fc279e",
+                  "type": "point",
+                  "x": 473.5,
+                  "y": 429.5
+                }
+              ],
+              "labels": [],
+              "width": 3,
+              "color": "gray",
+              "curvyness": 50,
+              "selectedColor": "rgb(0,192,255)"
+            },
+            "9e93aa91-2cc6-4059-a0e5-50926085b0d2": {
+              "id": "9e93aa91-2cc6-4059-a0e5-50926085b0d2",
+              "type": "default",
+              "selected": false,
+              "source": "c7bef671-3689-46c8-9bed-7f82c3fcecb6",
+              "sourcePort": "d5233e2a-84dc-4616-8cfe-d3a66ff13d7f",
+              "target": "3aa37e05-0b51-4a53-8636-9f63f945f781",
+              "targetPort": "bfd9a301-90e2-4e6f-bf8f-2e71b2a8c812",
+              "points": [
+                {
+                  "id": "b3e24be4-61ba-4083-9ec0-5b225fd9f9ba",
+                  "type": "point",
+                  "x": 786.5,
+                  "y": 429.5
+                },
+                {
+                  "id": "d1b13da2-e678-4638-9605-125a1aebea67",
                   "type": "point",
                   "x": 1233.5,
                   "y": 279.5
+                }
+              ],
+              "labels": [],
+              "width": 3,
+              "color": "gray",
+              "curvyness": 50,
+              "selectedColor": "rgb(0,192,255)"
+            },
+            "21ef6982-69ae-48c5-9592-913ccb54a1f3": {
+              "id": "21ef6982-69ae-48c5-9592-913ccb54a1f3",
+              "type": "default",
+              "selected": false,
+              "source": "c7bef671-3689-46c8-9bed-7f82c3fcecb6",
+              "sourcePort": "fc6ec01b-5585-4320-a41a-dfa254465c42",
+              "target": "2b174b9e-fc80-4b8a-9438-c88395613fb4",
+              "targetPort": "d7cef54d-cdd0-412a-bf7e-884d4526a405",
+              "points": [
+                {
+                  "id": "6a4eebc5-5578-48a5-880a-e9f4228882ba",
+                  "type": "point",
+                  "x": 786.5,
+                  "y": 446.5
+                },
+                {
+                  "id": "ba861895-1750-4bb3-9476-9972bb074895",
+                  "type": "point",
+                  "x": 93.5,
+                  "y": 429.5
                 }
               ],
               "labels": [],
@@ -16340,7 +16396,7 @@
                   "alignment": "right",
                   "parentNode": "dab3b5dd-2890-4a07-9ecb-231761962bf0",
                   "links": [
-                    "24cc242f-604f-4dc8-b3f5-0136705b08f9"
+                    "63bb1c98-0560-435e-90c8-611848127523"
                   ],
                   "in": false,
                   "label": "❯"
@@ -16372,7 +16428,7 @@
                   "alignment": "left",
                   "parentNode": "3aa37e05-0b51-4a53-8636-9f63f945f781",
                   "links": [
-                    "24cc242f-604f-4dc8-b3f5-0136705b08f9"
+                    "9e93aa91-2cc6-4059-a0e5-50926085b0d2"
                   ],
                   "in": true,
                   "label": "❯"
@@ -16407,6 +16463,126 @@
                     "ANTIQUE_LAMP_ROMEO_AND_JULIET",
                     "1"
                   ]
+                ]
+              }
+            },
+            "2b174b9e-fc80-4b8a-9438-c88395613fb4": {
+              "id": "2b174b9e-fc80-4b8a-9438-c88395613fb4",
+              "type": "dialogue",
+              "selected": false,
+              "x": 100,
+              "y": 390,
+              "ports": [
+                {
+                  "id": "d7cef54d-cdd0-412a-bf7e-884d4526a405",
+                  "type": "default",
+                  "x": 87,
+                  "y": 421,
+                  "name": "in-1793851470214 ",
+                  "alignment": "left",
+                  "parentNode": "2b174b9e-fc80-4b8a-9438-c88395613fb4",
+                  "links": [
+                    "21ef6982-69ae-48c5-9592-913ccb54a1f3"
+                  ],
+                  "in": true,
+                  "label": "❯"
+                },
+                {
+                  "id": "e64d2303-5e75-43be-b21e-41ed3a8c9671",
+                  "type": "default",
+                  "x": 400,
+                  "y": 421,
+                  "name": "out-1793851470215",
+                  "alignment": "right",
+                  "parentNode": "2b174b9e-fc80-4b8a-9438-c88395613fb4",
+                  "links": [],
+                  "in": false,
+                  "label": "❯"
+                }
+              ],
+              "title": "Romeo",
+              "color": "#dd341ee6",
+              "portsInOrder": [
+                "d7cef54d-cdd0-412a-bf7e-884d4526a405"
+              ],
+              "portsOutOrder": [
+                "e64d2303-5e75-43be-b21e-41ed3a8c9671"
+              ],
+              "text": "You will need to make some room first."
+            },
+            "c7bef671-3689-46c8-9bed-7f82c3fcecb6": {
+              "id": "c7bef671-3689-46c8-9bed-7f82c3fcecb6",
+              "type": "condition",
+              "selected": false,
+              "x": 480,
+              "y": 390,
+              "ports": [
+                {
+                  "id": "8612eb61-2a4d-43e8-b324-9682b9b61c92",
+                  "type": "default",
+                  "x": 467,
+                  "y": 421,
+                  "name": "in-1793851470216 ",
+                  "alignment": "left",
+                  "parentNode": "c7bef671-3689-46c8-9bed-7f82c3fcecb6",
+                  "links": [
+                    "63bb1c98-0560-435e-90c8-611848127523"
+                  ],
+                  "in": true,
+                  "label": "❯"
+                },
+                {
+                  "id": "d5233e2a-84dc-4616-8cfe-d3a66ff13d7f",
+                  "type": "default",
+                  "x": 780,
+                  "y": 421,
+                  "name": "out-1793851470217",
+                  "alignment": "right",
+                  "parentNode": "c7bef671-3689-46c8-9bed-7f82c3fcecb6",
+                  "links": [
+                    "9e93aa91-2cc6-4059-a0e5-50926085b0d2"
+                  ],
+                  "in": false,
+                  "label": "true"
+                },
+                {
+                  "id": "fc6ec01b-5585-4320-a41a-dfa254465c42",
+                  "type": "default",
+                  "x": 780,
+                  "y": 438,
+                  "name": "out-1793851470218",
+                  "alignment": "right",
+                  "parentNode": "c7bef671-3689-46c8-9bed-7f82c3fcecb6",
+                  "links": [
+                    "21ef6982-69ae-48c5-9592-913ccb54a1f3"
+                  ],
+                  "in": false,
+                  "label": "false"
+                }
+              ],
+              "title": "Condition",
+              "color": "#02630ae6",
+              "portsInOrder": [
+                "8612eb61-2a4d-43e8-b324-9682b9b61c92"
+              ],
+              "portsOutOrder": [
+                "d5233e2a-84dc-4616-8cfe-d3a66ff13d7f",
+                "fc6ec01b-5585-4320-a41a-dfa254465c42"
+              ],
+              "conditions": {
+                "conditions": [
+                  "hasInventorySpace"
+                ],
+                "args": [
+                  [
+                    "1"
+                  ]
+                ],
+                "ors": [
+                  false
+                ],
+                "negates": [
+                  false
                 ]
               }
             }
