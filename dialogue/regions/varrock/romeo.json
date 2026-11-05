@@ -15885,34 +15885,6 @@
           "isSvg": true,
           "transformed": true,
           "models": {
-            "54d766a8-a82b-42eb-bd9a-216e02bf3e74": {
-              "id": "54d766a8-a82b-42eb-bd9a-216e02bf3e74",
-              "type": "default",
-              "selected": false,
-              "source": "fcd71583-37af-4d92-9320-bdcd085e9e51",
-              "sourcePort": "4bed6809-a8d2-405b-a3e4-ff7ece4f0079",
-              "target": "1522ad72-4ad4-4169-834c-a30192eab1b7",
-              "targetPort": "fb0baa68-071f-43c6-a556-c94fede71e6d",
-              "points": [
-                {
-                  "id": "75c9157b-311c-4dfd-a9cf-711fe999dcb9",
-                  "type": "point",
-                  "x": 133.296875,
-                  "y": 64.5
-                },
-                {
-                  "id": "db1ad8d4-6d27-49ed-a92d-2988e01cb625",
-                  "type": "point",
-                  "x": 175.5,
-                  "y": 65.5
-                }
-              ],
-              "labels": [],
-              "width": 3,
-              "color": "gray",
-              "curvyness": 50,
-              "selectedColor": "rgb(0,192,255)"
-            },
             "2715e79b-09ca-4fd0-be02-00f16ec80fe3": {
               "id": "2715e79b-09ca-4fd0-be02-00f16ec80fe3",
               "type": "default",
@@ -15932,6 +15904,146 @@
                   "type": "point",
                   "x": 175.5,
                   "y": 128.5
+                }
+              ],
+              "labels": [],
+              "width": 3,
+              "color": "gray",
+              "curvyness": 50,
+              "selectedColor": "rgb(0,192,255)"
+            },
+            "234e6590-1615-4f48-8d4f-2b40ce48b0a7": {
+              "id": "234e6590-1615-4f48-8d4f-2b40ce48b0a7",
+              "type": "default",
+              "selected": false,
+              "source": "fcd71583-37af-4d92-9320-bdcd085e9e51",
+              "sourcePort": "4bed6809-a8d2-405b-a3e4-ff7ece4f0079",
+              "target": "9ec56f32-76e0-4a61-af1f-d8910d6a41f0",
+              "targetPort": "a8e9f4c6-a4d9-4cfe-953a-5dbd1b9dce69",
+              "points": [
+                {
+                  "id": "a37b74bf-6e1e-4def-b9ac-c64d549e2fb5",
+                  "type": "point",
+                  "x": 132.296875,
+                  "y": 65.5
+                },
+                {
+                  "id": "9eada28d-d9a2-44cf-bae8-fa2b4e6fdb2f",
+                  "type": "point",
+                  "x": 93.5,
+                  "y": 279.5
+                }
+              ],
+              "labels": [],
+              "width": 3,
+              "color": "gray",
+              "curvyness": 50,
+              "selectedColor": "rgb(0,192,255)"
+            },
+            "c0e143eb-9db6-4201-a70c-aa078905f592": {
+              "id": "c0e143eb-9db6-4201-a70c-aa078905f592",
+              "type": "default",
+              "selected": false,
+              "source": "9ec56f32-76e0-4a61-af1f-d8910d6a41f0",
+              "sourcePort": "85e845c5-dd72-4ce8-9d75-f65272198022",
+              "target": "1522ad72-4ad4-4169-834c-a30192eab1b7",
+              "targetPort": "fb0baa68-071f-43c6-a556-c94fede71e6d",
+              "points": [
+                {
+                  "id": "5d6438a0-788a-463b-9d85-8e1062a3432d",
+                  "type": "point",
+                  "x": 406.5,
+                  "y": 296.5
+                },
+                {
+                  "id": "7dd8f621-4482-4e96-8726-bf82ed3ae068",
+                  "type": "point",
+                  "x": 174.5,
+                  "y": 66.5
+                }
+              ],
+              "labels": [],
+              "width": 3,
+              "color": "gray",
+              "curvyness": 50,
+              "selectedColor": "rgb(0,192,255)"
+            },
+            "21befd57-d1d6-423e-8f86-c3cecb22d637": {
+              "id": "21befd57-d1d6-423e-8f86-c3cecb22d637",
+              "type": "default",
+              "selected": false,
+              "source": "9ec56f32-76e0-4a61-af1f-d8910d6a41f0",
+              "sourcePort": "ef522561-8792-4cb7-b52d-699e6b63b464",
+              "target": "5188a745-0932-4e09-8bb6-edd05d089563",
+              "targetPort": "6be567e3-2d8d-4c51-9594-ebe03c31a4e5",
+              "points": [
+                {
+                  "id": "1494f8ce-be22-42cb-9433-bfb5717ce6f7",
+                  "type": "point",
+                  "x": 406.5,
+                  "y": 279.5
+                },
+                {
+                  "id": "1eafc106-c93c-4d34-a015-81f80ce4101b",
+                  "type": "point",
+                  "x": 473.5,
+                  "y": 279.5
+                }
+              ],
+              "labels": [],
+              "width": 3,
+              "color": "gray",
+              "curvyness": 50,
+              "selectedColor": "rgb(0,192,255)"
+            },
+            "86483e4d-f5d6-4486-a841-b7cc1de98637": {
+              "id": "86483e4d-f5d6-4486-a841-b7cc1de98637",
+              "type": "default",
+              "selected": false,
+              "source": "5188a745-0932-4e09-8bb6-edd05d089563",
+              "sourcePort": "b374e800-63db-4069-b064-e3702d132dc7",
+              "target": "dab3b5dd-2890-4a07-9ecb-231761962bf0",
+              "targetPort": "d7a0df65-44b2-494e-af83-18394f7bab60",
+              "points": [
+                {
+                  "id": "e20784dc-3633-408d-a632-7dfe1fd96039",
+                  "type": "point",
+                  "x": 786.5,
+                  "y": 279.5
+                },
+                {
+                  "id": "fd1f3104-6c82-419c-8e63-06c90376b449",
+                  "type": "point",
+                  "x": 853.5,
+                  "y": 279.5
+                }
+              ],
+              "labels": [],
+              "width": 3,
+              "color": "gray",
+              "curvyness": 50,
+              "selectedColor": "rgb(0,192,255)"
+            },
+            "24cc242f-604f-4dc8-b3f5-0136705b08f9": {
+              "id": "24cc242f-604f-4dc8-b3f5-0136705b08f9",
+              "type": "default",
+              "selected": false,
+              "source": "dab3b5dd-2890-4a07-9ecb-231761962bf0",
+              "sourcePort": "fac9dab4-5f7f-49de-ac2c-9df08dfceeb4",
+              "target": "3aa37e05-0b51-4a53-8636-9f63f945f781",
+              "targetPort": "bfd9a301-90e2-4e6f-bf8f-2e71b2a8c812",
+              "points": [
+                {
+                  "id": "36bb5e80-a484-456c-b814-188f30e0a296",
+                  "type": "point",
+                  "x": 1166.5,
+                  "y": 279.5
+                },
+                {
+                  "id": "18c6dd20-72b2-489e-bd06-e152508926fc",
+                  "type": "point",
+                  "x": 1233.5,
+                  "y": 279.5
                 }
               ],
               "labels": [],
@@ -15963,7 +16075,7 @@
                   "alignment": "right",
                   "parentNode": "fcd71583-37af-4d92-9320-bdcd085e9e51",
                   "links": [
-                    "54d766a8-a82b-42eb-bd9a-216e02bf3e74"
+                    "234e6590-1615-4f48-8d4f-2b40ce48b0a7"
                   ],
                   "in": false,
                   "label": "❯"
@@ -15992,7 +16104,7 @@
                   "alignment": "left",
                   "parentNode": "1522ad72-4ad4-4169-834c-a30192eab1b7",
                   "links": [
-                    "54d766a8-a82b-42eb-bd9a-216e02bf3e74"
+                    "c0e143eb-9db6-4201-a70c-aa078905f592"
                   ],
                   "in": true,
                   "label": "❯"
@@ -16065,6 +16177,238 @@
                 "fec880d1-43cd-413b-89f1-34fe83c8b954"
               ],
               "text": "Her cousin and I are getting on well though. Thanks\nfor your help."
+            },
+            "9ec56f32-76e0-4a61-af1f-d8910d6a41f0": {
+              "id": "9ec56f32-76e0-4a61-af1f-d8910d6a41f0",
+              "type": "condition",
+              "selected": false,
+              "x": 100,
+              "y": 240,
+              "ports": [
+                {
+                  "id": "a8e9f4c6-a4d9-4cfe-953a-5dbd1b9dce69",
+                  "type": "default",
+                  "x": 87,
+                  "y": 271,
+                  "name": "in-1793836759084 ",
+                  "alignment": "left",
+                  "parentNode": "9ec56f32-76e0-4a61-af1f-d8910d6a41f0",
+                  "links": [
+                    "234e6590-1615-4f48-8d4f-2b40ce48b0a7"
+                  ],
+                  "in": true,
+                  "label": "❯"
+                },
+                {
+                  "id": "ef522561-8792-4cb7-b52d-699e6b63b464",
+                  "type": "default",
+                  "x": 400,
+                  "y": 271,
+                  "name": "out-1793836759085",
+                  "alignment": "right",
+                  "parentNode": "9ec56f32-76e0-4a61-af1f-d8910d6a41f0",
+                  "links": [
+                    "21befd57-d1d6-423e-8f86-c3cecb22d637"
+                  ],
+                  "in": false,
+                  "label": "true"
+                },
+                {
+                  "id": "85e845c5-dd72-4ce8-9d75-f65272198022",
+                  "type": "default",
+                  "x": 400,
+                  "y": 288,
+                  "name": "out-1793836759086",
+                  "alignment": "right",
+                  "parentNode": "9ec56f32-76e0-4a61-af1f-d8910d6a41f0",
+                  "links": [
+                    "c0e143eb-9db6-4201-a70c-aa078905f592"
+                  ],
+                  "in": false,
+                  "label": "false"
+                }
+              ],
+              "title": "Condition",
+              "color": "#02630ae6",
+              "portsInOrder": [
+                "a8e9f4c6-a4d9-4cfe-953a-5dbd1b9dce69"
+              ],
+              "portsOutOrder": [
+                "ef522561-8792-4cb7-b52d-699e6b63b464",
+                "85e845c5-dd72-4ce8-9d75-f65272198022"
+              ],
+              "conditions": {
+                "conditions": [
+                  "characterStat",
+                  "hasItem"
+                ],
+                "args": [
+                  [
+                    "ROMEO_AND_JULIET_LAMP_REDEEMED",
+                    "==",
+                    "0"
+                  ],
+                  [
+                    "ANTIQUE_LAMP_ROMEO_AND_JULIET",
+                    "1",
+                    "false"
+                  ]
+                ],
+                "ors": [
+                  false,
+                  false
+                ],
+                "negates": [
+                  false,
+                  true
+                ]
+              }
+            },
+            "5188a745-0932-4e09-8bb6-edd05d089563": {
+              "id": "5188a745-0932-4e09-8bb6-edd05d089563",
+              "type": "dialogue",
+              "selected": false,
+              "x": 480,
+              "y": 240,
+              "ports": [
+                {
+                  "id": "6be567e3-2d8d-4c51-9594-ebe03c31a4e5",
+                  "type": "default",
+                  "x": 467,
+                  "y": 271,
+                  "name": "in-1793836759087 ",
+                  "alignment": "left",
+                  "parentNode": "5188a745-0932-4e09-8bb6-edd05d089563",
+                  "links": [
+                    "21befd57-d1d6-423e-8f86-c3cecb22d637"
+                  ],
+                  "in": true,
+                  "label": "❯"
+                },
+                {
+                  "id": "b374e800-63db-4069-b064-e3702d132dc7",
+                  "type": "default",
+                  "x": 780,
+                  "y": 271,
+                  "name": "out-1793836759088",
+                  "alignment": "right",
+                  "parentNode": "5188a745-0932-4e09-8bb6-edd05d089563",
+                  "links": [
+                    "86483e4d-f5d6-4486-a841-b7cc1de98637"
+                  ],
+                  "in": false,
+                  "label": "❯"
+                }
+              ],
+              "title": "Romeo",
+              "color": "#dd341ee6",
+              "portsInOrder": [
+                "6be567e3-2d8d-4c51-9594-ebe03c31a4e5"
+              ],
+              "portsOutOrder": [
+                "b374e800-63db-4069-b064-e3702d132dc7"
+              ],
+              "text": "I heard Juliet had died. Terrible business. Her cousin\nand I are getting on well though."
+            },
+            "dab3b5dd-2890-4a07-9ecb-231761962bf0": {
+              "id": "dab3b5dd-2890-4a07-9ecb-231761962bf0",
+              "type": "dialogue",
+              "selected": false,
+              "x": 860,
+              "y": 240,
+              "ports": [
+                {
+                  "id": "d7a0df65-44b2-494e-af83-18394f7bab60",
+                  "type": "default",
+                  "x": 847,
+                  "y": 271,
+                  "name": "in-1793836759089 ",
+                  "alignment": "left",
+                  "parentNode": "dab3b5dd-2890-4a07-9ecb-231761962bf0",
+                  "links": [
+                    "86483e4d-f5d6-4486-a841-b7cc1de98637"
+                  ],
+                  "in": true,
+                  "label": "❯"
+                },
+                {
+                  "id": "fac9dab4-5f7f-49de-ac2c-9df08dfceeb4",
+                  "type": "default",
+                  "x": 1160,
+                  "y": 271,
+                  "name": "out-1793836759090",
+                  "alignment": "right",
+                  "parentNode": "dab3b5dd-2890-4a07-9ecb-231761962bf0",
+                  "links": [
+                    "24cc242f-604f-4dc8-b3f5-0136705b08f9"
+                  ],
+                  "in": false,
+                  "label": "❯"
+                }
+              ],
+              "title": "Romeo",
+              "color": "#dd341ee6",
+              "portsInOrder": [
+                "d7a0df65-44b2-494e-af83-18394f7bab60"
+              ],
+              "portsOutOrder": [
+                "fac9dab4-5f7f-49de-ac2c-9df08dfceeb4"
+              ],
+              "text": "Here, take this as thanks for your help."
+            },
+            "3aa37e05-0b51-4a53-8636-9f63f945f781": {
+              "id": "3aa37e05-0b51-4a53-8636-9f63f945f781",
+              "type": "action",
+              "selected": false,
+              "x": 1240,
+              "y": 240,
+              "ports": [
+                {
+                  "id": "bfd9a301-90e2-4e6f-bf8f-2e71b2a8c812",
+                  "type": "default",
+                  "x": 1227,
+                  "y": 271,
+                  "name": "in-1793836759091 ",
+                  "alignment": "left",
+                  "parentNode": "3aa37e05-0b51-4a53-8636-9f63f945f781",
+                  "links": [
+                    "24cc242f-604f-4dc8-b3f5-0136705b08f9"
+                  ],
+                  "in": true,
+                  "label": "❯"
+                },
+                {
+                  "id": "1feff512-446d-492a-a29d-44d2e31cc9e3",
+                  "type": "default",
+                  "x": 1540,
+                  "y": 271,
+                  "name": "out-1793836759092",
+                  "alignment": "right",
+                  "parentNode": "3aa37e05-0b51-4a53-8636-9f63f945f781",
+                  "links": [],
+                  "in": false,
+                  "label": "❯"
+                }
+              ],
+              "title": "Action",
+              "color": "#3e077ee6",
+              "portsInOrder": [
+                "bfd9a301-90e2-4e6f-bf8f-2e71b2a8c812"
+              ],
+              "portsOutOrder": [
+                "1feff512-446d-492a-a29d-44d2e31cc9e3"
+              ],
+              "actions": {
+                "actions": [
+                  "giveItem"
+                ],
+                "args": [
+                  [
+                    "ANTIQUE_LAMP_ROMEO_AND_JULIET",
+                    "1"
+                  ]
+                ]
+              }
             }
           }
         }
