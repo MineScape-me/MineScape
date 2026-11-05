@@ -4878,34 +4878,6 @@
           "isSvg": true,
           "transformed": true,
           "models": {
-            "c0e80fa7-d533-44b6-9b3a-c88ff02b6076": {
-              "id": "c0e80fa7-d533-44b6-9b3a-c88ff02b6076",
-              "type": "default",
-              "selected": false,
-              "source": "f3eafd8b-0fc8-4182-9d07-aea63b5af12a",
-              "sourcePort": "cda2ed3b-b71e-46bc-bced-b7eaeffb069c",
-              "target": "0e48a792-9c1e-418c-ad3a-6075e5c19df6",
-              "targetPort": "ada43c8e-d71d-4a2d-9640-6c70a6f6f2a2",
-              "points": [
-                {
-                  "id": "708025f8-a052-42b1-8565-0aa903df526f",
-                  "type": "point",
-                  "x": 133.296875,
-                  "y": 64.5
-                },
-                {
-                  "id": "78ccf481-62cf-4b4d-87c7-173ba637e45a",
-                  "type": "point",
-                  "x": 213.5,
-                  "y": 70.5
-                }
-              ],
-              "labels": [],
-              "width": 3,
-              "color": "gray",
-              "curvyness": 50,
-              "selectedColor": "rgb(0,192,255)"
-            },
             "3e1c1940-cd70-4ef5-8d63-c057c1517771": {
               "id": "3e1c1940-cd70-4ef5-8d63-c057c1517771",
               "type": "default",
@@ -4989,6 +4961,230 @@
               "color": "gray",
               "curvyness": 50,
               "selectedColor": "rgb(0,192,255)"
+            },
+            "1111df2f-44f9-4513-938b-b8721e20bfb0": {
+              "id": "1111df2f-44f9-4513-938b-b8721e20bfb0",
+              "type": "default",
+              "selected": false,
+              "source": "f3eafd8b-0fc8-4182-9d07-aea63b5af12a",
+              "sourcePort": "cda2ed3b-b71e-46bc-bced-b7eaeffb069c",
+              "target": "b5423588-a43b-4071-aaae-470b14cfb4e6",
+              "targetPort": "5582e85f-65fa-4803-9b66-6a9752d9f1c2",
+              "points": [
+                {
+                  "id": "4144c642-d850-4822-962f-12d2320a969f",
+                  "type": "point",
+                  "x": 132.296875,
+                  "y": 65.5
+                },
+                {
+                  "id": "617e375d-e74b-4c74-8e60-037247af66f6",
+                  "type": "point",
+                  "x": 93.5,
+                  "y": 425.5
+                }
+              ],
+              "labels": [],
+              "width": 3,
+              "color": "gray",
+              "curvyness": 50,
+              "selectedColor": "rgb(0,192,255)"
+            },
+            "e623eb87-880f-4173-978d-39e14c48093d": {
+              "id": "e623eb87-880f-4173-978d-39e14c48093d",
+              "type": "default",
+              "selected": false,
+              "source": "b5423588-a43b-4071-aaae-470b14cfb4e6",
+              "sourcePort": "99b160f6-6a71-484e-9552-51aabb472ec6",
+              "target": "0e48a792-9c1e-418c-ad3a-6075e5c19df6",
+              "targetPort": "ada43c8e-d71d-4a2d-9640-6c70a6f6f2a2",
+              "points": [
+                {
+                  "id": "e6d4c0eb-13dd-4ed6-b6a5-2daf6ccf9cbd",
+                  "type": "point",
+                  "x": 406.5,
+                  "y": 442.5
+                },
+                {
+                  "id": "c39ba7f7-1351-42e7-98fb-1238a65c9eb9",
+                  "type": "point",
+                  "x": 212.5,
+                  "y": 71.5
+                }
+              ],
+              "labels": [],
+              "width": 3,
+              "color": "gray",
+              "curvyness": 50,
+              "selectedColor": "rgb(0,192,255)"
+            },
+            "ce3df00f-840c-45e9-b094-55e024d5bee6": {
+              "id": "ce3df00f-840c-45e9-b094-55e024d5bee6",
+              "type": "default",
+              "selected": false,
+              "source": "b5423588-a43b-4071-aaae-470b14cfb4e6",
+              "sourcePort": "d16b1973-c3fb-48ee-99bd-777f4108b51e",
+              "target": "8b531169-572b-4bec-9774-4ba457d3e248",
+              "targetPort": "d9364834-b8a1-4aeb-bdcc-609f461e7af3",
+              "points": [
+                {
+                  "id": "11cf96ab-f2d5-40de-8f74-bcff33b632bf",
+                  "type": "point",
+                  "x": 406.5,
+                  "y": 425.5
+                },
+                {
+                  "id": "9130aa6c-812e-47e0-a9bf-7dd57859e936",
+                  "type": "point",
+                  "x": 473.5,
+                  "y": 425.5
+                }
+              ],
+              "labels": [],
+              "width": 3,
+              "color": "gray",
+              "curvyness": 50,
+              "selectedColor": "rgb(0,192,255)"
+            },
+            "ccca7675-f940-4635-aef6-ecdb13b7e6c7": {
+              "id": "ccca7675-f940-4635-aef6-ecdb13b7e6c7",
+              "type": "default",
+              "selected": false,
+              "source": "8b531169-572b-4bec-9774-4ba457d3e248",
+              "sourcePort": "5725bb60-28d1-4372-8306-063d2145739f",
+              "target": "83bd9827-54d5-4944-a068-ab1141f7b328",
+              "targetPort": "d378b304-acb6-4b6d-a10f-0f58c8d17bf1",
+              "points": [
+                {
+                  "id": "0080fe5c-1871-4409-a02e-23245d59bf11",
+                  "type": "point",
+                  "x": 786.5,
+                  "y": 425.5
+                },
+                {
+                  "id": "43db509a-da49-40de-92fc-283b622febf5",
+                  "type": "point",
+                  "x": 853.5,
+                  "y": 425.5
+                }
+              ],
+              "labels": [],
+              "width": 3,
+              "color": "gray",
+              "curvyness": 50,
+              "selectedColor": "rgb(0,192,255)"
+            },
+            "c3a5d71f-a32c-4551-b1fa-12e02db2ba1e": {
+              "id": "c3a5d71f-a32c-4551-b1fa-12e02db2ba1e",
+              "type": "default",
+              "selected": false,
+              "source": "83bd9827-54d5-4944-a068-ab1141f7b328",
+              "sourcePort": "f63ec62a-f35b-4f43-8992-ed5aea002996",
+              "target": "9e658d30-b4d3-474b-aa4b-2fea823670ab",
+              "targetPort": "6a2e25bd-8c39-482a-bbce-9bd5a31427e2",
+              "points": [
+                {
+                  "id": "718e0de2-dc95-4295-ac3a-c1d2ca6dd681",
+                  "type": "point",
+                  "x": 1166.5,
+                  "y": 425.5
+                },
+                {
+                  "id": "fa5bf7f7-ac88-4921-b343-595d15ae3680",
+                  "type": "point",
+                  "x": 1233.5,
+                  "y": 425.5
+                }
+              ],
+              "labels": [],
+              "width": 3,
+              "color": "gray",
+              "curvyness": 50,
+              "selectedColor": "rgb(0,192,255)"
+            },
+            "04f32a63-6d46-422c-b2ec-7834db02b706": {
+              "id": "04f32a63-6d46-422c-b2ec-7834db02b706",
+              "type": "default",
+              "selected": false,
+              "source": "83bd9827-54d5-4944-a068-ab1141f7b328",
+              "sourcePort": "26a2c3ab-9af7-445f-88eb-061d1112585a",
+              "target": "b9f1c17b-55b9-4ede-8147-4ef34616af3d",
+              "targetPort": "ce9f689d-866a-463f-a558-5e018cf01872",
+              "points": [
+                {
+                  "id": "d6d4b0c1-cf13-4dcc-81a8-d673848e1f69",
+                  "type": "point",
+                  "x": 1166.5,
+                  "y": 442.5
+                },
+                {
+                  "id": "fcdcd083-b78c-459e-988c-2a5f2e7fcff4",
+                  "type": "point",
+                  "x": 1613.5,
+                  "y": 425.5
+                }
+              ],
+              "labels": [],
+              "width": 3,
+              "color": "gray",
+              "curvyness": 50,
+              "selectedColor": "rgb(0,192,255)"
+            },
+            "3a32069b-bdf8-4448-908b-49cfcfeb1f40": {
+              "id": "3a32069b-bdf8-4448-908b-49cfcfeb1f40",
+              "type": "default",
+              "selected": false,
+              "source": "9e658d30-b4d3-474b-aa4b-2fea823670ab",
+              "sourcePort": "4d4621b5-9261-48f5-9a80-1df04551482a",
+              "target": "21c12a5b-e89a-40cd-8892-11aaa23e020b",
+              "targetPort": "bf49572b-63a6-465c-ab0c-f7ca61610333",
+              "points": [
+                {
+                  "id": "b288fb60-deb2-4a75-aa7f-e22c4205f950",
+                  "type": "point",
+                  "x": 1546.5,
+                  "y": 425.5
+                },
+                {
+                  "id": "0ba8c041-f417-476b-9958-ba737be7a0d1",
+                  "type": "point",
+                  "x": 1993.5,
+                  "y": 425.5
+                }
+              ],
+              "labels": [],
+              "width": 3,
+              "color": "gray",
+              "curvyness": 50,
+              "selectedColor": "rgb(0,192,255)"
+            },
+            "5c92ede8-567a-46b5-9719-6d725acb9725": {
+              "id": "5c92ede8-567a-46b5-9719-6d725acb9725",
+              "type": "default",
+              "selected": false,
+              "source": "b9f1c17b-55b9-4ede-8147-4ef34616af3d",
+              "sourcePort": "c02f1e76-368f-493d-bd98-f976e3cb56ae",
+              "target": "21c12a5b-e89a-40cd-8892-11aaa23e020b",
+              "targetPort": "bf49572b-63a6-465c-ab0c-f7ca61610333",
+              "points": [
+                {
+                  "id": "39864b60-38b6-4d11-a562-1395870b4793",
+                  "type": "point",
+                  "x": 1926.5,
+                  "y": 425.5
+                },
+                {
+                  "id": "e493e84f-34a4-4f6d-a30b-18f312ba6c58",
+                  "type": "point",
+                  "x": 1993.5,
+                  "y": 425.5
+                }
+              ],
+              "labels": [],
+              "width": 3,
+              "color": "gray",
+              "curvyness": 50,
+              "selectedColor": "rgb(0,192,255)"
             }
           }
         },
@@ -5013,7 +5209,7 @@
                   "alignment": "right",
                   "parentNode": "f3eafd8b-0fc8-4182-9d07-aea63b5af12a",
                   "links": [
-                    "c0e80fa7-d533-44b6-9b3a-c88ff02b6076"
+                    "1111df2f-44f9-4513-938b-b8721e20bfb0"
                   ],
                   "in": false,
                   "label": "❯"
@@ -5042,7 +5238,7 @@
                   "alignment": "left",
                   "parentNode": "0e48a792-9c1e-418c-ad3a-6075e5c19df6",
                   "links": [
-                    "c0e80fa7-d533-44b6-9b3a-c88ff02b6076"
+                    "e623eb87-880f-4173-978d-39e14c48093d"
                   ],
                   "in": true,
                   "label": "❯"
@@ -5207,6 +5403,397 @@
                 "efa0c00b-f38a-4bc9-8075-28a95529a67c"
               ],
               "text": "Nothing I can think of at the moment..."
+            },
+            "b5423588-a43b-4071-aaae-470b14cfb4e6": {
+              "id": "b5423588-a43b-4071-aaae-470b14cfb4e6",
+              "type": "condition",
+              "selected": false,
+              "x": 100,
+              "y": 386,
+              "ports": [
+                {
+                  "id": "5582e85f-65fa-4803-9b66-6a9752d9f1c2",
+                  "type": "default",
+                  "x": 87,
+                  "y": 417,
+                  "name": "in-1793836759070 ",
+                  "alignment": "left",
+                  "parentNode": "b5423588-a43b-4071-aaae-470b14cfb4e6",
+                  "links": [
+                    "1111df2f-44f9-4513-938b-b8721e20bfb0"
+                  ],
+                  "in": true,
+                  "label": "❯"
+                },
+                {
+                  "id": "d16b1973-c3fb-48ee-99bd-777f4108b51e",
+                  "type": "default",
+                  "x": 400,
+                  "y": 417,
+                  "name": "out-1793836759071",
+                  "alignment": "right",
+                  "parentNode": "b5423588-a43b-4071-aaae-470b14cfb4e6",
+                  "links": [
+                    "ce3df00f-840c-45e9-b094-55e024d5bee6"
+                  ],
+                  "in": false,
+                  "label": "true"
+                },
+                {
+                  "id": "99b160f6-6a71-484e-9552-51aabb472ec6",
+                  "type": "default",
+                  "x": 400,
+                  "y": 434,
+                  "name": "out-1793836759072",
+                  "alignment": "right",
+                  "parentNode": "b5423588-a43b-4071-aaae-470b14cfb4e6",
+                  "links": [
+                    "e623eb87-880f-4173-978d-39e14c48093d"
+                  ],
+                  "in": false,
+                  "label": "false"
+                }
+              ],
+              "title": "Condition",
+              "color": "#02630ae6",
+              "portsInOrder": [
+                "5582e85f-65fa-4803-9b66-6a9752d9f1c2"
+              ],
+              "portsOutOrder": [
+                "d16b1973-c3fb-48ee-99bd-777f4108b51e",
+                "99b160f6-6a71-484e-9552-51aabb472ec6"
+              ],
+              "conditions": {
+                "conditions": [
+                  "characterStat",
+                  "hasItem",
+                  "characterStat",
+                  "hasItem"
+                ],
+                "args": [
+                  [
+                    "BLACK_KNIGHTS_FORTRESS_LAMPS_REDEEMED",
+                    "==",
+                    "0"
+                  ],
+                  [
+                    "ANTIQUE_LAMP_BLACK_KNIGHTS_FORTRESS",
+                    "2",
+                    "false"
+                  ],
+                  [
+                    "BLACK_KNIGHTS_FORTRESS_LAMPS_REDEEMED",
+                    "==",
+                    "1"
+                  ],
+                  [
+                    "ANTIQUE_LAMP_BLACK_KNIGHTS_FORTRESS",
+                    "1",
+                    "false"
+                  ]
+                ],
+                "ors": [
+                  false,
+                  false,
+                  true,
+                  false
+                ],
+                "negates": [
+                  false,
+                  true,
+                  false,
+                  true
+                ]
+              }
+            },
+            "8b531169-572b-4bec-9774-4ba457d3e248": {
+              "id": "8b531169-572b-4bec-9774-4ba457d3e248",
+              "type": "dialogue",
+              "selected": false,
+              "x": 480,
+              "y": 386,
+              "ports": [
+                {
+                  "id": "d9364834-b8a1-4aeb-bdcc-609f461e7af3",
+                  "type": "default",
+                  "x": 467,
+                  "y": 417,
+                  "name": "in-1793836759073 ",
+                  "alignment": "left",
+                  "parentNode": "8b531169-572b-4bec-9774-4ba457d3e248",
+                  "links": [
+                    "ce3df00f-840c-45e9-b094-55e024d5bee6"
+                  ],
+                  "in": true,
+                  "label": "❯"
+                },
+                {
+                  "id": "5725bb60-28d1-4372-8306-063d2145739f",
+                  "type": "default",
+                  "x": 780,
+                  "y": 417,
+                  "name": "out-1793836759074",
+                  "alignment": "right",
+                  "parentNode": "8b531169-572b-4bec-9774-4ba457d3e248",
+                  "links": [
+                    "ccca7675-f940-4635-aef6-ecdb13b7e6c7"
+                  ],
+                  "in": false,
+                  "label": "❯"
+                }
+              ],
+              "title": "Sir Amik Varze",
+              "color": "#dd341ee6",
+              "portsInOrder": [
+                "d9364834-b8a1-4aeb-bdcc-609f461e7af3"
+              ],
+              "portsOutOrder": [
+                "5725bb60-28d1-4372-8306-063d2145739f"
+              ],
+              "text": "I have a reward here for you, friend."
+            },
+            "83bd9827-54d5-4944-a068-ab1141f7b328": {
+              "id": "83bd9827-54d5-4944-a068-ab1141f7b328",
+              "type": "condition",
+              "selected": false,
+              "x": 860,
+              "y": 386,
+              "ports": [
+                {
+                  "id": "d378b304-acb6-4b6d-a10f-0f58c8d17bf1",
+                  "type": "default",
+                  "x": 847,
+                  "y": 417,
+                  "name": "in-1793836759075 ",
+                  "alignment": "left",
+                  "parentNode": "83bd9827-54d5-4944-a068-ab1141f7b328",
+                  "links": [
+                    "ccca7675-f940-4635-aef6-ecdb13b7e6c7"
+                  ],
+                  "in": true,
+                  "label": "❯"
+                },
+                {
+                  "id": "f63ec62a-f35b-4f43-8992-ed5aea002996",
+                  "type": "default",
+                  "x": 1160,
+                  "y": 417,
+                  "name": "out-1793836759076",
+                  "alignment": "right",
+                  "parentNode": "83bd9827-54d5-4944-a068-ab1141f7b328",
+                  "links": [
+                    "c3a5d71f-a32c-4551-b1fa-12e02db2ba1e"
+                  ],
+                  "in": false,
+                  "label": "true"
+                },
+                {
+                  "id": "26a2c3ab-9af7-445f-88eb-061d1112585a",
+                  "type": "default",
+                  "x": 1160,
+                  "y": 434,
+                  "name": "out-1793836759077",
+                  "alignment": "right",
+                  "parentNode": "83bd9827-54d5-4944-a068-ab1141f7b328",
+                  "links": [
+                    "04f32a63-6d46-422c-b2ec-7834db02b706"
+                  ],
+                  "in": false,
+                  "label": "false"
+                }
+              ],
+              "title": "Condition",
+              "color": "#02630ae6",
+              "portsInOrder": [
+                "d378b304-acb6-4b6d-a10f-0f58c8d17bf1"
+              ],
+              "portsOutOrder": [
+                "f63ec62a-f35b-4f43-8992-ed5aea002996",
+                "26a2c3ab-9af7-445f-88eb-061d1112585a"
+              ],
+              "conditions": {
+                "conditions": [
+                  "characterStat",
+                  "hasItem"
+                ],
+                "args": [
+                  [
+                    "BLACK_KNIGHTS_FORTRESS_LAMPS_REDEEMED",
+                    "==",
+                    "0"
+                  ],
+                  [
+                    "ANTIQUE_LAMP_BLACK_KNIGHTS_FORTRESS",
+                    "1",
+                    "false"
+                  ]
+                ],
+                "ors": [
+                  false,
+                  false
+                ],
+                "negates": [
+                  false,
+                  true
+                ]
+              }
+            },
+            "9e658d30-b4d3-474b-aa4b-2fea823670ab": {
+              "id": "9e658d30-b4d3-474b-aa4b-2fea823670ab",
+              "type": "action",
+              "selected": false,
+              "x": 1240,
+              "y": 386,
+              "ports": [
+                {
+                  "id": "6a2e25bd-8c39-482a-bbce-9bd5a31427e2",
+                  "type": "default",
+                  "x": 1227,
+                  "y": 417,
+                  "name": "in-1793836759078 ",
+                  "alignment": "left",
+                  "parentNode": "9e658d30-b4d3-474b-aa4b-2fea823670ab",
+                  "links": [
+                    "c3a5d71f-a32c-4551-b1fa-12e02db2ba1e"
+                  ],
+                  "in": true,
+                  "label": "❯"
+                },
+                {
+                  "id": "4d4621b5-9261-48f5-9a80-1df04551482a",
+                  "type": "default",
+                  "x": 1540,
+                  "y": 417,
+                  "name": "out-1793836759079",
+                  "alignment": "right",
+                  "parentNode": "9e658d30-b4d3-474b-aa4b-2fea823670ab",
+                  "links": [
+                    "3a32069b-bdf8-4448-908b-49cfcfeb1f40"
+                  ],
+                  "in": false,
+                  "label": "❯"
+                }
+              ],
+              "title": "Action",
+              "color": "#3e077ee6",
+              "portsInOrder": [
+                "6a2e25bd-8c39-482a-bbce-9bd5a31427e2"
+              ],
+              "portsOutOrder": [
+                "4d4621b5-9261-48f5-9a80-1df04551482a"
+              ],
+              "actions": {
+                "actions": [
+                  "giveItem"
+                ],
+                "args": [
+                  [
+                    "ANTIQUE_LAMP_BLACK_KNIGHTS_FORTRESS",
+                    "2"
+                  ]
+                ]
+              }
+            },
+            "b9f1c17b-55b9-4ede-8147-4ef34616af3d": {
+              "id": "b9f1c17b-55b9-4ede-8147-4ef34616af3d",
+              "type": "action",
+              "selected": false,
+              "x": 1620,
+              "y": 386,
+              "ports": [
+                {
+                  "id": "ce9f689d-866a-463f-a558-5e018cf01872",
+                  "type": "default",
+                  "x": 1607,
+                  "y": 417,
+                  "name": "in-1793836759080 ",
+                  "alignment": "left",
+                  "parentNode": "b9f1c17b-55b9-4ede-8147-4ef34616af3d",
+                  "links": [
+                    "04f32a63-6d46-422c-b2ec-7834db02b706"
+                  ],
+                  "in": true,
+                  "label": "❯"
+                },
+                {
+                  "id": "c02f1e76-368f-493d-bd98-f976e3cb56ae",
+                  "type": "default",
+                  "x": 1920,
+                  "y": 417,
+                  "name": "out-1793836759081",
+                  "alignment": "right",
+                  "parentNode": "b9f1c17b-55b9-4ede-8147-4ef34616af3d",
+                  "links": [
+                    "5c92ede8-567a-46b5-9719-6d725acb9725"
+                  ],
+                  "in": false,
+                  "label": "❯"
+                }
+              ],
+              "title": "Action",
+              "color": "#3e077ee6",
+              "portsInOrder": [
+                "ce9f689d-866a-463f-a558-5e018cf01872"
+              ],
+              "portsOutOrder": [
+                "c02f1e76-368f-493d-bd98-f976e3cb56ae"
+              ],
+              "actions": {
+                "actions": [
+                  "giveItem"
+                ],
+                "args": [
+                  [
+                    "ANTIQUE_LAMP_BLACK_KNIGHTS_FORTRESS",
+                    "1"
+                  ]
+                ]
+              }
+            },
+            "21c12a5b-e89a-40cd-8892-11aaa23e020b": {
+              "id": "21c12a5b-e89a-40cd-8892-11aaa23e020b",
+              "type": "dialogue",
+              "selected": false,
+              "x": 2000,
+              "y": 386,
+              "ports": [
+                {
+                  "id": "bf49572b-63a6-465c-ab0c-f7ca61610333",
+                  "type": "default",
+                  "x": 1987,
+                  "y": 417,
+                  "name": "in-1793836759082 ",
+                  "alignment": "left",
+                  "parentNode": "21c12a5b-e89a-40cd-8892-11aaa23e020b",
+                  "links": [
+                    "3a32069b-bdf8-4448-908b-49cfcfeb1f40",
+                    "5c92ede8-567a-46b5-9719-6d725acb9725"
+                  ],
+                  "in": true,
+                  "label": "❯"
+                },
+                {
+                  "id": "53b58364-c0e9-4a01-991c-d49b094b3d9d",
+                  "type": "default",
+                  "x": 2300,
+                  "y": 417,
+                  "name": "out-1793836759083",
+                  "alignment": "right",
+                  "parentNode": "21c12a5b-e89a-40cd-8892-11aaa23e020b",
+                  "links": [],
+                  "in": false,
+                  "label": "❯"
+                }
+              ],
+              "title": "<player>",
+              "color": "#dd341ee6",
+              "portsInOrder": [
+                "bf49572b-63a6-465c-ab0c-f7ca61610333"
+              ],
+              "portsOutOrder": [
+                "53b58364-c0e9-4a01-991c-d49b094b3d9d"
+              ],
+              "text": "Thanks!"
             }
           }
         }
