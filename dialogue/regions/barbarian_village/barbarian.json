@@ -1,0 +1,207 @@
+{
+  "id": "4f5676f6-8026-471e-a806-759422f89d8a",
+  "offsetX": 0,
+  "offsetY": 0,
+  "zoom": 100,
+  "gridSize": 0,
+  "layers": [
+    {
+      "id": "c1936f47-a44d-4545-a060-f7779e1ef40a",
+      "type": "diagram-links",
+      "isSvg": true,
+      "transformed": true,
+      "models": {
+        "c7dbbe73-2175-4862-a1c6-c4df114747ec": {
+          "id": "c7dbbe73-2175-4862-a1c6-c4df114747ec",
+          "type": "default",
+          "selected": false,
+          "source": "3c47dc4c-3858-4398-bb6c-8e61d09cb1a6",
+          "sourcePort": "78593cee-677e-40ba-be68-6a3a09e96b52",
+          "target": "9162a0c8-f412-48c2-8044-728e4d3d31a1",
+          "targetPort": "9d9f0e9a-2898-4bf7-b5b2-2a1674c9f317",
+          "points": [
+            {
+              "id": "d66cbadd-9e54-472f-a1ec-01ff02bcdb6c",
+              "type": "point",
+              "x": 330,
+              "y": 81
+            },
+            {
+              "id": "bbd4e1e5-96ac-4004-b558-0b43c6c884ae",
+              "type": "point",
+              "x": 247,
+              "y": 81
+            }
+          ],
+          "labels": [],
+          "width": 3,
+          "color": "gray",
+          "curvyness": 50,
+          "selectedColor": "rgb(0,192,255)"
+        },
+        "ee5780f3-c3f9-46a0-b55a-469891b33a70": {
+          "id": "ee5780f3-c3f9-46a0-b55a-469891b33a70",
+          "type": "default",
+          "selected": false,
+          "source": "9162a0c8-f412-48c2-8044-728e4d3d31a1",
+          "sourcePort": "aecc5acc-aade-4ec9-9835-533774785fe8",
+          "target": "5ae0d51e-7cab-4ed3-8b18-51150bd38252",
+          "targetPort": "97bc22ec-cf69-4b36-91cb-97c6c6009a51",
+          "points": [
+            {
+              "id": "8fb72e98-8151-4402-985c-f2a68730db95",
+              "type": "point",
+              "x": 540,
+              "y": 81
+            },
+            {
+              "id": "44e3bd91-1ef4-4d3d-bc64-e049ac2ff7fe",
+              "type": "point",
+              "x": 247,
+              "y": 191
+            }
+          ],
+          "labels": [],
+          "width": 3,
+          "color": "gray",
+          "curvyness": 50,
+          "selectedColor": "rgb(0,192,255)"
+        }
+      }
+    },
+    {
+      "id": "eff68673-4569-462f-97dd-8021b74e1d0d",
+      "type": "diagram-nodes",
+      "isSvg": false,
+      "transformed": true,
+      "models": {
+        "3c47dc4c-3858-4398-bb6c-8e61d09cb1a6": {
+          "id": "3c47dc4c-3858-4398-bb6c-8e61d09cb1a6",
+          "type": "start",
+          "x": 50,
+          "y": 50,
+          "ports": [
+            {
+              "id": "78593cee-677e-40ba-be68-6a3a09e96b52",
+              "type": "default",
+              "x": 330,
+              "y": 81,
+              "name": "out-1794780549802",
+              "alignment": "right",
+              "parentNode": "3c47dc4c-3858-4398-bb6c-8e61d09cb1a6",
+              "links": [
+                "c7dbbe73-2175-4862-a1c6-c4df114747ec"
+              ],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Start",
+          "color": "#16db26e6",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "78593cee-677e-40ba-be68-6a3a09e96b52"
+          ]
+        },
+        "9162a0c8-f412-48c2-8044-728e4d3d31a1": {
+          "id": "9162a0c8-f412-48c2-8044-728e4d3d31a1",
+          "type": "dialogue",
+          "selected": false,
+          "x": 260,
+          "y": 50,
+          "ports": [
+            {
+              "id": "9d9f0e9a-2898-4bf7-b5b2-2a1674c9f317",
+              "type": "default",
+              "x": 247,
+              "y": 81,
+              "name": "in-1794780549802 ",
+              "alignment": "left",
+              "parentNode": "9162a0c8-f412-48c2-8044-728e4d3d31a1",
+              "links": [
+                "c7dbbe73-2175-4862-a1c6-c4df114747ec"
+              ],
+              "in": true,
+              "label": "❯"
+            },
+            {
+              "id": "aecc5acc-aade-4ec9-9835-533774785fe8",
+              "type": "default",
+              "x": 540,
+              "y": 81,
+              "name": "out-1794780549802",
+              "alignment": "right",
+              "parentNode": "9162a0c8-f412-48c2-8044-728e4d3d31a1",
+              "links": [
+                "ee5780f3-c3f9-46a0-b55a-469891b33a70"
+              ],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Barbarian",
+          "color": "#dd341ee6",
+          "portsInOrder": [
+            "9d9f0e9a-2898-4bf7-b5b2-2a1674c9f317"
+          ],
+          "portsOutOrder": [
+            "aecc5acc-aade-4ec9-9835-533774785fe8"
+          ],
+          "text": "Wanna fight?"
+        },
+        "5ae0d51e-7cab-4ed3-8b18-51150bd38252": {
+          "id": "5ae0d51e-7cab-4ed3-8b18-51150bd38252",
+          "type": "action",
+          "selected": false,
+          "x": 260,
+          "y": 160,
+          "ports": [
+            {
+              "id": "97bc22ec-cf69-4b36-91cb-97c6c6009a51",
+              "type": "default",
+              "x": 247,
+              "y": 191,
+              "name": "in-1794780549802 ",
+              "alignment": "left",
+              "parentNode": "5ae0d51e-7cab-4ed3-8b18-51150bd38252",
+              "links": [
+                "ee5780f3-c3f9-46a0-b55a-469891b33a70"
+              ],
+              "in": true,
+              "label": "❯"
+            },
+            {
+              "id": "0767cbf5-2af7-4312-8ae8-0e10cb158da1",
+              "type": "default",
+              "x": 540,
+              "y": 191,
+              "name": "out-1794780549802",
+              "alignment": "right",
+              "parentNode": "5ae0d51e-7cab-4ed3-8b18-51150bd38252",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Action",
+          "color": "#3e077ee6",
+          "portsInOrder": [
+            "97bc22ec-cf69-4b36-91cb-97c6c6009a51"
+          ],
+          "portsOutOrder": [
+            "0767cbf5-2af7-4312-8ae8-0e10cb158da1"
+          ],
+          "actions": {
+            "actions": [
+              "attackPlayer"
+            ],
+            "args": [
+              []
+            ]
+          }
+        }
+      }
+    }
+  ],
+  "trees": {}
+}
