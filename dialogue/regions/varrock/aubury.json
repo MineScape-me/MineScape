@@ -4897,9 +4897,14 @@
               ],
               "actions": {
                 "actions": [
+                  "setCharacterStat",
                   "teleport"
                 ],
                 "args": [
+                  [
+                    "ESSENCE_MINE_TELEPORT_LOCATION",
+                    "0"
+                  ],
                   [
                     "VARROCK_ESSENCE_TELEPORT"
                   ]

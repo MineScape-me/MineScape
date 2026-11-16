@@ -868,10 +868,15 @@
           ],
           "actions": {
             "actions": [
+              "setCharacterStat",
               "teleport",
               "npcText"
             ],
             "args": [
+              [
+                "ESSENCE_MINE_TELEPORT_LOCATION",
+                "3"
+              ],
               [
                 "YANILLE_ESSENCE_TELEPORT"
               ],

@@ -9306,9 +9306,14 @@
               ],
               "actions": {
                 "actions": [
+                  "setCharacterStat",
                   "teleport"
                 ],
                 "args": [
+                  [
+                    "ESSENCE_MINE_TELEPORT_LOCATION",
+                    "2"
+                  ],
                   [
                     "WIZARD_TOWER_ESSENCE_TELEPORT"
                   ]
