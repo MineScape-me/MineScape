@@ -71,10 +71,61 @@
             "ad5a887d-045f-4ade-8f9f-199e4204d097"
           ],
           "locations": [
-            "682.75, 63.00, 11.88, 155.40, 0.00",
-            "671.49, 63.00, -9.40, 358.35, 87.00",
-            "706.44, 63.00, 40.58, 359.57, 22.95",
-            "707.44, 63.00, 69.87, -170.99, 5.37"
+            "707.50, 67.00, 25.50, -180.00, 0.00",
+            "711.50, 67.00, 38.50, 358.35, 87.00",
+            "465.50, 66.00, -98.50, -180.00, 0.00"
+          ],
+          "traits": [
+            {
+              "trait": "cowtrait",
+              "args": {}
+            }
+          ],
+          "conditions": {
+            "conditions": [
+              ""
+            ],
+            "args": [],
+            "ors": [
+              false
+            ],
+            "negates": [
+              false
+            ]
+          },
+          "entityType": "ARMOR_STAND",
+          "equipment": {
+            "HEAD": "IRON_AXE:203"
+          }
+        },
+        "c746d681-6e55-47b0-8117-f8df938c14f1": {
+          "id": "c746d681-6e55-47b0-8117-f8df938c14f1",
+          "type": "npc",
+          "selected": false,
+          "x": 142,
+          "y": 198,
+          "ports": [
+            {
+              "id": "aca07082-41da-45e0-8be3-3ecd8d60c94e",
+              "type": "default",
+              "x": 440.6875,
+              "y": 226,
+              "name": "out-1795474330263-55268",
+              "alignment": "right",
+              "parentNode": "c746d681-6e55-47b0-8117-f8df938c14f1",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "&aDairy Cow",
+          "color": "#6e4b1e",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "aca07082-41da-45e0-8be3-3ecd8d60c94e"
+          ],
+          "locations": [
+            "66.50, 68.00, -51.50, 0.00, 0.00"
           ],
           "traits": [
             {
@@ -232,6 +283,60 @@
           "locations": [
             "-1307.40, 70.00, 489.09, -179.64, 34.50"
           ],
+          "traits": [
+            {
+              "trait": "cowtrait",
+              "args": {}
+            }
+          ],
+          "conditions": {
+            "conditions": [
+              ""
+            ],
+            "args": [],
+            "ors": [
+              false
+            ],
+            "negates": [
+              false
+            ]
+          },
+          "entityType": "ARMOR_STAND",
+          "equipment": {
+            "HEAD": "IRON_AXE:203"
+          }
+        },
+        "0cb11cb0-8dde-47d4-9420-598951f69684": {
+          "id": "0cb11cb0-8dde-47d4-9420-598951f69684",
+          "type": "npc",
+          "selected": false,
+          "x": 537,
+          "y": 528,
+          "ports": [
+            {
+              "id": "31f2c064-7e93-40e1-9d59-d51dab52582e",
+              "type": "default",
+              "x": 846.34375,
+              "y": 556,
+              "name": "out-1795474756258-8948",
+              "alignment": "right",
+              "parentNode": "0cb11cb0-8dde-47d4-9420-598951f69684",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "&aDairy Cow",
+          "color": "#6e4b1e",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "31f2c064-7e93-40e1-9d59-d51dab52582e"
+          ],
+          "locations": [
+            "-287.50, 67.00, -6.50, 0.00, 0.00",
+            "-295.50, 67.00, -22.50, 0.00, 0.00"
+          ],
+          "notes": "crafting guild",
           "traits": [
             {
               "trait": "cowtrait",

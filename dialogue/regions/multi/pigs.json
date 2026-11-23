@@ -1,0 +1,155 @@
+{
+  "id": "b3871858-d11d-463b-b8ec-b0b35991e2c8",
+  "offsetX": 0,
+  "offsetY": 0,
+  "zoom": 100,
+  "gridSize": 0,
+  "layers": [
+    {
+      "id": "32199786-a604-4e66-995c-1408c0ab77d4",
+      "type": "diagram-links",
+      "isSvg": true,
+      "transformed": true,
+      "models": {}
+    },
+    {
+      "id": "b2d8b42b-6e94-46f6-ba3a-d94b56453c73",
+      "type": "diagram-nodes",
+      "isSvg": false,
+      "transformed": true,
+      "models": {
+        "0bdf0a5e-f9eb-45c6-a215-a2eed4af673c": {
+          "id": "0bdf0a5e-f9eb-45c6-a215-a2eed4af673c",
+          "type": "start",
+          "x": 50,
+          "y": 50,
+          "ports": [
+            {
+              "id": "51c251b7-8040-46dd-8f0b-76b11897cfb4",
+              "type": "default",
+              "x": 98.578125,
+              "y": 55.5,
+              "name": "out-1795473632668",
+              "alignment": "right",
+              "parentNode": "0bdf0a5e-f9eb-45c6-a215-a2eed4af673c",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "Start",
+          "color": "#16db26e6",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "51c251b7-8040-46dd-8f0b-76b11897cfb4"
+          ]
+        },
+        "f7d481b0-dccb-4fea-8513-b64d5ee2d85d": {
+          "id": "f7d481b0-dccb-4fea-8513-b64d5ee2d85d",
+          "type": "npc",
+          "selected": false,
+          "x": 62,
+          "y": 92,
+          "ports": [
+            {
+              "id": "4a616893-bcfc-4a4a-a705-1daa4c4125a6",
+              "type": "default",
+              "x": 346.875,
+              "y": 120,
+              "name": "out-1795473632668-23888",
+              "alignment": "right",
+              "parentNode": "f7d481b0-dccb-4fea-8513-b64d5ee2d85d",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "pigs",
+          "color": "#6e4b1e",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "4a616893-bcfc-4a4a-a705-1daa4c4125a6"
+          ],
+          "locations": [
+            "173.50, 67.00, 68.50, 0.00, 0.00",
+            "174.50, 67.00, 73.50, 0.00, 0.00",
+            "181.50, 67.00, 72.50, 0.00, 0.00",
+            "181.50, 67.00, 68.50, 0.00, 0.00"
+          ],
+          "traits": [
+            {
+              "trait": "lookclose",
+              "args": {}
+            }
+          ],
+          "conditions": {
+            "conditions": [
+              ""
+            ],
+            "args": [],
+            "ors": [
+              false
+            ],
+            "negates": [
+              false
+            ]
+          },
+          "entityType": "PLAYER",
+          "equipment": {}
+        },
+        "a3f13a59-4ab9-4fbb-b560-c4e5473c04b3": {
+          "id": "a3f13a59-4ab9-4fbb-b560-c4e5473c04b3",
+          "type": "npc",
+          "selected": false,
+          "x": 62,
+          "y": 252,
+          "ports": [
+            {
+              "id": "6bc2e523-d1ba-4b14-96c1-d1e4ffde89d7",
+              "type": "default",
+              "x": 346.875,
+              "y": 280,
+              "name": "out-1795474348599-26406",
+              "alignment": "right",
+              "parentNode": "a3f13a59-4ab9-4fbb-b560-c4e5473c04b3",
+              "links": [],
+              "in": false,
+              "label": "❯"
+            }
+          ],
+          "title": "pigs",
+          "color": "#6e4b1e",
+          "portsInOrder": [],
+          "portsOutOrder": [
+            "6bc2e523-d1ba-4b14-96c1-d1e4ffde89d7"
+          ],
+          "locations": [
+            "-10.50, 65.00, -80.50, 0.00, 0.00",
+            "-5.50, 65.00, -80.50, 0.00, 0.00"
+          ],
+          "traits": [
+            {
+              "trait": "lookclose",
+              "args": {}
+            }
+          ],
+          "conditions": {
+            "conditions": [
+              ""
+            ],
+            "args": [],
+            "ors": [
+              false
+            ],
+            "negates": [
+              false
+            ]
+          },
+          "entityType": "PLAYER",
+          "equipment": {}
+        }
+      }
+    }
+  ],
+  "trees": {}
+}
